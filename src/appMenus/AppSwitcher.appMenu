@@ -65,10 +65,6 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Green_Street_Advisors</name>
         <type>CustomApplication</type>
     </appMenuItems>

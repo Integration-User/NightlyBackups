@@ -754,10 +754,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -1408,7 +1404,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000VNaKI_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -2166,10 +2161,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -2820,7 +2811,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000VNSnk_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -3578,10 +3568,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -4232,7 +4218,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00N5G00000VZhf7_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -4990,10 +4975,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -5644,7 +5625,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00N5G00000VZhpb_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -6394,10 +6374,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -7046,7 +7022,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -7796,10 +7771,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -8448,7 +8419,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantity</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -9202,10 +9172,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -9855,7 +9821,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityLineItemRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -10605,10 +10570,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -11257,7 +11218,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityLineItemQuantity</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -12011,10 +11971,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -12664,7 +12620,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenueProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -13414,10 +13369,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -14066,7 +14017,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantityProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -14820,10 +14770,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -15473,7 +15419,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemRevenueProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -16223,10 +16168,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -16875,7 +16816,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemQuantityProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -17629,10 +17569,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -18282,7 +18218,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenueScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -19032,10 +18967,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -19684,7 +19615,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantityScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -20438,10 +20368,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -21091,7 +21017,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemRevenueScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -21841,10 +21766,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -22493,7 +22414,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemQuantityScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -23251,10 +23171,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -23905,7 +23821,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunitySplitRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -24663,10 +24578,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -25317,7 +25228,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityOverlayRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -26075,10 +25985,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -26729,7 +26635,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000V6v4B_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -27487,10 +27392,6 @@
             <label>SalesLoft Primary Contact</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3f</field>
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
@@ -28141,7 +28042,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000V6v4A_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>

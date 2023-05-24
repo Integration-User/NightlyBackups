@@ -965,9 +965,6 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>IqScore</fullName>
-    </fields>
-    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

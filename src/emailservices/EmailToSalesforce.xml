@@ -4,13 +4,6 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Discard</authenticationFailureAction>
     <authorizationFailureAction>Bounce</authorizationFailureAction>
-    <emailServicesAddresses>
-        <authorizedSenders>ksantos@greenstreetadvisors.com, ksantos@greenst.com,ksantos@greenstreet.com,kwelch@greenstreet.com</authorizedSenders>
-        <developerName>emailtosalesforce</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>ksantos@greenstreet.com</runAsUser>
-    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToSalesforce</functionName>
     <isActive>true</isActive>

@@ -43,12 +43,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>runtime_hello_studio:meetingPrep</componentName>
-                <identifier>runtime_hello_studio_meetingPrep</identifier>
-            </componentInstance>
-        </itemInstances>
         <mode>Replace</mode>
         <name>tabOneContent</name>
         <type>Facet</type>

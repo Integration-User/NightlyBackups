@@ -66,10 +66,6 @@
                 <behavior>Edit</behavior>
                 <field>AP_Email__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>IqScore</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -1223,10 +1223,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1510,7 +1506,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000VNaKI_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -2655,10 +2650,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2942,7 +2933,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000VNSnk_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -4087,10 +4077,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -4374,7 +4360,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00N5G00000VZhf7_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -5519,10 +5504,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -5806,7 +5787,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00N5G00000VZhpb_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -6943,10 +6923,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>ACCOUNT.NAME</field>
             <field>OPPORTUNITY.AMOUNT</field>
@@ -7228,7 +7204,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -8364,10 +8339,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -8649,7 +8620,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -9789,10 +9759,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>ACCOUNT.NAME</field>
             <field>OPPORTUNITY.CLOSE_DATE</field>
@@ -10075,7 +10041,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -11211,10 +11176,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -11496,7 +11457,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -12636,10 +12596,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -12922,7 +12878,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -14058,10 +14013,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -14343,7 +14294,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -15483,10 +15433,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -15769,7 +15715,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -16905,10 +16850,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -17190,7 +17131,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -18330,10 +18270,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -18616,7 +18552,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -19752,10 +19687,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -20037,7 +19968,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -21177,10 +21107,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -21463,7 +21389,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -22599,10 +22524,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -22884,7 +22805,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -24028,10 +23948,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -24315,7 +24231,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -25460,10 +25375,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -25747,7 +25658,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Overlay</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -26892,10 +26802,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -27179,7 +27085,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000V6v4B_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -28324,10 +28229,6 @@
             <field>00N5G00000WeE8j</field>
             <label>YoY Target Unmet</label>
         </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>OPPORTUNITY_SCORE</field>
-            <label>Opportunity Score</label>
-        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -28611,7 +28512,6 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
-            <field>OPPORTUNITY_SCORE</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000V6v4A_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>

@@ -61,10 +61,6 @@
                 <behavior>Edit</behavior>
                 <field>Next_Year_Increase__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>IqScore</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
