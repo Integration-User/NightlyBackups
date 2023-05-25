@@ -716,44 +716,40 @@
         <label><!-- Status --></label>
         <name>copado__Status__c</name>
         <picklistValues>
-            <masterLabel>Approved</masterLabel>
-            <translation><!-- Approved --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Awaiting Approval</masterLabel>
-            <translation><!-- Awaiting Approval --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Backburner</masterLabel>
-            <translation><!-- Backburner --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Backlog</masterLabel>
-            <translation><!-- Backlog --></translation>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Cancelled</masterLabel>
             <translation><!-- Cancelled --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Completed</masterLabel>
-            <translation><!-- Completed --></translation>
+            <masterLabel>Code Review</masterLabel>
+            <translation><!-- Code Review --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Draft</masterLabel>
-            <translation><!-- Draft --></translation>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funnel</masterLabel>
+            <translation><!-- Funnel --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>In Progress</masterLabel>
             <translation><!-- In Progress --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Ready for testing</masterLabel>
-            <translation><!-- Ready for testing --></translation>
+            <masterLabel>Prioritized</masterLabel>
+            <translation><!-- Prioritized --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Rejected</masterLabel>
-            <translation><!-- Rejected --></translation>
+            <masterLabel>QA</masterLabel>
+            <translation><!-- QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Prod</masterLabel>
+            <translation><!-- Ready for Prod --></translation>
         </picklistValues>
     </fields>
     <fields>
