@@ -7736,6 +7736,31 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </fields>
     <label>User Story</label>
     <listViews>
+        <fullName>Current_Sprint</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Story_Points_SFDC__c</columns>
+        <columns>copado__Org_Credential__c</columns>
+        <columns>copado__Progress_Status__c</columns>
+        <columns>copado__Priority__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Documentation_Complete__c</columns>
+        <columns>copado__Platform__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__Sprint__c</field>
+            <operation>equals</operation>
+            <value>SFDC S2022-37</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__Investigation,copado__User_Story__c.copado__User_Story,copado__User_Story__c.copado__Utility</value>
+        </filters>
+        <label>Current Sprint</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
