@@ -1358,6 +1358,16 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>TA_Relationship__c</field>
+            <table>Campaign.AccountCampaignMembers</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TA_Vertical__c</field>
+            <table>Campaign.AccountCampaignMembers</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>TickerSymbol</field>
             <table>Campaign.AccountCampaignMembers</table>
         </columns>
@@ -3333,8 +3343,5 @@
             <table>Campaign.AccountCampaignMembers.Opportunities.OpportunityLineItems</table>
         </columns>
         <masterLabel>Products</masterLabel>
-    </sections>
-    <sections>
-        <masterLabel>Opportunity Product</masterLabel>
     </sections>
 </ReportType>

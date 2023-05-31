@@ -1475,12 +1475,12 @@
         <label><!-- Risk Type --></label>
         <name>Risk_Type__c</name>
         <picklistValues>
-            <masterLabel>Full Attrition</masterLabel>
-            <translation><!-- Full Attrition --></translation>
+            <masterLabel>Downsell</masterLabel>
+            <translation><!-- Downsell --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Pricing</masterLabel>
-            <translation><!-- Pricing --></translation>
+            <masterLabel>Full Attrition</masterLabel>
+            <translation><!-- Full Attrition --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Timing</masterLabel>
