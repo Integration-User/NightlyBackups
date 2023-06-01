@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page1</content>
+        <content>User_Story_Record_Page3</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -137,7 +137,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page1</content>
+        <content>User_Story_Record_Page3</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -161,6 +161,7 @@
         <fields>copado__Sprint__c</fields>
         <fields>copado__Developer__c</fields>
         <fields>RecordTypeId</fields>
+        <fields>Jira_Key__c</fields>
         <fields>copado__Progress_Status__c</fields>
         <fields>copado__Status__c</fields>
         <fields>copado__Story_Points_SFDC__c</fields>
@@ -4612,11 +4613,6 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>copado__Close_Date__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
             <field>copado__Compliance_Criteria__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4777,6 +4773,11 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>copado__Parent_Epic_Title__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4867,6 +4868,11 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
+            <field>copado__US_Feature__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>copado__Validate_Only__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4913,11 +4919,6 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>OwnerId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
             <field>copado__Total_Story_Points__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4933,7 +4934,7 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>copado__US_Feature__c</field>
+            <field>copado__Close_Date__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -6144,6 +6145,29 @@
         </displayedFields>
         <label>Work Manager Relations</label>
     </fieldSets>
+    <fields>
+        <fullName>Jira_Key_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Jira Key Text</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jira_Key__c</fullName>
+        <description>link to Jira User Story</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://greenst.atlassian.net/browse/&quot; + Jira_Key_Text__c, Jira_Key_Text__c)</formula>
+        <label>Jira Key</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
@@ -7402,9 +7426,9 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Funnel</fullName>
+                    <fullName>New</fullName>
                     <default>false</default>
-                    <label>Funnel</label>
+                    <label>New</label>
                 </value>
                 <value>
                     <fullName>Prioritized</fullName>
@@ -7415,11 +7439,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <fullName>In Progress</fullName>
                     <default>false</default>
                     <label>In Progress</label>
-                </value>
-                <value>
-                    <fullName>Blocked</fullName>
-                    <default>false</default>
-                    <label>Blocked</label>
                 </value>
                 <value>
                     <fullName>Code Review</fullName>
@@ -7440,6 +7459,11 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <fullName>Done</fullName>
                     <default>false</default>
                     <label>Done</label>
+                </value>
+                <value>
+                    <fullName>Blocked</fullName>
+                    <default>false</default>
+                    <label>Blocked</label>
                 </value>
                 <value>
                     <fullName>Cancelled</fullName>
@@ -7746,14 +7770,15 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>Current_Sprint</fullName>
         <columns>NAME</columns>
         <columns>copado__User_Story_Title__c</columns>
+        <columns>Jira_Key__c</columns>
         <columns>copado__Status__c</columns>
         <columns>copado__Story_Points_SFDC__c</columns>
         <columns>copado__Org_Credential__c</columns>
-        <columns>copado__Progress__c</columns>
-        <columns>copado__Progress_Status__c</columns>
         <columns>copado__Developer__c</columns>
+        <columns>copado__Progress_Status__c</columns>
         <columns>copado__Documentation_Complete__c</columns>
         <columns>copado__Order__c</columns>
+        <columns>copado__Close_Date__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>copado__Sprint__c</field>
@@ -7763,7 +7788,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <filters>
             <field>RECORDTYPE</field>
             <operation>equals</operation>
-            <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__Investigation,copado__User_Story__c.copado__User_Story,copado__User_Story__c.copado__Utility</value>
+            <value>copado__User_Story__c.copado__User_Story</value>
         </filters>
         <label>Current Sprint</label>
     </listViews>
@@ -8225,11 +8250,11 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Funnel</fullName>
+                <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>In Progress</fullName>
+                <fullName>New</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8661,10 +8686,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Funnel</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9103,11 +9124,11 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Funnel</fullName>
+                <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>In Progress</fullName>
+                <fullName>New</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9539,10 +9560,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Funnel</fullName>
                 <default>false</default>
             </values>
             <values>

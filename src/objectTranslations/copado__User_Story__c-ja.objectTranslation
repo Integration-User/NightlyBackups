@@ -69,6 +69,14 @@
         <name>copado__Work_Manager_Relations</name>
     </fieldSets>
     <fields>
+        <label><!-- Jira Key Text --></label>
+        <name>Jira_Key_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jira Key --></label>
+        <name>Jira_Key__c</name>
+    </fields>
+    <fields>
         <label><!-- Acceptance Criteria Status --></label>
         <name>copado__Acceptance_Criteria_Status__c</name>
         <picklistValues>
@@ -736,12 +744,12 @@
             <translation><!-- Done --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Funnel</masterLabel>
-            <translation><!-- Funnel --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>In Progress</masterLabel>
             <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Prioritized</masterLabel>

@@ -232,6 +232,11 @@
         <label>Existing Active User</label>
     </standardValue>
     <standardValue>
+        <fullName>Exited the TA Queue</fullName>
+        <default>false</default>
+        <label>Exited the TA Queue</label>
+    </standardValue>
+    <standardValue>
         <fullName>Follow Up Complete</fullName>
         <default>false</default>
         <label>Follow Up Complete</label>
