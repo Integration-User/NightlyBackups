@@ -6191,6 +6191,10 @@ Stored as Long on Solr.</description>
                 <default>true</default>
             </values>
             <values>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Trial</fullName>
                 <default>false</default>
             </values>
