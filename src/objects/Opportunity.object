@@ -506,7 +506,7 @@
         <fullName>BDR_Referred_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>BDR Referred By</label>
+        <label>SAO Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Opportunities_2</relationshipName>
         <required>false</required>
@@ -3793,6 +3793,15 @@ NULL))))</formula>
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>SAO_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>SAO Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>SalesLoft1__Most_Recent_Cadence_Name__c</fullName>
@@ -12243,6 +12252,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Data Delivery - REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EUR Detailed NAV</fullName>
                 <default>false</default>
             </values>
@@ -12352,6 +12369,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Transaction Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - REIT Data</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17660,6 +17685,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Data Delivery - REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EUR Detailed NAV</fullName>
                 <default>false</default>
             </values>
@@ -17769,6 +17802,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Transaction Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - REIT Data</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19107,6 +19148,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Data Delivery - REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EUR Detailed NAV</fullName>
                 <default>false</default>
             </values>
@@ -19216,6 +19265,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Transaction Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - REIT Data</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20550,6 +20607,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Data Delivery - REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EUR Detailed NAV</fullName>
                 <default>false</default>
             </values>
@@ -20659,6 +20724,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Transaction Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Data Delivery - REIT Data</fullName>
                 <default>false</default>
             </values>
             <values>

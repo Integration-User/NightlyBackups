@@ -16,7 +16,7 @@
     </values>
     <values>
         <field>Endpoint__c</field>
-        <value xsi:type="xsd:string">https://4081061-sb1.suitetalk.api.netsuite.com</value>
+        <value xsi:type="xsd:string">https://4081061-sb1.suitetalk.api.netsuite.com/</value>
     </values>
     <values>
         <field>GSA_Platform_Request_Key__c</field>

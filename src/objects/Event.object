@@ -1176,6 +1176,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Virtual Corporate Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Virtual Sales Visit</fullName>
                 <default>false</default>
             </values>

@@ -22,6 +22,32 @@
         <relationshipLabel><!-- Leads --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- Capture the date/time of when a lead was moved out of a queue --></help>
+        <label><!-- Assigned Date --></label>
+        <name>Assigned_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Team name of the lead owner after moving out of the queue --></help>
+        <label><!-- Assignment Team --></label>
+        <name>Assignment_Team__c</name>
+        <picklistValues>
+            <masterLabel>Hewett Research</masterLabel>
+            <translation><!-- Hewett Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Sales</masterLabel>
+            <translation><!-- UK Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US News</masterLabel>
+            <translation><!-- US News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Research</masterLabel>
+            <translation><!-- US Research --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- BDR Referred By --></label>
         <name>BDR_Referred_By__c</name>
         <relationshipLabel><!-- Leads (BDR Referred By) --></relationshipLabel>
@@ -224,6 +250,35 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Determines the matched account’s client status --></help>
+        <label><!-- GS Relationship --></label>
+        <name>GS_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Favor</masterLabel>
+            <translation><!-- Favor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former</masterLabel>
+            <translation><!-- Former --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation><!-- Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial</masterLabel>
+            <translation><!-- Trial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Geographic Exposure --></label>
         <name>Geographic_Exposure__c</name>
     </fields>
@@ -279,6 +334,11 @@
     <fields>
         <label><!-- LinkedIn Member Token --></label>
         <name>LID__LinkedIn_Member_Token__c</name>
+    </fields>
+    <fields>
+        <help><!-- Classification based on the lead source --></help>
+        <label><!-- Lead Classification --></label>
+        <name>Lead_Classification__c</name>
     </fields>
     <fields>
         <label><!-- Lead Priority --></label>
@@ -1687,6 +1747,32 @@
         <name>Publicly_Traded__c</name>
     </fields>
     <fields>
+        <help><!-- Populates when the lead status is moved to disqualified or qualified --></help>
+        <label><!-- Qualified Date --></label>
+        <name>Qualified_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Team name of the lead owner when moved to converted state --></help>
+        <label><!-- Qualifying Team --></label>
+        <name>Qualifying_Team__c</name>
+        <picklistValues>
+            <masterLabel>Hewett Research</masterLabel>
+            <translation><!-- Hewett Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Sales</masterLabel>
+            <translation><!-- UK Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US News</masterLabel>
+            <translation><!-- US News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Research</masterLabel>
+            <translation><!-- US Research --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <help><!-- This field maps to the Opportunity on conversion of the lead. --></help>
         <label><!-- Questions &amp; Comments --></label>
         <name>Questions_Comments__c</name>
@@ -1998,6 +2084,16 @@
             <masterLabel>US</masterLabel>
             <translation><!-- US --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Calculates the (Assigned Date - Created Date) in Minutes --></help>
+        <label><!-- Time to Assignment --></label>
+        <name>Time_to_Assignment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculates the (Qualified Date - Created Date) in Minutes --></help>
+        <label><!-- Time to Conversion --></label>
+        <name>Time_to_Conversion__c</name>
     </fields>
     <fields>
         <help><!-- When do you anticipate subscribing to your next research provider? --></help>
