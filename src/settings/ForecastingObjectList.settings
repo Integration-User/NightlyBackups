@@ -670,6 +670,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -859,7 +863,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -1186,7 +1190,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -1350,6 +1353,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -2082,6 +2087,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -2271,7 +2280,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -2598,7 +2607,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -2762,6 +2770,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -3494,6 +3504,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -3683,7 +3697,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -4010,7 +4024,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -4174,6 +4187,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -4906,6 +4921,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -5095,7 +5114,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -5422,7 +5441,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -5586,6 +5604,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -6310,6 +6330,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -6499,7 +6523,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -6824,7 +6848,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -6988,6 +7011,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -7712,6 +7737,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -7901,7 +7930,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -8226,7 +8255,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -8390,6 +8418,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -9118,6 +9148,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -9307,7 +9341,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -9633,7 +9667,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -9797,6 +9830,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -10521,6 +10556,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -10710,7 +10749,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -11035,7 +11074,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -11199,6 +11237,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -11927,6 +11967,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -12116,7 +12160,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -12442,7 +12486,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -12606,6 +12649,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -13330,6 +13375,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -13519,7 +13568,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -13844,7 +13893,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -14008,6 +14056,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -14736,6 +14786,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -14925,7 +14979,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -15251,7 +15305,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -15415,6 +15468,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -16139,6 +16194,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -16328,7 +16387,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -16653,7 +16712,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -16817,6 +16875,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -17545,6 +17605,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -17734,7 +17798,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -18060,7 +18124,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -18224,6 +18287,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -18948,6 +19013,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -19137,7 +19206,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -19462,7 +19531,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -19626,6 +19694,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -20354,6 +20424,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -20543,7 +20617,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -20869,7 +20943,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -21033,6 +21106,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -21757,6 +21832,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -21946,7 +22025,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -22271,7 +22350,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -22435,6 +22513,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -23167,6 +23247,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -23356,7 +23440,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -23683,7 +23767,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -23847,6 +23930,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -24579,6 +24664,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -24768,7 +24857,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -25095,7 +25184,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -25259,6 +25347,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -25991,6 +26081,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -26180,7 +26274,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -26507,7 +26601,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -26671,6 +26764,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -27403,6 +27498,10 @@
             <label>Opportunity Record Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
         </forecastingObjectListLabelMappings>
@@ -27592,7 +27691,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
+            <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8m</field>
@@ -27919,7 +28018,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -28083,6 +28181,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>

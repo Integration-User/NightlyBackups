@@ -106,9 +106,9 @@
         <name>AverageTotalARR__c</name>
     </fields>
     <fields>
-        <label><!-- BDR Referred By --></label>
+        <label><!-- SAO Owner --></label>
         <name>BDR_Referred_By__c</name>
-        <relationshipLabel><!-- Opportunities (BDR Referred By) --></relationshipLabel>
+        <relationshipLabel><!-- Opportunities (SAO Owner) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Base Sale Price --></label>
@@ -270,6 +270,10 @@
         <picklistValues>
             <masterLabel>Market Conditions</masterLabel>
             <translation><!-- Market Conditions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Pipeline Cleanup</masterLabel>
+            <translation><!-- Mass Pipeline Cleanup --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Merger &amp; Acquisition</masterLabel>
@@ -1486,6 +1490,10 @@
             <masterLabel>Timing</masterLabel>
             <translation><!-- Timing --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SAO Date --></label>
+        <name>SAO_Date__c</name>
     </fields>
     <fields>
         <label><!-- Most Recent Cadence - Cadence Name --></label>

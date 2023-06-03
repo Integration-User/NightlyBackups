@@ -20064,6 +20064,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.SAO_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.SalesLoft1__Most_Recent_Cadence_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>

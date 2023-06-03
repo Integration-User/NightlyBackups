@@ -336,10 +336,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -992,6 +988,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -1288,7 +1292,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -1452,6 +1455,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -1768,10 +1773,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -2424,6 +2425,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -2720,7 +2729,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -2884,6 +2892,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -3200,10 +3210,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -3856,6 +3862,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -4152,7 +4166,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -4316,6 +4329,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -4632,10 +4647,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -5288,6 +5299,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -5584,7 +5603,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -5748,6 +5766,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -6056,10 +6076,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -6712,6 +6728,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -7006,7 +7030,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -7170,6 +7193,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -7477,10 +7502,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -8133,6 +8154,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -8427,7 +8456,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -8591,6 +8619,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -8902,10 +8932,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -9558,6 +9584,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -9853,7 +9887,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -10017,6 +10050,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -10324,10 +10359,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -10980,6 +11011,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -11274,7 +11313,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -11438,6 +11476,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -11749,10 +11789,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -12405,6 +12441,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -12700,7 +12744,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -12864,6 +12907,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -13171,10 +13216,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -13827,6 +13868,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -14121,7 +14170,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -14285,6 +14333,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -14596,10 +14646,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -15252,6 +15298,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -15547,7 +15601,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -15711,6 +15764,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -16018,10 +16073,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -16674,6 +16725,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -16968,7 +17027,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -17132,6 +17190,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -17443,10 +17503,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -18099,6 +18155,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -18394,7 +18458,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -18558,6 +18621,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -18865,10 +18930,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -19521,6 +19582,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -19815,7 +19884,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -19979,6 +20047,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -20290,10 +20360,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -20946,6 +21012,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -21241,7 +21315,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -21405,6 +21478,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -21712,10 +21787,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -22368,6 +22439,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -22662,7 +22741,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -22826,6 +22904,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -23141,10 +23221,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -23797,6 +23873,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -24093,7 +24177,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -24257,6 +24340,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -24573,10 +24658,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -25229,6 +25310,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -25525,7 +25614,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -25689,6 +25777,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -26005,10 +26095,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -26661,6 +26747,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -26957,7 +27051,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -27121,6 +27214,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>
@@ -27437,10 +27532,6 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5G00000VQ18X</field>
-            <label>BDR Referred By</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -28093,6 +28184,14 @@
             <label>Same Store Increase</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Wiwv0</field>
+            <label>SAO Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VQ18X</field>
+            <label>SAO Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8q</field>
             <label>Score</label>
         </opportunityListFieldsLabelMappings>
@@ -28389,7 +28488,6 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
-            <field>00N5G00000VQ18X</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -28553,6 +28651,8 @@
             <field>00Nf400000V6v4A</field>
             <field>00Nf400000VNSnk</field>
             <field>00Nf400000VNSfC</field>
+            <field>00N5G00000Wiwv0</field>
+            <field>00N5G00000VQ18X</field>
             <field>00N5G00000WeE8q</field>
             <field>00N5G00000WeELX</field>
             <field>00N5G00000WeE8p</field>

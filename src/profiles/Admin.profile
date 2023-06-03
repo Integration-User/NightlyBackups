@@ -20244,6 +20244,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.SAO_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.SalesLoft1__Most_Recent_Cadence_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
