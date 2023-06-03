@@ -356,6 +356,10 @@
             <translation><!-- Advisory --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Commercial + Advisory ARR</masterLabel>
+            <translation><!-- Commercial + Advisory ARR --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Sales</masterLabel>
             <translation><!-- Sales --></translation>
         </picklistValues>

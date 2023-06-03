@@ -272,6 +272,10 @@
             <translation><!-- Market Conditions --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Mass Pipeline Cleanup</masterLabel>
+            <translation><!-- Mass Pipeline Cleanup --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Merger &amp; Acquisition</masterLabel>
             <translation><!-- Merger &amp; Acquisition --></translation>
         </picklistValues>

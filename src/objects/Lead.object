@@ -1170,6 +1170,11 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <label>Account Management</label>
                 </value>
                 <value>
+                    <fullName>Commercial + Advisory ARR</fullName>
+                    <default>false</default>
+                    <label>Commercial + Advisory ARR</label>
+                </value>
+                <value>
                     <fullName>GSI</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -4356,6 +4361,15 @@ Stored as Long on Solr.</description>
             <value>Open,Working</value>
         </filters>
         <label>All Open Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Commercial_Advisory_ARR_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Commercial + Advisory ARR</label>
+        <queue>Commercial_Advisory_ARR</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>Disqualified_Leads</fullName>
@@ -8180,6 +8194,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial %2B Advisory ARR</fullName>
                 <default>false</default>
             </values>
             <values>
