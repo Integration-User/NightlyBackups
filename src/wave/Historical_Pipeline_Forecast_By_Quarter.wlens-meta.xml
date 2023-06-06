@@ -3,6 +3,7 @@
     <content xsi:nil="true"/>
     <application>Sales_Analytics</application>
     <datasets>pipeline_trending</datasets>
+    <dateVersion>1</dateVersion>
     <masterLabel>Historical Pipeline Forecast by Quarter</masterLabel>
     <templateAssetSourceName>Historical_Pipeline_Forecast_By_Quarter</templateAssetSourceName>
     <visualizationType>stackvbar</visualizationType>

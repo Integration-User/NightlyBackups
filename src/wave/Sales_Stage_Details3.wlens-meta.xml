@@ -3,6 +3,7 @@
     <content xsi:nil="true"/>
     <application>Sales</application>
     <datasets>pipeline_trending3</datasets>
+    <dateVersion>1</dateVersion>
     <description>Get details about where deals stand in the sales process. Select a bubble, then click the drill down button that appears at top right to learn the specifics about a deal, such as its forecast category, stage, owner, age, and so on.</description>
     <masterLabel>Sales Stage Details</masterLabel>
     <templateAssetSourceName>Sales_Stage_Details</templateAssetSourceName>

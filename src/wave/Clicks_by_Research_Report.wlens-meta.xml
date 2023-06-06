@@ -3,6 +3,7 @@
     <content xsi:nil="true"/>
     <application>Webmetrics</application>
     <datasets>Webmetrics_Dataset</datasets>
+    <dateVersion>1</dateVersion>
     <masterLabel>Clicks by Research Report</masterLabel>
     <visualizationType>comparisontable</visualizationType>
 </WaveLens>

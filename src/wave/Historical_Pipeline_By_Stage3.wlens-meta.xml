@@ -3,6 +3,7 @@
     <content xsi:nil="true"/>
     <application>Sales</application>
     <datasets>pipeline_trending3</datasets>
+    <dateVersion>1</dateVersion>
     <masterLabel>Historical Pipeline By Stage</masterLabel>
     <templateAssetSourceName>Historical_Pipeline_By_Stage</templateAssetSourceName>
     <visualizationType>stackvbar</visualizationType>

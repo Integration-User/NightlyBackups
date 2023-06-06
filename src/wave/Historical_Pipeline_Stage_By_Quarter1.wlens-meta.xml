@@ -3,6 +3,7 @@
     <content xsi:nil="true"/>
     <application>Weighted_Revenue</application>
     <datasets>pipeline_trending1</datasets>
+    <dateVersion>1</dateVersion>
     <masterLabel>Historical Pipeline Stage by Quarter</masterLabel>
     <templateAssetSourceName>Historical_Pipeline_Stage_By_Quarter</templateAssetSourceName>
     <visualizationType>stackvbar</visualizationType>
