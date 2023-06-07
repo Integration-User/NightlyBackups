@@ -14556,6 +14556,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Type_to_Trigger_Survey__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Urgency__c</field>
         <readable>false</readable>
     </fieldPermissions>

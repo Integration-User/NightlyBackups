@@ -7775,7 +7775,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Story_Points_SFDC__c</columns>
         <columns>copado__Org_Credential__c</columns>
         <columns>copado__Developer__c</columns>
-        <columns>copado__Progress_Status__c</columns>
         <columns>copado__Documentation_Complete__c</columns>
         <columns>copado__Order__c</columns>
         <columns>copado__Close_Date__c</columns>
