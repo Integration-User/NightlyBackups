@@ -4924,7 +4924,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <filters>
             <field>OPPORTUNITY.STAGE_NAME</field>
             <operation>equals</operation>
-            <value>Pricing Proposal Sent (4),Agreement Sent and Being Negotiated (5),Verbal Win (6)</value>
+            <value>Conducting Needs Analysis (3),Pricing Proposal Sent (4),Agreement Sent and Being Negotiated (5),Verbal Win (6)</value>
         </filters>
         <label>My Opps Stage 4-6</label>
     </listViews>
