@@ -211,6 +211,10 @@
         <name>Billing_Address_Score__c</name>
     </fields>
     <fields>
+        <label><!-- Budgeted Account Owner --></label>
+        <name>Budgeted_Account_Owner__c</name>
+    </fields>
+    <fields>
         <label><!-- Budgeted Priority --></label>
         <name>Budgeted_Priority__c</name>
         <picklistValues>
