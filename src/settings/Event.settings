@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<EventSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+<EventSettings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <bypassMeteringBlock>false</bypassMeteringBlock>
     <enableDeleteMonitoringData>false</enableDeleteMonitoringData>
     <enableDynamicStreamingChannel>false</enableDynamicStreamingChannel>
@@ -7,6 +7,6 @@
     <enableEventLogWaveIntegration>true</enableEventLogWaveIntegration>
     <enableLoginForensics>false</enableLoginForensics>
     <enableStreamingApi>true</enableStreamingApi>
-    <enableTerminateOldestSession>true</enableTerminateOldestSession>
+    <enableTerminateOldestSession xsi:nil="true"/>
     <enableTransactionSecurityPolicies>true</enableTransactionSecurityPolicies>
 </EventSettings>

@@ -3,5 +3,9 @@
     <apiVersion>50.0</apiVersion>
     <environments>Default</environments>
     <label>Execute Function</label>
+    <processMetadataValues>
+        <name>AssociatedRecord</name>
+        <value/>
+    </processMetadataValues>
     <processType>Flow</processType>
 </Flow>
