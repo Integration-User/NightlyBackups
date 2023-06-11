@@ -37,6 +37,12 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>runtime_hello_studio:meetingPrep</componentName>
+                <identifier>runtime_hello_studio_meetingPrep</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>Facet-b7b29fed-4641-4d8d-8a09-dcad9091e897</name>
         <type>Facet</type>
     </flexiPageRegions>
