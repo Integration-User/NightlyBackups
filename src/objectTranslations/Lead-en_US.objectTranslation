@@ -27,9 +27,13 @@
         <name>Assigned_Date__c</name>
     </fields>
     <fields>
-        <help><!-- Team name of the lead owner after moving out of the queue --></help>
+        <help><!-- Initial Team this lead was assigned to --></help>
         <label><!-- Assignment Team --></label>
         <name>Assignment_Team__c</name>
+        <picklistValues>
+            <masterLabel>EU SDR Inbound</masterLabel>
+            <translation><!-- EU SDR Inbound --></translation>
+        </picklistValues>
         <picklistValues>
             <masterLabel>Hewett Research</masterLabel>
             <translation><!-- Hewett Research --></translation>
@@ -45,6 +49,10 @@
         <picklistValues>
             <masterLabel>US Research</masterLabel>
             <translation><!-- US Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US SDR Inbound</masterLabel>
+            <translation><!-- US SDR Inbound --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -1757,8 +1765,12 @@
     </fields>
     <fields>
         <help><!-- Team name of the lead owner when moved to converted state --></help>
-        <label><!-- Qualifying Team --></label>
+        <label><!-- Qualified Team --></label>
         <name>Qualifying_Team__c</name>
+        <picklistValues>
+            <masterLabel>EU SDR Inbound</masterLabel>
+            <translation><!-- EU SDR Inbound --></translation>
+        </picklistValues>
         <picklistValues>
             <masterLabel>Hewett Research</masterLabel>
             <translation><!-- Hewett Research --></translation>
@@ -1774,6 +1786,10 @@
         <picklistValues>
             <masterLabel>US Research</masterLabel>
             <translation><!-- US Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US SDR Inbound</masterLabel>
+            <translation><!-- US SDR Inbound --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -2096,7 +2112,7 @@
     </fields>
     <fields>
         <help><!-- Calculates the (Qualified Date - Created Date) in Minutes --></help>
-        <label><!-- Time to Conversion --></label>
+        <label><!-- Time to Qualified --></label>
         <name>Time_to_Conversion__c</name>
     </fields>
     <fields>
@@ -2360,6 +2376,10 @@
     <validationRules>
         <errorMessage><!-- You must enter an Email or Phone number to qualify a lead or convert it (stage 2). --></errorMessage>
         <name>Require_Email_OR_Phone_to_Sales_Qualify</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide GS Relationship before disqualifying this lead --></errorMessage>
+        <name>Require_GS_Relationship</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Provide Lead Source and a Reason for Disqualification. --></errorMessage>

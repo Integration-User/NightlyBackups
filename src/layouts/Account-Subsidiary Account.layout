@@ -51,10 +51,6 @@
                 <behavior>Edit</behavior>
                 <field>Protected_By_Last_Change__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Protected_By_Age__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -382,6 +378,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>DDS_AUMValue__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Protected_By_Age__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
