@@ -28,7 +28,7 @@
     </fields>
     <fields>
         <help><!-- Initial Team this lead was assigned to --></help>
-        <label><!-- Assignment Team --></label>
+        <label><!-- Assigned Team --></label>
         <name>Assignment_Team__c</name>
         <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
@@ -37,6 +37,10 @@
         <picklistValues>
             <masterLabel>Hewett Research</masterLabel>
             <translation><!-- Hewett Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR Outbound</masterLabel>
+            <translation><!-- SDR Outbound --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UK Sales</masterLabel>
@@ -1776,6 +1780,10 @@
             <translation><!-- Hewett Research --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>SDR Outbound</masterLabel>
+            <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>UK Sales</masterLabel>
             <translation><!-- UK Sales --></translation>
         </picklistValues>
@@ -2107,7 +2115,7 @@
     </fields>
     <fields>
         <help><!-- Calculates the (Assigned Date - Created Date) in Minutes --></help>
-        <label><!-- Time to Assignment --></label>
+        <label><!-- Time to Assigned --></label>
         <name>Time_to_Assignment__c</name>
     </fields>
     <fields>
