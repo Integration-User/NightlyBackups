@@ -12,20 +12,20 @@
         <template>Process_Notifications/New_Lead_Created_from_Updated_Contact_from_LinkedIn</template>
     </alerts>
     <outboundMessages>
-        <fullName>AppcuesOnContactCreateUpdate_Z1AzRYj</fullName>
+        <fullName>AppcuesOnContactCreateUpdate_1UKMAA</fullName>
         <apiVersion>37.0</apiVersion>
-        <endpointUrl>https://45e065f2-1011-4343-b48b-b9b6133547e7-d594df53f48fc86.integration-hook.com</endpointUrl>
+        <endpointUrl>https://45e065f2-1011-4343-b48b-b9b6133547e7-a09589641cd9a93.integration-hook.com</endpointUrl>
         <fields>Id</fields>
         <includeSessionId>false</includeSessionId>
         <integrationUser>ksantos@greenstreet.com</integrationUser>
-        <name>AppcuesOnContactCreateUpdate_Z1AzRYj</name>
+        <name>AppcuesOnContactCreateUpdate_1UKMAA</name>
         <protected>false</protected>
         <useDeadLetterQueue>false</useDeadLetterQueue>
     </outboundMessages>
     <rules>
-        <fullName>AppcuesOnContactCreateUpdate_Z1AzRYj</fullName>
+        <fullName>AppcuesOnContactCreateUpdate_1UKMAA</fullName>
         <actions>
-            <name>AppcuesOnContactCreateUpdate_Z1AzRYj</name>
+            <name>AppcuesOnContactCreateUpdate_1UKMAA</name>
             <type>OutboundMessage</type>
         </actions>
         <active>true</active>
