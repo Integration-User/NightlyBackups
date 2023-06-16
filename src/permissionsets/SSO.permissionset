@@ -17,4 +17,8 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>SSO</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsSsoEnabled</name>
+    </userPermissions>
 </PermissionSet>
