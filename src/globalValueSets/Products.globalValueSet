@@ -408,18 +408,6 @@
         <label>EU REIT</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>Learning Center</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Learning Center</label>
-    </customValue>
-    <customValue>
         <fullName>REA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -430,6 +418,18 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Forecast Scenarios</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning Center</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Learning Center</label>
     </customValue>
     <customValue>
         <fullName>EU Market Forecasts</fullName>
