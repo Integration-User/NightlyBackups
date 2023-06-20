@@ -152,7 +152,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <multilineLayoutFields>OpportunityId</multilineLayoutFields>
     <multilineLayoutFields>Product2Id</multilineLayoutFields>
     <multilineLayoutFields>Starting_Price__c</multilineLayoutFields>
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>
@@ -160,6 +159,7 @@
     <multilineLayoutFields>Start_Date__c</multilineLayoutFields>
     <multilineLayoutFields>End_Date__c</multilineLayoutFields>
     <multilineLayoutFields>Lost_Product__c</multilineLayoutFields>
+    <multilineLayoutFields>OpportunityId</multilineLayoutFields>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
