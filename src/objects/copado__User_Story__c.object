@@ -7787,7 +7787,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <filters>
             <field>RECORDTYPE</field>
             <operation>equals</operation>
-            <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__User_Story</value>
+            <value>copado__User_Story__c.copado__User_Story</value>
         </filters>
         <filters>
             <field>copado__Status__c</field>

@@ -318,6 +318,15 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Case_Error__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Error_Reason__c, &quot;&quot;), False, True)</formula>
+        <label>Case Error</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Change_Info_Provided_by__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Contact that provided the change information</description>
@@ -563,6 +572,26 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Error_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Error Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Transition Delay</fullName>
+                    <default>false</default>
+                    <label>Transition Delay</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Favor_Access__c</fullName>
@@ -883,6 +912,17 @@
         <externalId>false</externalId>
         <formula>Text(Opportunity_New__r.StageName)</formula>
         <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Error_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Error Reason</label>
+        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1602,6 +1642,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Error_Reason__c</picklist>
+            <values>
+                <fullName>Transition Delay</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Favor_Access__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -1914,6 +1961,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Error_Reason__c</picklist>
+            <values>
+                <fullName>Transition Delay</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Favor_Access__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -2218,6 +2272,13 @@
             </values>
             <values>
                 <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Error_Reason__c</picklist>
+            <values>
+                <fullName>Transition Delay</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

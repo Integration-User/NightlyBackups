@@ -12516,6 +12516,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Protected_By_Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Protected_By_Last_Change__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Protected_By__c</field>
         <readable>true</readable>
@@ -14252,6 +14262,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Case_Error__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Case_Owner_Role__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14342,6 +14357,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Error_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Error__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -14392,6 +14412,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.On_Hold_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Opportunity_Record_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14403,6 +14428,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Other_Error_Reason__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14706,6 +14736,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Compliance__c.Case_Error__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Compliance__c.Change_Info_Provided_by__c</field>
         <readable>true</readable>
@@ -14778,6 +14813,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Compliance__c.Engagement_Wall_Sitter__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Compliance__c.Error_Reason__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14883,6 +14923,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Compliance__c.Opportunity_Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Compliance__c.Other_Error_Reason__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18447,6 +18492,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Assigned_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Assignment_Team__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.BDR_Referred_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18601,6 +18656,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.GS_Relationship__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.GenderIdentity</field>
         <readable>false</readable>
@@ -18663,6 +18723,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.LeadSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Lead_Classification__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18802,6 +18867,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Qualified_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Qualifying_Team__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Questions_Comments__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18893,6 +18968,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Team__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Time_to_Assignment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Time_to_Conversion__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -36572,7 +36657,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.User_List_Requests</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

@@ -75,6 +75,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Case Error --></label>
+        <name>Case_Error__c</name>
+    </fields>
+    <fields>
         <help><!-- Contact that provided the change information --></help>
         <label><!-- Change Info Provided by: --></label>
         <name>Change_Info_Provided_by__c</name>
@@ -180,6 +184,14 @@
         <label><!-- Engagement Wall Sitter --></label>
         <name>Engagement_Wall_Sitter__c</name>
         <relationshipLabel><!-- Compliance (Engagement Wall Sitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Error Reason --></label>
+        <name>Error_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Transition Delay</masterLabel>
+            <translation><!-- Transition Delay --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <help><!-- If yes, a favor opportunity will be created for you to activate and permission users. --></help>
@@ -333,6 +345,10 @@
     <fields>
         <label><!-- Opportunity Stage --></label>
         <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Error Reason --></label>
+        <name>Other_Error_Reason__c</name>
     </fields>
     <fields>
         <label><!-- Owner --></label>
