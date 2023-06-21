@@ -1703,6 +1703,128 @@ TEXT(MIN(ROUND(MOD(Starting_Price_Opp__c , 1), 2) * 100, 99))
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>DashboardsGSP__Amount_Won__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+IsWon = TRUE,
+Amount,
+0
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Amount Won</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Close_Date_Extensions__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of times the Close Date has been extended.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of times the Close Date has been extended.</inlineHelpText>
+        <label># Close Date Extensions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Close_Date_Month_Extensions__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of times the Close Date has been extended from one month to another.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of times the Close Date has been extended from one month to another month.</inlineHelpText>
+        <label># Close Date Month Extensions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Date_Opportunity_was_Closed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date the Opportunity was actually closed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the Stage was changed to Closed Won or Lost</inlineHelpText>
+        <label>Date Opportunity was Closed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Days_Open_Delete__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Days OpenV1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Days_Open__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK( DashboardsGSP__Date_Opportunity_was_Closed__c ),
+NOW() - CreatedDate,
+DashboardsGSP__Date_Opportunity_was_Closed__c - DATEVALUE(CreatedDate)
+)+1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Includes the day the Opportunity was opened.</inlineHelpText>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Days_Since_Last_Stage_Change__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of days since the last change in Opportunity Stage.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(DashboardsGSP__Date_Opportunity_was_Closed__c),
+TODAY()-DashboardsGSP__Last_Stage_Change_Date__c,
+DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change_Date__c
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Number of days since the Opportunity Stage was last changed.</inlineHelpText>
+        <label>Days Since Last Stage Change</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DashboardsGSP__Last_Stage_Change_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Stage Change Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Data_Quality_Description__c</fullName>
         <externalId>false</externalId>
         <formula>IF( Data_Quality_Score__c =100,&quot;All Opportunity Details Captured&quot;, &quot;Missing: &quot;&amp;IF( ISPICKVAL( Type ,&quot;&quot;),&quot;Type, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN( TEXT(MONTH(CloseDate))) = 0, &quot;Close Date, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( Amount &lt;= 0, &quot;Amount, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL( LeadSource,&quot;&quot;), &quot;Lead Source, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(NextStep)=0, &quot;Next Steps&quot;,&quot;&quot;))</formula>
@@ -21395,6 +21517,7 @@ ISPICKVAL( StageName , &quot;Closed Won&quot;))</errorConditionFormula>
 		),
 	DDS_ARRChanged__c = TRUE,
 	DDS_ScoreApplicability__c = TRUE,
+        $UserRole.DeveloperName  &lt;&gt; &apos;Commercial_Operations&apos;,
 	OR(
 		ISCHANGED(StageName),
 		ISCHANGED(Win_Validation__c)

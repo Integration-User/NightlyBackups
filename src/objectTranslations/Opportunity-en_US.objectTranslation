@@ -560,6 +560,43 @@
         <name>DDS_TotalARR_USD__c</name>
     </fields>
     <fields>
+        <label><!-- Amount Won --></label>
+        <name>DashboardsGSP__Amount_Won__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of times the Close Date has been extended. --></help>
+        <label><!-- # Close Date Extensions --></label>
+        <name>DashboardsGSP__Close_Date_Extensions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of times the Close Date has been extended from one month to another month. --></help>
+        <label><!-- # Close Date Month Extensions --></label>
+        <name>DashboardsGSP__Close_Date_Month_Extensions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the Stage was changed to Closed Won or Lost --></help>
+        <label><!-- Date Opportunity was Closed --></label>
+        <name>DashboardsGSP__Date_Opportunity_was_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days OpenV1 --></label>
+        <name>DashboardsGSP__Days_Open_Delete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Includes the day the Opportunity was opened. --></help>
+        <label><!-- Days Open --></label>
+        <name>DashboardsGSP__Days_Open__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days since the Opportunity Stage was last changed. --></help>
+        <label><!-- Days Since Last Stage Change --></label>
+        <name>DashboardsGSP__Days_Since_Last_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Stage Change Date --></label>
+        <name>DashboardsGSP__Last_Stage_Change_Date__c</name>
+    </fields>
+    <fields>
         <label><!-- Data Quality Description --></label>
         <name>Data_Quality_Description__c</name>
     </fields>

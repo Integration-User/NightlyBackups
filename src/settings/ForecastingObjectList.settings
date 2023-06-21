@@ -654,8 +654,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -686,12 +698,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -1164,6 +1196,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -1171,6 +1205,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -1225,11 +1260,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -1264,6 +1303,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -2066,8 +2106,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -2098,12 +2150,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -2576,6 +2648,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -2583,6 +2657,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -2637,11 +2712,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -2676,6 +2755,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -3478,8 +3558,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -3510,12 +3602,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -3988,6 +4100,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -3995,6 +4109,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -4049,11 +4164,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -4088,6 +4207,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -4890,8 +5010,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -4922,12 +5054,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -5400,6 +5552,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -5407,6 +5561,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -5461,11 +5616,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -5500,6 +5659,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -6294,8 +6454,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -6326,12 +6498,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -6802,6 +6994,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -6809,6 +7003,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -6863,11 +7058,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -6902,6 +7101,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -7696,8 +7896,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -7728,12 +7940,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -8204,6 +8436,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -8211,6 +8445,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -8265,11 +8500,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -8304,6 +8543,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -9102,8 +9342,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -9134,12 +9386,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -9611,6 +9883,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -9618,6 +9892,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -9672,11 +9947,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -9711,6 +9990,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -10505,8 +10785,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -10537,12 +10829,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -11013,6 +11325,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -11020,6 +11334,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -11074,11 +11389,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -11113,6 +11432,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -11911,8 +12231,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -11943,12 +12275,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -12420,6 +12772,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -12427,6 +12781,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -12481,11 +12836,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -12520,6 +12879,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -13314,8 +13674,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -13346,12 +13718,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -13822,6 +14214,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -13829,6 +14223,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -13883,11 +14278,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -13922,6 +14321,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -14720,8 +15120,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -14752,12 +15164,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -15229,6 +15661,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -15236,6 +15670,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -15290,11 +15725,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -15329,6 +15768,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -16123,8 +16563,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -16155,12 +16607,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -16631,6 +17103,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -16638,6 +17112,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -16692,11 +17167,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -16731,6 +17210,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -17529,8 +18009,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -17561,12 +18053,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -18038,6 +18550,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -18045,6 +18559,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -18099,11 +18614,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -18138,6 +18657,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -18932,8 +19452,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -18964,12 +19496,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -19440,6 +19992,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -19447,6 +20001,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -19501,11 +20056,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -19540,6 +20099,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -20338,8 +20898,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -20370,12 +20942,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -20847,6 +21439,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -20854,6 +21448,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -20908,11 +21503,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -20947,6 +21546,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -21741,8 +22341,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -21773,12 +22385,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -22249,6 +22881,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -22256,6 +22890,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -22310,11 +22945,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -22349,6 +22988,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -23151,8 +23791,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -23183,12 +23835,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -23661,6 +24333,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -23668,6 +24342,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -23722,11 +24397,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -23761,6 +24440,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -24563,8 +25243,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -24595,12 +25287,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -25073,6 +25785,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -25080,6 +25794,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -25134,11 +25849,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -25173,6 +25892,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -25975,8 +26695,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -26007,12 +26739,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -26485,6 +27237,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -26492,6 +27246,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -26546,11 +27301,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -26585,6 +27344,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -27387,8 +28147,20 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1b</field>
+            <label>Days Open</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1c</field>
+            <label>Days Since Last Stage Change</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1a</field>
+            <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
@@ -27419,12 +28191,32 @@
             <label>My Team</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Z</field>
+            <label>Days OpenV1</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhl</field>
             <label>Previous Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1X</field>
+            <label># Close Date Month Extensions</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1Y</field>
+            <label>Date Opportunity was Closed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1V</field>
+            <label>Amount Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdv</field>
             <label>Next Year % Increase</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Dme1W</field>
+            <label># Close Date Extensions</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VPtdw</field>
@@ -27897,6 +28689,8 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDM00000Dme1W</field>
+            <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
@@ -27904,6 +28698,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NDM00000Dme1V</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -27958,11 +28753,15 @@
             <field>00Nf400000OXIgd</field>
             <field>00Nf400000OXIgi</field>
             <field>00Nf400000OXIgn</field>
+            <field>00NDM00000Dme1Y</field>
             <field>00Nf400000OXIgO</field>
             <field>00Nf400000OXIh7</field>
             <field>00Nf400000OXIhC</field>
             <field>00Nf400000OXIhH</field>
             <field>00Nf400000OXIhM</field>
+            <field>00NDM00000Dme1b</field>
+            <field>00NDM00000Dme1Z</field>
+            <field>00NDM00000Dme1c</field>
             <field>00Nf400000NUNDL</field>
             <field>00N5G00000WeE8k</field>
             <field>00N5G00000WeE8d</field>
@@ -27997,6 +28796,7 @@
             <field>00Nf400000Nvl4N</field>
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
+            <field>00NDM00000Dme1a</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
