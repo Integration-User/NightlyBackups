@@ -285,6 +285,16 @@
             <field>UserUniqueToSplitType</field>
             <table>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOppSplits</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SplitOwner.Manager</field>
+            <table>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOppSplits</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SplitOwner.Manager.Manager</field>
+            <table>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOppSplits</table>
+        </columns>
         <masterLabel>Opportunity Splits</masterLabel>
     </sections>
 </ReportType>

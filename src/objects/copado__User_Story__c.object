@@ -7778,6 +7778,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Documentation_Complete__c</columns>
         <columns>copado__Order__c</columns>
         <columns>copado__Close_Date__c</columns>
+        <columns>copado__Epic__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>copado__Sprint__c</field>

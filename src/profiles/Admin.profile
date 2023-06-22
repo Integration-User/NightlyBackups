@@ -1204,6 +1204,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Plative_UserTriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Plative_UserTriggerHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -14523,7 +14527,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.On_Hold_Reason__c</field>
         <readable>true</readable>
     </fieldPermissions>

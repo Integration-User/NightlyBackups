@@ -1204,6 +1204,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Plative_UserTriggerHandlerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Plative_UserTriggerHelper</apexClass>
         <enabled>false</enabled>
     </classAccesses>

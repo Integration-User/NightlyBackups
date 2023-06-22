@@ -4047,12 +4047,20 @@
             <translation><!-- UK Operations --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>UK Sales</masterLabel>
+            <translation><!-- UK Sales --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>US Compliance</masterLabel>
             <translation><!-- US Compliance --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>US Operations</masterLabel>
             <translation><!-- US Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Sales</masterLabel>
+            <translation><!-- US Sales --></translation>
         </picklistValues>
     </fields>
     <fields>

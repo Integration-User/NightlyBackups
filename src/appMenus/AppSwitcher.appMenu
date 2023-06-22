@@ -344,4 +344,8 @@
         <name>copadoconnect__Copado_Connect</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Tool_Suite</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
