@@ -7783,7 +7783,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <filters>
             <field>copado__Sprint__c</field>
             <operation>equals</operation>
-            <value>SFDC S2022-37,SFDC S2022-38</value>
+            <value>SFDC S2022-39,SFDC S2022-38</value>
         </filters>
         <filters>
             <field>RECORDTYPE</field>

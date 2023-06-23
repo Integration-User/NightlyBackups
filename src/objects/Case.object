@@ -2608,11 +2608,6 @@ FALSE)))))))))))))</formula>
         <columns>Opportunity__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CASES.RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>Case.Client_Access</value>
-        </filters>
-        <filters>
             <field>CASES.CREATED_DATE</field>
             <operation>equals</operation>
             <value>THIS_WEEK</value>
