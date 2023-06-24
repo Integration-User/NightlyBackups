@@ -89,6 +89,11 @@
             <field>StartDate</field>
             <table>ForecastingQuota</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner.IsActive</field>
+            <table>ForecastingQuota</table>
+        </columns>
         <masterLabel>Forecasting Quotas</masterLabel>
     </sections>
     <sections>
