@@ -4426,6 +4426,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>Trial_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Trial Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Full Access</fullName>
+                    <default>false</default>
+                    <label>Full Access</label>
+                </value>
+                <value>
+                    <fullName>Limited Access</fullName>
+                    <default>false</default>
+                    <label>Limited Access</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Trial__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -4547,6 +4572,21 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Upsell_Products__c</fullName>
+        <description>Checks if Opportunity Product has Upsell / New</description>
+        <externalId>false</externalId>
+        <label>New / Upsell Products</label>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Sales_Type__c</field>
+            <operation>equals</operation>
+            <value>New, Upsell</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Upsells__c</fullName>
@@ -7155,6 +7195,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -8662,6 +8713,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -10029,6 +10091,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -11364,6 +11437,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12827,6 +12911,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -14198,6 +14293,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -15565,6 +15671,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -16793,6 +16910,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18256,6 +18384,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19727,6 +19866,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -21190,6 +21340,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Trial_Type__c</picklist>
+            <values>
+                <fullName>Full Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Access</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Existing Business</fullName>
@@ -21986,6 +22147,22 @@ ISBLANK(TEXT(Rep_Forecast_Category__c)),
 CloseDate  &lt;  TODAY() + 89)</errorConditionFormula>
         <errorDisplayField>Rep_Forecast_Category__c</errorDisplayField>
         <errorMessage>This Opportunity is within the 90 day forecast period. Please update the Rep Forecast Category.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Trial_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL( Trial_Type__c, &quot;&quot;),
+OR(
+RecordType.DeveloperName= &quot;Sales_Opportunity&quot;,
+RecordType.DeveloperName= &quot;Existing_Business&quot;),
+OR(
+NOT(ISBLANK( Trial_End_Date__c )),
+NOT(ISBLANK( Trial_Start_Date__c ))
+)
+)</errorConditionFormula>
+        <errorDisplayField>Trial_Type__c</errorDisplayField>
+        <errorMessage>Please provide the Trial Type when Trial Start and End Dates are populated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Require_for_Subscription_SS6</fullName>

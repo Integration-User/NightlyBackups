@@ -626,12 +626,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -1321,6 +1329,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -1422,6 +1431,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -2078,12 +2088,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -2773,6 +2791,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -2874,6 +2893,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -3530,12 +3550,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -4225,6 +4253,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -4326,6 +4355,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -4982,12 +5012,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -5677,6 +5715,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -5778,6 +5817,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -6426,12 +6466,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -7119,6 +7167,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -7220,6 +7269,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -7868,12 +7918,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -8561,6 +8619,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -8662,6 +8721,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -9314,12 +9374,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -10008,6 +10076,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -10109,6 +10178,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -10757,12 +10827,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -11450,6 +11528,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -11551,6 +11630,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -12203,12 +12283,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -12897,6 +12985,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -12998,6 +13087,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -13646,12 +13736,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -14339,6 +14437,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -14440,6 +14539,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -15092,12 +15192,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -15786,6 +15894,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -15887,6 +15996,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -16535,12 +16645,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -17228,6 +17346,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -17329,6 +17448,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -17981,12 +18101,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -18675,6 +18803,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -18776,6 +18905,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -19424,12 +19554,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -20117,6 +20255,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -20218,6 +20357,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -20870,12 +21010,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -21564,6 +21712,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -21665,6 +21814,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -22313,12 +22463,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -23006,6 +23164,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -23107,6 +23266,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -23763,12 +23923,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -24458,6 +24626,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -24559,6 +24728,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -25215,12 +25385,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -25910,6 +26088,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -26011,6 +26190,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -26667,12 +26847,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -27362,6 +27550,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -27463,6 +27652,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -28119,12 +28309,20 @@
             <label>Last Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedG</field>
+            <label>New / Upsell Products</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNSdV</field>
             <label>Starting Price</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgs</field>
             <label>Date Moved to Closed Won</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DmedF</field>
+            <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
@@ -28814,6 +29012,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -28915,6 +29114,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>

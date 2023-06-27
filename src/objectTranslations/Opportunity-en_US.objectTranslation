@@ -1721,6 +1721,18 @@
         <name>Trial_Start_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Trial Type --></label>
+        <name>Trial_Type__c</name>
+        <picklistValues>
+            <masterLabel>Full Access</masterLabel>
+            <translation><!-- Full Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Access</masterLabel>
+            <translation><!-- Limited Access --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Trial --></label>
         <name>Trial__c</name>
     </fields>
@@ -1763,6 +1775,10 @@
     <fields>
         <label><!-- Upsell EV --></label>
         <name>Upsell_EV__c</name>
+    </fields>
+    <fields>
+        <label><!-- New / Upsell Products --></label>
+        <name>Upsell_Products__c</name>
     </fields>
     <fields>
         <label><!-- Upsells --></label>
@@ -2109,6 +2125,10 @@ Opportunity: PPD Sent --></errorMessage>
     <validationRules>
         <errorMessage><!-- This Opportunity is within the 90 day forecast period. Please update the Rep Forecast Category. --></errorMessage>
         <name>Require_Rep_Forecast_Category_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Trial Type when Trial Start and End Dates are populated --></errorMessage>
+        <name>Require_Trial_Type</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please enter Contract Start and End Date, Billing contact and Billing Frequency in order to save this Opportunity as a Verbal Win. --></errorMessage>
