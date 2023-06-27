@@ -35,6 +35,10 @@
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Head of SDR&apos;s</masterLabel>
+            <translation><!-- Head of SDR&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Hewett Research</masterLabel>
             <translation><!-- Hewett Research --></translation>
         </picklistValues>
@@ -1778,6 +1782,10 @@
         <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of SDR&apos;s</masterLabel>
+            <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Hewett Research</masterLabel>
