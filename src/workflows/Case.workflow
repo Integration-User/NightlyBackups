@@ -36,6 +36,17 @@
         <template>Cases/Case_Stale_4_days</template>
     </alerts>
     <alerts>
+        <fullName>Case_Trial_Deactivation_Email_Alert</fullName>
+        <description>Case Trial Deactivation Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Opportunity Owner</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Trial_Deactivation_Access_Template</template>
+    </alerts>
+    <alerts>
         <fullName>Data_Support_Inside_Office_Hours_Email_Alert</fullName>
         <description>Data Support Inside Office Hours Email Alert</description>
         <protected>false</protected>

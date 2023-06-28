@@ -13148,6 +13148,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account_Product_Line__c.Trial__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Alert__mdt.Alert__c</field>
         <readable>true</readable>
@@ -20479,6 +20484,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Trial_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Trial__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -20525,6 +20535,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Upsell_EV__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Upsell_Products__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

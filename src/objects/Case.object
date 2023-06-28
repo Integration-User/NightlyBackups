@@ -331,16 +331,6 @@
                     <label>Remove Lost Product(s)</label>
                 </value>
                 <value>
-                    <fullName>Trial Activation</fullName>
-                    <default>false</default>
-                    <label>Trial Activation</label>
-                </value>
-                <value>
-                    <fullName>Trial Deactivation</fullName>
-                    <default>false</default>
-                    <label>Trial Deactivation</label>
-                </value>
-                <value>
                     <fullName>Full Account Activation</fullName>
                     <default>false</default>
                     <label>Full Account Activation</label>
@@ -354,6 +344,36 @@
                     <fullName>Suspend</fullName>
                     <default>false</default>
                     <label>Suspend</label>
+                </value>
+                <value>
+                    <fullName>Full Trial Activation</fullName>
+                    <default>false</default>
+                    <label>Full Trial Activation</label>
+                </value>
+                <value>
+                    <fullName>Full Trial Deactivation</fullName>
+                    <default>false</default>
+                    <label>Full Trial Deactivation</label>
+                </value>
+                <value>
+                    <fullName>Full Trial Conversion</fullName>
+                    <default>false</default>
+                    <label>Full Trial Conversion</label>
+                </value>
+                <value>
+                    <fullName>Limited Trial Activation</fullName>
+                    <default>false</default>
+                    <label>Limited Trial Activation</label>
+                </value>
+                <value>
+                    <fullName>Limited Trial Deactivation</fullName>
+                    <default>false</default>
+                    <label>Limited Trial Deactivation</label>
+                </value>
+                <value>
+                    <fullName>Limited Trial Conversion</fullName>
+                    <default>false</default>
+                    <label>Limited Trial Conversion</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -4685,6 +4705,30 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Full Account Deactivation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Trial Activation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Trial Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Trial Deactivation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Trial Activation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Trial Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Trial Deactivation</fullName>
                 <default>false</default>
             </values>
             <values>

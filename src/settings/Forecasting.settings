@@ -716,6 +716,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -1120,6 +1124,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -1387,6 +1395,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -1488,6 +1497,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -2153,6 +2163,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -2557,6 +2571,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -2824,6 +2842,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -2925,6 +2944,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -3590,6 +3610,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -3994,6 +4018,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -4261,6 +4289,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -4362,6 +4391,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -5027,6 +5057,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -5431,6 +5465,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -5698,6 +5736,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -5799,6 +5838,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -6456,6 +6496,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -6860,6 +6904,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -7125,6 +7173,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -7226,6 +7275,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -7882,6 +7932,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -8286,6 +8340,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -8551,6 +8609,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -8652,6 +8711,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -9312,6 +9372,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -9716,6 +9780,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -9982,6 +10050,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -10083,6 +10152,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -10739,6 +10809,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -11143,6 +11217,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -11408,6 +11486,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -11509,6 +11588,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -12169,6 +12249,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -12573,6 +12657,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -12839,6 +12927,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -12940,6 +13029,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -13596,6 +13686,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -14000,6 +14094,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -14265,6 +14363,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -14366,6 +14465,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -15026,6 +15126,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -15430,6 +15534,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -15696,6 +15804,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -15797,6 +15906,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -16453,6 +16563,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -16857,6 +16971,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -17122,6 +17240,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -17223,6 +17342,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -17883,6 +18003,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -18287,6 +18411,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -18553,6 +18681,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -18654,6 +18783,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -19310,6 +19440,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -19714,6 +19848,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -19979,6 +20117,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -20080,6 +20219,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -20740,6 +20880,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -21144,6 +21288,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -21410,6 +21558,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -21511,6 +21660,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -22167,6 +22317,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -22571,6 +22725,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -22836,6 +22994,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -22937,6 +23096,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -23601,6 +23761,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -24005,6 +24169,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -24272,6 +24440,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -24373,6 +24542,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -25038,6 +25208,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -25442,6 +25616,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -25709,6 +25887,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -25810,6 +25989,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -26475,6 +26655,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -26879,6 +27063,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -27146,6 +27334,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -27247,6 +27436,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
@@ -27912,6 +28102,10 @@
             <label>NetSuite ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uocm0</field>
+            <label>New / Upsell Products</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhf7</field>
             <label>New Business Credit</label>
         </opportunityListFieldsLabelMappings>
@@ -28316,6 +28510,10 @@
             <label>Trial Start Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000Uoclz</field>
+            <label>Trial Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1h</field>
             <label>Trigger Real-time Sync</label>
         </opportunityListFieldsLabelMappings>
@@ -28583,6 +28781,7 @@
             <field>0BCf40000002O8p</field>
             <field>00N5G00000VUxna</field>
             <field>00Nf400000V6v18</field>
+            <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
             <field>00Nf400000V6v1A</field>
@@ -28684,6 +28883,7 @@
             <field>00Nf400000OWr8k</field>
             <field>00Nf400000OWr8p</field>
             <field>00N5G00000VZgvw</field>
+            <field>00N5G00000Uoclz</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
             <field>00N5G00000WeE8i</field>
