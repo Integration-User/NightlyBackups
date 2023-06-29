@@ -10415,7 +10415,7 @@ ISPICKVAL( Status , &quot;Sales Qualified&quot;))
     </validationRules>
     <validationRules>
         <fullName>Mandatory_Opportunity_Creation</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Blocks leads from being converted without creating or associating to an opportunity</description>
         <errorConditionFormula>AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,
 AND (

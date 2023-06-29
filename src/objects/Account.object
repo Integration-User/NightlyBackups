@@ -1562,6 +1562,40 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         </valueSet>
     </fields>
     <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EU</fullName>
+                    <default>false</default>
+                    <label>EU</label>
+                </value>
+                <value>
+                    <fullName>ROW</fullName>
+                    <default>false</default>
+                    <label>ROW</label>
+                </value>
+                <value>
+                    <fullName>NA</fullName>
+                    <default>false</default>
+                    <label>NA</label>
+                </value>
+                <value>
+                    <fullName>AP</fullName>
+                    <default>false</default>
+                    <label>AP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Lock_Opportunities__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -2500,7 +2534,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <description>Checkbox to denote if a record is updated in salesforce and required to be synced with NS.</description>
         <externalId>false</externalId>
         <label>Sync to Netsuite</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -2510,7 +2544,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <label>Synced?</label>
         <length>10</length>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -4417,6 +4451,25 @@ Stored as Long on Solr.</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Location__c</picklist>
+            <values>
+                <fullName>AP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROW</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Other_Vendors__c</picklist>
             <values>
                 <fullName>22V</fullName>
@@ -5700,6 +5753,25 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>NA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Location__c</picklist>
+            <values>
+                <fullName>AP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROW</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
