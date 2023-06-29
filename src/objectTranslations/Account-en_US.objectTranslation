@@ -699,6 +699,26 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>AP</masterLabel>
+            <translation><!-- AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU</masterLabel>
+            <translation><!-- EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROW</masterLabel>
+            <translation><!-- ROW --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Lock Opportunities --></label>
         <name>Lock_Opportunities__c</name>
     </fields>
