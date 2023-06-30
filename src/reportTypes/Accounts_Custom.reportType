@@ -778,6 +778,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>Protected_By_Age__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>UK_Lead__c</field>
             <table>Account</table>
         </columns>
@@ -809,6 +814,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Protected_By__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Protected_By_Last_Change__c</field>
             <table>Account</table>
         </columns>
         <columns>
@@ -1013,6 +1023,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>Protected_By__c.Manager.Manager</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Total_Products__c</field>
             <table>Account</table>
         </columns>
@@ -1049,6 +1064,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Owner.IsActive</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Protected_By__c.Manager</field>
             <table>Account</table>
         </columns>
         <masterLabel>Accounts</masterLabel>

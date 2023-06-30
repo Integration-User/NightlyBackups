@@ -4344,7 +4344,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <externalId>false</externalId>
         <label>Trigger Real-time Sync</label>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -5353,6 +5353,8 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Product_Types__c</columns>
         <columns>NS_Issues__c</columns>
         <columns>Win_Validation__c</columns>
+        <columns>Sync_to_Netsuite__c</columns>
+        <columns>Synced__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Win_Validation__c</field>
