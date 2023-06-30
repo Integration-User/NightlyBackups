@@ -274,6 +274,10 @@
             <translation><!-- Client --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Client + Trial</masterLabel>
+            <translation><!-- Client + Trial --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Favor</masterLabel>
             <translation><!-- Favor --></translation>
         </picklistValues>

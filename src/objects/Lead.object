@@ -945,6 +945,11 @@
                     <default>false</default>
                     <label>Trial</label>
                 </value>
+                <value>
+                    <fullName>Client + Trial</fullName>
+                    <default>false</default>
+                    <label>Client + Trial</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5146,6 +5151,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Client %2B Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Favor</fullName>
                 <default>false</default>
             </values>
@@ -8060,6 +8069,10 @@ Stored as Long on Solr.</description>
             <picklist>GS_Relationship__c</picklist>
             <values>
                 <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client %2B Trial</fullName>
                 <default>false</default>
             </values>
             <values>
