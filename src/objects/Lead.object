@@ -910,7 +910,7 @@
         <label>GS Relationship</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -945,6 +945,11 @@
                     <fullName>Trial</fullName>
                     <default>false</default>
                     <label>Trial</label>
+                </value>
+                <value>
+                    <fullName>Client + Trial</fullName>
+                    <default>false</default>
+                    <label>Client + Trial</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -5125,6 +5130,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Client %2B Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Favor</fullName>
                 <default>false</default>
             </values>
@@ -8039,6 +8048,10 @@ Stored as Long on Solr.</description>
             <picklist>GS_Relationship__c</picklist>
             <values>
                 <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client %2B Trial</fullName>
                 <default>false</default>
             </values>
             <values>
