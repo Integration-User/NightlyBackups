@@ -865,6 +865,35 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- This field is used for &quot;Pre-opportunity&quot; prospecting --></help>
+        <label><!-- Prospect Category --></label>
+        <name>Prospect_Category__c</name>
+        <picklistValues>
+            <masterLabel>Not Viable Now</masterLabel>
+            <translation><!-- Not Viable Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-visit Timing</masterLabel>
+            <translation><!-- Re-visit Timing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspect</masterLabel>
+            <translation><!-- Suspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target</masterLabel>
+            <translation><!-- Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Prospect Notes --></label>
+        <name>Prospect_Notes__c</name>
+    </fields>
+    <fields>
         <help><!-- Calculates the Date/Time Today - Protected By Last Change in Days --></help>
         <label><!-- Protected By Age --></label>
         <name>Protected_By_Age__c</name>
@@ -894,6 +923,11 @@
     <fields>
         <label><!-- RR Monthly Max --></label>
         <name>RR_Monthly_Max__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field must be entered when “Re-visit Timing” is selected. --></help>
+        <label><!-- Re-visit Date --></label>
+        <name>Re_visit_Date__c</name>
     </fields>
     <fields>
         <label><!-- React Client --></label>
@@ -1514,6 +1548,18 @@
     <validationRules>
         <errorMessage><!-- You cannot change the name of this Account. --></errorMessage>
         <name>Prevent_Renaming_Unassigned_Accounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Prospect Notes when Prospect Category &quot;Not Viable Now&quot; is selected --></errorMessage>
+        <name>Require_Prospect_Not_Viable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Re-visit Date if the Prospect Category is Re-visit Timing --></errorMessage>
+        <name>Require_Revisit_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Prospect Category cannot be blank when Date is entered --></errorMessage>
+        <name>Require_Revisit_Timing</name>
     </validationRules>
     <webLinks>
         <label><!-- Email_Distribution --></label>
