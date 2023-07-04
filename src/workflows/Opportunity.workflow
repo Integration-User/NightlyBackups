@@ -444,6 +444,10 @@
             <type>role</type>
         </recipients>
         <recipients>
+            <recipient>Product_Management</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
             <recipient>Sales</recipient>
             <type>role</type>
         </recipients>
