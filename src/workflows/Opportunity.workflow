@@ -504,6 +504,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>kclemons@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>khoffman@greenstreet.com</recipient>
             <type>user</type>
         </recipients>

@@ -464,6 +464,18 @@
         <name>Last_Seen_on_Internal_Site__c</name>
     </fields>
     <fields>
+        <label><!-- Left this Account --></label>
+        <name>Left_this_Account__c</name>
+        <picklistValues>
+            <masterLabel>Hard Bounce</masterLabel>
+            <translation><!-- Hard Bounce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notified of Departure</masterLabel>
+            <translation><!-- Notified of Departure --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- LinkedIn Profile --></label>
         <name>LinkedIn_Profile__c</name>
     </fields>
