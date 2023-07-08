@@ -1166,6 +1166,19 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Lead_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Leads (Lead Contact)</relationshipLabel>
+        <relationshipName>Leads2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Lead_Priority__c</fullName>
         <externalId>false</externalId>
         <formula>IF(ISPICKVAL(LeadSource , &quot;Inquiry&quot;), 1,
@@ -2863,7 +2876,7 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Next_Outreach_Date__c</fullName>

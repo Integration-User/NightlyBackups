@@ -365,6 +365,11 @@
         <name>Lead_Classification__c</name>
     </fields>
     <fields>
+        <label><!-- Lead Contact --></label>
+        <name>Lead_Contact__c</name>
+        <relationshipLabel><!-- Leads (Lead Contact) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Lead Priority --></label>
         <name>Lead_Priority__c</name>
     </fields>
