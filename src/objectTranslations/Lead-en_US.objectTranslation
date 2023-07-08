@@ -2253,6 +2253,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- ZoomInfo Job Title --></label>
+        <name>ZoomInfo_Job_Title__c</name>
+    </fields>
+    <fields>
         <label><!-- AffectLayer --></label>
         <name>affectlayer__AffectLayer_Notes__c</name>
     </fields>

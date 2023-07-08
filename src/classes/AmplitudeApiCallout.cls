@@ -1,6 +1,14 @@
 public class AmplitudeApiCallout {
     
     public static void apiCallout() {
+        String generatedCSVFile ='GSA ID,Budgeted Account Owner, Account Priority, Status\n';
+        List<Contact> conList = [Select Id, Account.GSA_ID__c, Account.Budgeted_Account_Owner__c, Account_Priority__c, Contact_Status__c From Contact where Account.Budgeted_Account_Owner__c != null];
+        for (Contact con : conList) {
+            String fileRow = con.Account.GSA_ID__c + ',' + con.Account.Budgeted_Account_Owner__c+ ',' + con.Account_Priority__c+ ',' + con.Contact_Status__c;
+            generatedCSVFile +=  fileRow + '\n';
+        }
+        Blob csvBlob = blob.valueOf(generatedCSVFile);
+        String csvName = 'Lookup Table - Amplitude.csv';
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         
