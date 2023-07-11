@@ -5403,6 +5403,8 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Priority__c</columns>
         <columns>Product_Types__c</columns>
         <columns>Other_Invoice_Frequency__c</columns>
+        <columns>Sync_to_Netsuite__c</columns>
+        <columns>Synced__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Win_Validation__c</field>
@@ -5441,6 +5443,8 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Product_Types__c</columns>
         <columns>NS_Issues__c</columns>
         <columns>Win_Validation__c</columns>
+        <columns>Sync_to_Netsuite__c</columns>
+        <columns>Synced__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Win_Validation__c</field>
@@ -5486,6 +5490,8 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Product_Types__c</columns>
         <columns>NS_Issues__c</columns>
         <columns>Win_Validation__c</columns>
+        <columns>Sync_to_Netsuite__c</columns>
+        <columns>Synced__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Win_Validation__c</field>
