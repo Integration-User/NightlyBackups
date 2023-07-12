@@ -9023,11 +9023,39 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <picklistValues>
             <picklist>copado__Status__c</picklist>
             <values>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Code Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Done</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prioritized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Prod</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

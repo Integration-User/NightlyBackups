@@ -869,16 +869,16 @@
         <label><!-- Prospect Category --></label>
         <name>Prospect_Category__c</name>
         <picklistValues>
-            <masterLabel>Not Viable Now</masterLabel>
-            <translation><!-- Not Viable Now --></translation>
+            <masterLabel>Not Viable</masterLabel>
+            <translation><!-- Not Viable --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Pipeline</masterLabel>
             <translation><!-- Pipeline --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Re-visit Timing</masterLabel>
-            <translation><!-- Re-visit Timing --></translation>
+            <masterLabel>Revisit Timing</masterLabel>
+            <translation><!-- Revisit Timing --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Suspect</masterLabel>
@@ -925,8 +925,8 @@
         <name>RR_Monthly_Max__c</name>
     </fields>
     <fields>
-        <help><!-- This field must be entered when “Re-visit Timing” is selected. --></help>
-        <label><!-- Re-visit Date --></label>
+        <help><!-- This field must be entered when “Revisit Timing” is selected. --></help>
+        <label><!-- Revisit Date --></label>
         <name>Re_visit_Date__c</name>
     </fields>
     <fields>
@@ -1550,11 +1550,11 @@
         <name>Prevent_Renaming_Unassigned_Accounts</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Please provide Prospect Notes when Prospect Category &quot;Not Viable Now&quot; is selected --></errorMessage>
+        <errorMessage><!-- Please provide Prospect Notes when Prospect Category &quot;Not Viable&quot; is selected --></errorMessage>
         <name>Require_Prospect_Not_Viable</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Please provide the Re-visit Date if the Prospect Category is Re-visit Timing --></errorMessage>
+        <errorMessage><!-- Please provide the Revisit Date if the Prospect Category is Revisit Timing --></errorMessage>
         <name>Require_Revisit_Date</name>
     </validationRules>
     <validationRules>
