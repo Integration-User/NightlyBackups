@@ -17,6 +17,7 @@
                 <elementReference>GetContactRecord.User_Department__c</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>GetInfoForUser</nameSegment>
         <outputParameters>
             <assignToReference>errorMessage</assignToReference>
             <name>errorMessage</name>
@@ -33,6 +34,7 @@
             <assignToReference>roleId</assignToReference>
             <name>roleId</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>SendEmailToFinanceTeam</name>
@@ -63,6 +65,8 @@
                 <elementReference>NewSalesforceUserCreatedinSalesforce</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>SendEmailtoSystemAdmin</name>
@@ -93,6 +97,8 @@
                 <elementReference>SubjectAdminsEmail</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <assignments>

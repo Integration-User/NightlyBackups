@@ -23,6 +23,7 @@
                 <elementReference>Opportunity.Consolidated_To__c</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>ConsolidatedOpportunity</nameSegment>
         <outputParameters>
             <assignToReference>Error</assignToReference>
             <name>isError</name>
@@ -31,6 +32,7 @@
             <assignToReference>Result</assignToReference>
             <name>result</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
     <environments>Default</environments>
