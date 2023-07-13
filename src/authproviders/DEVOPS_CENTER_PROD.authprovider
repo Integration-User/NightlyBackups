@@ -3,6 +3,7 @@
     <friendlyName>DevOps Center Prod</friendlyName>
     <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
     <providerType>Salesforce</providerType>
+    <requireMfa>false</requireMfa>
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
     <sendSecretInApis>false</sendSecretInApis>

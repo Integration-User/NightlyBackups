@@ -3,6 +3,7 @@
     <canOnlyLoginWithMyDomainUrl>true</canOnlyLoginWithMyDomainUrl>
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <domainPartition>sandbox</domainPartition>
+    <enableEdgeDuringRollout>true</enableEdgeDuringRollout>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
     <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>

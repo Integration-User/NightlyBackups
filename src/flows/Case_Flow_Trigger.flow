@@ -27,6 +27,8 @@
                 <elementReference>Subject</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Updated Account related contact owner where contact fetching condition will be : 
@@ -52,7 +54,9 @@ Contact_Account_Owners_Match__c = FALSE</description>
                 <elementReference>$Record.Account_Manager__c</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>UpdateContactOwner</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <decisions>

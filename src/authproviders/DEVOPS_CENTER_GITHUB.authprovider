@@ -3,6 +3,7 @@
     <friendlyName>DevOps Center GitHub</friendlyName>
     <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
     <providerType>GitHub</providerType>
+    <requireMfa>false</requireMfa>
     <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
     <sendSecretInApis>false</sendSecretInApis>
