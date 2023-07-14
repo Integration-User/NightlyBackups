@@ -7589,6 +7589,25 @@ Stored as Long on Solr.</description>
         <label>BS Business Development Activity</label>
     </listViews>
     <listViews>
+        <fullName>Bounced_Contacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Company_Type_Contact__c</field>
+            <operation>contains</operation>
+            <value>Broker</value>
+        </filters>
+        <label>Bounced Broker Contacts</label>
+        <sharedTo>
+            <role>Customer_Success</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>Casey_Searl_Business_Development</fullName>
         <columns>FULL_NAME</columns>
         <columns>ACCOUNT.NAME</columns>
