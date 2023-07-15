@@ -7741,7 +7741,7 @@ Stored as Long on Solr.</description>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>contains</operation>
-            <value>HSBC Global Asset Management (NA)</value>
+            <value>dexus</value>
         </filters>
         <label>Copy of User List Updates</label>
         <sharedTo>
