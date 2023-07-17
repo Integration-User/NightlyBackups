@@ -390,12 +390,6 @@
         <label>US Standardized Downloads</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
-    </customValue>
-    <customValue>
         <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -406,6 +400,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>EU REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Data</label>
     </customValue>
     <customValue>
         <fullName>NA REIT</fullName>
