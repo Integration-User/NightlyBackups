@@ -6157,19 +6157,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6178,10 +6178,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>News Subscription Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6209,11 +6205,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Previous Client</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6237,15 +6241,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Slide Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7659,19 +7663,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7680,10 +7684,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>News Subscription Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7711,11 +7711,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Previous Client</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7739,15 +7747,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Slide Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9185,6 +9193,30 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Outbound</fullName>
                 <default>false</default>
             </values>
@@ -9209,7 +9241,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Previous Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9230,6 +9274,18 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Referral%3A Past Client Introduction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10535,6 +10591,30 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Outbound</fullName>
                 <default>false</default>
             </values>
@@ -10559,7 +10639,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Previous Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10580,6 +10672,18 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Referral%3A Past Client Introduction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11921,23 +12025,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11949,7 +12049,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11957,7 +12057,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11965,15 +12073,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13379,23 +13479,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13407,7 +13503,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13415,7 +13511,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13423,15 +13527,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14765,23 +14861,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14793,7 +14885,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14801,7 +14893,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14809,15 +14909,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16116,11 +16208,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16132,7 +16228,35 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -17406,23 +17530,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17434,7 +17554,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17442,7 +17562,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17450,15 +17578,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18884,23 +19004,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18912,7 +19028,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18920,7 +19036,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18928,15 +19052,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -20350,23 +20466,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20378,7 +20490,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20386,7 +20498,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20394,15 +20514,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

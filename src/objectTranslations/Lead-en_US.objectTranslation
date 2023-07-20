@@ -1914,12 +1914,36 @@
             <translation><!-- No Interest --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>No Research Budget</masterLabel>
+            <translation><!-- No Research Budget --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Not Responsive</masterLabel>
             <translation><!-- Not Responsive --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Fit</masterLabel>
+            <translation><!-- Product Fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student/non-buying EDU/Media/non-viable contact</masterLabel>
+            <translation><!-- Student/non-buying EDU/Media/non-viable contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing</masterLabel>
+            <translation><!-- Timing --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Unqualified</masterLabel>
             <translation><!-- Unqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreachable</masterLabel>
+            <translation><!-- Unreachable --></translation>
         </picklistValues>
     </fields>
     <fields>

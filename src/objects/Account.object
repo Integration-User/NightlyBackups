@@ -3643,11 +3643,15 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3659,7 +3663,19 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3667,11 +3683,15 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Upsell Opportunity</fullName>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5092,11 +5112,15 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5108,7 +5132,19 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5116,11 +5152,15 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Upsell Opportunity</fullName>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
