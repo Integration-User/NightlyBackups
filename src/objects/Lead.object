@@ -1147,16 +1147,9 @@ FALSE
   &quot;Inquiry&quot;, &quot;Hot&quot;,
   &quot;Referral&quot;, &quot;Hot&quot;,
   &quot;AM Referral&quot;, &quot;Hot&quot;,
-  &quot;News Subscription Request&quot;, &quot;Hot&quot;,
-  &quot;Online Research Led to our Website&quot;, &quot;Hot&quot;,
-  &quot;Reputation Recognition&quot;, &quot;Hot&quot;,
-  &quot;Employee Referral&quot;, &quot;Hot&quot;,
-  &quot;Advisory Referral&quot;, &quot;Hot&quot;,
-  &quot;Financial Times&quot;, &quot;Hot&quot;, 
-  &quot;Bloomberg&quot;, &quot;Hot&quot;,
-  &quot;Employee Referral&quot;, &quot;Hot&quot;, 
+  &quot;Demo Request&quot;, &quot;Hot&quot;,
+  &quot;React &amp; US News Ecomm Inquiries&quot;, &quot;Hot&quot;,
   &quot;Referral: Past Client Introduction&quot;, &quot;Hot&quot;,
-  &quot;Wall Street Journal&quot;, &quot;Hot&quot;, 
 IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formula>
         <inlineHelpText>Classification based on the lead source</inlineHelpText>
         <label>Lead Classification</label>
@@ -3459,6 +3452,36 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <default>false</default>
                     <label>Academic - Professor</label>
                 </value>
+                <value>
+                    <fullName>Unreachable</fullName>
+                    <default>false</default>
+                    <label>Unreachable</label>
+                </value>
+                <value>
+                    <fullName>Timing</fullName>
+                    <default>false</default>
+                    <label>Timing</label>
+                </value>
+                <value>
+                    <fullName>No Research Budget</fullName>
+                    <default>false</default>
+                    <label>No Research Budget</label>
+                </value>
+                <value>
+                    <fullName>Product Fit</fullName>
+                    <default>false</default>
+                    <label>Product Fit</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Student/non-buying EDU/Media/non-viable contact</fullName>
+                    <default>false</default>
+                    <label>Student/non-buying EDU/Media/non-viable contact</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5373,23 +5396,19 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Cognism</fullName>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Conference%2FEvent</fullName>
+                <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Campaign</fullName>
+                <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5401,7 +5420,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>News Subscription Request</fullName>
+                <fullName>Paid Acquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5409,7 +5428,15 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5417,15 +5444,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Targeted Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
+                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7051,55 +7070,27 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>Reason_Disqualified__c</picklist>
             <values>
-                <fullName>Academic - Professor</fullName>
+                <fullName>No Research Budget</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Academic - Student</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Competitor</fullName>
+                <fullName>Product Fit</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Current Client</fullName>
+                <fullName>Student%2Fnon-buying EDU%2FMedia%2Fnon-viable contact</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Engaged but Bad Timing</fullName>
+                <fullName>Timing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Engaged but Company Type Doesn%E2%80%99t Use Research%2FData%2FNews</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engaged but No Budget</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engaged but Not Responsive</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engaged but Not the Right Contact %28Department%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engaged but Not the Right Contact %28Seniority%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engaged but Still Learning%2FNot Ready for Sales</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engaged but on Prohibited List</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Student%2FProfessor%2FMedia%2FVendor</fullName>
+                <fullName>Unreachable</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8295,10 +8286,6 @@ Stored as Long on Solr.</description>
             <picklist>LeadSource</picklist>
             <values>
                 <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
