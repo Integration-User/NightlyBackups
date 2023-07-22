@@ -216,12 +216,6 @@
         <label>Vendor</label>
     </customValue>
     <customValue>
-        <fullName>Accountant / Consultant / Law Firm</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Accountant / Consultant / Law Firm</label>
-    </customValue>
-    <customValue>
         <fullName>Private Equity</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -270,6 +264,12 @@
         <label>Bank - Commercial</label>
     </customValue>
     <customValue>
+        <fullName>Money Manager - Hedge Fund</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Money Manager - Hedge Fund</label>
+    </customValue>
+    <customValue>
         <fullName>Money Manager - HF / FoF</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -312,10 +312,10 @@
         <label>Other</label>
     </customValue>
     <customValue>
-        <fullName>Money Manager - Hedge Fund</fullName>
+        <fullName>Accountant / Consultant / Law Firm</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Money Manager - Hedge Fund</label>
+        <label>Accountant / Consultant / Law Firm</label>
     </customValue>
     <customValue>
         <fullName>Accounting</fullName>
