@@ -130,7 +130,6 @@
         <fields>UnitPrice</fields>
         <fields>Color__c</fields>
     </miniLayout>
-    <multilineLayoutFields>OpportunityId</multilineLayoutFields>
     <multilineLayoutFields>Product2Id</multilineLayoutFields>
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>
     <multilineLayoutFields>Publication__c</multilineLayoutFields>
@@ -139,6 +138,7 @@
     <multilineLayoutFields>Color__c</multilineLayoutFields>
     <multilineLayoutFields>End_Date__c</multilineLayoutFields>
     <multilineLayoutFields>Lost_Product__c</multilineLayoutFields>
+    <multilineLayoutFields>OpportunityId</multilineLayoutFields>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
