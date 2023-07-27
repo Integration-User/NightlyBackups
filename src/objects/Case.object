@@ -9404,6 +9404,10 @@ FALSE)))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>US Research</fullName>
                 <default>false</default>
             </values>
@@ -9653,6 +9657,10 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Administrative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Analyst Visit %2F Request</fullName>
                 <default>false</default>
             </values>
             <values>

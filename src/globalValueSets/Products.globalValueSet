@@ -141,6 +141,11 @@
         <label>API</label>
     </customValue>
     <customValue>
+        <fullName>Snowflake</fullName>
+        <default>false</default>
+        <label>Snowflake</label>
+    </customValue>
+    <customValue>
         <fullName>DataLink</fullName>
         <default>false</default>
         <label>DataLink</label>
@@ -386,6 +391,12 @@
         <label>EUR Data Delivery - REIT Data</label>
     </customValue>
     <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
+    </customValue>
+    <customValue>
         <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -414,12 +425,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>EU REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>eREA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>
