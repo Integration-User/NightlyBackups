@@ -360,6 +360,10 @@
         <name>LID__LinkedIn_Member_Token__c</name>
     </fields>
     <fields>
+        <label><!-- Last Page Seen --></label>
+        <name>Last_Page_Seen__c</name>
+    </fields>
+    <fields>
         <help><!-- Classification based on the lead source --></help>
         <label><!-- Lead Classification --></label>
         <name>Lead_Classification__c</name>
@@ -1773,7 +1777,91 @@
     </fields>
     <fields>
         <label><!-- Product Interest --></label>
+        <name>Product_Interest_Marketing__c</name>
+        <picklistValues>
+            <masterLabel>Data Delivery (Includes Standardized Downloads, DataLink, &amp; API)</masterLabel>
+            <translation><!-- Data Delivery (Includes Standardized Downloads, DataLink, &amp; API) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detailed NAV and Earnings Models</masterLabel>
+            <translation><!-- Detailed NAV and Earnings Models --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>European Sales Comps</masterLabel>
+            <translation><!-- European Sales Comps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pan-European Data Analytics</masterLabel>
+            <translation><!-- Pan-European Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pan-European React News</masterLabel>
+            <translation><!-- Pan-European React News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pan-European Research</masterLabel>
+            <translation><!-- Pan-European Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Data Analytics</masterLabel>
+            <translation><!-- U.S. Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. News</masterLabel>
+            <translation><!-- U.S. News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Portfolio Tools (Includes AVM &amp; Portfolio Analytics)</masterLabel>
+            <translation><!-- U.S. Portfolio Tools (Includes AVM &amp; Portfolio Analytics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Rent Comps</masterLabel>
+            <translation><!-- U.S. Rent Comps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Research</masterLabel>
+            <translation><!-- U.S. Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Sales Comps</masterLabel>
+            <translation><!-- U.S. Sales Comps --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
         <name>Product_Interest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Function --></label>
+        <name>Professional_Function__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation><!-- Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Manager</masterLabel>
+            <translation><!-- Asset Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C Suite</masterLabel>
+            <translation><!-- C Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit/Lending</masterLabel>
+            <translation><!-- Credit/Lending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Manager</masterLabel>
+            <translation><!-- Portfolio Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice President</masterLabel>
+            <translation><!-- Vice President --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Publicly Traded? --></label>
