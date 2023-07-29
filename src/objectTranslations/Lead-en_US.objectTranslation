@@ -2365,8 +2365,140 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- ZoomInfo Company City --></label>
+        <name>ZoomInfo_Company_City_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Country Code --></label>
+        <name>ZoomInfo_Company_Country_Code_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Description --></label>
+        <name>ZoomInfo_Company_Description_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company ID --></label>
+        <name>ZoomInfo_Company_ID_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company NAICS Code --></label>
+        <name>ZoomInfo_Company_NAICS_Code_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Name --></label>
+        <name>ZoomInfo_Company_Name_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Phone --></label>
+        <name>ZoomInfo_Company_Phone_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Revenue --></label>
+        <name>ZoomInfo_Company_Revenue_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Revenue Range --></label>
+        <name>ZoomInfo_Company_Revenue_Range_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company SIC Code --></label>
+        <name>ZoomInfo_Company_SIC_Code_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company State --></label>
+        <name>ZoomInfo_Company_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Street --></label>
+        <name>ZoomInfo_Company_Street_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Ticker --></label>
+        <name>ZoomInfo_Company_Ticker_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Company Zip Code --></label>
+        <name>ZoomInfo_Company_Zip_Code_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Direct Phone --></label>
+        <name>ZoomInfo_Direct_Phone_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Education --></label>
+        <name>ZoomInfo_Education_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Email Address --></label>
+        <name>ZoomInfo_Email_Address_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Employee Count --></label>
+        <name>ZoomInfo_Employee_Count_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Employment History --></label>
+        <name>ZoomInfo_Employment_History_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo First Name --></label>
+        <name>ZoomInfo_First_Name_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Job Title --></label>
+        <name>ZoomInfo_Job_Title_Lead__c</name>
+    </fields>
+    <fields>
         <label><!-- ZoomInfo Job Title --></label>
         <name>ZoomInfo_Job_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Last Name --></label>
+        <name>ZoomInfo_Last_Name_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Last Updated Date --></label>
+        <name>ZoomInfo_Last_Updated_Date_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Management Level --></label>
+        <name>ZoomInfo_Management_Level_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Person City --></label>
+        <name>ZoomInfo_Person_City_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Person Country --></label>
+        <name>ZoomInfo_Person_Country_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Person ID --></label>
+        <name>ZoomInfo_Person_ID_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Person State --></label>
+        <name>ZoomInfo_Person_State_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Person Street --></label>
+        <name>ZoomInfo_Person_Street_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Person Zip Code --></label>
+        <name>ZoomInfo_Person_Zip_Code_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Technology Products --></label>
+        <name>ZoomInfo_Technology_Products_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Website --></label>
+        <name>ZoomInfo_Website_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZoomInfo Within EU --></label>
+        <name>ZoomInfo_Within_EU_Lead__c</name>
     </fields>
     <fields>
         <label><!-- AffectLayer --></label>

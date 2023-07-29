@@ -379,10 +379,6 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Closed Sales --></label>
-        <name>Closed_Sales__c</name>
-    </fields>
-    <fields>
         <label><!-- Company Domain Name --></label>
         <name>Company_Domain_Name__c</name>
     </fields>
@@ -753,10 +749,6 @@
     <fields>
         <label><!-- Number of Open Opportunities --></label>
         <name>Number_of_Open_Opportunities__c</name>
-    </fields>
-    <fields>
-        <label><!-- Open Opportunities --></label>
-        <name>Open_Opportunities__c</name>
     </fields>
     <fields>
         <label><!-- Original Date --></label>
