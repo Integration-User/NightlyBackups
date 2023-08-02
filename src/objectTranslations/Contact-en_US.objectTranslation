@@ -471,6 +471,10 @@
             <translation><!-- Hard Bounce --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>LinkedIn</masterLabel>
+            <translation><!-- LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Notified of Departure</masterLabel>
             <translation><!-- Notified of Departure --></translation>
         </picklistValues>

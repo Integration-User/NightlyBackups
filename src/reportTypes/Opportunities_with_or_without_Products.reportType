@@ -452,11 +452,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Account.Closed_Sales__c</field>
-            <table>Opportunity</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Account.Company_Domain_Name__c</field>
             <table>Opportunity</table>
         </columns>
@@ -608,11 +603,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Account.Lost_Client__c</field>
-            <table>Opportunity</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Account.Open_Opportunities__c</field>
             <table>Opportunity</table>
         </columns>
         <columns>
