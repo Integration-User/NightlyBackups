@@ -5042,6 +5042,27 @@ Stored as Long on Solr.</description>
         <label>My Open Leads</label>
     </listViews>
     <listViews>
+        <fullName>New_Leads1</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.TITLE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>LEAD.LEAD_SOURCE</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Most_Recent_Marketing_Activity__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Marketing_Identified_State_lead__c</columns>
+        <columns>Marketing_Identified_Country_lead__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New Leads</label>
+    </listViews>
+    <listViews>
         <fullName>Sales_Queue</fullName>
         <columns>FULL_NAME</columns>
         <columns>LEAD.EMAIL</columns>
