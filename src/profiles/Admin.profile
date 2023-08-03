@@ -355,6 +355,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactEmailDistributionTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CreateAsyncOpportunityLineItems</apexClass>
         <enabled>true</enabled>
     </classAccesses>
