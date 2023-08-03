@@ -5,7 +5,7 @@
     <deployed>true</deployed>
     <description>Engagements with Users (custom)</description>
     <join>
-        <outerJoin>true</outerJoin>
+        <outerJoin>false</outerJoin>
         <relationship>affectlayer__Chorus_Engagement_Users__r</relationship>
     </join>
     <label>Engagements with Users (custom)</label>
@@ -266,6 +266,16 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>affectlayer__User__c.Manager</field>
+            <table>affectlayer__Engagement__c.affectlayer__Chorus_Engagement_Users__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>affectlayer__User__c.Manager_Email__c</field>
+            <table>affectlayer__Engagement__c.affectlayer__Chorus_Engagement_Users__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>affectlayer__User__c.Sales_Team__c</field>
             <table>affectlayer__Engagement__c.affectlayer__Chorus_Engagement_Users__r</table>
         </columns>
         <masterLabel>Chorus Engagement Users</masterLabel>

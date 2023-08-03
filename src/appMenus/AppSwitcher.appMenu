@@ -348,4 +348,8 @@
         <name>Tool_Suite</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__Optimizer</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

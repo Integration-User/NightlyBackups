@@ -6103,7 +6103,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7609,7 +7609,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9139,7 +9139,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10477,10 +10477,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>AM Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
@@ -10490,6 +10486,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industry Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10537,7 +10537,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11943,7 +11943,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13397,7 +13397,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14779,7 +14779,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16126,7 +16126,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17448,7 +17448,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18922,7 +18922,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20384,7 +20384,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React %26 US News Ecomm Inquiries %C2%A0</fullName>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
             <values>

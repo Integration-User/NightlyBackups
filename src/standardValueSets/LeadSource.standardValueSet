@@ -106,9 +106,9 @@
         <label>Demo Request</label>
     </standardValue>
     <standardValue>
-        <fullName>React &amp; US News Ecomm Inquiries  </fullName>
+        <fullName>React &amp; US News Ecomm Inquiries</fullName>
         <default>false</default>
-        <label>React &amp; US News Ecomm Inquiries  </label>
+        <label>React &amp; US News Ecomm Inquiries</label>
     </standardValue>
     <standardValue>
         <fullName>Virtual Event</fullName>
@@ -136,11 +136,6 @@
         <label>Paid Acquisition</label>
     </standardValue>
     <standardValue>
-        <fullName>Zoominfo</fullName>
-        <default>false</default>
-        <label>Zoominfo</label>
-    </standardValue>
-    <standardValue>
         <fullName>Digital Campaign</fullName>
         <default>false</default>
         <label>Digital Campaign</label>
@@ -151,6 +146,21 @@
         <label>LinkedIn</label>
     </standardValue>
     <standardValue>
+        <fullName>Zoominfo</fullName>
+        <default>false</default>
+        <label>Zoominfo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upsell Opportunity</fullName>
+        <default>false</default>
+        <label>Upsell Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
         <fullName>Cognism</fullName>
         <default>false</default>
         <label>Cognism</label>
@@ -159,16 +169,6 @@
         <fullName>Conference/Event</fullName>
         <default>false</default>
         <label>Conference/Event</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Upsell Opportunity</fullName>
-        <default>false</default>
-        <label>Upsell Opportunity</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Targeted Campaign</fullName>
-        <default>false</default>
-        <label>Targeted Campaign</label>
     </standardValue>
     <standardValue>
         <fullName>News Subscription Request</fullName>
