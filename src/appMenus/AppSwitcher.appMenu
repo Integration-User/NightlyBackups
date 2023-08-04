@@ -344,4 +344,8 @@
         <name>Tool_Suite</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__HVSConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

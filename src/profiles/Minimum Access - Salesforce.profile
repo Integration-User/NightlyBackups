@@ -191,6 +191,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__HVSConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Insights</application>
         <default>false</default>
         <visible>false</visible>
@@ -12436,6 +12441,11 @@
         <editable>false</editable>
         <field>Account.Number_of_Open_Opportunities__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.OperatingHoursId</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -32434,6 +32444,9 @@
         <recordType>Account.Subsidiary_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ActionCadence-Cadence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Appcues__c-Appcues Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -32606,6 +32619,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Location-Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Advertising</layout>
@@ -35041,6 +35057,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Macro</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-OperatingHours</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

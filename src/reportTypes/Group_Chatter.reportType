@@ -89,6 +89,11 @@
             <field>IsBroadcast</field>
             <table>CollaborationGroup</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>IsActivityGroup</field>
+            <table>CollaborationGroup</table>
+        </columns>
         <masterLabel>Groups</masterLabel>
     </sections>
     <sections>
