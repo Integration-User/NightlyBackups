@@ -191,6 +191,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__HVSConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Insights</application>
         <default>false</default>
         <visible>false</visible>
@@ -32433,6 +32438,9 @@
     <layoutAssignments>
         <layout>Account-Subsidiary Account</layout>
         <recordType>Account.Subsidiary_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionCadence-Cadence Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Appcues__c-Appcues Layout</layout>

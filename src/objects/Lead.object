@@ -342,6 +342,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ActionCadenceAssigneeId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActionCadenceId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActionCadenceState</fullName>
+    </fields>
+    <fields>
+        <fullName>ActiveTrackerCount</fullName>
+    </fields>
+    <fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -864,6 +878,12 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>FirstCallDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstEmailDateTime</fullName>
     </fields>
     <fields>
         <fullName>FitScore__c</fullName>
@@ -3811,6 +3831,9 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>ScheduledResumeDateTime</fullName>
     </fields>
     <fields>
         <fullName>Sector_Interests_Lead__c</fullName>

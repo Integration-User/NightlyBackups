@@ -191,6 +191,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__HVSConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Insights</application>
         <default>false</default>
         <visible>true</visible>
@@ -32498,6 +32503,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account_Product_Line__c-Account Product Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionCadence-Cadence Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Alert__mdt-Alert Layout</layout>
