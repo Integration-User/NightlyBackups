@@ -451,6 +451,12 @@
         <label>REA</label>
     </customValue>
     <customValue>
+        <fullName>Learning Center</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Learning Center</label>
+    </customValue>
+    <customValue>
         <fullName>NA REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -467,12 +473,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
-    </customValue>
-    <customValue>
-        <fullName>Learning Center</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Learning Center</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
