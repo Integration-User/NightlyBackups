@@ -3384,11 +3384,12 @@ Stored as Long on Solr.</description>
         <columns>Detailed_NAV_Models__c</columns>
         <columns>High_Value_Data_Sets__c</columns>
         <columns>X18_digit_Account_ID__c</columns>
+        <columns>Activated_Users__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>GSA_ID__c</field>
-            <operation>equals</operation>
-            <value>113936,22336,114001,113999,96147,92558,97053,9562,21284,102140,114000,8386,113998,113943,113944,17970,113898,114002,8272,113945,114003,113947,103584,113948</value>
+            <field>Activated_Users__c</field>
+            <operation>greaterThan</operation>
+            <value>200</value>
         </filters>
         <label>All Accounts</label>
     </listViews>
@@ -3663,6 +3664,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5132,6 +5137,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
                 <default>false</default>
             </values>
             <values>
