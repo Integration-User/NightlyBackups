@@ -208,6 +208,10 @@
         <name>Digital_Source__c</name>
     </fields>
     <fields>
+        <label><!-- Disqualified Context --></label>
+        <name>Disqualified_Context__c</name>
+    </fields>
+    <fields>
         <help><!-- Is Sales Team EU? --></help>
         <label><!-- EU --></label>
         <name>EU__c</name>
@@ -2086,6 +2090,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Revisit Date --></label>
+        <name>Revisit_Date__c</name>
+    </fields>
+    <fields>
         <label><!-- Active Lead --></label>
         <name>SalesLoft1__Active_Lead__c</name>
     </fields>
@@ -2647,6 +2655,10 @@
         <name>Require_Advisory_Minimum</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Please provide Disqualified Context. --></errorMessage>
+        <name>Require_Disqualified_Context</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- You must enter an Email or Phone number to qualify a lead or convert it (stage 2). --></errorMessage>
         <name>Require_Email_OR_Phone_to_Sales_Qualify</name>
     </validationRules>
@@ -2657,6 +2669,10 @@
     <validationRules>
         <errorMessage><!-- Provide Lead Source and a Reason for Disqualification. --></errorMessage>
         <name>Require_Reason_Disqualified</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Revisit Date. --></errorMessage>
+        <name>Require_Revisit_Date</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Provide Lead Source and Company type for conversion. --></errorMessage>

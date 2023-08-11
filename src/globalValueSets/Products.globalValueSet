@@ -439,12 +439,6 @@
         <label>EU Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>Forecast Scenarios</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Forecast Scenarios</label>
-    </customValue>
-    <customValue>
         <fullName>REA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -473,6 +467,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>Forecast Scenarios</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Forecast Scenarios</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
