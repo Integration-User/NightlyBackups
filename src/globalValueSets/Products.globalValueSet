@@ -391,34 +391,16 @@
         <label>EUR Data Delivery - REIT Data</label>
     </customValue>
     <customValue>
-        <fullName>eREA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
-    </customValue>
-    <customValue>
         <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
     </customValue>
     <customValue>
-        <fullName>Forecast Scenarios</fullName>
+        <fullName>eREA</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Forecast Scenarios</label>
-    </customValue>
-    <customValue>
-        <fullName>REA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>REA</label>
-    </customValue>
-    <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
+        <label>eREA</label>
     </customValue>
     <customValue>
         <fullName>EU REIT</fullName>
@@ -463,16 +445,34 @@
         <label>US Market Data</label>
     </customValue>
     <customValue>
+        <fullName>EU Sales Comps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Sales Comps</label>
+    </customValue>
+    <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>EU Sales Comps</fullName>
+        <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Sales Comps</label>
+        <label>Forecast Scenarios</label>
+    </customValue>
+    <customValue>
+        <fullName>REA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>REA</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
