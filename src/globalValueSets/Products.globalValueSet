@@ -439,6 +439,12 @@
         <label>EU Sales Comps</label>
     </customValue>
     <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
+    </customValue>
+    <customValue>
         <fullName>REA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -455,12 +461,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>NA REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>Credit Analytics</fullName>
