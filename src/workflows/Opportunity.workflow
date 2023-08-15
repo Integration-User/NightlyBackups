@@ -488,6 +488,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>dvarello@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>esteiner@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
