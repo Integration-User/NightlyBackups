@@ -10484,6 +10484,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>rh2__PS_FilterManagement_Behavior</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_FilterManagement_Controller</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>rh2__PS_FreeEdition_Behavior</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -31242,6 +31250,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Rollup_Audit__c.rh2__childExistsCheckboxRollup__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Rollup_Audit__c.rh2__condition__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -31273,6 +31286,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rh2__PS_Rollup_Audit__c.rh2__description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Rollup_Audit__c.rh2__disableDefaultMaxMinSort__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -31353,6 +31371,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rh2__PS_Rollup_Audit__c.rh2__relationshipFieldName__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Rollup_Audit__c.rh2__rollupPicklistLabels__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -31462,12 +31485,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Rollup_Group__c.rh2__Automatic__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Rollup_Group__c.rh2__Grouping_Method__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Rollup_Group__c.rh2__Grouping_Value__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Rollup_Group__c.rh2__Rollup_Group_Label__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Child_Object__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Use_Case_Library__mdt.rh2__Components_Included__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Delim__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -31482,7 +31530,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Filter_Conditions__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Use_Case_Library__mdt.rh2__Label__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Logic__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -31493,6 +31551,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rh2__PS_Use_Case_Library__mdt.rh2__Object__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Relationship_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Source_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__PS_Use_Case_Library__mdt.rh2__Source_Object__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -34055,6 +34128,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>rh2__PS_ExportFile</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>rh2__PS_FilterManagement</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
