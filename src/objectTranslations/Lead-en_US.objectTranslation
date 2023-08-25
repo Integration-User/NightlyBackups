@@ -35,12 +35,16 @@
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Head of SDR&apos;s</masterLabel>
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Hewett Research</masterLabel>
-            <translation><!-- Hewett Research --></translation>
+            <masterLabel>React News</masterLabel>
+            <translation><!-- React News --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
@@ -61,6 +65,10 @@
         <picklistValues>
             <masterLabel>US SDR Inbound</masterLabel>
             <translation><!-- US SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -1885,12 +1893,16 @@
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Head of SDR&apos;s</masterLabel>
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Hewett Research</masterLabel>
-            <translation><!-- Hewett Research --></translation>
+            <masterLabel>React News</masterLabel>
+            <translation><!-- React News --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
@@ -1911,6 +1923,10 @@
         <picklistValues>
             <masterLabel>US SDR Inbound</masterLabel>
             <translation><!-- US SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
         </picklistValues>
     </fields>
     <fields>
