@@ -544,6 +544,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>pgreco@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>rramos@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
