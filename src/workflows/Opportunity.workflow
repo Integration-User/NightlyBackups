@@ -472,6 +472,14 @@
             <type>role</type>
         </recipients>
         <recipients>
+            <recipient>US_Platform_Sales_B</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>US_Platform_Sales_Manager_B</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
             <recipient>bsaks@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
