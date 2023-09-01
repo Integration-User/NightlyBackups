@@ -258,6 +258,7 @@
         <relatedList>RelatedAccountList</relatedList>
     </relatedLists>
     <relatedLists>
+        <excludeButtons>MassRemoveMembers</excludeButtons>
         <fields>MEMBER_TYPE</fields>
         <fields>Campaign_Member_Owner__c</fields>
         <fields>Sales_Owner__c</fields>
