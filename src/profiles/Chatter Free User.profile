@@ -18705,6 +18705,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Lead.HubSpot_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Lead.Inbound_Lead__c</field>
         <readable>false</readable>
     </fieldPermissions>

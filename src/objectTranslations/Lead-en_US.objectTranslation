@@ -348,6 +348,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- HubSpot Score --></label>
+        <name>HubSpot_Score__c</name>
+    </fields>
+    <fields>
         <label><!-- Inbound Lead? --></label>
         <name>Inbound_Lead__c</name>
     </fields>
