@@ -861,6 +861,11 @@
             <operation>equals</operation>
             <value>Advisory</value>
         </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
         <label>Advisory</label>
     </listViews>
     <listViews>
