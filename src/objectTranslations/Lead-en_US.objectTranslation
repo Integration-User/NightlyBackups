@@ -1692,6 +1692,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Original HubSpot Score --></label>
+        <name>Original_HubSpot_Score__c</name>
+    </fields>
+    <fields>
         <label><!-- Other Contact/Champion --></label>
         <name>Other_Contact_Champion__c</name>
         <relationshipLabel><!-- Leads (Other Contact/Champion) --></relationshipLabel>

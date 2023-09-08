@@ -386,6 +386,10 @@
         <name>Green_Street_User_Title__c</name>
     </fields>
     <fields>
+        <label><!-- Hubspot Score --></label>
+        <name>Hubspot_Score__c</name>
+    </fields>
+    <fields>
         <label><!-- Interests --></label>
         <name>Interests__c</name>
         <picklistValues>
