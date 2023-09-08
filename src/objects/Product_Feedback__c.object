@@ -882,11 +882,6 @@
         <columns>Description_of_Feedback__c</columns>
         <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>CREATEDBY_USER</field>
-            <operation>contains</operation>
-            <value>Sutton</value>
-        </filters>
         <label>All</label>
     </listViews>
     <nameField>

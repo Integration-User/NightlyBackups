@@ -7727,7 +7727,17 @@ Stored as Long on Solr.</description>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>startsWith</operation>
-            <value>Steerpoint Capital</value>
+            <value>Hines</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Inactive</value>
+        </filters>
+        <filters>
+            <field>Usage_Cohort__c</field>
+            <operation>equals</operation>
+            <value>Power,Active</value>
         </filters>
         <label>Copy of Copy of User List Updates</label>
         <sharedTo>
