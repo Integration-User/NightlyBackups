@@ -14560,6 +14560,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Support_Tier__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Support_Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
