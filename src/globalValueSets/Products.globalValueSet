@@ -462,16 +462,16 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
         <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>EU REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>

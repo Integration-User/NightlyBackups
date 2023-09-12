@@ -7981,6 +7981,28 @@ Stored as Long on Solr.</description>
         <label>Mass Activations JLL EMEA</label>
     </listViews>
     <listViews>
+        <fullName>Mass_Deactivate_Contacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Mass_Deactivate__c</columns>
+        <columns>Contact_Status__c</columns>
+        <columns>Activate_Contact__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Mass_Deactivate__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>Mass Deactivate Contacts</label>
+    </listViews>
+    <listViews>
         <fullName>Mass_Deactivations</fullName>
         <columns>FULL_NAME</columns>
         <columns>ACCOUNT.NAME</columns>
