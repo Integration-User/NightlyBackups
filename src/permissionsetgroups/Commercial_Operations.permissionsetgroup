@@ -13,6 +13,7 @@
     <permissionSets>Merge_Duplicates</permissionSets>
     <permissionSets>Subscribing_to_reports</permissionSets>
     <permissionSets>Transfer_Records</permissionSets>
+    <permissionSets>XFILES__xFiles_Pro_User</permissionSets>
     <permissionSets>affectlayer__AffectLayer_Sales_Rep</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

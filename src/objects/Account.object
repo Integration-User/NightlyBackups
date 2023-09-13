@@ -2833,7 +2833,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>XFP_Folder_Structure__c</fullName>
         <externalId>false</externalId>
-        <formula>&apos;Account&apos; + &apos;/&apos; + Name</formula>
+        <formula>&apos;Account&apos; + &apos;/&apos; +SUBSTITUTE(Name,&quot;/&quot;,&quot;_&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>XFP Folder Structure</label>
         <required>false</required>

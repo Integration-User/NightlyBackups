@@ -2115,6 +2115,36 @@ null))</formula>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Support_Tier__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Tier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tier 1 - Client Support</fullName>
+                    <default>false</default>
+                    <label>Tier 1 - Client Support</label>
+                </value>
+                <value>
+                    <fullName>Tier 2 - Client Support</fullName>
+                    <default>false</default>
+                    <label>Tier 2 - Client Support</label>
+                </value>
+                <value>
+                    <fullName>Tier 3 - Data Support</fullName>
+                    <default>false</default>
+                    <label>Tier 3 - Data Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Support_Type__c</fullName>
         <externalId>false</externalId>
         <label>Support Type</label>
@@ -2888,6 +2918,7 @@ FALSE)))))))))))))</formula>
         <columns>CASES.STATUS</columns>
         <columns>Minutes_Spent_Cases__c</columns>
         <columns>Solution_Notes__c</columns>
+        <columns>Support_Tier__c</columns>
         <columns>CASES.TYPE</columns>
         <columns>Products_Discussed__c</columns>
         <columns>CASES.CREATED_DATE</columns>
@@ -4373,6 +4404,21 @@ FALSE)))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Support_Type__c</picklist>
             <values>
                 <fullName>Client Support</fullName>
@@ -4534,10 +4580,6 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>User List Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Website Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5442,6 +5484,21 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Tower</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -6426,6 +6483,21 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Tower</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7647,6 +7719,21 @@ FALSE)))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Support_Type__c</picklist>
             <values>
                 <fullName>Client Support</fullName>
@@ -8567,6 +8654,21 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Tower</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9592,6 +9694,21 @@ FALSE)))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Support_Type__c</picklist>
             <values>
                 <fullName>Client Support</fullName>
@@ -9644,15 +9761,15 @@ FALSE)))))))))))))</formula>
         <picklistValues>
             <picklist>Type</picklist>
             <values>
-                <fullName>API</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AVM %2F Portfolio Tools</fullName>
+                <fullName>%E2%80%9CGo Fish%E2%80%9D %2F Miscellaneous</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Administrative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Advanced Back Up Data</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9664,15 +9781,7 @@ FALSE)))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Data Support</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>DataLink</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Detailed NAV %2F Model</fullName>
+                <fullName>Complex Methodology</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9684,15 +9793,7 @@ FALSE)))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>External</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Internal</fullName>
+                <fullName>Internal Research Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9716,15 +9817,11 @@ FALSE)))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Question</fullName>
+                <fullName>Research %2F Analyst Input</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SEC Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9749,10 +9846,6 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Usage Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Website Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10625,6 +10718,21 @@ FALSE)))))))))))))</formula>
             </values>
             <values>
                 <fullName>Tower</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11725,6 +11833,21 @@ FALSE)))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Support_Type__c</picklist>
             <values>
                 <fullName>Client Support</fullName>
@@ -12749,6 +12872,21 @@ FALSE)))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Support_Tier__c</picklist>
+            <values>
+                <fullName>Tier 1 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2 - Client Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3 - Data Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Support_Type__c</picklist>
             <values>
                 <fullName>Green Street</fullName>
@@ -12797,12 +12935,28 @@ FALSE)))))))))))))</formula>
         <picklistValues>
             <picklist>Type</picklist>
             <values>
-                <fullName>REACT News Trial</fullName>
+                <fullName>Administrative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Preferences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unsubscribe</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>User List Request</fullName>
-                <default>true</default>
+                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
