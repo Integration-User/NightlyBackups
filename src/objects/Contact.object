@@ -7992,6 +7992,7 @@ Stored as Long on Solr.</description>
         <columns>Account.GSA_ID__c</columns>
         <columns>GSA_ID__c</columns>
         <columns>LID__No_longer_at_Company__c</columns>
+        <columns>Deactivation_Date__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Mass_Deactivate__c</field>
