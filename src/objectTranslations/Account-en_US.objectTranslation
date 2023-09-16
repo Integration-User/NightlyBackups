@@ -771,6 +771,10 @@
         <name>Owner_Role__c</name>
     </fields>
     <fields>
+        <label><!-- Owner is Active --></label>
+        <name>Owner_is_Active__c</name>
+    </fields>
+    <fields>
         <help><!-- Check this box if you want to copy the Shipping Address to the Billing Address --></help>
         <label><!-- Populate Billing Address --></label>
         <name>Populate_Billing_Address__c</name>
