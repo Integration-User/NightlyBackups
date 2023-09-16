@@ -4,8 +4,10 @@
     <name>Commercial + Advisory ARR</name>
     <queueMembers>
         <users>
+            <user>aspindler@greenstreet.com</user>
             <user>esteiner@greenstreet.com</user>
             <user>mrichardson@greenstreet.com</user>
+            <user>npagdades@greenstreet.com</user>
             <user>sjensen@greenstreet.com</user>
         </users>
     </queueMembers>
