@@ -2900,7 +2900,7 @@
         <object>Contact</object>
     </recordUpdates>
     <startElementReference>isChangedDecision2_myRule_1_AccountId</startElementReference>
-    <status>Obsolete</status>
+    <status>Active</status>
     <variables>
         <name>cancelWaits</name>
         <dataType>String</dataType>
