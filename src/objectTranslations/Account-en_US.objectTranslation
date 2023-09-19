@@ -1108,6 +1108,10 @@
             <translation><!-- IB (Small) --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>IPO Prospect</masterLabel>
+            <translation><!-- IPO Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>LatAm</masterLabel>
             <translation><!-- LatAm --></translation>
         </picklistValues>
