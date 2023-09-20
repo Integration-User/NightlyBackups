@@ -118,7 +118,7 @@
         <routingAddresses>
             <addressType>EmailToCase</addressType>
             <caseOrigin>External Data Support</caseOrigin>
-            <caseOwner>US_Data_Support</caseOwner>
+            <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>

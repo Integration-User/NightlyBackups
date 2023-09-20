@@ -432,10 +432,10 @@
         <label>EU Market Forecasts</label>
     </customValue>
     <customValue>
-        <fullName>Credit Analytics</fullName>
+        <fullName>EU Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Credit Analytics</label>
+        <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>EU Sales Comps</fullName>
@@ -456,6 +456,12 @@
         <label>REA</label>
     </customValue>
     <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
+    </customValue>
+    <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -468,16 +474,10 @@
         <label>NA REIT</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
+        <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
+        <label>Credit Analytics</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
