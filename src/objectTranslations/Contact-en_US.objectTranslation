@@ -267,6 +267,10 @@
         <name>European_Webinars_and_Featured_Insights__c</name>
     </fields>
     <fields>
+        <label><!-- Excel Last Use Date --></label>
+        <name>Excel_Last_Use_Date__c</name>
+    </fields>
+    <fields>
         <help><!-- What is your firm’s AUM (Assets Under Management)/portfolio size? --></help>
         <label><!-- Firms AUM/Portfolio Size Mktg Identified --></label>
         <name>Firms_AUM_Portfolio_Size_Mktg_Identified__c</name>
@@ -3918,6 +3922,11 @@
     <fields>
         <label><!-- U.S. Webinars and Featured Insights --></label>
         <name>U_S_Webinars_and_Featured_Insights__c</name>
+    </fields>
+    <fields>
+        <help><!-- This user has unsubscribed from all website email preferences. --></help>
+        <label><!-- Unsubscribe All - Email Preferences --></label>
+        <name>Unsubscribe_All_Email_Preferences__c</name>
     </fields>
     <fields>
         <label><!-- Usage Cohort --></label>

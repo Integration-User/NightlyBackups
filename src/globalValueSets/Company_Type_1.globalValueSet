@@ -216,6 +216,12 @@
         <label>Vendor</label>
     </customValue>
     <customValue>
+        <fullName>Accountant / Consultant / Law Firm</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accountant / Consultant / Law Firm</label>
+    </customValue>
+    <customValue>
         <fullName>Private Equity</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -232,12 +238,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Pension Fund</label>
-    </customValue>
-    <customValue>
-        <fullName>Money Manager - Diversified</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Money Manager - Diversified</label>
     </customValue>
     <customValue>
         <fullName>Hedge Fund- Generalist, Dedicated Sponsor, Event D</fullName>
@@ -270,10 +270,10 @@
         <label>Money Manager - RIA</label>
     </customValue>
     <customValue>
-        <fullName>Accountant / Consultant / Law Firm</fullName>
+        <fullName>Money Manager - Diversified</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Accountant / Consultant / Law Firm</label>
+        <label>Money Manager - Diversified</label>
     </customValue>
     <customValue>
         <fullName>High Net Worth</fullName>
