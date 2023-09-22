@@ -9432,6 +9432,10 @@ FALSE))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Excel Add-In</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>MD%26D - Market Data</fullName>
                 <default>false</default>
             </values>
@@ -9501,10 +9505,6 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
                 <default>false</default>
             </values>
             <values>
