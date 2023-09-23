@@ -7794,7 +7794,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         </filters>
         <filters>
             <field>copado__Status__c</field>
-            <operation>equals</operation>
+            <operation>notEqual</operation>
             <value>Done,Cancelled</value>
         </filters>
         <label>Current Sprint</label>
@@ -7814,11 +7814,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Story_Points_SFDC__c</columns>
         <columns>copado__Exclude_From_CBM__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>copado__Status__c</field>
-            <operation>equals</operation>
-            <value>Done</value>
-        </filters>
         <label>All</label>
     </listViews>
     <listViews>

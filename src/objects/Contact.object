@@ -7994,7 +7994,7 @@ Stored as Long on Solr.</description>
         <filters>
             <field>Mass_Deactivate__c</field>
             <operation>equals</operation>
-            <value>TODAY</value>
+            <value>YESTERDAY</value>
         </filters>
         <filters>
             <field>Contact_Status__c</field>
