@@ -3002,7 +3002,7 @@ FALSE))))))))))))</formula>
         <filters>
             <field>Support_Type__c</field>
             <operation>equals</operation>
-            <value>US Data Support</value>
+            <value>Client Support,US Data Support</value>
         </filters>
         <label>All Open US Data Support Cases</label>
     </listViews>
