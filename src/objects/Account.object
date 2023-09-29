@@ -3517,21 +3517,18 @@ Stored as Long on Solr.</description>
     <listViews>
         <fullName>Box_Folders_to_Create</fullName>
         <columns>ACCOUNT.NAME</columns>
+        <columns>Prospect_Category__c</columns>
+        <columns>Prospect_Notes__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>ACCOUNT.TYPE</field>
-            <operation>equals</operation>
-            <value>Client</value>
-        </filters>
-        <filters>
-            <field>Priority__c</field>
-            <operation>equals</operation>
-            <value>Strategic,Core,Enterprise</value>
-        </filters>
         <filters>
             <field>ACCOUNT.RECORDTYPE</field>
             <operation>equals</operation>
             <value>Account.Subsidiary_Account</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>contains</operation>
+            <value>Not provided</value>
         </filters>
         <label>Box Folders to Create</label>
         <sharedTo>

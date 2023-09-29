@@ -3130,7 +3130,7 @@ FALSE))))))))))))</formula>
         <filters>
             <field>Due_Date__c</field>
             <operation>lessOrEqual</operation>
-            <value>TODAY</value>
+            <value>YESTERDAY</value>
         </filters>
         <label>Open Client Access Requests</label>
     </listViews>

@@ -456,12 +456,6 @@
         <label>REA</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
-    </customValue>
-    <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -472,6 +466,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>
