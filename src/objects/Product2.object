@@ -283,7 +283,7 @@
         <filters>
             <field>PRODUCT2.ACTIVE</field>
             <operation>equals</operation>
-            <value>1</value>
+            <value>0</value>
         </filters>
         <label>All Products</label>
     </listViews>

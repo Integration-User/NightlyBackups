@@ -59,7 +59,6 @@
         <criteriaItems>
             <field>Contact.CreatedDate</field>
             <operation>notEqual</operation>
-            <value>1/1/2002</value>
         </criteriaItems>
         <triggerType>onAllChanges</triggerType>
     </rules>
