@@ -520,6 +520,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>jhillman@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>jwiggins@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
