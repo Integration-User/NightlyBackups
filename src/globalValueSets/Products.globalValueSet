@@ -396,6 +396,12 @@
         <label>EUR Data Delivery - REIT Data</label>
     </customValue>
     <customValue>
+        <fullName>Forecast Scenarios</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Forecast Scenarios</label>
+    </customValue>
+    <customValue>
         <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -462,22 +468,16 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>Forecast Scenarios</fullName>
+        <fullName>NA REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Forecast Scenarios</label>
+        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>REA</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>REA</label>
-    </customValue>
-    <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
