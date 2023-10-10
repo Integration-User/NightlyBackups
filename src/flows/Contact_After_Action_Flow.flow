@@ -332,12 +332,6 @@
             <targetReference>ContactEmailChanged</targetReference>
         </connector>
         <inputAssignments>
-            <field>Email</field>
-            <value>
-                <elementReference>Email</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>LastName</field>
             <value>
                 <elementReference>LastName</elementReference>
