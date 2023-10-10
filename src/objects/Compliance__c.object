@@ -286,7 +286,7 @@
         <fullName>Call_Verification__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Call Verification</label>
+        <label>Verification</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -432,6 +432,15 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Contract</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Customer_Action_Form_Type__c</fullName>
@@ -805,6 +814,15 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KYC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>KYC</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Letter_Sent__c</fullName>
@@ -1565,6 +1583,324 @@
     </nameField>
     <pluralLabel>Compliance</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>UK_Subscription</fullName>
+        <active>true</active>
+        <label>UK Subscription</label>
+        <picklistValues>
+            <picklist>CAF_Type__c</picklist>
+            <values>
+                <fullName>Activation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Canadian_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Change_Type__c</picklist>
+            <values>
+                <fullName>Address</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Favor Extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Action_Form_Type__c</picklist>
+            <values>
+                <fullName>Activation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Notice_from_Solicitor__c</picklist>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Error_Reason__c</picklist>
+            <values>
+                <fullName>Transition Delay</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Favor_Access__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Foreign_Bank__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Google_Search__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Further Investigation Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Group__c</picklist>
+            <values>
+                <fullName>Dallas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>London</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Newport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Identification_Request__c</picklist>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>On_Boycott_List__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Politically_Exposed_Person__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Registered_Investment_Advisor__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>Client is a consortium of companies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client is allowed to redistribute the deliverable to select market participants</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client is company%E2%80%99s Board and findings can%E2%80%99t be communicated to Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deliverable will be in public domain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doing due diligence on company in our coverage universe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doing due diligence on company soon to be in our coverage universe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doing due diligence on company we previously worked for%2C but can%E2%80%99t use previous data%2Ffindings</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engagement will influence a private market transaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engagement will likely influence a public market event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSA name will be used in public domain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need the client to provide third party data sources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need to acquire%2Fpublish third-party data sources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need to partner with a brokerage firm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need to partner with another advisory firm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need to use GSA-acquired data that can%E2%80%99t be republish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timing of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Send_Request_for_ID__c</picklist>
+            <values>
+                <fullName>Already Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solicitor_Used__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Transitioned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject_to_ERISA_Regulation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <recordTypes>
         <fullName>US_Advisory</fullName>
         <active>true</active>

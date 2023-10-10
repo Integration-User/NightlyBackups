@@ -431,8 +431,8 @@
     <decisions>
         <name>Salesforce_Request_Category_Decision</name>
         <label>Salesforce Request Category Decision</label>
-        <locationX>490</locationX>
-        <locationY>2519</locationY>
+        <locationX>491</locationX>
+        <locationY>2522</locationY>
         <defaultConnector>
             <targetReference>Salesforce_Report_Decision</targetReference>
         </defaultConnector>
@@ -454,16 +454,10 @@
                     <stringValue>Salesforce</stringValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>New</stringValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Update_Owner_Salesforce_Request</targetReference>
             </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
             <label>Salesforce Request</label>
         </rules>
     </decisions>
@@ -560,7 +554,7 @@
     <recordUpdates>
         <name>Update_Owner_Salesforce_Report_Request</name>
         <label>Update Owner = Salesforce Report Request</label>
-        <locationX>358</locationX>
+        <locationX>357</locationX>
         <locationY>2975</locationY>
         <connector>
             <targetReference>Application_Is_Not_Null_Decision</targetReference>
@@ -585,7 +579,7 @@
         <name>Update_Owner_Salesforce_Request</name>
         <label>Update Owner = Salesforce Request</label>
         <locationX>358</locationX>
-        <locationY>2639</locationY>
+        <locationY>2640</locationY>
         <connector>
             <targetReference>Salesforce_Report_Decision</targetReference>
         </connector>
