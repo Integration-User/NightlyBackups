@@ -2919,8 +2919,8 @@ FALSE))))))))))))</formula>
         <columns>Solution_Notes__c</columns>
         <columns>CASES.TYPE</columns>
         <columns>Products_Discussed__c</columns>
-        <columns>CASES.CREATED_DATE</columns>
         <columns>Account_Owner__c</columns>
+        <columns>CASES.CREATED_DATE</columns>
         <columns>CORE.USERS.ALIAS</columns>
         <columns>CASES.NAME</columns>
         <columns>CASES.EMAIL</columns>
