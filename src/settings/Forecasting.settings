@@ -1239,6 +1239,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1526,6 +1550,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000VNaKI_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -2686,6 +2716,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2973,6 +3027,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000VNSnk_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -4133,6 +4193,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -4420,6 +4504,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00N5G00000VZhf7_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -5580,6 +5670,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -5867,6 +5981,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00N5G00000VZhpb_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -7019,6 +7139,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>ACCOUNT.NAME</field>
             <field>OPPORTUNITY.AMOUNT</field>
@@ -7304,6 +7448,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -8455,6 +8605,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -8740,6 +8914,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -9895,6 +10075,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>ACCOUNT.NAME</field>
             <field>OPPORTUNITY.CLOSE_DATE</field>
@@ -10181,6 +10385,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -11332,6 +11542,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -11617,6 +11851,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -12772,6 +13012,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -13058,6 +13322,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -14209,6 +14479,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -14494,6 +14788,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -15649,6 +15949,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -15935,6 +16259,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -17086,6 +17416,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -17371,6 +17725,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -18526,6 +18886,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -18812,6 +19196,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -19963,6 +20353,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -20248,6 +20662,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -21403,6 +21823,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -21689,6 +22133,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -22840,6 +23290,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -23125,6 +23599,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
@@ -24284,6 +24764,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -24571,6 +25075,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -25731,6 +26241,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -26018,6 +26552,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Overlay</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -27178,6 +27718,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -27465,6 +28029,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000V6v4B_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>
@@ -28625,6 +29195,30 @@
             <field>OPPORTUNITY_SCORE</field>
             <label>Opportunity Score</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -28912,6 +29506,12 @@
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
             <field>OPPORTUNITY_SCORE</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
         <opportunitySplitName>Opportunity_00Nf400000V6v4A_Revenue</opportunitySplitName>
         <ownerAdjustableCategoryApiNames>commitonly</ownerAdjustableCategoryApiNames>

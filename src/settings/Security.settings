@@ -86,7 +86,7 @@
         <enableCoopHeader>false</enableCoopHeader>
         <enableLightningLogin>true</enableLightningLogin>
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
-        <enableMFADirectUILoginOptIn>false</enableMFADirectUILoginOptIn>
+        <enableMFADirectUILoginOptIn>true</enableMFADirectUILoginOptIn>
         <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
@@ -112,7 +112,7 @@
         <requireHttpOnly>true</requireHttpOnly>
         <sessionTimeout>TwoHours</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
-        <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
+        <skipSFAWhenMFADirectUILogin>true</skipSFAWhenMFADirectUILogin>
         <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
     </sessionSettings>
     <singleSignOnSettings>
