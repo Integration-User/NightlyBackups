@@ -26,6 +26,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -642,6 +646,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -802,6 +810,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -946,6 +958,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -1078,6 +1094,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -1132,6 +1152,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -1459,6 +1483,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000VNaKI_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -1488,6 +1518,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -2104,6 +2138,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -2264,6 +2302,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -2408,6 +2450,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -2540,6 +2586,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -2594,6 +2644,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -2921,6 +2975,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000VNSnk_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -2950,6 +3010,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -3566,6 +3630,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -3726,6 +3794,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -3870,6 +3942,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -4002,6 +4078,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -4056,6 +4136,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -4383,6 +4467,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00N5G00000VZhf7_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -4412,6 +4502,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -5028,6 +5122,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -5188,6 +5286,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -5332,6 +5434,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -5464,6 +5570,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -5518,6 +5628,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -5845,6 +5959,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00N5G00000VZhpb_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -5870,6 +5990,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -6482,6 +6606,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -6642,6 +6770,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -6786,6 +6918,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -6918,6 +7054,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -6972,6 +7112,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -7297,6 +7441,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -7322,6 +7472,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -7934,6 +8088,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -8094,6 +8252,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -8238,6 +8400,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -8370,6 +8536,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -8424,6 +8594,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -8749,6 +8923,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantity</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -8774,6 +8954,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -9390,6 +9574,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -9550,6 +9738,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -9694,6 +9886,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -9826,6 +10022,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -9880,6 +10080,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -10206,6 +10410,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityLineItemRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -10231,6 +10441,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -10843,6 +11057,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -11003,6 +11221,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -11147,6 +11369,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -11279,6 +11505,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -11333,6 +11563,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -11658,6 +11892,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityLineItemQuantity</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -11683,6 +11923,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -12299,6 +12543,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -12459,6 +12707,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -12603,6 +12855,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -12735,6 +12991,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -12789,6 +13049,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -13115,6 +13379,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenueProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -13140,6 +13410,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -13752,6 +14026,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -13912,6 +14190,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -14056,6 +14338,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -14188,6 +14474,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -14242,6 +14532,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -14567,6 +14861,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantityProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -14592,6 +14892,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -15208,6 +15512,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -15368,6 +15676,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -15512,6 +15824,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -15644,6 +15960,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -15698,6 +16018,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -16024,6 +16348,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemRevenueProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -16049,6 +16379,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -16661,6 +16995,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -16821,6 +17159,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -16965,6 +17307,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -17097,6 +17443,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -17151,6 +17501,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -17476,6 +17830,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemQuantityProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -17501,6 +17861,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -18117,6 +18481,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -18277,6 +18645,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -18421,6 +18793,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -18553,6 +18929,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -18607,6 +18987,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -18933,6 +19317,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenueScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -18958,6 +19348,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -19570,6 +19964,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -19730,6 +20128,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -19874,6 +20276,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -20006,6 +20412,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -20060,6 +20470,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -20385,6 +20799,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantityScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -20408,6 +20828,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -21026,6 +21450,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -21186,6 +21614,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -21330,6 +21762,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -21462,6 +21898,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -21516,6 +21956,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -21842,6 +22286,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemRevenueScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -21865,6 +22315,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -22479,6 +22933,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -22639,6 +23097,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -22783,6 +23245,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -22915,6 +23381,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -22969,6 +23439,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -23294,6 +23768,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemQuantityScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -23323,6 +23803,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -23939,6 +24423,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -24099,6 +24587,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -24243,6 +24735,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -24375,6 +24871,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -24429,6 +24929,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -24756,6 +25260,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunitySplitRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -24785,6 +25295,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -25401,6 +25915,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -25561,6 +26079,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -25705,6 +26227,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -25837,6 +26363,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -25891,6 +26421,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -26218,6 +26752,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityOverlayRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -26247,6 +26787,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -26863,6 +27407,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -27023,6 +27571,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -27167,6 +27719,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -27299,6 +27855,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -27353,6 +27913,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -27680,6 +28244,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000V6v4B_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -27709,6 +28279,10 @@
             <label>Split</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <label>Recent Activity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -28325,6 +28899,10 @@
             <label>Trial Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgx</field>
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
@@ -28485,6 +29063,10 @@
             <label>Most Recent Cadence - Last Step Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZv4P</field>
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
@@ -28629,6 +29211,10 @@
             <label>Scored ARR USD</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <label>Age</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1kUP</field>
             <label>Current Generator(s)</label>
         </forecastingObjectListLabelMappings>
@@ -28761,6 +29347,10 @@
             <label>Synced Quote</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <label>Important</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZvb4</field>
             <label>License Type</label>
         </forecastingObjectListLabelMappings>
@@ -28815,6 +29405,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvm</field>
             <label>Deal Tracker</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <label>Days In Stage</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvw</field>
@@ -29142,6 +29736,12 @@
             <field>00Nf400000V6v1w</field>
             <field>00N5G00000VPkP6</field>
             <field>00N5G00000WeE8j</field>
+            <field>OPPORTUNITY.ISPRIORITYRECORD</field>
+            <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
+            <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
+            <field>OPPORTUNITY.AGE_IN_DAYS</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Opportunity_00Nf400000V6v4A_Revenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
