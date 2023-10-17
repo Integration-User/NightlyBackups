@@ -4,6 +4,5 @@
     <label>Product Management</label>
     <permissionSets>Subscribe_to_Reports_Add_Recipients</permissionSets>
     <permissionSets>Subscribing_to_reports</permissionSets>
-    <permissionSets>WebMetric_Object_Access</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

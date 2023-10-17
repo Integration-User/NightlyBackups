@@ -950,6 +950,11 @@
     <sections>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>X18_digit_Account_ID__c</field>
+            <table>Contact.AccountContactRelations</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Id</field>
             <table>Contact.AccountContactRelations</table>
         </columns>
