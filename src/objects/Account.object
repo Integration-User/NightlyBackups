@@ -1191,7 +1191,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts4</relationshipName>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -2027,7 +2027,7 @@ Owner.Id = $User.Id)</formula>
         <referenceTo>User</referenceTo>
         <relationshipName>Protected_By</relationshipName>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -2768,7 +2768,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts5</relationshipName>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
