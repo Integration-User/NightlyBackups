@@ -467,13 +467,6 @@
             <sortOrder>10</sortOrder>
         </platformActionListItems>
     </platformActionList>
-    <relatedContent>
-        <relatedContentItems>
-            <layoutItem>
-                <component>wits:newsPanel</component>
-            </layoutItem>
-        </relatedContentItems>
-    </relatedContent>
     <relatedLists>
         <excludeButtons>AddContactRole</excludeButtons>
         <excludeButtons>OppContactRoleMultiAdd</excludeButtons>
