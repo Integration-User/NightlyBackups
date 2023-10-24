@@ -7983,11 +7983,6 @@ Stored as Long on Solr.</description>
         <columns>Deactivation_Date__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>Mass_Deactivate__c</field>
-            <operation>equals</operation>
-            <value>YESTERDAY</value>
-        </filters>
-        <filters>
             <field>Contact_Status__c</field>
             <operation>equals</operation>
             <value>Active</value>
