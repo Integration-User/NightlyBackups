@@ -1527,7 +1527,7 @@
         <filters>
             <field>RECORDTYPE</field>
             <operation>equals</operation>
-            <value>Compliance__c.US_Favor,Compliance__c.US_Subscription</value>
+            <value>Compliance__c.UK_Subscription,Compliance__c.US_Favor,Compliance__c.US_Subscription</value>
         </filters>
         <label>Subscriptions CAF&apos;s Started</label>
         <sharedTo>

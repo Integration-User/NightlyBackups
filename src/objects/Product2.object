@@ -279,6 +279,7 @@
         <columns>PRODUCT2.DESCRIPTION</columns>
         <columns>PRODUCT2.EXTERNAL_ID</columns>
         <columns>Website_Product__c</columns>
+        <columns>News_Product_Line__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>PRODUCT2.ACTIVE</field>

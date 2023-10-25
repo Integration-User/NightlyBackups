@@ -3107,6 +3107,7 @@ FALSE))))))))))))</formula>
     </listViews>
     <listViews>
         <fullName>Client_Deactivation_Case</fullName>
+        <booleanFilter>(1 AND 2 AND 3 AND 5) OR (1 AND 2 AND 4 AND 6)</booleanFilter>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>CASES.STATUS</columns>
         <columns>CASES.SUBJECT</columns>
@@ -3131,6 +3132,21 @@ FALSE))))))))))))</formula>
             <field>Due_Date__c</field>
             <operation>lessOrEqual</operation>
             <value>YESTERDAY</value>
+        </filters>
+        <filters>
+            <field>Due_Date__c</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>ActivationDeactivation_Needs__c</field>
+            <operation>equals</operation>
+            <value>Full Account Deactivation,Remove Lost Products,Suspend,Full Trial Deactivation,Limited Trial Deactivation</value>
+        </filters>
+        <filters>
+            <field>ActivationDeactivation_Needs__c</field>
+            <operation>equals</operation>
+            <value>Full Account Activation,Add Upsold Products,Full Trial Activation,Full Trial Conversion,Limited Trial Activation,Limited Trial Conversion</value>
         </filters>
         <label>Open Client Access Requests</label>
     </listViews>
