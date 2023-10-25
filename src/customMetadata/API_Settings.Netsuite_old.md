@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Netsuite</label>
+    <label>Netsuite_old</label>
     <protected>false</protected>
     <values>
         <field>Account__c</field>
@@ -32,11 +32,11 @@
     </values>
     <values>
         <field>Token_Id__c</field>
-        <value xsi:type="xsd:string">839195ffaf1ea33d7132899d4622d8c4012fc29e4025a051d3583393006210b9</value>
+        <value xsi:type="xsd:string">67158c7d0d27f9526394df5c7c899ef60649a5b38b43a8b4997a9c65e222f7a5</value>
     </values>
     <values>
         <field>Token_Secret__c</field>
-        <value xsi:type="xsd:string">39b3eeb573d0724b74422b45ebd9aeb0ca43ee225f016cdef4a9f05e43fe261e</value>
+        <value xsi:type="xsd:string">51cbae79bd698671d0967912b8846e2a1f016a4e8237846850e9d4f67e853513</value>
     </values>
     <values>
         <field>Version__c</field>
