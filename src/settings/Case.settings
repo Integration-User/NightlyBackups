@@ -56,6 +56,7 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>datasupport.europe@greenstreet.com</emailAddress>
+            <emailServicesAddress>datasupport.europe@2-yaco1wu709s5zyzes5ycvwk36tuax88xt2hkvq0q3xzapjs41.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>EU Data Support</routingName>
             <saveEmailHeaders>true</saveEmailHeaders>
@@ -80,6 +81,7 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>clientsupport@greenstreet.com</emailAddress>
+            <emailServicesAddress>clientsupport@vex7frc82hvq9q93ul2fb35trwgol0vrwkx2a37fqinar2inx.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>Help Desk</routingName>
             <saveEmailHeaders>true</saveEmailHeaders>

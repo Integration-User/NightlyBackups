@@ -8,11 +8,11 @@
     </values>
     <values>
         <field>Consumer_Key__c</field>
-        <value xsi:type="xsd:string">4c22340ba2e2c45ca12836d08da825587a78acbcd2dc17521478ea9cc2c2bd77</value>
+        <value xsi:type="xsd:string">3MVG9_7ddP9KqTze2M2ZV3onZfap9zRinnROA3O7X9y5w4W_JTvkwdQUykwbf_mLDj6pE5So0Pfe2OKmp4_dG</value>
     </values>
     <values>
         <field>Consumer_Secret__c</field>
-        <value xsi:type="xsd:string">451f06de1984ece0a2d8b39bd069491e6db5389fc62b60593dc6463a8b4ac894</value>
+        <value xsi:type="xsd:string">8A24DC5CC3F1FC7999BD0E8E3D04102A8C7EC8B085CA32D9BF6CEF841D01DBF1</value>
     </values>
     <values>
         <field>Endpoint__c</field>
