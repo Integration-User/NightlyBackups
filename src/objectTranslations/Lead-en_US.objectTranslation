@@ -2659,6 +2659,10 @@
         <name>Referrals</name>
     </recordTypes>
     <validationRules>
+        <errorMessage><!-- Please assign this lead to a user before moving the status. --></errorMessage>
+        <name>Assign_Lead_Owner_To_User</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Please Provide Feedback in the Questions &amp; Comments Section before disqualifying this referral --></errorMessage>
         <name>Comments_Required_to_Close_Referral</name>
     </validationRules>
