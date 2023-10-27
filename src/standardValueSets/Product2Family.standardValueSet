@@ -51,4 +51,9 @@
         <default>false</default>
         <label>React</label>
     </standardValue>
+    <standardValue>
+        <fullName>LDC</fullName>
+        <default>false</default>
+        <label>LDC</label>
+    </standardValue>
 </StandardValueSet>
