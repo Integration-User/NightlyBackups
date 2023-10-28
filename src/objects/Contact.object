@@ -7733,16 +7733,6 @@ Stored as Long on Solr.</description>
         <columns>CONTACT.LAST_UPDATE</columns>
         <columns>Loaded__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>ACCOUNT.NAME</field>
-            <operation>startsWith</operation>
-            <value>Sixth Street Partners LLC</value>
-        </filters>
-        <filters>
-            <field>User_List__c</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
         <label>Copy of Copy of User List Updates</label>
         <sharedTo>
             <role>System_Administrator</role>
