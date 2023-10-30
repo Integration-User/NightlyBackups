@@ -2526,8 +2526,46 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <externalId>false</externalId>
         <formula>CASE(Subsidiary__c ,
 &quot;10 GSA LLC&quot;,8,
+&quot;99 Consolidated&quot;,1,
+&quot;110 Petrus Topco, LP&quot;,36,
+&quot;100 Petrus Holdings, Inc.&quot;,37,
+&quot;105 Elim-Petrus Holdings&quot;,41,
+&quot;90 Petrus Intermediate, Inc&quot;,38,
+&quot;80 Petrus Buyer, Inc.&quot;,39,
+&quot;60 Emerald Midco, Inc.&quot;,24,
+&quot;55 Emerald Purchaser, Inc.&quot;,26,
+&quot;40 GSIH LLC&quot;,3,
+&quot;30 GS TopCo LLC&quot;,4,
+&quot;20 GS Parent LLC&quot;,6,
+&quot;11 GST LLC&quot;,11,
+&quot;12 GSI LLC&quot;,13,
+&quot;15 Elim-GSA UK&quot;,30,
+&quot;17 Group&quot;,32,
+&quot;17 GSA UK Company&quot;,33,
+&quot;17 React Stand Alone&quot;,34,
+&quot;17 Reversal&quot;,35,
+&quot;18.0 Local Data Company GROUP Ltd&quot;,44,
+&quot;18.4 LDCG Reversal&quot;,53,
+&quot;16 UK to US GAAP&quot;,31,
+&quot;19 Elim-GSA LLC&quot;,14,
+&quot;29 Elim-Parent&quot;,9,
+&quot;39 Elim-TopCo&quot;,7,
+&quot;35 GSI LLC&quot;,17,
+&quot;31 GSI-1 LLC&quot;,18,
+&quot;38 Elim-GSI&quot;,19,
+&quot;37 GSSC Inc&quot;,21,
+&quot;49 Elim-GSIH&quot;,5,
+&quot;51 GGCOF GS Blocker, LLC&quot;,28,
+&quot;57 Elim-Purchaser&quot;,27,
+&quot;65 Elim-Midco&quot;,25,
+&quot;85 Elim-Petrus Buyer&quot;,43,
+&quot;95 Elim-Petrus Intermediate&quot;,42,
+&quot;115 Elim-Petrus Topco&quot;,40,
+&quot;70 Emerald Aggregator L.P.&quot;,1,
+&quot;75 Elim-Aggregator&quot;,23,
+&quot;99 Elim-XX&quot;,18,
 &quot;13 GSA UK Ltd&quot;,10,
-&quot;14 React Ltd&quot;,29,
+&quot;14 React New Ltd&quot;,29,
 &quot;18.1 LDC&quot;,48,
 &quot;18.2 On-Site Research Limited&quot;,51,
 &quot;18.3 Edge Analytics Ltd&quot;,52,0)</formula>
@@ -3460,14 +3498,9 @@ Stored as Long on Solr.</description>
         <columns>High_Value_Data_Sets__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>ACCOUNT.RECORDTYPE</field>
+            <field>Subsidiary__c</field>
             <operation>equals</operation>
-            <value>Account.Subsidiary_Account</value>
-        </filters>
-        <filters>
-            <field>ACCOUNT.TYPE</field>
-            <operation>equals</operation>
-            <value>Client</value>
+            <value>18.1 LDC</value>
         </filters>
         <label>Current Clients</label>
     </listViews>
