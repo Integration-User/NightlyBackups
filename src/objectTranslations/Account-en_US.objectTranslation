@@ -1067,6 +1067,18 @@
         <name>Shipping_Address_Score__c</name>
     </fields>
     <fields>
+        <label><!-- Snowflake Account Locator(s) --></label>
+        <name>Snowflake_Account_Locators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Snowflake Organization Name --></label>
+        <name>Snowflake_Organization_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Snowflake Reader Account Email --></label>
+        <name>Snowflake_Reader_Account_Email__c</name>
+    </fields>
+    <fields>
         <label><!-- US Strategic Account Action Items --></label>
         <name>Strategic_Account_Action_Items__c</name>
     </fields>
