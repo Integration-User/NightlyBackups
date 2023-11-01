@@ -1034,7 +1034,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- React id --></label>
+        <label><!-- Acquisition id --></label>
         <name>React_id__c</name>
     </fields>
     <fields>

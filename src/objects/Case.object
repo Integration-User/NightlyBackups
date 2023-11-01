@@ -663,6 +663,15 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Context_for_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Context for Request</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>CurrencyIsoCode</fullName>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1540,10 +1549,116 @@
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
+        <fullName>Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Products</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>US Portfolio Tools</fullName>
+                    <default>false</default>
+                    <label>US Portfolio Tools</label>
+                </value>
+                <value>
+                    <fullName>EUR Detailed NAV</fullName>
+                    <default>false</default>
+                    <label>EUR Detailed NAV</label>
+                </value>
+                <value>
+                    <fullName>US Research + REIT Data</fullName>
+                    <default>false</default>
+                    <label>US Research + REIT Data</label>
+                </value>
+                <value>
+                    <fullName>Pan-European Research + REIT Data</fullName>
+                    <default>false</default>
+                    <label>Pan-European Research + REIT Data</label>
+                </value>
+                <value>
+                    <fullName>US Research + Market Data &amp; Deals</fullName>
+                    <default>false</default>
+                    <label>US Research + Market Data &amp; Deals</label>
+                </value>
+                <value>
+                    <fullName>Pan-European Research + Market Data &amp; Deals</fullName>
+                    <default>false</default>
+                    <label>Pan-European Research + Market Data &amp; Deals</label>
+                </value>
+                <value>
+                    <fullName>Asset-Backed Alert</fullName>
+                    <default>false</default>
+                    <label>Asset-Backed Alert</label>
+                </value>
+                <value>
+                    <fullName>Commercial Mortgage Alert</fullName>
+                    <default>false</default>
+                    <label>Commercial Mortgage Alert</label>
+                </value>
+                <value>
+                    <fullName>Real Estate Alert</fullName>
+                    <default>false</default>
+                    <label>Real Estate Alert</label>
+                </value>
+                <value>
+                    <fullName>Data Delivery - API</fullName>
+                    <default>false</default>
+                    <label>Data Delivery - API</label>
+                </value>
+                <value>
+                    <fullName>US Detailed NAV</fullName>
+                    <default>false</default>
+                    <label>US Detailed NAV</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
         <fullName>Reason</fullName>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for Request</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tech Issue</fullName>
+                    <default>false</default>
+                    <label>Tech Issue</label>
+                </value>
+                <value>
+                    <fullName>Favor Account</fullName>
+                    <default>false</default>
+                    <label>Favor Account</label>
+                </value>
+                <value>
+                    <fullName>Non-payment</fullName>
+                    <default>false</default>
+                    <label>Non-payment</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Report_ID__c</fullName>
@@ -4243,6 +4358,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -4262,6 +4424,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5363,6 +5544,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -5382,6 +5610,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -6390,6 +6637,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -6409,6 +6703,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7642,6 +7955,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -7661,6 +8021,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8617,6 +8996,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -8636,6 +9062,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9681,6 +10126,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -9700,6 +10192,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10737,6 +11248,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -10756,6 +11314,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11852,6 +12429,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -11871,6 +12495,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12943,6 +13586,53 @@ FALSE))))))))))))</formula>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Mortgage Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Delivery - API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Portfolio Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Reason</picklist>
             <values>
                 <fullName>Complex functionality</fullName>
@@ -12962,6 +13652,25 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Request__c</picklist>
+            <values>
+                <fullName>Favor Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

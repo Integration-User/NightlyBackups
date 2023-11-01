@@ -443,6 +443,12 @@
         <label>EU Sales Comps</label>
     </customValue>
     <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
+    </customValue>
+    <customValue>
         <fullName>US Market Data</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -479,22 +485,10 @@
         <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
-    </customValue>
-    <customValue>
         <fullName>eREA</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>eREA</label>
-    </customValue>
-    <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>Credit Analytics</fullName>
@@ -507,6 +501,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Forecast Scenarios</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>REA</fullName>

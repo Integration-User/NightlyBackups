@@ -633,6 +633,34 @@
                 <valueName>Not Applicable</valueName>
             </valueSettings>
             <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Analysis/Insight</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Directory/Publishing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Bespoke Data Collection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Bespoke Reports</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Royalty Income</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Onsite</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Edge</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
                 <valueName>News</valueName>
             </valueSettings>
