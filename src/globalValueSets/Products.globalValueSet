@@ -396,34 +396,45 @@
         <label>EUR Data Delivery - REIT Data</label>
     </customValue>
     <customValue>
-        <fullName>eREA</fullName>
+        <fullName>Analysis/Insight</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
+        <label>Analysis/Insight</label>
     </customValue>
     <customValue>
-        <fullName>US Market Data</fullName>
+        <fullName>Directory/Publishing</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>US Market Data</label>
+        <label>Directory/Publishing</label>
     </customValue>
     <customValue>
-        <fullName>US Market Forecasts</fullName>
+        <fullName>Bespoke Data Collection</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>US Market Forecasts</label>
+        <label>Bespoke Data Collection</label>
     </customValue>
     <customValue>
-        <fullName>US Standardized Downloads</fullName>
+        <fullName>Bespoke Reports</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
+        <label>Bespoke Reports</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Data</fullName>
+        <fullName>Royalty Income</fullName>
+        <default>false</default>
+        <label>Royalty Income</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite</fullName>
+        <default>false</default>
+        <label>Onsite</label>
+    </customValue>
+    <customValue>
+        <fullName>Edge</fullName>
+        <default>false</default>
+        <label>Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Market Data</label>
+        <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>EU Market Forecasts</fullName>
@@ -432,10 +443,34 @@
         <label>EU Market Forecasts</label>
     </customValue>
     <customValue>
-        <fullName>Credit Analytics</fullName>
+        <fullName>EU Market Data</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Credit Analytics</label>
+        <label>EU Market Data</label>
+    </customValue>
+    <customValue>
+        <fullName>US Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>US Market Forecasts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Market Forecasts</label>
+    </customValue>
+    <customValue>
+        <fullName>US Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Market Data</label>
+    </customValue>
+    <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
     </customValue>
     <customValue>
         <fullName>EU Sales Comps</fullName>
@@ -462,22 +497,22 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
         <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>EU REIT</label>
     </customValue>
     <customValue>
-        <fullName>EU Standardized Downloads</fullName>
+        <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
+        <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>

@@ -1034,7 +1034,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- React id --></label>
+        <label><!-- Acquisition id --></label>
         <name>React_id__c</name>
     </fields>
     <fields>
@@ -1186,6 +1186,18 @@
         <picklistValues>
             <masterLabel>13 GSA UK Ltd</masterLabel>
             <translation><!-- 13 GSA UK Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18.1 LDC</masterLabel>
+            <translation><!-- 18.1 LDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18.2 On-site Research Limited</masterLabel>
+            <translation><!-- 18.2 On-site Research Limited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18.3 Edge Analytics Ltd</masterLabel>
+            <translation><!-- 18.3 Edge Analytics Ltd --></translation>
         </picklistValues>
     </fields>
     <fields>
