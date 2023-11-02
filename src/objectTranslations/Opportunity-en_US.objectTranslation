@@ -727,6 +727,10 @@
         <name>Exchange_Rate__c</name>
     </fields>
     <fields>
+        <label><!-- Exclude from Deal Scoring Model --></label>
+        <name>Exclude_from_Deal_Scoring_Model__c</name>
+    </fields>
+    <fields>
         <label><!-- Favor End Date --></label>
         <name>Favor_End_Date__c</name>
     </fields>

@@ -458,6 +458,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -1320,6 +1324,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -1950,6 +1955,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -2812,6 +2821,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -3442,6 +3452,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -4304,6 +4318,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -4934,6 +4949,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -5796,6 +5815,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -6422,6 +6442,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -7278,6 +7302,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -7904,6 +7929,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -8760,6 +8789,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -9386,6 +9416,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -10247,6 +10281,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -10873,6 +10908,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -11729,6 +11768,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -12355,6 +12395,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -13216,6 +13260,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -13842,6 +13887,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -14698,6 +14747,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -15324,6 +15374,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -16185,6 +16239,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -16811,6 +16866,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -17667,6 +17726,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -18293,6 +18353,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -19154,6 +19218,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -19780,6 +19845,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -20636,6 +20705,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -21260,6 +21330,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NUNDG</field>
             <label>Close Date Pushes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
@@ -22123,6 +22197,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -22747,6 +22822,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NUNDG</field>
             <label>Close Date Pushes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
@@ -23605,6 +23684,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -24235,6 +24315,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -25097,6 +25181,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -25727,6 +25812,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -26589,6 +26678,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -27219,6 +27309,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -28081,6 +28175,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -28711,6 +28806,10 @@
             <label>Close Date Pushes</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DnkyJ</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1w</field>
             <label>Year 7 Amount</label>
         </forecastingObjectListLabelMappings>
@@ -29573,6 +29672,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00NDM00000DnkyJ</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>

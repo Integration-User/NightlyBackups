@@ -167,6 +167,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Exclude_from_Deal_Scoring_Model__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exclude from Deal Scoring Model</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ExternalDataSourceId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -280,6 +288,7 @@
         <columns>PRODUCT2.EXTERNAL_ID</columns>
         <columns>Website_Product__c</columns>
         <columns>News_Product_Line__c</columns>
+        <columns>Exclude_from_Deal_Scoring_Model__c</columns>
         <filterScope>Everything</filterScope>
         <label>All Products</label>
     </listViews>
