@@ -588,6 +588,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1387,6 +1391,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -2065,6 +2070,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2864,6 +2873,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -3542,6 +3552,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -4341,6 +4355,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -5019,6 +5034,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -5818,6 +5837,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -6488,6 +6508,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -7285,6 +7309,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -7954,6 +7979,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -8751,6 +8780,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -9424,6 +9454,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -10222,6 +10256,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -10889,6 +10924,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0z</field>
             <label>Exchange Rate</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
@@ -11688,6 +11727,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -12361,6 +12401,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -13159,6 +13203,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -13826,6 +13871,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0z</field>
             <label>Exchange Rate</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
@@ -14625,6 +14674,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -15298,6 +15348,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -16096,6 +16150,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -16763,6 +16818,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0z</field>
             <label>Exchange Rate</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
@@ -17562,6 +17621,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -18235,6 +18295,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -19033,6 +19097,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -19700,6 +19765,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0z</field>
             <label>Exchange Rate</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
@@ -20499,6 +20568,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -21172,6 +21242,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -21970,6 +22044,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -22637,6 +22712,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0z</field>
             <label>Exchange Rate</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
@@ -23436,6 +23515,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -24113,6 +24193,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -24912,6 +24996,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -25590,6 +25675,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -26389,6 +26478,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -27067,6 +27157,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -27866,6 +27960,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -28544,6 +28639,10 @@
             <label>Exchange Rate</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </opportunityListFieldsLabelMappings>
@@ -29343,6 +29442,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>

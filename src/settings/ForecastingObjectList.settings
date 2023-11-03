@@ -474,6 +474,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -1285,6 +1289,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -1931,6 +1936,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -2742,6 +2751,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -3388,6 +3398,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -4199,6 +4213,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -4845,6 +4860,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -5656,6 +5675,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -6298,6 +6318,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -7103,6 +7127,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -7745,6 +7770,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -8550,6 +8579,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -9192,6 +9222,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -10002,6 +10036,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -10644,6 +10679,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -11449,6 +11488,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -12091,6 +12131,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -12901,6 +12945,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -13543,6 +13588,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -14348,6 +14397,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -14990,6 +15040,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -15800,6 +15854,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -16442,6 +16497,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -17247,6 +17306,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -17889,6 +17949,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -18699,6 +18763,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -19341,6 +19406,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -20146,6 +20215,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -20786,6 +20856,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1s</field>
             <label>Year 5 Amount</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
@@ -21598,6 +21672,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -22238,6 +22313,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1s</field>
             <label>Year 5 Amount</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
@@ -23045,6 +23124,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -23691,6 +23771,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -24502,6 +24586,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -25148,6 +25233,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -25959,6 +26048,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -26605,6 +26695,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -27416,6 +27510,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
@@ -28062,6 +28157,10 @@
             <label>Year 5 Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00N5G00000VXPkK</field>
+            <label>Exclude from Deal Scoring Model</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1t</field>
             <label>Year 5 Contract Start Date</label>
         </forecastingObjectListLabelMappings>
@@ -28873,6 +28972,7 @@
             <field>00N5G00000VZyps</field>
             <field>00N5G00000VZyXt</field>
             <field>00Nf400000V6v0z</field>
+            <field>00N5G00000VXPkK</field>
             <field>00Nf400000V6v10</field>
             <field>00Nf400000NvuvY</field>
             <field>00Nf400000UhFse</field>
