@@ -443,12 +443,6 @@
         <label>NA REIT</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
-    </customValue>
-    <customValue>
         <fullName>EU Sales Comps</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -473,12 +467,6 @@
         <label>Forecast Scenarios</label>
     </customValue>
     <customValue>
-        <fullName>US Market Forecasts</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>US Market Forecasts</label>
-    </customValue>
-    <customValue>
         <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -489,6 +477,24 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>eREA</label>
+    </customValue>
+    <customValue>
+        <fullName>US Market Forecasts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Market Forecasts</label>
+    </customValue>
+    <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>US Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>
@@ -507,12 +513,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>EU Market Data</label>
-    </customValue>
-    <customValue>
-        <fullName>US Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
