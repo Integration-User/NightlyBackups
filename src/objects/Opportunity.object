@@ -6741,23 +6741,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6789,19 +6777,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6902,10 +6882,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8275,23 +8251,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8323,19 +8287,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8436,10 +8392,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9749,23 +9701,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9797,19 +9737,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9910,10 +9842,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11175,23 +11103,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11223,19 +11139,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11336,10 +11244,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12649,23 +12553,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12685,6 +12577,22 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data Collection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -12694,10 +12602,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Debt Databases</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Directory%2FPublishing</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12721,7 +12625,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Edge</fullName>
+                <fullName>Edge - Project work</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12821,7 +12725,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Royalty Income</fullName>
+                <fullName>Royalties</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14087,23 +13991,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14135,10 +14027,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
@@ -14148,10 +14036,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14248,10 +14132,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15497,23 +15377,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15545,19 +15413,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15654,10 +15514,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16844,18 +16700,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Company Diagnostics</fullName>
                 <default>false</default>
             </values>
@@ -16872,19 +16716,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Directory%2FPublishing</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EU News</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>EURO Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Edge</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16957,10 +16793,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>React Advertising</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalty Income</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18270,23 +18102,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18306,6 +18126,22 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data Collection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -18315,10 +18151,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Debt Databases</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Directory%2FPublishing</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18342,7 +18174,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Edge</fullName>
+                <fullName>Edge - Project work</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18442,7 +18274,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Royalty Income</fullName>
+                <fullName>Royalties</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19776,23 +19608,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19812,6 +19632,22 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data Collection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -19821,10 +19657,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Debt Databases</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Directory%2FPublishing</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19848,7 +19680,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Edge</fullName>
+                <fullName>Edge - Project work</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19948,7 +19780,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Royalty Income</fullName>
+                <fullName>Royalties</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21270,23 +21102,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Analysis%2FInsight</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Asset-Backed Alert</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Atlas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bespoke Reports</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21306,6 +21126,22 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data Collection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -21319,10 +21155,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Detailed NAV</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Directory%2FPublishing</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21346,7 +21178,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Edge</fullName>
+                <fullName>Edge - Project work</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21446,7 +21278,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Royalty Income</fullName>
+                <fullName>Royalties</fullName>
                 <default>false</default>
             </values>
             <values>

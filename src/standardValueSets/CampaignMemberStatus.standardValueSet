@@ -542,6 +542,11 @@
         <label>Viewed</label>
     </standardValue>
     <standardValue>
+        <fullName>Viewed Page</fullName>
+        <default>false</default>
+        <label>Viewed Page</label>
+    </standardValue>
+    <standardValue>
         <fullName>Viewed Recording</fullName>
         <default>false</default>
         <label>Viewed Recording</label>
