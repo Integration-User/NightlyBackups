@@ -1284,6 +1284,22 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data Collection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -1317,6 +1333,10 @@
             </values>
             <values>
                 <fullName>EURO Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge - Project work</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1485,6 +1505,10 @@
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Royalties</fullName>
                 <default>false</default>
             </values>
             <values>
