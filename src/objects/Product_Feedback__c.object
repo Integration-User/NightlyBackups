@@ -634,7 +634,31 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data License Local Data Online</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data License Directory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data Collection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data Sale</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Royalties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
                 <valueName>Onsite</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Edge - Project work</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
