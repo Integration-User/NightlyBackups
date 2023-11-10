@@ -637,6 +637,10 @@
                 <valueName>Onsite</valueName>
             </valueSettings>
             <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Local Data Online</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
                 <valueName>News</valueName>
             </valueSettings>
@@ -1341,6 +1345,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>MD%26D</fullName>
                 <default>false</default>
             </values>
@@ -1402,10 +1410,6 @@
             </values>
             <values>
                 <fullName>Not Applicable</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Onsite</fullName>
                 <default>false</default>
             </values>
             <values>
