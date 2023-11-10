@@ -661,6 +661,10 @@
                 <valueName>Edge - Project work</valueName>
             </valueSettings>
             <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Local Data Online</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
                 <valueName>News</valueName>
             </valueSettings>
@@ -1308,22 +1312,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Data Collection</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data License Directory</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data License Local Data Online</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Sale</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -1360,10 +1348,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Edge - Project work</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Excel Add-In</fullName>
                 <default>false</default>
             </values>
@@ -1377,6 +1361,10 @@
             </values>
             <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Local Data Online</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1441,10 +1429,6 @@
             </values>
             <values>
                 <fullName>Not Applicable</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Onsite</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1529,10 +1513,6 @@
             </values>
             <values>
                 <fullName>Real Estate Alert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Royalties</fullName>
                 <default>false</default>
             </values>
             <values>

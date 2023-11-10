@@ -22,23 +22,6 @@
         <protected>false</protected>
         <useDeadLetterQueue>false</useDeadLetterQueue>
     </outboundMessages>
-    <outboundMessages>
-        <fullName>Send_To_Appcues</fullName>
-        <apiVersion>58.0</apiVersion>
-        <endpointUrl>https://hooks.integrations.appcues.com/trigger/SW5zdGFuY2VGbG93Q29uZmlnOjk5MDcxM2YxLWI5ZGQtNDY3ZC1hMzM3LTk4MjIzNmY5NmFlYg==</endpointUrl>
-        <fields>Account_Type__c</fields>
-        <fields>Current_Products__c</fields>
-        <fields>Department</fields>
-        <fields>GSA_ID__c</fields>
-        <fields>Id</fields>
-        <fields>Last_Login_Date__c</fields>
-        <fields>Title</fields>
-        <includeSessionId>false</includeSessionId>
-        <integrationUser>ksantos@greenstreet.com</integrationUser>
-        <name>Send To Appcues</name>
-        <protected>false</protected>
-        <useDeadLetterQueue>false</useDeadLetterQueue>
-    </outboundMessages>
     <rules>
         <fullName>AppcuesOnContactCreateUpdate_ZTbmTG</fullName>
         <actions>
@@ -47,19 +30,6 @@
         </actions>
         <active>true</active>
         <formula>!ISBLANK(Id)</formula>
-        <triggerType>onAllChanges</triggerType>
-    </rules>
-    <rules>
-        <fullName>Appcues_Create_Update</fullName>
-        <actions>
-            <name>Send_To_Appcues</name>
-            <type>OutboundMessage</type>
-        </actions>
-        <active>true</active>
-        <criteriaItems>
-            <field>Contact.CreatedDate</field>
-            <operation>notEqual</operation>
-        </criteriaItems>
         <triggerType>onAllChanges</triggerType>
     </rules>
 </Workflow>
