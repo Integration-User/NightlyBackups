@@ -172,6 +172,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>jblanden@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>kbenning@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
