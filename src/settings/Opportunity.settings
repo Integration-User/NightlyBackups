@@ -7,6 +7,7 @@
     <enableFindSimilarOpportunities>false</enableFindSimilarOpportunities>
     <enableForecastCategoryMetrics>true</enableForecastCategoryMetrics>
     <enableOpportunityFieldHistoryTracking>true</enableOpportunityFieldHistoryTracking>
+    <enableOpportunityInsightsInMobile>false</enableOpportunityInsightsInMobile>
     <enableOpportunityTeam>true</enableOpportunityTeam>
     <enablePipelineChangesMetrics>true</enablePipelineChangesMetrics>
     <enablePipelineInspection>true</enablePipelineInspection>
