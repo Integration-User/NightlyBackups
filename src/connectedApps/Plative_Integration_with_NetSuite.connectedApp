@@ -12,6 +12,7 @@
         <isConsumerSecretOptional>true</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
         <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
         <scopes>Full</scopes>
     </oauthConfig>
