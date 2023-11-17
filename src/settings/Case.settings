@@ -26,19 +26,20 @@
         <preQuoteSignature>false</preQuoteSignature>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
+            <caseOrigin>Customer Success</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>clientrequest@greenstreet.com</emailAddress>
+            <emailServicesAddress>clientrequest@b-2vpbxqwbithq7eci781zfj5o4xl1xupeefjxds4s9zje3adjxu.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>Client Requests</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
+            <caseOrigin>Customer Success</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
@@ -51,12 +52,13 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
+            <caseOrigin>Customer Success</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>success@greenstreet.com</emailAddress>
+            <emailServicesAddress>success@z-ewdqgioh7aj01yawgkmxo6d94oz9zkdi1cstozsl3emdwlyvm.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>Customer Success</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>
