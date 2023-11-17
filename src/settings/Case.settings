@@ -26,7 +26,7 @@
         <preQuoteSignature>false</preQuoteSignature>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
+            <caseOrigin>Customer Success</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
@@ -39,7 +39,7 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
+            <caseOrigin>Customer Success</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
@@ -52,7 +52,7 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
+            <caseOrigin>Customer Success</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>

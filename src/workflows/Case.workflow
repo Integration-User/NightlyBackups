@@ -529,7 +529,7 @@
             <name>Set_Client_Support_Type</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Case.IsClosed</field>
             <operation>equals</operation>

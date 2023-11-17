@@ -7800,6 +7800,18 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>Current Sprint</label>
     </listViews>
     <listViews>
+        <fullName>Excluded_From_Deal_Pipeline</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__Exclude_From_CBM__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Excluded From Deal Pipeline</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
