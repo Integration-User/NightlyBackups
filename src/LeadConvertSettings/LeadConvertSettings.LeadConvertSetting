@@ -200,6 +200,10 @@
             <outputField>ZoomInfo_Company_Phone_contact__c</outputField>
         </mappingFields>
         <mappingFields>
+            <inputField>ZoomInfo_Person_Zip_Code_Lead__c</inputField>
+            <outputField>ZoomInfo_Person_Zip_Code_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>ZoomInfo_Company_SIC_Code_Lead__c</inputField>
             <outputField>ZoomInfo_Company_SIC_Code_contact__c</outputField>
         </mappingFields>
@@ -210,10 +214,6 @@
         <mappingFields>
             <inputField>ZoomInfo_Person_Street_Lead__c</inputField>
             <outputField>ZoomInfo_Person_Street_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>ZoomInfo_Person_Zip_Code_Lead__c</inputField>
-            <outputField>ZoomInfo_Person_Zip_Code_contact__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>ZoomInfo_Company_Street_Lead__c</inputField>
