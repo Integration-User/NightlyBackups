@@ -32531,9 +32531,6 @@
         <layout>AccountContactRole-Account Contact Role Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AccountInsight-Einstein Account Insight Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>AccountTeamMember-Account Team Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -32936,9 +32933,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityContactRoleSuggestionInsight-Einstein Opportunity Contact Role Suggestion Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OpportunityInsight-Einstein Opportunity Insight Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
