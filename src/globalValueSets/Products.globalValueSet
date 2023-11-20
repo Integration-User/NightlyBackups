@@ -436,12 +436,6 @@
         <label>Local Data Online</label>
     </customValue>
     <customValue>
-        <fullName>EU Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
-    </customValue>
-    <customValue>
         <fullName>EU Sales Comps</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -518,6 +512,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>EU Market Forecasts</fullName>
