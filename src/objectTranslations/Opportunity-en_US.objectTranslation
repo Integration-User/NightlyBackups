@@ -2042,14 +2042,6 @@
         <name>DDScore_NoScore</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- to be deleted --></errorMessage>
-        <name>Discount_Approval_to_Move_to_Stage_4</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- to be deleted --></errorMessage>
-        <name>Discount_Approval_to_Move_to_Stage_5</name>
-    </validationRules>
-    <validationRules>
         <errorMessage><!-- To mark this Favor as Active, please fill in the &quot;Favor End Date&quot; --></errorMessage>
         <name>Favor_End_Date_required_to_Activate</name>
     </validationRules>
@@ -2117,14 +2109,6 @@ Opportunity: PPD Sent --></errorMessage>
     <validationRules>
         <errorMessage><!-- You must add Products to the Opportunity before Closing. --></errorMessage>
         <name>Products_Required_to_Save_at_Stage_4</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- To be deleted --></errorMessage>
-        <name>Referral_Blank_On_Upsells</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- to be deleted --></errorMessage>
-        <name>RenewalsFields_Reqd_to_Save_Stage_5</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- This Opportunity is within the 90 day forecast period. Please update the Rep Forecast Category. --></errorMessage>
