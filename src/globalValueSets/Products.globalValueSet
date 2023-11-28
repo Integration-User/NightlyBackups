@@ -454,12 +454,6 @@
         <label>REA</label>
     </customValue>
     <customValue>
-        <fullName>Edge</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Edge</label>
-    </customValue>
-    <customValue>
         <fullName>Analysis/Insight</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -500,6 +494,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Edge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edge</label>
     </customValue>
     <customValue>
         <fullName>EU REIT</fullName>
