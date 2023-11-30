@@ -168,6 +168,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>fongkiko@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>hparkinson@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
