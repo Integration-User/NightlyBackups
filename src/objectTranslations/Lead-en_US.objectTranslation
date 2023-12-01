@@ -306,6 +306,10 @@
             <translation><!-- Prospect --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation><!-- Suspended --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Trial</masterLabel>
             <translation><!-- Trial --></translation>
         </picklistValues>
