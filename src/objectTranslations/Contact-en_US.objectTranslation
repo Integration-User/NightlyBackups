@@ -4589,10 +4589,6 @@
         <name>zisf__zoom_lastupdated__c</name>
     </fields>
     <validationRules>
-        <errorMessage><!-- Username must be filled out and Account must be Active before you can activate the Contact. --></errorMessage>
-        <name>Activate_Contact</name>
-    </validationRules>
-    <validationRules>
         <errorMessage><!-- Before activating a contact, access for at least one needs to be specified. Datalink or Website or both! --></errorMessage>
         <name>Datalink_of_Website_Access_Required</name>
     </validationRules>
