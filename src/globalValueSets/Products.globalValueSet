@@ -490,12 +490,6 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
         <fullName>Edge</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -506,6 +500,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>EU REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>Credit Analytics</fullName>

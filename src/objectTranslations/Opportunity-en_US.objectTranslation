@@ -1238,16 +1238,24 @@
         <label><!-- Product Types --></label>
         <name>Product_Types__c</name>
         <picklistValues>
-            <masterLabel>News Only</masterLabel>
-            <translation><!-- News Only --></translation>
+            <masterLabel>LDC</masterLabel>
+            <translation><!-- LDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>News</masterLabel>
+            <translation><!-- News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>React</masterLabel>
+            <translation><!-- React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Research &amp; News</masterLabel>
             <translation><!-- Research &amp; News --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Research Only</masterLabel>
-            <translation><!-- Research Only --></translation>
         </picklistValues>
     </fields>
     <fields>

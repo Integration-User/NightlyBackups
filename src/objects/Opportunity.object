@@ -3276,28 +3276,38 @@ NULL))))</formula>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
-        <type>Picklist</type>
+        <type>MultiselectPicklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
-                <value>
-                    <fullName>Research Only</fullName>
-                    <default>false</default>
-                    <label>Research Only</label>
-                </value>
-                <value>
-                    <fullName>News Only</fullName>
-                    <default>false</default>
-                    <label>News Only</label>
-                </value>
                 <value>
                     <fullName>Research &amp; News</fullName>
                     <default>false</default>
                     <label>Research &amp; News</label>
                 </value>
+                <value>
+                    <fullName>LDC</fullName>
+                    <default>false</default>
+                    <label>LDC</label>
+                </value>
+                <value>
+                    <fullName>React</fullName>
+                    <default>false</default>
+                    <label>React</label>
+                </value>
+                <value>
+                    <fullName>Research</fullName>
+                    <default>false</default>
+                    <label>Research</label>
+                </value>
+                <value>
+                    <fullName>News</fullName>
+                    <default>false</default>
+                    <label>News</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
+        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>Products_Associated__c</fullName>
@@ -6595,15 +6605,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8101,15 +8119,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9547,15 +9573,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10945,15 +10979,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12391,15 +12433,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13829,15 +13879,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15211,15 +15269,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16534,15 +16600,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -17928,15 +17994,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19434,15 +19508,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -20928,15 +21010,23 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
-                <fullName>News Only</fullName>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Research %26 News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Research Only</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
