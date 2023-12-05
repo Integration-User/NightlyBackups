@@ -6613,10 +6613,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Research</fullName>
                 <default>false</default>
             </values>
@@ -8127,10 +8123,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Research</fullName>
                 <default>false</default>
             </values>
@@ -9581,10 +9573,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Research</fullName>
                 <default>false</default>
             </values>
@@ -10984,10 +10972,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13887,10 +13871,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Research</fullName>
                 <default>false</default>
             </values>
@@ -15274,10 +15254,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
                 <default>false</default>
             </values>
             <values>

@@ -291,11 +291,6 @@
         <columns>Product_ID__c</columns>
         <columns>Exclude_from_Deal_Scoring_Model__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>PRODUCT2.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
         <label>All Products</label>
     </listViews>
     <searchLayouts>

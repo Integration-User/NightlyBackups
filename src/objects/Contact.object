@@ -7725,7 +7725,7 @@ Stored as Long on Solr.</description>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>startsWith</operation>
-            <value>Nordic Real Estate Partners AB / NREP AB</value>
+            <value>D.E. Shaw &amp; Co. LP</value>
         </filters>
         <label>Copy of Copy of User List Updates</label>
         <sharedTo>
