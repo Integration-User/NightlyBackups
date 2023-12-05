@@ -436,6 +436,11 @@
         <label>Local Data Online</label>
     </customValue>
     <customValue>
+        <fullName>EUR Sales comps</fullName>
+        <default>false</default>
+        <label>EUR Sales comps</label>
+    </customValue>
+    <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>

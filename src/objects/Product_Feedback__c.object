@@ -1325,6 +1325,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Sales comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EURO Research</fullName>
                 <default>false</default>
             </values>
@@ -2147,6 +2151,10 @@
             </values>
             <values>
                 <fullName>EU News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Sales comps</fullName>
                 <default>false</default>
             </values>
             <values>

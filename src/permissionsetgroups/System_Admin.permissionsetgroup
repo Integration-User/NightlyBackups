@@ -2,6 +2,7 @@
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
     <label>System Admin</label>
+    <permissionSets>Access_Entitlements_Features</permissionSets>
     <permissionSets>Access_to_Solutions</permissionSets>
     <permissionSets>Segment_to_Salesforce_ETL_field_updates</permissionSets>
     <permissionSets>affectlayer__AffectLayer_Admin</permissionSets>
