@@ -634,7 +634,31 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data License Local Data Online</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data License Directory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data Collection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Data Sale</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Royalties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
                 <valueName>Onsite</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Feedback</controllingFieldValue>
+                <valueName>Edge - Project work</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Product Feedback</controllingFieldValue>
@@ -1325,7 +1349,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>EUR Sales comps</fullName>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2154,7 +2178,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>EUR Sales comps</fullName>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>

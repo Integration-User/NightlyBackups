@@ -436,9 +436,9 @@
         <label>Local Data Online</label>
     </customValue>
     <customValue>
-        <fullName>EUR Sales comps</fullName>
+        <fullName>EUR Sales Comps</fullName>
         <default>false</default>
-        <label>EUR Sales comps</label>
+        <label>EUR Sales Comps</label>
     </customValue>
     <customValue>
         <fullName>Learning Center</fullName>

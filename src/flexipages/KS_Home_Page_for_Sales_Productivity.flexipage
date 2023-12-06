@@ -516,16 +516,6 @@
                 <identifier>flexipage_reportChart2</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>flavor</name>
-                    <value>list</value>
-                </componentInstanceProperties>
-                <componentName>home:newsPanel</componentName>
-                <identifier>home_newsPanel</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>

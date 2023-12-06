@@ -4215,7 +4215,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EUR Sales comps</fullName>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4264,10 +4264,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Not Applicable</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Onsite</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5696,7 +5692,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EUR Sales comps</fullName>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
