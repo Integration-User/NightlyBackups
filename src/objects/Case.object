@@ -4205,6 +4205,10 @@ FALSE))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EURO Research</fullName>
                 <default>false</default>
             </values>
@@ -5459,6 +5463,10 @@ FALSE))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EURO Research</fullName>
                 <default>false</default>
             </values>
@@ -6521,6 +6529,10 @@ FALSE))))))))))))</formula>
             <picklist>Products_Discussed__c</picklist>
             <values>
                 <fullName>Debt Databases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7655,6 +7667,10 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>EU News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8827,6 +8843,10 @@ FALSE))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EURO Research</fullName>
                 <default>false</default>
             </values>
@@ -9886,6 +9906,10 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>Debt Databases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11031,6 +11055,10 @@ FALSE))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EUR Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EURO Research</fullName>
                 <default>false</default>
             </values>
@@ -12125,6 +12153,10 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>EU News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13310,6 +13342,10 @@ FALSE))))))))))))</formula>
             <picklist>Products_Discussed__c</picklist>
             <values>
                 <fullName>Debt Databases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EUR Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
