@@ -66,7 +66,7 @@
         <routingAddresses>
             <addressType>EmailToCase</addressType>
             <caseOrigin>External Data Support</caseOrigin>
-            <caseOwner>EU_Data_Support</caseOwner>
+            <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
