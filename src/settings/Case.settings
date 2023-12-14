@@ -65,7 +65,7 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>External Data Support</caseOrigin>
+            <caseOrigin>EU External Data Support</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
@@ -134,6 +134,7 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>greenstreetuserlistrequest@greenstreet.com</emailAddress>
+            <emailServicesAddress>greenstreetuserlistrequest@o-pux5yr4teuna24ucm2mf3ixaavg5acrwf0av3w7cuudszmtrr.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>User List</routingName>
             <saveEmailHeaders>true</saveEmailHeaders>

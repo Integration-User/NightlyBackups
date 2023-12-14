@@ -32938,10 +32938,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-New Business</layout>
-        <recordType>Opportunity.Sales_Development</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Opportunity-New Business</layout>
         <recordType>Opportunity.Sales_Opportunity</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -32959,6 +32955,10 @@
     <layoutAssignments>
         <layout>Opportunity-Renewals 2</layout>
         <recordType>Opportunity.Existing_Business</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Sales Development</layout>
+        <recordType>Opportunity.Sales_Development</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
