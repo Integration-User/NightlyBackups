@@ -7813,6 +7813,35 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>Excluded From Deal Pipeline</label>
     </listViews>
     <listViews>
+        <fullName>HubSpot_Revamp_Features</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>Jira_Key__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Story_Points_SFDC__c</columns>
+        <columns>copado__Org_Credential__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Documentation_Complete__c</columns>
+        <columns>copado__Close_Date__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Release__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Epic__c</field>
+            <operation>equals</operation>
+            <value>E0000020</value>
+        </filters>
+        <label>HubSpot Revamp Features</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
