@@ -65,7 +65,7 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>External Data Support</caseOrigin>
+            <caseOrigin>EU External Data Support</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
