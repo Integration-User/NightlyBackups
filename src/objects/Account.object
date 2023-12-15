@@ -3750,6 +3750,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
@@ -3759,6 +3763,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LDC</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3775,6 +3783,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5243,6 +5255,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street Event</fullName>
                 <default>false</default>
             </values>
@@ -5252,6 +5268,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LDC</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5268,6 +5288,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
                 <default>false</default>
             </values>
             <values>

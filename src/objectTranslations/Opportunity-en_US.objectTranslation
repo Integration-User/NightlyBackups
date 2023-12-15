@@ -772,6 +772,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Inbound? --></label>
+        <name>Inbound__c</name>
+    </fields>
+    <fields>
         <help><!-- The first price (ARR) proposed to the client for final product offering --></help>
         <label><!-- Initial Asking Price --></label>
         <name>Initial_Asking_Price__c</name>
@@ -859,6 +863,154 @@
     <fields>
         <label><!-- Last Stage Change --></label>
         <name>Last_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Channel --></label>
+        <name>Lead_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Cold Outreach</masterLabel>
+            <translation><!-- Cold Outreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Derived Intent</masterLabel>
+            <translation><!-- Derived Intent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecommerce</masterLabel>
+            <translation><!-- Ecommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events</masterLabel>
+            <translation><!-- Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former Account</masterLabel>
+            <translation><!-- Former Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former User</masterLabel>
+            <translation><!-- Former User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inquiry</masterLabel>
+            <translation><!-- Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Ads</masterLabel>
+            <translation><!-- Paid Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation><!-- Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target List</masterLabel>
+            <translation><!-- Target List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Type --></label>
+        <name>Lead_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contact Us</masterLabel>
+            <translation><!-- Contact Us --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Request</masterLabel>
+            <translation><!-- Content Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Request</masterLabel>
+            <translation><!-- Demo Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Call</masterLabel>
+            <translation><!-- Direct Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation><!-- Google --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Street</masterLabel>
+            <translation><!-- Green Street --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Event</masterLabel>
+            <translation><!-- In Person Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Email</masterLabel>
+            <translation><!-- Inbound Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LDC</masterLabel>
+            <translation><!-- LDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn</masterLabel>
+            <translation><!-- LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linkedin Sales Nav</masterLabel>
+            <translation><!-- Linkedin Sales Nav --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Green Street Sponsored Event</masterLabel>
+            <translation><!-- Non-Green Street Sponsored Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERE</masterLabel>
+            <translation><!-- PERE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Network</masterLabel>
+            <translation><!-- Personal Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>React</masterLabel>
+            <translation><!-- React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation><!-- Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scored Lead</masterLabel>
+            <translation><!-- Scored Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Reported</masterLabel>
+            <translation><!-- Self-Reported --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsored Event</masterLabel>
+            <translation><!-- Sponsored Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription Request</masterLabel>
+            <translation><!-- Subscription Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target List</masterLabel>
+            <translation><!-- Target List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Request</masterLabel>
+            <translation><!-- Trial Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZoomInfo</masterLabel>
+            <translation><!-- ZoomInfo --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Length of Contract --></label>
@@ -2701,6 +2853,10 @@
         <name>Trigger_Real_time_Sync__c</name>
     </fields>
     <fields>
+        <label><!-- Type Details --></label>
+        <name>Type_Details__c</name>
+    </fields>
+    <fields>
         <label><!-- Type: Sales or Quota --></label>
         <name>Type_Sales_or_Quota__c</name>
         <picklistValues>
@@ -3077,6 +3233,10 @@ Opportunity: PPD Sent --></errorMessage>
     <validationRules>
         <errorMessage><!-- Please provide the Trial Type when Trial Start and End Dates are populated --></errorMessage>
         <name>Require_Trial_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the type details. --></errorMessage>
+        <name>Require_Type_Details</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please enter Contract Start and End Date, Billing contact and Billing Frequency in order to save this Opportunity as a Verbal Win. --></errorMessage>

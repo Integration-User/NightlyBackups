@@ -652,6 +652,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -682,6 +686,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -1176,6 +1188,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -1439,6 +1455,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -1447,6 +1464,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -1570,6 +1589,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -2174,6 +2194,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -2204,6 +2228,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -2698,6 +2730,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -2961,6 +2997,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -2969,6 +3006,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -3092,6 +3131,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -3696,6 +3736,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -3726,6 +3770,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -4220,6 +4272,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -4483,6 +4539,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -4491,6 +4548,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -4614,6 +4673,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -5218,6 +5278,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -5248,6 +5312,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -5742,6 +5814,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -6005,6 +6081,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -6013,6 +6090,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -6136,6 +6215,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -6732,6 +6812,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -6762,6 +6846,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -7256,6 +7348,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -7517,6 +7613,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -7525,6 +7622,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -7648,6 +7747,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -8243,6 +8343,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -8273,6 +8377,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -8767,6 +8879,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -9028,6 +9144,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -9036,6 +9153,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -9159,6 +9278,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -9758,6 +9878,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -9788,6 +9912,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -10282,6 +10414,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -10544,6 +10680,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -10552,6 +10689,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -10675,6 +10814,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -11270,6 +11410,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -11300,6 +11444,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -11794,6 +11946,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -12055,6 +12211,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -12063,6 +12220,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -12186,6 +12345,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -12785,6 +12945,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -12815,6 +12979,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -13309,6 +13481,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -13571,6 +13747,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -13579,6 +13756,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -13702,6 +13881,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -14297,6 +14477,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -14327,6 +14511,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -14821,6 +15013,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -15082,6 +15278,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -15090,6 +15287,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -15213,6 +15412,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -15812,6 +16012,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -15842,6 +16046,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -16336,6 +16548,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -16598,6 +16814,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -16606,6 +16823,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -16729,6 +16948,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -17324,6 +17544,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -17354,6 +17578,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -17848,6 +18080,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -18109,6 +18345,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -18117,6 +18354,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -18240,6 +18479,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -18839,6 +19079,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -18869,6 +19113,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -19363,6 +19615,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -19625,6 +19881,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -19633,6 +19890,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -19756,6 +20015,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -20351,6 +20611,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -20381,6 +20645,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -20875,6 +21147,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -21136,6 +21412,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -21144,6 +21421,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -21267,6 +21546,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -21866,6 +22146,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -21896,6 +22180,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -22390,6 +22682,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -22652,6 +22948,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -22660,6 +22957,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -22783,6 +23082,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -23378,6 +23678,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -23408,6 +23712,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -23902,6 +24214,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -24163,6 +24479,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -24171,6 +24488,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -24294,6 +24613,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -24897,6 +25217,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -24927,6 +25251,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -25421,6 +25753,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -25684,6 +26020,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -25692,6 +26029,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -25815,6 +26154,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -26419,6 +26759,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -26449,6 +26793,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -26943,6 +27295,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -27206,6 +27562,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -27214,6 +27571,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -27337,6 +27696,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -27941,6 +28301,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -27971,6 +28335,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -28465,6 +28837,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -28728,6 +29104,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -28736,6 +29113,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -28859,6 +29238,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
@@ -29463,6 +29843,10 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZI</field>
+            <label>Inbound?</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeELW</field>
             <label>Initial Asking Price</label>
         </opportunityListFieldsLabelMappings>
@@ -29493,6 +29877,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Dme1a</field>
             <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZJ</field>
+            <label>Lead Channel</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZL</field>
+            <label>Lead Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000TFAny</field>
@@ -29987,6 +30379,10 @@
             <label>Type: Sales or Quota</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DnyZK</field>
+            <label>Type Details</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8i</field>
             <label>Unmet Deal Insights</label>
         </opportunityListFieldsLabelMappings>
@@ -30250,6 +30646,7 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NDM00000DnyZI</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
             <field>00Nf400000V6v13</field>
@@ -30258,6 +30655,8 @@
             <field>00Nf400000V6v16</field>
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
+            <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
             <field>00N5G00000VZvb4</field>
@@ -30381,6 +30780,7 @@
             <field>00NDM00000DmedF</field>
             <field>00Nf400000V6v1h</field>
             <field>00Nf400000OG4cD</field>
+            <field>00NDM00000DnyZK</field>
             <field>00N5G00000WeE8i</field>
             <field>00N5G00000WiXE8</field>
             <field>00Nf400000V6v4B</field>
