@@ -3488,12 +3488,8 @@ Stored as Long on Solr.</description>
         <columns>Analyst_Access__c</columns>
         <columns>Detailed_NAV_Models__c</columns>
         <columns>High_Value_Data_Sets__c</columns>
+        <columns>Activated_Users__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>Subsidiary__c</field>
-            <operation>equals</operation>
-            <value>18.1 LDC</value>
-        </filters>
         <label>Current Clients</label>
     </listViews>
     <listViews>
