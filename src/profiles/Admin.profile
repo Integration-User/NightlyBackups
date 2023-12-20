@@ -360,6 +360,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactEmailDistributionInsertQueueable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContactEmailDistributionTriggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>

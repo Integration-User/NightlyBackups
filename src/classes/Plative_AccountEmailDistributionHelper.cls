@@ -70,7 +70,10 @@ public class Plative_AccountEmailDistributionHelper {
         }
         
         //insert contact email distributions
-        upsert contactEmailDistributionInsertList;        
+        upsert contactEmailDistributionInsertList;     
+        /* if(!contactEmailDistributionInsertList.isEmpty()){
+            System.enqueueJob(new ContactEmailDistributionInsertQueueable(contactEmailDistributionInsertList));
+        }   */
     }
     
     
