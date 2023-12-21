@@ -360,7 +360,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ContactEmailDistributionInsertQueueable</apexClass>
+        <apexClass>ContactEmailDistributionInsertBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
