@@ -400,6 +400,10 @@
         <name>Create_New_Renewal_Opportunity__c</name>
     </fields>
     <fields>
+        <label><!-- Create New Sales Opportunity --></label>
+        <name>Create_New_Sales_Opportunity__c</name>
+    </fields>
+    <fields>
         <label><!-- Created Date (short) --></label>
         <name>Created_Date_short__c</name>
     </fields>
@@ -2206,6 +2210,11 @@
         <name>New_Business_Credit_rollup__c</name>
     </fields>
     <fields>
+        <label><!-- New Sales Opportunity --></label>
+        <name>New_Sales_Opportunity__c</name>
+        <relationshipLabel><!-- Sales Development --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- News - ABAlert --></label>
         <name>News_ABAlert__c</name>
     </fields>
@@ -2671,6 +2680,11 @@
         <relationshipLabel><!-- Renewals --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Sales Owner --></label>
+        <name>Sales_Owner__c</name>
+        <relationshipLabel><!-- Opportunities (Sales Owner) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Sales Type NS Internal ID --></label>
         <name>Sales_Type_NS_Internal_ID__c</name>
     </fields>
@@ -3088,6 +3102,11 @@
     <recordTypes>
         <label><!-- Sales Opportunity - Closed --></label>
         <name>Sales_Opportunity_Closed</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is a test to see if this is created in HubSpot --></description>
+        <label><!-- TEST --></label>
+        <name>TEST</name>
     </recordTypes>
     <validationRules>
         <errorMessage><!-- Please ensure AP Email is filled in before marking this Opportunity as Closed Won. --></errorMessage>

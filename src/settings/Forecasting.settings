@@ -428,6 +428,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -780,6 +784,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -1022,6 +1030,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -1399,6 +1411,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -1487,6 +1500,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -1548,6 +1562,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -1970,6 +1985,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -2322,6 +2341,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -2564,6 +2587,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -2941,6 +2968,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -3029,6 +3057,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -3090,6 +3119,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -3512,6 +3542,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -3864,6 +3898,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -4106,6 +4144,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -4483,6 +4525,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -4571,6 +4614,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -4632,6 +4676,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -5054,6 +5099,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -5406,6 +5455,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -5648,6 +5701,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -6025,6 +6082,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -6113,6 +6171,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -6174,6 +6233,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -6588,6 +6648,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -6940,6 +7004,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -7182,6 +7250,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -7557,6 +7629,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -7645,6 +7718,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -7706,6 +7780,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -8119,6 +8194,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -8471,6 +8550,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -8713,6 +8796,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -9088,6 +9175,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -9176,6 +9264,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -9237,6 +9326,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -9654,6 +9744,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -10006,6 +10100,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -10248,6 +10346,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -10624,6 +10726,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -10712,6 +10815,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -10773,6 +10877,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -11186,6 +11291,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -11538,6 +11647,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -11780,6 +11893,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -12155,6 +12272,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -12243,6 +12361,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -12304,6 +12423,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -12721,6 +12841,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -13073,6 +13197,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -13315,6 +13443,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -13691,6 +13823,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -13779,6 +13912,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -13840,6 +13974,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -14253,6 +14388,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -14605,6 +14744,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -14847,6 +14990,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -15222,6 +15369,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -15310,6 +15458,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -15371,6 +15520,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -15788,6 +15938,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -16140,6 +16294,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -16382,6 +16540,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -16758,6 +16920,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -16846,6 +17009,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -16907,6 +17071,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -17320,6 +17485,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -17672,6 +17841,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -17914,6 +18087,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -18289,6 +18466,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -18377,6 +18555,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -18438,6 +18617,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -18855,6 +19035,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -19207,6 +19391,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -19449,6 +19637,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -19825,6 +20017,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -19913,6 +20106,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -19974,6 +20168,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -20387,6 +20582,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -20739,6 +20938,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -20981,6 +21184,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -21356,6 +21563,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -21444,6 +21652,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -21505,6 +21714,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -21922,6 +22132,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -22274,6 +22488,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -22516,6 +22734,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -22892,6 +23114,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -22980,6 +23203,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -23041,6 +23265,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -23454,6 +23679,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -23806,6 +24035,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -24048,6 +24281,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -24423,6 +24660,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -24511,6 +24749,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -24572,6 +24811,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -24993,6 +25233,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -25345,6 +25589,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -25587,6 +25835,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -25964,6 +26216,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -26052,6 +26305,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -26113,6 +26367,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -26535,6 +26790,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -26887,6 +27146,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -27129,6 +27392,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -27506,6 +27773,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -27594,6 +27862,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -27655,6 +27924,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -28077,6 +28347,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -28429,6 +28703,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -28671,6 +28949,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -29048,6 +29330,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -29136,6 +29419,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -29197,6 +29481,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -29619,6 +29904,10 @@
             <label>Create New Renewal Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0g</field>
             <label>CRS Sent</label>
         </opportunityListFieldsLabelMappings>
@@ -29971,6 +30260,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1A</field>
             <label>News CMAlert</label>
         </opportunityListFieldsLabelMappings>
@@ -30213,6 +30506,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1U</field>
             <label>Sales Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
@@ -30590,6 +30887,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -30678,6 +30976,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -30739,6 +31038,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>

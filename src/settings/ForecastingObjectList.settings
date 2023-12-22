@@ -1094,6 +1094,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -1297,6 +1309,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -1385,6 +1398,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -1446,6 +1460,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -2616,6 +2631,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -2819,6 +2846,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -2907,6 +2935,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -2968,6 +2997,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -4138,6 +4168,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -4341,6 +4383,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -4429,6 +4472,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -4490,6 +4534,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -5660,6 +5705,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -5863,6 +5920,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -5951,6 +6009,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -6012,6 +6071,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -7174,6 +7234,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -7375,6 +7447,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -7463,6 +7536,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -7524,6 +7598,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -8686,6 +8761,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -8887,6 +8974,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -8975,6 +9063,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -9036,6 +9125,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -10202,6 +10292,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -10404,6 +10506,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -10492,6 +10595,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -10553,6 +10657,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -11715,6 +11820,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -11916,6 +12033,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -12004,6 +12122,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -12065,6 +12184,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -13231,6 +13351,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -13433,6 +13565,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -13521,6 +13654,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -13582,6 +13716,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -14744,6 +14879,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -14945,6 +15092,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -15033,6 +15181,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -15094,6 +15243,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -16260,6 +16410,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -16462,6 +16624,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -16550,6 +16713,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -16611,6 +16775,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -17773,6 +17938,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -17974,6 +18151,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -18062,6 +18240,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -18123,6 +18302,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -19289,6 +19469,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -19491,6 +19683,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -19579,6 +19772,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -19640,6 +19834,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -20802,6 +20997,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -21003,6 +21210,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -21091,6 +21299,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -21152,6 +21361,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -22318,6 +22528,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -22520,6 +22742,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -22608,6 +22831,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -22669,6 +22893,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -23831,6 +24056,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -24032,6 +24269,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -24120,6 +24358,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -24181,6 +24420,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -25351,6 +25591,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -25554,6 +25806,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -25642,6 +25895,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -25703,6 +25957,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -26873,6 +27128,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -27076,6 +27343,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -27164,6 +27432,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -27225,6 +27494,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -28395,6 +28665,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -28598,6 +28880,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -28686,6 +28969,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -28747,6 +29031,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -29917,6 +30202,18 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10N</field>
+            <label>Sales Owner</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10M</field>
+            <label>New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do10L</field>
+            <label>Create New Sales Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </forecastingObjectListLabelMappings>
@@ -30120,6 +30417,7 @@
             <field>00Nf400000Nvuw7</field>
             <field>00N5G00000VVFYh</field>
             <field>00Nf400000UkiM2</field>
+            <field>00NDM00000Do10L</field>
             <field>00Nf400000V6v0g</field>
             <field>00Nf400000V6v0m</field>
             <field>00Nf400000V6v0n</field>
@@ -30208,6 +30506,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
             <field>00Nf400000V6v1D</field>
@@ -30269,6 +30568,7 @@
             <field>00Nf400000V2J54</field>
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
+            <field>00NDM00000Do10N</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>

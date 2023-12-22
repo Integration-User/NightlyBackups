@@ -19871,6 +19871,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.Create_New_Sales_Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Created_Date_short__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20411,6 +20416,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.New_Sales_Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.News_ABAlert__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20722,6 +20732,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Sales_Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Sales_Owner__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -33133,6 +33148,10 @@
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.TEST</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-Quota Page Layout</layout>
         <recordType>Opportunity.Quota</recordType>
     </layoutAssignments>
@@ -35327,6 +35346,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.TEST</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

@@ -19914,6 +19914,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Create_New_Sales_Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Created_Date_short__c</field>
         <readable>true</readable>
@@ -20455,6 +20460,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.New_Sales_Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.News_ABAlert__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -20766,6 +20776,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Sales_Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Sales_Owner__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -33203,6 +33218,10 @@
         <recordType>Opportunity.Sales_Opportunity</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-New Business</layout>
+        <recordType>Opportunity.TEST</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-New Business - Closed</layout>
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
     </layoutAssignments>
@@ -37340,6 +37359,11 @@
         <default>false</default>
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.TEST</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
