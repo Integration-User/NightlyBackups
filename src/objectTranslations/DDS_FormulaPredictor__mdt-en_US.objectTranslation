@@ -111,6 +111,10 @@
             <translation><!-- Market Combo --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Market Combo + Data Delivery</masterLabel>
+            <translation><!-- Market Combo + Data Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>News 1</masterLabel>
             <translation><!-- News 1 --></translation>
         </picklistValues>
