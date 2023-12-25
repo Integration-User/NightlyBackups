@@ -304,6 +304,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountEmailDistributionInsertBatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountTriggerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -357,10 +361,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ConsolidatedOpportunityTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ContactEmailDistributionInsertBatch</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>

@@ -81,6 +81,9 @@ public class Plative_AccountProductLineTriggerHelper {
             
             //insert Account Email Distributions for News Products added as Product Lines
             Database.insert(accountEmailDistributionInsertList, false);
+            /* if(accountEmailDistributionInsertList.size() > 0){
+                database.executeBatch(new AccountEmailDistributionInsertBatch(accountEmailDistributionInsertList), 10); // Calling batch class.
+            }*/
             return true;
         } catch(Exception ex){
             System.debug('In Apex class clsName. At line number: ' + ex.getLineNumber() + '. Cause: ' + ex.getCause() + '. Message: ' + ex.getMessage());

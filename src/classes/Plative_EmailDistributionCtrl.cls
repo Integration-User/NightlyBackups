@@ -89,6 +89,9 @@ public class Plative_EmailDistributionCtrl {
             delete deleteList;
             //Insert Email Distributions
             upsert upsertList;
+            /* if(upsertList.size() > 0){
+                database.executeBatch(new AccountEmailDistributionInsertBatch(upsertList), 10); // Calling batch class.
+            }*/
             response = 'Success!';
         } catch(DMLException ex){
             response = ex.getDmlMessage(0);
