@@ -14,6 +14,5 @@ public class AccountEmailDistributionInsertBatch implements Database.Batchable<s
     }
     
     public void finish(Database.BatchableContext BC){
-        
     }
 }
