@@ -122,6 +122,11 @@
         <label>Closed Won Sale</label>
     </standardValue>
     <standardValue>
+        <fullName>Completed Trial</fullName>
+        <default>false</default>
+        <label>Completed Trial</label>
+    </standardValue>
+    <standardValue>
         <fullName>Complimentary Report Downloaded</fullName>
         <default>false</default>
         <label>Complimentary Report Downloaded</label>
