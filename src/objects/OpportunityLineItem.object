@@ -407,13 +407,12 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
     </fields>
     <fields>
         <fullName>News_ID__c</fullName>
-        <caseSensitive>false</caseSensitive>
         <externalId>true</externalId>
         <label>News ID</label>
         <length>255</length>
         <required>false</required>
         <type>Text</type>
-        <unique>true</unique>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>News__c</fullName>

@@ -441,12 +441,6 @@
         <label>EUR Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>EU Sales Comps</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Sales Comps</label>
-    </customValue>
-    <customValue>
         <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -457,6 +451,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>REA</label>
+    </customValue>
+    <customValue>
+        <fullName>Edge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edge</label>
     </customValue>
     <customValue>
         <fullName>Analysis/Insight</fullName>
@@ -495,12 +495,6 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>Edge</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Edge</label>
-    </customValue>
-    <customValue>
         <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -517,6 +511,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Sales Comps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Sales Comps</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>
