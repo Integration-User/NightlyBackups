@@ -89,10 +89,10 @@ public class Plative_EmailDistributionCtrl {
             delete deleteList;
             //Insert Email Distributions
             //SF-798 - Bulkify Email Distro assignment upon Product Addition
-            upsert upsertList;
-            /* if(upsertList.size() > 0){
+            //upsert upsertList;
+            if(upsertList.size() > 0){
                 database.executeBatch(new AccountEmailDistributionInsertBatch(upsertList), 10); // Calling batch class.
-            }*/
+            }
             response = System.Label.Email_Distribution_Message;
         } catch(DMLException ex){
             response = ex.getDmlMessage(0);
