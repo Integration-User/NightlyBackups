@@ -89,6 +89,56 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Capture the date/time of when a Opportunity was moved out from Integration User. --></help>
+        <label><!-- Assigned Date --></label>
+        <name>Assigned_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initial Team this opportunity was assigned to. --></help>
+        <label><!-- Assigned Team --></label>
+        <name>Assigned_Team__c</name>
+        <picklistValues>
+            <masterLabel>EU SDR Inbound</masterLabel>
+            <translation><!-- EU SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of SDR&apos;s</masterLabel>
+            <translation><!-- Head of SDR&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>React News</masterLabel>
+            <translation><!-- React News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR Outbound</masterLabel>
+            <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Sales</masterLabel>
+            <translation><!-- UK Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US News</masterLabel>
+            <translation><!-- US News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Research</masterLabel>
+            <translation><!-- US Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US SDR Inbound</masterLabel>
+            <translation><!-- US SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- At RIsk Revenue --></label>
         <name>At_RIsk_Revenue__c</name>
     </fields>
@@ -911,6 +961,16 @@
             <masterLabel>Target List</masterLabel>
             <translation><!-- Target List --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Classification based on the lead source. --></help>
+        <label><!-- Lead Classification --></label>
+        <name>Lead_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Contact --></label>
+        <name>Lead_Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Lead Contact) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Lead Type --></label>
@@ -2417,6 +2477,56 @@
         <name>Prospect_Since__c</name>
     </fields>
     <fields>
+        <help><!-- Populates when the opportunity stage is moved to disqualified or qualified --></help>
+        <label><!-- Qualified Date --></label>
+        <name>Qualified_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Team name of the opportunity owner when moved to converted state. --></help>
+        <label><!-- Qualified Team --></label>
+        <name>Qualified_Team__c</name>
+        <picklistValues>
+            <masterLabel>EU SDR Inbound</masterLabel>
+            <translation><!-- EU SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of SDR&apos;s</masterLabel>
+            <translation><!-- Head of SDR&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>React News</masterLabel>
+            <translation><!-- React News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR Outbound</masterLabel>
+            <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Sales</masterLabel>
+            <translation><!-- UK Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US News</masterLabel>
+            <translation><!-- US News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Research</masterLabel>
+            <translation><!-- US Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US SDR Inbound</masterLabel>
+            <translation><!-- US SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Questions &amp; Comments --></label>
         <name>Questions_Comments__c</name>
     </fields>
@@ -2630,6 +2740,10 @@
         <name>Research_Users__c</name>
     </fields>
     <fields>
+        <label><!-- Revisit Date --></label>
+        <name>Revisit_Date__c</name>
+    </fields>
+    <fields>
         <label><!-- Risk Reason --></label>
         <name>Risk_Reason__c</name>
     </fields>
@@ -2766,6 +2880,14 @@
         <name>Strategic_Segment_Opp__c</name>
     </fields>
     <fields>
+        <label><!-- Submission Notes --></label>
+        <name>Submission_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission URL --></label>
+        <name>Submission_URL__c</name>
+    </fields>
+    <fields>
         <label><!-- Sync Child Records? --></label>
         <name>Sync_Child_Records__c</name>
     </fields>
@@ -2818,8 +2940,22 @@
         <name>This_Year_s_Increase__c</name>
     </fields>
     <fields>
+        <help><!-- Calculates the (Assigned Date - Created Date) in Minutes. --></help>
+        <label><!-- Time to Assigned --></label>
+        <name>Time_to_Assigned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculates the (Qualified Date - Created Date) in Minutes. --></help>
+        <label><!-- Time to Qualified --></label>
+        <name>Time_to_Qualified__c</name>
+    </fields>
+    <fields>
         <label><!-- Today --></label>
         <name>Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top Attribution Driver --></label>
+        <name>Top_Attribution_Driver__c</name>
     </fields>
     <fields>
         <label><!-- Total ARR --></label>
@@ -3129,6 +3265,10 @@
         <name>Additonal_Fields_Reqd_to_Save_Stage_4</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Only the assigned Sales Owner can move the stage to Qualified. --></errorMessage>
+        <name>BDR_Cannot_Stage_To_Qualified</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- You cannot change the lead source from its original designation. --></errorMessage>
         <name>Cannot_Change_Lead_Source</name>
     </validationRules>
@@ -3248,6 +3388,10 @@ Opportunity: PPD Sent --></errorMessage>
     <validationRules>
         <errorMessage><!-- This Opportunity is within the 90 day forecast period. Please update the Rep Forecast Category. --></errorMessage>
         <name>Require_Rep_Forecast_Category_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field cannot be blank when submitting for &quot;Review&quot;. --></errorMessage>
+        <name>Require_Sales_Owner_Upon_Review</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please provide the Trial Type when Trial Start and End Dates are populated --></errorMessage>

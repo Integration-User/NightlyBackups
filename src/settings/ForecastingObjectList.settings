@@ -678,6 +678,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -694,12 +698,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -710,12 +730,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -1283,6 +1331,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -1376,6 +1426,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -1432,6 +1484,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -1454,6 +1508,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -1483,6 +1538,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -1490,7 +1547,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -2215,6 +2275,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -2231,12 +2295,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -2247,12 +2327,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -2820,6 +2928,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -2913,6 +3023,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -2969,6 +3081,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -2991,6 +3105,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -3020,6 +3135,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -3027,7 +3144,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -3752,6 +3872,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -3768,12 +3892,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -3784,12 +3924,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -4357,6 +4525,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -4450,6 +4620,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -4506,6 +4678,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -4528,6 +4702,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -4557,6 +4732,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -4564,7 +4741,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -5289,6 +5469,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -5305,12 +5489,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -5321,12 +5521,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -5894,6 +6122,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -5987,6 +6217,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -6043,6 +6275,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -6065,6 +6299,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -6094,6 +6329,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -6101,7 +6338,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -6818,6 +7058,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -6834,12 +7078,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -6850,12 +7110,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -7421,6 +7709,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -7514,6 +7804,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -7570,6 +7862,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -7592,6 +7886,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -7621,6 +7916,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -7628,7 +7925,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -8345,6 +8645,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -8361,12 +8665,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -8377,12 +8697,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -8948,6 +9296,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -9041,6 +9391,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -9097,6 +9449,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -9119,6 +9473,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -9148,6 +9503,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -9155,7 +9512,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -9876,6 +10236,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -9892,12 +10256,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -9908,12 +10288,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -10480,6 +10888,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -10573,6 +10983,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -10629,6 +11041,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -10651,6 +11065,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -10680,6 +11095,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -10687,7 +11104,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -11404,6 +11824,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -11420,12 +11844,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -11436,12 +11876,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -12007,6 +12475,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -12100,6 +12570,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -12156,6 +12628,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -12178,6 +12652,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -12207,6 +12682,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -12214,7 +12691,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -12935,6 +13415,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -12951,12 +13435,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -12967,12 +13467,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -13539,6 +14067,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -13632,6 +14162,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -13688,6 +14220,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -13710,6 +14244,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -13739,6 +14274,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -13746,7 +14283,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -14463,6 +15003,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -14479,12 +15023,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -14495,12 +15055,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -15066,6 +15654,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -15159,6 +15749,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -15215,6 +15807,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -15237,6 +15831,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -15266,6 +15861,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -15273,7 +15870,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -15994,6 +16594,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -16010,12 +16614,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -16026,12 +16646,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -16598,6 +17246,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -16691,6 +17341,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -16747,6 +17399,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -16769,6 +17423,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -16798,6 +17453,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -16805,7 +17462,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -17522,6 +18182,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -17538,12 +18202,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -17554,12 +18234,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -18125,6 +18833,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -18218,6 +18928,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -18274,6 +18986,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -18296,6 +19010,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -18325,6 +19040,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -18332,7 +19049,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -19053,6 +19773,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -19069,12 +19793,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -19085,12 +19825,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -19657,6 +20425,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -19750,6 +20520,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -19806,6 +20578,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -19828,6 +20602,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -19857,6 +20632,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -19864,7 +20641,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -20581,6 +21361,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -20597,12 +21381,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -20613,12 +21413,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -21184,6 +22012,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -21277,6 +22107,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -21333,6 +22165,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -21355,6 +22189,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -21384,6 +22219,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -21391,7 +22228,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -22112,6 +22952,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -22128,12 +22972,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -22144,12 +23004,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -22716,6 +23604,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -22809,6 +23699,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -22865,6 +23757,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -22887,6 +23781,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -22916,6 +23811,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -22923,7 +23820,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -23640,6 +24540,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -23656,12 +24560,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -23672,12 +24592,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -24243,6 +25191,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -24336,6 +25286,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -24392,6 +25344,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -24414,6 +25368,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -24443,6 +25398,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -24450,7 +25407,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -25175,6 +26135,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -25191,12 +26155,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -25207,12 +26187,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -25780,6 +26788,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -25873,6 +26883,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -25929,6 +26941,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -25951,6 +26965,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -25980,6 +26995,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -25987,7 +27004,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -26712,6 +27732,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -26728,12 +27752,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -26744,12 +27784,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -27317,6 +28385,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -27410,6 +28480,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -27466,6 +28538,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -27488,6 +28562,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -27517,6 +28592,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -27524,7 +28601,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -28249,6 +29329,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -28265,12 +29349,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -28281,12 +29381,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -28854,6 +29982,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -28947,6 +30077,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -29003,6 +30135,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -29025,6 +30159,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -29054,6 +30189,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -29061,7 +30198,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
@@ -29786,6 +30926,10 @@
             <label>Date Moved to Closed Lost</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gZ</field>
+            <label>Time to Qualified</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgn</field>
             <label>Date Moved to SS6</label>
         </forecastingObjectListLabelMappings>
@@ -29802,12 +30946,28 @@
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gQ</field>
+            <label>Lead Contact</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gP</field>
+            <label>Lead Classification</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gO</field>
+            <label>Assigned Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1b</field>
             <label>Days Open</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V2J54</field>
             <label>Sales Cycle</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gN</field>
+            <label>Assigned Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NDM00000Dme1c</field>
@@ -29818,12 +30978,40 @@
             <label>Last Stage Change Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gY</field>
+            <label>Time to Assigned</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gW</field>
+            <label>Top Attribution Driver</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gV</field>
+            <label>Submission URL</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gU</field>
+            <label>Submission Notes</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gT</field>
+            <label>Revisit Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gS</field>
+            <label>Qualified Team</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NxHRm</field>
             <label>Made Active By</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do1gR</field>
+            <label>Qualified Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -30391,6 +31579,8 @@
             <field>00N5G00000WeE8T</field>
             <field>00N5G00000WeE8U</field>
             <field>00N5G00000WeE8n</field>
+            <field>00NDM00000Do1gN</field>
+            <field>00NDM00000Do1gO</field>
             <field>00Nf400000VNbt4</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
@@ -30484,6 +31674,8 @@
             <field>00Nf400000NUND6</field>
             <field>00NDM00000Dme1a</field>
             <field>00NDM00000DnyZJ</field>
+            <field>00NDM00000Do1gP</field>
+            <field>00NDM00000Do1gQ</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -30540,6 +31732,8 @@
             <field>00N5G00000VZRmu</field>
             <field>00Nf400000V6v1K</field>
             <field>00Nf400000Nxt1I</field>
+            <field>00NDM00000Do1gR</field>
+            <field>00NDM00000Do1gS</field>
             <field>00Nf400000Nvuwv</field>
             <field>00Nf400000OG4d1</field>
             <field>00N5G00000VZgvc</field>
@@ -30562,6 +31756,7 @@
             <field>00Nf400000V6v1S</field>
             <field>00Nf400000V6v1T</field>
             <field>00Nf400000UhFs5</field>
+            <field>00NDM00000Do1gT</field>
             <field>00N5G00000VyTZf</field>
             <field>00N5G00000VyTZg</field>
             <field>00Nf400000OG4d6</field>
@@ -30591,6 +31786,8 @@
             <field>00Nf400000U1ul1</field>
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
+            <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
             <field>00Nf400000V6v1Z</field>
@@ -30598,7 +31795,10 @@
             <field>00Nf400000V6v1c</field>
             <field>00N5G00000VQ8eF</field>
             <field>00N5G00000VPtdw</field>
+            <field>00NDM00000Do1gY</field>
+            <field>00NDM00000Do1gZ</field>
             <field>00Nf400000V6v1e</field>
+            <field>00NDM00000Do1gW</field>
             <field>00N5G00000VVJI6</field>
             <field>00Nf400000V6v1f</field>
             <field>00Nf400000V6v1g</field>
