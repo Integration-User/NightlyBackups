@@ -447,10 +447,10 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
+        <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>NA REIT</label>
+        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>US Market Data</fullName>
@@ -525,12 +525,6 @@
         <label>Edge</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
-    </customValue>
-    <customValue>
         <fullName>eREA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -553,6 +547,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>REA</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>EU Sales Comps</fullName>
