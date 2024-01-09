@@ -212,6 +212,11 @@
         <label>Downloaded</label>
     </standardValue>
     <standardValue>
+        <fullName>Downloaded Slides</fullName>
+        <default>false</default>
+        <label>Downloaded Slides</label>
+    </standardValue>
+    <standardValue>
         <fullName>Engaged But No Budget</fullName>
         <default>false</default>
         <label>Engaged But No Budget</label>
