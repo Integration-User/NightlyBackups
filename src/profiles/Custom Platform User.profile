@@ -19821,6 +19821,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.Campaign_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Class_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20177,6 +20182,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Designated_ARR__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Digital_Medium__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Digital_Source__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20987,6 +21002,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.US_REIT__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.UTM_Content__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

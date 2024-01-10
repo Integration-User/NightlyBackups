@@ -376,6 +376,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -590,6 +594,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -1288,6 +1300,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -1446,6 +1462,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -1500,6 +1517,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -1674,6 +1693,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -1993,6 +2013,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -2207,6 +2231,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -2905,6 +2937,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -3063,6 +3099,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -3117,6 +3154,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -3291,6 +3330,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -3610,6 +3650,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -3824,6 +3868,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -4522,6 +4574,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -4680,6 +4736,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -4734,6 +4791,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -4908,6 +4967,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -5227,6 +5287,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -5441,6 +5505,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -6139,6 +6211,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -6297,6 +6373,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -6351,6 +6428,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -6525,6 +6604,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -6836,6 +6916,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -7050,6 +7134,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -7748,6 +7840,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -7904,6 +8000,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -7958,6 +8055,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -8132,6 +8231,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -8442,6 +8542,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -8656,6 +8760,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -9354,6 +9466,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -9510,6 +9626,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -9564,6 +9681,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -9738,6 +9857,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -10052,6 +10172,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -10266,6 +10390,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -10964,6 +11096,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -11121,6 +11257,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -11175,6 +11312,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -11349,6 +11488,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -11659,6 +11799,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -11873,6 +12017,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -12571,6 +12723,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -12727,6 +12883,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -12781,6 +12938,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -12955,6 +13114,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -13269,6 +13429,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -13483,6 +13647,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -14181,6 +14353,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -14338,6 +14514,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -14392,6 +14569,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -14566,6 +14745,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -14876,6 +15056,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -15090,6 +15274,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -15788,6 +15980,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -15944,6 +16140,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -15998,6 +16195,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -16172,6 +16371,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -16486,6 +16686,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -16700,6 +16904,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -17398,6 +17610,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -17555,6 +17771,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -17609,6 +17826,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -17783,6 +18002,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -18093,6 +18313,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -18307,6 +18531,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -19005,6 +19237,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -19161,6 +19397,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -19215,6 +19452,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -19389,6 +19628,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -19703,6 +19943,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -19917,6 +20161,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -20615,6 +20867,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -20772,6 +21028,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -20826,6 +21083,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -21000,6 +21259,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -21310,6 +21570,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -21524,6 +21788,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -22222,6 +22494,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -22378,6 +22654,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -22432,6 +22709,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -22606,6 +22885,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -22920,6 +23200,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -23134,6 +23418,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -23832,6 +24124,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -23989,6 +24285,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -24043,6 +24340,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -24217,6 +24516,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -24527,6 +24827,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -24741,6 +25045,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -25439,6 +25751,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -25595,6 +25911,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -25649,6 +25966,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -25823,6 +26142,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -26141,6 +26461,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -26355,6 +26679,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -27053,6 +27385,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -27211,6 +27547,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -27265,6 +27602,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -27439,6 +27778,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -27758,6 +28098,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -27972,6 +28316,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -28670,6 +29022,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -28828,6 +29184,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -28882,6 +29239,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -29056,6 +29415,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -29375,6 +29735,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -29589,6 +29953,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -30287,6 +30659,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -30445,6 +30821,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -30499,6 +30876,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -30673,6 +31052,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -30992,6 +31372,10 @@
             <label>Billing Schedule NS Internal ID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VyXur</field>
             <label>Chatter Google Folder Id</label>
         </opportunityListFieldsLabelMappings>
@@ -31206,6 +31590,14 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0t</field>
             <label>Department Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -31904,6 +32296,10 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1l</field>
             <label>Win Validation</label>
         </opportunityListFieldsLabelMappings>
@@ -32062,6 +32458,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -32116,6 +32513,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -32290,6 +32689,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>

@@ -22,6 +22,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -262,6 +266,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -324,6 +332,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -1344,6 +1360,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -1398,6 +1415,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -1572,6 +1591,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -1619,6 +1639,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -1859,6 +1883,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -1921,6 +1949,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -2941,6 +2977,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -2995,6 +3032,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -3169,6 +3208,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -3216,6 +3256,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -3456,6 +3500,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -3518,6 +3566,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -4538,6 +4594,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -4592,6 +4649,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -4766,6 +4825,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -4813,6 +4873,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -5053,6 +5117,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -5115,6 +5183,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -6135,6 +6211,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -6189,6 +6266,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -6363,6 +6442,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -6410,6 +6490,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -6646,6 +6730,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -6708,6 +6796,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -7722,6 +7818,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -7776,6 +7873,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -7950,6 +8049,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -7997,6 +8097,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -8233,6 +8337,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -8295,6 +8403,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -9309,6 +9425,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -9363,6 +9480,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -9537,6 +9656,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -9584,6 +9704,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -9820,6 +9944,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -9882,6 +10010,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -10901,6 +11037,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -10955,6 +11092,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -11129,6 +11268,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -11176,6 +11316,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -11412,6 +11556,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -11474,6 +11622,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -12488,6 +12644,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -12542,6 +12699,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -12716,6 +12875,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -12763,6 +12923,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -12999,6 +13163,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -13061,6 +13229,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -14080,6 +14256,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -14134,6 +14311,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -14308,6 +14487,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -14355,6 +14535,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -14591,6 +14775,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -14653,6 +14841,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -15667,6 +15863,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -15721,6 +15918,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -15895,6 +16094,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -15942,6 +16142,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -16178,6 +16382,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -16240,6 +16448,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -17259,6 +17475,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -17313,6 +17530,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -17487,6 +17706,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -17534,6 +17754,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -17770,6 +17994,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -17832,6 +18060,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -18846,6 +19082,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -18900,6 +19137,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -19074,6 +19313,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -19121,6 +19361,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -19357,6 +19601,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -19419,6 +19667,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -20438,6 +20694,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -20492,6 +20749,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -20666,6 +20925,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -20713,6 +20973,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -20949,6 +21213,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -21011,6 +21279,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -22025,6 +22301,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -22079,6 +22356,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -22253,6 +22532,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -22300,6 +22580,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -22536,6 +22820,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -22598,6 +22886,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -23617,6 +23913,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -23671,6 +23968,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -23845,6 +24144,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -23892,6 +24192,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
             <label>Recent Activity</label>
         </forecastingObjectListLabelMappings>
@@ -24128,6 +24432,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -24190,6 +24498,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -25204,6 +25520,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -25258,6 +25575,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -25432,6 +25751,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -25479,6 +25799,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -25719,6 +26043,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -25781,6 +26109,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -26801,6 +27137,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -26855,6 +27192,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -27029,6 +27368,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -27076,6 +27416,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -27316,6 +27660,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -27378,6 +27726,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -28398,6 +28754,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -28452,6 +28809,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -28626,6 +28985,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -28673,6 +29033,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -28913,6 +29277,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -28975,6 +29343,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -29995,6 +30371,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -30049,6 +30426,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -30223,6 +30602,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>
@@ -30270,6 +30650,10 @@
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3Gz</field>
+            <label>Campaign Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITPERCENTAGE</field>
             <label>Split</label>
         </forecastingObjectListLabelMappings>
@@ -30510,6 +30894,10 @@
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H0</field>
+            <label>Digital Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1m</field>
             <label>Won Reason</label>
         </forecastingObjectListLabelMappings>
@@ -30572,6 +30960,14 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1a</field>
             <label>Synced?</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H2</field>
+            <label>UTM Content</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do3H1</field>
+            <label>Digital Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0z</field>
@@ -31592,6 +31988,7 @@
             <field>00Nf400000V6v0c</field>
             <field>00Nf400000V6v0e</field>
             <field>00Nf400000V6wy6</field>
+            <field>00NDM00000Do3Gz</field>
             <field>00N5G00000VyXur</field>
             <field>00Nf400000V6v0i</field>
             <field>00Nf400000V6v0h</field>
@@ -31646,6 +32043,8 @@
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
+            <field>00NDM00000Do3H0</field>
+            <field>00NDM00000Do3H1</field>
             <field>00Nf400000NvxQb</field>
             <field>00Nf400000V6v0v</field>
             <field>00Nf400000V6v0y</field>
@@ -31820,6 +32219,7 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NDM00000Do3H2</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
             <field>00Nf400000V6v1m</field>

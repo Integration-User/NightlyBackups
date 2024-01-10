@@ -235,6 +235,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Campaign Name --></label>
+        <name>Campaign_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Class ID --></label>
         <name>Class_ID__c</name>
     </fields>
@@ -342,6 +346,10 @@
             <translation><!-- No Budget --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>No Research Budget</masterLabel>
+            <translation><!-- No Research Budget --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Non-contracted</masterLabel>
             <translation><!-- Non-contracted --></translation>
         </picklistValues>
@@ -362,6 +370,10 @@
             <translation><!-- Online Order --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Out of Business / Fund Closure</masterLabel>
             <translation><!-- Out of Business / Fund Closure --></translation>
         </picklistValues>
@@ -374,12 +386,24 @@
             <translation><!-- Price --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Product Fit</masterLabel>
+            <translation><!-- Product Fit --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Product Offering</masterLabel>
             <translation><!-- Product Offering --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Student/non-buying EDU/Media/non-viable contact</masterLabel>
+            <translation><!-- Student/non-buying EDU/Media/non-viable contact --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Timing</masterLabel>
             <translation><!-- Timing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreachable</masterLabel>
+            <translation><!-- Unreachable --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Validating Investment Thesis</masterLabel>
@@ -738,6 +762,14 @@
     <fields>
         <label><!-- Updated ARR --></label>
         <name>Designated_ARR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital Medium --></label>
+        <name>Digital_Medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital Source --></label>
+        <name>Digital_Source__c</name>
     </fields>
     <fields>
         <label><!-- Discounts over 10% Count --></label>
@@ -3027,6 +3059,10 @@
         <name>US_REIT__c</name>
     </fields>
     <fields>
+        <label><!-- UTM Content --></label>
+        <name>UTM_Content__c</name>
+    </fields>
+    <fields>
         <label><!-- Unmet Deal Insights --></label>
         <name>Unmet_Deal_Insights__c</name>
     </fields>
@@ -3249,6 +3285,10 @@
         <name>AP_Email_Blank_on_Closed_Won</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Company type on account must be completed. --></errorMessage>
+        <name>Acct_Company_Type_Is_Required</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- This field must be completed prior to Submitting for review or closing as lost/suspended. --></errorMessage>
         <name>ActivationDeactivation_Needs</name>
     </validationRules>
@@ -3283,6 +3323,10 @@
     <validationRules>
         <errorMessage><!-- You cannot edit opportunities once they have been closed. Please contact your system admin for help making any necessary changes. --></errorMessage>
         <name>Cannot_Edit_once_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Either “New Sales Opportunity” or “Create New Sales Opportunity” should be checked at this stage. --></errorMessage>
+        <name>Check_New_Sales_Opportunity</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Closed Opportunity Notes are required in order to move to Pending Review. --></errorMessage>
@@ -3382,12 +3426,36 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Other_Vendors_Required_Closed_Lost</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Please move this opportunity into your name, before trying to move stages. --></errorMessage>
+        <name>Owner_Cannot_Be_Integration_User</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- You must add Products to the Opportunity before Closing. --></errorMessage>
         <name>Products_Required_to_Save_at_Stage_4</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- This field cannot be blank when submitting for &quot;Review&quot;. --></errorMessage>
+        <name>Require_Close_Opportunity_Notes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Closed Opportunity Notes. --></errorMessage>
+        <name>Require_Close_Reason_Notes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead Type cannot be blank. --></errorMessage>
+        <name>Require_Lead_Type</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- This Opportunity is within the 90 day forecast period. Please update the Rep Forecast Category. --></errorMessage>
         <name>Require_Rep_Forecast_Category_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Revisit Date. --></errorMessage>
+        <name>Require_Revisit_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Close Reason. --></errorMessage>
+        <name>Require_SDO_Close_Reason</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- This field cannot be blank when submitting for &quot;Review&quot;. --></errorMessage>
