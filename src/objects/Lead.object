@@ -438,6 +438,21 @@
                     <default>false</default>
                     <label>React News</label>
                 </value>
+                <value>
+                    <fullName>Expansion Equity</fullName>
+                    <default>false</default>
+                    <label>Expansion Equity</label>
+                </value>
+                <value>
+                    <fullName>Expansion React</fullName>
+                    <default>false</default>
+                    <label>Expansion React</label>
+                </value>
+                <value>
+                    <fullName>Expansion US Core</fullName>
+                    <default>false</default>
+                    <label>Expansion US Core</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -3523,6 +3538,21 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <default>false</default>
                     <label>React News</label>
                 </value>
+                <value>
+                    <fullName>Expansion Equity</fullName>
+                    <default>false</default>
+                    <label>Expansion Equity</label>
+                </value>
+                <value>
+                    <fullName>Expansion React</fullName>
+                    <default>false</default>
+                    <label>Expansion React</label>
+                </value>
+                <value>
+                    <fullName>Expansion US Core</fullName>
+                    <default>false</default>
+                    <label>Expansion US Core</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5165,6 +5195,18 @@ Stored as Long on Solr.</description>
             <picklist>Assignment_Team__c</picklist>
             <values>
                 <fullName>EU SDR Inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expansion Equity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expansion React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expansion US Core</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7681,6 +7723,18 @@ Stored as Long on Solr.</description>
             <picklist>Qualifying_Team__c</picklist>
             <values>
                 <fullName>EU SDR Inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expansion Equity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expansion React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expansion US Core</fullName>
                 <default>false</default>
             </values>
             <values>

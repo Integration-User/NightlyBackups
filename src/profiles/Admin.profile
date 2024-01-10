@@ -314,6 +314,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountEmailDistributionInsertBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountTriggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>

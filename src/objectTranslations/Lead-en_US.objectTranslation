@@ -35,6 +35,18 @@
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Expansion Equity</masterLabel>
+            <translation><!-- Expansion Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion React</masterLabel>
+            <translation><!-- Expansion React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion US Core</masterLabel>
+            <translation><!-- Expansion US Core --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Green</masterLabel>
             <translation><!-- Green --></translation>
         </picklistValues>
@@ -1903,6 +1915,18 @@
         <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion Equity</masterLabel>
+            <translation><!-- Expansion Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion React</masterLabel>
+            <translation><!-- Expansion React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion US Core</masterLabel>
+            <translation><!-- Expansion US Core --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Green</masterLabel>
