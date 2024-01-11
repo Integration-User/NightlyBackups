@@ -226,6 +226,14 @@
             <translation><!-- Advisory --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>CRE Trade (2): Proactive</masterLabel>
+            <translation><!-- CRE Trade (2): Proactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRE Trade (2): Reactive</masterLabel>
+            <translation><!-- CRE Trade (2): Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Core</masterLabel>
             <translation><!-- Core --></translation>
         </picklistValues>
@@ -234,8 +242,48 @@
             <translation><!-- Enterprise --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe (2): Reactive</masterLabel>
+            <translation><!-- Europe (2): Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion Equity</masterLabel>
+            <translation><!-- Expansion Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion React</masterLabel>
+            <translation><!-- Expansion React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion US Core</masterLabel>
+            <translation><!-- Expansion US Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FInancial Investing (4)</masterLabel>
+            <translation><!-- FInancial Investing (4) --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Marketing</masterLabel>
             <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Reach (1): Proactive</masterLabel>
+            <translation><!-- Mass Reach (1): Proactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Reach (1): Reactive</masterLabel>
+            <translation><!-- Mass Reach (1): Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Serviceable</masterLabel>
+            <translation><!-- Not Serviceable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority</masterLabel>
+            <translation><!-- Priority --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React Only</masterLabel>
@@ -244,6 +292,14 @@
         <picklistValues>
             <masterLabel>Strategic</masterLabel>
             <translation><!-- Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Regional (3)</masterLabel>
+            <translation><!-- U.S. Regional (3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Core</masterLabel>
+            <translation><!-- US Core --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -804,6 +860,14 @@
             <translation><!-- Advisory --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>CRE Trade (2): Proactive</masterLabel>
+            <translation><!-- CRE Trade (2): Proactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRE Trade (2): Reactive</masterLabel>
+            <translation><!-- CRE Trade (2): Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Core</masterLabel>
             <translation><!-- Core --></translation>
         </picklistValues>
@@ -812,8 +876,48 @@
             <translation><!-- Enterprise --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe (2): Reactive</masterLabel>
+            <translation><!-- Europe (2): Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion Equity</masterLabel>
+            <translation><!-- Expansion Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion React</masterLabel>
+            <translation><!-- Expansion React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion US Core</masterLabel>
+            <translation><!-- Expansion US Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FInancial Investing (4)</masterLabel>
+            <translation><!-- FInancial Investing (4) --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Marketing</masterLabel>
             <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Reach (1): Proactive</masterLabel>
+            <translation><!-- Mass Reach (1): Proactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Reach (1): Reactive</masterLabel>
+            <translation><!-- Mass Reach (1): Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Serviceable</masterLabel>
+            <translation><!-- Not Serviceable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority</masterLabel>
+            <translation><!-- Priority --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React Only</masterLabel>
@@ -822,6 +926,14 @@
         <picklistValues>
             <masterLabel>Strategic</masterLabel>
             <translation><!-- Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Regional (3)</masterLabel>
+            <translation><!-- U.S. Regional (3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Core</masterLabel>
+            <translation><!-- US Core --></translation>
         </picklistValues>
     </fields>
     <fields>
