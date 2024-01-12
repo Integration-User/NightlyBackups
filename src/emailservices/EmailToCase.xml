@@ -47,6 +47,12 @@
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
+        <developerName>media</developerName>
+        <isActive>true</isActive>
+        <localPart>media</localPart>
+        <runAsUser>ksantos@greenstreet.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
         <developerName>support</developerName>
         <isActive>true</isActive>
         <localPart>support</localPart>

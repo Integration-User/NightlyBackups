@@ -9855,6 +9855,10 @@ FALSE))))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Media%2FPress Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Phone</fullName>
                 <default>false</default>
             </values>
@@ -10386,6 +10390,18 @@ FALSE))))))))))))</formula>
             </values>
             <values>
                 <fullName>Platform Functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Inquiry - Data Back Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Inquiry - Interview%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Inquiry - Report Request</fullName>
                 <default>false</default>
             </values>
             <values>
