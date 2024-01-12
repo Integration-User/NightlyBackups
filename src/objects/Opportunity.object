@@ -42744,7 +42744,7 @@ ISBLANK(AP_Email__c))</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Acct_Company_Type_Is_Required</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISBLANK(Company_Type_Opp__c),
@@ -42899,7 +42899,7 @@ ISCHANGED( StageName )))</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Check_New_Sales_Opportunity</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 ISPICKVAL(StageName, &quot;Qualified&quot;),
 RecordType.DeveloperName = &quot;Sales_Development&quot;,
@@ -43378,7 +43378,7 @@ RecordType.Name=&quot;Renewal&quot;))</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Owner_Cannot_Be_Integration_User</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 CONTAINS(Owner.Username,&quot;crmintegration&quot;),
@@ -43414,7 +43414,7 @@ ISPICKVAL( StageName , &quot;In Review&quot;)
     </validationRules>
     <validationRules>
         <fullName>Require_Close_Reason_Notes</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISBLANK(Closed_Opportunity_Notes__c),
@@ -43423,11 +43423,12 @@ ISPICKVAL( Close_Reason__c, &quot;Other&quot;),
 ISPICKVAL( Close_Reason__c, &quot;Product Fit&quot;)
 )
 )</errorConditionFormula>
+        <errorDisplayField>DashboardsGSP__Close_Date_Extensions__c</errorDisplayField>
         <errorMessage>Please provide Closed Opportunity Notes.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Require_Lead_Type</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Require Lead Type during Open Stage.</description>
         <errorConditionFormula>AND(
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
@@ -43453,7 +43454,7 @@ CloseDate  &lt;  TODAY() + 89)</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Require_Revisit_Date</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISBLANK(Revisit_Date__c),
@@ -43463,7 +43464,7 @@ ISPICKVAL( Close_Reason__c, &quot;Timing&quot;)
     </validationRules>
     <validationRules>
         <fullName>Require_SDO_Close_Reason</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISCHANGED(StageName),
@@ -43474,7 +43475,7 @@ ISPICKVAL(Close_Reason__c, &quot;&quot;)
     </validationRules>
     <validationRules>
         <fullName>Require_Sales_Owner_Upon_Review</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 ISPICKVAL(StageName, &quot;In Review&quot;),
 RecordType.DeveloperName = &quot;Sales_Development&quot;,
