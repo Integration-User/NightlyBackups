@@ -1076,6 +1076,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -1166,6 +1170,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -1637,6 +1645,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -1660,6 +1669,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -2713,6 +2723,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -2803,6 +2817,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -3274,6 +3292,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -3297,6 +3316,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -4350,6 +4370,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -4440,6 +4464,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -4911,6 +4939,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -4934,6 +4963,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -5987,6 +6017,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -6077,6 +6111,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -6548,6 +6586,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -6571,6 +6610,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -7616,6 +7656,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -7706,6 +7750,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -8175,6 +8223,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -8198,6 +8247,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -9242,6 +9292,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -9332,6 +9386,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -9801,6 +9859,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -9824,6 +9883,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -10872,6 +10932,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -10962,6 +11026,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -11432,6 +11500,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -11455,6 +11524,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -12499,6 +12569,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -12589,6 +12663,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -13058,6 +13136,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -13081,6 +13160,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -14129,6 +14209,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -14219,6 +14303,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -14689,6 +14777,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -14712,6 +14801,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -15756,6 +15846,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -15846,6 +15940,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -16315,6 +16413,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -16338,6 +16437,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -17386,6 +17486,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -17476,6 +17580,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -17946,6 +18054,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -17969,6 +18078,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -19013,6 +19123,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -19103,6 +19217,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -19572,6 +19690,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -19595,6 +19714,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -20643,6 +20763,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -20733,6 +20857,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -21203,6 +21331,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -21226,6 +21355,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -22270,6 +22400,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -22360,6 +22494,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -22829,6 +22967,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -22852,6 +22991,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -23900,6 +24040,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -23990,6 +24134,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -24460,6 +24608,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -24483,6 +24632,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -25527,6 +25677,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -25617,6 +25771,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -26086,6 +26244,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -26109,6 +26268,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -27161,6 +27321,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -27251,6 +27415,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -27722,6 +27890,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -27745,6 +27914,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -28798,6 +28968,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -28888,6 +29062,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -29359,6 +29537,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -29382,6 +29561,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -30435,6 +30615,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -30525,6 +30709,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -30996,6 +31184,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -31019,6 +31208,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -32072,6 +32262,10 @@
             <label>Sales Owner</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1V</field>
             <label>Sales Type</label>
         </opportunityListFieldsLabelMappings>
@@ -32162,6 +32356,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gU</field>
             <label>Submission Notes</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do1gV</field>
@@ -32633,6 +32831,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -32656,6 +32855,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>

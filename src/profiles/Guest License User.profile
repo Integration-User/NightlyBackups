@@ -20749,6 +20749,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.Sales_Reviewed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Sales_Type_NS_Internal_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20810,6 +20815,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Strategic_Segment_Opp__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Submission_Notes_New__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

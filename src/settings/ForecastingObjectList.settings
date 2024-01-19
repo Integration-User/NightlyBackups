@@ -610,6 +610,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -864,6 +868,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -1535,6 +1543,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -1558,6 +1567,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -2227,6 +2237,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -2481,6 +2495,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -3152,6 +3170,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -3175,6 +3194,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -3844,6 +3864,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -4098,6 +4122,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -4769,6 +4797,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -4792,6 +4821,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -5461,6 +5491,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -5715,6 +5749,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -6386,6 +6424,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -6409,6 +6448,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -7070,6 +7110,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -7324,6 +7368,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -7993,6 +8041,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -8016,6 +8065,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -8677,6 +8727,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -8931,6 +8985,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -9600,6 +9658,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -9623,6 +9682,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -10288,6 +10348,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -10542,6 +10606,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -11212,6 +11280,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -11235,6 +11304,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -11896,6 +11966,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -12150,6 +12224,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -12819,6 +12897,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -12842,6 +12921,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -13507,6 +13587,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -13761,6 +13845,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -14431,6 +14519,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -14454,6 +14543,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -15115,6 +15205,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -15369,6 +15463,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -16038,6 +16136,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -16061,6 +16160,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -16726,6 +16826,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -16980,6 +17084,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -17650,6 +17758,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -17673,6 +17782,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -18334,6 +18444,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -18588,6 +18702,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -19257,6 +19375,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -19280,6 +19399,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -19945,6 +20065,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -20199,6 +20323,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -20869,6 +20997,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -20892,6 +21021,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -21553,6 +21683,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -21807,6 +21941,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -22476,6 +22614,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -22499,6 +22638,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -23164,6 +23304,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -23418,6 +23562,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -24088,6 +24236,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -24111,6 +24260,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -24772,6 +24922,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -25026,6 +25180,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -25695,6 +25853,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -25718,6 +25877,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -26387,6 +26547,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -26641,6 +26805,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -27312,6 +27480,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -27335,6 +27504,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -28004,6 +28174,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -28258,6 +28432,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -28929,6 +29107,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -28952,6 +29131,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -29621,6 +29801,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -29875,6 +30059,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -30546,6 +30734,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -30569,6 +30758,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -31238,6 +31428,10 @@
             <label>Rep Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do7CT</field>
+            <label>Sales Reviewed</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -31492,6 +31686,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvuwv</field>
             <label>Questions &amp; Comments</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000Do78H</field>
+            <label>Submission Notes New</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFse</field>
@@ -32163,6 +32361,7 @@
             <field>00Nf400000V1d3g</field>
             <field>00Nf400000V6v1U</field>
             <field>00NDM00000Do10N</field>
+            <field>00NDM00000Do7CT</field>
             <field>00Nf400000V6v1V</field>
             <field>00Nf400000VN1RU</field>
             <field>00Nf400000V6v4A</field>
@@ -32186,6 +32385,7 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00NDM00000Do1gU</field>
+            <field>00NDM00000Do78H</field>
             <field>00NDM00000Do1gV</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>

@@ -2831,6 +2831,10 @@
         <relationshipLabel><!-- Opportunities (Sales Owner) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Sales Reviewed --></label>
+        <name>Sales_Reviewed__c</name>
+    </fields>
+    <fields>
         <label><!-- Sales Type NS Internal ID --></label>
         <name>Sales_Type_NS_Internal_ID__c</name>
     </fields>
@@ -2910,6 +2914,10 @@
     <fields>
         <label><!-- Strategic Segment --></label>
         <name>Strategic_Segment_Opp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Notes New --></label>
+        <name>Submission_Notes_New__c</name>
     </fields>
     <fields>
         <label><!-- Submission Notes --></label>
