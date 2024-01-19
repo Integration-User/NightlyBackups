@@ -544,7 +544,15 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>mgutter@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>msheahan@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>qnguyen@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <senderAddress>greenstreet-newbusinesssales@greenstreetadvisors.com</senderAddress>

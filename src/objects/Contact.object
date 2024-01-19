@@ -1495,7 +1495,7 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
     </fields>
     <fields>
         <fullName>MailingAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Manager__c</fullName>
