@@ -2778,15 +2778,16 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>Lead_Classification__c</fullName>
         <externalId>false</externalId>
-        <formula>CASE(LeadSource,
-&quot;Inquiry&quot;, &quot;Hot&quot;,
-&quot;Referral&quot;, &quot;Hot&quot;,
-&quot;AM Referral&quot;, &quot;Hot&quot;,
+        <formula>CASE(Lead_Type__c,
 &quot;Demo Request&quot;, &quot;Hot&quot;,
-&quot;Snowflake&quot;, &quot;Hot&quot;,
-&quot;React &amp; US News Ecomm Inquiries&quot;, &quot;Hot&quot;,
-&quot;Referral: Past Client Introduction&quot;, &quot;Hot&quot;,
-IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formula>
+&quot;Contact Us&quot;, &quot;Hot&quot;,
+&quot;Direct Call&quot;, &quot;Hot&quot;,
+&quot;Inbound Email&quot;, &quot;Hot&quot;,
+&quot;Trial Request&quot;, &quot;Hot&quot;,
+&quot;Subscription Request&quot;, &quot;Hot&quot;,
+&quot;LinkedIn&quot;, &quot;Hot&quot;,
+&quot;Google&quot;, &quot;Hot&quot;,
+IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formula>
         <inlineHelpText>Classification based on the lead source.</inlineHelpText>
         <label>Lead Classification</label>
         <required>false</required>
@@ -4665,13 +4666,8 @@ OwnerId  = $User.Id)</formula>
             </filterItems>
             <filterItems>
                 <field>Opportunity.StageName</field>
-                <operation>notEqual</operation>
-                <value>Closed Won, Closed Lost, Consolidated</value>
-            </filterItems>
-            <filterItems>
-                <field>Opportunity.AccountId</field>
                 <operation>equals</operation>
-                <valueField>$Source.AccountId</valueField>
+                <value>Qualified Prospect (2), Conducting Needs Analysis (3), Pricing Proposal Sent (4), Agreement Sent and Being Negotiated (5), Verbal Win (6)</value>
             </filterItems>
             <isOptional>false</isOptional>
         </lookupFilter>
@@ -6115,23 +6111,12 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Submission_Notes_New__c</fullName>
         <externalId>false</externalId>
-        <label>Submission Notes New</label>
+        <label>Submission Notes</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Html</type>
         <visibleLines>25</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Submission_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>Submission Notes</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Submission_URL__c</fullName>
@@ -42773,6 +42758,7 @@ ISPICKVAL( StageName , &quot;Disqualified&quot;),
 ISPICKVAL( StageName , &quot;In Review&quot;)
 )
 )</errorConditionFormula>
+        <errorDisplayField>DashboardsGSP__Close_Date_Extensions__c</errorDisplayField>
         <errorMessage>Company type on account must be completed.</errorMessage>
     </validationRules>
     <validationRules>
@@ -43346,6 +43332,16 @@ Create_New_Renewal_Opportunity__c=TRUE)
         <errorMessage>Please enter a valid Current Contract Year.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>Invalid_Sales_Opportunity</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+New_Sales_Opportunity__c != NULL,
+RecordType.DeveloperName = &apos;Sales_Development&apos;,
+New_Sales_Opportunity__r.Account.Id &lt;&gt; Account.Id
+)</errorConditionFormula>
+        <errorMessage>Please select an Opportunity that is related to the Account.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>LID__Check_CompanyId_Value</fullName>
         <active>true</active>
         <description>Throws an exception message if the company id contains non-numerics</description>
@@ -43443,14 +43439,14 @@ ISPICKVAL( Close_Reason__c, &quot;Other&quot;),
 ISPICKVAL( Close_Reason__c, &quot;Product Fit&quot;)
 )
 )</errorConditionFormula>
-        <errorDisplayField>DashboardsGSP__Close_Date_Extensions__c</errorDisplayField>
         <errorMessage>Please provide Closed Opportunity Notes.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Require_Lead_Type</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>Require Lead Type during Open Stage.</description>
         <errorConditionFormula>AND(
+$UserRole.DeveloperName &lt;&gt; &apos;System_Administrator&apos;,
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISPICKVAL( Lead_Type__c, &quot;&quot;),
 OR(

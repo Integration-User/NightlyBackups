@@ -652,11 +652,6 @@
             <field>Renewal_Year_Temp__c</field>
             <table>Contact.AccountContactRelations.Opportunities</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Submission_Notes_New__c</field>
-            <table>Contact.AccountContactRelations.Opportunities</table>
-        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
 </ReportType>

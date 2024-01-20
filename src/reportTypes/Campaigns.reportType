@@ -3370,11 +3370,6 @@
             <field>DDS_ScoreARREssential__c</field>
             <table>Campaign.AccountCampaignMembers.Opportunities</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Submission_Notes_New__c</field>
-            <table>Campaign.AccountCampaignMembers.Opportunities</table>
-        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>

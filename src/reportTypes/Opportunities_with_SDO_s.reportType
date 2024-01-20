@@ -1547,11 +1547,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Submission_Notes__c</field>
-            <table>Opportunity</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Submission_URL__c</field>
             <table>Opportunity</table>
         </columns>
@@ -1568,11 +1563,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Time_to_Qualified__c</field>
-            <table>Opportunity</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Submission_Notes_New__c</field>
             <table>Opportunity</table>
         </columns>
         <masterLabel>Opportunities</masterLabel>
@@ -3106,11 +3096,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Revisit_Date__c</field>
-            <table>Opportunity.SalesDevelopment__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Submission_Notes__c</field>
             <table>Opportunity.SalesDevelopment__r</table>
         </columns>
         <columns>

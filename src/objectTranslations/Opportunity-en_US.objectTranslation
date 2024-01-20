@@ -2916,12 +2916,8 @@
         <name>Strategic_Segment_Opp__c</name>
     </fields>
     <fields>
-        <label><!-- Submission Notes New --></label>
-        <name>Submission_Notes_New__c</name>
-    </fields>
-    <fields>
         <label><!-- Submission Notes --></label>
-        <name>Submission_Notes__c</name>
+        <name>Submission_Notes_New__c</name>
     </fields>
     <fields>
         <label><!-- Submission URL --></label>
@@ -3412,6 +3408,10 @@ Opportunity: PPD Sent --></errorMessage>
     <validationRules>
         <errorMessage><!-- Please enter a valid Current Contract Year. --></errorMessage>
         <name>Invalid_Current_Contract_Year</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select an Opportunity that is related to the Account. --></errorMessage>
+        <name>Invalid_Sales_Opportunity</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- CompanyId should be a numeric value --></errorMessage>
