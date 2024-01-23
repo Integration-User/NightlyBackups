@@ -7785,12 +7785,17 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <filters>
             <field>copado__Sprint__c</field>
             <operation>equals</operation>
-            <value>SFDC S2022-52,SFDC S2022-53,SFDC S2022-51</value>
+            <value>SFDC S2022-52,SFDC S2022-53,SFDC S2022-54</value>
         </filters>
         <filters>
             <field>RECORDTYPE</field>
             <operation>equals</operation>
             <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Done,Cancelled</value>
         </filters>
         <label>Current Sprint</label>
     </listViews>
