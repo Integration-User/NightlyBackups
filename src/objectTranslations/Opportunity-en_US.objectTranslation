@@ -3333,6 +3333,11 @@
         <name>Check_New_Sales_Opportunity</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- To enter stages “in review” or “disqualified” the following fields are required on the account:
+Subsidiary, Main Phone, Website, Company Type, Address. --></errorMessage>
+        <name>Check_SDO_Missing_Account_Fields</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Closed Opportunity Notes are required in order to move to Pending Review. --></errorMessage>
         <name>Close_Notes_Required</name>
     </validationRules>
