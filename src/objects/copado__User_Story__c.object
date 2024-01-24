@@ -7781,6 +7781,8 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Release__c</columns>
         <columns>copado__Promote_Change__c</columns>
         <columns>copado__Sprint__c</columns>
+        <columns>copado__Last_Promotion_Date__c</columns>
+        <columns>copado__Latest_Commit_Date__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>copado__Sprint__c</field>
@@ -7839,6 +7841,49 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             <value>E0000020</value>
         </filters>
         <label>HubSpot Revamp Features</label>
+    </listViews>
+    <listViews>
+        <fullName>User_Stories_by_Epic</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>Jira_Key__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Org_Credential__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Release__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>copado__Last_Promotion_Date__c</columns>
+        <columns>copado__Latest_Commit_Date__c</columns>
+        <columns>copado__Exclude_From_CBM__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__Epic__c</field>
+            <operation>equals</operation>
+            <value>E0000020</value>
+        </filters>
+        <filters>
+            <field>copado__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Blocked,Cancelled</value>
+        </filters>
+        <filters>
+            <field>copado__Exclude_From_CBM__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Sprint__c</field>
+            <operation>notEqual</operation>
+            <value>SFDC S2022-55</value>
+        </filters>
+        <label>User Stories by Epic</label>
     </listViews>
     <listViews>
         <fullName>copado__All</fullName>
