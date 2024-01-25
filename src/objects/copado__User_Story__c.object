@@ -7883,6 +7883,11 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             <operation>notEqual</operation>
             <value>SFDC S2022-55</value>
         </filters>
+        <filters>
+            <field>copado__Org_Credential__c</field>
+            <operation>notContain</operation>
+            <value>Prod</value>
+        </filters>
         <label>User Stories by Epic</label>
     </listViews>
     <listViews>
