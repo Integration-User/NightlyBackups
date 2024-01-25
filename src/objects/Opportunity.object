@@ -31421,6 +31421,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <fullName>Sales_Development</fullName>
         <active>true</active>
         <businessProcess>Sales Development</businessProcess>
+        <compactLayoutAssignment>Sales_Development</compactLayoutAssignment>
         <label>Sales Development</label>
         <picklistValues>
             <picklist>Activation_Deactivation_Needs__c</picklist>
