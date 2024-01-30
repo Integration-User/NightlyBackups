@@ -7195,7 +7195,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <filters>
             <field>OPPORTUNITY.RECORDTYPE</field>
             <operation>equals</operation>
-            <value>Opportunity.Existing_Business,Opportunity.Sales_Opportunity</value>
+            <value>Opportunity.Existing_Business</value>
         </filters>
         <label>News Renewals to Close</label>
     </listViews>
