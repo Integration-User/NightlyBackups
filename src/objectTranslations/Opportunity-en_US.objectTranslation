@@ -432,6 +432,10 @@
         <relationshipLabel><!-- Opportunities (Consolidated To) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Contact Name - For Testing --></label>
+        <name>Contact_Name_For_Testing__c</name>
+    </fields>
+    <fields>
         <label><!-- Contract End Date --></label>
         <name>Contract_End_Date__c</name>
     </fields>

@@ -3374,6 +3374,11 @@
             <field>DDS_ScoreARREssential__c</field>
             <table>Campaign.AccountCampaignMembers.Opportunities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Name_For_Testing__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>

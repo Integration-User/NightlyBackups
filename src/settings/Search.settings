@@ -10,10 +10,7 @@
     <enableEinsteinSearchQA>false</enableEinsteinSearchQA>
     <enablePersonalTagging>false</enablePersonalTagging>
     <enablePublicTagging>false</enablePublicTagging>
-    <enableQuerySuggestionPigOn>false</enableQuerySuggestionPigOn>
-    <enableSalesforceGeneratedSynonyms>true</enableSalesforceGeneratedSynonyms>
     <enableSetupSearch>true</enableSetupSearch>
-    <enableSuggestArticlesLinksOnly>false</enableSuggestArticlesLinksOnly>
     <optimizeSearchForCJKEnabled>false</optimizeSearchForCJKEnabled>
     <recentlyViewedUsersForBlankLookupEnabled>true</recentlyViewedUsersForBlankLookupEnabled>
     <searchSettingsByObject>
@@ -339,12 +336,6 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Integration_Log__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>KnowledgeArticleVersion</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>

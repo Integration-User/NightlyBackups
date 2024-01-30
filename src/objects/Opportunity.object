@@ -1299,6 +1299,18 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Contact_Name_For_Testing__c</fullName>
+        <description>delete this field once HS Testing is complete</description>
+        <externalId>false</externalId>
+        <label>Contact Name - For Testing</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ContractId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

@@ -2652,6 +2652,11 @@
             <field>SAO_Date__c</field>
             <table>Account.Opportunities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Name_For_Testing__c</field>
+            <table>Account.Opportunities</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>

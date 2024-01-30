@@ -157,7 +157,6 @@
         <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
     </emailToCase>
     <enableCaseFeed>false</enableCaseFeed>
-    <enableCaseSwarming>false</enableCaseSwarming>
     <enableCollapseEmailThread>false</enableCollapseEmailThread>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
@@ -167,9 +166,6 @@
     <enableSolutionCategory>false</enableSolutionCategory>
     <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
-    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
-    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
-    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
     <keepCaseMergeRecords>true</keepCaseMergeRecords>
