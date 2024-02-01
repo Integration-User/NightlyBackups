@@ -3030,7 +3030,7 @@ FALSE))))))))))))</formula>
     </listViews>
     <listViews>
         <fullName>All_Open_Help_Desk_Cases</fullName>
-        <booleanFilter>1 AND 2 AND (3 OR 4 OR 7) AND 5 AND (3 OR 6)</booleanFilter>
+        <booleanFilter>1 AND 2 AND (3 OR 4 OR 7) AND (5 OR 8 OR 9 OR 10)  AND (3 OR 6)</booleanFilter>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>NAME</columns>
         <columns>CASES.SUBJECT</columns>
@@ -3080,6 +3080,21 @@ FALSE))))))))))))</formula>
             <field>OWNER_NAME</field>
             <operation>contains</operation>
             <value>User List Requests</value>
+        </filters>
+        <filters>
+            <field>CASES.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Automatische Antwort</value>
+        </filters>
+        <filters>
+            <field>CASES.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Respuesta automática</value>
+        </filters>
+        <filters>
+            <field>CASES.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Automatisch antwoord</value>
         </filters>
         <label>All Open Help Desk Cases</label>
     </listViews>

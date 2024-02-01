@@ -4,6 +4,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Sales/AM/CS</label>
     <permissionSets>ARR_Access</permissionSets>
+    <permissionSets>Access_Entitlements_Features</permissionSets>
     <permissionSets>Access_to_AskNicely_Objects</permissionSets>
     <permissionSets>Campaign_Influence_Permission_Set</permissionSets>
     <permissionSets>Custom_Objects_for_Standard_Users_including_Compliance</permissionSets>
