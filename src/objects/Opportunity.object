@@ -563,6 +563,31 @@
                     <default>false</default>
                     <label>React News</label>
                 </value>
+                <value>
+                    <fullName>Ling</fullName>
+                    <default>false</default>
+                    <label>Ling</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <label>Pliha</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <label>Judd</label>
+                </value>
+                <value>
+                    <fullName>Greco</fullName>
+                    <default>false</default>
+                    <label>Greco</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -5318,6 +5343,31 @@ NULL))))</formula>
                     <fullName>React News</fullName>
                     <default>false</default>
                     <label>React News</label>
+                </value>
+                <value>
+                    <fullName>Ling</fullName>
+                    <default>false</default>
+                    <label>Ling</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <label>Pliha</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <label>Judd</label>
+                </value>
+                <value>
+                    <fullName>Greco</fullName>
+                    <default>false</default>
+                    <label>Greco</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -31480,11 +31530,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Greco</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Head of SDR%27s</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Judd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lemansky</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -33792,11 +33862,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Greco</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Head of SDR%27s</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Judd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lemansky</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34402,6 +34492,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Competitive Win</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consolidated</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -37111,6 +37205,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Competitive Win</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consolidated</fullName>
                 <default>false</default>
             </values>
             <values>

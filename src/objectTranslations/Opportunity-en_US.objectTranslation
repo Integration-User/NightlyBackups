@@ -102,12 +102,32 @@
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Greco</masterLabel>
+            <translation><!-- Greco --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Green</masterLabel>
             <translation><!-- Green --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Head of SDR&apos;s</masterLabel>
             <translation><!-- Head of SDR&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judd</masterLabel>
+            <translation><!-- Judd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lemansky</masterLabel>
+            <translation><!-- Lemansky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ling</masterLabel>
+            <translation><!-- Ling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pliha</masterLabel>
+            <translation><!-- Pliha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -2522,12 +2542,32 @@
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Greco</masterLabel>
+            <translation><!-- Greco --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Green</masterLabel>
             <translation><!-- Green --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Head of SDR&apos;s</masterLabel>
             <translation><!-- Head of SDR&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judd</masterLabel>
+            <translation><!-- Judd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lemansky</masterLabel>
+            <translation><!-- Lemansky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ling</masterLabel>
+            <translation><!-- Ling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pliha</masterLabel>
+            <translation><!-- Pliha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
