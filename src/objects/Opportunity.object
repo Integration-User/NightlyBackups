@@ -563,6 +563,31 @@
                     <default>false</default>
                     <label>React News</label>
                 </value>
+                <value>
+                    <fullName>Ling</fullName>
+                    <default>false</default>
+                    <label>Ling</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <label>Pliha</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <label>Judd</label>
+                </value>
+                <value>
+                    <fullName>Greco</fullName>
+                    <default>false</default>
+                    <label>Greco</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -2706,7 +2731,7 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
         <relationshipName>LeadContact</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -3080,7 +3105,7 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
         <label>License Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -5209,6 +5234,31 @@ NULL))))</formula>
                     <default>false</default>
                     <label>React News</label>
                 </value>
+                <value>
+                    <fullName>Ling</fullName>
+                    <default>false</default>
+                    <label>Ling</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <label>Pliha</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <label>Judd</label>
+                </value>
+                <value>
+                    <fullName>Greco</fullName>
+                    <default>false</default>
+                    <label>Greco</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -6024,17 +6074,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <trackHistory>false</trackHistory>
         <type>Html</type>
         <visibleLines>25</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Submission_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>Submission Notes</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Submission_URL__c</fullName>
@@ -7087,6 +7126,32 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <label>News Renewals to Close</label>
     </listViews>
     <listViews>
+        <fullName>MY_Open_SDO_s</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Lead_Contact__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>Lead_Channel__c</columns>
+        <columns>Lead_Classification__c</columns>
+        <columns>Marketing_Identified_Country__c</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Sales_Development</value>
+        </filters>
+        <label>My Open SDO’s</label>
+        <sharedTo>
+            <role>BDR</role>
+            <role>BDR_Manager</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyOpportunities</fullName>
         <columns>OPPORTUNITY.NAME</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
@@ -7354,6 +7419,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>OPPORTUNITY.NAME</columns>
         <columns>ACCOUNT.NAME</columns>
         <columns>Lead_Contact__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>OPPORTUNITY.LEAD_SOURCE</columns>
         <columns>Lead_Type__c</columns>
@@ -7374,11 +7440,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <value>Integration User</value>
         </filters>
         <filters>
-            <field>Lead_Channel__c</field>
-            <operation>equals</operation>
-            <value>Inquiry</value>
-        </filters>
-        <filters>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
             <operation>equals</operation>
             <value>React</value>
@@ -7392,17 +7453,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Referred_By__c</columns>
         <columns>CORE.USERS.LAST_NAME</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
-        <columns>NEXT_ACTIVITY_DATETIME</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>Referred_By__c</field>
-            <operation>equals</operation>
-            <value>Michael Morrison,Jonathan Spencer,Jonathan Jessen</value>
-        </filters>
+        <filterScope>Mine</filterScope>
         <filters>
             <field>OPPORTUNITY.STAGE_NAME</field>
             <operation>equals</operation>
-            <value>Qualified Prospect (2),Conducting Needs Analysis (3),Pricing Proposal Sent (4),Agreement Sent and Being Negotiated (5),Verbal Win (6)</value>
+            <value>Open,Working,In Review</value>
         </filters>
         <label>Open BDR Opps</label>
         <sharedTo>
@@ -7600,6 +7655,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>OPPORTUNITY.NAME</columns>
         <columns>ACCOUNT.NAME</columns>
         <columns>Lead_Contact__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>OPPORTUNITY.LEAD_SOURCE</columns>
         <columns>Lead_Type__c</columns>
@@ -31423,11 +31479,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Greco</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Head of SDR%27s</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Judd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lemansky</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -33735,11 +33811,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Greco</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Head of SDR%27s</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Judd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lemansky</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34345,6 +34441,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Competitive Win</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consolidated</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -37054,6 +37154,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Competitive Win</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consolidated</fullName>
                 <default>false</default>
             </values>
             <values>

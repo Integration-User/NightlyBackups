@@ -1034,10 +1034,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -1536,7 +1532,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -2631,10 +2626,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -3133,7 +3124,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -4228,10 +4218,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -4730,7 +4716,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -5825,10 +5810,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -6327,7 +6308,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -7414,10 +7394,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -7914,7 +7890,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -9001,10 +8976,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -9501,7 +9472,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -10592,10 +10562,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -11093,7 +11059,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -12180,10 +12145,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -12680,7 +12641,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -13771,10 +13731,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -14272,7 +14228,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -15359,10 +15314,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -15859,7 +15810,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -16950,10 +16900,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -17451,7 +17397,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -18538,10 +18483,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -19038,7 +18979,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -20129,10 +20069,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -20630,7 +20566,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -21717,10 +21652,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -22217,7 +22148,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -23308,10 +23238,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -23809,7 +23735,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -24896,10 +24821,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -25396,7 +25317,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -26491,10 +26411,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -26993,7 +26909,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -28088,10 +28003,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -28590,7 +28501,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -29685,10 +29595,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -30187,7 +30093,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
@@ -31282,10 +31187,6 @@
             <label>Error Details</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N5G00000VXYTB</field>
-            <label>Submission Notes</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>00N5G00000WeE8Y</field>
             <label>Score Assignment</label>
         </forecastingObjectListLabelMappings>
@@ -31784,7 +31685,6 @@
             <field>00Nf400000VNSdV</field>
             <field>00Nf400000V6v1X</field>
             <field>00N5G00000VXYTA</field>
-            <field>00N5G00000VXYTB</field>
             <field>00N5G00000VXYTC</field>
             <field>00Nf400000V6v1Y</field>
             <field>00Nf400000V6v1a</field>
