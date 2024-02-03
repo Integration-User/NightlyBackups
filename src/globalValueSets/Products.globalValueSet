@@ -489,6 +489,12 @@
         <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
+        <fullName>Bespoke Reports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Reports</label>
+    </customValue>
+    <customValue>
         <fullName>Analysis/Insight</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -505,12 +511,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Bespoke Data Collection</label>
-    </customValue>
-    <customValue>
-        <fullName>Bespoke Reports</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bespoke Reports</label>
     </customValue>
     <customValue>
         <fullName>Royalty Income</fullName>
