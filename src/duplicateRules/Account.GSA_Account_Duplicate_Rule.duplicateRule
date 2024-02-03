@@ -9,7 +9,7 @@
         <duplicateRuleFilterItems>
             <field>CommunityNickname</field>
             <operation>notEqual</operation>
-            <value>Plative</value>
+            <value>Plative, CRMintegration</value>
             <sortOrder>1</sortOrder>
             <table>User</table>
         </duplicateRuleFilterItems>

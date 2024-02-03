@@ -469,7 +469,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Billing_Address_Score__c</fullName>
@@ -882,7 +882,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <externalId>false</externalId>
         <label>Company Type</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -1261,7 +1261,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts4</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -2095,7 +2095,7 @@ Owner.Id = $User.Id)</formula>
         <inlineHelpText>This field is used for &quot;Pre-opportunity&quot; prospecting</inlineHelpText>
         <label>Prospect Category</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -2167,7 +2167,7 @@ Owner.Id = $User.Id)</formula>
         <referenceTo>User</referenceTo>
         <relationshipName>Protected_By</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -2464,7 +2464,7 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Shipping_Address_Score__c</fullName>
@@ -2956,7 +2956,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts5</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
