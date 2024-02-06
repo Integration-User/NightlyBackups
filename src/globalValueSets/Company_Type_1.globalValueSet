@@ -240,12 +240,6 @@
         <label>Broker Dealer/Investment Advisor</label>
     </customValue>
     <customValue>
-        <fullName>High Net Worth</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>High Net Worth</label>
-    </customValue>
-    <customValue>
         <fullName>Money Manager - HF / FoF</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -256,6 +250,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Money Manager - RIA</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
     </customValue>
     <customValue>
         <fullName>Hedge Fund</fullName>
@@ -312,10 +312,10 @@
         <label>Money Manager - Hedge Fund</label>
     </customValue>
     <customValue>
-        <fullName>Other</fullName>
+        <fullName>High Net Worth</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Other</label>
+        <label>High Net Worth</label>
     </customValue>
     <customValue>
         <fullName>Accounting</fullName>
