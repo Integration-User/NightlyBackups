@@ -498,16 +498,11 @@
         <columns>PRIORITY</columns>
         <columns>LAST_UPDATE</columns>
         <columns>CORE.USERS.FIRST_NAME</columns>
-        <filterScope>Mine</filterScope>
+        <filterScope>Everything</filterScope>
         <filters>
             <field>IS_CLOSED</field>
             <operation>equals</operation>
             <value>0</value>
-        </filters>
-        <filters>
-            <field>DUE_DATE</field>
-            <operation>equals</operation>
-            <value>TODAY</value>
         </filters>
         <label>Today&apos;s Tasks</label>
     </listViews>
