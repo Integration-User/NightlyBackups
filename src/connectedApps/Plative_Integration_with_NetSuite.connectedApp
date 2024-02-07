@@ -20,6 +20,7 @@
         <ipRelaxation>BYPASS</ipRelaxation>
         <refreshTokenPolicy>zero</refreshTokenPolicy>
     </oauthPolicy>
+    <profileName>HubSpot Integration</profileName>
     <profileName>System Administrator</profileName>
     <sessionPolicy>
         <sessionTimeout>30</sessionTimeout>

@@ -209,10 +209,6 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__AppLauncher</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>AskNicely</name>
         <type>ConnectedApp</type>
     </appMenuItems>
