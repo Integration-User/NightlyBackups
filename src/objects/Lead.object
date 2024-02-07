@@ -11383,7 +11383,7 @@ AND(
     </validationRules>
     <validationRules>
         <fullName>Require_GS_Relationship</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Input GS Relationship when lead is marked as Disqualified</description>
         <errorConditionFormula>AND(
 $RecordType.Name = &quot;Marketing&quot;,
