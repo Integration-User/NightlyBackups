@@ -443,6 +443,10 @@
         <name>Closed_Opportunity_Notes__c</name>
     </fields>
     <fields>
+        <label><!-- Company Name --></label>
+        <name>Company_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Company Type --></label>
         <name>Company_Type_Opp__c</name>
     </fields>
@@ -452,7 +456,7 @@
         <relationshipLabel><!-- Opportunities (Consolidated To) --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Contact Name - For Testing --></label>
+        <label><!-- Contact Name --></label>
         <name>Contact_Name_For_Testing__c</name>
     </fields>
     <fields>
@@ -985,6 +989,10 @@
         <help><!-- Classification based on the lead source. --></help>
         <label><!-- Lead Classification --></label>
         <name>Lead_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Contact Email --></label>
+        <name>Lead_Contact_Email__c</name>
     </fields>
     <fields>
         <label><!-- Lead Contact --></label>
