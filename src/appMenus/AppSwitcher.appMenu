@@ -57,10 +57,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningService</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>OIQ_Integration</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -207,6 +203,10 @@
     <appMenuItems>
         <name>Plative_Integration_with_NetSuite</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__AppLauncher</name>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>AskNicely</name>

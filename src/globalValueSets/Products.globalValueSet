@@ -176,11 +176,6 @@
         <label>PDF Viewer</label>
     </customValue>
     <customValue>
-        <fullName>Not Applicable</fullName>
-        <default>false</default>
-        <label>Not Applicable</label>
-    </customValue>
-    <customValue>
         <fullName>Activist Situations</fullName>
         <default>false</default>
         <label>Activist Situations</label>
@@ -439,6 +434,11 @@
         <fullName>EUR Sales Comps</fullName>
         <default>false</default>
         <label>EUR Sales Comps</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
     </customValue>
     <customValue>
         <fullName>Learning Center</fullName>

@@ -1,18 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingCriteriaRules>
-        <fullName>HubSpot_Sharing_Rule</fullName>
-        <accessLevel>Edit</accessLevel>
-        <description>This rule enables leads that meet the criteria to sync with HubSpot</description>
-        <label>HubSpot Sharing Rule</label>
-        <sharedTo>
-            <role>HubSpot_Integration</role>
-        </sharedTo>
-        <criteriaItems>
-            <field>Email</field>
-            <operation>contains</operation>
-            <value>@</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-</SharingRules>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
+

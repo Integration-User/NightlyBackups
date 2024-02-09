@@ -1182,8 +1182,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -1372,6 +1380,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -1451,6 +1460,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -2804,8 +2814,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -2994,6 +3012,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -3073,6 +3092,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -4426,8 +4446,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -4616,6 +4644,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -4695,6 +4724,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -6048,8 +6078,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -6238,6 +6276,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -6317,6 +6356,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -7662,8 +7702,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -7850,6 +7898,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -7929,6 +7978,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -9274,8 +9324,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -9462,6 +9520,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -9541,6 +9600,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -10890,8 +10950,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -11079,6 +11147,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -11158,6 +11227,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -12503,8 +12573,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -12691,6 +12769,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -12770,6 +12849,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -14119,8 +14199,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -14308,6 +14396,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -14387,6 +14476,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -15732,8 +15822,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -15920,6 +16018,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -15999,6 +16098,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -17348,8 +17448,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -17537,6 +17645,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -17616,6 +17725,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -18961,8 +19071,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -19149,6 +19267,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -19228,6 +19347,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -20577,8 +20697,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -20766,6 +20894,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -20845,6 +20974,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -22190,8 +22320,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -22378,6 +22516,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -22457,6 +22596,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -23806,8 +23946,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -23995,6 +24143,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -24074,6 +24223,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -25419,8 +25569,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -25607,6 +25765,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -25686,6 +25845,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -27039,8 +27199,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -27229,6 +27397,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -27308,6 +27477,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -28661,8 +28831,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -28851,6 +29029,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -28930,6 +29109,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -30283,8 +30463,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -30473,6 +30661,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -30552,6 +30741,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>
@@ -31905,8 +32095,16 @@
             <label>New Business Credit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFo</field>
+            <label>Lead Contact Email</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>CONTRACT.NAME</field>
             <label>Contract Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DoMFn</field>
+            <label>Company Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000NvxQb</field>
@@ -32095,6 +32293,7 @@
             <field>00Nf400000V6v0l</field>
             <field>00Nf400000V6v0j</field>
             <field>00Nf400000V6v0k</field>
+            <field>00NDM00000DoMFn</field>
             <field>00Nf400000V1vkj</field>
             <field>00N5G00000VPq45</field>
             <field>00Nf400000U5xip</field>
@@ -32174,6 +32373,7 @@
             <field>00NDM00000DnyZJ</field>
             <field>00NDM00000Do1gP</field>
             <field>00NDM00000Do1gQ</field>
+            <field>00NDM00000DoMFo</field>
             <field>00NDM00000DnyZL</field>
             <field>00Nf400000TFAny</field>
             <field>00Nf400000VMkZI</field>

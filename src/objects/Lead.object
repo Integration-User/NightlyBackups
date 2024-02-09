@@ -11336,7 +11336,7 @@ Stored as Long on Solr.</description>
         <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWriteTransfer</sharingModel>
     <validationRules>
         <fullName>Assign_Lead_Owner_To_User</fullName>
         <active>true</active>

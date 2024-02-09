@@ -20,7 +20,6 @@
         <ipRelaxation>ENFORCE</ipRelaxation>
         <refreshTokenPolicy>infinite</refreshTokenPolicy>
     </oauthPolicy>
-    <profileName>HubSpot Integration</profileName>
     <profileName>System Administrator</profileName>
     <profileName>System Admin - Integrations</profileName>
 </ConnectedApp>

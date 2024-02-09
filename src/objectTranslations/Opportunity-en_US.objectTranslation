@@ -443,6 +443,10 @@
         <name>Closed_Opportunity_Notes__c</name>
     </fields>
     <fields>
+        <label><!-- Company Name --></label>
+        <name>Company_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Company Type --></label>
         <name>Company_Type_Opp__c</name>
     </fields>
@@ -1018,6 +1022,10 @@
         <help><!-- Classification based on the lead source. --></help>
         <label><!-- Lead Classification --></label>
         <name>Lead_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Contact Email --></label>
+        <name>Lead_Contact_Email__c</name>
     </fields>
     <fields>
         <label><!-- Lead Contact --></label>
@@ -3378,7 +3386,7 @@ Subsidiary, Main Phone, Website, Company Type, Address. --></errorMessage>
         <name>Check_SDO_Missing_Account_Fields</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Closed Opportunity Notes are required in order to move to Pending Review. --></errorMessage>
+        <errorMessage><!-- Closed Opportunity Notes, AP Email, Billing Schedule and Terms are required in order to move to Pending Review. --></errorMessage>
         <name>Close_Notes_Required</name>
     </validationRules>
     <validationRules>
