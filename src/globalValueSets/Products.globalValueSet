@@ -441,28 +441,16 @@
         <label>EUR Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>Credit Analytics</fullName>
+        <fullName>US Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Credit Analytics</label>
+        <label>US Standardized Downloads</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
+        <fullName>EU Market Data</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>Learning Center</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Learning Center</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
+        <label>EU Market Data</label>
     </customValue>
     <customValue>
         <fullName>EU Market Forecasts</fullName>
@@ -471,10 +459,28 @@
         <label>EU Market Forecasts</label>
     </customValue>
     <customValue>
-        <fullName>US Standardized Downloads</fullName>
+        <fullName>EU Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
+        <label>EU Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning Center</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Learning Center</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Analytics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Credit Analytics</label>
     </customValue>
     <customValue>
         <fullName>US Market Forecasts</fullName>
@@ -499,12 +505,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Forecast Scenarios</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
     </customValue>
     <customValue>
         <fullName>Royalty Income</fullName>
