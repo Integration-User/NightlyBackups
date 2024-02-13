@@ -6939,6 +6939,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <label>Ads- My Opportunities Next 30 days</label>
     </listViews>
     <listViews>
+        <fullName>Advertising2</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>OPPORTUNITY_SCORE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Advertising,Opportunity.Advertising_Closed</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>equals</operation>
+            <value>Trimont</value>
+        </filters>
+        <label>Advertising</label>
+        <sharedTo>
+            <role>System_Administrator</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>AllOpportunities</fullName>
         <columns>Account_Owner__c</columns>
         <columns>OPPORTUNITY.NAME</columns>

@@ -441,10 +441,10 @@
         <label>EUR Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>US Standardized Downloads</fullName>
+        <fullName>US Market Data</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
+        <label>US Market Data</label>
     </customValue>
     <customValue>
         <fullName>US Market Forecasts</fullName>
@@ -453,10 +453,46 @@
         <label>US Market Forecasts</label>
     </customValue>
     <customValue>
-        <fullName>US Market Data</fullName>
+        <fullName>US Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>US Market Data</label>
+        <label>US Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Forecasts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Forecasts</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning Center</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Learning Center</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Analytics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>REA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>REA</label>
     </customValue>
     <customValue>
         <fullName>Forecast Scenarios</fullName>
@@ -513,52 +549,16 @@
         <label>EU Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
-    </customValue>
-    <customValue>
         <fullName>eREA</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>eREA</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Forecasts</fullName>
+        <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Market Forecasts</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
-    </customValue>
-    <customValue>
-        <fullName>Learning Center</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Learning Center</label>
-    </customValue>
-    <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>Credit Analytics</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Credit Analytics</label>
-    </customValue>
-    <customValue>
-        <fullName>REA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>REA</label>
+        <label>EU REIT</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
