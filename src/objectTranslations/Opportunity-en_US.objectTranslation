@@ -3439,7 +3439,7 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Fields_Required_to_Save_Stage_3_Renewal</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- To save at a Stage 3 or higher, you must have the Opportunity Lead Source populated and the following Account fields: Company Type, Subsidiary, Phone, and Description. --></errorMessage>
+        <errorMessage><!-- To save at a Stage 2 or higher, you must have the Opportunity Lead Type &amp; Lead Channel populated and the following Account fields: Company Type, Subsidiary, Phone, and Description. --></errorMessage>
         <name>Fields_Required_to_Save_at_Stage_3</name>
     </validationRules>
     <validationRules>
@@ -3531,7 +3531,7 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Require_Type_Details</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Please enter Contract Start and End Date, Billing contact and Billing Frequency in order to save this Opportunity as a Verbal Win. --></errorMessage>
+        <errorMessage><!-- Please enter Contract Start and End Date, Billing contact and Billing schedule in order to save this Opportunity as a Verbal Win. --></errorMessage>
         <name>Require_for_Subscription_SS6</name>
     </validationRules>
     <validationRules>
