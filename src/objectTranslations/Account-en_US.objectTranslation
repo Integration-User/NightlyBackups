@@ -134,6 +134,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- 6sense Segment Names --></label>
+        <name>Account_6sense_Segment_Names__c</name>
+    </fields>
+    <fields>
         <label><!-- Account Status --></label>
         <name>Account_Status__c</name>
         <picklistValues>
