@@ -12048,6 +12048,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Account_6sense_Segment_Names__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Account_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>

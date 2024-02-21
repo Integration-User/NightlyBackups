@@ -176,6 +176,11 @@
         <label>PDF Viewer</label>
     </customValue>
     <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <customValue>
         <fullName>Activist Situations</fullName>
         <default>false</default>
         <label>Activist Situations</label>
@@ -436,21 +441,29 @@
         <label>EUR Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>Not Applicable</fullName>
+        <fullName>Data Sale - UK Retail - All</fullName>
         <default>false</default>
-        <label>Not Applicable</label>
+        <label>Data Sale - UK Retail - All</label>
     </customValue>
     <customValue>
-        <fullName>eREA</fullName>
+        <fullName>Data Sale - UK Retail - Convenience</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
+        <label>Data Sale - UK Retail - Convenience</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
+        <fullName>Data Sale - UK Retail - Multiples</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
+        <label>Data Sale - UK Retail - Multiples</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Sale - UK Retail - Independents</fullName>
+        <default>false</default>
+        <label>Data Sale - UK Retail - Independents</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Sale - UK Retail - London</fullName>
+        <default>false</default>
+        <label>Data Sale - UK Retail - London</label>
     </customValue>
     <customValue>
         <fullName>EU Sales Comps</fullName>
@@ -495,12 +508,6 @@
         <label>Royalty Income</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
-    </customValue>
-    <customValue>
         <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -511,6 +518,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>REA</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Data</label>
     </customValue>
     <customValue>
         <fullName>US Market Data</fullName>
@@ -559,6 +572,18 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
+    </customValue>
+    <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
