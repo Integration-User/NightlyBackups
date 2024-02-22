@@ -3016,6 +3016,16 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
                     <default>false</default>
                     <label>Non-Green Street Sponsored Event</label>
                 </value>
+                <value>
+                    <fullName>Preqin</fullName>
+                    <default>false</default>
+                    <label>Preqin</label>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Former User</controllingFieldValue>
@@ -3056,6 +3066,14 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
             <valueSettings>
                 <controllingFieldValue>Cold Outreach</controllingFieldValue>
                 <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cold Outreach</controllingFieldValue>
+                <valueName>Preqin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cold Outreach</controllingFieldValue>
+                <valueName>Salesforce</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Referral</controllingFieldValue>
@@ -32058,11 +32076,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Preqin</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>React</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -43346,6 +43372,7 @@ ISBLANK(Account.Phone )
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
  RecordType.Name = &quot;Sales Opportunity&quot;,
+ ISCHANGED(StageName),
  OR(
 ISPICKVAL(StageName, &quot;2 - Conducting Needs Analysis&quot;),
 ISPICKVAL(StageName, &quot;3 - Qualifying​&quot;),
