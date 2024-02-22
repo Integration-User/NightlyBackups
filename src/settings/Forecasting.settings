@@ -32418,6 +32418,7 @@
         <ownerAdjustableCategoryApiNames>bestcaseonly</ownerAdjustableCategoryApiNames>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>
+        <allowExpandedColumns>false</allowExpandedColumns>
         <enableAdjustments>true</enableAdjustments>
         <enableOwnerAdjustments>true</enableOwnerAdjustments>
     </globalAdjustmentsSettings>
