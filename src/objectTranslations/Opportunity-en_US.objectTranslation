@@ -1063,12 +1063,20 @@
             <translation><!-- Personal Network --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Preqin</masterLabel>
+            <translation><!-- Preqin --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>React</masterLabel>
             <translation><!-- React --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Referral</masterLabel>
             <translation><!-- Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Scored Lead</masterLabel>
