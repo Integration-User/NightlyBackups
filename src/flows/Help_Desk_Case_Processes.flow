@@ -1881,7 +1881,7 @@ OR(
         <object>Case</object>
     </recordUpdates>
     <startElementReference>isChangedDecision2_myRule_1_ContactId</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

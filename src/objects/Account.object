@@ -3622,6 +3622,27 @@ Stored as Long on Solr.</description>
         <type>DateTime</type>
     </fields>
     <listViews>
+        <fullName>Active_Customers</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>X18_digit_Account_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Company_Type__c</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Client,Favor,Suspended</value>
+        </filters>
+        <filters>
+            <field>React_Client__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Exclusion List</label>
+    </listViews>
+    <listViews>
         <fullName>AllAccounts</fullName>
         <columns>ACCOUNT.NAME</columns>
         <columns>Renewal_Month__c</columns>
@@ -3848,6 +3869,33 @@ Stored as Long on Solr.</description>
             <value>News Upsell</value>
         </filters>
         <label>News Upsell SPIF Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>Phase_1_Target</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Souter,Pilmer,Muzaffar,Emtiaz</value>
+        </filters>
+        <filters>
+            <field>Protected_By__c</field>
+            <operation>equals</operation>
+            <value>Matt Souter,Andrew Pilmer,Usman Muzaffar,Shyan Emtiaz</value>
+        </filters>
+        <filters>
+            <field>Prospect_Category__c</field>
+            <operation>notEqual</operation>
+            <value>Not Viable Now</value>
+        </filters>
+        <label>Phase 1 Target</label>
     </listViews>
     <listViews>
         <fullName>REA_Only_Upsell_Target_List_Tier_2</fullName>
