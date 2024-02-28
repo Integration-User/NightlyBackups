@@ -466,18 +466,6 @@
         <label>Data Sale - UK Retail - London</label>
     </customValue>
     <customValue>
-        <fullName>eREA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
-    </customValue>
-    <customValue>
-        <fullName>Credit Analytics</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Credit Analytics</label>
-    </customValue>
-    <customValue>
         <fullName>EU Sales Comps</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -520,6 +508,12 @@
         <label>Royalty Income</label>
     </customValue>
     <customValue>
+        <fullName>EU Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Data</label>
+    </customValue>
+    <customValue>
         <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -550,12 +544,6 @@
         <label>US Standardized Downloads</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
-    </customValue>
-    <customValue>
         <fullName>EU Market Forecasts</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -578,6 +566,18 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Analytics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
     </customValue>
     <customValue>
         <fullName>EU REIT</fullName>

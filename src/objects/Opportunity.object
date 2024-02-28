@@ -6999,6 +6999,38 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <label>All Opportunities</label>
     </listViews>
     <listViews>
+        <fullName>All_Open_SDO_s</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Lead_Contact__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>Lead_Channel__c</columns>
+        <columns>Lead_Classification__c</columns>
+        <columns>Days_Stalled__c</columns>
+        <columns>Marketing_Identified_Country__c</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Sales_Development</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Open,Working,In Review</value>
+        </filters>
+        <label>All Open SDO’s</label>
+        <sharedTo>
+            <role>BDR</role>
+            <role>BDR_Manager</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>CSA_Payments</fullName>
         <columns>OPPORTUNITY.NAME</columns>
         <columns>ACCOUNT.NAME</columns>
@@ -7178,6 +7210,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Lead_Type__c</columns>
         <columns>Lead_Channel__c</columns>
         <columns>Lead_Classification__c</columns>
+        <columns>Days_Stalled__c</columns>
         <columns>Marketing_Identified_Country__c</columns>
         <columns>OPPORTUNITY.CREATED_DATE</columns>
         <columns>CORE.USERS.ALIAS</columns>
@@ -7186,6 +7219,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <field>OPPORTUNITY.RECORDTYPE</field>
             <operation>equals</operation>
             <value>Opportunity.Sales_Development</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Open,Working,In Review</value>
         </filters>
         <label>My Open SDO’s</label>
         <sharedTo>
