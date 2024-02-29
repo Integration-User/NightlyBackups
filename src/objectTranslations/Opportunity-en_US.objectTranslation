@@ -314,6 +314,10 @@
             <translation><!-- Contracted Client --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Current Client</masterLabel>
+            <translation><!-- Current Client --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Due Diligence</masterLabel>
             <translation><!-- Due Diligence --></translation>
         </picklistValues>
