@@ -8050,7 +8050,7 @@ Stored as Long on Solr.</description>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>startsWith</operation>
-            <value>Virtus Real Estate Capital</value>
+            <value>Fried,Frank,Harris,Shriver &amp; Jacobso</value>
         </filters>
         <filters>
             <field>Contact_Status__c</field>
