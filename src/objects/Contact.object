@@ -8045,7 +8045,7 @@ Stored as Long on Solr.</description>
         <columns>Last_Login_Date__c</columns>
         <columns>CONTACT.LAST_UPDATE</columns>
         <columns>Loaded__c</columns>
-        <columns>Last_Login_Date_standard__c</columns>
+        <columns>ACCOUNT.TYPE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>ACCOUNT.NAME</field>
@@ -8055,7 +8055,22 @@ Stored as Long on Solr.</description>
         <filters>
             <field>Contact_Status__c</field>
             <operation>equals</operation>
-            <value>Active</value>
+            <value>Inactive</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Client</value>
+        </filters>
+        <filters>
+            <field>Account.GSA_ID__c</field>
+            <operation>notEqual</operation>
+            <value>22832</value>
+        </filters>
+        <filters>
+            <field>Deactivation_Date__c</field>
+            <operation>equals</operation>
+            <value>3/4/2024</value>
         </filters>
         <label>Copy of Copy of User List Updates</label>
         <sharedTo>
