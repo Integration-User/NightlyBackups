@@ -799,6 +799,10 @@
         <name>NS_Company_Internal_ID__c</name>
     </fields>
     <fields>
+        <label><!-- Named Account? --></label>
+        <name>Named_Account__c</name>
+    </fields>
+    <fields>
         <label><!-- News ID --></label>
         <name>News_ID__c</name>
     </fields>
