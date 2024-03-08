@@ -891,7 +891,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <externalId>false</externalId>
         <label>Company Type</label>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -5821,10 +5821,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Family Office</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Fixed Income%2FCMBS</fullName>
                 <default>false</default>
             </values>
             <values>
