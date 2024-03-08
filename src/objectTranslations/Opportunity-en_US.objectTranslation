@@ -3192,6 +3192,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Winback --></label>
+        <name>Winback__c</name>
+    </fields>
+    <fields>
         <label><!-- Won Amount --></label>
         <name>Won_Amount__c</name>
     </fields>
