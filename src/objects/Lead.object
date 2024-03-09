@@ -3891,6 +3891,15 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>SDO_Conversion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SDO Conversion</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SalesLoft1__Active_Lead__c</fullName>
         <deprecated>false</deprecated>
         <description>If Lead has an activity logged within the last 30 days, this field will return a value of 1.</description>

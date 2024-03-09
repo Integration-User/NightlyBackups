@@ -2186,6 +2186,10 @@
         <name>Revisit_Date__c</name>
     </fields>
     <fields>
+        <label><!-- SDO Conversion --></label>
+        <name>SDO_Conversion__c</name>
+    </fields>
+    <fields>
         <label><!-- Active Lead --></label>
         <name>SalesLoft1__Active_Lead__c</name>
     </fields>

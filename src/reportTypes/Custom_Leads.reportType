@@ -836,6 +836,11 @@
             <field>Owner.IsActive</field>
             <table>Lead</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_Conversion__c</field>
+            <table>Lead</table>
+        </columns>
         <masterLabel>Leads</masterLabel>
     </sections>
 </ReportType>
