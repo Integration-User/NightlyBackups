@@ -15981,6 +15981,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.X3x3_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.ZoomInfo_B2B_contact__c</field>
         <readable>false</readable>
     </fieldPermissions>

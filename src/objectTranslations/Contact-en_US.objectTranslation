@@ -4316,6 +4316,22 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- 3x3 Level --></label>
+        <name>X3x3_Level__c</name>
+        <picklistValues>
+            <masterLabel>Departmental</masterLabel>
+            <translation><!-- Departmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- ZoomInfo B2B --></label>
         <name>ZoomInfo_B2B_contact__c</name>
     </fields>
