@@ -478,6 +478,12 @@
         <label>Edge</label>
     </customValue>
     <customValue>
+        <fullName>US Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Standardized Downloads</label>
+    </customValue>
+    <customValue>
         <fullName>Analysis/Insight</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -508,12 +514,6 @@
         <label>Royalty Income</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
-    </customValue>
-    <customValue>
         <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -538,10 +538,10 @@
         <label>US Market Forecasts</label>
     </customValue>
     <customValue>
-        <fullName>US Standardized Downloads</fullName>
+        <fullName>EU Market Data</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
+        <label>EU Market Data</label>
     </customValue>
     <customValue>
         <fullName>EU Market Forecasts</fullName>
