@@ -114,6 +114,7 @@ public without sharing class Plative_OpportunityTriggerHandler {
             List<String> stageNames = new List<String>{'1 - Introducing', '2 - Conducting Needs Analysis', '3 - Qualifying'};
             for (Opportunity oppty : triggerNewMap.values()) {
                 Opportunity oldOppty = triggerOldMap.get(oppty.Id);
+                system.debug('oppty.StageName-->'+oppty.StageName);
                 if ((oppty.recordTypeId == renewalRecordTypeId || oppty.recordTypeId == salesRecordTypeId)
                     && oppty.StageName != null && oldOppty.StageName != oppty.StageName 
                     && !stageNames.contains(oppty.StageName) && !x3x3opportunities.contains(oppty.Id)) {
