@@ -466,6 +466,18 @@
         <label>Data Sale - UK Retail - London</label>
     </customValue>
     <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
+    </customValue>
+    <customValue>
         <fullName>EU Sales Comps</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -476,12 +488,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Edge</label>
-    </customValue>
-    <customValue>
-        <fullName>US Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>Analysis/Insight</fullName>
@@ -514,6 +520,12 @@
         <label>Royalty Income</label>
     </customValue>
     <customValue>
+        <fullName>US Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Market Data</label>
+    </customValue>
+    <customValue>
         <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -526,16 +538,16 @@
         <label>REA</label>
     </customValue>
     <customValue>
-        <fullName>US Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>US Market Data</label>
-    </customValue>
-    <customValue>
         <fullName>US Market Forecasts</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>US Market Forecasts</label>
+    </customValue>
+    <customValue>
+        <fullName>US Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>EU Market Data</fullName>
@@ -562,22 +574,10 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
         <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Credit Analytics</label>
-    </customValue>
-    <customValue>
-        <fullName>eREA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
     </customValue>
     <customValue>
         <fullName>EU REIT</fullName>
