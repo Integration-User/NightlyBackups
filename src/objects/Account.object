@@ -3916,6 +3916,44 @@ Stored as Long on Solr.</description>
         <filterScope>Mine</filterScope>
         <label>REA Only Upsell Target List Tier 2</label>
     </listViews>
+    <listViews>
+        <fullName>X6sense_Orchestration_Test_1</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_YEARS:3</value>
+        </filters>
+        <label>6sense Orchestration Test 1</label>
+    </listViews>
+    <listViews>
+        <fullName>X6sense_Orchestration_Test_2</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>lessThan</operation>
+            <value>LAST_N_YEARS:3</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <label>6sense Orchestration Test 2</label>
+    </listViews>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Organization_Account</fullName>
