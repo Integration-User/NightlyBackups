@@ -466,16 +466,16 @@
         <label>Data Sale - UK Retail - London</label>
     </customValue>
     <customValue>
-        <fullName>Directory/Publishing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Directory/Publishing</label>
-    </customValue>
-    <customValue>
         <fullName>Analysis/Insight</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Analysis/Insight</label>
+    </customValue>
+    <customValue>
+        <fullName>Bespoke Reports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Reports</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>
@@ -526,16 +526,16 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
+        <fullName>Directory/Publishing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Directory/Publishing</label>
+    </customValue>
+    <customValue>
         <fullName>Bespoke Data Collection</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Bespoke Data Collection</label>
-    </customValue>
-    <customValue>
-        <fullName>Bespoke Reports</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bespoke Reports</label>
     </customValue>
     <customValue>
         <fullName>Edge</fullName>
