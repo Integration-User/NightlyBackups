@@ -17791,6 +17791,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Objective__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.Owner_Contact__c</field>
         <readable>false</readable>
@@ -17878,6 +17883,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Strategy__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -22871,6 +22881,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Objective__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Task.Owner_Contact__c</field>
         <readable>false</readable>
@@ -22958,6 +22973,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Strategy__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
