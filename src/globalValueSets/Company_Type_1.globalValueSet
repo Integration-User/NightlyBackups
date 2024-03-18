@@ -240,6 +240,12 @@
         <label>Broker Dealer/Investment Advisor</label>
     </customValue>
     <customValue>
+        <fullName>High Net Worth</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>High Net Worth</label>
+    </customValue>
+    <customValue>
         <fullName>Accountant / Consultant / Law Firm</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -294,28 +300,16 @@
         <label>Accounting</label>
     </customValue>
     <customValue>
+        <fullName>Money Manager - RIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Money Manager - RIA</label>
+    </customValue>
+    <customValue>
         <fullName>Mutual Fund - Diversified</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Mutual Fund - Diversified</label>
-    </customValue>
-    <customValue>
-        <fullName>Hedge Fund</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Hedge Fund</label>
-    </customValue>
-    <customValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other</label>
-    </customValue>
-    <customValue>
-        <fullName>High Net Worth</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>High Net Worth</label>
     </customValue>
     <customValue>
         <fullName>Money Manager - HF / FoF</fullName>
@@ -324,10 +318,16 @@
         <label>Money Manager - HF / FoF</label>
     </customValue>
     <customValue>
-        <fullName>Money Manager - RIA</fullName>
+        <fullName>Other</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Money Manager - RIA</label>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Hedge Fund</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hedge Fund</label>
     </customValue>
     <masterLabel>Company Type1</masterLabel>
     <sorted>false</sorted>
