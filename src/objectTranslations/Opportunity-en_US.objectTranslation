@@ -2342,6 +2342,10 @@
         <name>New_Business_Credit_rollup__c</name>
     </fields>
     <fields>
+        <label><!-- New Sale Effective Date --></label>
+        <name>New_Sale_Effective_Date__c</name>
+    </fields>
+    <fields>
         <label><!-- New Sales Opportunity --></label>
         <name>New_Sales_Opportunity__c</name>
         <relationshipLabel><!-- Sales Development --></relationshipLabel>
@@ -2740,6 +2744,10 @@
     <fields>
         <label><!-- Renewal Credit --></label>
         <name>Renewal_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Effective Date --></label>
+        <name>Renewal_Effective_Date__c</name>
     </fields>
     <fields>
         <label><!-- Renewal Month --></label>
@@ -3436,6 +3444,10 @@ Subsidiary, Main Phone, Website, Company Type, Address. --></errorMessage>
     <validationRules>
         <errorMessage><!-- Please, click on &quot;Calculate Score&quot; and follow the approval instructions before moving the stage. --></errorMessage>
         <name>DDScore_NoScore</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please mark this opportunity to &quot;In Review&quot; before qualifying. --></errorMessage>
+        <name>Do_Not_Skip_SDO_Review</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- To mark this Favor as Active, please fill in the &quot;Favor End Date&quot; --></errorMessage>

@@ -820,6 +820,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -1010,6 +1014,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -1589,6 +1597,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -1637,6 +1646,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -2477,6 +2487,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -2667,6 +2681,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -3246,6 +3264,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -3294,6 +3313,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -4134,6 +4154,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -4324,6 +4348,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -4903,6 +4931,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -4951,6 +4980,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -5791,6 +5821,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -5981,6 +6015,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -6560,6 +6598,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -6608,6 +6647,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -7440,6 +7480,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -7630,6 +7674,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -8207,6 +8255,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -8255,6 +8304,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -9086,6 +9136,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -9276,6 +9330,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -9853,6 +9911,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -9901,6 +9960,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -10736,6 +10796,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -10926,6 +10990,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -11504,6 +11572,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -11552,6 +11621,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -12383,6 +12453,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -12573,6 +12647,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -13150,6 +13228,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -13198,6 +13277,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -14033,6 +14113,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -14223,6 +14307,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -14801,6 +14889,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -14849,6 +14938,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -15680,6 +15770,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -15870,6 +15964,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -16447,6 +16545,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -16495,6 +16594,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -17330,6 +17430,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -17520,6 +17624,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -18098,6 +18206,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -18146,6 +18255,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -18977,6 +19087,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -19167,6 +19281,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -19744,6 +19862,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -19792,6 +19911,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -20627,6 +20747,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -20817,6 +20941,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -21395,6 +21523,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -21443,6 +21572,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -22274,6 +22404,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -22464,6 +22598,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -23041,6 +23179,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -23089,6 +23228,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -23924,6 +24064,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -24114,6 +24258,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -24692,6 +24840,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -24740,6 +24889,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -25571,6 +25721,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -25761,6 +25915,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -26338,6 +26496,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -26386,6 +26545,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -27225,6 +27385,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -27415,6 +27579,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -27994,6 +28162,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -28042,6 +28211,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -28882,6 +29052,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -29072,6 +29246,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -29651,6 +29829,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -29699,6 +29878,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -30539,6 +30719,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -30729,6 +30913,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -31308,6 +31496,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -31356,6 +31545,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -32196,6 +32386,10 @@
             <label>News - ABAlert</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do10M</field>
             <label>New Sales Opportunity</label>
         </opportunityListFieldsLabelMappings>
@@ -32386,6 +32580,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VZhpb</field>
             <label>Renewal Credit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1P</field>
@@ -32965,6 +33163,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -33013,6 +33212,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>

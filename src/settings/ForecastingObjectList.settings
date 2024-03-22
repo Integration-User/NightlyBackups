@@ -914,6 +914,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -1487,6 +1495,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -1535,6 +1544,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -2551,6 +2561,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -3124,6 +3142,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -3172,6 +3191,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -4188,6 +4208,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -4761,6 +4789,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -4809,6 +4838,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -5825,6 +5855,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -6398,6 +6436,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -6446,6 +6485,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -7454,6 +7494,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -8025,6 +8073,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -8073,6 +8122,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -9081,6 +9131,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -9652,6 +9710,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -9700,6 +9759,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -10712,6 +10772,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -11284,6 +11352,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -11332,6 +11401,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -12340,6 +12410,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -12911,6 +12989,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -12959,6 +13038,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -13971,6 +14051,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -14543,6 +14631,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -14591,6 +14680,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -15599,6 +15689,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -16170,6 +16268,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -16218,6 +16317,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -17230,6 +17330,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -17802,6 +17910,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -17850,6 +17959,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -18858,6 +18968,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -19429,6 +19547,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -19477,6 +19596,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -20489,6 +20609,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -21061,6 +21189,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -21109,6 +21238,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -22117,6 +22247,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -22688,6 +22826,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -22736,6 +22875,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -23748,6 +23888,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -24320,6 +24468,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -24368,6 +24517,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -25376,6 +25526,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -25947,6 +26105,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -25995,6 +26154,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -27011,6 +27171,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -27584,6 +27752,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -27632,6 +27801,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -28648,6 +28818,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -29221,6 +29399,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -29269,6 +29448,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -30285,6 +30465,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -30858,6 +31046,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -30906,6 +31095,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -31922,6 +32112,14 @@
             <label>Other Vendors</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGp</field>
+            <label>Renewal Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NDM00000DohGo</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1d3e</field>
             <label>Most Recent Cadence - Cadence Name</label>
         </forecastingObjectListLabelMappings>
@@ -32495,6 +32693,7 @@
             <field>00NDM00000DmedG</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NDM00000DohGo</field>
             <field>00NDM00000Do10M</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -32543,6 +32742,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NDM00000DohGp</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
