@@ -216,28 +216,10 @@
         <label>Vendor</label>
     </customValue>
     <customValue>
-        <fullName>Endowment</fullName>
+        <fullName>Money Manager - HF / FoF</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Endowment</label>
-    </customValue>
-    <customValue>
-        <fullName>High Net Worth- Generalist</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>High Net Worth- Generalist</label>
-    </customValue>
-    <customValue>
-        <fullName>Bank - Commercial</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bank - Commercial</label>
-    </customValue>
-    <customValue>
-        <fullName>Broker Dealer/Investment Advisor</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Broker Dealer/Investment Advisor</label>
+        <label>Money Manager - HF / FoF</label>
     </customValue>
     <customValue>
         <fullName>High Net Worth</fullName>
@@ -246,16 +228,40 @@
         <label>High Net Worth</label>
     </customValue>
     <customValue>
-        <fullName>Money Manager - HF / FoF</fullName>
+        <fullName>Broker Dealer/Investment Advisor</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Money Manager - HF / FoF</label>
+        <label>Broker Dealer/Investment Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank - Commercial</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bank - Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>High Net Worth- Generalist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>High Net Worth- Generalist</label>
+    </customValue>
+    <customValue>
+        <fullName>Endowment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Endowment</label>
     </customValue>
     <customValue>
         <fullName>Money Manager - RIA</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Money Manager - RIA</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
     </customValue>
     <customValue>
         <fullName>Hedge Fund</fullName>
@@ -294,10 +300,10 @@
         <label>Pension Fund</label>
     </customValue>
     <customValue>
-        <fullName>Money Manager</fullName>
+        <fullName>Accounting</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Money Manager</label>
+        <label>Accounting</label>
     </customValue>
     <customValue>
         <fullName>Private Equity</fullName>
@@ -312,22 +318,16 @@
         <label>Money Manager - Hedge Fund</label>
     </customValue>
     <customValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other</label>
-    </customValue>
-    <customValue>
-        <fullName>Accounting</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Accounting</label>
-    </customValue>
-    <customValue>
         <fullName>Money Manager - Dedicated</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Money Manager - Dedicated</label>
+    </customValue>
+    <customValue>
+        <fullName>Money Manager</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Money Manager</label>
     </customValue>
     <masterLabel>Company Type1</masterLabel>
     <sorted>false</sorted>
