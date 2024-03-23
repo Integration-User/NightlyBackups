@@ -4316,6 +4316,11 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Executive: Responsible for the strategizing and decision-making that contributes to the success of a company or organization.
+
+Departmental: Responsible for leading teams of employees and ensuring their productivity aligns with the team and organization&apos;s goals.
+
+User: Responsible for the day-to-day work and tasks in support of team and organizational goals. Users are typically individual contributors. --></help>
         <label><!-- 3x3 Level --></label>
         <name>X3x3_Level__c</name>
         <picklistValues>
