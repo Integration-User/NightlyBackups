@@ -216,16 +216,16 @@
         <label>Vendor</label>
     </customValue>
     <customValue>
-        <fullName>Money Manager - HF / FoF</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Money Manager - HF / FoF</label>
-    </customValue>
-    <customValue>
         <fullName>High Net Worth</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>High Net Worth</label>
+    </customValue>
+    <customValue>
+        <fullName>Accountant / Consultant / Law Firm</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accountant / Consultant / Law Firm</label>
     </customValue>
     <customValue>
         <fullName>Broker Dealer/Investment Advisor</fullName>
@@ -252,6 +252,12 @@
         <label>Endowment</label>
     </customValue>
     <customValue>
+        <fullName>Money Manager - HF / FoF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Money Manager - HF / FoF</label>
+    </customValue>
+    <customValue>
         <fullName>Money Manager - RIA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -274,12 +280,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Mutual Fund - Diversified</label>
-    </customValue>
-    <customValue>
-        <fullName>Accountant / Consultant / Law Firm</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Accountant / Consultant / Law Firm</label>
     </customValue>
     <customValue>
         <fullName>Hedge Fund- Generalist, Dedicated Sponsor, Event D</fullName>
