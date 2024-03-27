@@ -734,6 +734,10 @@
         <name>Last_Renewal_Opp__c</name>
     </fields>
     <fields>
+        <label><!-- Last Training Date --></label>
+        <name>Last_Training_Date__c</name>
+    </fields>
+    <fields>
         <help><!-- ie &quot;hot prospect&quot; --></help>
         <label><!-- List Membership --></label>
         <name>List_Membership_Account__c</name>
