@@ -466,22 +466,16 @@
         <label>Data Sale - UK Retail - London</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>NA REIT</label>
-    </customValue>
-    <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>EU Standardized Downloads</fullName>
+        <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
+        <label>Credit Analytics</label>
     </customValue>
     <customValue>
         <fullName>EU Market Forecasts</fullName>
@@ -580,10 +574,16 @@
         <label>eREA</label>
     </customValue>
     <customValue>
-        <fullName>Credit Analytics</fullName>
+        <fullName>EU Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Credit Analytics</label>
+        <label>EU Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
