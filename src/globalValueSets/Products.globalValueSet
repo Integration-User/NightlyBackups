@@ -466,34 +466,16 @@
         <label>Not Applicable</label>
     </customValue>
     <customValue>
-        <fullName>EU Standardized Downloads</fullName>
+        <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
+        <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>EU Market Forecasts</fullName>
+        <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Market Forecasts</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
-    </customValue>
-    <customValue>
-        <fullName>US Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>US Standardized Downloads</label>
-    </customValue>
-    <customValue>
-        <fullName>US Market Forecasts</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>US Market Forecasts</label>
+        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>US Market Data</fullName>
@@ -502,16 +484,34 @@
         <label>US Market Data</label>
     </customValue>
     <customValue>
-        <fullName>EU Sales Comps</fullName>
+        <fullName>US Market Forecasts</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU Sales Comps</label>
+        <label>US Market Forecasts</label>
     </customValue>
     <customValue>
-        <fullName>Learning Center</fullName>
+        <fullName>US Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Learning Center</label>
+        <label>US Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Data</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Forecasts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Forecasts</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
         <fullName>Bespoke Reports</fullName>
@@ -538,10 +538,10 @@
         <label>Bespoke Data Collection</label>
     </customValue>
     <customValue>
-        <fullName>EU REIT</fullName>
+        <fullName>Royalty Income</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>EU REIT</label>
+        <label>Royalty Income</label>
     </customValue>
     <customValue>
         <fullName>Edge</fullName>
@@ -580,10 +580,10 @@
         <label>NA REIT</label>
     </customValue>
     <customValue>
-        <fullName>Royalty Income</fullName>
+        <fullName>EU Sales Comps</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Royalty Income</label>
+        <label>EU Sales Comps</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
