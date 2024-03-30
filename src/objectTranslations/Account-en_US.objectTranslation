@@ -566,6 +566,10 @@
         <relationshipLabel><!-- Accounts (EU Expansion Owner) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Excel Add-In Users --></label>
+        <name>Excel_Add_In_Users__c</name>
+    </fields>
+    <fields>
         <label><!-- Activated Users --></label>
         <name>Export_Activated_Users__c</name>
     </fields>
