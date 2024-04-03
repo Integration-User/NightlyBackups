@@ -3901,7 +3901,7 @@ Stored as Long on Solr.</description>
         <filters>
             <field>Prospect_Category__c</field>
             <operation>notEqual</operation>
-            <value>Not Viable Now</value>
+            <value>Not Viable Now,Not Viable</value>
         </filters>
         <label>Phase 1 Target</label>
     </listViews>
