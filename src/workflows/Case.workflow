@@ -29,6 +29,10 @@
             <type>owner</type>
         </recipients>
         <recipients>
+            <recipient>adillard@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>carora@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
