@@ -3359,7 +3359,11 @@
         <name>Check_New_Sales_Opportunity</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- To enter stages “in review” or “disqualified” the following fields are required on the account:
+        <errorMessage><!-- To enter &quot;Disqualified&quot; stage, the following fields are required on the account: Website, Company Type, Address. --></errorMessage>
+        <name>Check_SDO_Disqualified_Account_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To enter “In Review” stage, the following fields are required on the account:
 Subsidiary, Main Phone, Website, Company Type, Address. --></errorMessage>
         <name>Check_SDO_Missing_Account_Fields</name>
     </validationRules>
@@ -3394,6 +3398,10 @@ Subsidiary, Main Phone, Website, Company Type, Address. --></errorMessage>
     <validationRules>
         <errorMessage><!-- Please, click on &quot;Calculate Score&quot; and follow the approval instructions before moving the stage. --></errorMessage>
         <name>DDScore_NoScore</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please mark this opportunity to &quot;In Review&quot; before qualifying. --></errorMessage>
+        <name>Do_Not_Skip_SDO_Review</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- To mark this Favor as Active, please fill in the &quot;Favor End Date&quot; --></errorMessage>
