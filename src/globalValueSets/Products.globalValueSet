@@ -466,30 +466,6 @@
         <label>Not Applicable</label>
     </customValue>
     <customValue>
-        <fullName>Bespoke Reports</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bespoke Reports</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Standardized Downloads</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Standardized Downloads</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Market Forecasts</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Forecasts</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Market Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Market Data</label>
-    </customValue>
-    <customValue>
         <fullName>US Standardized Downloads</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -518,6 +494,30 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Learning Center</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Data</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Market Forecasts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Market Forecasts</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Standardized Downloads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Standardized Downloads</label>
+    </customValue>
+    <customValue>
+        <fullName>Bespoke Reports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Reports</label>
     </customValue>
     <customValue>
         <fullName>Analysis/Insight</fullName>
