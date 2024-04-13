@@ -7253,18 +7253,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <listViews>
         <fullName>MY_Open_SDO_s</fullName>
         <columns>OPPORTUNITY.NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
         <columns>Lead_Contact__c</columns>
-        <columns>Contact_Name_For_Testing__c</columns>
-        <columns>OPPORTUNITY.STAGE_NAME</columns>
-        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
-        <columns>Lead_Type__c</columns>
-        <columns>Lead_Channel__c</columns>
-        <columns>Lead_Classification__c</columns>
+        <columns>Lead_Contact_Email__c</columns>
         <columns>Days_Stalled__c</columns>
+        <columns>Lead_Classification__c</columns>
+        <columns>Lead_Channel__c</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>Marketing_Identified_Country__c</columns>
-        <columns>OPPORTUNITY.CREATED_DATE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Mine</filterScope>
         <filters>
             <field>OPPORTUNITY.RECORDTYPE</field>
