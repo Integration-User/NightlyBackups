@@ -1670,7 +1670,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Typical Advisory Minimum ($100K/£100) --></label>
+        <label><!-- Typical Advisory Minimum (6-figures) --></label>
         <name>Minimum_Advisory_Fee_50k__c</name>
         <picklistValues>
             <masterLabel>N.A.</masterLabel>
@@ -2751,7 +2751,7 @@
         <name>Mandatory_Opportunity_Creation</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Please ensure Typical Advisory Minimum ($100K/£100) is populated before saving this Lead. --></errorMessage>
+        <errorMessage><!-- Please ensure Typical Advisory Minimum (6-figures) is populated before saving this Lead. --></errorMessage>
         <name>Require_Advisory_Minimum</name>
     </validationRules>
     <validationRules>
