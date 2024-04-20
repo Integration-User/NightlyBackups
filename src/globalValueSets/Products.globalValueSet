@@ -466,48 +466,6 @@
         <label>Not Applicable</label>
     </customValue>
     <customValue>
-        <fullName>eREA</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>eREA</label>
-    </customValue>
-    <customValue>
-        <fullName>Credit Analytics</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Credit Analytics</label>
-    </customValue>
-    <customValue>
-        <fullName>EU Sales Comps</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU Sales Comps</label>
-    </customValue>
-    <customValue>
-        <fullName>Edge</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Edge</label>
-    </customValue>
-    <customValue>
-        <fullName>Analysis/Insight</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Analysis/Insight</label>
-    </customValue>
-    <customValue>
-        <fullName>Directory/Publishing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Directory/Publishing</label>
-    </customValue>
-    <customValue>
-        <fullName>Bespoke Data Collection</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bespoke Data Collection</label>
-    </customValue>
-    <customValue>
         <fullName>Bespoke Reports</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -578,6 +536,48 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>NA REIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Analytics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Credit Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>Bespoke Data Collection</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Data Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Directory/Publishing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Directory/Publishing</label>
+    </customValue>
+    <customValue>
+        <fullName>Analysis/Insight</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Analysis/Insight</label>
+    </customValue>
+    <customValue>
+        <fullName>Edge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>EU Sales Comps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU Sales Comps</label>
+    </customValue>
+    <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
     </customValue>
     <customValue>
         <fullName>EU REIT</fullName>
