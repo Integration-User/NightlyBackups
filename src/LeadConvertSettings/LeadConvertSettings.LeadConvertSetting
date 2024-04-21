@@ -100,22 +100,6 @@
             <outputField>Research_Data_in_Role_Mktg_Identified__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>ZoomInfo_Technology_Products_Lead__c</inputField>
-            <outputField>ZoomInfo_Technology_Products_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>ZoomInfo_Website_Lead__c</inputField>
-            <outputField>ZoomInfo_Website_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>ZoomInfo_Within_EU_Lead__c</inputField>
-            <outputField>ZoomInfo_Within_EU_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>US_Markets_of_Interest_Mktg_Identified__c</inputField>
-            <outputField>US_Markets_of_Interest_Mktg_Identified__c</outputField>
-        </mappingFields>
-        <mappingFields>
             <inputField>Sectors_of_Interest_Mktg_Identified__c</inputField>
             <outputField>Sectors_of_Interest_Marketing_Identified__c</outputField>
         </mappingFields>
@@ -126,6 +110,10 @@
         <mappingFields>
             <inputField>UK_Markets_of_Interest_Mktg_Identified__c</inputField>
             <outputField>UK_Markets_of_Interest_Mktg_Identified__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>US_Markets_of_Interest_Mktg_Identified__c</inputField>
+            <outputField>US_Markets_of_Interest_Mktg_Identified__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>UTM_Content__c</inputField>
@@ -180,10 +168,6 @@
             <outputField>DOZISF__ZoomInfo_Company_ID__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>ZoomInfo_Company_Revenue_Lead__c</inputField>
-            <outputField>ZoomInfo_Company_Revenue_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
             <inputField>ZoomInfo_Company_ID_Lead__c</inputField>
             <outputField>ZoomInfo_Company_ID_contact__c</outputField>
         </mappingFields>
@@ -200,20 +184,16 @@
             <outputField>ZoomInfo_Company_Phone_contact__c</outputField>
         </mappingFields>
         <mappingFields>
+            <inputField>ZoomInfo_Company_Revenue_Lead__c</inputField>
+            <outputField>ZoomInfo_Company_Revenue_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>ZoomInfo_Company_SIC_Code_Lead__c</inputField>
             <outputField>ZoomInfo_Company_SIC_Code_contact__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>ZoomInfo_Company_State__c</inputField>
             <outputField>ZoomInfo_Company_State_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>ZoomInfo_Person_Street_Lead__c</inputField>
-            <outputField>ZoomInfo_Person_Street_contact__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>ZoomInfo_Person_Zip_Code_Lead__c</inputField>
-            <outputField>ZoomInfo_Person_Zip_Code_contact__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>ZoomInfo_Company_Street_Lead__c</inputField>
@@ -282,6 +262,26 @@
         <mappingFields>
             <inputField>ZoomInfo_Person_State_Lead__c</inputField>
             <outputField>ZoomInfo_Person_State_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>ZoomInfo_Person_Street_Lead__c</inputField>
+            <outputField>ZoomInfo_Person_Street_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>ZoomInfo_Person_Zip_Code_Lead__c</inputField>
+            <outputField>ZoomInfo_Person_Zip_Code_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>ZoomInfo_Technology_Products_Lead__c</inputField>
+            <outputField>ZoomInfo_Technology_Products_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>ZoomInfo_Website_Lead__c</inputField>
+            <outputField>ZoomInfo_Website_contact__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>ZoomInfo_Within_EU_Lead__c</inputField>
+            <outputField>ZoomInfo_Within_EU_contact__c</outputField>
         </mappingFields>
         <outputObject>Contact</outputObject>
     </objectMapping>

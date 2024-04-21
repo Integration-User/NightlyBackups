@@ -9,7 +9,7 @@
             <fieldName>Email</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Active</ruleStatus>
+        <ruleStatus>Activating</ruleStatus>
     </matchingRules>
     <matchingRules>
         <fullName>GSA_Contact_Matching_Rule</fullName>
@@ -68,6 +68,6 @@
             <fieldName>FirstName</fieldName>
             <matchingMethod>FirstName</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Active</ruleStatus>
+        <ruleStatus>Activating</ruleStatus>
     </matchingRules>
 </MatchingRules>

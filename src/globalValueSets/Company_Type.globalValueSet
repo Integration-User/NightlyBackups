@@ -221,16 +221,16 @@
         <label>Vendor</label>
     </customValue>
     <customValue>
-        <fullName>Accountant / Consultant / Law Firm</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Accountant / Consultant / Law Firm</label>
-    </customValue>
-    <customValue>
         <fullName>Alpha Capture1</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Alpha Capture1</label>
+    </customValue>
+    <customValue>
+        <fullName>Accountant / Consultant / Law Firm</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accountant / Consultant / Law Firm</label>
     </customValue>
     <masterLabel>Company Type</masterLabel>
     <sorted>false</sorted>

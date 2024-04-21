@@ -26,6 +26,6 @@
         <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
         <refreshTokenPolicy>infinite</refreshTokenPolicy>
     </oauthPolicy>
-    <profileName>System Administrator</profileName>
     <profileName>System Admin - Integrations</profileName>
+    <profileName>System Administrator</profileName>
 </ConnectedApp>

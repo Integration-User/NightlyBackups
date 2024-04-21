@@ -5,21 +5,9 @@
     <authenticationFailureAction>Bounce</authenticationFailureAction>
     <authorizationFailureAction>Discard</authorizationFailureAction>
     <emailServicesAddresses>
-        <developerName>greenstreetuserlistrequ</developerName>
+        <developerName>datasupport</developerName>
         <isActive>true</isActive>
-        <localPart>greenstreetuserlistrequest</localPart>
-        <runAsUser>ksantos@greenstreet.com</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <developerName>ukresearchrequest</developerName>
-        <isActive>true</isActive>
-        <localPart>ukresearchrequest</localPart>
-        <runAsUser>ksantos@greenstreet.com</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <developerName>requests</developerName>
-        <isActive>true</isActive>
-        <localPart>requests</localPart>
+        <localPart>datasupport</localPart>
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
@@ -29,15 +17,15 @@
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
-        <developerName>success</developerName>
+        <developerName>requests</developerName>
         <isActive>true</isActive>
-        <localPart>success</localPart>
+        <localPart>requests</localPart>
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
-        <developerName>datasupport</developerName>
+        <developerName>greenstreetuserlistrequ</developerName>
         <isActive>true</isActive>
-        <localPart>datasupport</localPart>
+        <localPart>greenstreetuserlistrequest</localPart>
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
@@ -47,9 +35,9 @@
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
-        <developerName>media</developerName>
+        <developerName>ukresearchrequest</developerName>
         <isActive>true</isActive>
-        <localPart>media</localPart>
+        <localPart>ukresearchrequest</localPart>
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
@@ -62,6 +50,18 @@
         <developerName>clientrequest</developerName>
         <isActive>true</isActive>
         <localPart>clientrequest</localPart>
+        <runAsUser>ksantos@greenstreet.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>media</developerName>
+        <isActive>true</isActive>
+        <localPart>media</localPart>
+        <runAsUser>ksantos@greenstreet.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>success</developerName>
+        <isActive>true</isActive>
+        <localPart>success</localPart>
         <runAsUser>ksantos@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>

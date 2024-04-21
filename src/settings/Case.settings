@@ -69,19 +69,6 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>EU External Data Support</caseOrigin>
-            <caseOwner>Help_Desk</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>datasupport.europe@greenstreet.com</emailAddress>
-            <emailServicesAddress>datasupport.europe@183a0ez5k9fby2r0qkd3h8nrti20usnd4yno1yz6bhh8tprb5e.f4-3azjreas.na153.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>EU Data Support</routingName>
-            <saveEmailHeaders>true</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
             <caseOrigin>Internal Data Support</caseOrigin>
             <caseOwner>EU_Data_Support</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
@@ -89,6 +76,19 @@
             <createTask>false</createTask>
             <emailAddress>ukresearchrequest@greenstreet.com</emailAddress>
             <emailServicesAddress>ukresearchrequest@ku9xy7bzadk2lp0809fafbmj3bwn6rrtpqm80e189wlr7wut8.f4-3azjreas.na153.case.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>EU Data Support</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>EU External Data Support</caseOrigin>
+            <caseOwner>Help_Desk</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>datasupport.europe@greenstreet.com</emailAddress>
+            <emailServicesAddress>datasupport.europe@183a0ez5k9fby2r0qkd3h8nrti20usnd4yno1yz6bhh8tprb5e.f4-3azjreas.na153.case.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>EU Data Support</routingName>
             <saveEmailHeaders>true</saveEmailHeaders>
@@ -121,19 +121,6 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>Internal Data Support</caseOrigin>
-            <caseOwner>US_Data_Support</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>irr@greenstreet.com</emailAddress>
-            <emailServicesAddress>irr@h-276qbxvcf0qar9mt2v6njkdum9epq8kgfllxlwu3083j3312g4.f4-3azjreas.na153.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>US Data Support</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
             <caseOrigin>External Data Support</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
@@ -141,6 +128,19 @@
             <createTask>false</createTask>
             <emailAddress>datasupport@greenstreet.com</emailAddress>
             <emailServicesAddress>datasupport@w-clrdpbfb2kiag0djvevn49ll8uu6wyke2gjb4z7ih1ixv1n2i.f4-3azjreas.na153.case.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>US Data Support</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Internal Data Support</caseOrigin>
+            <caseOwner>US_Data_Support</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>irr@greenstreet.com</emailAddress>
+            <emailServicesAddress>irr@h-276qbxvcf0qar9mt2v6njkdum9epq8kgfllxlwu3083j3312g4.f4-3azjreas.na153.case.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>US Data Support</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>
