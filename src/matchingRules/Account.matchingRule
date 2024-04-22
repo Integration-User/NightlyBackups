@@ -34,7 +34,7 @@
             <fieldName>BillingCity</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Activating</ruleStatus>
+        <ruleStatus>Active</ruleStatus>
     </matchingRules>
     <matchingRules>
         <fullName>GSA_Account_Matching_Rules</fullName>
@@ -116,6 +116,6 @@
             <fieldName>Website</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Activating</ruleStatus>
+        <ruleStatus>Active</ruleStatus>
     </matchingRules>
 </MatchingRules>
