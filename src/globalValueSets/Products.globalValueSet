@@ -466,10 +466,21 @@
         <label>Not Applicable</label>
     </customValue>
     <customValue>
-        <fullName>Bespoke Reports</fullName>
+        <fullName>Canada Research + REIT Data</fullName>
+        <default>false</default>
+        <label>Canada Research + REIT Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Directory/Publishing</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Bespoke Reports</label>
+        <label>Directory/Publishing</label>
+    </customValue>
+    <customValue>
+        <fullName>Analysis/Insight</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Analysis/Insight</label>
     </customValue>
     <customValue>
         <fullName>EU Standardized Downloads</fullName>
@@ -520,28 +531,28 @@
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>Analysis/Insight</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Analysis/Insight</label>
-    </customValue>
-    <customValue>
-        <fullName>Directory/Publishing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Directory/Publishing</label>
-    </customValue>
-    <customValue>
         <fullName>Bespoke Data Collection</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Bespoke Data Collection</label>
     </customValue>
     <customValue>
+        <fullName>Bespoke Reports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Reports</label>
+    </customValue>
+    <customValue>
         <fullName>Edge</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>EU REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>eREA</fullName>
@@ -572,12 +583,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>NA REIT</label>
-    </customValue>
-    <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>Royalty Income</fullName>
