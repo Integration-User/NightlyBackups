@@ -593,24 +593,6 @@
         <content>Case</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Client_Access</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Client_Access</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
         <recordType>Case.Contract_Pricing_Proposal</recordType>
         <type>Flexipage</type>
         <profile>Analytics Cloud Integration User</profile>
@@ -1007,24 +989,6 @@
         <content>Case</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Contract_Pricing_Proposal</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Contract_Pricing_Proposal</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
         <recordType>Case.Duplicate_Request</recordType>
         <type>Flexipage</type>
         <profile>Analytics Cloud Integration User</profile>
@@ -1109,24 +1073,6 @@
         <recordType>Case.Salesforce_Request</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Salesforce_Request</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Salesforce_Request</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2137,14 +2083,6 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
-        <content>Sales_Management_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
         <content>KS_Home_Page_for_Sales_Productivity</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
@@ -2386,24 +2324,6 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Help_Desk</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Help_Desk</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
         <content>Green_Street_Account_Record_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
@@ -2560,24 +2480,6 @@
         <recordType>Lead.Marketing</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Green_Street_Lead_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Lead</pageOrSobjectType>
-        <recordType>Lead.Marketing</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Green_Street_Lead_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Lead</pageOrSobjectType>
-        <recordType>Lead.Marketing</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2802,24 +2704,6 @@
         <pageOrSobjectType>Lead</pageOrSobjectType>
         <recordType>Lead.Referrals</recordType>
         <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Green_Street_Lead_Record_Referral_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Lead</pageOrSobjectType>
-        <recordType>Lead.Referrals</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Green_Street_Lead_Record_Referral_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Lead</pageOrSobjectType>
-        <recordType>Lead.Referrals</recordType>
-        <type>Flexipage</type>
         <profile>Analytics Cloud Integration User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -3192,22 +3076,6 @@
         <content>Case</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Case</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
         <recordType>Case.Client_Access</recordType>
         <type>Flexipage</type>
         <profile>Analytics Cloud Integration User</profile>
@@ -3382,24 +3250,6 @@
         <recordType>Case.Duplicate_Request</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Duplicate_Request</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Duplicate_Request</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -4165,47 +4015,11 @@
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.User_List_Requests</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.User_List_Requests</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Case</pageOrSobjectType>
         <recordType>Case.Client_Access</recordType>
         <type>Flexipage</type>
         <profile>Minimum Access - Salesforce</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Opportunity_Review</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Case</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Case</pageOrSobjectType>
-        <recordType>Case.Opportunity_Review</recordType>
-        <type>Flexipage</type>
-        <profile>System Administrator KH</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
