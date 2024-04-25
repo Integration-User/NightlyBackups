@@ -1327,6 +1327,10 @@
             <masterLabel>18.3 Edge Analytics Ltd</masterLabel>
             <translation><!-- 18.3 Edge Analytics Ltd --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>21 GSA Canada Ltd</masterLabel>
+            <translation><!-- 21 GSA Canada Ltd --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Survey Opt-Out --></label>

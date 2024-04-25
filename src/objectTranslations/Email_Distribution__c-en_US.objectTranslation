@@ -28,6 +28,10 @@
             <translation><!-- Asset-Backed Alert --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Canada Research + REIT data</masterLabel>
+            <translation><!-- Canada Research + REIT data --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Commercial Mortgage Alert</masterLabel>
             <translation><!-- Commercial Mortgage Alert --></translation>
         </picklistValues>
