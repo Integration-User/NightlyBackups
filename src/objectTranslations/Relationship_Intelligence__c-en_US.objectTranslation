@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relationship Intelligence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relationship Intelligence</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Relationship Intelligence --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buying Process --></label>
+        <name>Buying_Process__c</name>
+        <picklistValues>
+            <masterLabel>Commit</masterLabel>
+            <translation><!-- Commit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluate</masterLabel>
+            <translation><!-- Evaluate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement</masterLabel>
+            <translation><!-- Implement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan</masterLabel>
+            <translation><!-- Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recognize</masterLabel>
+            <translation><!-- Recognize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search</masterLabel>
+            <translation><!-- Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select</masterLabel>
+            <translation><!-- Select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Track</masterLabel>
+            <translation><!-- Track --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What objectives is the client/prospect trying to achieve? What strategies are in place to achieve objectives and goals? --></help>
+        <label><!-- Goals --></label>
+        <name>Goals__c</name>
+    </fields>
+    <fields>
+        <help><!-- What does the client/prospect need so they can overcome the challenges/problems/obstacles and achieve the goals and objectives? Hint: This doesn’t have to be a named Green Street product. --></help>
+        <label><!-- Needs --></label>
+        <name>Needs__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is standing in the way of achieving goals and objectives? Are there obstacles or challenges? --></help>
+        <label><!-- Problems --></label>
+        <name>Problems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>Related_Opportunity__c</name>
+        <relationshipLabel><!-- Relationship Intelligence --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
