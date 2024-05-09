@@ -346,6 +346,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -356,6 +360,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -1456,6 +1464,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -1504,6 +1513,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -1953,6 +1963,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -1963,6 +1977,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -3063,6 +3081,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -3111,6 +3130,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -3560,6 +3580,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -3570,6 +3594,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -4670,6 +4698,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -4718,6 +4747,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -5167,6 +5197,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -5177,6 +5211,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -6277,6 +6315,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -6325,6 +6364,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -6770,6 +6810,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -6780,6 +6824,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -7874,6 +7922,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -7922,6 +7971,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -8367,6 +8417,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -8377,6 +8431,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -9471,6 +9529,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -9519,6 +9578,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -9964,6 +10024,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -9974,6 +10038,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -11073,6 +11141,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -11121,6 +11190,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -11566,6 +11636,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -11576,6 +11650,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -12670,6 +12748,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -12718,6 +12797,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -13163,6 +13243,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -13173,6 +13257,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -14272,6 +14360,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -14320,6 +14409,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -14765,6 +14855,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -14775,6 +14869,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -15869,6 +15967,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -15917,6 +16016,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -16362,6 +16462,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -16372,6 +16476,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -17471,6 +17579,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -17519,6 +17628,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -17964,6 +18074,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -17974,6 +18088,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -19068,6 +19186,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -19116,6 +19235,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -19561,6 +19681,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -19571,6 +19695,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -20670,6 +20798,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -20718,6 +20847,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -21163,6 +21293,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -21173,6 +21307,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -22267,6 +22405,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -22315,6 +22454,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -22760,6 +22900,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -22770,6 +22914,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -23869,6 +24017,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -23917,6 +24066,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -24362,6 +24512,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -24372,6 +24526,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -25466,6 +25624,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -25514,6 +25673,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -25963,6 +26123,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -25973,6 +26137,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -27073,6 +27241,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -27121,6 +27290,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -27570,6 +27740,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -27580,6 +27754,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -28680,6 +28858,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -28728,6 +28907,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -29177,6 +29357,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -29187,6 +29371,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -30287,6 +30475,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -30335,6 +30524,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>
@@ -30784,6 +30974,10 @@
             <label>EUR REIT</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMI</field>
+            <label>New Sale Effective Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Y</field>
             <label>Sync Child Records?</label>
         </forecastingObjectListLabelMappings>
@@ -30794,6 +30988,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v0y</field>
             <label>Engagement Size</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000000ZAMJ</field>
+            <label>Renewal Effective Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1Z</field>
@@ -31894,6 +32092,7 @@
             <field>00N5G00000Uocm0</field>
             <field>00N5G00000VZhf7</field>
             <field>00Nf400000V6v19</field>
+            <field>00NVy000000ZAMI</field>
             <field>00N5G00000VXYT4</field>
             <field>00Nf400000V6v1A</field>
             <field>00Nf400000V6v1B</field>
@@ -31942,6 +32141,7 @@
             <field>00N5G00000VybYW</field>
             <field>00Nf400000V6v1O</field>
             <field>00N5G00000VZhpb</field>
+            <field>00NVy000000ZAMJ</field>
             <field>00Nf400000V6v1P</field>
             <field>00Nf400000V6v1Q</field>
             <field>00Nf400000V6v1R</field>

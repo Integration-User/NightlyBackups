@@ -160,6 +160,10 @@
         <description>New Subscription Client - Onboarding Request</description>
         <protected>false</protected>
         <recipients>
+            <recipient>carora@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>dbetusova@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
