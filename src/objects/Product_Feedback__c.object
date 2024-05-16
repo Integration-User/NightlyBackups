@@ -1301,6 +1301,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -2131,6 +2135,10 @@
             </values>
             <values>
                 <fullName>Atlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Detailed NAV</fullName>
                 <default>false</default>
             </values>
             <values>

@@ -476,16 +476,21 @@
         <label>Green Street News: Canada</label>
     </customValue>
     <customValue>
+        <fullName>Canada Detailed NAV</fullName>
+        <default>false</default>
+        <label>Canada Detailed NAV</label>
+    </customValue>
+    <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Learning Center</label>
     </customValue>
     <customValue>
-        <fullName>NA REIT</fullName>
+        <fullName>EU REIT</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>NA REIT</label>
+        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>US Market Data</fullName>
@@ -524,6 +529,12 @@
         <label>EU Standardized Downloads</label>
     </customValue>
     <customValue>
+        <fullName>Bespoke Reports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Reports</label>
+    </customValue>
+    <customValue>
         <fullName>Analysis/Insight</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -542,12 +553,6 @@
         <label>Bespoke Data Collection</label>
     </customValue>
     <customValue>
-        <fullName>Bespoke Reports</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bespoke Reports</label>
-    </customValue>
-    <customValue>
         <fullName>Royalty Income</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -558,12 +563,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Edge</label>
-    </customValue>
-    <customValue>
-        <fullName>EU REIT</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EU REIT</label>
     </customValue>
     <customValue>
         <fullName>eREA</fullName>
@@ -588,6 +587,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>REA</label>
+    </customValue>
+    <customValue>
+        <fullName>NA REIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA REIT</label>
     </customValue>
     <customValue>
         <fullName>EU Sales Comps</fullName>
