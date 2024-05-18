@@ -10679,6 +10679,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>rh2__PS_RollupJobTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>rh2__PS_Rollup_Batch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10697,6 +10701,10 @@
     <classAccesses>
         <apexClass>rh2__PS_Rollup_Engine</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_Rollup_Group_Config_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>rh2__PS_Rollup_Groups_Behavior</apexClass>
@@ -31836,6 +31844,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Rollup_Audit__c.rh2__Last_Run_Duration__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Rollup_Audit__c.rh2__Last_Run_User__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -32046,6 +32059,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Rollup_Audit__c.rh2__targetCurrencyIso__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Rollup_Audit__c.rh2__targetFieldName__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -32222,6 +32240,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rh2__RH_Job__c.rh2__Filter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rh2__RH_Job__c.rh2__FixedFireTime__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
