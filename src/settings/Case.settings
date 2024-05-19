@@ -69,6 +69,18 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
+            <caseOrigin>Internal Data Support</caseOrigin>
+            <caseOwner>EU_Data_Support</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>ukresearchrequest@greenstreet.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>EU Data Support</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
             <caseOrigin>EU External Data Support</caseOrigin>
             <caseOwner>Help_Desk</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
@@ -76,18 +88,6 @@
             <createTask>false</createTask>
             <emailAddress>datasupport.europe@greenstreet.com</emailAddress>
             <emailServicesAddress>datasupport.europe@2-yaco1wu709s5zyzes5ycvwk36tuax88xt2hkvq0q3xzapjs41.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>EU Data Support</routingName>
-            <saveEmailHeaders>true</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Internal Data Support</caseOrigin>
-            <caseOwner>EU_Data_Support</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>ukresearchrequest@greenstreet.com</emailAddress>
             <isVerified>true</isVerified>
             <routingName>EU Data Support</routingName>
             <saveEmailHeaders>true</saveEmailHeaders>
@@ -119,19 +119,6 @@
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
-            <caseOrigin>External Data Support</caseOrigin>
-            <caseOwner>Help_Desk</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>datasupport@greenstreet.com</emailAddress>
-            <emailServicesAddress>datasupport@c6i4oy8t57k5sjsa6ra45njh9msqjp6gt2647s2agavyosc2y.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>US Data Support</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
             <caseOrigin>Internal Data Support</caseOrigin>
             <caseOwner>US_Data_Support</caseOwner>
             <caseOwnerType>Queue</caseOwnerType>
@@ -139,6 +126,19 @@
             <createTask>false</createTask>
             <emailAddress>irr@greenstreet.com</emailAddress>
             <emailServicesAddress>irr@10vwhw2669rkohtreaafjpcudaa4e2x5gkow9r69xqeel8t76z.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>US Data Support</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>External Data Support</caseOrigin>
+            <caseOwner>Help_Desk</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>datasupport@greenstreet.com</emailAddress>
+            <emailServicesAddress>datasupport@c6i4oy8t57k5sjsa6ra45njh9msqjp6gt2647s2agavyosc2y.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>US Data Support</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>
