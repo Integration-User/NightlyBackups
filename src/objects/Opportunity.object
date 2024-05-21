@@ -7131,6 +7131,38 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         </sharedTo>
     </listViews>
     <listViews>
+        <fullName>Canada_Open_Inbound_SDO_s</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Lead_Contact__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>Lead_Channel__c</columns>
+        <columns>Lead_Classification__c</columns>
+        <columns>Marketing_Identified_Country__c</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Sales_Development</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.FULL_NAME</field>
+            <operation>equals</operation>
+            <value>Integration User</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <operation>contains</operation>
+            <value>Canada</value>
+        </filters>
+        <label>Canada Open Inbound SDO’s</label>
+    </listViews>
+    <listViews>
         <fullName>ClosingNextMonth</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -7822,8 +7854,8 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         </filters>
         <filters>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <operation>notEqual</operation>
-            <value>React</value>
+            <operation>notContain</operation>
+            <value>React,Canada</value>
         </filters>
         <label>All Open Inbound SDO’s</label>
         <sharedTo>
@@ -19027,6 +19059,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
@@ -29324,6 +29360,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
@@ -32015,6 +32055,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <picklist>LeadSource</picklist>
             <values>
                 <fullName>Green Street</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34911,6 +34955,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Industry Marketing Event</fullName>
                 <default>false</default>
             </values>
@@ -37617,6 +37665,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
