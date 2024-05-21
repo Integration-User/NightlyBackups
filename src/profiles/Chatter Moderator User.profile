@@ -12419,6 +12419,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.New_Product_Expansion_Owner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.News_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>

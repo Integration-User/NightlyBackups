@@ -811,6 +811,11 @@
         <name>Named_Account__c</name>
     </fields>
     <fields>
+        <label><!-- New Product Expansion Owner --></label>
+        <name>New_Product_Expansion_Owner__c</name>
+        <relationshipLabel><!-- Accounts (New Product Expansion Owner) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- News ID --></label>
         <name>News_ID__c</name>
     </fields>
