@@ -7760,26 +7760,26 @@
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
+            <field>CORE.USERS.ALIAS</field>
             <field>SPLITAMOUNT</field>
-            <field>SPLITPERCENTAGE</field>
-            <field>OPPORTUNITY.CLOSE_DATE</field>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <field>OPPORTUNITY.PROBABILITY</field>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
             <field>FORECAST_CATEGORY</field>
-            <field>FULL_NAME</field>
-            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <field>OPPORTUNITY.NEXT_STEP</field>
         </forecastingObjectListSelectedSettings>
         <forecastingObjectListUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <field>SPLITPERCENTAGE</field>
             <field>OPPORTUNITY.AMOUNT</field>
-            <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
             <field>CORE.USERS.LAST_NAME</field>
+            <field>FULL_NAME</field>
+            <field>OPPORTUNITY.PROBABILITY</field>
             <field>DESCRIPTION</field>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <field>OPPORTUNITY.NEXT_STEP</field>
             <field>OPPORTUNITY.PRIVATE</field>
             <field>OPPORTUNITY.QUANTITY</field>
             <field>OPPORTUNITY.TYPE</field>
