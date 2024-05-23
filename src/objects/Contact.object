@@ -8341,6 +8341,7 @@ Stored as Long on Solr.</description>
         <columns>ACCOUNT.NAME</columns>
         <columns>CONTACT.PHONE1</columns>
         <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.EMAIL_OPT_OUT</columns>
         <columns>CONTACT.TITLE</columns>
         <columns>Activation_Date__c</columns>
         <columns>Deactivation_Date__c</columns>
