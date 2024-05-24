@@ -61,6 +61,19 @@
             <caseOwnerType>Queue</caseOwnerType>
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
+            <emailAddress>clientsupport@greenstreetnews.com</emailAddress>
+            <emailServicesAddress>clientsupport@j-wqg0ufv6q7c0daflaftj1sngniyl7xlm012vi0qi5h8r8rgvy.dm-3svxz2au.usa948s.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Client Support News</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Customer Success</caseOrigin>
+            <caseOwner>Help_Desk</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
             <emailAddress>success@greenstreet.com</emailAddress>
             <emailServicesAddress>success@z-ewdqgioh7aj01yawgkmxo6d94oz9zkdi1cstozsl3emdwlyvm.dm-3svxz2au.cs246.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>

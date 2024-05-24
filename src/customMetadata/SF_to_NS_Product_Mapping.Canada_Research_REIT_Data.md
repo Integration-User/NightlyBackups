@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>Customer_Channel__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Subscription - PMP</value>
     </values>
     <values>
         <field>Netsuite_Internal_Id__c</field>
