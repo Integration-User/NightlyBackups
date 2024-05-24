@@ -519,14 +519,6 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>bsaks@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>cmccrory@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>dfigenshu@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -536,10 +528,6 @@
         </recipients>
         <recipients>
             <recipient>dvarello@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>esteiner@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -567,6 +555,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>kkappeler@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>ksantos@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -583,7 +575,7 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>qnguyen@greenstreet.com</recipient>
+            <recipient>smartin@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <senderAddress>greenstreet-newbusinesssales@greenstreetadvisors.com</senderAddress>
