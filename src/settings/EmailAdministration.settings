@@ -14,10 +14,8 @@
     <enableListEmailLogActivities>false</enableListEmailLogActivities>
     <enableResendBouncedEmails>true</enableResendBouncedEmails>
     <enableRestrictTlsToDomains>false</enableRestrictTlsToDomains>
-    <enableSendViaExchangePref>true</enableSendViaExchangePref>
-    <enableSendViaGmailPref>false</enableSendViaGmailPref>
     <enableUseOrgFootersForExtTrans>true</enableUseOrgFootersForExtTrans>
-    <enableVerifyEmailDomainByDkim>false</enableVerifyEmailDomainByDkim>
+    <enableVerifyEmailDomainByDkim>true</enableVerifyEmailDomainByDkim>
     <sendEmailsEvenWhenAutomationUpdatesSameRecord>true</sendEmailsEvenWhenAutomationUpdatesSameRecord>
     <sendMassEmailNotification>true</sendMassEmailNotification>
     <sendTextOnlySystemEmails>false</sendTextOnlySystemEmails>

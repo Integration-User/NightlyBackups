@@ -287,6 +287,15 @@
         <label>Copado License Manager</label>
     </fieldSets>
     <fields>
+        <fullName>Annual_Quota__c</fullName>
+        <label>Annual Quota</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>CDB_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <externalId>true</externalId>
@@ -370,7 +379,6 @@
     </fields>
     <fields>
         <fullName>Netsuite_Department__c</fullName>
-        <externalId>false</externalId>
         <label>Netsuite Department</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -464,7 +472,6 @@
     </fields>
     <fields>
         <fullName>Notes__c</fullName>
-        <externalId>false</externalId>
         <label>Notes</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -482,7 +489,6 @@
     </fields>
     <fields>
         <fullName>Region__c</fullName>
-        <externalId>false</externalId>
         <label>Region</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -515,8 +521,7 @@
     </fields>
     <fields>
         <fullName>Sales_Team__c</fullName>
-        <description>Make sure to update other fields when adding new values (Qualified Team, Assigned Team from Lead).</description>
-        <externalId>false</externalId>
+        <description>Make sure to update other fields when adding new values (Qualified Team, Assigned Team from SDO).</description>
         <label>Sales Team</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -596,16 +601,6 @@
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Pliha</fullName>
-                    <default>false</default>
-                    <label>Pliha</label>
-                </value>
-                <value>
-                    <fullName>Lemansky</fullName>
-                    <default>false</default>
-                    <label>Lemansky</label>
-                </value>
-                <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
                     <label>Judd</label>
@@ -615,12 +610,33 @@
                     <default>false</default>
                     <label>Greco</label>
                 </value>
+                <value>
+                    <fullName>Banks</fullName>
+                    <default>false</default>
+                    <label>Banks</label>
+                </value>
+                <value>
+                    <fullName>Souter</fullName>
+                    <default>false</default>
+                    <label>Souter</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pliha</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Subsidiary__c</fullName>
-        <externalId>false</externalId>
         <label>Subsidiary</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -664,13 +680,27 @@
                     <default>false</default>
                     <label>21 GSA Canada Ltd</label>
                 </value>
+                <value>
+                    <fullName>22.1 Locatus</fullName>
+                    <default>false</default>
+                    <label>22.1 Locatus</label>
+                </value>
+                <value>
+                    <fullName>22.3 Belgium</fullName>
+                    <default>false</default>
+                    <label>22.3 Belgium</label>
+                </value>
+                <value>
+                    <fullName>23 IJ Global</fullName>
+                    <default>false</default>
+                    <label>23 IJ Global</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Synced__c</fullName>
         <description>Denotes whether the user is created as employee in NetSuite or not.</description>
-        <externalId>false</externalId>
         <label>Synced?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -693,7 +723,6 @@
     </fields>
     <fields>
         <fullName>Team__c</fullName>
-        <externalId>false</externalId>
         <label>AM Team</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -749,7 +778,6 @@
         <fullName>Trigger_Real_time_Sync__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Triggers sync of user record as employee to NetSuite</description>
-        <externalId>false</externalId>
         <label>Trigger Real-time Sync</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -790,7 +818,6 @@
     <fields>
         <fullName>affectlayer__AffectLayer_Callback_Number__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>AffectLayer Callback Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -810,7 +837,6 @@
     <fields>
         <fullName>affectlayer__AffectLayer_Caller_Id__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>AffectLayer Caller Id</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -843,7 +869,6 @@
         <fullName>copado__Hide_Copado_feedback__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The visibility of the message asking users to rate &amp; feedback Copado on the AppExchange is controlled here.</inlineHelpText>
         <label>Hide Copado feedback</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -853,7 +878,6 @@
         <fullName>copado__Show_Copado_Tips__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Show Copado Tips</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -862,12 +886,258 @@
         <fullName>copado__Work_Manager_Panels__c</fullName>
         <deprecated>false</deprecated>
         <description>JSON containing current user panels on the Backlog</description>
-        <externalId>false</externalId>
         <label>Work Manager Panels</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
         <type>LongTextArea</type>
         <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>maps__AllowMapsExports__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Allow Maps Exports</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__BetaTester__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Maps Beta Tester</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__DefaultLatitude__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Maps Default Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__DefaultLongitude__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Maps Default Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__DefaultProximityRadius__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Default Proximity Radius</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__DefaultType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DefaultType</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__DefaultZoomLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Maps Default Zoom Level</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__DeviceId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>&quot;MALiveAvail-&quot; + LEFT($Organization.Id, 15) + &quot;-&quot; + LEFT(Id, 15)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Device Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__DeviceVendor__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>&quot;MapAnything&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Device Vendor</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__EditMapsOrgWideQueries__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Edit Maps Org Wide Queries</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__FinishedAdvRouteSetup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Finished Maps Advanced Route Setup</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__MapsSetting__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Map Settings</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>maps__MaxExportSize__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Maps Max Export Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__MaxQuerySize__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Maps Max Query Size</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__PreferredTypeOfMeasurement__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Preferred Type of Measurement</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Miles</fullName>
+                    <default>false</default>
+                    <label>Miles</label>
+                </value>
+                <value>
+                    <fullName>Km</fullName>
+                    <default>false</default>
+                    <label>Km</label>
+                </value>
+                <value>
+                    <fullName>Meters</fullName>
+                    <default>false</default>
+                    <label>Meters</label>
+                </value>
+                <value>
+                    <fullName>Yards</fullName>
+                    <default>false</default>
+                    <label>Yards</label>
+                </value>
+                <value>
+                    <fullName>Feet</fullName>
+                    <default>false</default>
+                    <label>Feet</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>maps__ReceiveBatchExceptionEmails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED</description>
+        <label>Receive Batch Exception Emails</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__TPApprover__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Territory Planning Approver</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__TPPublisher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Territory Planning Publisher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>maps__TestUserLookup__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For blueline bug.</description>
+        <label>TestUserLookup</label>
+        <relationshipName>TestChildLookup</relationshipName>
+        <restrictedAdminField>false</restrictedAdminField>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>maps__Version__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maps Version</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Previous</fullName>
+                    <default>false</default>
+                    <label>Previous</label>
+                </value>
+                <value>
+                    <fullName>Current</fullName>
+                    <default>false</default>
+                    <label>Current</label>
+                </value>
+                <value>
+                    <fullName>Beta</fullName>
+                    <default>false</default>
+                    <label>Beta</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AM</fullName>

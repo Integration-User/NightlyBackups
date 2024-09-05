@@ -4,6 +4,60 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Bounce</authenticationFailureAction>
     <authorizationFailureAction>Discard</authorizationFailureAction>
+    <emailServicesAddresses>
+        <developerName>clientrequest</developerName>
+        <isActive>true</isActive>
+        <localPart>clientrequest</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>clientsupport</developerName>
+        <isActive>true</isActive>
+        <localPart>clientsupport</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>clientsupport1</developerName>
+        <isActive>true</isActive>
+        <localPart>clientsupport</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>datasupport</developerName>
+        <isActive>true</isActive>
+        <localPart>datasupport</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>datasupport_europe</developerName>
+        <isActive>true</isActive>
+        <localPart>datasupport.europe</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>greenstreetuserlistrequ</developerName>
+        <isActive>true</isActive>
+        <localPart>greenstreetuserlistrequest</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>irr</developerName>
+        <isActive>true</isActive>
+        <localPart>irr</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>media</developerName>
+        <isActive>true</isActive>
+        <localPart>media</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>success</developerName>
+        <isActive>true</isActive>
+        <localPart>success</localPart>
+        <runAsUser>ksantos@greenstreet.com.gsfull</runAsUser>
+    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToCase</functionName>
     <isActive>true</isActive>

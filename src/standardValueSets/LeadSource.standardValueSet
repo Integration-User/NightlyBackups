@@ -200,4 +200,29 @@
         <default>false</default>
         <label>Canada</label>
     </standardValue>
+    <standardValue>
+        <fullName>Green Street News: Europe</fullName>
+        <default>false</default>
+        <label>Green Street News: Europe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Green Street News</fullName>
+        <default>false</default>
+        <label>Green Street News</label>
+    </standardValue>
+    <standardValue>
+        <fullName>6sense</fullName>
+        <default>false</default>
+        <label>6sense</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IJ Global</fullName>
+        <default>false</default>
+        <label>IJ Global</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Locatus</fullName>
+        <default>false</default>
+        <label>Locatus</label>
+    </standardValue>
 </StandardValueSet>

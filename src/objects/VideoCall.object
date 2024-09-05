@@ -88,6 +88,9 @@
         <fullName>IsRecorded</fullName>
     </fields>
     <fields>
+        <fullName>MeetingType</fullName>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
     </fields>
     <fields>

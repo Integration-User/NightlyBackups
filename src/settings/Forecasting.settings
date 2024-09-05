@@ -260,12 +260,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -756,6 +764,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -930,6 +942,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -1320,8 +1336,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -1457,8 +1489,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -1581,6 +1615,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -1625,6 +1660,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -1722,7 +1758,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -1927,12 +1967,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -2423,6 +2471,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -2597,6 +2649,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -2987,8 +3043,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -3124,8 +3196,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -3248,6 +3322,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -3292,6 +3367,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -3389,7 +3465,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -3594,12 +3674,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -4090,6 +4178,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -4264,6 +4356,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -4654,8 +4750,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -4791,8 +4903,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -4915,6 +5029,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -4959,6 +5074,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -5056,7 +5172,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -5261,12 +5381,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -5757,6 +5885,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -5931,6 +6063,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -6321,8 +6457,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -6458,8 +6610,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -6582,6 +6736,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -6626,6 +6781,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -6723,7 +6879,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -6920,12 +7080,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -7416,6 +7584,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -7590,6 +7762,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -7980,8 +8156,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -8115,8 +8307,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -8239,6 +8433,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -8283,6 +8478,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -8380,7 +8576,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -8576,12 +8776,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -9072,6 +9280,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -9246,6 +9458,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -9636,8 +9852,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -9771,8 +10003,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -9895,6 +10129,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -9939,6 +10174,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -10036,7 +10272,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -10236,12 +10476,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -10732,6 +10980,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -10906,6 +11158,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -11296,8 +11552,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -11432,8 +11704,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -11556,6 +11830,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -11600,6 +11875,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -11697,7 +11973,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -11893,12 +12173,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -12389,6 +12677,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -12563,6 +12855,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -12953,8 +13249,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -13088,8 +13400,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -13212,6 +13526,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -13256,6 +13571,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -13353,7 +13669,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -13553,12 +13873,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -14049,6 +14377,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -14223,6 +14555,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -14613,8 +14949,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -14749,8 +15101,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -14873,6 +15227,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -14917,6 +15272,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -15014,7 +15370,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -15210,12 +15570,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -15706,6 +16074,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -15880,6 +16252,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -16270,8 +16646,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -16405,8 +16797,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -16529,6 +16923,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -16573,6 +16968,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -16670,7 +17066,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -16870,12 +17270,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -17366,6 +17774,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -17540,6 +17952,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -17930,8 +18346,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -18066,8 +18498,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -18190,6 +18624,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -18234,6 +18669,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -18331,7 +18767,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -18527,12 +18967,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -19023,6 +19471,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -19197,6 +19649,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -19587,8 +20043,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -19722,8 +20194,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -19846,6 +20320,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -19890,6 +20365,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -19987,7 +20463,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -20187,12 +20667,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -20683,6 +21171,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -20857,6 +21349,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -21247,8 +21743,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -21383,8 +21895,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -21507,6 +22021,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -21551,6 +22066,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -21648,7 +22164,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -21844,12 +22364,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -22340,6 +22868,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -22514,6 +23046,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -22904,8 +23440,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -23039,8 +23591,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -23163,6 +23717,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -23207,6 +23762,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -23304,7 +23860,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -23504,12 +24064,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -24000,6 +24568,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -24174,6 +24746,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -24564,8 +25140,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -24700,8 +25292,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -24824,6 +25418,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -24868,6 +25463,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -24965,7 +25561,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -25161,12 +25761,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -25657,6 +26265,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -25831,6 +26443,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -26221,8 +26837,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -26356,8 +26988,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -26480,6 +27114,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -26524,6 +27159,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -26621,7 +27257,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -26825,12 +27465,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -27321,6 +27969,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -27495,6 +28147,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -27885,8 +28541,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -28022,8 +28694,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -28146,6 +28820,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -28190,6 +28865,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -28287,7 +28963,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -28492,12 +29172,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -28988,6 +29676,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -29162,6 +29854,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -29552,8 +30248,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -29689,8 +30401,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -29813,6 +30527,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -29857,6 +30572,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -29954,7 +30670,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -30159,12 +30879,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -30655,6 +31383,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -30829,6 +31561,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -31219,8 +31955,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -31356,8 +32108,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -31480,6 +32234,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -31524,6 +32279,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -31621,7 +32377,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -31826,12 +32586,20 @@
             <label>30% Usage Drop</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000017mfF</field>
+            <label>6Sense Segment Names</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000TgLHz</field>
             <label>Account Address</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000VNbqZ</field>
             <label>Account List Memberships</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000L9pu</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0X</field>
@@ -32322,6 +33090,10 @@
             <label>Location</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx0000015PEy</field>
+            <label>Locatus ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000IYHvg</field>
             <label>Loss Reason</label>
         </opportunityListFieldsLabelMappings>
@@ -32496,6 +33268,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
             <label>Priority</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000wGsU</field>
+            <label>Prior Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Nvv1g</field>
@@ -32886,8 +33662,24 @@
             <label>US REIT</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9C</field>
+            <label>UTM Campaign</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00NDM00000Do3H2</field>
             <label>UTM Content</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9D</field>
+            <label>UTM Medium</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9E</field>
+            <label>UTM Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Ndx000000xj9F</field>
+            <label>UTM Term</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00NDM00000DoZiu</field>
@@ -33023,8 +33815,10 @@
             <field>00NDM00000Dme1W</field>
             <field>00NDM00000Dme1X</field>
             <field>00Nf400000V6v1n</field>
+            <field>00Ndx0000017mfF</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00Ndx000000L9pu</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -33147,6 +33941,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00Ndx0000015PEy</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -33191,6 +33986,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00Ndx000000wGsU</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -33288,7 +34084,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00Ndx000000xj9C</field>
             <field>00NDM00000Do3H2</field>
+            <field>00Ndx000000xj9D</field>
+            <field>00Ndx000000xj9E</field>
+            <field>00Ndx000000xj9F</field>
             <field>00NDM00000DoZiu</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>

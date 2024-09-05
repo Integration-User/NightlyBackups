@@ -6,4 +6,8 @@
         <field>IsEnabled__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
+    <values>
+        <field>Value__c</field>
+        <value xsi:nil="true"/>
+    </values>
 </CustomMetadata>

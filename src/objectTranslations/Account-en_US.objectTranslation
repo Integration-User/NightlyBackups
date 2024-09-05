@@ -553,6 +553,10 @@
         <name>Deactivation_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Debtor Number --></label>
+        <name>Debtor_Number__c</name>
+    </fields>
+    <fields>
         <label><!-- Detailed NAV/Earnings Models --></label>
         <name>Detailed_NAV_Models__c</name>
     </fields>
@@ -572,6 +576,10 @@
     <fields>
         <label><!-- Activated Users --></label>
         <name>Export_Activated_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Excel Add-In Users --></label>
+        <name>Export_Excel_Add_In_Users__c</name>
     </fields>
     <fields>
         <label><!-- Force Owner Update --></label>
@@ -730,6 +738,11 @@
         <name>Is_Customer_Rep_Changed__c</name>
     </fields>
     <fields>
+        <help><!-- migrated from LDC&apos;s Hubsppot --></help>
+        <label><!-- LDC Industry --></label>
+        <name>LDC_Industry__c</name>
+    </fields>
+    <fields>
         <label><!-- LinkedIn Company Id --></label>
         <name>LID__LinkedIn_Company_Id__c</name>
     </fields>
@@ -783,12 +796,21 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Locatus ID --></label>
+        <name>Locatus_ID__c</name>
+    </fields>
+    <fields>
         <label><!-- Lock Opportunities --></label>
         <name>Lock_Opportunities__c</name>
     </fields>
     <fields>
         <label><!-- Lost Client --></label>
         <name>Lost_Client__c</name>
+    </fields>
+    <fields>
+        <help><!-- Market Data &amp; Deals platform clicks for this account over the last 60 days --></help>
+        <label><!-- Market Data &amp; Deals L60D Usage --></label>
+        <name>Market_Data_Deals_L60D_Usage__c</name>
     </fields>
     <fields>
         <label><!-- My Expansion Account --></label>
@@ -865,7 +887,7 @@
         <name>Previous_Subsidiary__c</name>
     </fields>
     <fields>
-        <help><!-- Total clicks for this account between 364 - 728 days ago --></help>
+        <help><!-- Total platform clicks for this account between 366-730 days ago (does not include Excel, SNF, API) --></help>
         <label><!-- Prior 12 Mo. Rollup --></label>
         <name>Prior_12_Mo_Rollup__c</name>
     </fields>
@@ -1046,6 +1068,11 @@
         <name>Quickfill_ID__c</name>
     </fields>
     <fields>
+        <help><!-- REIT Data platform clicks for this account over the last 60 days --></help>
+        <label><!-- REIT Data L60D Usage --></label>
+        <name>REIT_Data_L60D_Usage__c</name>
+    </fields>
+    <fields>
         <label><!-- RR Max Month --></label>
         <name>RR_Max_Month__c</name>
     </fields>
@@ -1179,8 +1206,29 @@
         <name>Renewal_Month__c</name>
     </fields>
     <fields>
+        <label><!-- Research+Market Data &amp; Deals L60D Usage --></label>
+        <name>Research_Market_Data_Deals_L60D_Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Research + REIT Data L60D Usage --></label>
+        <name>Research_REIT_Data_L60D_Usage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Research email and platform clicks for this account over the last 60 days --></help>
+        <label><!-- Research Usage L60D --></label>
+        <name>Research_Usage_L60D__c</name>
+    </fields>
+    <fields>
         <label><!-- Restrict Download --></label>
         <name>Restrict_Download__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAM Amount --></label>
+        <name>SAM_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSO --></label>
+        <name>SSO__c</name>
     </fields>
     <fields>
         <label><!-- Active Account --></label>
@@ -1336,6 +1384,18 @@
             <masterLabel>21 GSA Canada Ltd</masterLabel>
             <translation><!-- 21 GSA Canada Ltd --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>22.1 Locatus</masterLabel>
+            <translation><!-- 22.1 Locatus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22.3 Belgium</masterLabel>
+            <translation><!-- 22.3 Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 IJ Global</masterLabel>
+            <translation><!-- 23 IJ Global --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Survey Opt-Out --></label>
@@ -1387,7 +1447,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <help><!-- Total clicks for this account over the last 364 days --></help>
+        <help><!-- Total platform clicks for this account over the last 365 days (does not include Excel, SNF, API) --></help>
         <label><!-- TTM Rollup --></label>
         <name>TTM_Rollup__c</name>
     </fields>
@@ -1402,6 +1462,10 @@
     <fields>
         <label><!-- Total Products --></label>
         <name>Total_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Usage L60D --></label>
+        <name>Total_Usage_L60D__c</name>
     </fields>
     <fields>
         <label><!-- Transition Lost Client --></label>
@@ -1643,6 +1707,11 @@
         <name>affectlayer__IsCreatedByChorusZI__c</name>
     </fields>
     <fields>
+        <label><!-- Maps Assignment Rule --></label>
+        <name>maps__AssignmentRule__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Describe --></label>
         <name>rh2__Describe__c</name>
         <relationshipLabel><!-- Accounts --></relationshipLabel>
@@ -1769,5 +1838,9 @@
     <webLinks>
         <label><!-- XFiles_Attach --></label>
         <name>XFILES__XFiles_Attach</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AdvRouteVisitWindows --></label>
+        <name>maps__AdvRouteVisitWindows</name>
     </webLinks>
 </CustomObjectTranslation>

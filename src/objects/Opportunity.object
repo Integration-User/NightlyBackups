@@ -370,7 +370,6 @@
     <enableHistory>true</enableHistory>
     <fields>
         <fullName>ADV_PPD_Sent__c</fullName>
-        <externalId>false</externalId>
         <label>PPD Sent</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -379,7 +378,6 @@
     </fields>
     <fields>
         <fullName>AP_Email__c</fullName>
-        <externalId>false</externalId>
         <label>AP Email</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -414,6 +412,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Name</formula>
+        <label>Account Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Account_Owner__c</fullName>
         <externalId>false</externalId>
         <formula>Account.OwnerIDName__c</formula>
@@ -425,7 +433,6 @@
     </fields>
     <fields>
         <fullName>Activation_Deactivation_Needs__c</fullName>
-        <externalId>false</externalId>
         <label>Activation/Deactivation Needs</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -479,7 +486,6 @@
     </fields>
     <fields>
         <fullName>Advisory_Only_Notes__c</fullName>
-        <externalId>false</externalId>
         <label>Advisory Only Notes</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -495,7 +501,6 @@
     </fields>
     <fields>
         <fullName>Annual_Recurring_Revenue__c</fullName>
-        <externalId>false</externalId>
         <label>Annual Recurring Revenue</label>
         <precision>18</precision>
         <required>false</required>
@@ -506,7 +511,6 @@
     </fields>
     <fields>
         <fullName>Approval_Status__c</fullName>
-        <externalId>false</externalId>
         <label>Approval Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -536,7 +540,6 @@
     </fields>
     <fields>
         <fullName>Assigned_Date__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Capture the date/time of when a Opportunity was moved out from Integration User.</inlineHelpText>
         <label>Assigned Date</label>
         <required>false</required>
@@ -546,7 +549,6 @@
     </fields>
     <fields>
         <fullName>Assigned_Team__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Initial Team this opportunity was assigned to.</inlineHelpText>
         <label>Assigned Team</label>
         <required>false</required>
@@ -613,16 +615,6 @@
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Pliha</fullName>
-                    <default>false</default>
-                    <label>Pliha</label>
-                </value>
-                <value>
-                    <fullName>Lemansky</fullName>
-                    <default>false</default>
-                    <label>Lemansky</label>
-                </value>
-                <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
                     <label>Judd</label>
@@ -632,12 +624,33 @@
                     <default>false</default>
                     <label>Greco</label>
                 </value>
+                <value>
+                    <fullName>Banks</fullName>
+                    <default>false</default>
+                    <label>Banks</label>
+                </value>
+                <value>
+                    <fullName>Souter</fullName>
+                    <default>false</default>
+                    <label>Souter</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pliha</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>At_RIsk_Revenue__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( AND(NOT(ISBLANK((TEXT(Renewal_Risk__c)))), IsClosed = FALSE), Starting_Price_Opp__c , 0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>At RIsk Revenue</label>
@@ -662,7 +675,6 @@
     <fields>
         <fullName>Automatic_Renewal__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Automatic Renewal?</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -671,7 +683,6 @@
     <fields>
         <fullName>AverageTotalARR__c</fullName>
         <description>Average ARR for the different years of the contract duration.</description>
-        <externalId>false</externalId>
         <formula>DDS_AverageTotalARR__c / CURRENCYRATE(TEXT( CurrencyIsoCode ))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Average ARR for the different years of the contract duration.</inlineHelpText>
@@ -685,7 +696,6 @@
     <fields>
         <fullName>BDR_Referred_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>SAO Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Opportunities_2</relationshipName>
@@ -697,7 +707,6 @@
     <fields>
         <fullName>Base_Sale_Price__c</fullName>
         <description>Total price for all bundled products before discounts</description>
-        <externalId>false</externalId>
         <label>Base Sale Price</label>
         <summarizedField>OpportunityLineItem.UnitPrice</summarizedField>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -736,7 +745,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     <fields>
         <fullName>Billing_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Billing Contact</label>
         <lookupFilter>
             <active>true</active>
@@ -775,7 +783,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     </fields>
     <fields>
         <fullName>Billing_Schedule__c</fullName>
-        <externalId>false</externalId>
         <label>Billing Schedule</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -859,7 +866,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     </fields>
     <fields>
         <fullName>CRS_Sent__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Only Required for Individuals</inlineHelpText>
         <label>CRS Sent</label>
         <required>false</required>
@@ -916,7 +922,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     <fields>
         <fullName>Class__c</fullName>
         <description>Classification</description>
-        <externalId>false</externalId>
         <label>Class</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -960,7 +965,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     </fields>
     <fields>
         <fullName>Close_Reason__c</fullName>
-        <externalId>false</externalId>
         <label>Close Reason</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1335,7 +1339,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     </fields>
     <fields>
         <fullName>Closed_Opportunity_Notes__c</fullName>
-        <externalId>false</externalId>
         <label>Closed Opportunity Notes</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1369,7 +1372,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     <fields>
         <fullName>Consolidated_To__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Consolidated To</label>
         <lookupFilter>
             <active>true</active>
@@ -1397,7 +1399,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     <fields>
         <fullName>Contract_End_Date__c</fullName>
         <description>Date the contracts ends.</description>
-        <externalId>false</externalId>
         <label>Contract End Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1407,7 +1408,6 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
     <fields>
         <fullName>Contract_Start_Date__c</fullName>
         <description>When is their first official day of research access</description>
-        <externalId>false</externalId>
         <inlineHelpText>*For one-time deals- use the same date for contract start and end date.</inlineHelpText>
         <label>Contract Start Date</label>
         <required>false</required>
@@ -1443,7 +1443,6 @@ TEXT(YEAR(Contract_Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Contract_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Contract Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1492,7 +1491,6 @@ TEXT(YEAR(Contract_Start_Date__c))</formula>
         <fullName>Create_New_Renewal_Opportunity__c</fullName>
         <defaultValue>true</defaultValue>
         <description>This field is used to determine whether a new renewal Opportunity must be created after the current renewal opportunity is closed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Only check this box for ONE year renewals. Multi-year Renewals are created automatically from the Year 2, 3, etc fields below.</inlineHelpText>
         <label>Create New Renewal Opportunity</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1502,7 +1500,6 @@ TEXT(YEAR(Contract_Start_Date__c))</formula>
     <fields>
         <fullName>Create_New_Sales_Opportunity__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Create New Sales Opportunity</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1510,7 +1507,6 @@ TEXT(YEAR(Contract_Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Created_Date_short__c</fullName>
-        <externalId>false</externalId>
         <formula>CreatedDate</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Created Date (short)</label>
@@ -1548,7 +1544,6 @@ TEXT(YEAR(Contract_Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Current_Year_Contract_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(
 Current_Contract_Year__c=2,Year_2_Contract_Start_Date__c,
 IF(
@@ -1590,7 +1585,6 @@ Contract_Start_Date__c))))</formula>
     </fields>
     <fields>
         <fullName>Customer_Channel__c</fullName>
-        <externalId>false</externalId>
         <label>Customer Channel Old</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1615,7 +1609,6 @@ Contract_Start_Date__c))))</formula>
     <fields>
         <fullName>DDS_ARRChanged__c</fullName>
         <description>Validates if the Total ARR or the score has changed forapproved-score opportunities</description>
-        <externalId>false</externalId>
         <formula>OR(
 	AND(
 		OR(
@@ -1671,7 +1664,6 @@ IF(
     <fields>
         <fullName>DDS_ApprovalProcessStatus__c</fullName>
         <description>Used to control the visibility of scoring visibility</description>
-        <externalId>false</externalId>
         <label>Score Approval Process</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1701,7 +1693,6 @@ IF(
     </fields>
     <fields>
         <fullName>DDS_ApprovedARR__c</fullName>
-        <externalId>false</externalId>
         <label>Approved ARR USD</label>
         <precision>18</precision>
         <required>false</required>
@@ -1723,7 +1714,6 @@ IF(
     </fields>
     <fields>
         <fullName>DDS_AverageTotalARR__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(
 OR(
 FLOOR((Contract_End_Date__c - Contract_Start_Date__c)/365) &lt;= 1,
@@ -1744,7 +1734,6 @@ ISNULL(Contract_Start_Date__c)
     <fields>
         <fullName>DDS_PriceJustification__c</fullName>
         <description>Field to store score&apos; approval process initial comments</description>
-        <externalId>false</externalId>
         <label>Price Justification</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1753,7 +1742,6 @@ ISNULL(Contract_Start_Date__c)
     </fields>
     <fields>
         <fullName>DDS_ScoreARREssential__c</fullName>
-        <externalId>false</externalId>
         <label>Current grade min ARR</label>
         <precision>18</precision>
         <required>false</required>
@@ -1764,7 +1752,6 @@ ISNULL(Contract_Start_Date__c)
     </fields>
     <fields>
         <fullName>DDS_ScoreARRResidual__c</fullName>
-        <externalId>false</externalId>
         <label>Current grade max ARR</label>
         <precision>18</precision>
         <required>false</required>
@@ -1775,7 +1762,6 @@ ISNULL(Contract_Start_Date__c)
     </fields>
     <fields>
         <fullName>DDS_ScoreApplicability__c</fullName>
-        <externalId>false</externalId>
         <formula>AND(
 OR( ISPICKVAL(Sales_Type__c, &quot;New&quot;), ISPICKVAL(Sales_Type__c, &quot;Renewal&quot;), ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;)
 ),
@@ -1791,7 +1777,6 @@ IsClosed = FALSE
     </fields>
     <fields>
         <fullName>DDS_ScoreAssignment__c</fullName>
-        <externalId>false</externalId>
         <label>Score Assignment</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1846,7 +1831,6 @@ IsClosed = FALSE
     </fields>
     <fields>
         <fullName>DDS_ScoreDebug__c</fullName>
-        <externalId>false</externalId>
         <label>Error Details</label>
         <length>100000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1872,7 +1856,6 @@ IsClosed = FALSE
     </fields>
     <fields>
         <fullName>DDS_ScoreInsightARRpercentage__c</fullName>
-        <externalId>false</externalId>
         <label>Score Insight ARR % Increase</label>
         <precision>18</precision>
         <required>false</required>
@@ -1883,7 +1866,6 @@ IsClosed = FALSE
     </fields>
     <fields>
         <fullName>DDS_ScoreInsight__c</fullName>
-        <externalId>false</externalId>
         <label>Score Insight</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1893,7 +1875,6 @@ IsClosed = FALSE
     </fields>
     <fields>
         <fullName>DDS_ScoredARR__c</fullName>
-        <externalId>false</externalId>
         <label>Scored ARR USD</label>
         <precision>18</precision>
         <required>false</required>
@@ -1943,7 +1924,6 @@ TEXT(MIN(ROUND(MOD(Starting_Price_Opp__c , 1), 2) * 100, 99))
     <fields>
         <fullName>DDS_StartingPrice__c</fullName>
         <description>Staring filtered by no-lost opportunity products</description>
-        <externalId>false</externalId>
         <label>DDS Starting Price</label>
         <summarizedField>OpportunityLineItem.Starting_Price__c</summarizedField>
         <summaryFilterItems>
@@ -1972,7 +1952,6 @@ TEXT(MIN(ROUND(MOD(Starting_Price_Opp__c , 1), 2) * 100, 99))
     <fields>
         <fullName>DashboardsGSP__Amount_Won__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(
 IsWon = TRUE,
 Amount,
@@ -2022,7 +2001,6 @@ Amount,
         <fullName>DashboardsGSP__Date_Opportunity_was_Closed__c</fullName>
         <deprecated>false</deprecated>
         <description>Date the Opportunity was actually closed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Date the Stage was changed to Closed Won or Lost</inlineHelpText>
         <label>Date Opportunity was Closed</label>
         <required>false</required>
@@ -2084,7 +2062,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>DashboardsGSP__Last_Stage_Change_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Stage Change Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2115,7 +2092,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>Date_Moved_to_Closed_Lost__c</fullName>
-        <externalId>false</externalId>
         <label>Date Moved to Closed Lost</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2124,7 +2100,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>Date_Moved_to_Closed_Won__c</fullName>
-        <externalId>false</externalId>
         <label>Date Moved to Closed Won</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2134,7 +2109,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>Date_Moved_to_SS2__c</fullName>
         <description>Populated through Process Builder called &quot;Opportunity Updates&quot;</description>
-        <externalId>false</externalId>
         <label>Date Moved to SS2</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2144,7 +2118,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>Date_Moved_to_SS3__c</fullName>
         <description>Populated through Process Builder called &quot;Opportunity Updates&quot;</description>
-        <externalId>false</externalId>
         <label>Date Moved to SS3</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2153,7 +2126,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>Date_Moved_to_SS4__c</fullName>
-        <externalId>false</externalId>
         <label>Date Moved to SS4</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2162,7 +2134,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>Date_Moved_to_SS5__c</fullName>
-        <externalId>false</externalId>
         <label>Date Moved to SS5</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2171,7 +2142,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>Date_Moved_to_SS6__c</fullName>
-        <externalId>false</externalId>
         <label>Date Moved to SS6</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2255,7 +2225,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>Deal_Tracker__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Deal Tracker</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2264,7 +2233,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>Default_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Default Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Opportunities (Default Contact)</relationshipLabel>
@@ -2290,7 +2258,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>Department__c</fullName>
         <description>Department information</description>
-        <externalId>false</externalId>
         <label>Department</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2319,7 +2286,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>Designated_ARR__c</fullName>
-        <externalId>false</externalId>
         <label>Updated ARR</label>
         <precision>18</precision>
         <required>false</required>
@@ -2353,7 +2319,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     <fields>
         <fullName>Discounts_over_10_Count__c</fullName>
         <description>Used in Approval Process</description>
-        <externalId>false</externalId>
         <label>Discounts over 10% Count</label>
         <summaryFilterItems>
             <field>OpportunityLineItem.Discount</field>
@@ -2367,7 +2332,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>EL_Compliance_Status__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>EL must be sent to Compliance and approved before to sending to the client.</inlineHelpText>
         <label>EL Compliance Status</label>
         <required>false</required>
@@ -2393,7 +2357,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>EUR_REA__c</fullName>
-        <externalId>false</externalId>
         <label>EUR REA</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2403,7 +2366,6 @@ DashboardsGSP__Date_Opportunity_was_Closed__c - DashboardsGSP__Last_Stage_Change
     </fields>
     <fields>
         <fullName>EUR_REIT__c</fullName>
-        <externalId>false</externalId>
         <label>EUR REIT</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2428,7 +2390,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>Evergreen_Contract__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Evergreen Contract</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2436,7 +2397,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Evergreen_Increase__c</fullName>
-        <externalId>false</externalId>
         <label>Evergreen % Increase</label>
         <precision>18</precision>
         <required>false</required>
@@ -2460,7 +2420,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>Exclude_from_Deal_Scoring_Model__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Exclude from Deal Scoring Model</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2472,7 +2431,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Favor_End_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Favor End Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2481,7 +2439,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Further_Interest__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Other Products they are interested in, but not yet receiving.</inlineHelpText>
         <label>Further Interest</label>
         <required>false</required>
@@ -2507,7 +2464,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Geographic_Exposure__c</fullName>
-        <externalId>false</externalId>
         <label>Geographic Exposure</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2521,7 +2477,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>HVT_Increase_Unmet__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>HVT Increase Unmet</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2529,7 +2484,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>High_Value_Target__c</fullName>
-        <externalId>false</externalId>
         <label>High Value Target %</label>
         <precision>18</precision>
         <required>false</required>
@@ -2540,7 +2494,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>ID_Request__c</fullName>
-        <externalId>false</externalId>
         <label>ID Request</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2571,15 +2524,13 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>Inbound__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Inbound?</label>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Initial_Asking_Price__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>The first price (ARR) proposed to the client for final product offering</inlineHelpText>
         <label>Initial Asking Price</label>
         <precision>18</precision>
@@ -2604,7 +2555,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Interaction_Level__c</fullName>
-        <externalId>false</externalId>
         <label>Interaction Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2647,7 +2597,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Is_Public__c</fullName>
-        <externalId>false</externalId>
         <label>Is Public?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2685,7 +2634,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>LID__DeliveryInstallationStatus__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2717,7 +2665,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Opportunity was influenced by activities on LinkedIn Sales Navigator</description>
-        <externalId>false</externalId>
         <label>Is_Influenced</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2751,7 +2698,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>LID__My_DateTime__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>My DateTime</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2762,7 +2708,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
         <fullName>LID__My_Geolocation__c</fullName>
         <deprecated>false</deprecated>
         <displayLocationInDecimal>false</displayLocationInDecimal>
-        <externalId>false</externalId>
         <label>My Geolocation</label>
         <required>false</required>
         <scale>2</scale>
@@ -2797,7 +2742,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     <fields>
         <fullName>Last_Stage_Change__c</fullName>
         <description>Date populated by Workflow to show when the stage was last changed, so you  can pull it into the account related list and use on reports to show stalled opportunities.</description>
-        <externalId>false</externalId>
         <label>Last Stage Change</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2813,7 +2757,6 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
     </fields>
     <fields>
         <fullName>Lead_Channel__c</fullName>
-        <externalId>false</externalId>
         <label>Lead Channel</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2910,7 +2853,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     <fields>
         <fullName>Lead_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Lead Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Opportunities (Lead Contact)</relationshipLabel>
@@ -2922,7 +2864,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     </fields>
     <fields>
         <fullName>Lead_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Lead Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3095,6 +3036,7 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Former Account</controllingFieldValue>
+                <controllingFieldValue>Cold Outreach</controllingFieldValue>
                 <valueName>Green Street</valueName>
             </valueSettings>
             <valueSettings>
@@ -3198,7 +3140,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     </fields>
     <fields>
         <fullName>License_Size__c</fullName>
-        <externalId>false</externalId>
         <label>License Size</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3304,7 +3245,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     </fields>
     <fields>
         <fullName>License_Type__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>React License Type</inlineHelpText>
         <label>License Type</label>
         <required>false</required>
@@ -3346,7 +3286,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     <fields>
         <fullName>Location__c</fullName>
         <description>Related to the address of the client (not the sales team)</description>
-        <externalId>false</externalId>
         <label>Location</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3379,8 +3318,18 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
         </valueSet>
     </fields>
     <fields>
-        <fullName>Loss_Reason__c</fullName>
+        <fullName>Locatus_ID__c</fullName>
         <externalId>false</externalId>
+        <label>Locatus ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loss_Reason__c</fullName>
         <label>Loss Reason</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3507,7 +3456,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     </fields>
     <fields>
         <fullName>Market_Focus__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>What Markets are they focused on?</inlineHelpText>
         <label>Market Focus</label>
         <required>false</required>
@@ -3517,7 +3465,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     </fields>
     <fields>
         <fullName>Marketing_Identified_Country__c</fullName>
-        <externalId>false</externalId>
         <label>Marketing Identified Country</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4712,7 +4659,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     </fields>
     <fields>
         <fullName>Monthly_Recurring_Revenue__c</fullName>
-        <externalId>false</externalId>
         <label>Monthly Recurring Revenue</label>
         <precision>18</precision>
         <required>false</required>
@@ -4724,7 +4670,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
     <fields>
         <fullName>My_Team__c</fullName>
         <description>Allows reporting based on manager not just the role hierarchy</description>
-        <externalId>false</externalId>
         <formula>OR(
 Owner.Manager.Id = $User.Id,
 OwnerId  = $User.Id)</formula>
@@ -4735,7 +4680,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>NRR__c</fullName>
-        <externalId>false</externalId>
         <formula>Same_Store_ARR__c /  Starting_Price_Opp__c</formula>
         <label>NRR</label>
         <precision>18</precision>
@@ -4746,7 +4690,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>NS_Issues__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>If Errors were found on the invoice - please give us details to ensure we are improving the accuracy of the NS integration.</inlineHelpText>
         <label>NS Issues</label>
         <required>false</required>
@@ -4774,7 +4717,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>New_Business_Credit_rollup__c</fullName>
-        <externalId>false</externalId>
         <label>New Business Credit</label>
         <summarizedField>OpportunityLineItem.New_Business_Credit__c</summarizedField>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -4784,7 +4726,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>New_Sale_Effective_Date__c</fullName>
-        <externalId>false</externalId>
         <label>New Sale Effective Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4794,7 +4735,6 @@ OwnerId  = $User.Id)</formula>
     <fields>
         <fullName>New_Sales_Opportunity__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>New Sales Opportunity</label>
         <lookupFilter>
             <active>true</active>
@@ -4820,7 +4760,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>News_ABAlert__c</fullName>
-        <externalId>false</externalId>
         <label>News - ABAlert</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4830,7 +4769,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>News_CMAlert__c</fullName>
-        <externalId>false</externalId>
         <label>News CMAlert</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4840,7 +4778,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>News_HFAlert__c</fullName>
-        <externalId>false</externalId>
         <label>News HFAlert</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4850,7 +4787,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>News_Product_Description__c</fullName>
-        <externalId>false</externalId>
         <label>News REAlert</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4860,7 +4796,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>News_Products2__c</fullName>
-        <externalId>false</externalId>
         <label>News Products</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4871,7 +4806,6 @@ OwnerId  = $User.Id)</formula>
     <fields>
         <fullName>News_Products__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>News Products</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4884,7 +4818,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Next_Outreach_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Next Outreach Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4893,7 +4826,6 @@ OwnerId  = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Next_Year_Increase__c</fullName>
-        <externalId>false</externalId>
         <label>Next Year % Increase</label>
         <precision>18</precision>
         <required>false</required>
@@ -4905,7 +4837,6 @@ OwnerId  = $User.Id)</formula>
     <fields>
         <fullName>Non_Standard_Paperwork__c</fullName>
         <description>To track when clients are papered on non-standard agreements</description>
-        <externalId>false</externalId>
         <label>Non-Standard Paperwork?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4936,7 +4867,6 @@ OwnerId  = $User.Id)</formula>
     <fields>
         <fullName>OCR_Marketing_Lead_Source__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>OCR Marketing Lead Source</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4960,7 +4890,6 @@ TODAY() - DATEVALUE(CreatedDate))</formula>
         <fullName>Opt_Out__c</fullName>
         <defaultValue>false</defaultValue>
         <description>contract in place, but has a period of time in which there is limited financial liability to exit the agreement early.</description>
-        <externalId>false</externalId>
         <label>Opt-Out</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4980,7 +4909,6 @@ TODAY() - DATEVALUE(CreatedDate))</formula>
     </fields>
     <fields>
         <fullName>Other_Vendors__c</fullName>
-        <externalId>false</externalId>
         <label>Other Vendors?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5054,7 +4982,6 @@ IF ( INCLUDES ( Account.Other_Vendors__c , &quot;I don&apos;t know&quot; ), &quo
     <fields>
         <fullName>Percent_Complete__c</fullName>
         <description>Use to track Advisory Revenue and project status</description>
-        <externalId>false</externalId>
         <label>Percent Complete</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5176,7 +5103,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Previous_Score__c</fullName>
-        <externalId>false</externalId>
         <label>Previous Score</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5231,10 +5157,9 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Previous_Stage__c</fullName>
-        <defaultValue>&apos;SS2&apos;</defaultValue>
         <externalId>false</externalId>
         <label>Previous Stage</label>
-        <length>5</length>
+        <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -5244,6 +5169,18 @@ NULL))))</formula>
     <fields>
         <fullName>Pricebook2Id</fullName>
         <securityClassification>Confidential</securityClassification>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Prior_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Prior Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunities (Prior Opportunity)</relationshipLabel>
+        <relationshipName>Prior_Opportunity</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -5264,7 +5201,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Product_Count__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Counts # of Opportunity Products added to support validation rule.</inlineHelpText>
         <label>Product Count</label>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -5274,7 +5210,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Product_Description_NS__c</fullName>
-        <externalId>false</externalId>
         <label>Product Description NS</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5284,7 +5219,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Product_Description__c</fullName>
-        <externalId>false</externalId>
         <label>Product Description</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5294,7 +5228,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Product_Types__c</fullName>
-        <externalId>false</externalId>
         <label>Product Types</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5346,7 +5279,6 @@ NULL))))</formula>
     <fields>
         <fullName>Products__c</fullName>
         <description>Update all Products from associated to Product object</description>
-        <externalId>false</externalId>
         <label>Products</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5361,7 +5293,6 @@ NULL))))</formula>
     <fields>
         <fullName>Prospect_Since__c</fullName>
         <description>Prospect Since date from import OR Opportunity Created Date from Salesforce if blank</description>
-        <externalId>false</externalId>
         <label>Prospect Since</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5370,7 +5301,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Qualified_Date__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Populates when the opportunity stage is moved to disqualified or qualified</inlineHelpText>
         <label>Qualified Date</label>
         <required>false</required>
@@ -5380,7 +5310,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Qualified_Team__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Team name of the opportunity owner when moved to converted state.</inlineHelpText>
         <label>Qualified Team</label>
         <required>false</required>
@@ -5447,16 +5376,6 @@ NULL))))</formula>
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Pliha</fullName>
-                    <default>false</default>
-                    <label>Pliha</label>
-                </value>
-                <value>
-                    <fullName>Lemansky</fullName>
-                    <default>false</default>
-                    <label>Lemansky</label>
-                </value>
-                <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
                     <label>Judd</label>
@@ -5466,12 +5385,33 @@ NULL))))</formula>
                     <default>false</default>
                     <label>Greco</label>
                 </value>
+                <value>
+                    <fullName>Banks</fullName>
+                    <default>false</default>
+                    <label>Banks</label>
+                </value>
+                <value>
+                    <fullName>Souter</fullName>
+                    <default>false</default>
+                    <label>Souter</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pliha</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Questions_Comments__c</fullName>
-        <externalId>false</externalId>
         <label>Questions &amp; Comments</label>
         <length>131000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5481,7 +5421,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Quota_Amount__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( TEXT( Type_Sales_or_Quota__c)=&quot;Quota&quot;,Amount,0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Quota Amount</label>
@@ -5493,7 +5432,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>React_Status__c</fullName>
-        <externalId>false</externalId>
         <label>React Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5550,7 +5488,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Real_Estate_Capital_Markets_Public__c</fullName>
-        <externalId>false</externalId>
         <label>Real Estate Capital Markets/Public</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5575,7 +5512,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Reason_For_No_Renewal__c</fullName>
-        <externalId>false</externalId>
         <label>Reason For No Renewal</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5621,7 +5557,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Recurring_Revenue_Advisory__c</fullName>
-        <externalId>false</externalId>
         <label>Recurring Revenue</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5647,7 +5582,6 @@ NULL))))</formula>
     <fields>
         <fullName>Recurring_Revenue_Snapshot__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Recurring Revenue Snapshot</label>
         <referenceTo>Recurring_Revenue_Snapshot__c</referenceTo>
         <relationshipLabel>Opportunities</relationshipLabel>
@@ -5659,7 +5593,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Referral_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Referral Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5690,7 +5623,6 @@ NULL))))</formula>
     <fields>
         <fullName>Referred_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <inlineHelpText>Internal Referral Source</inlineHelpText>
         <label>AM Referred By</label>
         <referenceTo>User</referenceTo>
@@ -5712,7 +5644,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Renewal_Credit__c</fullName>
-        <externalId>false</externalId>
         <label>Renewal Credit</label>
         <summarizedField>OpportunityLineItem.Renewal_Credit__c</summarizedField>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -5722,7 +5653,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Renewal_Effective_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Renewal Effective Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5742,7 +5672,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Renewal_Risk__c</fullName>
-        <externalId>false</externalId>
         <label>Renewal Risk</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5813,7 +5742,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Rep_Forecast_Category__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Please be sure to update opportunity close dates appropriately.</inlineHelpText>
         <label>Rep Forecast Category</label>
         <required>false</required>
@@ -5844,7 +5772,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Repeat_Client__c</fullName>
-        <externalId>false</externalId>
         <label>Repeat Client</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5869,7 +5796,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Required_Increase__c</fullName>
-        <externalId>false</externalId>
         <label>Required Increase</label>
         <precision>4</precision>
         <required>false</required>
@@ -5880,7 +5806,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Research_Products2__c</fullName>
-        <externalId>false</externalId>
         <label>Research Products</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5891,7 +5816,6 @@ NULL))))</formula>
     <fields>
         <fullName>Research_Products__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Research Products</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -5913,7 +5837,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Revisit_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Revisit Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5922,7 +5845,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Risk_Reason__c</fullName>
-        <externalId>false</externalId>
         <label>Risk Reason</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5932,7 +5854,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Risk_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Risk Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5962,7 +5883,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>SAO_Date__c</fullName>
-        <externalId>false</externalId>
         <label>SAO Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6001,7 +5921,6 @@ NULL))))</formula>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Primary Contact Associated with Opportunity.</description>
-        <externalId>false</externalId>
         <label>SalesLoft Primary Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Opportunity Primary Contact</relationshipLabel>
@@ -6013,7 +5932,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Sales_Amount__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( TEXT(Type_Sales_or_Quota__c) =&quot;Sales&quot;,Amount,0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Sales Amount</label>
@@ -6038,7 +5956,6 @@ NULL))))</formula>
     <fields>
         <fullName>Sales_Opportunity__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Sales Opportunity</label>
         <referenceTo>Opportunity</referenceTo>
         <relationshipLabel>Renewals</relationshipLabel>
@@ -6051,7 +5968,6 @@ NULL))))</formula>
     <fields>
         <fullName>Sales_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Sales Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>SalesOwner</relationshipName>
@@ -6063,7 +5979,6 @@ NULL))))</formula>
     <fields>
         <fullName>Sales_Reviewed__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Sales Reviewed</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -6084,7 +5999,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Sales_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Sales Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6123,7 +6037,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Same_Store_ARR__c</fullName>
-        <externalId>false</externalId>
         <label>Same Store ARR</label>
         <summarizedField>OpportunityLineItem.ARR_Formula__c</summarizedField>
         <summaryFilterItems>
@@ -6138,7 +6051,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Same_Store_Amount__c</fullName>
-        <externalId>false</externalId>
         <label>Same Store Amount</label>
         <summarizedField>OpportunityLineItem.TotalPrice</summarizedField>
         <summaryFilterItems>
@@ -6153,7 +6065,6 @@ NULL))))</formula>
     </fields>
     <fields>
         <fullName>Same_Store_Increase__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( Starting_Price_Opp__c = 0, null,( Same_Store_ARR__c  - Starting_Price_Opp__c) /Starting_Price_Opp__c)</formula>
         <label>Same Store Increase</label>
         <precision>18</precision>
@@ -6183,7 +6094,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Sector_Interests__c</fullName>
-        <externalId>false</externalId>
         <label>Sector Interests</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6210,7 +6120,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Sectors_Sold__c</fullName>
-        <externalId>false</externalId>
         <label>Sectors Sold</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6245,7 +6154,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Special_Circumstances__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Full NAV Models? Delayed Invoicing? Analyst Time? etc</inlineHelpText>
         <label>Special Circumstances</label>
         <length>32768</length>
@@ -6263,7 +6171,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Starting_Price_Opp__c</fullName>
-        <externalId>false</externalId>
         <label>Starting Price</label>
         <summarizedField>OpportunityLineItem.Starting_Price__c</summarizedField>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -6283,7 +6190,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Submission_Notes_New__c</fullName>
-        <externalId>false</externalId>
         <label>Submission Notes</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6319,7 +6225,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <fullName>Sync_to_Netsuite__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Checkbox to denote if records is updated in salesforce and required to sync to netsuite</description>
-        <externalId>false</externalId>
         <label>Sync to Netsuite</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -6363,7 +6268,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Terms__c</fullName>
-        <externalId>false</externalId>
         <label>Terms</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6407,7 +6311,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>This_Year_Increase__c</fullName>
-        <externalId>false</externalId>
         <label>This Year % Increase</label>
         <precision>18</precision>
         <required>false</required>
@@ -6418,7 +6321,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>This_Year_s_Increase__c</fullName>
-        <externalId>false</externalId>
         <label>This Year&apos;s % Increase</label>
         <summarizedField>OpportunityLineItem.Increase_Percent__c</summarizedField>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -6454,7 +6356,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Today__c</fullName>
-        <externalId>false</externalId>
         <formula>Today()</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Today</label>
@@ -6480,7 +6381,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Total_ARR__c</fullName>
-        <externalId>false</externalId>
         <label>Total ARR</label>
         <summarizedField>OpportunityLineItem.ARR_Formula__c</summarizedField>
         <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
@@ -6490,7 +6390,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Total_Contract_Amount__c</fullName>
-        <externalId>false</externalId>
         <formula>(Amount +  X2nd_Year_Amount_in_USD__c + X3rd_Year_Amount_in_USD__c +  Year_4_Amount__c + Year_5_Amount__c + Year_6_Amount__c + Year_7_Amount__c)</formula>
         <label>Total Contract Amount</label>
         <precision>18</precision>
@@ -6501,7 +6400,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Total_Invoice_Amounts__c</fullName>
-        <externalId>false</externalId>
         <label>Total Invoice Amounts</label>
         <precision>18</precision>
         <required>false</required>
@@ -6513,7 +6411,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Total_Renewable_Amount__c</fullName>
         <description>For Reporting on Attrition</description>
-        <externalId>false</externalId>
         <formula>IF( ISPICKVAL(StageName, &quot;Closed Won&quot;),  Same_Store_ARR__c ,  Starting_Price_Opp__c )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Total Renewable Amount</label>
@@ -6526,7 +6423,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Trial_End_Date__c</fullName>
         <description>When is the trial or opt-out period over?</description>
-        <externalId>false</externalId>
         <inlineHelpText>When is the trial or opt-out period over?</inlineHelpText>
         <label>Trial End Date</label>
         <required>false</required>
@@ -6536,7 +6432,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Trial_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Trial Start Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6545,7 +6440,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Trial_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Trial Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6571,7 +6465,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Trial__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Trial</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -6581,7 +6474,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <fullName>Trigger_Real_time_Sync__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Setting this checkbox to true will initiate sync to Netsuite</description>
-        <externalId>false</externalId>
         <label>Trigger Real-time Sync</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -6595,7 +6487,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Type_Details__c</fullName>
-        <externalId>false</externalId>
         <label>Type Details</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6605,7 +6496,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Type_Sales_or_Quota__c</fullName>
         <defaultValue>IF(($RecordType.Name )= &quot;Sales Opportunity&quot;, &quot;Sales&quot;, &quot;Quota&quot;)</defaultValue>
-        <externalId>false</externalId>
         <label>Type: Sales or Quota</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6630,7 +6520,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>US_REA__c</fullName>
-        <externalId>false</externalId>
         <label>US REA</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6640,7 +6529,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>US_REIT__c</fullName>
-        <externalId>false</externalId>
         <label>US REIT</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6648,9 +6536,53 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <type>TextArea</type>
     </fields>
     <fields>
+        <fullName>UTM_Campaign__c</fullName>
+        <externalId>false</externalId>
+        <label>UTM Campaign</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>UTM_Content__c</fullName>
         <externalId>false</externalId>
         <label>UTM Content</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UTM_Medium__c</fullName>
+        <externalId>false</externalId>
+        <label>UTM Medium</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UTM_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>UTM Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UTM_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>UTM Term</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6671,7 +6603,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Upsell_ARR__c</fullName>
-        <externalId>false</externalId>
         <label>Upsell ARR</label>
         <summarizedField>OpportunityLineItem.ARR_Formula__c</summarizedField>
         <summaryFilterItems>
@@ -6686,7 +6617,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Upsell_Crosssell_Amount__c</fullName>
-        <externalId>false</externalId>
         <label>Upsell / Cross-sell Amount</label>
         <summarizedField>OpportunityLineItem.TotalPrice</summarizedField>
         <summaryFilterItems>
@@ -6714,7 +6644,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Upsell_Products__c</fullName>
         <description>Checks if Opportunity Product has Upsell / New</description>
-        <externalId>false</externalId>
         <label>New / Upsell Products</label>
         <summaryFilterItems>
             <field>OpportunityLineItem.Sales_Type__c</field>
@@ -6728,7 +6657,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Upsells__c</fullName>
-        <externalId>false</externalId>
         <label>Upsells</label>
         <summaryFilterItems>
             <field>OpportunityLineItem.Upsell_Cross_sell__c</field>
@@ -6742,7 +6670,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Usage_Change__c</fullName>
-        <externalId>false</externalId>
         <formula>Account.Usage_Change__c</formula>
         <label>Usage Change</label>
         <precision>18</precision>
@@ -6753,7 +6680,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Win_Validation__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>For Client Ops to Review Opportunities and Sales Orders.</inlineHelpText>
         <label>Win Validation</label>
         <required>false</required>
@@ -6810,7 +6736,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>Winback__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Winback</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -6818,7 +6743,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Won_Amount__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(IsWon=TRUE,Amount,null)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Won Amount</label>
@@ -6830,7 +6754,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Won_Reason__c</fullName>
-        <externalId>false</externalId>
         <label>Won Reason</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -6870,7 +6793,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>X2nd_Year_Amount_in_USD__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Two year deal? Enter year 2 contract amount here</inlineHelpText>
         <label>Year 2 Amount</label>
         <precision>18</precision>
@@ -6883,7 +6805,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>X30_Usage_Drop__c</fullName>
-        <externalId>false</externalId>
         <formula>(Account.TTM_Rollup__c -Account.Prior_12_Mo_Rollup__c)/Account.Prior_12_Mo_Rollup__c &lt; -0.30</formula>
         <label>30% Usage Drop</label>
         <trackHistory>false</trackHistory>
@@ -6891,7 +6812,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>X3rd_Year_Amount_in_USD__c</fullName>
-        <externalId>false</externalId>
         <label>Year 3 Amount</label>
         <precision>18</precision>
         <required>false</required>
@@ -6899,6 +6819,17 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>X6Sense_Segment_Names__c</fullName>
+        <externalId>false</externalId>
+        <label>6Sense Segment Names</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>XFILES__Chatter_Google_Folder_Id__c</fullName>
@@ -6930,7 +6861,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_2_Contract_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <formula>Contract_Start_Date__c + 365</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Year 2 Contract Start Date</label>
@@ -6940,7 +6870,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_3_Contract_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <formula>Year_2_Contract_Start_Date__c + 365</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Year 3 Contract Start Date</label>
@@ -6950,7 +6879,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_4_Amount__c</fullName>
-        <externalId>false</externalId>
         <label>Year 4 Amount</label>
         <precision>18</precision>
         <required>false</required>
@@ -6961,7 +6889,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_4_Contract_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <formula>Year_3_Contract_Start_Date__c +365</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Year 4 Contract Start Date</label>
@@ -6971,7 +6898,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_5_Amount__c</fullName>
-        <externalId>false</externalId>
         <label>Year 5 Amount</label>
         <precision>18</precision>
         <required>false</required>
@@ -6982,7 +6908,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_5_Contract_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <formula>Year_4_Contract_Start_Date__c +365</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Year 5 Contract Start Date</label>
@@ -6992,7 +6917,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_6_Amount__c</fullName>
-        <externalId>false</externalId>
         <label>Year 6 Amount</label>
         <precision>18</precision>
         <required>false</required>
@@ -7003,7 +6927,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_6_Contract_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <formula>Year_5_Contract_Start_Date__c + 365</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Year 6 Contract Start Date</label>
@@ -7013,7 +6936,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     </fields>
     <fields>
         <fullName>Year_7_Amount__c</fullName>
-        <externalId>false</externalId>
         <label>Year 7 Amount</label>
         <precision>18</precision>
         <required>false</required>
@@ -7035,7 +6957,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <fields>
         <fullName>YoY_Target_Unmet__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>YoY Target Unmet</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -10119,6 +10040,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -10159,7 +10088,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12836,6 +12809,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -12876,7 +12857,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15489,6 +15514,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -15525,7 +15558,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18086,6 +18163,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License Directory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -18122,7 +18207,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19108,6 +19237,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
@@ -19120,7 +19253,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19133,6 +19278,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20771,6 +20920,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Data Sale</fullName>
                 <default>false</default>
             </values>
@@ -20827,7 +20980,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20903,6 +21100,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>REIT Data - Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>React Advertising</fullName>
                 <default>false</default>
             </values>
@@ -20960,6 +21161,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -23380,14 +23585,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Canada Detailed NAV</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Canada Research %2B REIT Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -23561,14 +23758,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Forecast Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Market Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -25969,14 +26158,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Canada Detailed NAV</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Canada Research %2B REIT Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -26142,14 +26323,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Forecast Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Market Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -28483,10 +28656,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Canada Detailed NAV</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Company Diagnostics</fullName>
                 <default>false</default>
             </values>
@@ -28604,14 +28773,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Forecast Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Market Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -29485,6 +29646,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
@@ -29497,7 +29662,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -29510,6 +29687,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -31148,6 +31329,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Data Sale</fullName>
                 <default>false</default>
             </values>
@@ -31204,7 +31389,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -31280,6 +31509,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>REIT Data - Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>React Advertising</fullName>
                 <default>false</default>
             </values>
@@ -31337,6 +31570,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -31825,6 +32062,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Assigned_Team__c</picklist>
             <values>
+                <fullName>Banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EU SDR Inbound</fullName>
                 <default>false</default>
             </values>
@@ -31845,15 +32086,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lemansky</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Ling</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -31862,6 +32095,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>SDR Outbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Souter</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -32211,7 +32448,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -32219,7 +32464,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -33882,6 +34139,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Data Sale</fullName>
                 <default>false</default>
             </values>
@@ -33958,11 +34219,55 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34185,6 +34490,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Qualified_Team__c</picklist>
             <values>
+                <fullName>Banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EU SDR Inbound</fullName>
                 <default>false</default>
             </values>
@@ -34205,15 +34514,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lemansky</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Ling</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34222,6 +34523,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>SDR Outbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Souter</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34475,6 +34780,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Medical Office Building</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Sector</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35112,6 +35421,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
@@ -35124,7 +35437,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35137,6 +35462,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -36783,6 +37112,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Data Sale</fullName>
                 <default>false</default>
             </values>
@@ -36839,7 +37172,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -36915,6 +37292,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>REIT Data - Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>React Advertising</fullName>
                 <default>false</default>
             </values>
@@ -36972,6 +37353,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -37845,6 +38230,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
@@ -37857,7 +38246,19 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -37870,6 +38271,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -39508,6 +39913,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Data Sale</fullName>
                 <default>false</default>
             </values>
@@ -39568,7 +39977,51 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -39644,6 +40097,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>REIT Data - Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>React Advertising</fullName>
                 <default>false</default>
             </values>
@@ -39701,6 +40158,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Sales Comps</fullName>
                 <default>false</default>
             </values>
             <values>

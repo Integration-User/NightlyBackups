@@ -31,6 +31,10 @@
         <label><!-- Assigned Team --></label>
         <name>Assignment_Team__c</name>
         <picklistValues>
+            <masterLabel>Banks</masterLabel>
+            <translation><!-- Banks --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
@@ -63,16 +67,8 @@
             <translation><!-- Judd --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Lemansky</masterLabel>
-            <translation><!-- Lemansky --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Pliha</masterLabel>
-            <translation><!-- Pliha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -81,6 +77,10 @@
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
             <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Souter</masterLabel>
+            <translation><!-- Souter --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UK Sales</masterLabel>
@@ -1933,6 +1933,10 @@
         <label><!-- Qualified Team --></label>
         <name>Qualifying_Team__c</name>
         <picklistValues>
+            <masterLabel>Banks</masterLabel>
+            <translation><!-- Banks --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
@@ -1965,16 +1969,8 @@
             <translation><!-- Judd --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Lemansky</masterLabel>
-            <translation><!-- Lemansky --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Pliha</masterLabel>
-            <translation><!-- Pliha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -1983,6 +1979,10 @@
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
             <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Souter</masterLabel>
+            <translation><!-- Souter --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UK Sales</masterLabel>
@@ -2623,6 +2623,11 @@
     <fields>
         <label><!-- Image Data2 Only --></label>
         <name>eContacts__Secondary_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maps Assignment Rule --></label>
+        <name>maps__AssignmentRule__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- How many paid real estate research/data subscription services do you currently use? --></help>

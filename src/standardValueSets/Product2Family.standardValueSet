@@ -56,4 +56,14 @@
         <default>false</default>
         <label>LDC</label>
     </standardValue>
+    <standardValue>
+        <fullName>Locatus</fullName>
+        <default>false</default>
+        <label>Locatus</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IJ Global</fullName>
+        <default>false</default>
+        <label>IJ Global</label>
+    </standardValue>
 </StandardValueSet>

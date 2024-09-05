@@ -14,6 +14,7 @@
     <enableLogTasksForLinkedInPref>true</enableLogTasksForLinkedInPref>
     <enableMultipleCadencesPref>true</enableMultipleCadencesPref>
     <enableOpportunityAttributionPermPref>false</enableOpportunityAttributionPermPref>
+    <enableProspectingCenterPref>false</enableProspectingCenterPref>
     <enableQuickCadenceAutoSendEmail>false</enableQuickCadenceAutoSendEmail>
     <enableTaskLoggingPref>true</enableTaskLoggingPref>
 </HighVelocitySalesSettings>

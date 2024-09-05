@@ -152,7 +152,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Excel_Add_In_Users__c</field>
+                <field>Export_Excel_Add_In_Users__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -167,6 +167,18 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>TTM_Rollup__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>REIT_Data_L60D_Usage__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Market_Data_Deals_L60D_Usage__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Research_Usage_L60D__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -217,6 +229,10 @@
                 <behavior>Readonly</behavior>
                 <field>Current_Products__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SSO__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -263,6 +279,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>TickerSymbol</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>LDC_Industry__c</field>
             </layoutItems>
             <layoutItems>
                 <height>200</height>
@@ -380,7 +400,8 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <emptySpace>true</emptySpace>
+                <behavior>Edit</behavior>
+                <field>Debtor_Number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -415,6 +436,10 @@
                 <behavior>Readonly</behavior>
                 <field>Protected_By_Age__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SAM_Amount__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -428,6 +453,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>X18_digit_Account_ID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Locatus_ID__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
