@@ -128,7 +128,6 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>ARR_Formula__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), 0,
 IF((End_Date__c - Start_Date__c)&lt;2,0,
 IF((End_Date__c - Start_Date__c)&lt;364,(TotalPrice/((End_Date__c - Start_Date__c)/365)),
@@ -144,7 +143,6 @@ IF((End_Date__c - Start_Date__c)&gt;366,(TotalPrice/((End_Date__c - Start_Date__
     </fields>
     <fields>
         <fullName>ARR__c</fullName>
-        <externalId>false</externalId>
         <label>ARR (NS)</label>
         <precision>18</precision>
         <required>false</required>
@@ -172,7 +170,6 @@ IF((End_Date__c - Start_Date__c)&gt;366,(TotalPrice/((End_Date__c - Start_Date__
     </fields>
     <fields>
         <fullName>At_RIsk_Revenue__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( AND(NOT(ISBLANK((TEXT( Opportunity.Renewal_Risk__c )))), Opportunity.IsClosed = FALSE), ARR_Formula__c  , 0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>At RIsk Revenue</label>
@@ -183,7 +180,6 @@ IF((End_Date__c - Start_Date__c)&gt;366,(TotalPrice/((End_Date__c - Start_Date__
     </fields>
     <fields>
         <fullName>Billing_Schedule__c</fullName>
-        <externalId>false</externalId>
         <label>Billing Schedule</label>
         <required>false</required>
         <type>Picklist</type>
@@ -215,7 +211,6 @@ IF((End_Date__c - Start_Date__c)&gt;366,(TotalPrice/((End_Date__c - Start_Date__
     </fields>
     <fields>
         <fullName>Color__c</fullName>
-        <externalId>false</externalId>
         <label>Color</label>
         <required>false</required>
         <type>Picklist</type>
@@ -277,7 +272,6 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Delivery_Method__c</fullName>
-        <externalId>false</externalId>
         <label>Delivery Method</label>
         <required>false</required>
         <type>Picklist</type>
@@ -332,7 +326,6 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Discount__c</fullName>
-        <externalId>false</externalId>
         <label>Discount $</label>
         <precision>18</precision>
         <required>false</required>
@@ -341,21 +334,18 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>End_Date__c</fullName>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>false</required>
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Finance_Effective_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Finance Effective Date</label>
         <required>false</required>
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Hidden_Billing_Contact_Category__c</fullName>
-        <externalId>false</externalId>
         <label>Hidden Billing Contact Category</label>
         <required>false</required>
         <type>Picklist</type>
@@ -366,7 +356,6 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Increase_Percent__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(Starting_Price__c=0,0,Increase_dollar__c /  Starting_Price__c)</formula>
         <label>% Increase</label>
         <precision>18</precision>
@@ -376,7 +365,6 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>Increase_dollar__c</fullName>
-        <externalId>false</externalId>
         <formula>If( UnitPrice &gt; 0, (ARR_Formula__c  - Starting_Price__c),0)</formula>
         <label>$ Increase</label>
         <precision>18</precision>
@@ -390,13 +378,11 @@ TEXT(YEAR(Start_Date__c))</formula>
     <fields>
         <fullName>Lost_Product__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Lost Product</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Lost__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( UnitPrice = 0,  Starting_Price__c, 0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>$ Lost</label>
@@ -407,7 +393,6 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>MRR__c</fullName>
-        <externalId>false</externalId>
         <label>MRR</label>
         <precision>18</precision>
         <required>false</required>
@@ -419,7 +404,6 @@ TEXT(YEAR(Start_Date__c))</formula>
     </fields>
     <fields>
         <fullName>New_Business_Credit__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( ISPICKVAL(Sales_Type__c, &quot;Renewal&quot;), 0,
 IF( ISPICKVAL(Sales_Type__c, &quot;New&quot;), ARR_Formula__c ,
 IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
@@ -441,7 +425,6 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
     </fields>
     <fields>
         <fullName>News__c</fullName>
-        <externalId>false</externalId>
         <formula>ISPICKVAL(PricebookEntry.Product2.Family, &quot;News&quot;)</formula>
         <label>News?</label>
         <type>Checkbox</type>
@@ -471,8 +454,7 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
     </fields>
     <fields>
         <fullName>Percentage_of_Total_Amount__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF(Opportunity.Total_ARR__c=0,0,TotalPrice  /  Opportunity.Total_ARR__c)</formula>
+        <formula>IF(Opportunity.Total_ARR__c=0,0,ARR_Formula__c/  Opportunity.Total_ARR__c)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Percentage of Total Amount</label>
         <precision>18</precision>
@@ -517,8 +499,16 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Publication__c</fullName>
+        <fullName>Product_Type_Description__c</fullName>
         <externalId>false</externalId>
+        <label>Product Type Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Publication__c</fullName>
         <label>Publication</label>
         <required>false</required>
         <type>Picklist</type>
@@ -571,7 +561,6 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
     <fields>
         <fullName>Recurring_Revenue_Snapshot__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Recurring Revenue Snapshot</label>
         <referenceTo>Recurring_Revenue_Snapshot__c</referenceTo>
         <relationshipLabel>Opportunity Product</relationshipLabel>
@@ -581,7 +570,6 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
     </fields>
     <fields>
         <fullName>Renewable_Amount__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( ISPICKVAL(Opportunity.StageName, &quot;Closed Won&quot;),  ARR_Formula__c ,  Starting_Price__c)</formula>
         <label>Renewable Amount</label>
         <precision>18</precision>
@@ -591,7 +579,6 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), ARR_Formula__c, 0)))</formula>
     </fields>
     <fields>
         <fullName>Renewal_Credit__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( ISPICKVAL(Sales_Type__c, &quot;Renewal&quot;), ARR_Formula__c,
 IF( ISPICKVAL(Sales_Type__c, &quot;New&quot;), 0,
 IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), 0, 0)))</formula>
@@ -604,7 +591,6 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), 0, 0)))</formula>
     </fields>
     <fields>
         <fullName>Research__c</fullName>
-        <externalId>false</externalId>
         <formula>ISPICKVAL(PricebookEntry.Product2.Family, &quot;Research&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Research?</label>
@@ -612,7 +598,6 @@ IF( ISPICKVAL(Sales_Type__c, &quot;Upsell&quot;), 0, 0)))</formula>
     </fields>
     <fields>
         <fullName>Risk_Adjusted_ARR__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(ISPICKVAL( Opportunity.StageName ,&quot;Closed Lost&quot;), 0,
 IF(ISPICKVAL( Opportunity.StageName ,&quot;Suspended&quot;), 0, 
 IF(ISPICKVAL( Opportunity.StageName ,&quot;Closed Won&quot;), ARR_Formula__c, 
@@ -638,7 +623,6 @@ ARR_Formula__c ))))))</formula>
     </fields>
     <fields>
         <fullName>Sales_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Sales Type</label>
         <required>false</required>
         <type>Picklist</type>
@@ -669,7 +653,6 @@ ARR_Formula__c ))))))</formula>
     </fields>
     <fields>
         <fullName>Size__c</fullName>
-        <externalId>false</externalId>
         <label>Size</label>
         <required>false</required>
         <type>Picklist</type>
@@ -712,7 +695,6 @@ ARR_Formula__c ))))))</formula>
     </fields>
     <fields>
         <fullName>Start_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
         <type>Date</type>
@@ -720,7 +702,6 @@ ARR_Formula__c ))))))</formula>
     <fields>
         <fullName>Starting_Price__c</fullName>
         <defaultValue>0</defaultValue>
-        <externalId>false</externalId>
         <label>Starting Price</label>
         <precision>18</precision>
         <required>false</required>
@@ -734,7 +715,6 @@ ARR_Formula__c ))))))</formula>
         <fullName>Sync_to_Netsuite__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Check box to denote if record should be synced to netsuite by a scheduled job</description>
-        <externalId>false</externalId>
         <label>Sync to Netsuite</label>
         <type>Checkbox</type>
     </fields>
@@ -753,14 +733,12 @@ ARR_Formula__c ))))))</formula>
     </fields>
     <fields>
         <fullName>Trial_End_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Trial End Date</label>
         <required>false</required>
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Trial_Start_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Trial Start Date</label>
         <required>false</required>
         <type>Date</type>
@@ -768,13 +746,11 @@ ARR_Formula__c ))))))</formula>
     <fields>
         <fullName>Trial__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Trial?</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Trial_or_Beta__c</fullName>
-        <externalId>false</externalId>
         <label>Trial or Beta?</label>
         <required>false</required>
         <type>Picklist</type>
@@ -798,7 +774,6 @@ ARR_Formula__c ))))))</formula>
     <fields>
         <fullName>Trigger_Checkbox__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Trigger Checkbox</label>
         <type>Checkbox</type>
     </fields>
@@ -808,7 +783,6 @@ ARR_Formula__c ))))))</formula>
     <fields>
         <fullName>Upsell_Cross_sell__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Upsell / Cross-sell</label>
         <type>Checkbox</type>
     </fields>

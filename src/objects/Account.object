@@ -249,7 +249,6 @@
     <fields>
         <fullName>API__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <inlineHelpText>Check if client is actively using the API.</inlineHelpText>
         <label>API</label>
         <trackHistory>false</trackHistory>
@@ -258,14 +257,12 @@
     <fields>
         <fullName>ARR__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>ARR</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>AUM__c</fullName>
-        <externalId>false</externalId>
         <label>AUM</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -318,7 +315,6 @@
     </fields>
     <fields>
         <fullName>Account_6sense_Segment_Names__c</fullName>
-        <externalId>false</externalId>
         <label>6sense Segment Names</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>
@@ -327,7 +323,6 @@
     </fields>
     <fields>
         <fullName>Account_Status__c</fullName>
-        <externalId>false</externalId>
         <label>Account Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -357,7 +352,6 @@
     <fields>
         <fullName>Activate_Account__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activate Account</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -375,7 +369,6 @@
     </fields>
     <fields>
         <fullName>Activation_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Activation Date</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -384,14 +377,12 @@
     <fields>
         <fullName>Active_Favor__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Active Favor</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Advisory_Last_Interaction_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Advisory Last Interaction Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -399,7 +390,6 @@
     </fields>
     <fields>
         <fullName>Advisory_Next_Steps__c</fullName>
-        <externalId>false</externalId>
         <label>Advisory Next Steps</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -408,7 +398,6 @@
     </fields>
     <fields>
         <fullName>Advisory_Relationship__c</fullName>
-        <externalId>false</externalId>
         <label>Advisory Relationship</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -438,7 +427,6 @@
     <fields>
         <fullName>Analyst_Access__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Analyst Access</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
@@ -460,7 +448,6 @@
     </fields>
     <fields>
         <fullName>Attempts_to_Save__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Reduced pricing, different service level, additional users, etc</inlineHelpText>
         <label>Attempts to Save</label>
         <length>32768</length>
@@ -470,7 +457,6 @@
     </fields>
     <fields>
         <fullName>Became_Client__c</fullName>
-        <externalId>false</externalId>
         <label>Became Client</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -509,7 +495,6 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Budgeted_Priority__c</fullName>
-        <externalId>false</externalId>
         <label>Budgeted Priority</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -629,14 +614,12 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>Bulk_Activation__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Bulk Activation</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>CRE_Exposure__c</fullName>
-        <externalId>false</externalId>
         <label>CRE Exposure</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -755,7 +738,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Client_Segment__c</fullName>
         <description>Generalized buckets that each company type falls into for forecasting and reporting purposes</description>
-        <externalId>false</externalId>
         <label>Client Segment</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -888,7 +870,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Company_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Company Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -936,7 +917,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Current_Products__c</fullName>
-        <externalId>false</externalId>
         <label>Current Products</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -1037,7 +1017,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>DDS_AUMValue__c</fullName>
-        <externalId>false</externalId>
         <formula>IF ( AND(NOT(ISBLANK(DDS_CREAUM__c)),NOT(DDS_CREAUM__c=0)), DDS_CREAUM__c,  DDS_AUMScoringModel__c )</formula>
         <label>Scoring Model AUM</label>
         <precision>18</precision>
@@ -1116,7 +1095,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>DOZISF__ZoomInfo_Enrich_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>ZoomInfo Enrich Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1146,7 +1124,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <fullName>DOZISF__ZoomInfo_First_Updated__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and time when the record was first created or updated by ZoomInfo.</description>
-        <externalId>false</externalId>
         <label>ZoomInfo First Updated</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1178,7 +1155,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <fullName>DOZISF__ZoomInfo_Last_Updated__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and time when the record was last created or updated by ZoomInfo</description>
-        <externalId>false</externalId>
         <label>ZoomInfo Last Updated</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1187,7 +1163,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>DataLink_Access__c</fullName>
         <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
         <label>DataLink Access</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -1217,7 +1192,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Data_Support__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Data Support</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
@@ -1225,7 +1199,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Deactivate_Account__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Deactivate Account</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -1233,12 +1206,22 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Deactivation_Date__c</fullName>
         <description>Date former clients stopped getting research</description>
-        <externalId>false</externalId>
         <inlineHelpText>CDB research deactivation date</inlineHelpText>
         <label>Deactivation Date</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
         <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Debtor_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Debtor Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -1248,14 +1231,12 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Detailed_NAV_Models__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Detailed NAV/Earnings Models</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Distant_Leads__c</fullName>
-        <externalId>false</externalId>
         <label>Distant Leads</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -1265,7 +1246,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>EU_Expansion_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>EU Expansion Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts4</relationshipName>
@@ -1296,13 +1276,23 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Export_Excel_Add_In_Users__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/00OVy000000YwG5MAK?pv0=&apos;+X18_digit_Account_ID__c+&apos;&amp;export=1&amp;enc=UTF-8&amp;xf=xlsx&amp;isdtp=p1&apos;,Text( Excel_Add_In_Users__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Excel Add-In Users</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Fax</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Force_Owner_Update__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Force Owner Update</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -1350,7 +1340,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Geographic_Exposure__c</fullName>
-        <externalId>false</externalId>
         <label>Geographic Exposure</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1363,7 +1352,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>High_Value_Data_Sets__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>High-Value Data Sets</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -1372,14 +1360,12 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <fullName>High_Value_Target__c</fullName>
         <defaultValue>false</defaultValue>
         <description>depicts if an account is currently listed as High Value</description>
-        <externalId>false</externalId>
         <label>High Value Target</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>In_Office__c</fullName>
-        <externalId>false</externalId>
         <label>In Office</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1444,7 +1430,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Interests__c</fullName>
-        <externalId>false</externalId>
         <label>Sector Interests</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1549,7 +1534,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Is_Contact_Update__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Is Contact Update</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -1557,7 +1541,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Is_Customer_Rep_Changed__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Is Customer Rep Changed</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -1565,6 +1548,17 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Jigsaw</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LDC_Industry__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>migrated from LDC&apos;s Hubsppot</inlineHelpText>
+        <label>LDC Industry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>LID__LinkedIn_Company_Id__c</fullName>
@@ -1580,7 +1574,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Last_Renewal_Opp__c</fullName>
-        <externalId>false</externalId>
         <label>Last Renewal Opp</label>
         <summarizedField>Opportunity.Contract_Start_Date__c</summarizedField>
         <summaryFilterItems>
@@ -1600,7 +1593,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Last_Training_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Last Training Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1609,7 +1601,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>List_Membership_Account__c</fullName>
         <description>List membership for this account</description>
-        <externalId>false</externalId>
         <inlineHelpText>ie &quot;hot prospect&quot;</inlineHelpText>
         <label>List Membership</label>
         <required>false</required>
@@ -1618,7 +1609,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Location_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Location Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1646,7 +1636,6 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     </fields>
     <fields>
         <fullName>Location__c</fullName>
-        <externalId>false</externalId>
         <label>Location</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1679,24 +1668,43 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         </valueSet>
     </fields>
     <fields>
+        <fullName>Locatus_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Locatus ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Lock_Opportunities__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Lock Opportunities</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Lost_Client__c</fullName>
-        <externalId>false</externalId>
         <label>Lost Client</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>My_Expansion_Account__c</fullName>
+        <fullName>Market_Data_Deals_L60D_Usage__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>Market Data &amp; Deals platform clicks for this account over the last 60 days</inlineHelpText>
+        <label>Market Data &amp; Deals L60D Usage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>My_Expansion_Account__c</fullName>
         <formula>IF(US_Expansion_Owner__r.Id = $User.Id, TRUE,
 IF(EU_Expansion_Owner__r.Id = $User.Id, TRUE,
 FALSE))</formula>
@@ -1706,7 +1714,6 @@ FALSE))</formula>
     </fields>
     <fields>
         <fullName>My_Strategic_Account__c</fullName>
-        <externalId>false</externalId>
         <formula>OR( 
 Strategic_Co_Lead__r.Id =  $User.Id,
 Strategic_Lead__r.Id  = $User.Id,
@@ -1719,7 +1726,6 @@ UK_Co_Lead__r.Id = $User.Id)</formula>
     <fields>
         <fullName>My_Team__c</fullName>
         <description>This helps managers run reports to see their teams information based on the manager field not based on the Role Hierarchy</description>
-        <externalId>false</externalId>
         <formula>OR(
 Owner.Manager.Id = $User.Id,
 Owner.Id = $User.Id)</formula>
@@ -1745,20 +1751,18 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Named_Account__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Named Account?</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>New_Product_Expansion_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>New Product Expansion Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts6</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -1788,7 +1792,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Number_of_Open_Opportunities__c</fullName>
-        <externalId>false</externalId>
         <label>Number of Open Opportunities</label>
         <summaryFilterItems>
             <field>Opportunity.IsClosed</field>
@@ -1807,7 +1810,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Original_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Original Date</label>
         <summarizedField>Opportunity.CloseDate</summarizedField>
         <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
@@ -1818,7 +1820,6 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Other_Vendors__c</fullName>
         <description>If you make changes to this field - make sure to also update the options in the opportunity formula field for vendors.</description>
-        <externalId>false</externalId>
         <label>Other Vendors</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1868,7 +1869,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Owner_is_Active__c</fullName>
-        <externalId>false</externalId>
         <formula>Owner.IsActive</formula>
         <label>Owner is Active</label>
         <trackHistory>false</trackHistory>
@@ -1892,7 +1892,6 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Populate_Billing_Address__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <inlineHelpText>Check this box if you want to copy the Shipping Address to the Billing Address</inlineHelpText>
         <label>Populate Billing Address</label>
         <trackHistory>false</trackHistory>
@@ -1900,7 +1899,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Previous_Current_Products__c</fullName>
-        <externalId>false</externalId>
         <label>WP0 Products</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -1920,7 +1918,7 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Prior_12_Mo_Rollup__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>Total clicks for this account between 364 - 728 days ago</inlineHelpText>
+        <inlineHelpText>Total platform clicks for this account between 366-730 days ago (does not include Excel, SNF, API)</inlineHelpText>
         <label>Prior 12 Mo. Rollup</label>
         <precision>18</precision>
         <required>false</required>
@@ -1932,7 +1930,6 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Priority__c</fullName>
         <businessStatus>Active</businessStatus>
-        <externalId>false</externalId>
         <label>Priority</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -2050,7 +2047,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Product_Line__c</fullName>
-        <externalId>false</externalId>
         <label>Product Line</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2109,7 +2105,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Products_Include__c</fullName>
-        <externalId>false</externalId>
         <label>Products Include</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -2138,7 +2133,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Prospect_Category__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>This field is used for &quot;Pre-opportunity&quot; prospecting</inlineHelpText>
         <label>Prospect Category</label>
         <required>false</required>
@@ -2177,7 +2171,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Prospect_Notes__c</fullName>
-        <externalId>false</externalId>
         <label>Prospect Notes</label>
         <length>500</length>
         <trackHistory>false</trackHistory>
@@ -2199,7 +2192,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Protected_By_Last_Change__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Captures the timestamp when Protected By Last Change field is updated</inlineHelpText>
         <label>Protected By Last Change</label>
         <required>false</required>
@@ -2209,7 +2201,6 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Protected_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Protected By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Protected_By</relationshipName>
@@ -2220,7 +2211,6 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>Publicly_Traded__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Publicly Traded?</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -2235,6 +2225,18 @@ Owner.Id = $User.Id)</formula>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>REIT_Data_L60D_Usage__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>REIT Data platform clicks for this account over the last 60 days</inlineHelpText>
+        <label>REIT Data L60D Usage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>RR_Max_Month__c</fullName>
@@ -2262,7 +2264,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>RR_Monthly_Max__c</fullName>
-        <externalId>false</externalId>
         <label>RR Monthly Max</label>
         <summarizedField>Recurring_Revenue_Snapshot__c.Date__c</summarizedField>
         <summaryForeignKey>Recurring_Revenue_Snapshot__c.Account__c</summaryForeignKey>
@@ -2278,7 +2279,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Re_visit_Date__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>This field must be entered when “Revisit Timing” is selected.</inlineHelpText>
         <label>Revisit Date</label>
         <required>false</required>
@@ -2288,14 +2288,12 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>React_Client__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>React Client</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>React_Vertical__c</fullName>
-        <externalId>false</externalId>
         <label>React Vertical</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2446,7 +2444,6 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>Renewal_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Renewal Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2463,10 +2460,37 @@ Owner.Id = $User.Id)</formula>
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Research_Usage_L60D__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Research email and platform clicks for this account over the last 60 days</inlineHelpText>
+        <label>Research Usage L60D</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Restrict_Download__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Restrict Download</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SAM_Amount__c</fullName>
+        <label>SAM Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SSO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>SSO</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -2573,7 +2597,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Strategic_Account_Action_Items__c</fullName>
-        <externalId>false</externalId>
         <label>US Strategic Account Action Items</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -2583,7 +2606,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>Strategic_Co_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Strategic Co-Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts1</relationshipName>
@@ -2594,7 +2616,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>Strategic_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Strategic Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts</relationshipName>
@@ -2604,7 +2625,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Strategic_Segment__c</fullName>
-        <externalId>false</externalId>
         <label>Strategic Segment</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2711,7 +2731,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Subsidiary_Change_Status__c</fullName>
-        <externalId>false</externalId>
         <label>Subsidiary Change Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2759,7 +2778,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Subsidiary__c</fullName>
-        <externalId>false</externalId>
         <label>Subsidiary</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -2792,13 +2810,32 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
                     <default>false</default>
                     <label>18.3 Edge Analytics Ltd</label>
                 </value>
+                <value>
+                    <fullName>21 GSA Canada Ltd</fullName>
+                    <default>false</default>
+                    <label>21 GSA Canada Ltd</label>
+                </value>
+                <value>
+                    <fullName>22.1 Locatus</fullName>
+                    <default>false</default>
+                    <label>22.1 Locatus</label>
+                </value>
+                <value>
+                    <fullName>22.3 Belgium</fullName>
+                    <default>false</default>
+                    <label>22.3 Belgium</label>
+                </value>
+                <value>
+                    <fullName>23 IJ Global</fullName>
+                    <default>false</default>
+                    <label>23 IJ Global</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Survey_Opt_Out__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Survey Opt-Out</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -2807,7 +2844,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <fullName>Sync_to_Netsuite__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Checkbox to denote if a record is updated in salesforce and required to be synced with NS.</description>
-        <externalId>false</externalId>
         <label>Sync to Netsuite</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
@@ -2825,7 +2861,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>TA_Relationship__c</fullName>
-        <externalId>false</externalId>
         <formula>NOT(ISBLANK(TA_Vertical__c))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>TA Relationship</label>
@@ -2834,7 +2869,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>TA_Vertical__c</fullName>
-        <externalId>false</externalId>
         <label>TA Vertical</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2885,7 +2919,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>TTM_Rollup__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>Total clicks for this account over the last 364 days</inlineHelpText>
+        <inlineHelpText>Total platform clicks for this account over the last 365 days (does not include Excel, SNF, API)</inlineHelpText>
         <label>TTM Rollup</label>
         <precision>18</precision>
         <required>false</required>
@@ -2905,14 +2939,12 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <fullName>Top_40__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Is this client considered to be Top 40? This is for CAM&apos;s relationship with Advisory</description>
-        <externalId>false</externalId>
         <label>Top 40</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Total_ARR__c</fullName>
-        <externalId>false</externalId>
         <label>Total ARR</label>
         <summarizedField>Recurring_Revenue_Snapshot__c.ARR__c</summarizedField>
         <summaryFilterItems>
@@ -2927,7 +2959,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Total_Products__c</fullName>
-        <externalId>false</externalId>
         <label>Total Products</label>
         <summaryForeignKey>Account_Product_Line__c.Account__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>
@@ -2937,7 +2968,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>Transition_Lost_Client__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Transition Lost Client</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -2946,7 +2976,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <fullName>Trigger_Real_time_Sync__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Setting this checkbox to true will initiate sync to Netsuite</description>
-        <externalId>false</externalId>
         <label>Trigger Real-time Sync</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
@@ -2958,7 +2987,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>UK_Advisory_Last_Interaction_Date__c</fullName>
-        <externalId>false</externalId>
         <label>UK Advisory Last Interaction Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -2967,7 +2995,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>UK_Co_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>UK Co-Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts3</relationshipName>
@@ -2978,7 +3005,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>UK_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>UK Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts2</relationshipName>
@@ -2988,7 +3014,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>UK_Strategic_Account_Action_Items__c</fullName>
-        <externalId>false</externalId>
         <label>UK Strategic Account Action Items</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -2998,7 +3023,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>US_Expansion_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>US Expansion Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts5</relationshipName>
@@ -3008,7 +3032,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>Usage_Change__c</fullName>
-        <externalId>false</externalId>
         <formula>(TTM_Rollup__c-Prior_12_Mo_Rollup__c ) /Prior_12_Mo_Rollup__c</formula>
         <inlineHelpText>YOY Usage % Change</inlineHelpText>
         <label>Usage Change</label>
@@ -3038,7 +3061,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>Website_Access__c</fullName>
         <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
         <label>Website Access</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
@@ -3113,7 +3135,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_B2B_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo B2B</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3122,7 +3143,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_B2C_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo B2C</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3131,7 +3151,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Bank_with_M_Assets_Held_accoun__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Bank with $M Assets Held</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3190,7 +3209,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Credit_Union_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Credit Union</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3199,7 +3217,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Description_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Description</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3218,7 +3235,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_FDIC_Insured_Bank_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo FDIC Insured Bank</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3227,7 +3243,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Fiscal_Year_Ends_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Fiscal Year Ends</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3236,7 +3251,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Founded_Date_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Founded Date</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3255,7 +3269,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_International_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo International</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3264,7 +3277,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_NAICS_Code_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo NAICS Code</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>
@@ -3283,7 +3295,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Number_of_Banks_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Number of Banks</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3292,7 +3303,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Number_of_Credit_Unions_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Number of Credit Unions</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3301,7 +3311,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Number_of_Locations_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Number of Locations</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3371,7 +3380,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Products_and_Services_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Products and Services</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3400,7 +3408,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_SIC_Code_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo SIC Code</label>
         <length>131000</length>
         <trackHistory>false</trackHistory>
@@ -3429,7 +3436,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Technology_Products_account__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Technology Products</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>
@@ -3448,7 +3454,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     </fields>
     <fields>
         <fullName>ZoomInfo_Top_100_Law_Firms_by_Revenue_ac__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Top 100 Law Firms by Revenue</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -3511,16 +3516,26 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This field indicates whether the account was created by Chorus or Zoominfo.</description>
-        <externalId>false</externalId>
         <label>Created by ChorusZI</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>maps__AssignmentRule__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Maps Assignment Rule</label>
+        <referenceTo>maps__AssignmentRule__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>rh2__Describe__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Describe</label>
         <referenceTo>rh2__PS_Describe__c</referenceTo>
         <relationshipLabel>Accounts</relationshipLabel>
@@ -3532,7 +3547,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>rh2__testCurrency__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Currency Test</label>
         <precision>16</precision>
         <required>false</required>
@@ -3579,7 +3593,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <fullName>zisf__ZoomInfo_Last_Clean_Run__c</fullName>
         <deprecated>false</deprecated>
         <description>Date/time refers to last time ZoomInfo Clean ran for record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Date/time refers to last time ZoomInfo Clean ran for record.</inlineHelpText>
         <label>ZoomInfo Last Clean Run</label>
         <required>false</required>
@@ -3589,7 +3602,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>zisf__Zoom_Clean_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>ZoomInfo Clean Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -3653,12 +3665,27 @@ Stored as Long on Solr.</description>
         <fullName>zisf__zoom_lastupdated__c</fullName>
         <deprecated>false</deprecated>
         <description>Last updated from ZoomInfo timestamp</description>
-        <externalId>false</externalId>
         <label>ZoomInfo Last Updated</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>DateTime</type>
     </fields>
+    <listViews>
+        <fullName>Accounts_w_Open_Pipeline_Exclusion_List</fullName>
+        <columns>X18_digit_Account_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Company_Type__c</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>Number_of_Open_Opportunities__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Number_of_Open_Opportunities__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <label>Accounts w/ Open Pipeline Exclusion List</label>
+    </listViews>
     <listViews>
         <fullName>Active_Customers</fullName>
         <booleanFilter>1 OR 2</booleanFilter>
@@ -3776,6 +3803,8 @@ Stored as Long on Solr.</description>
         <columns>ACCOUNT.NAME</columns>
         <columns>Prospect_Category__c</columns>
         <columns>Prospect_Notes__c</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>ACCOUNT.RECORDTYPE</field>
@@ -3783,9 +3812,17 @@ Stored as Long on Solr.</description>
             <value>Account.Subsidiary_Account</value>
         </filters>
         <filters>
-            <field>ACCOUNT.NAME</field>
-            <operation>contains</operation>
-            <value>Not provided</value>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.ADDRESS1_CITY</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+            <operation>equals</operation>
         </filters>
         <label>Box Folders to Create</label>
         <sharedTo>
@@ -4474,6 +4511,14 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -4487,6 +4532,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Customized Sector%2FMarket Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4538,7 +4587,55 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IPOs%2C M%26A%2C Privatizations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4643,6 +4740,14 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>US Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Tertiary Forecast Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Tertiary Market Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5443,6 +5548,22 @@ Stored as Long on Solr.</description>
                 <fullName>18%2E3 Edge Analytics Ltd</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>21 GSA Canada Ltd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>22%2E1 Locatus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>22%2E3 Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>23 IJ Global</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>TA_Vertical__c</picklist>
@@ -5546,6 +5667,10 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
@@ -5567,6 +5692,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6035,6 +6164,14 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -6052,6 +6189,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Data License Local Data Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6091,6 +6232,54 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A One-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Footfall Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Housing Starts Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Office Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A One-Time Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Retail Risk Index</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus%3A Supermarket Dashboard</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Onsite</fullName>
                 <default>false</default>
             </values>
@@ -6100,6 +6289,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Pan-European Research %2B REIT Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REIT Data - Canada</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6128,6 +6321,14 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>US Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Tertiary Forecast Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Tertiary Market Data</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7008,6 +7209,22 @@ Stored as Long on Solr.</description>
                 <fullName>18%2E3 Edge Analytics Ltd</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>21 GSA Canada Ltd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>22%2E1 Locatus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>22%2E3 Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>23 IJ Global</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>TA_Vertical__c</picklist>
@@ -7115,7 +7332,7 @@ Stored as Long on Solr.</description>
         <searchFilterFields>ACCOUNT.PHONE1</searchFilterFields>
         <searchFilterFields>CORE.USERS.ALIAS</searchFilterFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Secondary_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Subsidiary__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.TYPE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Priority__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.LAST_NAME</searchResultsAdditionalFields>
@@ -7300,5 +7517,17 @@ RecordType.DeveloperName = &apos;Subsidiary_Account&apos;
         <openType>replace</openType>
         <protected>false</protected>
         <url>/apex/XFILES__UploadAttachment?rid={!Account.Id}&amp;rname={!Account.Name}&amp;rtype=Account</url>
+    </webLinks>
+    <webLinks>
+        <fullName>maps__AdvRouteVisitWindows</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Maps Advanced Visit Windows</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/AdvRouteVisitWindow?id={!Account.Id}</url>
     </webLinks>
 </CustomObject>

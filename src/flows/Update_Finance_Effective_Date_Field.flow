@@ -180,7 +180,7 @@
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Lost_Product_Is_true</name>
-            <conditionLogic>and</conditionLogic>
+            <conditionLogic>1 AND 2 AND 3 AND (4 OR 5)</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.StageName</leftValueReference>
                 <operator>IsChanged</operator>
@@ -207,6 +207,13 @@
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>React News</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Iterate_Line_Items.Product2.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Green Street News: Europe</stringValue>
                 </rightValue>
             </conditions>
             <connector>

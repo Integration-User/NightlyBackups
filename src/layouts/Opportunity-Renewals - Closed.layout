@@ -150,6 +150,10 @@
                 <behavior>Readonly</behavior>
                 <field>High_Value_Target__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Winback__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -443,6 +447,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Locatus_ID__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

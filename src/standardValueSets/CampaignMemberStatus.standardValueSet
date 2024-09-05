@@ -167,6 +167,11 @@
         <label>Declined</label>
     </standardValue>
     <standardValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+    </standardValue>
+    <standardValue>
         <fullName>Demo Requested</fullName>
         <default>false</default>
         <label>Demo Requested</label>
@@ -245,6 +250,11 @@
         <fullName>Follow Up Complete</fullName>
         <default>false</default>
         <label>Follow Up Complete</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up Completed</fullName>
+        <default>false</default>
+        <label>Follow Up Completed</label>
     </standardValue>
     <standardValue>
         <fullName>Follow Up Optional</fullName>
@@ -480,6 +490,11 @@
         <fullName>Sent</fullName>
         <default>false</default>
         <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent an Inquiry</fullName>
+        <default>false</default>
+        <label>Sent an Inquiry</label>
     </standardValue>
     <standardValue>
         <fullName>Sent Email</fullName>

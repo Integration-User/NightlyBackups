@@ -145,7 +145,6 @@
     <fields>
         <fullName>Core__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <inlineHelpText>For AM Bonus Tracking</inlineHelpText>
         <label>Core</label>
         <trackHistory>false</trackHistory>

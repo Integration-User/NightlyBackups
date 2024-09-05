@@ -217,7 +217,6 @@
     <fields>
         <fullName>Audience_URL__c</fullName>
         <description>URL to access the webinar</description>
-        <externalId>false</externalId>
         <inlineHelpText>URL to access the webinar</inlineHelpText>
         <label>Audience URL</label>
         <required>false</required>
@@ -273,7 +272,6 @@
     <fields>
         <fullName>Event_Time__c</fullName>
         <description>This is the published date/time of the event.  e.g., Thu, 30 Apr 2009 12:19 PDT</description>
-        <externalId>false</externalId>
         <label>Event Time</label>
         <required>false</required>
         <type>DateTime</type>
@@ -281,7 +279,6 @@
     <fields>
         <fullName>Event_Title__c</fullName>
         <description>The main tagline or title for the event. Typically under 100 characters.</description>
-        <externalId>false</externalId>
         <label>Event Title</label>
         <required>true</required>
         <type>TextArea</type>
@@ -376,7 +373,6 @@
     </fields>
     <fields>
         <fullName>Products_Promoted__c</fullName>
-        <externalId>false</externalId>
         <label>Products Promoted</label>
         <required>false</required>
         <type>MultiselectPicklist</type>

@@ -9,5 +9,6 @@
     <enableInsightsInTimeline>true</enableInsightsInTimeline>
     <enableInsightsInTimelineEacStd>false</enableInsightsInTimelineEacStd>
     <provisionProductivityFeatures>true</provisionProductivityFeatures>
+    <relationshipGraphPref>true</relationshipGraphPref>
     <syncInternalEvents>false</syncInternalEvents>
 </EACSettings>

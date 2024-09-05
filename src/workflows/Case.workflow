@@ -2,11 +2,27 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
         <fullName>AskNicely_Closed_Case</fullName>
-        <ccEmails>greenstreet_45d975f@trigger.asknice.ly</ccEmails>
+        <ccEmails>greenstreet_45d975f@emailtosurvey.asknice.ly</ccEmails>
         <description>AskNicely Closed Case</description>
         <protected>false</protected>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/AskNicely_Closed_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>AskNicely_Closed_Case_GS_News</fullName>
+        <ccEmails>greenstreet_45d975f@emailtosurvey.asknice.ly</ccEmails>
+        <description>AskNicely Closed Case - GS News</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/AskNicely_Closed_Case_GS_News</template>
+    </alerts>
+    <alerts>
+        <fullName>AskNicely_Closed_Case_GS_Platform</fullName>
+        <ccEmails>greenstreet_45d975f@emailtosurvey.asknice.ly</ccEmails>
+        <description>AskNicely Closed Case - GS Platform</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/AskNicely_Closed_Case_GS_Platform</template>
     </alerts>
     <alerts>
         <fullName>Case_Closed_Internal</fullName>
@@ -126,6 +142,50 @@
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Escalated_React_News_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>GS_News_Untouched_Cases_Alert</fullName>
+        <description>GS News Untouched Cases Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>adillard@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>cmarks@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>gkumar@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>njagodilla@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>praj@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>vsethuraman@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>noreply@greenstreet.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Untouched_Help_Desk_Cases</template>
+    </alerts>
+    <alerts>
+        <fullName>Help_Desk_CS_News_Weekend_Email_Alert</fullName>
+        <description>Help Desk CS News Weekend Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@greenstreet.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Help_Desk_CS_News_Template_HTML</template>
     </alerts>
     <alerts>
         <fullName>Help_Desk_Weekend_Email_Alert</fullName>

@@ -467,6 +467,10 @@
             <type>role</type>
         </recipients>
         <recipients>
+            <recipient>CAM_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
             <recipient>Customer_Success_Manager</recipient>
             <type>role</type>
         </recipients>
@@ -519,6 +523,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>bshullaw@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>dfigenshu@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -547,10 +555,6 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>kclemons@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>khoffman@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -567,7 +571,7 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>msheahan@greenstreet.com</recipient>
+            <recipient>nhigdem@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -575,7 +579,15 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>sayala@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>smartin@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>wpalhetas@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <senderAddress>greenstreet-newbusinesssales@greenstreetadvisors.com</senderAddress>

@@ -4,6 +4,7 @@
     <amount>true</amount>
     <dateType>0</dateType>
     <developerName>New_Business</developerName>
+    <hasCustomGroup>false</hasCustomGroup>
     <hasProductFamily>false</hasProductFamily>
     <masterLabel>New Business</masterLabel>
     <opportunitySplitType>Opportunity_00N5G00000VZhf7_Revenue</opportunitySplitType>

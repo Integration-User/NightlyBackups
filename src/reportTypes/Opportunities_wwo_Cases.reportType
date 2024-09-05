@@ -1463,6 +1463,11 @@
             <field>Account_Manager__c</field>
             <table>Opportunity.Cases__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>of_Days_Open__c</field>
+            <table>Opportunity.Cases__r</table>
+        </columns>
         <masterLabel>Cases</masterLabel>
     </sections>
 </ReportType>

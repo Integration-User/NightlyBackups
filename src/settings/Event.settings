@@ -5,7 +5,9 @@
     <enableDynamicStreamingChannel>false</enableDynamicStreamingChannel>
     <enableEventLogGeneration>true</enableEventLogGeneration>
     <enableEventLogWaveIntegration>true</enableEventLogWaveIntegration>
+    <enableLightningLoggerEvents>false</enableLightningLoggerEvents>
     <enableLoginForensics>false</enableLoginForensics>
     <enableStreamingApi>true</enableStreamingApi>
     <enableTransactionSecurityPolicies>true</enableTransactionSecurityPolicies>
+    <eventLogRetentionDuration>0</eventLogRetentionDuration>
 </EventSettings>

@@ -1571,5 +1571,8 @@
     </profileActionOverrides>
     <tabs>standard-OnlineSalesHome</tabs>
     <tabs>asknicely__NPS__c</tabs>
+    <tabs>standard-SalesforceContract</tabs>
+    <tabs>standard-SalesforceInvoice</tabs>
+    <tabs>standard-SalesforceProductCatalog</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

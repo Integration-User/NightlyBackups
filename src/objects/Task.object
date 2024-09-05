@@ -71,6 +71,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>NewTask</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -1222,14 +1236,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Planning</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Requested</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Scheduled</fullName>
                 <default>false</default>
             </values>
@@ -1964,14 +1970,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Planning</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Requested</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Scheduled</fullName>
                 <default>false</default>
             </values>
@@ -2689,14 +2687,6 @@
             </values>
             <values>
                 <fullName>Completed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Planning</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Requested</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3427,14 +3417,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Planning</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Requested</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Scheduled</fullName>
                 <default>false</default>
             </values>
@@ -4159,14 +4141,6 @@
             </values>
             <values>
                 <fullName>Completed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Planning</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Requested</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5004,18 +4978,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Planning</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Requested</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Scheduled</fullName>
                 <default>false</default>
             </values>
@@ -5049,11 +5011,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Data Request</fullName>
+                <fullName>Call</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Direct Conversation</fullName>
+                <fullName>Data Request</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5114,10 +5076,6 @@
             </values>
             <values>
                 <fullName>Virtual Sales Visit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Voicemail</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

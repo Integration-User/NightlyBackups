@@ -60,7 +60,6 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>My_Opportunity_Split__c</fullName>
-        <externalId>false</externalId>
         <formula>SplitOwnerId = $User.Id</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>My Opportunity Split</label>

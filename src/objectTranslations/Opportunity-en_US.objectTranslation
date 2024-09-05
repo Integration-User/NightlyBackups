@@ -25,6 +25,10 @@
         <name>Account_List_Memberships__c</name>
     </fields>
     <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Account Owner --></label>
         <name>Account_Owner__c</name>
     </fields>
@@ -98,6 +102,10 @@
         <label><!-- Assigned Team --></label>
         <name>Assigned_Team__c</name>
         <picklistValues>
+            <masterLabel>Banks</masterLabel>
+            <translation><!-- Banks --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
@@ -118,16 +126,8 @@
             <translation><!-- Judd --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Lemansky</masterLabel>
-            <translation><!-- Lemansky --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Pliha</masterLabel>
-            <translation><!-- Pliha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -136,6 +136,10 @@
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
             <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Souter</masterLabel>
+            <translation><!-- Souter --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UK Sales</masterLabel>
@@ -1239,6 +1243,10 @@
             <masterLabel>RoW</masterLabel>
             <translation><!-- RoW --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Locatus ID --></label>
+        <name>Locatus_ID__c</name>
     </fields>
     <fields>
         <label><!-- Loss Reason --></label>
@@ -2467,6 +2475,11 @@
         <name>Previous_Stage__c</name>
     </fields>
     <fields>
+        <label><!-- Prior Opportunity --></label>
+        <name>Prior_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunities (Prior Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Priority --></label>
         <name>Priority__c</name>
     </fields>
@@ -2529,6 +2542,10 @@
         <label><!-- Qualified Team --></label>
         <name>Qualified_Team__c</name>
         <picklistValues>
+            <masterLabel>Banks</masterLabel>
+            <translation><!-- Banks --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
@@ -2549,16 +2566,8 @@
             <translation><!-- Judd --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Lemansky</masterLabel>
-            <translation><!-- Lemansky --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Pliha</masterLabel>
-            <translation><!-- Pliha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -2567,6 +2576,10 @@
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
             <translation><!-- SDR Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Souter</masterLabel>
+            <translation><!-- Souter --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UK Sales</masterLabel>
@@ -3098,8 +3111,24 @@
         <name>US_REIT__c</name>
     </fields>
     <fields>
+        <label><!-- UTM Campaign --></label>
+        <name>UTM_Campaign__c</name>
+    </fields>
+    <fields>
         <label><!-- UTM Content --></label>
         <name>UTM_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Medium --></label>
+        <name>UTM_Medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Source --></label>
+        <name>UTM_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Term --></label>
+        <name>UTM_Term__c</name>
     </fields>
     <fields>
         <label><!-- Unmet Deal Insights --></label>
@@ -3210,6 +3239,10 @@
     <fields>
         <label><!-- Year 3 Amount --></label>
         <name>X3rd_Year_Amount_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- 6Sense Segment Names --></label>
+        <name>X6Sense_Segment_Names__c</name>
     </fields>
     <fields>
         <help><!-- Chatter Google Folder Id --></help>

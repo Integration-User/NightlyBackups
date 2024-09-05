@@ -18,6 +18,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -382,6 +386,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -622,6 +630,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -680,6 +692,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -1142,8 +1158,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -1329,8 +1361,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -1448,6 +1482,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -1492,6 +1527,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -1589,7 +1625,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -1635,6 +1675,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -1999,6 +2043,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -2239,6 +2287,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -2297,6 +2349,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -2759,8 +2815,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -2946,8 +3018,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -3065,6 +3139,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -3109,6 +3184,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -3206,7 +3282,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -3252,6 +3332,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -3616,6 +3700,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -3856,6 +3944,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -3914,6 +4006,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -4376,8 +4472,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -4563,8 +4675,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -4682,6 +4796,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -4726,6 +4841,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -4823,7 +4939,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -4869,6 +4989,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -5233,6 +5357,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -5473,6 +5601,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -5531,6 +5663,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -5993,8 +6129,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -6180,8 +6332,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -6299,6 +6453,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -6343,6 +6498,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -6440,7 +6596,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -6486,6 +6646,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -6850,6 +7014,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -7090,6 +7258,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -7148,6 +7320,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -7610,8 +7786,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -7797,8 +7989,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -7916,6 +8110,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -7960,6 +8155,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -8057,7 +8253,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -8103,6 +8303,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -8463,6 +8667,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -8699,6 +8907,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -8757,6 +8969,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -9219,8 +9435,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -9404,8 +9636,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -9523,6 +9757,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -9567,6 +9802,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -9664,7 +9900,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -9710,6 +9950,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -10070,6 +10314,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -10306,6 +10554,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -10364,6 +10616,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -10826,8 +11082,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -11011,8 +11283,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -11130,6 +11404,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -11174,6 +11449,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -11271,7 +11547,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -11317,6 +11597,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -11677,6 +11961,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -11917,6 +12205,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -11975,6 +12267,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -12437,8 +12733,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -12623,8 +12935,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -12742,6 +13056,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -12786,6 +13101,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -12883,7 +13199,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -12929,6 +13249,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -13289,6 +13613,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -13525,6 +13853,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -13583,6 +13915,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -14045,8 +14381,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -14230,8 +14582,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -14349,6 +14703,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -14393,6 +14748,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -14490,7 +14846,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -14536,6 +14896,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -14896,6 +15260,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -15136,6 +15504,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -15194,6 +15566,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -15656,8 +16032,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -15842,8 +16234,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -15961,6 +16355,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -16005,6 +16400,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -16102,7 +16498,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -16148,6 +16548,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -16508,6 +16912,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -16744,6 +17152,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -16802,6 +17214,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -17264,8 +17680,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -17449,8 +17881,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -17568,6 +18002,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -17612,6 +18047,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -17709,7 +18145,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -17755,6 +18195,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -18115,6 +18559,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -18355,6 +18803,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -18413,6 +18865,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -18875,8 +19331,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -19061,8 +19533,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -19180,6 +19654,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -19224,6 +19699,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -19321,7 +19797,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -19367,6 +19847,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -19727,6 +20211,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -19963,6 +20451,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -20021,6 +20513,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -20483,8 +20979,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -20668,8 +21180,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -20787,6 +21301,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -20831,6 +21346,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -20928,7 +21444,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -20974,6 +21494,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -21334,6 +21858,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -21574,6 +22102,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -21632,6 +22164,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -22094,8 +22630,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -22280,8 +22832,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -22399,6 +22953,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -22443,6 +22998,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -22540,7 +23096,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -22586,6 +23146,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -22946,6 +23510,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -23182,6 +23750,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -23240,6 +23812,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -23702,8 +24278,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -23887,8 +24479,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -24006,6 +24600,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -24050,6 +24645,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -24147,7 +24743,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -24193,6 +24793,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -24553,6 +25157,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -24793,6 +25401,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -24851,6 +25463,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -25313,8 +25929,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -25499,8 +26131,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -25618,6 +26252,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -25662,6 +26297,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -25759,7 +26395,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -25805,6 +26445,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -26165,6 +26809,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -26401,6 +27049,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -26459,6 +27111,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -26921,8 +27577,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -27106,8 +27778,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -27225,6 +27899,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -27269,6 +27944,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -27366,7 +28042,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -27412,6 +28092,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -27776,6 +28460,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -28016,6 +28704,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -28074,6 +28766,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -28536,8 +29232,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -28723,8 +29435,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -28842,6 +29556,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -28886,6 +29601,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -28983,7 +29699,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -29029,6 +29749,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -29393,6 +30117,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -29633,6 +30361,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -29691,6 +30423,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -30153,8 +30889,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -30340,8 +31092,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -30459,6 +31213,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -30503,6 +31258,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -30600,7 +31356,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -30646,6 +31406,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -31010,6 +31774,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -31250,6 +32018,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -31308,6 +32080,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -31770,8 +32546,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -31957,8 +32749,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -32076,6 +32870,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -32120,6 +32915,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -32217,7 +33013,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>
@@ -32263,6 +33063,10 @@
             <label>Same Store Increase</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001BXsx</field>
+            <label>Prior Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000VNBuY</field>
             <label>NS Issues</label>
         </forecastingObjectListLabelMappings>
@@ -32627,6 +33431,10 @@
             <label>EUR REA</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001HYES</field>
+            <label>Locatus ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1X</field>
             <label>Strategic Segment</label>
         </forecastingObjectListLabelMappings>
@@ -32867,6 +33675,10 @@
             <label>Date Moved to SS4</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001IbWo</field>
+            <label>6Sense Segment Names</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIgi</field>
             <label>Date Moved to SS5</label>
         </forecastingObjectListLabelMappings>
@@ -32925,6 +33737,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000Nvv1g</field>
             <label>Product Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy0000011Znz</field>
+            <label>Account Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OXIhM</field>
@@ -33387,8 +34203,24 @@
             <label>Created By Alias</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mq</field>
+            <label>UTM Term</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mn</field>
+            <label>UTM Campaign</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mo</field>
+            <label>UTM Medium</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000001D2Mp</field>
+            <label>UTM Source</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
@@ -33574,8 +34406,10 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00Nf400000V6v1n</field>
+            <field>00NVy000001IbWo</field>
             <field>00Nf400000TgLHz</field>
             <field>00Nf400000VNbqZ</field>
+            <field>00NVy0000011Znz</field>
             <field>00Nf400000V6v0X</field>
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
@@ -33693,6 +34527,7 @@
             <field>00N5G00000VZvb4</field>
             <field>00Nf400000Nvl4O</field>
             <field>00Nf400000NxnC4</field>
+            <field>00NVy000001HYES</field>
             <field>00Nf400000IYHvg</field>
             <field>00Nf400000NxHRm</field>
             <field>00Nf400000V1kUR</field>
@@ -33737,6 +34572,7 @@
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
             <field>00Nf400000V6v1J</field>
+            <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
             <field>00N5G00000VPeUX</field>
             <field>00N5G00000VPucZ</field>
@@ -33834,7 +34670,11 @@
             <field>00Nf400000V6v1k</field>
             <field>00Nf400000V6v1i</field>
             <field>00Nf400000V6v1j</field>
+            <field>00NVy000001D2Mn</field>
             <field>00N5G00000VXYTF</field>
+            <field>00NVy000001D2Mo</field>
+            <field>00NVy000001D2Mp</field>
+            <field>00NVy000001D2Mq</field>
             <field>00N5G00000VXbmm</field>
             <field>00Nf400000V6v1l</field>
             <field>00N5G00000VPvGU</field>

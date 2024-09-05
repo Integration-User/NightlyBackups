@@ -80,13 +80,11 @@
     <fields>
         <fullName>Primary_Contact__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Primary Contact</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Relationship_Strength__c</fullName>
-        <externalId>false</externalId>
         <label>Relationship Strength</label>
         <required>false</required>
         <type>Picklist</type>

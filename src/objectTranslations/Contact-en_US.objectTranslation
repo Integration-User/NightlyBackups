@@ -657,6 +657,10 @@
         <name>Loaded__c</name>
     </fields>
     <fields>
+        <label><!-- Locatus ID --></label>
+        <name>Locatus_ID__c</name>
+    </fields>
+    <fields>
         <label><!-- Manager --></label>
         <name>Manager__c</name>
         <relationshipLabel><!-- Contacts (Manager) --></relationshipLabel>
@@ -4784,6 +4788,10 @@ User: Responsible for the day-to-day work and tasks in support of team and organ
     <validationRules>
         <errorMessage><!-- CompanyId should be a numeric value --></errorMessage>
         <name>LID__Check_Company_Id_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email Address cannot contain greenstreet-compliance email or &quot;donotcall&quot;. --></errorMessage>
+        <name>Restrict_GS_Compliance_DNC</name>
     </validationRules>
     <webLinks>
         <label><!-- GoogleMaps --></label>

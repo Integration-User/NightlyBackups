@@ -331,7 +331,6 @@
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Leads associated with this account.</description>
-        <externalId>false</externalId>
         <label>Account</label>
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Leads</relationshipLabel>
@@ -367,7 +366,6 @@
     </fields>
     <fields>
         <fullName>Assigned_Date__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Capture the date/time of when a lead was moved out of a queue</inlineHelpText>
         <label>Assigned Date</label>
         <required>false</required>
@@ -377,7 +375,6 @@
     </fields>
     <fields>
         <fullName>Assignment_Team__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Initial Team this lead was assigned to</inlineHelpText>
         <label>Assigned Team</label>
         <required>false</required>
@@ -459,16 +456,6 @@
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Pliha</fullName>
-                    <default>false</default>
-                    <label>Pliha</label>
-                </value>
-                <value>
-                    <fullName>Lemansky</fullName>
-                    <default>false</default>
-                    <label>Lemansky</label>
-                </value>
-                <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
                     <label>Judd</label>
@@ -478,13 +465,34 @@
                     <default>false</default>
                     <label>Greco</label>
                 </value>
+                <value>
+                    <fullName>Banks</fullName>
+                    <default>false</default>
+                    <label>Banks</label>
+                </value>
+                <value>
+                    <fullName>Souter</fullName>
+                    <default>false</default>
+                    <label>Souter</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pliha</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>BDR_Referred_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>BDR Referred By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Leads_2</relationshipName>
@@ -496,7 +504,6 @@
     <fields>
         <fullName>Blog_and_Market_Currents_Newsletter__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Blog and Market Currents Newsletter</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -504,7 +511,6 @@
     </fields>
     <fields>
         <fullName>CRE_Exposure__c</fullName>
-        <externalId>false</externalId>
         <label>CRE Exposure</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -586,7 +592,6 @@
     <fields>
         <fullName>Campaign__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Campaign</label>
         <referenceTo>Campaign</referenceTo>
         <relationshipLabel>Leads</relationshipLabel>
@@ -603,7 +608,6 @@
     </fields>
     <fields>
         <fullName>Company_Segment__c</fullName>
-        <externalId>false</externalId>
         <label>Company Segment</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -616,7 +620,6 @@
     </fields>
     <fields>
         <fullName>Company_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Company Typeold</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -629,7 +632,6 @@
     </fields>
     <fields>
         <fullName>Company_Type_new__c</fullName>
-        <externalId>false</externalId>
         <label>Company Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -644,7 +646,6 @@
         <fullName>Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>For Referral Process</description>
-        <externalId>false</externalId>
         <label>Main Contact</label>
         <lookupFilter>
             <active>true</active>
@@ -695,7 +696,6 @@
     <fields>
         <fullName>DOZISF__ZoomInfo_Enrich_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>ZoomInfo Enrich Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -731,7 +731,6 @@
         <fullName>DOZISF__ZoomInfo_First_Updated__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and time when the record was first created or updated by ZoomInfo</description>
-        <externalId>false</externalId>
         <label>ZoomInfo First Updated</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -766,7 +765,6 @@
         <fullName>DOZISF__ZoomInfo_Last_Updated__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and time when the record was last created or updated by ZoomInfo</description>
-        <externalId>false</externalId>
         <label>ZoomInfo Last Updated</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -839,7 +837,6 @@
     </fields>
     <fields>
         <fullName>Disqualified_Context__c</fullName>
-        <externalId>false</externalId>
         <label>Disqualified Context</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -855,7 +852,6 @@
         <fullName>EU__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Shows if Sales Region team is Europe</description>
-        <externalId>false</externalId>
         <inlineHelpText>Is Sales Team EU?</inlineHelpText>
         <label>EU</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -871,7 +867,6 @@
     <fields>
         <fullName>European_CPPI__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>European CPPI</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -880,7 +875,6 @@
     <fields>
         <fullName>European_Webinars_and_Featured_Insights__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>European Webinars and Featured Insights</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -894,7 +888,6 @@
     </fields>
     <fields>
         <fullName>Firm_AUM_Portfolio_Size_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>What is your firm’s AUM (Assets Under Management)/portfolio size?</inlineHelpText>
         <label>Firm AUM/Portfolio Size Mktg Identified.</label>
         <required>false</required>
@@ -959,7 +952,6 @@
     </fields>
     <fields>
         <fullName>Former_Client__c</fullName>
-        <externalId>false</externalId>
         <label>Former Client?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -984,7 +976,6 @@
     </fields>
     <fields>
         <fullName>GS_Relationship__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Determines the matched account’s client status</inlineHelpText>
         <label>GS Relationship</label>
         <required>false</required>
@@ -1046,7 +1037,6 @@
     </fields>
     <fields>
         <fullName>Geographic_Exposure__c</fullName>
-        <externalId>false</externalId>
         <label>Geographic Exposure</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1059,7 +1049,6 @@
     </fields>
     <fields>
         <fullName>Geographies_of_Interest_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Which geographic regions are of interest to you? Check all that apply.</inlineHelpText>
         <label>Geographies of Interest Mktg Identified.</label>
         <required>false</required>
@@ -1133,7 +1122,6 @@
     </fields>
     <fields>
         <fullName>Inbound_Lead__c</fullName>
-        <externalId>false</externalId>
         <formula>IF( ISPICKVAL(LeadSource , &quot;Marketing Qualified&quot;) , TRUE,
 IF( ISPICKVAL(LeadSource , &quot;Inquiry&quot;) , TRUE,
 IF( ISPICKVAL(LeadSource , &quot;Digital Campaign&quot;) , TRUE,
@@ -1163,7 +1151,6 @@ FALSE))))))))))</formula>
     </fields>
     <fields>
         <fullName>Inquiry_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Inquiry Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1183,7 +1170,6 @@ FALSE))))))))))</formula>
     </fields>
     <fields>
         <fullName>Interest__c</fullName>
-        <externalId>false</externalId>
         <label>Interest</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -1234,7 +1220,6 @@ FALSE))))))))))</formula>
     </fields>
     <fields>
         <fullName>Last_Page_Seen__c</fullName>
-        <externalId>false</externalId>
         <label>Last Page Seen</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1270,7 +1255,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Lead_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Lead Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Leads (Lead Contact)</relationshipLabel>
@@ -1302,7 +1286,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Lead_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Send Referral To:</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1343,7 +1326,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>LinkedIn_URL__c</fullName>
-        <externalId>false</externalId>
         <label>LinkedIn URL</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1363,7 +1345,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Marketing_Identified_Country_lead__c</fullName>
-        <externalId>false</externalId>
         <label>Marketing Identified Country</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2558,7 +2539,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Marketing_Identified_State_lead__c</fullName>
-        <externalId>false</externalId>
         <label>Marketing Identified State</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2898,7 +2878,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Minimum_Advisory_Fee_50k__c</fullName>
-        <externalId>false</externalId>
         <label>Typical Advisory Minimum (6-figures)</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2949,7 +2928,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Most_Recent_Marketing_Activity__c</fullName>
         <description>Pulled in from Hubspot</description>
-        <externalId>false</externalId>
         <label>Most Recent Marketing Activity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2958,7 +2936,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>My_Referral__c</fullName>
-        <externalId>false</externalId>
         <formula>$User.Id =  Referred_By_Lead__r.Id</formula>
         <label>My Referral</label>
         <trackHistory>false</trackHistory>
@@ -2968,7 +2945,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>NA__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Shows if Sales Region Team is Norht America</description>
-        <externalId>false</externalId>
         <inlineHelpText>Is Sales Team NA?</inlineHelpText>
         <label>NA</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2982,7 +2958,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Next_Outreach_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Next Outreach Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2996,7 +2971,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Number_of_Acq_Disp_Executed_Per_Year__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>How many acquisitions/dispositions does your firm typically execute in a year?</inlineHelpText>
         <label>Number of Acq/Disp Executed Per Year.</label>
         <required>false</required>
@@ -3050,7 +3024,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Other_Contact_Champion__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Other Contact/Champion</label>
         <lookupFilter>
             <active>true</active>
@@ -3071,7 +3044,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Other_Vendors_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>Other Vendors?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3091,7 +3063,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Part_of_Renewal__c</fullName>
-        <externalId>false</externalId>
         <label>Part of Renewal?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3126,7 +3097,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Person_Stage__c</fullName>
         <description>Populated through SalesLoft Person Stage field</description>
-        <externalId>false</externalId>
         <label>Person Stage</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3193,7 +3163,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Portfolio_Turnover_Per_Year__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>If you have greater than 0 acquisitions/dispositions, how much of your portfolio do you turn over each year?</inlineHelpText>
         <label>Portfolio Turnover Per Year.</label>
         <required>false</required>
@@ -3240,7 +3209,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Press_Releases__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Press Releases</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3249,7 +3217,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Product_Interest_1__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Product Interest 1</label>
         <lookupFilter>
             <active>true</active>
@@ -3276,7 +3243,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Product_Interest_2__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Product Interest 2</label>
         <lookupFilter>
             <active>true</active>
@@ -3302,7 +3268,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Product_Interest_Marketing__c</fullName>
-        <externalId>false</externalId>
         <label>Product Interest</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3378,7 +3343,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Product_Interest__c</fullName>
-        <externalId>false</externalId>
         <label>Product Interest</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3427,7 +3391,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Professional_Function__c</fullName>
-        <externalId>false</externalId>
         <label>Professional Function</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3484,7 +3447,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Publicly_Traded__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Publicly Traded?</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3492,7 +3454,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Qualified_Date__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Populates when the lead status is moved to disqualified or qualified</inlineHelpText>
         <label>Qualified Date</label>
         <required>false</required>
@@ -3502,7 +3463,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Qualifying_Team__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Team name of the lead owner when moved to converted state</inlineHelpText>
         <label>Qualified Team</label>
         <required>false</required>
@@ -3584,16 +3544,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Pliha</fullName>
-                    <default>false</default>
-                    <label>Pliha</label>
-                </value>
-                <value>
-                    <fullName>Lemansky</fullName>
-                    <default>false</default>
-                    <label>Lemansky</label>
-                </value>
-                <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
                     <label>Judd</label>
@@ -3603,12 +3553,33 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <default>false</default>
                     <label>Greco</label>
                 </value>
+                <value>
+                    <fullName>Banks</fullName>
+                    <default>false</default>
+                    <label>Banks</label>
+                </value>
+                <value>
+                    <fullName>Souter</fullName>
+                    <default>false</default>
+                    <label>Souter</label>
+                </value>
+                <value>
+                    <fullName>Lemansky</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lemansky</label>
+                </value>
+                <value>
+                    <fullName>Pliha</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pliha</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Questions_Comments__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>This field maps to the Opportunity on conversion of the lead.</inlineHelpText>
         <label>Questions &amp; Comments</label>
         <length>131000</length>
@@ -3625,7 +3596,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Reason_Disqualified__c</fullName>
-        <externalId>false</externalId>
         <label>Reason Disqualified</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3785,7 +3755,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Referral_Reason__c</fullName>
         <description>What is the compelling reason for this referral.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Compelling reason for referral.</inlineHelpText>
         <label>Referral Reason</label>
         <length>32768</length>
@@ -3798,7 +3767,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>Referred_By_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Referred By field on lead object</description>
-        <externalId>false</externalId>
         <label>AM Referred By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Leads</relationshipName>
@@ -3831,7 +3799,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Research_Data_in_Role_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Which of the following describe how you use real estate research/data in your role?  Check all that apply.</inlineHelpText>
         <label>Research/Data in Role Mktg Identified.</label>
         <required>false</required>
@@ -3883,7 +3850,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Revisit_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Revisit Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3893,7 +3859,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>SDO_Conversion__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>SDO Conversion</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3931,7 +3896,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>SalesLoft1__Most_Recent_Cadence_Next_Step_Due_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Next SalesLoft step due date.</description>
-        <externalId>false</externalId>
         <label>Most Recent Cadence - Next Step Due Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3954,7 +3918,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Sales_Type_for_ReferralOpps__c</fullName>
-        <externalId>false</externalId>
         <label>Sales Type for ReferralOpps</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3997,7 +3960,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Sector_Interests_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>Sector Interests</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4011,7 +3973,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Sectors_of_Interest_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Which property sectors are of interest to you?  Check all that apply.</inlineHelpText>
         <label>Sectors of Interest Mktg Identified.</label>
         <required>false</required>
@@ -4098,7 +4059,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Sourced_By__c</fullName>
-        <externalId>false</externalId>
         <label>Sourced By</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4138,7 +4098,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Subscribe_to_Competitors_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <label>Subscribe to Competitors Mktg Identifie.</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4195,7 +4154,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Team__c</fullName>
-        <externalId>false</externalId>
         <label>Team</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4255,7 +4213,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Timing_to_Subscribe_to_Next_RE_Provider__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>When do you anticipate subscribing to your next research provider?</inlineHelpText>
         <label>Timing to Subscribe to Next RE Provider</label>
         <required>false</required>
@@ -4301,7 +4258,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>UK_Markets_of_Interest_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Which markets within United Kingdom/Continental Europe are you interested in? (Check all that apply)</inlineHelpText>
         <label>UK Markets of Interest Mktg Identified.</label>
         <required>false</required>
@@ -4333,7 +4289,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>US_Markets_of_Interest_Mktg_Identified__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Which markets within the U.S and Canada are you interested in? (Check all that apply)</inlineHelpText>
         <label>US Markets of Interest Mktg Identified.</label>
         <required>false</required>
@@ -4378,7 +4333,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>U_S_CPPI__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>U.S. CPPI</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4387,7 +4341,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>U_S_Webinars_and_Featured_Insights__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>U.S. Webinars and Featured Insights</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4400,7 +4353,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Where_is_Current_RE_Research_Lacking__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>Where do you feel your current real estate research is lacking? Check all that apply.</inlineHelpText>
         <label>Where is Current RE Research Lacking.</label>
         <required>false</required>
@@ -4468,7 +4420,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_Country_Code_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company Country Code</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4477,7 +4428,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_Description_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company Description</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4498,7 +4448,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_NAICS_Code_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company NAICS Code</label>
         <length>131000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4508,7 +4457,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_Name_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company Name</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4517,7 +4465,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_Phone_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company Phone</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4548,7 +4495,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_SIC_Code_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company SIC Code</label>
         <length>131000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4569,7 +4515,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_Street_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company Street</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4578,7 +4523,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Company_Ticker_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Company Ticker</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4609,7 +4553,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Education_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Education</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4619,7 +4562,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Email_Address_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Email Address</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4639,7 +4581,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Employment_History_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Employment History</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4660,7 +4601,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Job_Title_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Job Title</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4691,7 +4631,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Management_Level_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Management Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4722,7 +4661,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Person_ID_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Person ID</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4731,7 +4669,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Person_State_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Person State</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4740,7 +4677,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Person_Street_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Person Street</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4760,7 +4696,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Technology_Products_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Technology Products</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4770,7 +4705,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>ZoomInfo_Website_Lead__c</fullName>
-        <externalId>false</externalId>
         <label>ZoomInfo Website</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4802,7 +4736,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>eContacts__Business_Card__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Image Data Only</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4814,7 +4747,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>eContacts__Created_By_eContacts__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Created By eContacts</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4836,7 +4768,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>eContacts__Location__c</fullName>
         <deprecated>false</deprecated>
         <displayLocationInDecimal>true</displayLocationInDecimal>
-        <externalId>false</externalId>
         <label>Location</label>
         <required>false</required>
         <scale>15</scale>
@@ -4847,7 +4778,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>eContacts__Secondary_Image__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Image Data2 Only</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4856,8 +4786,20 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>maps__AssignmentRule__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Maps Assignment Rule</label>
+        <referenceTo>maps__AssignmentRule__c</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>of_Paid_RE_Subscription_Services_Used__c</fullName>
-        <externalId>false</externalId>
         <inlineHelpText>How many paid real estate research/data subscription services do you currently use?</inlineHelpText>
         <label># of Paid RE Subscription Services Used.</label>
         <required>false</required>
@@ -4953,7 +4895,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>zisf__ZoomInfo_Last_Clean_Run__c</fullName>
         <deprecated>false</deprecated>
         <description>Date/time refers to last time ZoomInfo Clean ran for record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Date/time refers to last time ZoomInfo Clean ran for record.</inlineHelpText>
         <label>ZoomInfo Last Clean Run</label>
         <required>false</required>
@@ -4980,7 +4921,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When this value is set to &quot;True&quot;, an incoming Lead with blank fields will be automatically appended with available data by ZoomInfo.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When this value is set to &quot;True&quot;, an incoming Lead with blank fields will be automatically appended with available data by ZoomInfo.</inlineHelpText>
         <label>ZoomInfo Trigger</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4990,7 +4930,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>zisf__Zoom_Clean_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>ZoomInfo Clean Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5062,7 +5001,6 @@ Stored as Long on Solr.</description>
         <fullName>zisf__zoom_lastupdated__c</fullName>
         <deprecated>false</deprecated>
         <description>Last updated from ZoomInfo timestamp</description>
-        <externalId>false</externalId>
         <label>ZoomInfo Last Updated</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -5253,6 +5191,10 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>Assignment_Team__c</picklist>
             <values>
+                <fullName>Banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EU SDR Inbound</fullName>
                 <default>false</default>
             </values>
@@ -5285,15 +5227,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lemansky</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Ling</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5302,6 +5236,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>SDR Outbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Souter</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6104,6 +6042,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7801,6 +7743,10 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>Qualifying_Team__c</picklist>
             <values>
+                <fullName>Banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EU SDR Inbound</fullName>
                 <default>false</default>
             </values>
@@ -7833,15 +7779,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lemansky</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Ling</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pliha</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7850,6 +7788,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>SDR Outbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Souter</fullName>
                 <default>false</default>
             </values>
             <values>
