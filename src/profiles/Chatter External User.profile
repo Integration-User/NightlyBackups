@@ -10395,6 +10395,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__AuthHyperforceRestResourceOAuth</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__AuthHyperforceRestResourcesTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__Authorization</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -10596,6 +10604,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>maps__ErrorMapping</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__ErrorMappingTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -11020,6 +11032,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>maps__MobileRestAPITest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MockCoreUtils</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>

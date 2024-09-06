@@ -447,11 +447,27 @@
                 DataSetDetails_DataSourcesSection_DataSourceType: '{!JSENCODE($Label.DataSetDetails_DataSourcesSection_DataSourceType)}',
                 DataSetDetails_DataSourcesSection_AssignmentField: '{!JSENCODE($Label.DataSetDetails_DataSourcesSection_AssignmentField)}',
                 DataSetDetails_DataSourcesSection_Placeholder: '{!JSENCODE($Label.DataSetDetails_DataSourcesSection_Placeholder)}',
+                DataSetDetails_DataSourcesSection_EditQueryButton: '{!JSENCODE($Label.DataSetDetails_DataSourcesSection_EditQueryButton)}',
                 DataSetDetails_BoundariesSection_Title: '{!JSENCODE($Label.DataSetDetails_BoundariesSection_Title)}',
                 DataSetDetails_BoundariesSection_Boundary: '{!JSENCODE($Label.DataSetDetails_BoundariesSection_Boundary)}',
                 DataSetDetails_BoundariesSection_Country: '{!JSENCODE($Label.DataSetDetails_BoundariesSection_Country)}',
                 DataSetDetails_BoundariesSection_Vintage: '{!JSENCODE($Label.DataSetDetails_BoundariesSection_Vintage)}',
-
+                
+                // Edit Query Modal
+                DataSetDetails_EditQueryModal_Title: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_Title)}',
+                DataSetDetails_EditQueryModal_FiltersPicklist: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_FiltersPicklist)}',
+                DataSetDetails_EditQueryModal_FilterPopoverField: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_FilterPopoverField)}',
+                DataSetDetails_EditQueryModal_FilterPopoverOperatorCombobox: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_FilterPopoverOperatorCombobox)}',
+                DataSetDetails_EditQueryModal_FilterPopoverValueInput: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_FilterPopoverValueInput)}',
+                DataSetDetails_EditQueryModal_FilterPopoverDismissButton: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_FilterPopoverDismissButton)}',
+                DataSetDetails_EditQueryModal_FilterPopoverApplyButton: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_FilterPopoverApplyButton)}',
+                DataSetDetails_EditQueryModal_WhereTextArea: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_WhereTextArea)}',
+                DataSetDetails_EditQueryModal_TestQueryButton: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_TestQueryButton)}',
+                DataSetDetails_EditQueryModal_QueryResults: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_QueryResults)}',
+                DataSetDetails_EditQueryModal_QueryResultsError: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_QueryResultsError)}',
+                DataSetDetails_EditQueryModal_CancelButton: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_CancelButton)}',
+                DataSetDetails_EditQueryModal_DoneButton: '{!JSENCODE($Label.DataSetDetails_EditQueryModal_DoneButton)}',
+                
                 // Alignment Details
                 AlignmentDetails_PageHeader_Title: '{!JSENCODE($Label.AlignmentDetails_PageHeader_Title)}',
                 AlignmentDetails_PageHeader_OpenAlignmentButton: '{!JSENCODE($Label.AlignmentDetails_PageHeader_OpenAlignmentButton)}',
@@ -507,6 +523,10 @@
 
                 // from tp
                 // Create Data Set Details Modal
+                CreateDataSetTypeModal_Body_TPV1_Title: '{!JSENCODE($Label.CreateDataSetTypeModal_Body_TPV1_Title)}',
+                CreateDataSetTypeModal_Body_TPV1_Description: '{!JSENCODE($Label.CreateDataSetTypeModal_Body_TPV1_Description)}',
+                CreateDataSetTypeModal_Body_TPV2_Title: '{!JSENCODE($Label.CreateDataSetTypeModal_Body_TPV2_Title)}',
+                CreateDataSetTypeModal_Body_TPV2_Description: '{!JSENCODE($Label.CreateDataSetTypeModal_Body_TPV2_Description)}',
                 CreateDataSetDetailsModal_Header_ModalTitle: '{!JSENCODE($Label.CreateDataSetDetailsModal_Header_ModalTitle)}',
                 CreateDataSetDetailsModal_Body_InstructionScopedNotificationHeader: '{!JSENCODE($Label.CreateDataSetDetailsModal_Body_InstructionScopedNotificationHeader)}',
                 CreateDataSetDetailsModal_Body_InstructionScopedNotification: '{!JSENCODE($Label.CreateDataSetDetailsModal_Body_InstructionScopedNotification)}',
@@ -567,6 +587,7 @@
                 CreateDataSetDataSourcesModal_Body_SelectReportCheckboxButton: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_Body_SelectReportCheckboxButton)}',
                 CreateDataSetDataSourcesModal_Footer_PreviousButton: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_Footer_PreviousButton)}',
                 CreateDataSetDataSourcesModal_Footer_CancelButton: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_Footer_CancelButton)}',
+                CreateDataSetDataSourcesModal_Footer_SaveButton: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_Footer_SaveButton)}',
                 CreateDataSetDataSourcesModal_Footer_NextButton: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_Footer_NextButton)}',
                 CreateDataSetDataSourcesModal_ErrorPopover_PopoverHeader: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorPopover_PopoverHeader)}',
                 CreateDataSetDataSourcesModal_ErrorPopover_NoDataSourceErrorText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorPopover_NoDataSourceErrorText)}',
@@ -576,6 +597,9 @@
                 CreateDataSetDataSourcesModal_ErrorPopover_MaxNumberOfAttemptsReportErrorText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorPopover_MaxNumberOfAttemptsReportErrorText)}',
                 CreateDataSetDataSourcesModal_ErrorPopover_ReportNotAvailableErrorText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorPopover_ReportNotAvailableErrorText)}',
                 CreateDataSetDataSourcesModal_ErrorPopover_GenericReportErrorText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorPopover_GenericReportErrorText)}',
+                CreateDataSetDataSourcesModal_WarningTooltip_ExceededRecommendedWarningText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_WarningTooltip_ExceededRecommendedWarningText)}',
+                CreateDataSetDataSourcesModal_ErrorTooltip_ExceededMaxErrorText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorTooltip_ExceededMaxErrorText)}',
+                CreateDataSetDataSourcesModal_ErrorPopover_ReportMaxErrorText: '{!JSENCODE($Label.CreateDataSetDataSourcesModal_ErrorPopover_ReportMaxErrorText)}',
 
                 // Build Object Query Modal
                 BuildObjectQueryModal_Header_ModalTitle: '{!JSENCODE($Label.BuildObjectQueryModal_Header_ModalTitle)}',
@@ -594,6 +618,7 @@
                 BuildObjectQueryModal_CreateFilterPopover_DismissButton: '{!JSENCODE($Label.BuildObjectQueryModal_CreateFilterPopover_DismissButton)}',
                 BuildObjectQueryModal_CreateFilterPopover_ApplyButton: '{!JSENCODE($Label.BuildObjectQueryModal_CreateFilterPopover_ApplyButton)}',
                 BuildObjectQueryModal_Body_SOQLQueryInput: '{!JSENCODE($Label.BuildObjectQueryModal_Body_SOQLQueryInput)}',
+                BuildObjectQueryModal_Body_SOQLQueryInputLive: '{!JSENCODE($Label.BuildObjectQueryModal_Body_SOQLQueryInputLive)}',
                 BuildObjectQueryModal_Body_TestQueryButton: '{!JSENCODE($Label.BuildObjectQueryModal_Body_TestQueryButton)}',
                 BuildObjectQueryModal_Body_TestQueryProcessing: '{!JSENCODE($Label.BuildObjectQueryModal_Body_TestQueryProcessing)}',
                 BuildObjectQueryModal_Body_TestQuerySuccess: '{!JSENCODE($Label.BuildObjectQueryModal_Body_TestQuerySuccess)}',
@@ -727,6 +752,7 @@
                 CreateAlignmentDetailsModal_Footer_CancelButton: '{!JSENCODE($Label.CreateAlignmentDetailsModal_Footer_CancelButton)}',
                 CreateAlignmentDetailsModal_Footer_PreviousButton: '{!JSENCODE($Label.CreateAlignmentDetailsModal_Footer_PreviousButton)}',
                 CreateAlignmentDetailsModal_Footer_NextButton: '{!JSENCODE($Label.CreateAlignmentDetailsModal_Footer_NextButton)}',
+                CreateAlignmentDetailsModal_Footer_SaveButton: '{!JSENCODE($Label.CreateAlignmentDetailsModal_Footer_SaveButton)}',
 
                 // Create Alignment Territory Model Modal
                 CreateAlignmentTerritoryModelModal_Header_ModalHeader: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Header_ModalHeader)}',
@@ -818,6 +844,7 @@
                 AlignmentBuilder_AddChildAreasPopover_NumberOfAreasPerCounter: '{!JSENCODE($Label.AlignmentBuilder_AddChildAreasPopover_NumberOfAreasPerCounter)}',
                 AlignmentBuilder_AddChildAreasPopover_NumberOfAreasDecrement: '{!JSENCODE($Label.AlignmentBuilder_AddChildAreasPopover_NumberOfAreasDecrement)}',
                 AlignmentBuilder_AddChildAreasPopover_NumberOfAreasIncrement: '{!JSENCODE($Label.AlignmentBuilder_AddChildAreasPopover_NumberOfAreasIncrement)}',
+                AlignmentBuilder_Map_HardLimitErrorMessage: '{!JSENCODE($Label.AlignmentBuilder_Map_HardLimitErrorMessage)}',
 
                 // Create Alignment Assignment Modal
                 CreateAlignmentAssignmentModal_Body_AssignmentHeader: '{!JSENCODE($Label.CreateAlignmentAssignmentModal_Body_AssignmentHeader)}',
@@ -948,6 +975,7 @@
                 EditAlignmentDetailsModal_Body_RegionLabelParam: '{!JSENCODE($Label.EditAlignmentDetailsModal_Body_RegionLabelParam)}',
                 EditAlignmentDetailsModal_Body_DistrictLabelParam: '{!JSENCODE($Label.EditAlignmentDetailsModal_Body_DistrictLabelParam)}',
                 EditAlignmentDetailsModal_Body_TerritoryLabelParam: '{!JSENCODE($Label.EditAlignmentDetailsModal_Body_TerritoryLabelParam)}',
+                EditAlignmentDetailsModal_Header_NoUpdatesHeading: '{!JSENCODE($Label.EditAlignmentDetailsModal_Header_NoUpdatesHeading)}',
                 EditAlignmentDetailsModal_Header_ConfirmUpdateHeading: '{!JSENCODE($Label.EditAlignmentDetailsModal_Header_ConfirmUpdateHeading)}',
                 EditAlignmentDetailsModal_Header_ConfirmUpdateSubheading: '{!JSENCODE($Label.EditAlignmentDetailsModal_Header_ConfirmUpdateSubheading)}',
                 EditAlignmentDetailsModal_Body_NameLabel: '{!JSENCODE($Label.EditAlignmentDetailsModal_Body_NameLabel)}',

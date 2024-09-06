@@ -62,8 +62,8 @@
         <label>Locatus</label>
     </standardValue>
     <standardValue>
-        <fullName>IJ Global</fullName>
+        <fullName>IJGlobal</fullName>
         <default>false</default>
-        <label>IJ Global</label>
+        <label>IJGlobal</label>
     </standardValue>
 </StandardValueSet>

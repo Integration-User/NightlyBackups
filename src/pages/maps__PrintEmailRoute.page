@@ -1107,8 +1107,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
             <apex:outputPanel rendered="{!NOT(debug)}">
-                <link rel="stylesheet" href="{!URLFOR($Resource.maps__MapsJS, 'printEmail/main.css')}"></link>
-                <script type="module" src="{!URLFOR($Resource.maps__MapsJS, 'printEmail/bundle.js')}"></script>
+                <link rel="stylesheet" href="{!URLFOR($Resource.maps__VuePrintEmail, 'dist/assets/main.css')}"></link>
+                <script type="module" src="{!URLFOR($Resource.maps__VuePrintEmail, 'dist/bundle.js')}"></script>
             </apex:outputPanel>
 
             <apex:outputPanel rendered="{!debug}">
