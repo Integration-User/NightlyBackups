@@ -46,7 +46,7 @@
         <div class="ClickToCreateFormTable fieldSetTable">
             <apex:outputPanel rendered="{!missingFieldSet}">
                 <div id="missingFieldSet" style="padding-top: 1rem; padding-bottom: 1rem;">
-                    The field set(s) that was associated with this data layer has either been renamed or deleted. Please contact your Salesforce Administrator.
+                     The field set(s) that was associated with this data layer has either been renamed or deleted. Please contact your Salesforce Administrator.
                 </div>
             </apex:outputPanel>
             <apex:repeat value="{!fields}" var="f">
@@ -216,16 +216,48 @@
                 $('.dateInput input').prop('readonly', true);
                 $('.dateInput input').addClass('slds-input');
 
-                $('.ClickToCreateFormTable .datePick.datepicker').datepicker({
-                    changeYear: true,
-                    changeMonth: true,
-                    dateFormat: formatUserLocaleDate({datepicker: true}),
-                    yearRange: "-100:+30"
-                });
+                let dateFormat = 'YYYY-MM-DD'; //Universal date format
+                if (MAPS) {
+                    // This is used for MapsV2
+                    const userFormat = MAPS?.currentUser?.dateFormat;
+                    dateFormat = userFormat.replace('yyyy','yy');
+                    if(userFormat.indexOf('M/') >= 0) {
+                        dateFormat = dateFormat.replace('M','mm');
+                    }
+                    if (userFormat.indexOf('yyyy') >= 0) {
+                        dateFormat = dateFormat.replace('yyyy', 'yy');
+                    }
+                } else {
+                    dateFormat = formatUserLocaleDate({datepicker: true});
+                }
+
+                // with maps v2 we do not have the jquery ui date picker etc. let's just dynamically load it here so we can depricate once this is removed
+                if (jQuery && !jQuery.datepicker) {
+                    var scriptEle = document.createElement("script");
+                    scriptEle.setAttribute("src", "{!URLFOR($Resource.maps__Maps3rdPartyPlugins, 'jquery/jquery-ui.min.js')}");
+                    document.body.appendChild(scriptEle);
+                    scriptEle.addEventListener("load", () => {
+                        attachDatePickerToDom();
+                    });
+                    var styleURL = "{!URLFOR($Resource.maps__Maps3rdPartyPlugins, 'jquery/jquery-ui.css')}";
+                    var link = document.createElement("link");
+                    link.type = "text/css";
+                    link.rel = "stylesheet";
+                    link.href = styleURL;
+                    document.body.appendChild(link);
+                }
+                else {
+                    // jquery ui is already installed
+                    attachDatePickerToDom();
+                }
                 
                 $('.ClickToCreateFormTable .datetimepicker-container .hr').append(buildHours());
                 $('.ClickToCreateFormTable .datetimepicker-container .min').append(buildMinutes());
-                setCurrentDateTime();
+                if (MAPS) {
+                    setCurrentVanillaDateTime()
+                } else {
+                    setCurrentMomentDateTime();
+                }
                 
                 //rich text stuff
                 try {
@@ -410,7 +442,7 @@
         }
 
         function showAmPmCheck() {
-            var timeType = getProperty(MASystem, 'User.timeFormat');
+            var timeType = MAPS ? MAPS.currentUser?.timeFormat : getProperty(MASystem, 'User.timeFormat');
             return timeType === 'hh:mm a' || timeType === 'h:mm a';
         }
 
@@ -443,8 +475,45 @@
             }
             return optionsList;
         }
+        function setCurrentVanillaDateTime() {
+            const dateTimeFormatted = MAPS.app.config.globalProperties.$F('DateTime', new Date(), {
+                hour12: !MAPS.currentUser.is24Hour, 
+                year: 'numeric',
+                month: 'numeric',
+                day: 'numeric',
+                timeZone: MAPS.currentUser.TimeZone
+            });
+            const d = new Date(dateTimeFormatted);
+            let hr = d.getHours();
+            let min = d.getMinutes();
+            let timeOfDay = 'AM';
+            if (!MAPS.currentUser.is24Hour) {
+                if (hr == 0) {
+                    hr = 12;
+                } else if (hr > 12) {
+                    hr -= 12;
+                    timeOfDay = 'PM';
+                }
+                hr = hr < 10 ? `0${hr}` : `${hr}`;
+            }
+            if (min < 10 && min !== '00') min = `0${min}`;
+            $('.ClickToCreateFormTable .datetimepicker-now-option .currentDate').text(dateTimeFormatted);
+            $('.ClickToCreateFormTable .datetimepicker-now-option .currentDate').attr('date', dateTimeFormatted);
+            $('.ClickToCreateFormTable .datetimepicker-now-option .currentDateTime').text(dateTimeFormatted);
+            $('.ClickToCreateFormTable .datetimepicker-now-option .currentDateTime').attr('date', d.toLocaleDateString());
+            $('.ClickToCreateFormTable .datetimepicker-now-option .currentDateTime').attr('hr', hr);
+            $('.ClickToCreateFormTable .datetimepicker-now-option .currentDateTime').attr('min', min);
+            if (!MAPS.currentUser.is24Hour) $('.ClickToCreateFormTable .datetimepicker-now-option .currentDateTime').attr('am-pm', timeOfDay);
+            
+            $('.ClickToCreateFormTable .currentDate, .ClickToCreateFormTable .currentDateTime').on('click', function() {
+                $(this).closest('.fieldInput').find('.datePick').val($(this).attr('date'));
+                $(this).closest('.fieldInput').find('.hr').val($(this).attr('hr'));
+                $(this).closest('.fieldInput').find('.min').val($(this).attr('min'));
+                if (!MAPS.currentUser.is24Hour) $(this).closest('.fieldInput').find('.am-pm').val($(this).attr('am-pm'));
+            });
+        }
 
-        function setCurrentDateTime() {
+        function setCurrentMomentDateTime() {
             var rightNow = moment();
             var showAM_PM = showAmPmCheck();
             var hourFormat = showAM_PM ? 'hh' : 'HH';
@@ -462,6 +531,30 @@
                 $(this).closest('.fieldInput').find('.hr').val($(this).attr('hr'));
                 $(this).closest('.fieldInput').find('.min').val($(this).attr('min'));
                 $(this).closest('.fieldInput').find('.am-pm').val($(this).attr('am-pm'));
+            });
+        }
+
+        function attachDatePickerToDom() {
+            let dateFormat = 'YYYY-MM-DD'; //Universal date format
+            if (MAPS) {
+                // This is used for MapsV2
+                const userFormat = MAPS?.currentUser?.dateFormat;
+                dateFormat = userFormat.replace('yyyy','yy');
+                if(userFormat.indexOf('M/') >= 0) {
+                    dateFormat = dateFormat.replace('M','mm');
+                }
+                if (userFormat.indexOf('yyyy') >= 0) {
+                    dateFormat = dateFormat.replace('yyyy', 'yy');
+                }
+            } else {
+                dateFormat = formatUserLocaleDate({datepicker: true});
+            }
+
+            $('.ClickToCreateFormTable .datePick.datepicker').datepicker({
+                changeYear: true,
+                changeMonth: true,
+                dateFormat,
+                yearRange: "-100:+30"
             });
         }
     </script>

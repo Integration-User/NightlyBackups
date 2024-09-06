@@ -10405,6 +10405,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__AuthHyperforceRestResourceOAuth</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__AuthHyperforceRestResourcesTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__Authorization</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -10537,6 +10545,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__ContentRest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__CustomDispositionForm</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -10602,6 +10614,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>maps__ErrorMapping</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__ErrorMappingTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -10945,6 +10961,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__MapsLegacyCheck</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__MapsLiveAPI</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -10961,7 +10981,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__MapsV2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MapsV2Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__MarkerLayerBuilderController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MarkerLayerBuilderControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -11010,6 +11042,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>maps__MobileRestAPITest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MockCoreUtils</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -46970,6 +47006,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

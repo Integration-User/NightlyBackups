@@ -1,6 +1,9 @@
-<apex:page controller="maps.AdvRoute" action="{!checkPermissions}" showHeader="true" sidebar="false" title="Salesforce Maps Advanced Visit Windows">
+<apex:page controller="maps.AdvRoute" showHeader="true" sidebar="false" title="Salesforce Maps Advanced Visit Windows">
 
-	<c:AdvRouteLabels />
-    <c:AdvRouteUtils vueType="visitWindows" subType="shared" />
+    <c:Oops rendered="{! useMapsOopsPage }" />
+    <apex:outputPanel rendered="{! !useMapsOopsPage }">
+        <c:AdvRouteLabels />
+        <c:AdvRouteUtils vueType="visitWindows" subType="shared" />
+    </apex:outputPanel>
 	
 </apex:page>

@@ -10405,6 +10405,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__AuthHyperforceRestResourceOAuth</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__AuthHyperforceRestResourcesTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__Authorization</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10537,6 +10545,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__ContentRest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__CustomDispositionForm</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10603,6 +10615,10 @@
     <classAccesses>
         <apexClass>maps__ErrorMapping</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__ErrorMappingTest</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>maps__ExceptionUtils</apexClass>
@@ -10945,6 +10961,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__MapsLegacyCheck</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__MapsLiveAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10961,8 +10981,20 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__MapsV2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MapsV2Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__MarkerLayerBuilderController</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MarkerLayerBuilderControllerTest</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>maps__MetadataService</apexClass>
@@ -11011,6 +11043,10 @@
     <classAccesses>
         <apexClass>maps__MobileRestAPITest</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MockCoreUtils</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>maps__OAuth</apexClass>
@@ -47135,6 +47171,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendCustomNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

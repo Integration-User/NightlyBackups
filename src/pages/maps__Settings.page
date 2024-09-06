@@ -150,24 +150,6 @@
     </apex:outputPanel>
 
     <script>
-        // polyfill remove function for IE
-        // (function() {
-        //     function remove() { this.parentNode && this.parentNode.removeChild(this); }
-        //     if (!Element.prototype.remove) Element.prototype.remove = remove;
-        //     if (Text && !Text.prototype.remove) Text.prototype.remove = remove;
-        // })();
-
-        // Browser support + polyfill
-        // if (!!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-        //     console.log('detected IE11 ... loading polyfills');
-        //     var head = document.getElementsByTagName('head')[0] || document.body;
-        //     var script = document.createElement('script');
-        //     script.src = "{!URLFOR($Resource.maps__Maps3rdPartyPlugins, 'js/polyfill.min.js')}";
-        //     head.appendChild(script);
-        // } else if (!!navigator.userAgent.match(/MSIE 10.0.*/)) {
-        //     window.location = '/apex/Oops?type=UnsupportedBrowser';
-        // }
-
         var $Images = {
             priorityOther: "{!URLFOR($Resource.maps__MapsStyles, 'images/Priority-tooltip.png')}",
             priorityEinstein: "{!URLFOR($Resource.maps__MapsStyles, 'images/Einstein-tooltip.png')}",

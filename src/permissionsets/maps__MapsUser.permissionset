@@ -325,6 +325,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__ContentRest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__CustomDispositionForm</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -701,6 +705,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__MapsLegacyCheck</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__MapsLiveAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -714,6 +722,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>maps__MapsTestMethods</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__MapsV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
