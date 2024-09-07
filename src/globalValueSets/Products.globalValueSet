@@ -556,10 +556,9 @@
         <label>Not Applicable</label>
     </customValue>
     <customValue>
-        <fullName>Directory/Publishing</fullName>
+        <fullName>US Tertiary Market Forecast</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>Directory/Publishing</label>
+        <label>US Tertiary Market Forecast</label>
     </customValue>
     <customValue>
         <fullName>REA</fullName>
@@ -680,6 +679,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Bespoke Data Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Directory/Publishing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Directory/Publishing</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
