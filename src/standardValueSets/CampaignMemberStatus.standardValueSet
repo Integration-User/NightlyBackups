@@ -482,6 +482,11 @@
         <label>Sent</label>
     </standardValue>
     <standardValue>
+        <fullName>Sent an Inquiry</fullName>
+        <default>false</default>
+        <label>Sent an Inquiry</label>
+    </standardValue>
+    <standardValue>
         <fullName>Sent Email</fullName>
         <default>false</default>
         <label>Sent Email</label>
