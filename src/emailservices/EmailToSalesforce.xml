@@ -748,7 +748,7 @@ rfilley@greenst.com</authorizedSenders>
         <runAsUser>tloiacono@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
-        <authorizedSenders>dguarino@greenstreet.com</authorizedSenders>
+        <authorizedSenders>dguarino@greenstreet.com, dguarino@greenst.com, duarino@greenstreetadvisors.com</authorizedSenders>
         <developerName>emailtosalesforce194</developerName>
         <isActive>true</isActive>
         <localPart>emailtosalesforce</localPart>
