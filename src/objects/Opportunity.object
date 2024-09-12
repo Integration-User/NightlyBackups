@@ -10454,7 +10454,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Rep_Forecast_Category__c</picklist>
             <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13223,7 +13231,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <picklistValues>
             <picklist>Rep_Forecast_Category__c</picklist>
             <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -34774,7 +34790,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <picklist>Sector_Interests__c</picklist>
             <values>
                 <fullName>All</fullName>
-                <default>true</default>
+                <default>false</default>
             </values>
             <values>
                 <fullName>Apartment</fullName>
