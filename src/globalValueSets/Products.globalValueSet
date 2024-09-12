@@ -561,10 +561,22 @@
         <label>US Tertiary Market Forecast</label>
     </customValue>
     <customValue>
-        <fullName>REA</fullName>
+        <fullName>Bespoke Reports</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>REA</label>
+        <label>Bespoke Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Bespoke Data Collection</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bespoke Data Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Directory/Publishing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Directory/Publishing</label>
     </customValue>
     <customValue>
         <fullName>NA REIT</fullName>
@@ -627,16 +639,40 @@
         <label>EU Sales Comps</label>
     </customValue>
     <customValue>
-        <fullName>eREA</fullName>
+        <fullName>Credit Analytics</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>eREA</label>
+        <label>Credit Analytics</label>
     </customValue>
     <customValue>
         <fullName>Learning Center</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Learning Center</label>
+    </customValue>
+    <customValue>
+        <fullName>eREA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eREA</label>
+    </customValue>
+    <customValue>
+        <fullName>IJGlobal: Investor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IJGlobal: Investor</label>
+    </customValue>
+    <customValue>
+        <fullName>IJ Global: One-Time</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IJ Global: One-Time</label>
+    </customValue>
+    <customValue>
+        <fullName>IJ Global: News</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IJ Global: News</label>
     </customValue>
     <customValue>
         <fullName>IJ Global: Investor</fullName>
@@ -657,34 +693,16 @@
         <label>Royalty Income</label>
     </customValue>
     <customValue>
-        <fullName>Credit Analytics</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Credit Analytics</label>
-    </customValue>
-    <customValue>
         <fullName>Forecast Scenarios</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Forecast Scenarios</label>
     </customValue>
     <customValue>
-        <fullName>Bespoke Reports</fullName>
+        <fullName>REA</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Bespoke Reports</label>
-    </customValue>
-    <customValue>
-        <fullName>Bespoke Data Collection</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bespoke Data Collection</label>
-    </customValue>
-    <customValue>
-        <fullName>Directory/Publishing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Directory/Publishing</label>
+        <label>REA</label>
     </customValue>
     <description>DO NOT REMOVE ANY VALUES FROM GLOBAL PICKLIST. only remove values from the specific record type impacted.</description>
     <masterLabel>Products</masterLabel>
