@@ -3864,6 +3864,21 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
                     <default>false</default>
                     <label>Niche</label>
                 </value>
+                <value>
+                    <fullName>Data Center</fullName>
+                    <default>false</default>
+                    <label>Data Center</label>
+                </value>
+                <value>
+                    <fullName>Multi-Sector</fullName>
+                    <default>false</default>
+                    <label>Multi-Sector</label>
+                </value>
+                <value>
+                    <fullName>Residential</fullName>
+                    <default>false</default>
+                    <label>Residential</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
