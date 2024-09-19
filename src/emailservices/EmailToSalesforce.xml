@@ -1267,6 +1267,13 @@ emailtosalesforce@333e0p8m6hnh7oo23nlbfz2ug8m86pkyo5l80ayyuwx813h65r.f4-3azjreas
         <runAsUser>cpaini@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
+        <authorizedSenders>swang@greenstreet.com</authorizedSenders>
+        <developerName>emailtosalesforce260</developerName>
+        <isActive>true</isActive>
+        <localPart>emailtosalesforce</localPart>
+        <runAsUser>swang@greenstreet.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
         <authorizedSenders>bkrueger@greenst.com,bkrueger@greenstreetadvisors.com</authorizedSenders>
         <developerName>emailtosalesforce27</developerName>
         <isActive>true</isActive>
