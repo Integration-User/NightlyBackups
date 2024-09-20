@@ -2114,6 +2114,10 @@
             <translation><!-- Apartment --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Data Center</masterLabel>
+            <translation><!-- Data Center --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Health Care</masterLabel>
             <translation><!-- Health Care --></translation>
         </picklistValues>
@@ -2122,12 +2126,20 @@
             <translation><!-- Industrial --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Multi-Sector</masterLabel>
+            <translation><!-- Multi-Sector --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Niche</masterLabel>
             <translation><!-- Niche --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Office</masterLabel>
             <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Retail</masterLabel>

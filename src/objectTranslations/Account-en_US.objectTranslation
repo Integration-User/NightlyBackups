@@ -693,12 +693,24 @@
             <translation><!-- Medical Office Building --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Multi-Sector</masterLabel>
+            <translation><!-- Multi-Sector --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Net Lease</masterLabel>
             <translation><!-- Net Lease --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Office</masterLabel>
             <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Self-Storage</masterLabel>
