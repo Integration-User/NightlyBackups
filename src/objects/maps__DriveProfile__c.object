@@ -389,7 +389,7 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Maps Drive Profile</label>
+    <label>Drive Profile</label>
     <listViews>
         <fullName>maps__All</fullName>
         <filterScope>Everything</filterScope>
@@ -399,7 +399,7 @@
         <label>Drive Profile Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Maps Drive Profiles</pluralLabel>
+    <pluralLabel>Drive Profiles</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

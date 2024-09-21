@@ -3,7 +3,7 @@
     <apiVersion>61.0</apiVersion>
     <packageVersions>
         <majorNumber>250</majorNumber>
-        <minorNumber>26</minorNumber>
+        <minorNumber>28</minorNumber>
         <namespace>maps</namespace>
     </packageVersions>
     <status>Active</status>

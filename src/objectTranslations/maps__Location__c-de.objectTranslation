@@ -92,7 +92,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Locations --></relationshipLabel>
+        <relationshipLabel><!-- Locations --></relationshipLabel>
     </fields>
     <gender>Masculine</gender>
     <nameFieldLabel>Standortname</nameFieldLabel>

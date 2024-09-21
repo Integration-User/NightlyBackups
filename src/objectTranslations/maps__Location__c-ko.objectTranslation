@@ -56,7 +56,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Locations --></relationshipLabel>
+        <relationshipLabel><!-- Locations --></relationshipLabel>
     </fields>
     <nameFieldLabel>위치 이름</nameFieldLabel>
 </CustomObjectTranslation>

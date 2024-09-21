@@ -1589,6 +1589,16 @@
                     <default>false</default>
                     <label>Green Street News</label>
                 </value>
+                <value>
+                    <fullName>IJGlobal</fullName>
+                    <default>false</default>
+                    <label>IJGlobal</label>
+                </value>
+                <value>
+                    <fullName>Locatus</fullName>
+                    <default>false</default>
+                    <label>Locatus</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -4432,6 +4442,14 @@ FALSE)))))))))))</formula>
                 <fullName>Green Street News</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
@@ -5860,6 +5878,14 @@ FALSE)))))))))))</formula>
                 <fullName>Green Street News</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
@@ -7087,6 +7113,14 @@ FALSE)))))))))))</formula>
                 <fullName>Green Street News</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
@@ -8257,6 +8291,14 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9618,6 +9660,14 @@ FALSE)))))))))))</formula>
                 <fullName>Green Street News</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
@@ -10824,6 +10874,14 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12122,6 +12180,14 @@ FALSE)))))))))))</formula>
                 <fullName>Green Street News</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Priority</picklist>
@@ -13319,6 +13385,14 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14634,6 +14708,14 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

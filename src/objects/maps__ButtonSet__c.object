@@ -198,7 +198,7 @@
         <type>LongTextArea</type>
         <visibleLines>5</visibleLines>
     </fields>
-    <label>Maps Button Set</label>
+    <label>Button Set</label>
     <listViews>
         <fullName>maps__All</fullName>
         <filterScope>Everything</filterScope>
@@ -208,7 +208,7 @@
         <label>Label</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Maps Button Sets</pluralLabel>
+    <pluralLabel>Button Sets</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

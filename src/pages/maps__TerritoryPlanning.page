@@ -814,6 +814,7 @@
                 CreateAlignmentModal_ImportTerritoryModelPopover_BoundaryAssignmentFieldTooltip: '{!JSENCODE($Label.CreateAlignmentModal_ImportTerritoryModelPopover_BoundaryAssignmentFieldTooltip)}',
                 CreateAlignmentModal_ImportTerritoryModelPopover_LockManualAssignments: '{!JSENCODE($Label.CreateAlignmentModal_ImportTerritoryModelPopover_LockManualAssignments)}',
                 CreateAlignmentModal_AlignmentHierarchyTree_MissingRuleCriteriaFields: '{!JSENCODE($Label.CreateAlignmentModal_AlignmentHierarchyTree_MissingRuleCriteriaFields)}',
+                CreateAlignmentModal_AlignmentHierarchyTree_NoRulesToImport: '{!JSENCODE($Label.CreateAlignmentModal_AlignmentHierarchyTree_NoRulesToImport)}',
                 BrowserModal_DeleteDataSetPopover_PopoverHeader: '{!JSENCODE($Label.BrowserModal_DeleteDataSetPopover_PopoverHeader)}',
                 BrowserModal_DeleteDataSetPopover_ConfirmationText: '{!JSENCODE($Label.BrowserModal_DeleteDataSetPopover_ConfirmationText)}',
                 BrowserModal_DeleteDataSetPopover_CancelButton: '{!JSENCODE($Label.BrowserModal_DeleteDataSetPopover_CancelButton)}',

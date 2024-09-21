@@ -40,7 +40,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Folder Permissions --></relationshipLabel>
+        <relationshipLabel><!-- Folder Permissions --></relationshipLabel>
     </fields>
     <nameFieldLabel>폴더 권한 이름</nameFieldLabel>
 </CustomObjectTranslation>

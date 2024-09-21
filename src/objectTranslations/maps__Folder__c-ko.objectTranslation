@@ -24,7 +24,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Folders --></relationshipLabel>
+        <relationshipLabel><!-- Folders --></relationshipLabel>
     </fields>
     <nameFieldLabel>폴더 이름</nameFieldLabel>
 </CustomObjectTranslation>

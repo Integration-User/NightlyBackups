@@ -50,7 +50,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Folders --></relationshipLabel>
+        <relationshipLabel><!-- Folders --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
     <nameFieldLabel>Mappenavn</nameFieldLabel>
