@@ -862,6 +862,10 @@
         <name>Number_of_Open_Opportunities__c</name>
     </fields>
     <fields>
+        <label><!-- Number of Open Sales Opportunities --></label>
+        <name>Number_of_Open_Sales_Opportunities__c</name>
+    </fields>
+    <fields>
         <label><!-- Original Date --></label>
         <name>Original_Date__c</name>
     </fields>
