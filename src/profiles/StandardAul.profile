@@ -1267,6 +1267,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>StagingDataUploadBatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StagingDataUploadBatch_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TaskTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -24167,6 +24175,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Staging_Data_Upload__c.Failure_Reason__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Staging_Data_Upload__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Sync_Settings__mdt.AddressBook_Field_API_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -40323,6 +40341,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Staging_Data_Upload__c-Staging Data Upload Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Survey-Survey Layout</layout>

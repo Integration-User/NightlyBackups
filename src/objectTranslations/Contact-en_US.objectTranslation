@@ -63,6 +63,18 @@
             <translation><!-- Advisory --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>IJGlobal</masterLabel>
+            <translation><!-- IJGlobal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LDC</masterLabel>
+            <translation><!-- LDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locatus</masterLabel>
+            <translation><!-- Locatus --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>React Advertising</masterLabel>
             <translation><!-- React Advertising --></translation>
         </picklistValues>

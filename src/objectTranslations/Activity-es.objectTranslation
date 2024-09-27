@@ -819,6 +819,18 @@
             <translation><!-- Green Street News: Canada --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>IJGlobal Investor</masterLabel>
+            <translation><!-- IJGlobal Investor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IJGlobal News</masterLabel>
+            <translation><!-- IJGlobal News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LDC data directory</masterLabel>
+            <translation><!-- LDC data directory --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Local Data Online</masterLabel>
             <translation><!-- Local Data Online --></translation>
         </picklistValues>
