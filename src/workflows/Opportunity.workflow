@@ -563,10 +563,6 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>ksantos@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>mgutter@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
