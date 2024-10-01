@@ -2822,6 +2822,10 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
 &quot;14 React Ltd&quot;,29,
 &quot;18.1 LDC&quot;,48,
 &quot;18.2 On-Site Research Limited&quot;,51,
+&quot;21 GSA Canada Ltd&quot;, 54,
+&quot;22.1 Locatus&quot;, 55,
+&quot;22.3 Belgium&quot;, 57,
+&quot;23 IJGlobal&quot;, 67,
 &quot;18.3 Edge Analytics Ltd&quot;,52,0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Subsidiary Internal Id</label>
