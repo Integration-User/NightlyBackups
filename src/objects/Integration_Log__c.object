@@ -309,6 +309,11 @@
             <operation>equals</operation>
             <value>LAST_N_DAYS:7</value>
         </filters>
+        <filters>
+            <field>Related_Record_Id__c</field>
+            <operation>startsWith</operation>
+            <value>001,006</value>
+        </filters>
         <label>Last 7 days</label>
     </listViews>
     <listViews>
