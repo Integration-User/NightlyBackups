@@ -4680,6 +4680,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>UK Retail Analytics Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>US News</fullName>
                 <default>false</default>
             </values>
@@ -6278,6 +6282,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Royalties</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Retail Analytics Pro</fullName>
                 <default>false</default>
             </values>
             <values>
