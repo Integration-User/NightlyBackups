@@ -7872,9 +7872,9 @@ Stored as Long on Solr.</description>
         <columns>List_Membership__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CONTACT.LAST_NAME</field>
-            <operation>contains</operation>
-            <value>DO NOT CALL</value>
+            <field>CONTACT.EMAIL</field>
+            <operation>equals</operation>
+            <value>rnyakairu@greenstreet.com</value>
         </filters>
         <label>All Contacts</label>
     </listViews>
