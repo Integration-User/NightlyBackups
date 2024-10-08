@@ -914,6 +914,14 @@
             <masterLabel>US Standardized Downloads</masterLabel>
             <translation><!-- US Standardized Downloads --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>US Tertiary Market Data</masterLabel>
+            <translation><!-- US Tertiary Market Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Tertiary Market Forecasts</masterLabel>
+            <translation><!-- US Tertiary Market Forecasts --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Call Disposition --></label>
