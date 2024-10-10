@@ -7215,7 +7215,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <filters>
             <field>OPPORTUNITY.CLOSED</field>
             <operation>equals</operation>
-            <value>0</value>
+            <value>1</value>
         </filters>
         <filters>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -7223,9 +7223,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <value>Opportunity.Sales_Opportunity</value>
         </filters>
         <filters>
-            <field>Current_Contract_Year__c</field>
+            <field>X2nd_Year_Amount_in_USD__c</field>
+            <operation>greaterThan</operation>
+            <value>USD 0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
             <operation>equals</operation>
-            <value>0</value>
+            <value>Closed Won</value>
         </filters>
         <label>KS View</label>
         <sharedTo>

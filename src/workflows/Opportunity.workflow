@@ -567,6 +567,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>mscott@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>nhigdem@greenstreet.com</recipient>
             <type>user</type>
         </recipients>

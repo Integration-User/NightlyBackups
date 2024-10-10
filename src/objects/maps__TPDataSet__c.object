@@ -239,6 +239,12 @@
         </valueSet>
     </fields>
     <label>Territory Planning Data Set</label>
+    <listViews>
+        <fullName>All_Data_Sets</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Data Sets</label>
+    </listViews>
     <nameField>
         <label>Name</label>
         <trackFeedHistory>false</trackFeedHistory>
