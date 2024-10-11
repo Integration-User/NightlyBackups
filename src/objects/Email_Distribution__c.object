@@ -300,6 +300,7 @@
         <columns>NAME</columns>
         <columns>Subscription__c</columns>
         <columns>CURRENCY_ISO_CODE</columns>
+        <columns>Order_of_Email_DL_s__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
