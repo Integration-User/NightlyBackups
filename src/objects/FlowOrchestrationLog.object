@@ -15,48 +15,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -67,20 +25,6 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>List</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -129,29 +73,44 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>DayOfWeek</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Actor</fullName>
     </fields>
     <fields>
-        <fullName>EndTime</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Assignee</fullName>
     </fields>
     <fields>
-        <fullName>OperatingHoursId</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AssigneeType</fullName>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+    </fields>
+    <fields>
+        <fullName>Context</fullName>
+    </fields>
+    <fields>
+        <fullName>Duration</fullName>
+    </fields>
+    <fields>
+        <fullName>Kind</fullName>
+    </fields>
+    <fields>
+        <fullName>OrchestrationInstanceId</fullName>
         <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>StartTime</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>OrchestrationName</fullName>
     </fields>
     <fields>
-        <fullName>TimeSlotNumber</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>OrchestrationVersion</fullName>
     </fields>
     <fields>
-        <fullName>Type</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>StageName</fullName>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>StepName</fullName>
+    </fields>
+    <fields>
+        <fullName>Timestamp</fullName>
+    </fields>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

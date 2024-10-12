@@ -2812,6 +2812,16 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
                     <label>Paid Ads</label>
                 </value>
                 <value>
+                    <fullName>Paid Search</fullName>
+                    <default>false</default>
+                    <label>Paid Search</label>
+                </value>
+                <value>
+                    <fullName>Paid Social</fullName>
+                    <default>false</default>
+                    <label>Paid Social</label>
+                </value>
+                <value>
                     <fullName>Derived Intent</fullName>
                     <default>false</default>
                     <label>Derived Intent</label>
@@ -3011,6 +3021,11 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
                 </value>
             </valueSetDefinition>
             <valueSettings>
+                <controllingFieldValue>Paid Search</controllingFieldValue>
+                <controllingFieldValue>Paid Ads</controllingFieldValue>
+                <valueName>Google</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>Former User</controllingFieldValue>
                 <controllingFieldValue>Cold Outreach</controllingFieldValue>
                 <valueName>ZoomInfo</valueName>
@@ -3033,6 +3048,11 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
                 <controllingFieldValue>Former User</controllingFieldValue>
                 <controllingFieldValue>Cold Outreach</controllingFieldValue>
                 <valueName>Personal Network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Paid Social</controllingFieldValue>
+                <controllingFieldValue>Paid Ads</controllingFieldValue>
+                <valueName>LinkedIn</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Former Account</controllingFieldValue>
@@ -3106,14 +3126,6 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
             <valueSettings>
                 <controllingFieldValue>Ecommerce</controllingFieldValue>
                 <valueName>Subscription Request</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Paid Ads</controllingFieldValue>
-                <valueName>LinkedIn</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Paid Ads</controllingFieldValue>
-                <valueName>Google</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Derived Intent</controllingFieldValue>
@@ -19412,6 +19424,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
                 <default>false</default>
             </values>
@@ -29845,6 +29865,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
                 <default>false</default>
             </values>
@@ -32600,6 +32628,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Paid Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35636,6 +35672,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Referral</fullName>
                 <default>false</default>
             </values>
@@ -38450,6 +38494,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Paid Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social</fullName>
                 <default>false</default>
             </values>
             <values>
