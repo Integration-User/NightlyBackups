@@ -985,6 +985,14 @@
             <translation><!-- Paid Ads --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Paid Search</masterLabel>
+            <translation><!-- Paid Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Social</masterLabel>
+            <translation><!-- Paid Social --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Referral</masterLabel>
             <translation><!-- Referral --></translation>
         </picklistValues>
