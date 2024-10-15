@@ -266,7 +266,6 @@
         <columns>NAME</columns>
         <columns>Job__c</columns>
         <columns>CREATED_DATE</columns>
-        <columns>Success__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -290,7 +289,7 @@
         <filters>
             <field>CREATED_DATE</field>
             <operation>equals</operation>
-            <value>THIS_WEEK</value>
+            <value>THIS_MONTH</value>
         </filters>
         <label>Failure Logs</label>
     </listViews>
@@ -301,18 +300,18 @@
         <columns>Related_Record_Id__c</columns>
         <columns>CREATED_DATE</columns>
         <columns>Response_Code__c</columns>
-        <columns>Success__c</columns>
+        <columns>Notes__c</columns>
         <columns>Endpoint__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CREATED_DATE</field>
+            <field>Success__c</field>
             <operation>equals</operation>
-            <value>LAST_N_DAYS:7</value>
+            <value>1</value>
         </filters>
         <filters>
-            <field>Related_Record_Id__c</field>
-            <operation>startsWith</operation>
-            <value>001,006</value>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
         </filters>
         <label>Last 7 days</label>
     </listViews>
@@ -332,7 +331,12 @@
         <filters>
             <field>CREATED_DATE</field>
             <operation>equals</operation>
-            <value>LAST_N_DAYS:7</value>
+            <value>TODAY,YESTERDAY</value>
+        </filters>
+        <filters>
+            <field>Success__c</field>
+            <operation>equals</operation>
+            <value>0</value>
         </filters>
         <label>NS Logs</label>
     </listViews>

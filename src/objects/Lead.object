@@ -310,6 +310,7 @@
         <fields>Name</fields>
         <fields>Company</fields>
         <fields>Title</fields>
+        <fields>Phone</fields>
         <fields>LeadSource</fields>
         <fields>Lead_Classification__c</fields>
         <fields>HasOptedOutOfEmail</fields>
@@ -338,20 +339,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ActionCadenceAssigneeId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ActionCadenceId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ActionCadenceState</fullName>
-    </fields>
-    <fields>
-        <fullName>ActiveTrackerCount</fullName>
     </fields>
     <fields>
         <fullName>Address</fullName>
@@ -929,12 +916,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>FirstCallDateTime</fullName>
-    </fields>
-    <fields>
-        <fullName>FirstEmailDateTime</fullName>
     </fields>
     <fields>
         <fullName>FitScore__c</fullName>
@@ -2950,7 +2931,7 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Next_Outreach_Date__c</fullName>
@@ -3853,6 +3834,14 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>SDO_Conversion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>SDO Conversion</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SalesLoft1__Active_Lead__c</fullName>
         <deprecated>false</deprecated>
         <description>If Lead has an activity logged within the last 30 days, this field will return a value of 1.</description>
@@ -3942,9 +3931,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>ScheduledResumeDateTime</fullName>
     </fields>
     <fields>
         <fullName>Sector_Interests_Lead__c</fullName>
@@ -4596,17 +4582,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>ZoomInfo_Job_Title__c</fullName>
-        <externalId>false</externalId>
-        <label>ZoomInfo Job Title</label>
-        <length>225</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>ZoomInfo_Last_Name_Lead__c</fullName>
         <externalId>false</externalId>
         <label>ZoomInfo Last Name</label>
@@ -5036,8 +5011,11 @@ Stored as Long on Solr.</description>
         <columns>LEAD.CREATED_DATE</columns>
         <columns>Most_Recent_Marketing_Activity__c</columns>
         <columns>LEAD.STATUS</columns>
+        <columns>LEAD.EMAIL</columns>
         <columns>Marketing_Identified_State_lead__c</columns>
+        <columns>LEAD.STATE_CODE</columns>
         <columns>Marketing_Identified_Country_lead__c</columns>
+        <columns>LEAD.COUNTRY_CODE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>LEAD.STATUS</field>
@@ -5079,34 +5057,6 @@ Stored as Long on Solr.</description>
         <queue>EU_SDR_Inbound</queue>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
-        <fullName>Inbound_SDR_Open_Leads</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>LEAD.LEAD_SOURCE</columns>
-        <columns>Lead_Classification__c</columns>
-        <columns>LEAD.COMPANY</columns>
-        <columns>Marketing_Identified_Country_lead__c</columns>
-        <columns>LEAD.STATUS</columns>
-        <columns>LEAD.CREATED_DATE</columns>
-        <columns>LEAD.EMAIL</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CORE.USERS.ALIAS</field>
-            <operation>contains</operation>
-            <value>Inbound</value>
-        </filters>
-        <filters>
-            <field>LEAD.STATUS</field>
-            <operation>equals</operation>
-            <value>Open,Working</value>
-        </filters>
-        <label>Inbound SDR Open Leads</label>
-        <sharedTo>
-            <role>BDR</role>
-            <role>BDR_Manager</role>
         </sharedTo>
     </listViews>
     <listViews>
@@ -5153,27 +5103,6 @@ Stored as Long on Solr.</description>
             <value>Open,Working</value>
         </filters>
         <label>My Open Leads</label>
-    </listViews>
-    <listViews>
-        <fullName>New_Leads1</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>LEAD.COMPANY</columns>
-        <columns>LEAD.TITLE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>CORE.USERS.FIRST_NAME</columns>
-        <columns>LEAD.LEAD_SOURCE</columns>
-        <columns>LEAD.CREATED_DATE</columns>
-        <columns>Most_Recent_Marketing_Activity__c</columns>
-        <columns>LEAD.STATUS</columns>
-        <columns>Marketing_Identified_State_lead__c</columns>
-        <columns>Marketing_Identified_Country_lead__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>LEAD.CREATED_DATE</field>
-            <operation>equals</operation>
-            <value>THIS_WEEK</value>
-        </filters>
-        <label>New Leads</label>
     </listViews>
     <listViews>
         <fullName>Sales_Queue</fullName>
@@ -11333,7 +11262,7 @@ ISPICKVAL( Status , &quot;Sales Qualified&quot;))
     </validationRules>
     <validationRules>
         <fullName>Mandatory_Opportunity_Creation</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Blocks leads from being converted without creating or associating to an opportunity</description>
         <errorConditionFormula>AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,
 AND (
@@ -11383,7 +11312,7 @@ AND(
     </validationRules>
     <validationRules>
         <fullName>Require_GS_Relationship</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Input GS Relationship when lead is marked as Disqualified</description>
         <errorConditionFormula>AND(
 $RecordType.Name = &quot;Marketing&quot;,

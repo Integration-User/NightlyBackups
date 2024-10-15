@@ -11,10 +11,6 @@
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <networkAccess>
         <ipRanges>
-            <end>165.227.46.3</end>
-            <start>165.227.46.3</start>
-        </ipRanges>
-        <ipRanges>
             <description>Shell Black DBA office</description>
             <end>114.69.240.42</end>
             <start>114.69.240.42</start>

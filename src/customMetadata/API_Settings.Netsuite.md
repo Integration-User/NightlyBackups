@@ -8,11 +8,11 @@
     </values>
     <values>
         <field>Consumer_Key__c</field>
-        <value xsi:type="xsd:string">19238dc693e4dac8e0e721311ea196e741b467dab4fcd3e5237e5bee767e5585</value>
+        <value xsi:type="xsd:string">4c22340ba2e2c45ca12836d08da825587a78acbcd2dc17521478ea9cc2c2bd77</value>
     </values>
     <values>
         <field>Consumer_Secret__c</field>
-        <value xsi:type="xsd:string">a9a1b41236413e8629a1e50c8a0126d568e13090020957aea42ed9e4d6448c64</value>
+        <value xsi:type="xsd:string">451f06de1984ece0a2d8b39bd069491e6db5389fc62b60593dc6463a8b4ac894</value>
     </values>
     <values>
         <field>Endpoint__c</field>
@@ -32,11 +32,11 @@
     </values>
     <values>
         <field>Token_Id__c</field>
-        <value xsi:type="xsd:string">84c78476323d2591056b954d08b67f358e74f3a9d05e1595e3f1ecbb38c0328a</value>
+        <value xsi:type="xsd:string">67158c7d0d27f9526394df5c7c899ef60649a5b38b43a8b4997a9c65e222f7a5</value>
     </values>
     <values>
         <field>Token_Secret__c</field>
-        <value xsi:type="xsd:string">a40c1404b08b7502012dd1fbfdb8a985ae777e4213ec2d355bb779a45728330a</value>
+        <value xsi:type="xsd:string">51cbae79bd698671d0967912b8846e2a1f016a4e8237846850e9d4f67e853513</value>
     </values>
     <values>
         <field>Version__c</field>

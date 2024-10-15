@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Data --></label>
+        <name>sfsp__Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>sfsp__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>sfsp__RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Node --></label>
+        <name>sfsp__SalesNode__c</name>
+        <relationshipLabel><!-- Sales Node Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Plan --></label>
+        <name>sfsp__SalesPlan__c</name>
+        <relationshipLabel><!-- Sales Activity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Activity Subtype --></label>
+        <name>sfsp__Subtype__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Activity Type --></label>
+        <name>sfsp__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation><!-- Allocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval Process</masterLabel>
+            <translation><!-- Approval Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assignment</masterLabel>
+            <translation><!-- Assignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hierarchy</masterLabel>
+            <translation><!-- Hierarchy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation><!-- Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status</masterLabel>
+            <translation><!-- Status --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

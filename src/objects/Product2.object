@@ -283,9 +283,39 @@
         <columns>PRODUCT2.EXTERNAL_ID</columns>
         <columns>Website_Product__c</columns>
         <columns>News_Product_Line__c</columns>
+        <columns>Product_ID__c</columns>
         <columns>Exclude_from_Deal_Scoring_Model__c</columns>
+        <columns>PRODUCT2.CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
         <label>All Products</label>
+    </listViews>
+    <listViews>
+        <fullName>Copy_of_All_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <columns>Product_Line__c</columns>
+        <columns>Use_in_Referrals__c</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.EXTERNAL_ID</columns>
+        <columns>Website_Product__c</columns>
+        <columns>News_Product_Line__c</columns>
+        <columns>Product_ID__c</columns>
+        <columns>Exclude_from_Deal_Scoring_Model__c</columns>
+        <columns>PRODUCT2.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.ACTIVE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Inactive Products</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>

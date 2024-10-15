@@ -4,10 +4,6 @@
     <category>other</category>
     <deployed>true</deployed>
     <description>Report Type for contacts and associated trackers.</description>
-    <join>
-        <outerJoin>false</outerJoin>
-        <relationship>ActionCadenceTracker</relationship>
-    </join>
     <label>Contacts and Cadence Trackers</label>
     <sections>
         <columns>
@@ -257,11 +253,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>ActionCadenceState</field>
-            <table>Contact</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>CreatedDate</field>
             <table>Contact</table>
         </columns>
@@ -318,16 +309,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Individual</field>
-            <table>Contact</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>FirstCallDateTime</field>
-            <table>Contact</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>FirstEmailDateTime</field>
             <table>Contact</table>
         </columns>
         <columns>
@@ -413,6 +394,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>zisf__Person_Has_Moved__c</field>
+            <table>Contact</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Left_this_Account__c</field>
             <table>Contact</table>
         </columns>
         <columns>
@@ -1497,7 +1483,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Left_this_Account__c</field>
+            <field>X3x3_Level__c</field>
             <table>Contact</table>
         </columns>
         <masterLabel>Contacts</masterLabel>

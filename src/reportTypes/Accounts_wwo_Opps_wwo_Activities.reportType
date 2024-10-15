@@ -742,6 +742,11 @@
             <field>Renewal_Year_Temp__c</field>
             <table>Account.Opportunities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Name_For_Testing__c</field>
+            <table>Account.Opportunities</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>
@@ -958,11 +963,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Disposition__c</field>
-            <table>Account.Opportunities.Activities</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Salesloft_Meeting_Type__c</field>
             <table>Account.Opportunities.Activities</table>
         </columns>
         <masterLabel>Activities</masterLabel>

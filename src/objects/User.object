@@ -366,13 +366,9 @@
         <formula>CASE(Subsidiary__c ,
 &quot;10 GSA LLC&quot;,8,
 &quot;13 GSA UK Ltd&quot;,10,
-&quot;14 React Ltd&quot;,29,
+&quot;14 React News Ltd&quot;,29,
 &quot;18.1 LDC&quot;,48,
 &quot;18.2 On-Site Research Limited&quot;,51,
-&quot;21 GSA Canada Ltd&quot;, 54,
-&quot;22.1 Locatus&quot;, 55,
-&quot;22.3 Belgium&quot;, 57,
-&quot;23 IJGlobal&quot;, 67,
 &quot;18.3 Edge Analytics Ltd&quot;,52,0)</formula>
         <label>NetSuite Subsidiary Id</label>
         <precision>18</precision>
@@ -1177,37 +1173,19 @@
         <columns>CORE.USER_ROLE.NAME</columns>
         <columns>CORE.PROFILE.NAME</columns>
         <columns>MANAGER</columns>
-        <columns>LAST_UPDATE</columns>
+        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>CORE.USERS.ACTIVE</field>
             <operation>equals</operation>
             <value>1</value>
+        </filters>
+        <filters>
+            <field>FULL_NAME</field>
+            <operation>notContain</operation>
+            <value>Salesforce,SFDC</value>
         </filters>
         <label>Active Users</label>
-    </listViews>
-    <listViews>
-        <fullName>Active_Users_with_Active_Email</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>CORE.USERS.USERNAME</columns>
-        <columns>CORE.USERS.EMAIL</columns>
-        <columns>CORE.USER_ROLE.NAME</columns>
-        <columns>CORE.USERS.ACTIVE</columns>
-        <columns>CORE.PROFILE.NAME</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CORE.USERS.EMAIL</field>
-            <operation>notContain</operation>
-            <value>invalid</value>
-        </filters>
-        <filters>
-            <field>CORE.USERS.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>Active Users with Active Email</label>
-        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>AdminUsers</fullName>
@@ -1220,7 +1198,7 @@
         <columns>CORE.USERS.ACTIVE</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CORE.PROFILE.NAME</field>
+            <field>CORE.USER_ROLE.NAME</field>
             <operation>equals</operation>
             <value>System Administrator</value>
         </filters>
@@ -1241,11 +1219,17 @@
         <columns>CORE.USERS.ACTIVE</columns>
         <columns>CORE.PROFILE.NAME</columns>
         <columns>MANAGER</columns>
+        <columns>LAST_UPDATE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>CORE.USER_ROLE.NAME</field>
             <operation>equals</operation>
             <value>Advisory</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
         </filters>
         <label>Advisory</label>
     </listViews>
@@ -1253,6 +1237,7 @@
         <fullName>AllUsers</fullName>
         <columns>FULL_NAME</columns>
         <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.EMAIL</columns>
         <columns>CORE.USERS.USERNAME</columns>
         <columns>CORE.USERS.LAST_LOGIN</columns>
         <columns>CORE.USER_ROLE.NAME</columns>
@@ -1317,6 +1302,24 @@
         <sharedTo>
             <role>System_Administrator</role>
         </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Product</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>MANAGER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USER_ROLE.NAME</field>
+            <operation>contains</operation>
+            <value>product</value>
+        </filters>
+        <label>Product</label>
     </listViews>
     <listViews>
         <fullName>REA_Only</fullName>

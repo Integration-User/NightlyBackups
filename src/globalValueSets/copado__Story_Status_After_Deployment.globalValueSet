@@ -11,10 +11,9 @@
         <label>Done</label>
     </customValue>
     <customValue>
-        <fullName>Completed</fullName>
+        <fullName>QA</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>Completed</label>
+        <label>QA</label>
     </customValue>
     <customValue>
         <fullName>Ready to Test</fullName>
@@ -45,6 +44,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Ready for UAT</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Completed</label>
     </customValue>
     <masterLabel>Story Status After Deployment</masterLabel>
     <sorted>false</sorted>

@@ -2315,6 +2315,11 @@
             <field>Platform_Improvements__c</field>
             <table>Campaign.ContactCampaignMembers.asknicely__Asknicely__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Response_ID__c</field>
+            <table>Campaign.ContactCampaignMembers.asknicely__Asknicely__r</table>
+        </columns>
         <masterLabel>AskNicely Responses</masterLabel>
     </sections>
 </ReportType>

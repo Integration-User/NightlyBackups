@@ -15,10 +15,6 @@
         <description>CAF Final Approval</description>
         <protected>false</protected>
         <recipients>
-            <recipient>jecusi@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>jwaller@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -112,10 +108,6 @@
         <fullName>UK_CAF_Final_Approval</fullName>
         <description>UK CAF Final Approval</description>
         <protected>false</protected>
-        <recipients>
-            <recipient>jecusi@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
         <recipients>
             <recipient>nkorpal@greenstreet.com</recipient>
             <type>user</type>

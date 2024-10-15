@@ -188,7 +188,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Settings Groups --></relationshipLabel>
+        <relationshipLabel><!-- Settings Groups --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
     <nameFieldLabel>Name der Einstellungsgruppe</nameFieldLabel>

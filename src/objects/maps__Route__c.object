@@ -205,7 +205,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Maps Route</label>
+    <label>Route</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -218,7 +218,7 @@
         <label>Route Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Maps Routes</pluralLabel>
+    <pluralLabel>Routes</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

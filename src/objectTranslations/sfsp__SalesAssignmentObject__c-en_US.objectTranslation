@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Label --></label>
+        <name>sfsp__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Fields --></label>
+        <name>sfsp__ReferenceFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Plan --></label>
+        <name>sfsp__SalesPlan__c</name>
+        <relationshipLabel><!-- Sales Assignment Objects --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

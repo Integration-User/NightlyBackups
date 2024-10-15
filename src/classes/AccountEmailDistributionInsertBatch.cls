@@ -6,12 +6,10 @@ public class AccountEmailDistributionInsertBatch implements Database.Batchable<s
     }
     
     public List<SObject> start(Database.BatchableContext BC){
-        system.debug('--accountEmailDistributionInsertList-->'+accountEmailDistributionInsertList);
         return accountEmailDistributionInsertList;
     }
     
     public void execute(Database.BatchableContext BC, List<sObject> scope) {
-        system.debug('--scope-->'+scope);
         Database.upsert(scope, false);
     }
     

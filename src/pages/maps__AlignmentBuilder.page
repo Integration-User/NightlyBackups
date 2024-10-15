@@ -861,6 +861,7 @@
                 CreateAlignmentTerritoryModelModal_ImportCSVPopover_UserColumnLookup: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_ImportCSVPopover_UserColumnLookup)}',
                 
                 EditTerritoryModelModal_AlignmentHierarchyTree_MissingRuleCriteriaFields: '{!JSENCODE($Label.EditTerritoryModelModal_AlignmentHierarchyTree_MissingRuleCriteriaFields)}',
+                EditTerritoryModelModal_AlignmentHierarchyTree_NoRulesToImport: '{!JSENCODE($Label.EditTerritoryModelModal_AlignmentHierarchyTree_NoRulesToImport)}',
                 EditTerritoryModelModal_Processing_StatusText_FetchingModel: '{!JSENCODE($Label.EditTerritoryModelModal_Processing_StatusText_FetchingModel)}',
                 EditTerritoryModelModal_Processing_StatusText_Dissolve: '{!JSENCODE($Label.EditTerritoryModelModal_Processing_StatusText_Dissolve)}',
                 EditTerritoryModelModal_Processing_StatusText_Reassign: '{!JSENCODE($Label.EditTerritoryModelModal_Processing_StatusText_Reassign)}',
@@ -1947,6 +1948,8 @@
                 LiveAttributesModal_Processing_FieldsLoadingMessage: '{!JSENCODE($Label.LiveAttributesModal_Processing_FieldsLoadingMessage)}',
                 LiveAttributesModal_Processing_SavingMessage: '{!JSENCODE($Label.LiveAttributesModal_Processing_SavingMessage)}',
                 LiveAttributesModal_Processing_FieldsAddedMessage: '{!JSENCODE($Label.LiveAttributesModal_Processing_FieldsAddedMessage)}',
+                LiveAttributesModal_Processing_FieldsNotAdded: '{!JSENCODE($Label.LiveAttributesModal_Processing_FieldsNotAdded)}',
+
                 AttributesModal_Processing_FieldsRemovedMessage: '{!JSENCODE($Label.AttributesModal_Processing_FieldsRemovedMessage)}',
                 GeoInfoModal_Processing_SavingMessage: '{!JSENCODE($Label.GeoInfoModal_Processing_SavingMessage)}',
                 GeoInfoModal_Processing_DataSourcesUpdatedMessage: '{!JSENCODE($Label.GeoInfoModal_Processing_DataSourcesUpdatedMessage)}',

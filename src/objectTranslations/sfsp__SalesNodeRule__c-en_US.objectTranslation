@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Boolean Filter --></label>
+        <name>sfsp__BooleanFilter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Logic --></label>
+        <name>sfsp__FilterLogic__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation><!-- Any --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Assignment Object --></label>
+        <name>sfsp__SalesAssignmentObject__c</name>
+        <relationshipLabel><!-- Sales Node Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Node Boundary --></label>
+        <name>sfsp__SalesNodeBoundary__c</name>
+        <relationshipLabel><!-- Sales Node Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Node --></label>
+        <name>sfsp__SalesNode__c</name>
+        <relationshipLabel><!-- Sales Node Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>sfsp__SortOrder__c</name>
+    </fields>
+</CustomObjectTranslation>

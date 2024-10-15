@@ -1808,6 +1808,11 @@
             <field>Inquiry_Type__c</field>
             <table>Account.Leads__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_Conversion__c</field>
+            <table>Account.Leads__r</table>
+        </columns>
         <masterLabel>Leads</masterLabel>
     </sections>
 </ReportType>

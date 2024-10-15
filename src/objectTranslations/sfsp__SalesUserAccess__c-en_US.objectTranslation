@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Access Level --></label>
+        <name>sfsp__AccessLevel__c</name>
+        <picklistValues>
+            <masterLabel>Editor</masterLabel>
+            <translation><!-- Editor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viewer</masterLabel>
+            <translation><!-- Viewer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Application Access --></label>
+        <name>sfsp__ApplicationAccess__c</name>
+        <picklistValues>
+            <masterLabel>Quota Planning</masterLabel>
+            <translation><!-- Quota Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Planning</masterLabel>
+            <translation><!-- Territory Planning --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Node --></label>
+        <name>sfsp__SalesNode__c</name>
+        <relationshipLabel><!-- Sales Planning User Access --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Plan --></label>
+        <name>sfsp__SalesPlan__c</name>
+        <relationshipLabel><!-- Sales Planning User Access --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>sfsp__User__c</name>
+        <relationshipLabel><!-- Sales Planning User Access --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

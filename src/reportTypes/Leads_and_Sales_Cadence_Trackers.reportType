@@ -4,10 +4,6 @@
     <category>other</category>
     <deployed>true</deployed>
     <description>Report Type for leads and associated trackers.</description>
-    <join>
-        <outerJoin>false</outerJoin>
-        <relationship>ActionCadenceTracker</relationship>
-    </join>
     <label>Leads and Cadence Trackers</label>
     <sections>
         <columns>
@@ -288,21 +284,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>GenderIdentity</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>ActionCadenceState</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>FirstCallDateTime</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>FirstEmailDateTime</field>
             <table>Lead</table>
         </columns>
         <columns>
@@ -857,11 +838,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>ZoomInfo_Job_Title__c</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Last_Page_Seen__c</field>
             <table>Lead</table>
         </columns>
@@ -1048,6 +1024,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>ConvertedOpportunity.Name</field>
+            <table>Lead</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_Conversion__c</field>
             <table>Lead</table>
         </columns>
         <masterLabel>Leads</masterLabel>

@@ -55,7 +55,6 @@ public class Plative_AccountEmailDistributionHelper {
                         contactEmailDistribution.Account__c = emailDistribution.Account__c;
                         contactEmailDistribution.Contact__c = cont.Id;
                         contactEmailDistribution.Email_Distribution__c = emailDistribution.Email_Distribution__c;
-                        contactEmailDistribution.Name = emailDistribution.Email_Distribution__c;
                         contactEmailDistributionInsertList.add(contactEmailDistribution);
                     }
                     if (contactIdVsEmailDistributionMap.containsKey(cont.Id) && contactIdVsEmailDistributionMap.get(cont.Id).contains(emailDistribution.Email_Distribution__c)) {
@@ -71,8 +70,7 @@ public class Plative_AccountEmailDistributionHelper {
         }
         
         //insert contact email distributions
-        system.debug('contactEmailDistributionInsertList-->'+contactEmailDistributionInsertList.size());
-        upsert contactEmailDistributionInsertList;
+        upsert contactEmailDistributionInsertList;        
     }
     
     

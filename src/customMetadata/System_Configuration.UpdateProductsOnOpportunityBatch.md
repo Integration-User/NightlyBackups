@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>IsEnabled__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>Value__c</field>

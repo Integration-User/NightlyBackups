@@ -186,7 +186,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Green_Street_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -194,7 +194,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Green_Street_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -464,7 +464,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Billing_Address_Score__c</fullName>
@@ -1250,7 +1250,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts4</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -1278,7 +1278,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
     <fields>
         <fullName>Export_Excel_Add_In_Users__c</fullName>
         <externalId>false</externalId>
-        <formula>HYPERLINK(&apos;/00Odx000000KyHlEAK?pv0=&apos;+X18_digit_Account_ID__c+&apos;&amp;export=1&amp;enc=UTF-8&amp;xf=xlsx&amp;isdtp=p1&apos;,Text( Excel_Add_In_Users__c))</formula>
+        <formula>HYPERLINK(&apos;/00OVy000000YwG5MAK?pv0=&apos;+X18_digit_Account_ID__c+&apos;&amp;export=1&amp;enc=UTF-8&amp;xf=xlsx&amp;isdtp=p1&apos;,Text( Excel_Add_In_Users__c))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Excel Add-In Users</label>
         <required>false</required>
@@ -1838,11 +1838,6 @@ Owner.Id = $User.Id)</formula>
         <type>Summary</type>
     </fields>
     <fields>
-        <fullName>OperatingHoursId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Original_Date__c</fullName>
         <label>Original Date</label>
         <summarizedField>Opportunity.CloseDate</summarizedField>
@@ -2170,7 +2165,7 @@ Owner.Id = $User.Id)</formula>
         <inlineHelpText>This field is used for &quot;Pre-opportunity&quot; prospecting</inlineHelpText>
         <label>Prospect Category</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -2239,7 +2234,7 @@ Owner.Id = $User.Id)</formula>
         <referenceTo>User</referenceTo>
         <relationshipName>Protected_By</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -2494,28 +2489,6 @@ Owner.Id = $User.Id)</formula>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Research_Market_Data_Deals_L60D_Usage__c</fullName>
-        <externalId>false</externalId>
-        <label>Research+Market Data &amp; Deals L60D Usage</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Research_REIT_Data_L60D_Usage__c</fullName>
-        <externalId>false</externalId>
-        <label>Research + REIT Data L60D Usage</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Research_Usage_L60D__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Research email and platform clicks for this account over the last 60 days</inlineHelpText>
@@ -2591,7 +2564,7 @@ Owner.Id = $User.Id)</formula>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Shipping_Address_Score__c</fullName>
@@ -2822,10 +2795,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
 &quot;14 React Ltd&quot;,29,
 &quot;18.1 LDC&quot;,48,
 &quot;18.2 On-Site Research Limited&quot;,51,
-&quot;21 GSA Canada Ltd&quot;, 54,
-&quot;22.1 Locatus&quot;, 55,
-&quot;22.3 Belgium&quot;, 57,
-&quot;23 IJGlobal&quot;, 67,
 &quot;18.3 Edge Analytics Ltd&quot;,52,0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Subsidiary Internal Id</label>
@@ -2905,7 +2874,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <defaultValue>false</defaultValue>
         <description>Checkbox to denote if a record is updated in salesforce and required to be synced with NS.</description>
         <label>Sync to Netsuite</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -2915,7 +2884,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <label>Synced?</label>
         <length>10</length>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -3010,7 +2979,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <summaryFilterItems>
             <field>Recurring_Revenue_Snapshot__c.Date__c</field>
             <operation>equals</operation>
-            <value>4/1/2023</value>
+            <value>8/1/2023</value>
         </summaryFilterItems>
         <summaryForeignKey>Recurring_Revenue_Snapshot__c.Account__c</summaryForeignKey>
         <summaryOperation>sum</summaryOperation>
@@ -3024,17 +2993,6 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <summaryOperation>count</summaryOperation>
         <trackHistory>false</trackHistory>
         <type>Summary</type>
-    </fields>
-    <fields>
-        <fullName>Total_Usage_L60D__c</fullName>
-        <externalId>false</externalId>
-        <label>Total Usage L60D</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Transition_Lost_Client__c</fullName>
@@ -3098,7 +3056,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts5</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -3174,7 +3132,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
     <fields>
         <fullName>XFP_Folder_Structure__c</fullName>
         <externalId>false</externalId>
-        <formula>&apos;Account&apos; + &apos;/&apos; + Name</formula>
+        <formula>&apos;Account&apos; + &apos;/&apos; +SUBSTITUTE(Name,&quot;/&quot;,&quot;_&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>XFP Folder Structure</label>
         <required>false</required>
@@ -3742,6 +3700,43 @@ Stored as Long on Solr.</description>
         <type>DateTime</type>
     </fields>
     <listViews>
+        <fullName>Accounts_w_Open_Pipeline_Exclusion_List</fullName>
+        <columns>X18_digit_Account_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Company_Type__c</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>Number_of_Open_Opportunities__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Number_of_Open_Opportunities__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <label>Accounts w/ Open Pipeline Exclusion List</label>
+    </listViews>
+    <listViews>
+        <fullName>Active_Customers</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>X18_digit_Account_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Company_Type__c</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Client,Favor,Suspended</value>
+        </filters>
+        <filters>
+            <field>React_Client__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Exclusion List</label>
+    </listViews>
+    <listViews>
         <fullName>AllAccounts</fullName>
         <columns>ACCOUNT.NAME</columns>
         <columns>Renewal_Month__c</columns>
@@ -3757,8 +3752,18 @@ Stored as Long on Solr.</description>
         <columns>Analyst_Access__c</columns>
         <columns>Detailed_NAV_Models__c</columns>
         <columns>High_Value_Data_Sets__c</columns>
-        <columns>Activated_Users__c</columns>
+        <columns>Customer_Success_Rep__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Account.Subsidiary_Account</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Client</value>
+        </filters>
         <label>Current Clients</label>
     </listViews>
     <listViews>
@@ -3776,12 +3781,11 @@ Stored as Long on Solr.</description>
         <columns>Detailed_NAV_Models__c</columns>
         <columns>High_Value_Data_Sets__c</columns>
         <columns>X18_digit_Account_ID__c</columns>
-        <columns>Activated_Users__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>Subsidiary__c</field>
-            <operation>equals</operation>
-            <value>13 GSA UK Ltd</value>
+            <field>ACCOUNT.NAME</field>
+            <operation>contains</operation>
+            <value>true</value>
         </filters>
         <label>All Accounts</label>
     </listViews>
@@ -3826,21 +3830,28 @@ Stored as Long on Solr.</description>
     <listViews>
         <fullName>Box_Folders_to_Create</fullName>
         <columns>ACCOUNT.NAME</columns>
+        <columns>Prospect_Category__c</columns>
+        <columns>Prospect_Notes__c</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>ACCOUNT.TYPE</field>
-            <operation>equals</operation>
-            <value>Client</value>
-        </filters>
-        <filters>
-            <field>Priority__c</field>
-            <operation>equals</operation>
-            <value>Strategic,Core,Enterprise</value>
-        </filters>
         <filters>
             <field>ACCOUNT.RECORDTYPE</field>
             <operation>equals</operation>
             <value>Account.Subsidiary_Account</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.ADDRESS1_CITY</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+            <operation>equals</operation>
         </filters>
         <label>Box Folders to Create</label>
         <sharedTo>
@@ -3964,6 +3975,33 @@ Stored as Long on Solr.</description>
         <label>News Upsell SPIF Accounts</label>
     </listViews>
     <listViews>
+        <fullName>Phase_1_Target</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Souter,Pilmer,Muzaffar,Emtiaz</value>
+        </filters>
+        <filters>
+            <field>Protected_By__c</field>
+            <operation>equals</operation>
+            <value>Matt Souter,Andrew Pilmer,Usman Muzaffar,Shyan Emtiaz</value>
+        </filters>
+        <filters>
+            <field>Prospect_Category__c</field>
+            <operation>notEqual</operation>
+            <value>Not Viable Now,Not Viable</value>
+        </filters>
+        <label>Phase 1 Target</label>
+    </listViews>
+    <listViews>
         <fullName>REA_Only_Upsell_Target_List_Tier_2</fullName>
         <columns>ACCOUNT.NAME</columns>
         <columns>ACCOUNT.SITE</columns>
@@ -3973,6 +4011,44 @@ Stored as Long on Solr.</description>
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Mine</filterScope>
         <label>REA Only Upsell Target List Tier 2</label>
+    </listViews>
+    <listViews>
+        <fullName>X6sense_Orchestration_Test_1</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_YEARS:3</value>
+        </filters>
+        <label>6sense Orchestration Test 1</label>
+    </listViews>
+    <listViews>
+        <fullName>X6sense_Orchestration_Test_2</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>lessThan</operation>
+            <value>LAST_N_YEARS:3</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <label>6sense Orchestration Test 2</label>
     </listViews>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
@@ -4709,6 +4785,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>US Tertiary Market Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Tertiary Market Forecast</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

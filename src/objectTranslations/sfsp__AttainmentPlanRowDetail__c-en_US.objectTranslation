@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Attainment Plan Row --></label>
+        <name>sfsp__AttainmentPlanRow__c</name>
+        <relationshipLabel><!-- Attainment Plan Row Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 10 --></label>
+        <name>sfsp__Attainment_Month10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 11 --></label>
+        <name>sfsp__Attainment_Month11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 12 --></label>
+        <name>sfsp__Attainment_Month12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 1 --></label>
+        <name>sfsp__Attainment_Month1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 2 --></label>
+        <name>sfsp__Attainment_Month2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 3 --></label>
+        <name>sfsp__Attainment_Month3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 4 --></label>
+        <name>sfsp__Attainment_Month4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 5 --></label>
+        <name>sfsp__Attainment_Month5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 6 --></label>
+        <name>sfsp__Attainment_Month6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 7 --></label>
+        <name>sfsp__Attainment_Month7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 8 --></label>
+        <name>sfsp__Attainment_Month8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attainment Month 9 --></label>
+        <name>sfsp__Attainment_Month9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Custom Detail Row --></label>
+        <name>sfsp__IsCustomDetailRow__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -81,9 +81,8 @@ public class Plative_AccountProductLineTriggerHelper {
             
             //insert Account Email Distributions for News Products added as Product Lines
             //SF-798 - Bulkify Email Distro assignment upon Product Addition
-            system.debug('--accountEmailDistributionInsertList-->'+accountEmailDistributionInsertList);
-            // Database.insert(accountEmailDistributionInsertList, false);
-             if(accountEmailDistributionInsertList.size() > 0){
+            //Database.insert(accountEmailDistributionInsertList, false);
+            if(accountEmailDistributionInsertList.size() > 0){
                 database.executeBatch(new AccountEmailDistributionInsertBatch(accountEmailDistributionInsertList), 10); // Calling batch class.
             }
             return true;

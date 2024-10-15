@@ -1375,11 +1375,6 @@
             <field>Disposition__c</field>
             <table>Campaign.LeadCampaignMembers.Activities</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Salesloft_Meeting_Type__c</field>
-            <table>Campaign.LeadCampaignMembers.Activities</table>
-        </columns>
         <masterLabel>Activities</masterLabel>
     </sections>
 </ReportType>

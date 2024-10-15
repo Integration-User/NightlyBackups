@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>sfsp__Account__c</name>
+        <relationshipLabel><!-- Attainment Plan Account Rows --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attainment Plan --></label>
+        <name>sfsp__AttainmentPlan__c</name>
+        <relationshipLabel><!-- Attainment Plan Rows --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Priority --></label>
+        <name>sfsp__IsPriority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>sfsp__Notes__c</name>
+    </fields>
+</CustomObjectTranslation>

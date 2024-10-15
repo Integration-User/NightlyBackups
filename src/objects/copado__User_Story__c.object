@@ -128,16 +128,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page3</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page3</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -4607,11 +4613,6 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>copado__Close_Date__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
             <field>copado__Compliance_Criteria__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4772,6 +4773,11 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>copado__Parent_Epic_Title__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4862,6 +4868,11 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
+            <field>copado__US_Feature__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>copado__Validate_Only__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4908,11 +4919,6 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>OwnerId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
             <field>copado__Total_Story_Points__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -4928,7 +4934,7 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>copado__US_Feature__c</field>
+            <field>copado__Close_Date__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -7708,6 +7714,130 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </fields>
     <label>User Story</label>
     <listViews>
+        <fullName>Current_Sprint</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>Jira_Key__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Story_Points_SFDC__c</columns>
+        <columns>copado__Org_Credential__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Documentation_Complete__c</columns>
+        <columns>copado__Close_Date__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Release__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>copado__Last_Promotion_Date__c</columns>
+        <columns>copado__Latest_Commit_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__Sprint__c</field>
+            <operation>equals</operation>
+            <value>SFDC S2022-69,SFDC S2022-70</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Done,Cancelled</value>
+        </filters>
+        <label>Current Sprint</label>
+    </listViews>
+    <listViews>
+        <fullName>Excluded_From_Deal_Pipeline</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__Exclude_From_CBM__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Excluded From Deal Pipeline</label>
+    </listViews>
+    <listViews>
+        <fullName>HubSpot_Revamp_Features</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>Jira_Key__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Story_Points_SFDC__c</columns>
+        <columns>copado__Org_Credential__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Documentation_Complete__c</columns>
+        <columns>copado__Close_Date__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Release__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Epic__c</field>
+            <operation>equals</operation>
+            <value>E0000020</value>
+        </filters>
+        <label>HubSpot Revamp Features</label>
+    </listViews>
+    <listViews>
+        <fullName>User_Stories_by_Epic</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>Jira_Key__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Org_Credential__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Release__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>copado__Last_Promotion_Date__c</columns>
+        <columns>copado__Latest_Commit_Date__c</columns>
+        <columns>copado__Exclude_From_CBM__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__Epic__c</field>
+            <operation>equals</operation>
+            <value>E0000020</value>
+        </filters>
+        <filters>
+            <field>copado__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Blocked,Cancelled</value>
+        </filters>
+        <filters>
+            <field>copado__Exclude_From_CBM__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__Bug,copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Sprint__c</field>
+            <operation>notEqual</operation>
+            <value>SFDC S2022-55</value>
+        </filters>
+        <filters>
+            <field>copado__Org_Credential__c</field>
+            <operation>notContain</operation>
+            <value>Prod</value>
+        </filters>
+        <label>User Stories by Epic</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
@@ -7719,6 +7849,8 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Epic__c</columns>
         <columns>copado__Theme__c</columns>
         <columns>copado__Project__c</columns>
+        <columns>copado__Story_Points_SFDC__c</columns>
+        <columns>copado__Exclude_From_CBM__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -8148,11 +8280,39 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <picklistValues>
             <picklist>copado__Status__c</picklist>
             <values>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Code Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Done</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prioritized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Prod</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8559,11 +8719,35 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <picklistValues>
             <picklist>copado__Status__c</picklist>
             <values>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Code Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Done</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prioritized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Prod</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9409,11 +9593,35 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <picklistValues>
             <picklist>copado__Status__c</picklist>
             <values>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Code Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Done</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prioritized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Prod</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

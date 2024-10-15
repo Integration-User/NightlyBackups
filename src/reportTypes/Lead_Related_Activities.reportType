@@ -440,6 +440,11 @@
             <field>Inquiry_Type__c</field>
             <table>Lead</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_Conversion__c</field>
+            <table>Lead</table>
+        </columns>
         <masterLabel>Leads</masterLabel>
     </sections>
     <sections>
@@ -661,11 +666,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Disposition__c</field>
-            <table>Lead.Activities</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Salesloft_Meeting_Type__c</field>
             <table>Lead.Activities</table>
         </columns>
         <masterLabel>Activities</masterLabel>

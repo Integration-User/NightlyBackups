@@ -2170,6 +2170,10 @@
         <name>Revisit_Date__c</name>
     </fields>
     <fields>
+        <label><!-- SDO Conversion --></label>
+        <name>SDO_Conversion__c</name>
+    </fields>
+    <fields>
         <label><!-- Active Lead --></label>
         <name>SalesLoft1__Active_Lead__c</name>
     </fields>
@@ -2531,10 +2535,6 @@
     <fields>
         <label><!-- ZoomInfo Job Title --></label>
         <name>ZoomInfo_Job_Title_Lead__c</name>
-    </fields>
-    <fields>
-        <label><!-- ZoomInfo Job Title --></label>
-        <name>ZoomInfo_Job_Title__c</name>
     </fields>
     <fields>
         <label><!-- ZoomInfo Last Name --></label>

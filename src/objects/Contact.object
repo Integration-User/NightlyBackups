@@ -371,17 +371,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>ActionCadenceAssigneeId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ActionCadenceId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ActionCadenceState</fullName>
-    </fields>
-    <fields>
         <fullName>Activate_Contact__c</fullName>
         <defaultValue>false</defaultValue>
         <label>Activate Contact</label>
@@ -396,9 +385,6 @@
         <required>false</required>
         <trackHistory>true</trackHistory>
         <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>ActiveTrackerCount</fullName>
     </fields>
     <fields>
         <fullName>Active_User__c</fullName>
@@ -1023,12 +1009,6 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>FirstCallDateTime</fullName>
-    </fields>
-    <fields>
-        <fullName>FirstEmailDateTime</fullName>
     </fields>
     <fields>
         <fullName>Former_Client__c</fullName>
@@ -1817,7 +1797,7 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
     </fields>
     <fields>
         <fullName>MailingAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Manager__c</fullName>
@@ -1836,7 +1816,6 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -3823,9 +3802,6 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>ScheduledResumeDateTime</fullName>
-    </fields>
-    <fields>
         <fullName>Secondary_Email__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Note: Activities are not auto-logged to this email</inlineHelpText>
@@ -4066,7 +4042,7 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -4079,7 +4055,7 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -4099,7 +4075,7 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -7884,9 +7860,9 @@ Stored as Long on Solr.</description>
         <columns>List_Membership__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CONTACT.EMAIL</field>
-            <operation>equals</operation>
-            <value>rnyakairu@greenstreet.com</value>
+            <field>CONTACT.LAST_NAME</field>
+            <operation>contains</operation>
+            <value>DO NOT CALL</value>
         </filters>
         <label>All Contacts</label>
     </listViews>
@@ -7928,6 +7904,25 @@ Stored as Long on Solr.</description>
         <label>BS Business Development Activity</label>
     </listViews>
     <listViews>
+        <fullName>Bounced_Contacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Company_Type_Contact__c</field>
+            <operation>contains</operation>
+            <value>Broker</value>
+        </filters>
+        <label>Bounced Broker Contacts</label>
+        <sharedTo>
+            <role>Customer_Success</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>Casey_Searl_Business_Development</fullName>
         <columns>FULL_NAME</columns>
         <columns>ACCOUNT.NAME</columns>
@@ -7947,37 +7942,6 @@ Stored as Long on Solr.</description>
         <sharedTo>
             <roleAndSubordinates>BDR_Manager</roleAndSubordinates>
             <roleAndSubordinates>Sales_Manager</roleAndSubordinates>
-        </sharedTo>
-    </listViews>
-    <listViews>
-        <fullName>Contacts_to_Mass_Deactivate</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>Activation_Date__c</columns>
-        <columns>Deactivation_Date__c</columns>
-        <columns>Contact_Status__c</columns>
-        <columns>Activate_Contact__c</columns>
-        <columns>To_Deactivate_On__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>To_Deactivate_On__c</field>
-            <operation>equals</operation>
-            <value>11/18/2021</value>
-        </filters>
-        <filters>
-            <field>Contact_Status__c</field>
-            <operation>equals</operation>
-            <value>Inactive</value>
-        </filters>
-        <filters>
-            <field>Activate_Contact__c</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>Contacts to Mass Deactivate</label>
-        <sharedTo>
-            <role>Commercial_Operations</role>
-            <role>System_Administrator</role>
         </sharedTo>
     </listViews>
     <listViews>
@@ -8015,7 +7979,33 @@ Stored as Long on Solr.</description>
         <columns>Last_Login_Date__c</columns>
         <columns>CONTACT.LAST_UPDATE</columns>
         <columns>Loaded__c</columns>
+        <columns>ACCOUNT.TYPE</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>startsWith</operation>
+            <value>Fried,Frank,Harris,Shriver &amp; Jacobso</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Inactive</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Client</value>
+        </filters>
+        <filters>
+            <field>Account.GSA_ID__c</field>
+            <operation>notEqual</operation>
+            <value>22832</value>
+        </filters>
+        <filters>
+            <field>Deactivation_Date__c</field>
+            <operation>equals</operation>
+            <value>3/4/2024</value>
+        </filters>
         <label>Copy of Copy of User List Updates</label>
         <sharedTo>
             <role>System_Administrator</role>
@@ -8056,7 +8046,7 @@ Stored as Long on Solr.</description>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>contains</operation>
-            <value>HSBC Global Asset Management (NA)</value>
+            <value>dexus</value>
         </filters>
         <label>Copy of User List Updates</label>
         <sharedTo>
@@ -8258,24 +8248,30 @@ Stored as Long on Solr.</description>
         <label>Mass Activations JLL EMEA</label>
     </listViews>
     <listViews>
-        <fullName>Mass_Deactivations</fullName>
+        <fullName>Mass_Deactivate_Contacts</fullName>
         <columns>FULL_NAME</columns>
         <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.PHONE1</columns>
         <columns>CONTACT.EMAIL</columns>
-        <columns>CONTACT.EMAIL_OPT_OUT</columns>
-        <columns>CONTACT.TITLE</columns>
-        <columns>Activation_Date__c</columns>
-        <columns>Deactivation_Date__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <columns>Mass_Deactivate__c</columns>
-        <columns>Activate_Contact__c</columns>
         <columns>Contact_Status__c</columns>
+        <columns>Activate_Contact__c</columns>
+        <columns>Account.GSA_ID__c</columns>
         <columns>GSA_ID__c</columns>
+        <columns>LID__No_longer_at_Company__c</columns>
+        <columns>Deactivation_Date__c</columns>
         <filterScope>Everything</filterScope>
-        <label>Mass Deactivations</label>
-        <sharedTo>
-            <role>Commercial_Operations</role>
-        </sharedTo>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>notContain</operation>
+            <value>Green Street</value>
+        </filters>
+        <label>Mass Deactivate Contacts</label>
     </listViews>
     <listViews>
         <fullName>Mona_Georgia_Prospecting_List</fullName>
@@ -8680,12 +8676,12 @@ Stored as Long on Solr.</description>
         <columns>CONTACT.PHONE1</columns>
         <columns>CONTACT.EMAIL</columns>
         <columns>CONTACT.TITLE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Key_User__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>Account.OwnerIDName__c</field>
+            <field>ACCOUNT.NAME</field>
             <operation>equals</operation>
-            <value>Ben Perkins</value>
+            <value>Blackrock - Direct (EU),BlackRock Advisors (NA)</value>
         </filters>
         <label>Test List</label>
     </listViews>
@@ -8724,7 +8720,12 @@ Stored as Long on Solr.</description>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>contains</operation>
-            <value>Kroger</value>
+            <value>Natixis North America LLC</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
         </filters>
         <label>User List Updates- Client Ops</label>
         <sharedTo>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Details --></label>
+        <name>sfsp__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>sfsp__MaioEndpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Assignment Object --></label>
+        <name>sfsp__SalesAssignmentObject__c</name>
+        <relationshipLabel><!-- Sales Async Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Splunk --></label>
+        <name>sfsp__Splunk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>sfsp__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Running</masterLabel>
+            <translation><!-- Running --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting</masterLabel>
+            <translation><!-- Waiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation><!-- Warning --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>sfsp__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

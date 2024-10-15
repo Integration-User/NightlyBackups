@@ -288,21 +288,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>ActionCadenceState</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>FirstCallDateTime</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>FirstEmailDateTime</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>LID__LinkedIn_Company_Id__c</field>
             <table>Lead</table>
         </columns>
@@ -853,11 +838,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>ZoomInfo_Job_Title__c</field>
-            <table>Lead</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Last_Page_Seen__c</field>
             <table>Lead</table>
         </columns>
@@ -1034,6 +1014,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>ZoomInfo_Within_EU_Lead__c</field>
+            <table>Lead</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SDO_Conversion__c</field>
             <table>Lead</table>
         </columns>
         <masterLabel>Leads</masterLabel>

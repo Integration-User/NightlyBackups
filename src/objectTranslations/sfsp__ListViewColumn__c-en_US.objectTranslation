@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Column --></label>
+        <name>sfsp__Column__c</name>
+    </fields>
+    <fields>
+        <label><!-- List View --></label>
+        <name>sfsp__ListView__c</name>
+        <relationshipLabel><!-- List View Columns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>sfsp__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Assignment Object --></label>
+        <name>sfsp__SalesAssignmentObject__c</name>
+        <relationshipLabel><!-- Sales Assignment Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Node Boundary Object --></label>
+        <name>sfsp__SalesNodeBoundary__c</name>
+        <relationshipLabel><!-- Sales Node Boundary Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Summary Format --></label>
+        <name>sfsp__SummaryFormat__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Max</masterLabel>
+            <translation><!-- Max --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Median</masterLabel>
+            <translation><!-- Median --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Min</masterLabel>
+            <translation><!-- Min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PercentOfFocus</masterLabel>
+            <translation><!-- PercentOfFocus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sum</masterLabel>
+            <translation><!-- Sum --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>sfsp__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allocation Metric</masterLabel>
+            <translation><!-- Allocation Metric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assignment Object</masterLabel>
+            <translation><!-- Assignment Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Field</masterLabel>
+            <translation><!-- Reference Field --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

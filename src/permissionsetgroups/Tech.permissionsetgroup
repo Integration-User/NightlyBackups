@@ -3,7 +3,6 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Tech</label>
     <permissionSets>API_Enabled</permissionSets>
-    <permissionSets>Access_Entitlements_Features</permissionSets>
     <permissionSets>Tech_Contact_Field_Access</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

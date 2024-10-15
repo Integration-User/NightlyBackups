@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Access Level --></label>
+        <name>sfsp__AccessLevel__c</name>
+        <picklistValues>
+            <masterLabel>Commenter</masterLabel>
+            <translation><!-- Commenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Editor</masterLabel>
+            <translation><!-- Editor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferences --></label>
+        <name>sfsp__Preferences__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Node --></label>
+        <name>sfsp__SalesNode__c</name>
+        <relationshipLabel><!-- Sales User Preferences --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Plan --></label>
+        <name>sfsp__SalesPlan__c</name>
+        <relationshipLabel><!-- Sales User Preferences --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>sfsp__User__c</name>
+        <relationshipLabel><!-- Sales Planning Preferences --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

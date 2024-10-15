@@ -341,7 +341,15 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Optimizer</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__HVSConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__FlowsApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -349,7 +357,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__FlowsApp</name>
+        <name>sfsp__SalesPlanning</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

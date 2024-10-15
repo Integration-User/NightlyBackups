@@ -184,7 +184,6 @@
     </fields>
     <fields>
         <fullName>Event_Date__c</fullName>
-        <description>testing the connection post refresh</description>
         <label>Event Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

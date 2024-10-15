@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Container Set --></label>
+        <name>sfsp__ContainerSet__c</name>
+    </fields>
+    <fields>
+        <label><!-- IncludePoints --></label>
+        <name>sfsp__IncludePoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Plan --></label>
+        <name>sfsp__SalesPlan__c</name>
+        <relationshipLabel><!-- Sales Boundaries --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

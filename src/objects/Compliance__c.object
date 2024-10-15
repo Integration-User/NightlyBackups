@@ -130,7 +130,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Compliance_Record_Page1</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -138,7 +138,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Compliance_Record_Page1</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -965,9 +965,9 @@
         <fullName>Product_Types__c</fullName>
         <externalId>false</externalId>
         <formula>IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;LDC&quot;), &quot;LDC;&quot;, NULL) &amp;
-    IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;React&quot;), &quot;React;&quot;, NULL) &amp; 
-    IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;Research&quot;), &quot;Research;&quot;, NULL) &amp;
-    IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;News&quot;), &quot;News;&quot;, NULL)</formula>
+IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;React&quot;), &quot;React;&quot;, NULL) &amp; 
+IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;Research&quot;), &quot;Research;&quot;, NULL) &amp;
+IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;News&quot;), &quot;News;&quot;, NULL)</formula>
         <label>Product Types</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1468,7 +1468,7 @@
         <filters>
             <field>RECORDTYPE</field>
             <operation>equals</operation>
-            <value>Compliance__c.US_Favor,Compliance__c.US_Subscription</value>
+            <value>Compliance__c.UK_Subscription,Compliance__c.US_Favor,Compliance__c.US_Subscription</value>
         </filters>
         <label>Subscriptions CAF&apos;s Started</label>
         <sharedTo>

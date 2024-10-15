@@ -6,6 +6,10 @@
     <description>Campaign test</description>
     <join>
         <join>
+            <join>
+                <outerJoin>true</outerJoin>
+                <relationship>CampaignInfluence</relationship>
+            </join>
             <outerJoin>true</outerJoin>
             <relationship>Opportunities</relationship>
         </join>
@@ -1105,11 +1109,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>SicDesc</field>
-            <table>Campaign.AccountCampaignMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>OperatingHours</field>
             <table>Campaign.AccountCampaignMembers</table>
         </columns>
         <columns>
@@ -3370,9 +3369,79 @@
             <field>DDS_ScoreARREssential__c</field>
             <table>Campaign.AccountCampaignMembers.Opportunities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Name_For_Testing__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Campaign</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Influence</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Model</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RevenueShare</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Days_to_Close__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.CampaignInfluence</table>
+        </columns>
         <masterLabel>Campaign Influence</masterLabel>
     </sections>
 </ReportType>

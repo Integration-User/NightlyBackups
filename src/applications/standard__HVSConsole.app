@@ -8,8 +8,6 @@
     <label>Sales Engagement</label>
     <navType>Console</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-WorkQueue</tabs>
-    <tabs>standard-ActionCadence</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
@@ -18,24 +16,16 @@
     <tabs>standard-Event</tabs>
     <tabs>standard-ContentNote</tabs>
     <tabs>standard-EmailTemplate</tabs>
-    <tabs>standard-CallTemplate</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>standard-HvsWaveLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>HVSConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>standard-Account</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-ActionCadence</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-CallTemplate</tab>
         </mappings>
         <mappings>
             <tab>standard-CollaborationGroup</tab>
@@ -62,9 +52,6 @@
             <tab>standard-File</tab>
         </mappings>
         <mappings>
-            <tab>standard-HvsWaveLightning</tab>
-        </mappings>
-        <mappings>
             <tab>standard-Lead</tab>
         </mappings>
         <mappings>
@@ -72,9 +59,6 @@
         </mappings>
         <mappings>
             <tab>standard-Task</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-WorkQueue</tab>
         </mappings>
         <mappings>
             <tab>standard-home</tab>

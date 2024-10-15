@@ -1222,14 +1222,6 @@
         <name>Renewal_Month__c</name>
     </fields>
     <fields>
-        <label><!-- Research+Market Data &amp; Deals L60D Usage --></label>
-        <name>Research_Market_Data_Deals_L60D_Usage__c</name>
-    </fields>
-    <fields>
-        <label><!-- Research + REIT Data L60D Usage --></label>
-        <name>Research_REIT_Data_L60D_Usage__c</name>
-    </fields>
-    <fields>
         <help><!-- Research email and platform clicks for this account over the last 60 days --></help>
         <label><!-- Research Usage L60D --></label>
         <name>Research_Usage_L60D__c</name>
@@ -1478,10 +1470,6 @@
     <fields>
         <label><!-- Total Products --></label>
         <name>Total_Products__c</name>
-    </fields>
-    <fields>
-        <label><!-- Total Usage L60D --></label>
-        <name>Total_Usage_L60D__c</name>
     </fields>
     <fields>
         <label><!-- Transition Lost Client --></label>

@@ -188,12 +188,12 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Maps Scheduled Job</label>
+    <label>Scheduled Job</label>
     <nameField>
         <label>Job Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Maps Scheduled Jobs</pluralLabel>
+    <pluralLabel>Scheduled Jobs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

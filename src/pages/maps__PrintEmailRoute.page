@@ -904,7 +904,7 @@
         </script>
 
          <!-- Google Maps -->
-         <script async='true' type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.54&client=gme-cloudbiltinc&libraries=&language={!userLanguage}&callback=buildDirections'></script>
+         <script async='true' type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.57&client=gme-cloudbiltinc&libraries=&language={!userLanguage}&callback=buildDirections'></script>
 
         <div id="main-loading-wrapper" class="slds-spinner_container slds-is-fixed">
             <div role="status" class="slds-spinner slds-spinner_medium">
@@ -1101,6 +1101,14 @@
                     MapsStyles: "{!URLFOR($Resource.MapsStyles)}"
                 }
             }, JSON.parse("{!JSENCODE(viewData)}"));
+
+            // we need to create a function that can be called at runtime from the vite.config.js script in order to pull in the 
+            // correct base path for the url. This is still in experimental stage of vite. With out this we are unable to run MapsV2
+            // inside of experience sites with additional paths.
+            MAPS.getURLPath = ({ base, path }) => {
+                // check for base_url here!
+                return `${MAPS.baseURL}${base}${path}`;
+            };
         </script>
 
         <head>

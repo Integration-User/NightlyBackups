@@ -1155,6 +1155,11 @@
             <field>Renewal_Year_Temp__c</field>
             <table>Opportunity</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Name_For_Testing__c</field>
+            <table>Opportunity</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>
@@ -1456,6 +1461,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Account_Manager__c</field>
+            <table>Opportunity.Cases__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>of_Days_Open__c</field>
             <table>Opportunity.Cases__r</table>
         </columns>
         <masterLabel>Cases</masterLabel>

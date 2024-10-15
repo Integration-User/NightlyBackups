@@ -4,6 +4,10 @@
     <category>campaigns</category>
     <deployed>true</deployed>
     <description>Campaigns with Opportunities</description>
+    <join>
+        <outerJoin>false</outerJoin>
+        <relationship>CampaignInfluence</relationship>
+    </join>
     <label>Campaigns with Opportunities Custom</label>
     <sections>
         <columns>
@@ -284,6 +288,76 @@
         <masterLabel>Campaigns</masterLabel>
     </sections>
     <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Model</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Days_to_Close__c</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id__c</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Influence</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Opportunity</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RevenueShare</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Opportunity.Amount</field>
+            <table>Campaign.CampaignInfluence</table>
+        </columns>
         <masterLabel>Campaign Influence</masterLabel>
     </sections>
 </ReportType>

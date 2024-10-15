@@ -24,7 +24,6 @@ public class Plative_NSAPIHandlercls {
 		req.setTimeout(120000);
         HttpResponse resp = !Test.isRunningTest() ? http.send(req) : Plative_UpsertRecordQueueableMock.respond(req);
         System.debug('Status code ' + resp.getStatusCode());
-         System.debug('reqBody ' + reqBody);
         System.debug('Body ' + resp.getBody());
         return resp;
     }

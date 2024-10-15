@@ -51,7 +51,7 @@
         <help>ユーザーの個人フォルダーの直下にある場合は入力され、それ以外の場合は空白になります。空白でフォルダー参照が空白の場合、これは法人フォルダーに表示されます。フォルダーが入力されている場合は、個人フォルダーまたは法人フォルダーの可能性もあります。</help>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Maps Layers --></relationshipLabel>
+        <relationshipLabel><!-- Layers --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Version --></label>
