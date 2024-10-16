@@ -3514,6 +3514,10 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Locked_Opportunities</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Only SDRs can own an SDO. --></errorMessage>
+        <name>Only_BDR_Can_Own_SDOs</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Please specify the Billing Frequency --></errorMessage>
         <name>Other_Billing_Frequency</name>
     </validationRules>
