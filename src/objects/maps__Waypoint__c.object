@@ -380,12 +380,12 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Waypoint</label>
+    <label>Maps Waypoint</label>
     <nameField>
         <label>Waypoint Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Waypoints</pluralLabel>
+    <pluralLabel>Maps Waypoints</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

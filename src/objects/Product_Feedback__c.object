@@ -624,11 +624,6 @@
             <valueSettings>
                 <controllingFieldValue>Product Feedback</controllingFieldValue>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
-                <valueName>React</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Product Feedback</controllingFieldValue>
-                <controllingFieldValue>Report Feedback</controllingFieldValue>
                 <valueName>REIT Data</valueName>
             </valueSettings>
             <valueSettings>
@@ -1609,15 +1604,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>React Advertising</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React News</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2518,15 +2505,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>React Advertising</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React News</fullName>
                 <default>false</default>
             </values>
             <values>

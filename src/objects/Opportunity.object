@@ -10268,10 +10268,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -13053,10 +13049,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -15770,10 +15762,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -18428,10 +18416,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>React Advertising</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React News</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21224,10 +21208,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -23841,10 +23821,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -26411,10 +26387,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>React Advertising</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React News</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -31665,10 +31637,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -34571,15 +34539,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>React Advertising</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React News</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -37480,10 +37440,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -40301,10 +40257,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>React News</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Real Estate Alert</fullName>
                 <default>false</default>
             </values>
@@ -41506,6 +41458,27 @@ New_Sales_Opportunity__r.Account.Id &lt;&gt; Account.Id
         <errorMessage>CompanyId should be a numeric value</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>Lock_SDO_Lead_Attributions</fullName>
+        <active>true</active>
+        <description>SF-1092: Ensure Salesforce users (sales reps, etc.) cannot update lead attribution values for inbound SDOs</description>
+        <errorConditionFormula>AND(
+RecordType.DeveloperName = &apos;Sales_Development&apos;,
+$Profile.Name &lt;&gt; &apos;System Administrator&apos;, 
+OR(
+ISCHANGED(Inbound__c),
+ISCHANGED(Lead_Channel__c),
+ISCHANGED(Lead_Classification__c),
+ISCHANGED(LeadSource),
+ISCHANGED(CampaignId),
+ISCHANGED(UTM_Source__c),
+ISCHANGED(UTM_Term__c),
+ISCHANGED(UTM_Content__c),
+ISCHANGED(UTM_Medium__c ),
+ISCHANGED(UTM_Campaign__c)
+))</errorConditionFormula>
+        <errorMessage>You cannot edit any lead attribution and UTM fields.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>Locked_Opportunities</fullName>
         <active>true</active>
         <errorConditionFormula>AND(
@@ -41518,7 +41491,8 @@ IsClosed=TRUE)</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 RecordType.DeveloperName = &apos;Sales_Development&apos;,
-$UserRole.DeveloperName &lt;&gt; &apos;BDR&apos;, 
+Owner.UserRole.DeveloperName  &lt;&gt; &apos;BDR&apos;,
+Owner.UserRole.DeveloperName  &lt;&gt; &apos;BDR_Manager&apos;, 
 ISCHANGED(OwnerId))</errorConditionFormula>
         <errorMessage>Only SDRs can own an SDO.</errorMessage>
     </validationRules>

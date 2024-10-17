@@ -819,6 +819,10 @@
             <translation><!-- Green Street News: Canada --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Green Street News: Europe</masterLabel>
+            <translation><!-- Green Street News: Europe --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>IJGlobal Investor</masterLabel>
             <translation><!-- IJGlobal Investor --></translation>
         </picklistValues>

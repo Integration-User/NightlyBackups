@@ -60,7 +60,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Locations --></relationshipLabel>
+        <relationshipLabel><!-- Maps Locations --></relationshipLabel>
     </fields>
     <gender>Masculine</gender>
     <nameFieldLabel>Nom du lieu</nameFieldLabel>

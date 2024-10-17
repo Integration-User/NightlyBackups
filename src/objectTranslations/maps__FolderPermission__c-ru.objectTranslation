@@ -96,7 +96,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Folder Permissions --></relationshipLabel>
+        <relationshipLabel><!-- Maps Folder Permissions --></relationshipLabel>
     </fields>
     <gender>Neuter</gender>
     <nameFieldLabel>Имя полномочия папки</nameFieldLabel>

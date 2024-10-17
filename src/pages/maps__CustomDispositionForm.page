@@ -2,7 +2,7 @@
 
     <apex:variable var="RequestPlatform" value="{!IF($CurrentPage.parameters.platform == null || $CurrentPage.parameters.platform == 'null', 'tablet', LOWER($CurrentPage.parameters.platform))}" />
 
-
+    <!-- PAGE IS DEPRICATED IN V2 PLEASE USE maps__ClickToCreateForm -->
     <apex:form >
         <div class="CustomDispositionFormTable fieldSetTable">
 

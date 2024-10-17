@@ -40,7 +40,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Folder Permissions --></relationshipLabel>
+        <relationshipLabel><!-- Maps Folder Permissions --></relationshipLabel>
     </fields>
     <nameFieldLabel>ชื่อสิทธิของโฟลเดอร์</nameFieldLabel>
 </CustomObjectTranslation>

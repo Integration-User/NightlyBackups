@@ -260,7 +260,7 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Layer</label>
+    <label>Maps Layer</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -290,7 +290,7 @@
         <label>Layer Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Layers</pluralLabel>
+    <pluralLabel>Maps Layers</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

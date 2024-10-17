@@ -162,8 +162,8 @@
             <translation><!-- Expansion Equity --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Expansion React</masterLabel>
-            <translation><!-- Expansion React --></translation>
+            <masterLabel>Expansion GS News: Europe</masterLabel>
+            <translation><!-- Expansion GS News: Europe --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Expansion US Core</masterLabel>
@@ -192,10 +192,6 @@
         <picklistValues>
             <masterLabel>Priority</masterLabel>
             <translation><!-- Priority --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>React Only</masterLabel>
-            <translation><!-- React Only --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Strategic</masterLabel>
@@ -851,8 +847,8 @@
             <translation><!-- Expansion Equity --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Expansion React</masterLabel>
-            <translation><!-- Expansion React --></translation>
+            <masterLabel>Expansion GS News: Europe</masterLabel>
+            <translation><!-- Expansion GS News: Europe --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Expansion US Core</masterLabel>
@@ -881,10 +877,6 @@
         <picklistValues>
             <masterLabel>Priority</masterLabel>
             <translation><!-- Priority --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>React Only</masterLabel>
-            <translation><!-- React Only --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Strategic</masterLabel>
@@ -1006,11 +998,11 @@
         <name>Re_visit_Date__c</name>
     </fields>
     <fields>
-        <label><!-- React Client --></label>
+        <label><!-- GS News: Europe Client --></label>
         <name>React_Client__c</name>
     </fields>
     <fields>
-        <label><!-- React Vertical --></label>
+        <label><!-- Vertical --></label>
         <name>React_Vertical__c</name>
         <picklistValues>
             <masterLabel>Advisor</masterLabel>

@@ -911,7 +911,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Base Object</label>
+    <label>Maps Base Object</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -927,7 +927,7 @@
         <label>Base Object</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Base Objects</pluralLabel>
+    <pluralLabel>Maps Base Objects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

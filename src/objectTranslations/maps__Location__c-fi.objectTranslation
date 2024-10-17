@@ -448,7 +448,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Locations --></relationshipLabel>
+        <relationshipLabel><!-- Maps Locations --></relationshipLabel>
     </fields>
     <nameFieldLabel>Sijainnin nimi</nameFieldLabel>
 </CustomObjectTranslation>

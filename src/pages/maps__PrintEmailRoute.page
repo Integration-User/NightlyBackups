@@ -1095,6 +1095,13 @@
 
     <apex:outputPanel rendered="{!NOT(isLegacy)}">
         <script>
+            window.assetsFailedToLoad = false;
+        </script>
+        
+        <link rel="stylesheet" onerror="assetsFailedToLoad = true;" href="https://js.arcgis.com/4.30/esri/themes/light/main.css" />
+        <script src="https://js.arcgis.com/4.30"></script>
+
+        <script>
             const MAPS = Object.assign({
                 SessionId: "{!$Api.Session_ID}",
                 resourcePaths: {

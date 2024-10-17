@@ -421,8 +421,14 @@
                     <label>NEWS - ABAlert</label>
                 </value>
                 <value>
+                    <fullName>NEWS - Green Street: Europe</fullName>
+                    <default>false</default>
+                    <label>NEWS - Green Street: Europe</label>
+                </value>
+                <value>
                     <fullName>NEWS - React</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>NEWS - React</label>
                 </value>
             </valueSetDefinition>
@@ -555,10 +561,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>NEWS - React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>US REA</fullName>
                 <default>false</default>
             </values>
@@ -665,10 +667,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>NEWS - React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>US REA</fullName>
                 <default>false</default>
             </values>
@@ -732,10 +730,6 @@
             </values>
             <values>
                 <fullName>NEWS - REAlert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>NEWS - React</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -813,10 +807,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>NEWS - React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>US REA</fullName>
                 <default>false</default>
             </values>
@@ -880,10 +870,6 @@
             </values>
             <values>
                 <fullName>NEWS - REAlert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>NEWS - React</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -958,10 +944,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>NEWS - React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>US REA</fullName>
                 <default>false</default>
             </values>
@@ -1032,10 +1014,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>NEWS - React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>US REA</fullName>
                 <default>false</default>
             </values>
@@ -1099,10 +1077,6 @@
             </values>
             <values>
                 <fullName>NEWS - REAlert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>NEWS - React</fullName>
                 <default>false</default>
             </values>
             <values>

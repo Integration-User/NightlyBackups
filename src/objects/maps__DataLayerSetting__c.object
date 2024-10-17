@@ -200,7 +200,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Data Layer Setting</label>
+    <label>Maps Data Layer Setting</label>
     <listViews>
         <fullName>maps__All</fullName>
         <filterScope>Everything</filterScope>
@@ -211,7 +211,7 @@
         <label>Data Layer Setting</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Data Layer Settings</pluralLabel>
+    <pluralLabel>Maps Data Layer Settings</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

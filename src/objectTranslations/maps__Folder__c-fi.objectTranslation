@@ -416,7 +416,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Folders --></relationshipLabel>
+        <relationshipLabel><!-- Maps Folders --></relationshipLabel>
     </fields>
     <nameFieldLabel>Kansion nimi</nameFieldLabel>
 </CustomObjectTranslation>

@@ -28,7 +28,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Folders --></relationshipLabel>
+        <relationshipLabel><!-- Maps Folders --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
     <nameFieldLabel>Mapnaam</nameFieldLabel>

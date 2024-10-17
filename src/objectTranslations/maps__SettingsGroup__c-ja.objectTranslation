@@ -152,7 +152,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Settings Groups --></relationshipLabel>
+        <relationshipLabel><!-- Maps Settings Groups --></relationshipLabel>
     </fields>
     <nameFieldLabel>設定グループ名</nameFieldLabel>
 </CustomObjectTranslation>

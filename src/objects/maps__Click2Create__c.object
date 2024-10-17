@@ -585,7 +585,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Click-2-Create Setting</label>
+    <label>Maps Click-2-Create Setting</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -599,7 +599,7 @@
         <label>Click-2-Create Setting</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Click-2-Create Settings</pluralLabel>
+    <pluralLabel>Maps Click-2-Create Settings</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

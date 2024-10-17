@@ -156,7 +156,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Settings Groups --></relationshipLabel>
+        <relationshipLabel><!-- Maps Settings Groups --></relationshipLabel>
     </fields>
     <gender>Masculine</gender>
     <nameFieldLabel>Nombre de grupo de parámetros</nameFieldLabel>
