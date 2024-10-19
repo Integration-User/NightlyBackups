@@ -3518,7 +3518,7 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Locked_Opportunities</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Only SDRs can own an SDO. --></errorMessage>
+        <errorMessage><!-- Only SDRs can own and transfer an SDO. --></errorMessage>
         <name>Only_BDR_Can_Own_SDOs</name>
     </validationRules>
     <validationRules>

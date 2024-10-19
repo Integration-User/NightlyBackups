@@ -41491,10 +41491,9 @@ IsClosed=TRUE)</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 RecordType.DeveloperName = &apos;Sales_Development&apos;,
-Owner.UserRole.DeveloperName  &lt;&gt; &apos;BDR&apos;,
-Owner.UserRole.DeveloperName  &lt;&gt; &apos;BDR_Manager&apos;, 
+NOT($Permission.Bypass_BDR_Ownership_Rule),
 ISCHANGED(OwnerId))</errorConditionFormula>
-        <errorMessage>Only SDRs can own an SDO.</errorMessage>
+        <errorMessage>Only SDRs can own and transfer an SDO.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Other_Billing_Frequency</fullName>
