@@ -16595,6 +16595,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Bounced_Hubspot__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Bounced_Salesloft__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Bounced_Universal__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Bulk_Activation__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18991,6 +19006,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event.Assigned_To_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Bounced_Salesloft__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24266,6 +24286,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.Assigned_To_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Bounced_Salesloft__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

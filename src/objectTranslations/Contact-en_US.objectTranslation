@@ -104,6 +104,42 @@
         <name>Blog_and_Market_Currents_Newsletter__c</name>
     </fields>
     <fields>
+        <label><!-- Bounced (Hubspot) --></label>
+        <name>Bounced_Hubspot__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bounced (Salesloft) --></label>
+        <name>Bounced_Salesloft__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bounced (Universal) --></label>
+        <name>Bounced_Universal__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Bulk Activation --></label>
         <name>Bulk_Activation__c</name>
     </fields>
