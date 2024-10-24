@@ -91,6 +91,9 @@
     <forecastingDisplayedFamilySettings>
         <productFamily>REA</productFamily>
     </forecastingDisplayedFamilySettings>
+    <forecastingSubmissionSettings>
+        <allowForecastingSubmissions>false</allowForecastingSubmissions>
+    </forecastingSubmissionSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>

@@ -10,5 +10,6 @@
     <enableInsightsInTimelineEacStd>false</enableInsightsInTimelineEacStd>
     <provisionProductivityFeatures>true</provisionProductivityFeatures>
     <relationshipGraphPref>true</relationshipGraphPref>
+    <s2XSvcAccEmail>false</s2XSvcAccEmail>
     <syncInternalEvents>false</syncInternalEvents>
 </EACSettings>

@@ -529,11 +529,6 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
                     <label>Advisory</label>
                 </value>
                 <value>
-                    <fullName>React Only</fullName>
-                    <default>false</default>
-                    <label>React Only</label>
-                </value>
-                <value>
                     <fullName>Advertising</fullName>
                     <default>false</default>
                     <label>Advertising</label>
@@ -559,9 +554,9 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
                     <label>Expansion US Core</label>
                 </value>
                 <value>
-                    <fullName>Expansion React</fullName>
+                    <fullName>Expansion GS News: Europe</fullName>
                     <default>false</default>
-                    <label>Expansion React</label>
+                    <label>Expansion GS News: Europe</label>
                 </value>
                 <value>
                     <fullName>Priority</fullName>
@@ -607,6 +602,18 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
                     <fullName>Not Serviceable</fullName>
                     <default>false</default>
                     <label>Not Serviceable</label>
+                </value>
+                <value>
+                    <fullName>Expansion React</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Expansion React</label>
+                </value>
+                <value>
+                    <fullName>React Only</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>React Only</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -1997,11 +2004,6 @@ Owner.Id = $User.Id)</formula>
                     <label>Advisory</label>
                 </value>
                 <value>
-                    <fullName>React Only</fullName>
-                    <default>false</default>
-                    <label>React Only</label>
-                </value>
-                <value>
                     <fullName>Advertising</fullName>
                     <default>false</default>
                     <label>Advertising</label>
@@ -2027,9 +2029,9 @@ Owner.Id = $User.Id)</formula>
                     <label>Expansion US Core</label>
                 </value>
                 <value>
-                    <fullName>Expansion React</fullName>
+                    <fullName>Expansion GS News: Europe</fullName>
                     <default>false</default>
-                    <label>Expansion React</label>
+                    <label>Expansion GS News: Europe</label>
                 </value>
                 <value>
                     <fullName>Priority</fullName>
@@ -2322,13 +2324,13 @@ Owner.Id = $User.Id)</formula>
     <fields>
         <fullName>React_Client__c</fullName>
         <defaultValue>false</defaultValue>
-        <label>React Client</label>
+        <label>GS News: Europe Client</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>React_Vertical__c</fullName>
-        <label>React Vertical</label>
+        <label>Vertical</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
@@ -4132,10 +4134,6 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
@@ -4210,10 +4208,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Marketing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React Only</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5331,10 +5325,6 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>React Only</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Strategic</fullName>
                 <default>false</default>
             </values>
@@ -5777,10 +5767,6 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>React %26 US News Ecomm Inquiries</fullName>
                 <default>false</default>
             </values>
@@ -5874,7 +5860,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Expansion React</fullName>
+                <fullName>Expansion GS News%3A Europe</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5903,10 +5889,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Priority</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React Only</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6976,7 +6958,7 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Expansion React</fullName>
+                <fullName>Expansion GS News%3A Europe</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7005,10 +6987,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Priority</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React Only</fullName>
                 <default>false</default>
             </values>
             <values>

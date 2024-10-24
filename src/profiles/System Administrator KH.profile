@@ -45896,6 +45896,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-FlowOrchestration</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Forecasting3</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
