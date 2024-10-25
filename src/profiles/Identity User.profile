@@ -45224,6 +45224,10 @@
         <recordType>Opportunity.Sales_Opportunity</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-New Business</layout>
+        <recordType>Opportunity.Test_Sales_RT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-New Business - Closed</layout>
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
     </layoutAssignments>
@@ -47388,6 +47392,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Test_Sales_RT</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

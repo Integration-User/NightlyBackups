@@ -45276,6 +45276,10 @@
         <recordType>Opportunity.Sales_Development</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Sales Development</layout>
+        <recordType>Opportunity.Test_Sales_RT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OpportunityContactRole-Opportunity Contact Role Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -48099,6 +48103,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Sales_Opportunity_Closed</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Test_Sales_RT</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
