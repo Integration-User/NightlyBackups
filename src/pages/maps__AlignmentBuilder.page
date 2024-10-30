@@ -1,4 +1,4 @@
-<apex:page controller="maps.TerritoryPlanning" action="{!checkPermissions}" extensions="maps.TPRemoteActions" title="Salesforce Maps Territory Planning" sidebar="false" showHeader="false" standardStyleSheets="false">
+<apex:page controller="maps.TerritoryPlanning" action="{!checkPermissions}" extensions="maps.TPRemoteActions,maps.TPRemoteActionsSecured" title="Salesforce Maps Territory Planning" sidebar="false" showHeader="false" standardStyleSheets="false">
     <style>
         #maRoot {
             min-width: 1150px;
@@ -154,21 +154,18 @@
 
                 //tp
                 GetDataSet: '{!$RemoteAction.TPRemoteActions.GetDataSet}',
-                CloneDataSet: '{!$RemoteAction.TPRemoteActions.CloneDataSet}',
                 GetAlignment: '{!$RemoteAction.TPRemoteActions.GetAlignment}',
-                GetAccessibleAlignments: '{!$RemoteAction.TPRemoteActions.GetAccessibleAlignments}',
+                GetAccessibleAlignments: '{!$RemoteAction.TPRemoteActions.GetAccessibleAlignments}',               
                 GetAlignmentApprovalSettings: '{!$RemoteAction.TPRemoteActions.GetAlignmentApprovalSettings}',
                 SaveAlignmentApprovalSettings: '{!$RemoteAction.TPRemoteActions.SaveAlignmentApprovalSettings}',
                 GetApprovers: '{!$RemoteAction.TPRemoteActions.GetApprovers}',
                 GetUserRoles: '{!$RemoteAction.TPRemoteActions.GetUserRoles}',
                 GetPublishOptionsSettings: '{!$RemoteAction.TPRemoteActions.GetPublishOptionsSettings}',
                 GetTerritoryPlanningRoles: '{!$RemoteAction.TPRemoteActions.GetTerritoryPlanningRoles}',
-                SavePublishOptionsSettings: '{!$RemoteAction.TPRemoteActions.SavePublishOptionsSettings}',
                 GetUsersWithAccess: '{!$RemoteAction.TPRemoteActions.GetUsersWithAccess}',
                 GetAreasWithAccessByUser: '{!$RemoteAction.TPRemoteActions.GetAreasWithAccessByUser}',
                 UpdateUserAccess: '{!$RemoteAction.TPRemoteActions.UpdateUserAccess}',
                 SaveAlignment: '{!$RemoteAction.TPRemoteActions.SaveAlignment}',
-                CloneAlignment: '{!$RemoteAction.TPRemoteActions.CloneAlignment}',
                 GetContainerSets: '{!$RemoteAction.TPRemoteActions.GetContainerSets}',
                 GetContainers: '{!$RemoteAction.TPRemoteActions.GetContainers}',
                 GetLocationContainers: '{!$RemoteAction.TPRemoteActions.GetLocationContainers}',
@@ -181,7 +178,6 @@
                 GetUnitData: '{!$RemoteAction.TPRemoteActions.GetUnitData}',
                 GetUnitDataByIds: '{!$RemoteAction.TPRemoteActions.GetUnitDataByIds}',
                 GetUnitDataByContainerIds: '{!$RemoteAction.TPRemoteActions.GetUnitDataByContainerIds}',
-                ReassignUnits: '{!$RemoteAction.TPRemoteActions.ReassignUnits}',
                 UpsertUnitAssignmentBatch: '{!$RemoteAction.TPRemoteActions.UpsertUnitAssignmentBatch}',
                 UpsertUnitAssignmentBatchWithResults: '{!$RemoteAction.TPRemoteActions.UpsertUnitAssignmentBatchWithResults}',
                 InsertObjectBatch: '{!$RemoteAction.TPRemoteActions.InsertObjectBatch}',
@@ -190,9 +186,7 @@
                 GetObjectIdsByMatchField: '{!$RemoteAction.TPRemoteActions.GetObjectIdsByMatchField}',
                 DeleteObjects: '{!$RemoteAction.TPRemoteActions.DeleteObjects}',
                 StartBalance: '{!$RemoteAction.TPRemoteActions.StartBalance}',
-                CreateJob: '{!$RemoteAction.TPRemoteActions.CreateJob}',
                 StartJob: '{!$RemoteAction.TPRemoteActions.StartJob}',
-                CancelJob: '{!$RemoteAction.TPRemoteActions.CancelJob}',
                 GetRequestStatus: '{!$RemoteAction.TPRemoteActions.GetRequestStatus}',
                 GetBatchRequestStatus: '{!$RemoteAction.TPRemoteActions.GetBatchRequestStatus}',
                 GetStatusMATO: '{!$RemoteAction.TPRemoteActions.GetStatusMATO}',
@@ -203,7 +197,6 @@
                 GetHistory: '{!$RemoteAction.TPRemoteActions.GetHistory}',
                 GetSnapshotLocation: '{!$RemoteAction.TPRemoteActions.GetSnapshotLocation}',
                 GetSnapshotDestination: '{!$RemoteAction.TPRemoteActions.GetSnapshotDestination}',
-                GetAreaLevelAccess: '{!$RemoteAction.TPRemoteActions.GetAreaLevelAccess}',
                 GetAlignmentSharingRecords: '{!$RemoteAction.TPRemoteActions.GetAlignmentSharingRecords}',
                 GetScreenshotLocations: '{!$RemoteAction.TPRemoteActions.GetScreenshotLocations}',
                 GetAutoAssignmentUploadUrl: '{!$RemoteAction.TPRemoteActions.GetAutoAssignmentUploadUrl}',
@@ -757,6 +750,7 @@
                 AlignmentBuilder_LegendFiltersPopover_TextOperandsNotEqualTo: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_TextOperandsNotEqualTo)}',
                 AlignmentBuilder_LegendFiltersPopover_TextOperandsContains: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_TextOperandsContains)}',
                 AlignmentBuilder_LegendFiltersPopover_TextOperandsDoesNotContain: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_TextOperandsDoesNotContain)}',
+                AlignmentBuilder_LegendFiltersPopover_TextOperandsStartsWith: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_TextOperandsStartsWith)}',
                 AlignmentBuilder_LegendFiltersPopover_AreaCenterPinned: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_AreaCenterPinned)}',
                 AlignmentBuilder_LegendFiltersPopover_IsSplit: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_IsSplit)}',
                 AlignmentBuilder_LegendFiltersPopover_IsPoint: '{!JSENCODE($Label.AlignmentBuilder_LegendFiltersPopover_IsPoint)}',
@@ -957,6 +951,7 @@
                 EditAreaPanel_ChangeAreaOwner_Name: '{!JSENCODE($Label.EditAreaPanel_ChangeAreaOwner_Name)}',
                 EditAreaPanel_Footer_CancelButton: '{!JSENCODE($Label.EditAreaPanel_Footer_CancelButton)}',
                 EditAreaPanel_Footer_SaveButton: '{!JSENCODE($Label.EditAreaPanel_Footer_SaveButton)}',
+                EditAreaPanel_Notification_ErrorMessage: '{!JSENCODE($Label.EditAreaPanel_Notification_ErrorMessage)}',
                 EditAreaPanel_ValidationMessage_RoleExits: '{!JSENCODE($Label.EditAreaPanel_ValidationMessage_RoleExits)}',
                 EditAreaPanel_ValidationMessage_SelectUser: '{!JSENCODE($Label.EditAreaPanel_ValidationMessage_SelectUser)}',
                 EditAreaPanel_ValidationMessage_EnterRole: '{!JSENCODE($Label.EditAreaPanel_ValidationMessage_EnterRole)}',
@@ -2049,6 +2044,7 @@
                 DataImportFromCSVModal_Progress_Indicator: '{!JSENCODE($Label.DataImportFromCSVModal_Progress_Indicator)}',
                 DataImportFromCSVModal_Success_HistoryRecord_Attributes: '{!JSENCODE($Label.DataImportFromCSVModal_Success_HistoryRecord_Attributes)}',
                 DataImportFromCSVModal_Success_HistoryRecord_RecordCount: '{!JSENCODE($Label.DataImportFromCSVModal_Success_HistoryRecord_RecordCount)}',
+                DataImportFromCSVModal_ToastMessage_AssignmentError: '{!JSENCODE($Label.DataImportFromCSVModal_ToastMessage_AssignmentError)}',
 
                 // Failed DataImport Modal
                 FailedDataImportModal_Header_ModalHeader: '{!JSENCODE($Label.FailedDataImportModal_Header_ModalHeader)}',
@@ -2131,6 +2127,7 @@
                 LegendTable_ToastMessage_AreasLocked: '{!JSENCODE($Label.LegendTable_ToastMessage_AreasLocked)}',
                 LegendTable_ToastMessage_ActionInfo: '{!JSENCODE($Label.LegendTable_ToastMessage_ActionInfo)}',
                 LegendTable_ToastMessage_AssignmentSuccess: '{!JSENCODE($Label.LegendTable_ToastMessage_AssignmentSuccess)}',
+                LegendTable_ToastMessage_AssignmentError: '{!JSENCODE($Label.LegendTable_ToastMessage_AssignmentError)}',
                 LegendTable_ToastMessage_NoAreaDelete: '{!JSENCODE($Label.LegendTable_ToastMessage_NoAreaDelete)}',
                 LegendTable_ToastMessage_HierarchyUpdated: '{!JSENCODE($Label.LegendTable_ToastMessage_HierarchyUpdated)}',
                 LegendTable_ToastMessage_AlreadySharing: '{!JSENCODE($Label.LegendTable_ToastMessage_AlreadySharing)}',
@@ -2205,6 +2202,46 @@
             },
             SessionId: "{!$Api.Session_ID}"
         }, JSON.parse("{!JSENCODE(viewData)}"));
+
+        if (MATA.betaFlags.TP_EnhancedSecurity) {
+            // SECURED REMOTE ACTIONS
+            MATA.RemoteActions['GetUnitData'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitData}';
+            MATA.RemoteActions['GetUnitData2'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitData2}';
+            MATA.RemoteActions['GetUnitDataById'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitDataById}';
+            MATA.RemoteActions['GetUnitDataByIds'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitDataByIds}';
+            MATA.RemoteActions['GetUnitDataByContainerIds'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitDataByContainerIds}';
+            MATA.RemoteActions['UpsertUnitAssignmentBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.UpsertUnitAssignmentBatch}';
+            MATA.RemoteActions['UpsertUnitAssignmentBatchWithResults'] = '{!$RemoteAction.TPRemoteActionsSecured.UpsertUnitAssignmentBatchWithResults}';
+            MATA.RemoteActions['GetRangeChunkUnitCounts'] = '{!$RemoteAction.TPRemoteActionsSecured.GetRangeChunkUnitCounts}';
+            MATA.RemoteActions['GetPkChunkingMetadata'] = '{!$RemoteAction.TPRemoteActionsSecured.GetPkChunkingMetadata}';
+            MATA.RemoteActions['InsertObjectBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.InsertObjectBatch}';
+            MATA.RemoteActions['UpdateObjectBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdateObjectBatch}';
+            MATA.RemoteActions['DeleteObjects'] = '{!$RemoteAction.TPRemoteActionsSecured.DeleteObjects}';
+            MATA.RemoteActions['UpdatePreferences'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdatePreferences}';
+            MATA.RemoteActions['UpdateUserAccess'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdateUserAccess}';
+            MATA.RemoteActions['GetDataSetsBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSetsBatch}';
+            MATA.RemoteActions['GetAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignment}';
+            MATA.RemoteActions['GetAlignmentHierarchy'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignmentHierarchy}';
+            MATA.RemoteActions['GetAreasWithAccessByUser'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAreasWithAccessByUser}';
+            MATA.RemoteActions['GetAlignmentSharingRecords'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignmentSharingRecords}';
+            MATA.RemoteActions['GetDataSet'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSet}';
+            MATA.RemoteActions['GetAccessibleAlignments'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAccessibleAlignments}',
+            MATA.RemoteActions['GetUsersWithAccess'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUsersWithAccess}';
+            MATA.RemoteActions['CheckIfSharingEnabled'] = '{!$RemoteAction.TPRemoteActionsSecured.CheckIfSharingEnabled}';
+            MATA.RemoteActions['SaveAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.SaveAlignment}';
+            MATA.RemoteActions['GetCommentsData'] = '{!$RemoteAction.TPRemoteActionsSecured.GetCommentsData}';
+            MATA.RemoteActions['GetFeed'] = '{!$RemoteAction.TPRemoteActionsSecured.GetFeed}';
+            MATA.RemoteActions['GetFeedItem'] = '{!$RemoteAction.TPRemoteActionsSecured.GetFeedItem}';
+            MATA.RemoteActions['PostFeedItem'] = '{!$RemoteAction.TPRemoteActionsSecured.PostFeedItem}';
+            MATA.RemoteActions['PostComment'] = '{!$RemoteAction.TPRemoteActionsSecured.PostComment}';
+            MATA.RemoteActions['EditFeedItem'] = '{!$RemoteAction.TPRemoteActionsSecured.EditFeedItem}';
+            MATA.RemoteActions['EditComment'] = '{!$RemoteAction.TPRemoteActionsSecured.EditComment}';
+            MATA.RemoteActions['DeleteFeedItem'] = '{!$RemoteAction.TPRemoteActionsSecured.DeleteFeedItem}';
+            MATA.RemoteActions['StartBalance'] = '{!$RemoteAction.TPRemoteActionsSecured.StartBalance}';
+            MATA.RemoteActions['GetAutoAssignmentUploadUrl'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAutoAssignmentUploadUrl}';
+            MATA.RemoteActions['ProcessSCUs'] = '{!$RemoteAction.TPRemoteActionsSecured.ProcessSCUs}';
+            MATA.RemoteActions['RunAutoAssignment'] = '{!$RemoteAction.TPRemoteActionsSecured.RunAutoAssignment}';
+        }
     </script>
 
     <!-- App Root -->

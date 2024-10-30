@@ -1,4 +1,4 @@
-<apex:page controller="maps.TerritoryPlanning" action="{!checkPermissions}" extensions="maps.TPRemoteActions" title="Salesforce Maps Territory Planning" sidebar="false" standardStyleSheets="false">
+<apex:page controller="maps.TerritoryPlanning" action="{!checkPermissions}" extensions="maps.TPRemoteActions,maps.TPRemoteActionsSecured" title="Salesforce Maps Territory Planning" sidebar="false" standardStyleSheets="false">
     <!-- if is sf classic 2019 -->
     <apex:outputPanel layout="none" rendered="{! $User.UIThemeDisplayed == 'Theme3' }">
         
@@ -120,7 +120,6 @@
                 Query: '{!$RemoteAction.TPRemoteActions.Query}',
 
                 GetSettings: '{!$RemoteAction.TPRemoteActions.GetSettings}',
-                GetDataSets: '{!$RemoteAction.TPRemoteActions.GetDataSets}',
                 GetDataSetsBatch: '{!$RemoteAction.TPRemoteActions.GetDataSetsBatch}',
                 GetDataSetSearch: '{!$RemoteAction.TPRemoteActions.GetDataSetSearch}',
                 GetDataSetById: '{!$RemoteAction.TPRemoteActions.GetDataSetById}',
@@ -153,8 +152,6 @@
                 CloneDataSet: '{!$RemoteAction.TPRemoteActions.CloneDataSet}',
                 StartJob: '{!$RemoteAction.TPRemoteActions.StartJob}',
                 CancelJob: '{!$RemoteAction.TPRemoteActions.CancelJob}',
-                UpdateObjectBatch: '{!$RemoteAction.TPRemoteActions.UpdateObjectBatch}',
-                InsertObjectBatch: '{!$RemoteAction.TPRemoteActions.InsertObjectBatch}',
                 RunDataSetSOQLBatch: '{!$RemoteAction.TPRemoteActions.RunDataSetSOQLBatch}',
                 RunDataSetReportBatch: '{!$RemoteAction.TPRemoteActions.RunDataSetReportBatch}',
                 GetLocationContainers: '{!$RemoteAction.TPRemoteActions.GetLocationContainers}',
@@ -170,7 +167,6 @@
                 GetRangeChunkUnitCounts: '{!$RemoteAction.TPRemoteActions.GetRangeChunkUnitCounts}',
                 GetPkChunkingMetadata: '{!$RemoteAction.TPRemoteActions.GetPkChunkingMetadata}',
                 UpdatePreferences: '{!$RemoteAction.TPRemoteActions.UpdatePreferences}',
-                DeleteObjects: '{!$RemoteAction.TPRemoteActions.DeleteObjects}',
                 GetUnitData: '{!$RemoteAction.TPRemoteActions.GetUnitData}',
                 GetAccessibleAlignments: '{!$RemoteAction.TPRemoteActions.GetAccessibleAlignments}',
                 GetTerritoryRoles: '{!$RemoteAction.TPRemoteActions.GetTerritoryRoles}',
@@ -787,6 +783,10 @@
                 CreateAlignmentTerritoryModelModal_ImportCSVPopover_ParentColumnLookup: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_ImportCSVPopover_ParentColumnLookup)}',
                 CreateAlignmentTerritoryModelModal_Body_TerritoryModelLevelHeader: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Body_TerritoryModelLevelHeader)}',
                 CreateAlignmentTerritoryModelModal_Body_EditAreaNameButtonIcon: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Body_EditAreaNameButtonIcon)}',
+                CreateAlignmentTerritoryModelModal_Popover_RemoveLevelPopover: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Popover_RemoveLevelPopover)}',
+                CreateAlignmentTerritoryModelModal_Popover_RemoveLevelHelpText: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Popover_RemoveLevelHelpText)}',
+                CreateAlignmentTerritoryModelModal_Popover_CancelButton: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Popover_CancelButton)}',
+                CreateAlignmentTerritoryModelModal_Popover_DeleteButton: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Popover_DeleteButton)}',
                 CreateAlignmentTerritoryModelModal_Body_AddChildAreasButtonIcon: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Body_AddChildAreasButtonIcon)}',
                 CreateAlignmentTerritoryModelModal_Body_DeleteAreaButtonIcon: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Body_DeleteAreaButtonIcon)}',
                 CreateAlignmentTerritoryModelModal_Body_EditAreaNameInput: '{!JSENCODE($Label.CreateAlignmentTerritoryModelModal_Body_EditAreaNameInput)}',
@@ -1015,6 +1015,7 @@
                 AlignmentBuilderToasts_Message_AlignmentCreated: '{!JSENCODE($Label.AlignmentBuilderToasts_Message_AlignmentCreated)}',
                 AlignmentBuilderToasts_Message_AlignmentSaved: '{!JSENCODE($Label.AlignmentBuilderToasts_Message_AlignmentSaved)}',
                 AlignmentBuilderToasts_Message_UnabletoSave: '{!JSENCODE($Label.AlignmentBuilderToasts_Message_UnabletoSave)}',
+                AlignmentBuilderToasts_Message_UnabletoGetDataSet: '{!JSENCODE($Label.AlignmentBuilderToasts_Message_UnabletoGetDataSet)}',
                 AlignmentBuilderToasts_Message_UpdateSuccessful: '{!JSENCODE($Label.AlignmentBuilderToasts_Message_UpdateSuccessful)}',
                 AlignmentBuilderToasts_Message_UnabletoDelete: '{!JSENCODE($Label.AlignmentBuilderToasts_Message_UnabletoDelete)}',
                 
@@ -1093,6 +1094,41 @@
             },
             SessionId: "{!$Api.Session_ID}"
         }, JSON.parse("{!JSENCODE(viewData)}"));
+
+        if (MATA.betaFlags.TP_EnhancedSecurity) {
+            // SECURED REMOTE ACTIONS
+            MATA.RemoteActions['GetUnitData'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitData}';
+            MATA.RemoteActions['GetUnitData2'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitData2}';
+            MATA.RemoteActions['GetUnitDataById'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitDataById}';
+            MATA.RemoteActions['UpsertUnitAssignmentBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.UpsertUnitAssignmentBatch}';
+            MATA.RemoteActions['UpsertUnitAssignmentBatchWithResults'] = '{!$RemoteAction.TPRemoteActionsSecured.UpsertUnitAssignmentBatchWithResults}';
+            MATA.RemoteActions['GetRangeChunkUnitCounts'] = '{!$RemoteAction.TPRemoteActionsSecured.GetRangeChunkUnitCounts}';
+            MATA.RemoteActions['GetPkChunkingMetadata'] = '{!$RemoteAction.TPRemoteActionsSecured.GetPkChunkingMetadata}';
+            MATA.RemoteActions['InsertObjectBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.InsertObjectBatch}',
+            MATA.RemoteActions['UpdateObjectBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdateObjectBatch}',
+            MATA.RemoteActions['DeleteObjects'] = '{!$RemoteAction.TPRemoteActionsSecured.DeleteObjects}'
+            MATA.RemoteActions['UpdatePreferences'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdatePreferences}',            
+            MATA.RemoteActions['UpdateUserAccess'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdateUserAccess}',
+            MATA.RemoteActions['UpdateLastViewed'] = '{!$RemoteAction.TPRemoteActionsSecured.UpdateLastViewed}',
+            MATA.RemoteActions['GetDataSetSearch'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSetSearch}',
+            MATA.RemoteActions['GetDataSetById'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSetById}',
+            MATA.RemoteActions['GetDataSetsBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSetsBatch}',
+            MATA.RemoteActions['GetDataSet'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSet}',                        
+            MATA.RemoteActions['GetAccessibleAlignments'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAccessibleAlignments}',
+            MATA.RemoteActions['GetAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignment}',
+            MATA.RemoteActions['GetAlignmentHierarchy'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignmentHierarchy}',
+            MATA.RemoteActions['GetAreasWithAccessByUser'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAreasWithAccessByUser}',
+            MATA.RemoteActions['GetUnformattedAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnformattedAlignment}',            
+            MATA.RemoteActions['GetUnformattedDataSet'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnformattedDataSet}',
+            MATA.RemoteActions['CloneAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.CloneAlignment}',
+            MATA.RemoteActions['CloneDataSet'] = '{!$RemoteAction.TPRemoteActionsSecured.CloneDataSet}',
+            MATA.RemoteActions['GetUsersWithAccess'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUsersWithAccess}',
+            MATA.RemoteActions['GetUsersWithAccessList'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUsersWithAccessList}',
+            MATA.RemoteActions['SaveAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.SaveAlignment}',
+            MATA.RemoteActions['GetFeed'] = '{!$RemoteAction.TPRemoteActionsSecured.GetFeed}',
+            MATA.RemoteActions['GetFeedList'] = '{!$RemoteAction.TPRemoteActionsSecured.GetFeedList}',
+            MATA.RemoteActions['PostFeedItem'] = '{!$RemoteAction.TPRemoteActionsSecured.PostFeedItem}'
+        }
     </script>
 
     <!-- App Root -->

@@ -230,7 +230,7 @@
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
-    <label>MiniMap Setting</label>
+    <label>Maps MiniMap Setting</label>
     <listViews>
         <fullName>maps__All</fullName>
         <filterScope>Everything</filterScope>
@@ -240,7 +240,7 @@
         <label>MiniMap Setting Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>MiniMap Settings</pluralLabel>
+    <pluralLabel>Maps MiniMap Settings</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

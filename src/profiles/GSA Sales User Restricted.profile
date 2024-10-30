@@ -11263,6 +11263,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>maps__TPRemoteActionsInherited</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>maps__TPRemoteActionsSecured</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>maps__TPRest</apexClass>
         <enabled>false</enabled>
     </classAccesses>

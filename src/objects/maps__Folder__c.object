@@ -208,7 +208,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Folder</label>
+    <label>Maps Folder</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -227,7 +227,7 @@
         <label>Folder Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Folders</pluralLabel>
+    <pluralLabel>Maps Folders</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

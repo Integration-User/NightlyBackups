@@ -235,7 +235,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Folder Permission</label>
+    <label>Maps Folder Permission</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -256,7 +256,7 @@
         <label>Folder Permission Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Folder Permissions</pluralLabel>
+    <pluralLabel>Maps Folder Permissions</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

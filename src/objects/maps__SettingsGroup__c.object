@@ -462,7 +462,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Settings Group</label>
+    <label>Maps Settings Group</label>
     <listViews>
         <fullName>maps__All</fullName>
         <columns>NAME</columns>
@@ -474,7 +474,7 @@
         <label>Settings Group Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Settings Groups</pluralLabel>
+    <pluralLabel>Maps Settings Groups</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

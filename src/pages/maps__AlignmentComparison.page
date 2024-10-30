@@ -1,4 +1,4 @@
-<apex:page controller="maps.AlignmentComparison" action="{!checkPermissions}" extensions="maps.TPRemoteActions" title="Salesforce Maps Analyze and Compare" showHeader="false" sidebar="false" standardStyleSheets="false">
+<apex:page controller="maps.AlignmentComparison" action="{!checkPermissions}" extensions="maps.TPRemoteActions,maps.TPRemoteActionsSecured" title="Salesforce Maps Analyze and Compare" showHeader="false" sidebar="false" standardStyleSheets="false">
     
     <!-- if is sf classic 2019 -->
     <apex:outputPanel layout="none" rendered="{! $User.UIThemeDisplayed == 'Theme3' }">
@@ -153,13 +153,10 @@
                 GetAlignmentHierarchy: '{!$RemoteAction.TPRemoteActions.GetAlignmentHierarchy}',
                 GetUnitData: '{!$RemoteAction.TPRemoteActions.GetUnitData}',
                 UpsertUnitAssignmentBatch: '{!$RemoteAction.TPRemoteActions.UpsertUnitAssignmentBatch}',
-                InsertObjectBatch: '{!$RemoteAction.TPRemoteActions.InsertObjectBatch}',
-                UpdateObjectBatch: '{!$RemoteAction.TPRemoteActions.UpdateObjectBatch}',
                 DeleteObjects: '{!$RemoteAction.TPRemoteActions.DeleteObjects}',
                 StartBalance: '{!$RemoteAction.TPRemoteActions.StartBalance}',
                 GetRequestStatus: '{!$RemoteAction.TPRemoteActions.GetRequestStatus}',
                 GetStatusMATO: '{!$RemoteAction.TPRemoteActions.GetStatusMATO}',
-                UpdatePreferences: '{!$RemoteAction.TPRemoteActions.UpdatePreferences}',
 
                 //chatter
                 EditFeedItem: '{!$RemoteAction.TPRemoteActions.EditFeedItem}',
@@ -308,6 +305,19 @@
                 }
             }
         }, JSON.parse("{!JSENCODE(viewData)}"));
+
+        if (MATA.betaFlags.TP_EnhancedSecurity) {
+            // SECURED REMOTE ACTIONS
+            MATA.RemoteActions['GetDataSet'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSet}',
+            MATA.RemoteActions['GetAlignment'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignment}',
+            MATA.RemoteActions['GetAreasWithAccessByUser'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAreasWithAccessByUser}',
+            MATA.RemoteActions['GetDataSets'] = '{!$RemoteAction.TPRemoteActionsSecured.GetDataSets}',
+            MATA.RemoteActions['GetAlignmentHierarchy'] = '{!$RemoteAction.TPRemoteActionsSecured.GetAlignmentHierarchy}',
+            MATA.RemoteActions['GetUnitData'] = '{!$RemoteAction.TPRemoteActionsSecured.GetUnitData}',
+            MATA.RemoteActions['UpsertUnitAssignmentBatch'] = '{!$RemoteAction.TPRemoteActionsSecured.UpsertUnitAssignmentBatch}',
+            MATA.RemoteActions['DeleteObjects'] = '{!$RemoteAction.TPRemoteActionsSecured.DeleteObjects}'
+            MATA.RemoteActions['StartBalance'] = '{!$RemoteAction.TPRemoteActionsSecured.StartBalance}'
+        }
     </script>
 
     <!-- App Root -->

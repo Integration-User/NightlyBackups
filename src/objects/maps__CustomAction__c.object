@@ -330,12 +330,12 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Custom Action</label>
+    <label>Maps Custom Action</label>
     <nameField>
         <label>Label</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Custom Actions</pluralLabel>
+    <pluralLabel>Maps Custom Actions</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
