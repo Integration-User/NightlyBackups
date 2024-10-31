@@ -4880,6 +4880,14 @@
                 <fullName>Yes</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>false</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>true</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Diagnostic_Discussion__c</picklist>

@@ -426,6 +426,11 @@
                     <label>NEWS - Green Street: Europe</label>
                 </value>
                 <value>
+                    <fullName>IJGlobal</fullName>
+                    <default>false</default>
+                    <label>IJGlobal</label>
+                </value>
+                <value>
                     <fullName>NEWS - React</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -545,6 +550,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -603,6 +612,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Featured Insights</fullName>
                 <default>false</default>
             </values>
@@ -651,6 +664,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -696,6 +713,10 @@
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Email</fullName>
                 <default>false</default>
@@ -717,6 +738,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -762,6 +787,10 @@
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Green_Street_Event</fullName>
                 <default>false</default>
@@ -791,6 +820,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -836,6 +869,10 @@
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Net Promoter Score</fullName>
                 <default>true</default>
@@ -857,6 +894,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -902,6 +943,10 @@
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Free Trial</fullName>
                 <default>false</default>
@@ -928,6 +973,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -973,6 +1022,10 @@
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>General</fullName>
                 <default>false</default>
@@ -998,6 +1051,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>NEWS - ABAlert</fullName>
                 <default>false</default>
             </values>
@@ -1044,6 +1101,10 @@
         <picklistValues>
             <picklist>Type</picklist>
             <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Target List</fullName>
                 <default>true</default>
             </values>
@@ -1061,6 +1122,10 @@
             </values>
             <values>
                 <fullName>EUR REIT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1107,6 +1172,10 @@
             <picklist>Type</picklist>
             <values>
                 <fullName>Conference Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Request</fullName>
                 <default>false</default>
             </values>
             <values>
