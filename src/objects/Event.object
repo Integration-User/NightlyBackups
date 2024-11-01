@@ -1199,6 +1199,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Virtual Pre-Renewal %2F Pricing Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Virtual Sales Visit</fullName>
                 <default>false</default>
             </values>
