@@ -698,6 +698,10 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
+                <valueName>Mortgage REITs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Report Feedback</controllingFieldValue>
                 <valueName>News</valueName>
             </valueSettings>
         </valueSet>
@@ -1497,6 +1501,10 @@
             </values>
             <values>
                 <fullName>Market Participants</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mortgage REITs</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2394,6 +2402,10 @@
             </values>
             <values>
                 <fullName>Market Participants</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mortgage REITs</fullName>
                 <default>false</default>
             </values>
             <values>
