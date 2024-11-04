@@ -659,6 +659,208 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Company_Type__c</fullName>
+        <label>Account Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Academia</fullName>
+                    <default>false</default>
+                    <label>Academia</label>
+                </value>
+                <value>
+                    <fullName>Airline</fullName>
+                    <default>false</default>
+                    <label>Airline</label>
+                </value>
+                <value>
+                    <fullName>Airport</fullName>
+                    <default>false</default>
+                    <label>Airport</label>
+                </value>
+                <value>
+                    <fullName>Asset/Investment Management</fullName>
+                    <default>false</default>
+                    <label>Asset/Investment Management</label>
+                </value>
+                <value>
+                    <fullName>Audit/Accountancy</fullName>
+                    <default>false</default>
+                    <label>Audit/Accountancy</label>
+                </value>
+                <value>
+                    <fullName>Broker</fullName>
+                    <default>false</default>
+                    <label>Broker</label>
+                </value>
+                <value>
+                    <fullName>Carrier</fullName>
+                    <default>false</default>
+                    <label>Carrier</label>
+                </value>
+                <value>
+                    <fullName>Consultancy</fullName>
+                    <default>false</default>
+                    <label>Consultancy</label>
+                </value>
+                <value>
+                    <fullName>Corporate</fullName>
+                    <default>false</default>
+                    <label>Corporate</label>
+                </value>
+                <value>
+                    <fullName>Credit Card Acquirer</fullName>
+                    <default>false</default>
+                    <label>Credit Card Acquirer</label>
+                </value>
+                <value>
+                    <fullName>Development Bank/Body</fullName>
+                    <default>false</default>
+                    <label>Development Bank/Body</label>
+                </value>
+                <value>
+                    <fullName>ECA</fullName>
+                    <default>false</default>
+                    <label>ECA</label>
+                </value>
+                <value>
+                    <fullName>Engine Lessor</fullName>
+                    <default>false</default>
+                    <label>Engine Lessor</label>
+                </value>
+                <value>
+                    <fullName>Executive Search</fullName>
+                    <default>false</default>
+                    <label>Executive Search</label>
+                </value>
+                <value>
+                    <fullName>Financial Arranger</fullName>
+                    <default>false</default>
+                    <label>Financial Arranger</label>
+                </value>
+                <value>
+                    <fullName>Fuel Supplier</fullName>
+                    <default>false</default>
+                    <label>Fuel Supplier</label>
+                </value>
+                <value>
+                    <fullName>Fund</fullName>
+                    <default>false</default>
+                    <label>Fund</label>
+                </value>
+                <value>
+                    <fullName>Government/Regulatory</fullName>
+                    <default>false</default>
+                    <label>Government/Regulatory</label>
+                </value>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Infrastructure Developers and Services</fullName>
+                    <default>false</default>
+                    <label>Infrastructure Developers and Services</label>
+                </value>
+                <value>
+                    <fullName>Infrastructure/Utility</fullName>
+                    <default>false</default>
+                    <label>Infrastructure/Utility</label>
+                </value>
+                <value>
+                    <fullName>Institutional Investor</fullName>
+                    <default>false</default>
+                    <label>Institutional Investor</label>
+                </value>
+                <value>
+                    <fullName>Investment Bank</fullName>
+                    <default>false</default>
+                    <label>Investment Bank</label>
+                </value>
+                <value>
+                    <fullName>Law Firm</fullName>
+                    <default>false</default>
+                    <label>Law Firm</label>
+                </value>
+                <value>
+                    <fullName>Lender</fullName>
+                    <default>false</default>
+                    <label>Lender</label>
+                </value>
+                <value>
+                    <fullName>Lessor</fullName>
+                    <default>false</default>
+                    <label>Lessor</label>
+                </value>
+                <value>
+                    <fullName>MGA</fullName>
+                    <default>false</default>
+                    <label>MGA</label>
+                </value>
+                <value>
+                    <fullName>MRO</fullName>
+                    <default>false</default>
+                    <label>MRO</label>
+                </value>
+                <value>
+                    <fullName>OEM</fullName>
+                    <default>false</default>
+                    <label>OEM</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other Air Finance</fullName>
+                    <default>false</default>
+                    <label>Other Air Finance</label>
+                </value>
+                <value>
+                    <fullName>Other Finance</fullName>
+                    <default>false</default>
+                    <label>Other Finance</label>
+                </value>
+                <value>
+                    <fullName>Other Insurance</fullName>
+                    <default>false</default>
+                    <label>Other Insurance</label>
+                </value>
+                <value>
+                    <fullName>Other Service Provider</fullName>
+                    <default>false</default>
+                    <label>Other Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Private Equity</fullName>
+                    <default>false</default>
+                    <label>Private Equity</label>
+                </value>
+                <value>
+                    <fullName>Rating Agency</fullName>
+                    <default>false</default>
+                    <label>Rating Agency</label>
+                </value>
+                <value>
+                    <fullName>Reinsurer</fullName>
+                    <default>false</default>
+                    <label>Reinsurer</label>
+                </value>
+                <value>
+                    <fullName>Trade Association</fullName>
+                    <default>false</default>
+                    <label>Trade Association</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ContactSource</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -712,12 +914,223 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Contact_Type__c</fullName>
+        <label>Contact Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approving Manager - Learning</fullName>
+                    <default>false</default>
+                    <label>Approving Manager - Learning</label>
+                </value>
+                <value>
+                    <fullName>Buyer - Data</fullName>
+                    <default>false</default>
+                    <label>Buyer - Data</label>
+                </value>
+                <value>
+                    <fullName>Buyer - Euromoney</fullName>
+                    <default>false</default>
+                    <label>Buyer - Euromoney</label>
+                </value>
+                <value>
+                    <fullName>Delegate - Learning</fullName>
+                    <default>false</default>
+                    <label>Delegate - Learning</label>
+                </value>
+                <value>
+                    <fullName>Expert - ECR</fullName>
+                    <default>false</default>
+                    <label>Expert - ECR</label>
+                </value>
+                <value>
+                    <fullName>Lapsed Subscriber - ECR</fullName>
+                    <default>false</default>
+                    <label>Lapsed Subscriber - ECR</label>
+                </value>
+                <value>
+                    <fullName>Lapsed Subscriber - Euromoney</fullName>
+                    <default>false</default>
+                    <label>Lapsed Subscriber - Euromoney</label>
+                </value>
+                <value>
+                    <fullName>Lapsed Subscriber - GC</fullName>
+                    <default>false</default>
+                    <label>Lapsed Subscriber - GC</label>
+                </value>
+                <value>
+                    <fullName>Prospect - ECR</fullName>
+                    <default>false</default>
+                    <label>Prospect - ECR</label>
+                </value>
+                <value>
+                    <fullName>Prospect - Euromoney</fullName>
+                    <default>false</default>
+                    <label>Prospect - Euromoney</label>
+                </value>
+                <value>
+                    <fullName>Prospect - GC</fullName>
+                    <default>false</default>
+                    <label>Prospect - GC</label>
+                </value>
+                <value>
+                    <fullName>Prospect - Learning</fullName>
+                    <default>false</default>
+                    <label>Prospect - Learning</label>
+                </value>
+                <value>
+                    <fullName>Subscriber - ECR</fullName>
+                    <default>false</default>
+                    <label>Subscriber - ECR</label>
+                </value>
+                <value>
+                    <fullName>Subscriber - Euromoney</fullName>
+                    <default>false</default>
+                    <label>Subscriber - Euromoney</label>
+                </value>
+                <value>
+                    <fullName>Subscriber - GC</fullName>
+                    <default>false</default>
+                    <label>Subscriber - GC</label>
+                </value>
+                <value>
+                    <fullName>Survey Respondent Data</fullName>
+                    <default>false</default>
+                    <label>Survey Respondent Data</label>
+                </value>
+                <value>
+                    <fullName>Survey Respondent - Euromoney</fullName>
+                    <default>false</default>
+                    <label>Survey Respondent - Euromoney</label>
+                </value>
+                <value>
+                    <fullName>Trainer - Learning</fullName>
+                    <default>false</default>
+                    <label>Trainer - Learning</label>
+                </value>
+                <value>
+                    <fullName>Trialist - ECR</fullName>
+                    <default>false</default>
+                    <label>Trialist - ECR</label>
+                </value>
+                <value>
+                    <fullName>Trialist - ECR - Lapsed</fullName>
+                    <default>false</default>
+                    <label>Trialist - ECR - Lapsed</label>
+                </value>
+                <value>
+                    <fullName>Trialist - GC</fullName>
+                    <default>false</default>
+                    <label>Trialist - GC</label>
+                </value>
+                <value>
+                    <fullName>Trialist - GC - Lapsed</fullName>
+                    <default>false</default>
+                    <label>Trialist - GC - Lapsed</label>
+                </value>
+                <value>
+                    <fullName>Distribution List</fullName>
+                    <default>false</default>
+                    <label>Distribution List</label>
+                </value>
+                <value>
+                    <fullName>Accounts Payable</fullName>
+                    <default>false</default>
+                    <label>Accounts Payable</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>Ops Support</fullName>
+                    <default>false</default>
+                    <label>Ops Support</label>
+                </value>
+                <value>
+                    <fullName>Invoice Contact</fullName>
+                    <default>false</default>
+                    <label>Invoice Contact</label>
+                </value>
+                <value>
+                    <fullName>Contract/Commercial Contact</fullName>
+                    <default>false</default>
+                    <label>Contract/Commercial Contact</label>
+                </value>
+                <value>
+                    <fullName>Operations Contact</fullName>
+                    <default>false</default>
+                    <label>Operations Contact</label>
+                </value>
+                <value>
+                    <fullName>Data Contact</fullName>
+                    <default>false</default>
+                    <label>Data Contact</label>
+                </value>
+                <value>
+                    <fullName>Procurement Contact</fullName>
+                    <default>false</default>
+                    <label>Procurement Contact</label>
+                </value>
+                <value>
+                    <fullName>Disaster Recovery Contact</fullName>
+                    <default>false</default>
+                    <label>Disaster Recovery Contact</label>
+                </value>
+                <value>
+                    <fullName>Legal/Compliance</fullName>
+                    <default>false</default>
+                    <label>Legal/Compliance</label>
+                </value>
+                <value>
+                    <fullName>Customer - Euromoney</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Customer - Euromoney</label>
+                </value>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>Survey Respondent</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Survey Respondent</label>
+                </value>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>TBC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
         <fullName>Contact_Use_Case__c</fullName>
         <label>Contact Use Case</label>
         <length>131072</length>
         <trackHistory>true</trackHistory>
         <type>LongTextArea</type>
         <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Convert_from_Trial__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>If this contact has been automatically converted from a trial, this is ticked.</inlineHelpText>
+        <label>Converted from Trial</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>CurrencyIsoCode</fullName>
@@ -958,6 +1371,17 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Derived_Product_Interest__c</fullName>
+        <label>Derived Product Interest</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Derived_Product_Interest</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <inlineHelpText>Contact Bio</inlineHelpText>
         <trackHistory>false</trackHistory>
@@ -1008,6 +1432,20 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <fullName>Email</fullName>
         <securityClassification>Confidential</securityClassification>
         <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email_Consent_Date_Time__c</fullName>
+        <label>Email Consent Date/Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Email_Opt_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Email Opt In</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Email_Username_Misaligned__c</fullName>
@@ -1276,6 +1714,24 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Has_Active_Opportunities_Billing_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>if checked the record will be included in the automatic sanction check process.</description>
+        <inlineHelpText>if checked the record will be included in the automatic sanction check process.</inlineHelpText>
+        <label>Has Active Opportunities Billing Contact</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Has_Active_Opportunities__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>if checked the record will be included in the automatic sanction check process.</description>
+        <inlineHelpText>if checked the record will be included in the automatic sanction check process.</inlineHelpText>
+        <label>Has Active Opportunities</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>HomePhone</fullName>
         <securityClassification>Confidential</securityClassification>
         <trackHistory>false</trackHistory>
@@ -1446,6 +1902,28 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <fullName>LastCUUpdateDate</fullName>
     </fields>
     <fields>
+        <fullName>Last_Campaign_Associated_Time__c</fullName>
+        <description>The time that this Lead or Contact was associated to their most recent Campaign (based on “Member First Associated Date” field)</description>
+        <inlineHelpText>The time that this Lead or Contact was associated to their most recent Campaign</inlineHelpText>
+        <label>Last Campaign Associated Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Campaign_Touchpoint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The most recent Campaign to which this Lead or Contact has been associated</description>
+        <inlineHelpText>The most recent Campaign to which this Lead or Contact has been associated</inlineHelpText>
+        <label>Last Campaign Touchpoint</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Last_Login_Date__c</fullName>
         <label>Last Login Date</label>
         <required>false</required>
@@ -1464,6 +1942,15 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
     <fields>
         <fullName>Last_Seen_on_Internal_Site__c</fullName>
         <label>Last Seen on Internal Site</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Latest_Subscription_End_Date__c</fullName>
+        <description>Shows the latest Subscription End Date from all related Subscription users</description>
+        <inlineHelpText>Shows the latest Subscription End Date from all related Subscription users</inlineHelpText>
+        <label>Latest Subscription End Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Date</type>
@@ -1546,6 +2033,55 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead_Message__c</fullName>
+        <label>Lead Message</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Lead_Notes__c</fullName>
+        <label>Lead Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Lead_Score_CLV_Decile__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score CLV Decile</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score_Decile__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score Decile</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Lead_Type__c</fullName>
@@ -1811,6 +2347,13 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
                 <valueName>Scored Lead</valueName>
             </valueSettings>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Left_Company__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Left Company</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Left_this_Account__c</fullName>
@@ -3472,6 +4015,13 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <type>TextArea</type>
     </fields>
     <fields>
+        <fullName>Notes__c</fullName>
+        <label>Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Number_of_Acq_Disp_Executed_Per_Year__c</fullName>
         <inlineHelpText>How many acquisitions/dispositions does your firm typically execute in a year?</inlineHelpText>
         <label>Number of Acq/Disp Executed Per Year</label>
@@ -3509,6 +4059,30 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Number_of_Opportunities__c</fullName>
+        <description>.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>.</inlineHelpText>
+        <label>Number of Opportunities</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Subscription_Users__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Subscription Users</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Onboarding_Status__c</fullName>
@@ -3579,9 +4153,46 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Pardot_Opt_out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Pardot Opt-out</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pardot_Sub_Name__c</fullName>
+        <description>Field to caputre Subscription name, with the use of roll up helper</description>
+        <externalId>false</externalId>
+        <label>Pardot Sub Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pardot_Sub_Surname__c</fullName>
+        <description>Pardot Sub Surname is pulled from the subscriptions, via rollup helper</description>
+        <externalId>false</externalId>
+        <label>Pardot Sub Surname</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
         <securityClassification>Confidential</securityClassification>
         <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Phone_2__c</fullName>
+        <description>Used in layout</description>
+        <label>Phone 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
     </fields>
     <fields>
         <fullName>Phone_Extension__c</fullName>
@@ -3662,6 +4273,115 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <label>Press Releases</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Interest__c</fullName>
+        <label>Product Interest</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Insurance Insider</fullName>
+                    <default>false</default>
+                    <label>Insurance Insider</label>
+                </value>
+                <value>
+                    <fullName>Inside P&amp;C</fullName>
+                    <default>false</default>
+                    <label>Inside P&amp;C</label>
+                </value>
+                <value>
+                    <fullName>Trading Risk</fullName>
+                    <default>false</default>
+                    <label>Trading Risk</label>
+                </value>
+                <value>
+                    <fullName>Airfinance Journal</fullName>
+                    <default>false</default>
+                    <label>Airfinance Journal</label>
+                </value>
+                <value>
+                    <fullName>The Airline Analyst</fullName>
+                    <default>false</default>
+                    <label>The Airline Analyst</label>
+                </value>
+                <value>
+                    <fullName>The Lessor Analyst</fullName>
+                    <default>false</default>
+                    <label>The Lessor Analyst</label>
+                </value>
+                <value>
+                    <fullName>Deal Tracker</fullName>
+                    <default>false</default>
+                    <label>Deal Tracker</label>
+                </value>
+                <value>
+                    <fullName>Fleet Tracker</fullName>
+                    <default>false</default>
+                    <label>Fleet Tracker</label>
+                </value>
+                <value>
+                    <fullName>The Airline Analyst Financial Ratings</fullName>
+                    <default>false</default>
+                    <label>The Airline Analyst Financial Ratings</label>
+                </value>
+                <value>
+                    <fullName>In-House</fullName>
+                    <default>false</default>
+                    <label>In-House</label>
+                </value>
+                <value>
+                    <fullName>Public</fullName>
+                    <default>false</default>
+                    <label>Public</label>
+                </value>
+                <value>
+                    <fullName>ELOD</fullName>
+                    <default>false</default>
+                    <label>ELOD</label>
+                </value>
+                <value>
+                    <fullName>Customer Service</fullName>
+                    <default>false</default>
+                    <label>Customer Service</label>
+                </value>
+                <value>
+                    <fullName>Trainer Enquiry</fullName>
+                    <default>false</default>
+                    <label>Trainer Enquiry</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>IJGlobal</fullName>
+                    <default>false</default>
+                    <label>IJGlobal</label>
+                </value>
+                <value>
+                    <fullName>Power Finance &amp; Risk</fullName>
+                    <default>false</default>
+                    <label>Power Finance &amp; Risk</label>
+                </value>
+                <value>
+                    <fullName>IJInvestor</fullName>
+                    <default>false</default>
+                    <label>IJInvestor</label>
+                </value>
+                <value>
+                    <fullName>Primary Market Monitor</fullName>
+                    <default>false</default>
+                    <label>Primary Market Monitor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>Products_Include__c</fullName>
@@ -3824,6 +4544,16 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>SalesLoft1__Active_Contact__c</fullName>
         <deprecated>false</deprecated>
         <description>If Contact has an activity logged within the last 30 days, this field will return a value of 1.</description>
@@ -3878,6 +4608,26 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <label>Salesforce User</label>
         <trackHistory>true</trackHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sanction_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(LOWER(MailingCountry), &quot;iran&quot;), &quot;Black List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;cuba&quot;), &quot;Black List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;democratic people&apos;s republic of&quot;), &quot;Black List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;sudan&quot;), &quot;Red List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;syria&quot;), &quot;Black List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;ukraine&quot;), &quot;Red List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;russia&quot;), &quot;Red List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;myanmar&quot;), &quot;Red List&quot;, 
+IF(CONTAINS(LOWER(MailingCountry), &quot;venezuela&quot;), &quot;Red List&quot;, 
+&quot;Clear&quot;)))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sanction Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Secondary_Email__c</fullName>

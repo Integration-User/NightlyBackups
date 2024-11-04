@@ -175,6 +175,7 @@
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Contact.Green_Street_User_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact.Phone_2__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>MessagingPlatformKey</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessagingChannel</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessageType</searchResultsAdditionalFields>
