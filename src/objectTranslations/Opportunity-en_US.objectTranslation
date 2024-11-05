@@ -3359,6 +3359,10 @@
         <label><!-- Sales Opportunity - Closed --></label>
         <name>Sales_Opportunity_Closed</name>
     </recordTypes>
+    <recordTypes>
+        <label><!-- Test Sales RT --></label>
+        <name>Test_Sales_RT</name>
+    </recordTypes>
     <validationRules>
         <errorMessage><!-- Please ensure AP Email is filled in before marking this Opportunity as Closed Won. --></errorMessage>
         <name>AP_Email_Blank_on_Closed_Won</name>

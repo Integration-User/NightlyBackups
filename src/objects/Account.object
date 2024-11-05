@@ -2585,7 +2585,7 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
         <fullName>CustomerID__c</fullName>
         <externalId>true</externalId>
         <label>CustomerID</label>
-        <length>8</length>
+        <length>18</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
@@ -3290,6 +3290,16 @@ IF(ISPICKVAL(Company_Type__c, &quot;Non-Contracted Long Only-generalist&quot;), 
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>IJ_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>IJ Relationship</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>In_Office__c</fullName>
@@ -5419,7 +5429,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <externalId>false</externalId>
         <inlineHelpText>Enter the Account&apos;s VAT number. Mandatory for UK, EU, Switzerland, UAE, Canada, Russia, S.Africa.</inlineHelpText>
         <label>VAT Number</label>
-        <length>20</length>
+        <length>32</length>
         <required>false</required>
         <trackHistory>true</trackHistory>
         <type>Text</type>
@@ -6124,11 +6134,6 @@ Stored as Long on Solr.</description>
         <columns>High_Value_Data_Sets__c</columns>
         <columns>X18_digit_Account_ID__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>ACCOUNT.NAME</field>
-            <operation>contains</operation>
-            <value>true</value>
-        </filters>
         <label>All Accounts</label>
     </listViews>
     <listViews>
@@ -6220,6 +6225,28 @@ Stored as Long on Solr.</description>
             <value>Account.Subsidiary_Account</value>
         </filters>
         <label>Former Clients</label>
+    </listViews>
+    <listViews>
+        <fullName>Migrated_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Client_Segment__c</columns>
+        <columns>Company_Type__c</columns>
+        <columns>ACCOUNT.LAST_ACTIVITY</columns>
+        <columns>Analyst_Access__c</columns>
+        <columns>Detailed_NAV_Models__c</columns>
+        <columns>High_Value_Data_Sets__c</columns>
+        <columns>X18_digit_Account_ID__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Delinian_Id__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Migrated Accounts</label>
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>

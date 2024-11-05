@@ -1363,6 +1363,28 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>Used for migration from Delinian Business Intelligence (NXG) org</description>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Delinian_Parent_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Parent Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackHistory>true</trackHistory>
     </fields>
@@ -4176,6 +4198,17 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <externalId>false</externalId>
         <label>Pardot Sub Surname</label>
         <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Account_Id_Brand__c</fullName>
+        <description>Used for Data Separation to store the Original Contact Id on the Cloned Contact</description>
+        <externalId>false</externalId>
+        <label>Parent Account Id (Brand)</label>
+        <length>18</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
