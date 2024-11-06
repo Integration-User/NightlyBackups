@@ -52,6 +52,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>New_Sale_Effective_Date__c</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Amount</field>
             <table>Opportunity</table>
         </columns>
