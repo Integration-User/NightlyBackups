@@ -5429,7 +5429,7 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <externalId>false</externalId>
         <inlineHelpText>Enter the Account&apos;s VAT number. Mandatory for UK, EU, Switzerland, UAE, Canada, Russia, S.Africa.</inlineHelpText>
         <label>VAT Number</label>
-        <length>32</length>
+        <length>255</length>
         <required>false</required>
         <trackHistory>true</trackHistory>
         <type>Text</type>

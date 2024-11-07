@@ -1180,11 +1180,11 @@
         <picklistValues>
             <picklist>Bounced_Salesloft__c</picklist>
             <values>
-                <fullName>No</fullName>
+                <fullName>false</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Yes</fullName>
+                <fullName>true</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1925,11 +1925,11 @@
         <picklistValues>
             <picklist>Bounced_Salesloft__c</picklist>
             <values>
-                <fullName>No</fullName>
+                <fullName>false</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Yes</fullName>
+                <fullName>true</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -2656,11 +2656,11 @@
         <picklistValues>
             <picklist>Bounced_Salesloft__c</picklist>
             <values>
-                <fullName>No</fullName>
+                <fullName>false</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Yes</fullName>
+                <fullName>true</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -3394,11 +3394,11 @@
         <picklistValues>
             <picklist>Bounced_Salesloft__c</picklist>
             <values>
-                <fullName>No</fullName>
+                <fullName>false</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Yes</fullName>
+                <fullName>true</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -4132,11 +4132,11 @@
         <picklistValues>
             <picklist>Bounced_Salesloft__c</picklist>
             <values>
-                <fullName>No</fullName>
+                <fullName>false</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Yes</fullName>
+                <fullName>true</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -4873,11 +4873,11 @@
         <picklistValues>
             <picklist>Bounced_Salesloft__c</picklist>
             <values>
-                <fullName>No</fullName>
+                <fullName>false</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Yes</fullName>
+                <fullName>true</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

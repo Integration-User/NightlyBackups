@@ -23632,7 +23632,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Event.Bounced_Salesloft__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -28917,7 +28917,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Task.Bounced_Salesloft__c</field>
         <readable>true</readable>
     </fieldPermissions>

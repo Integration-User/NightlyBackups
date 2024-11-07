@@ -66,6 +66,15 @@
         </countries>
         <countries>
             <active>true</active>
+            <integrationValue>Netherlands Antilles</integrationValue>
+            <isoCode>AN</isoCode>
+            <label>Netherlands Antilles</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
             <integrationValue>Angola</integrationValue>
             <isoCode>AO</isoCode>
             <label>Angola</label>
@@ -98,6 +107,22 @@
             <label>Austria</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <states>
+                <active>true</active>
+                <integrationValue>Unknown</integrationValue>
+                <isoCode>UKN</isoCode>
+                <label>Unknown</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Vienna</integrationValue>
+                <isoCode>VI</isoCode>
+                <label>Vienna</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -154,6 +179,14 @@
                 <label>Tasmania</label>
                 <standard>true</standard>
                 <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Unknown</integrationValue>
+                <isoCode>UKN</isoCode>
+                <label>Unknown</label>
+                <standard>false</standard>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -798,6 +831,14 @@
             </states>
             <states>
                 <active>true</active>
+                <integrationValue>Unknown</integrationValue>
+                <isoCode>UKN</isoCode>
+                <label>Unknown</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>true</active>
                 <integrationValue>Yukon Territories</integrationValue>
                 <isoCode>YT</isoCode>
                 <label>Yukon Territories</label>
@@ -1165,6 +1206,14 @@
                 <label>Macao</label>
                 <standard>true</standard>
                 <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Unknown</integrationValue>
+                <isoCode>UKN</isoCode>
+                <label>Unknown</label>
+                <standard>false</standard>
+                <visible>false</visible>
             </states>
             <visible>true</visible>
         </countries>
@@ -1722,6 +1771,14 @@
                 <standard>false</standard>
                 <visible>true</visible>
             </states>
+            <states>
+                <active>true</active>
+                <integrationValue>West Yorkshire</integrationValue>
+                <isoCode>WYK</isoCode>
+                <label>West Yorkshire</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -2113,6 +2170,14 @@
                 <label>Tipperary</label>
                 <standard>true</standard>
                 <visible>false</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Unknown-IR</integrationValue>
+                <isoCode>UKNIR</isoCode>
+                <label>Unknown-IR</label>
+                <standard>false</standard>
+                <visible>true</visible>
             </states>
             <states>
                 <active>true</active>
@@ -3316,6 +3381,14 @@
             </states>
             <states>
                 <active>true</active>
+                <integrationValue>Unknown-It</integrationValue>
+                <isoCode>UKNIT</isoCode>
+                <label>Unknown-It</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
                 <integrationValue>Varese</integrationValue>
                 <isoCode>VA</isoCode>
                 <label>Varese</label>
@@ -4302,6 +4375,15 @@
         </countries>
         <countries>
             <active>true</active>
+            <integrationValue>Palau</integrationValue>
+            <isoCode>PW</isoCode>
+            <label>Palau</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
             <integrationValue>Paraguay</integrationValue>
             <isoCode>PY</isoCode>
             <label>Paraguay</label>
@@ -4397,6 +4479,15 @@
             <label>Seychelles</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
+            <integrationValue>Serbia And Montenegro</integrationValue>
+            <isoCode>SCG</isoCode>
+            <label>Serbia And Montenegro</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>true</visible>
         </countries>
         <countries>
@@ -5199,7 +5290,7 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>UKNUS</integrationValue>
+                <integrationValue>Unknown-US</integrationValue>
                 <isoCode>UKNUS</isoCode>
                 <label>Unknown-US</label>
                 <standard>false</standard>
@@ -5344,9 +5435,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Viet Nam</integrationValue>
+            <integrationValue>Vietnam</integrationValue>
             <isoCode>VN</isoCode>
-            <label>Viet Nam</label>
+            <label>Vietnam</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
