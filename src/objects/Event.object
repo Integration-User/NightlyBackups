@@ -981,17 +981,6 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Bounced_Salesloft__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Diagnostic_Discussion__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -1196,6 +1185,10 @@
             </values>
             <values>
                 <fullName>Virtual Corporate Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Pre-Renewal %2F Pricing Visit</fullName>
                 <default>false</default>
             </values>
             <values>
