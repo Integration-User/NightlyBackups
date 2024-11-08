@@ -628,12 +628,12 @@
         <label><!-- Bounced (Salesloft) --></label>
         <name>Bounced_Salesloft__c</name>
         <picklistValues>
-            <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <masterLabel>false</masterLabel>
+            <translation><!-- false --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <masterLabel>true</masterLabel>
+            <translation><!-- true --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -829,6 +829,10 @@
         <picklistValues>
             <masterLabel>Green Street News: Canada</masterLabel>
             <translation><!-- Green Street News: Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Street News: Europe</masterLabel>
+            <translation><!-- Green Street News: Europe --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>IJGlobal Investor</masterLabel>

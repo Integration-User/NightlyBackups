@@ -44,7 +44,7 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Folder Permissions --></relationshipLabel>
+        <relationshipLabel><!-- Maps Folder Permissions --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
     <nameFieldLabel>Nome da permissão da pasta</nameFieldLabel>

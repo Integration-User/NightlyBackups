@@ -19,6 +19,6 @@
     <fields>
         <label><!-- User --></label>
         <name>maps__User__c</name>
-        <relationshipLabel><!-- Routes --></relationshipLabel>
+        <relationshipLabel><!-- Maps Routes --></relationshipLabel>
     </fields>
 </CustomObjectTranslation>

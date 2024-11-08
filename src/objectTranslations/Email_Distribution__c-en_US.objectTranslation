@@ -36,16 +36,16 @@
             <translation><!-- Commercial Mortgage Alert --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Green Street News: Europe</masterLabel>
+            <translation><!-- Green Street News: Europe --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Pan-European Research + Market Data &amp; Deals</masterLabel>
             <translation><!-- Pan-European Research + Market Data &amp; Deals --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Pan-European Research + REIT Data</masterLabel>
             <translation><!-- Pan-European Research + REIT Data --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>React News</masterLabel>
-            <translation><!-- React News --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Real Estate Alert</masterLabel>
