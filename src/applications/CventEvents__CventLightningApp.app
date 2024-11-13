@@ -77,6 +77,7 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Cvent</label>
     <navType>Standard</navType>
+    <subscriberTabs>CventEvents__AttendeeActivity__c</subscriberTabs>
     <tabs>CventEvents__CventHome</tabs>
     <tabs>CventEvents__CventAdmin</tabs>
     <tabs>CventEvents__Log__c</tabs>

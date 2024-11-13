@@ -372,4 +372,8 @@
         <name>CventEvents__CventMobileApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>CventSFDC</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>

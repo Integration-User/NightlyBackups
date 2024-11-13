@@ -21267,6 +21267,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>CventEvents__AttendeeTemp__c.FavoriteBand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CventEvents__Attendee__c.CventEvents__AdmissionItem__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -22642,6 +22647,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>CventEvents__RespondentTemp__c.FavoriteBand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CventEvents__Respondent__c.CventEvents__Company__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -23676,6 +23686,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Attendee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Bounced_Salesloft__c</field>
         <readable>true</readable>
@@ -23753,6 +23768,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event.Event_Audit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Event__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -28961,6 +28981,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Attendee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.Bounced_Salesloft__c</field>
         <readable>true</readable>
@@ -29038,6 +29063,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.Event_Audit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Event__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

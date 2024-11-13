@@ -14,4 +14,5 @@
     <tabs>standard-Lead</tabs>
     <tabs>CventEvents__AttendeeTemp__c</tabs>
     <tabs>CventEvents__Attendee__c</tabs>
+    <tabs>CventEvents__AttendeeActivity__c</tabs>
 </CustomApplication>

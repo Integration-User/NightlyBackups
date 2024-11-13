@@ -405,4 +405,8 @@
         <label><!-- Work State Name --></label>
         <name>CventEvents__pkg_WorkStateName__c</name>
     </fields>
+    <fields>
+        <label><!-- Favorite Band --></label>
+        <name>FavoriteBand__c</name>
+    </fields>
 </CustomObjectTranslation>

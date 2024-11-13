@@ -1157,6 +1157,16 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>FavoriteBand__c</fullName>
+        <externalId>false</externalId>
+        <label>Favorite Band</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>Respondent Temp Record</label>
     <listViews>
         <fullName>CventEvents__All</fullName>
