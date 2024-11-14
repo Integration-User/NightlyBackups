@@ -15536,6 +15536,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CURRENT_ARR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Client_Segment_New__c</field>
         <readable>true</readable>
@@ -25968,6 +25973,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.CRS_Sent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.CS_Request__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

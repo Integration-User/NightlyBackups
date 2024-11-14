@@ -772,6 +772,15 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
         </valueSet>
     </fields>
     <fields>
+        <fullName>CURRENT_ARR__c</fullName>
+        <label>CURRENT ARR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Client_Segment_New__c</fullName>
         <externalId>false</externalId>
         <formula>IF(ISPICKVAL(Company_Type__c, &quot;Accountant&quot;), &quot;Accountant / Consultant / Law Firm&quot;,
@@ -6241,6 +6250,7 @@ Stored as Long on Solr.</description>
         <columns>Detailed_NAV_Models__c</columns>
         <columns>High_Value_Data_Sets__c</columns>
         <columns>X18_digit_Account_ID__c</columns>
+        <columns>Subsidiary__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Delinian_Id__c</field>

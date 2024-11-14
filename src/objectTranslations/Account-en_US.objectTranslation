@@ -389,6 +389,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- CURRENT ARR --></label>
+        <name>CURRENT_ARR__c</name>
+    </fields>
+    <fields>
         <label><!-- Client Segment --></label>
         <name>Client_Segment_New__c</name>
     </fields>

@@ -259,6 +259,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- CS Request --></label>
+        <name>CS_Request__c</name>
+    </fields>
+    <fields>
         <label><!-- Campaign Name --></label>
         <name>Campaign_Name__c</name>
     </fields>
@@ -1117,6 +1121,10 @@
         <picklistValues>
             <masterLabel>Trial Request</masterLabel>
             <translation><!-- Trial Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upsell</masterLabel>
+            <translation><!-- Upsell --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Webinar</masterLabel>
