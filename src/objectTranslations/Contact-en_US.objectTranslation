@@ -188,8 +188,149 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Contact Type --></label>
+        <name>Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accounts Payable</masterLabel>
+            <translation><!-- Accounts Payable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approving Manager - Learning</masterLabel>
+            <translation><!-- Approving Manager - Learning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer - Data</masterLabel>
+            <translation><!-- Buyer - Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer - Euromoney</masterLabel>
+            <translation><!-- Buyer - Euromoney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract/Commercial Contact</masterLabel>
+            <translation><!-- Contract/Commercial Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Contact</masterLabel>
+            <translation><!-- Data Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delegate - Learning</masterLabel>
+            <translation><!-- Delegate - Learning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Recovery Contact</masterLabel>
+            <translation><!-- Disaster Recovery Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution List</masterLabel>
+            <translation><!-- Distribution List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert - ECR</masterLabel>
+            <translation><!-- Expert - ECR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Contact</masterLabel>
+            <translation><!-- Invoice Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lapsed Subscriber - ECR</masterLabel>
+            <translation><!-- Lapsed Subscriber - ECR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lapsed Subscriber - Euromoney</masterLabel>
+            <translation><!-- Lapsed Subscriber - Euromoney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lapsed Subscriber - GC</masterLabel>
+            <translation><!-- Lapsed Subscriber - GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal/Compliance</masterLabel>
+            <translation><!-- Legal/Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Contact</masterLabel>
+            <translation><!-- Operations Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ops Support</masterLabel>
+            <translation><!-- Ops Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement Contact</masterLabel>
+            <translation><!-- Procurement Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect - ECR</masterLabel>
+            <translation><!-- Prospect - ECR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect - Euromoney</masterLabel>
+            <translation><!-- Prospect - Euromoney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect - GC</masterLabel>
+            <translation><!-- Prospect - GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect - Learning</masterLabel>
+            <translation><!-- Prospect - Learning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscriber - ECR</masterLabel>
+            <translation><!-- Subscriber - ECR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscriber - Euromoney</masterLabel>
+            <translation><!-- Subscriber - Euromoney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscriber - GC</masterLabel>
+            <translation><!-- Subscriber - GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Respondent - Euromoney</masterLabel>
+            <translation><!-- Survey Respondent - Euromoney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Respondent Data</masterLabel>
+            <translation><!-- Survey Respondent Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer - Learning</masterLabel>
+            <translation><!-- Trainer - Learning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trialist - ECR</masterLabel>
+            <translation><!-- Trialist - ECR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trialist - ECR - Lapsed</masterLabel>
+            <translation><!-- Trialist - ECR - Lapsed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trialist - GC</masterLabel>
+            <translation><!-- Trialist - GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trialist - GC - Lapsed</masterLabel>
+            <translation><!-- Trialist - GC - Lapsed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Contact Use Case --></label>
         <name>Contact_Use_Case__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this contact has been automatically converted from a trial, this is ticked. --></help>
+        <label><!-- Converted from Trial --></label>
+        <name>Convert_from_Trial__c</name>
     </fields>
     <fields>
         <label><!-- Current Products (Text) --></label>
@@ -287,6 +428,18 @@
         <name>Deactivation_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delinian Parent Id --></label>
+        <name>Delinian_Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Derived Product Interest --></label>
+        <name>Derived_Product_Interest__c</name>
+    </fields>
+    <fields>
         <label><!-- Description (New) --></label>
         <name>Description_New__c</name>
     </fields>
@@ -301,6 +454,10 @@
     <fields>
         <label><!-- EU Contact --></label>
         <name>EU_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In --></label>
+        <name>Email_Opt_In__c</name>
     </fields>
     <fields>
         <label><!-- Email &amp; Username Misaligned --></label>
@@ -438,6 +595,16 @@
         <name>Green_Street_User_Title__c</name>
     </fields>
     <fields>
+        <help><!-- if checked the record will be included in the automatic sanction check process. --></help>
+        <label><!-- Has Active Opportunities Billing Contact --></label>
+        <name>Has_Active_Opportunities_Billing_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- if checked the record will be included in the automatic sanction check process. --></help>
+        <label><!-- Has Active Opportunities --></label>
+        <name>Has_Active_Opportunities__c</name>
+    </fields>
+    <fields>
         <label><!-- Hubspot Score --></label>
         <name>Hubspot_Score__c</name>
     </fields>
@@ -570,6 +737,26 @@
             <masterLabel>Target List</masterLabel>
             <translation><!-- Target List --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Message --></label>
+        <name>Lead_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Notes --></label>
+        <name>Lead_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score CLV Decile --></label>
+        <name>Lead_Score_CLV_Decile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score Decile --></label>
+        <name>Lead_Score_Decile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>Lead_Score__c</name>
     </fields>
     <fields>
         <label><!-- Lead Type --></label>
@@ -1950,6 +2137,10 @@
         <name>Next_Steps__c</name>
     </fields>
     <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
         <help><!-- How many acquisitions/dispositions does your firm typically execute in a year? --></help>
         <label><!-- Number of Acq/Disp Executed Per Year --></label>
         <name>Number_of_Acq_Disp_Executed_Per_Year__c</name>
@@ -1973,6 +2164,15 @@
             <masterLabel>6-10</masterLabel>
             <translation><!-- 6-10 --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- . --></help>
+        <label><!-- Number of Opportunities --></label>
+        <name>Number_of_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Subscription Users --></label>
+        <name>Number_of_Subscription_Users__c</name>
     </fields>
     <fields>
         <label><!-- Onboarding Status --></label>
@@ -2005,6 +2205,14 @@
             <masterLabel>Registrant</masterLabel>
             <translation><!-- Registrant --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parent Account Id (Brand) --></label>
+        <name>Parent_Account_Id_Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone 2 --></label>
+        <name>Phone_2__c</name>
     </fields>
     <fields>
         <label><!-- Phone Extension --></label>
@@ -2051,6 +2259,86 @@
     <fields>
         <label><!-- Press Releases --></label>
         <name>Press_Releases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>Product_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Airfinance Journal</masterLabel>
+            <translation><!-- Airfinance Journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deal Tracker</masterLabel>
+            <translation><!-- Deal Tracker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELOD</masterLabel>
+            <translation><!-- ELOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet Tracker</masterLabel>
+            <translation><!-- Fleet Tracker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IJGlobal</masterLabel>
+            <translation><!-- IJGlobal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IJInvestor</masterLabel>
+            <translation><!-- IJInvestor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inside P&amp;C</masterLabel>
+            <translation><!-- Inside P&amp;C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Insider</masterLabel>
+            <translation><!-- Insurance Insider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power Finance &amp; Risk</masterLabel>
+            <translation><!-- Power Finance &amp; Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Market Monitor</masterLabel>
+            <translation><!-- Primary Market Monitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Airline Analyst</masterLabel>
+            <translation><!-- The Airline Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Airline Analyst Financial Ratings</masterLabel>
+            <translation><!-- The Airline Analyst Financial Ratings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Lessor Analyst</masterLabel>
+            <translation><!-- The Lessor Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trading Risk</masterLabel>
+            <translation><!-- Trading Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer Enquiry</masterLabel>
+            <translation><!-- Trainer Enquiry --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Products Include --></label>
@@ -2136,6 +2424,10 @@
             <masterLabel>Underwriting</masterLabel>
             <translation><!-- Underwriting --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
     </fields>
     <fields>
         <label><!-- Active Contact --></label>
