@@ -852,6 +852,7 @@
         <columns>CventEvents__pkg_StartDate__c</columns>
         <columns>CventEvents__pkg_StartTime__c</columns>
         <columns>CventEvents__pkg_TimeZone__c</columns>
+        <columns>CventEvents__pkg_EventStub__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

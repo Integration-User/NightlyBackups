@@ -7420,6 +7420,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -10388,6 +10392,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>CompStak</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Crexi</fullName>
                 <default>false</default>
             </values>
             <values>
