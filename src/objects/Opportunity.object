@@ -7826,6 +7826,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         </filters>
         <label>All Open Inbound SDO’s</label>
         <sharedTo>
+            <role>Marketing</role>
             <roleAndSubordinates>BDR_Manager</roleAndSubordinates>
         </sharedTo>
     </listViews>
