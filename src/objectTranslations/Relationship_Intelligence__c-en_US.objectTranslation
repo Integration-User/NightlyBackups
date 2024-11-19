@@ -91,6 +91,10 @@
             <translation><!-- CompStak --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Crexi</masterLabel>
+            <translation><!-- Crexi --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Datscha - MSCI</masterLabel>
             <translation><!-- Datscha - MSCI --></translation>
         </picklistValues>
