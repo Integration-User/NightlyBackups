@@ -21837,6 +21837,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.ApprovalFlowRequired__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.BusinessUnit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>CventEvents__Event__c.CventEvents__pkg_Address1__c</field>
         <readable>true</readable>
@@ -22115,6 +22125,36 @@
         <editable>true</editable>
         <field>CventEvents__Event__c.CventEvents__pkg_TypeName__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.EventCostCentre__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.EventThumbnailImage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.EventType__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.LegalEntity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.Region__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.SalesforceUID__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -26498,6 +26538,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Delenian_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Department_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -28129,6 +28174,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.News_Product_Line__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.One_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- Approval Flow Required --></label>
+        <name>ApprovalFlowRequired__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>BusinessUnit__c</name>
+        <picklistValues>
+            <masterLabel>infrastructure-journal-global</masterLabel>
+            <translation><!-- infrastructure-journal-global --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Address 1 --></label>
         <name>CventEvents__pkg_Address1__c</name>
     </fields>
@@ -301,6 +321,66 @@
     <fields>
         <label><!-- Registration Is Open To --></label>
         <name>CventEvents__pkg_TypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Cost Centre --></label>
+        <name>EventCostCentre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Thumbnail Image --></label>
+        <name>EventThumbnailImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>EventType__c</name>
+        <picklistValues>
+            <masterLabel>Award</masterLabel>
+            <translation><!-- Award --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual</masterLabel>
+            <translation><!-- Virtual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity --></label>
+        <name>LegalEntity__c</name>
+        <picklistValues>
+            <masterLabel>Delinian (IJGlobal) Limited</masterLabel>
+            <translation><!-- Delinian (IJGlobal) Limited --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC (Asia-Pacific)</masterLabel>
+            <translation><!-- APAC (Asia-Pacific) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation><!-- Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MENA (Middle East and North Africa)</masterLabel>
+            <translation><!-- MENA (Middle East and North Africa) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salesforce UID --></label>
+        <name>SalesforceUID__c</name>
     </fields>
     <sharingReasons>
         <label><!-- Event Filtering --></label>
