@@ -7434,6 +7434,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -7943,6 +7947,26 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10405,6 +10429,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -10886,6 +10914,26 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>

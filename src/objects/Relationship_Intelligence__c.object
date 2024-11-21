@@ -289,6 +289,11 @@
                     <label>CoStar</label>
                 </value>
                 <value>
+                    <fullName>Crexi</fullName>
+                    <default>false</default>
+                    <label>Crexi</label>
+                </value>
+                <value>
                     <fullName>Datscha - MSCI</fullName>
                     <default>false</default>
                     <label>Datscha - MSCI</label>

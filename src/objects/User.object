@@ -1244,6 +1244,16 @@
         <columns>CORE.USERS.ACTIVE</columns>
         <columns>CORE.PROFILE.NAME</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CORE.USER_ROLE.NAME</field>
+            <operation>equals</operation>
+            <value>BDR,BDR Manager</value>
+        </filters>
         <label>All Users</label>
     </listViews>
     <listViews>

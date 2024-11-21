@@ -890,6 +890,14 @@ IF(ISPICKVAL( Billing_Schedule__c , &quot;One-time&quot;), &quot;One-time&quot;,
         </valueSet>
     </fields>
     <fields>
+        <fullName>CS_Request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>CS Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -2912,6 +2920,11 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
                     <default>false</default>
                     <label>Salesforce</label>
                 </value>
+                <value>
+                    <fullName>Upsell</fullName>
+                    <default>false</default>
+                    <label>Upsell</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Paid Search</controllingFieldValue>
@@ -3020,6 +3033,10 @@ IF(ISPICKVAL(Lead_Type__c, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</for
                 <controllingFieldValue>Inquiry</controllingFieldValue>
                 <controllingFieldValue>Ecommerce</controllingFieldValue>
                 <valueName>Subscription Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inquiry</controllingFieldValue>
+                <valueName>Upsell</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Derived Intent</controllingFieldValue>
@@ -7005,6 +7022,47 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <label>All Opportunities</label>
     </listViews>
     <listViews>
+        <fullName>All_Open_IJ_Global_Inbound_SDOs</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Lead_Contact__c</columns>
+        <columns>Lead_Contact_Email__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Lead_Channel__c</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>Submission_Notes_New__c</columns>
+        <columns>Marketing_Identified_Country__c</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Sales_Development</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <operation>equals</operation>
+            <value>IJGlobal</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>iuser</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Disqualified,Qualified</value>
+        </filters>
+        <label>All Open IJ Global Inbound SDOs</label>
+        <sharedTo>
+            <group>IJ_Global_Inbound_SDOs</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>All_Open_SDO_s</fullName>
         <columns>OPPORTUNITY.NAME</columns>
         <columns>ACCOUNT.NAME</columns>
@@ -7345,6 +7403,39 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <roleAndSubordinates>CAM_Manager</roleAndSubordinates>
             <roleAndSubordinates>Sales_Manager</roleAndSubordinates>
         </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Open_Working_IJ_Global_Inbound_SDOs</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Lead_Contact__c</columns>
+        <columns>Lead_Contact_Email__c</columns>
+        <columns>Contact_Name_For_Testing__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Lead_Channel__c</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>Submission_Notes_New__c</columns>
+        <columns>Marketing_Identified_Country__c</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Sales_Development</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.LEAD_SOURCE</field>
+            <operation>equals</operation>
+            <value>IJGlobal</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Disqualified,Qualified</value>
+        </filters>
+        <label>My Open &amp; Working IJ Global Inbound SDOs</label>
     </listViews>
     <listViews>
         <fullName>My_Opportunities_Next_30_days</fullName>
@@ -9854,6 +9945,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -10559,6 +10654,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12635,6 +12750,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -13352,6 +13471,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15356,6 +15495,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -16045,6 +16188,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18013,6 +18176,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -18702,6 +18869,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19562,6 +19749,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Trial Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upsell</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20762,6 +20953,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -21515,6 +21710,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -23471,6 +23686,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -24092,6 +24311,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -26048,6 +26287,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -26657,6 +26900,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -28578,6 +28841,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Deutsch Bank</fullName>
                 <default>false</default>
             </values>
@@ -29119,6 +29386,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -29991,6 +30278,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Trial Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upsell</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -31191,6 +31482,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -31944,6 +32239,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -32761,6 +33076,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Trial Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upsell</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -33993,6 +34312,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -34890,6 +35213,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35797,6 +36140,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Upsell</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Webinar</fullName>
                 <default>false</default>
             </values>
@@ -36994,6 +37341,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -37743,6 +38094,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -38610,6 +38981,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Upsell</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Webinar</fullName>
                 <default>false</default>
             </values>
@@ -39807,6 +40182,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Crexi</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Datscha</fullName>
                 <default>false</default>
             </values>
@@ -40564,6 +40943,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Renewables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Social %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infrastructure - Transport</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -41488,6 +41887,15 @@ ISCHANGED(UTM_Campaign__c)
 Account.Lock_Opportunities__c=TRUE,
 IsClosed=TRUE)</errorConditionFormula>
         <errorMessage>There is a pending Subsidiary change approval on the Account. You cannot close the Opportunity until the Subsidiary change is approved or rejected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_BDR_Can_Own_SDOs</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+RecordType.DeveloperName = &apos;Sales_Development&apos;,
+NOT($Permission.Bypass_BDR_Ownership_Rule),
+ISCHANGED(OwnerId))</errorConditionFormula>
+        <errorMessage>Only SDRs can own and transfer an SDO.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Other_Billing_Frequency</fullName>

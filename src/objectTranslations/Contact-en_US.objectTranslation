@@ -862,6 +862,10 @@
             <translation><!-- Trial Request --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Upsell</masterLabel>
+            <translation><!-- Upsell --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Webinar</masterLabel>
             <translation><!-- Webinar --></translation>
         </picklistValues>

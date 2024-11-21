@@ -259,6 +259,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- CS Request --></label>
+        <name>CS_Request__c</name>
+    </fields>
+    <fields>
         <label><!-- Campaign Name --></label>
         <name>Campaign_Name__c</name>
     </fields>
@@ -1117,6 +1121,10 @@
         <picklistValues>
             <masterLabel>Trial Request</masterLabel>
             <translation><!-- Trial Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upsell</masterLabel>
+            <translation><!-- Upsell --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Webinar</masterLabel>
@@ -3516,6 +3524,10 @@ Opportunity: PPD Sent --></errorMessage>
     <validationRules>
         <errorMessage><!-- There is a pending Subsidiary change approval on the Account. You cannot close the Opportunity until the Subsidiary change is approved or rejected. --></errorMessage>
         <name>Locked_Opportunities</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only SDRs can own and transfer an SDO. --></errorMessage>
+        <name>Only_BDR_Can_Own_SDOs</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please specify the Billing Frequency --></errorMessage>
