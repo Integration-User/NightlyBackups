@@ -26417,6 +26417,46 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Business_Unit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Event_Cost_Centre__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Event_Profit_Centre__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Invoice_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Netsuite_Order_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Payment_Stage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_Related_Event__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.IJ_Global_Events_UID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Inbound__c</field>
         <readable>true</readable>
@@ -29485,6 +29525,11 @@
         <editable>true</editable>
         <field>Transaction__c.Year__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Trigger_Execution_Update__mdt.Skip_Trigger__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -45643,6 +45688,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-New Business</layout>
+        <recordType>Opportunity.Events</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-New Business</layout>
         <recordType>Opportunity.Sales_Opportunity</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -45843,6 +45892,9 @@
     <layoutAssignments>
         <layout>Transaction__c-Invoice Layout</layout>
         <recordType>Transaction__c.Standard_Transaction</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trigger_Execution_Update__mdt-Trigger Execution Update Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Trip_Books__c-Trip Book Layout</layout>
@@ -51365,6 +51417,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Advisory_Closed</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Events</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
