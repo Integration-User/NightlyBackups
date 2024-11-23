@@ -48667,7 +48667,7 @@ New_Sales_Opportunity__r.Account.Id &lt;&gt; Account.Id
     </validationRules>
     <validationRules>
         <fullName>Lock_SDO_Lead_Attributions</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>SF-1092: Ensure Salesforce users (sales reps, etc.) cannot update lead attribution values for inbound SDOs</description>
         <errorConditionFormula>AND(
 RecordType.DeveloperName = &apos;Sales_Development&apos;,
@@ -48697,7 +48697,7 @@ IsClosed=TRUE)</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Only_BDR_Can_Own_SDOs</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 RecordType.DeveloperName = &apos;Sales_Development&apos;,
 NOT($Permission.Bypass_BDR_Ownership_Rule),
