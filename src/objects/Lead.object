@@ -5048,6 +5048,11 @@ Stored as Long on Solr.</description>
             <operation>equals</operation>
             <value>Open,Working</value>
         </filters>
+        <filters>
+            <field>LEAD.LEAD_SOURCE</field>
+            <operation>equals</operation>
+            <value>Marketing Qualified,Inquiry,Slide Request,New Alert Trial,Demo Request</value>
+        </filters>
         <label>All Open Leads</label>
     </listViews>
     <listViews>
