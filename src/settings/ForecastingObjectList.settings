@@ -31,7 +31,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -810,6 +810,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -1478,6 +1482,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -1733,7 +1738,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -2512,6 +2517,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -3180,6 +3189,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -3435,7 +3445,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -4214,6 +4224,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -4882,6 +4896,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -5137,7 +5152,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -5916,6 +5931,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -6584,6 +6603,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -6839,7 +6859,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -7616,6 +7636,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000UhFs5</field>
             <label>Research Users</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
@@ -8286,6 +8310,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -8537,7 +8562,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -9312,6 +9337,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -9978,6 +10007,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -10229,7 +10259,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -11004,6 +11034,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -11670,6 +11704,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -11921,7 +11956,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -12700,6 +12735,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -13367,6 +13406,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -13618,7 +13658,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -14393,6 +14433,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -15059,6 +15103,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -15310,7 +15355,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -16089,6 +16134,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -16756,6 +16805,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -17007,7 +17057,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -17782,6 +17832,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -18448,6 +18502,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -18699,7 +18754,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -19478,6 +19533,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -20145,6 +20204,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -20396,7 +20456,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -21171,6 +21231,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -21837,6 +21901,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -22088,7 +22153,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -22867,6 +22932,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -23534,6 +23603,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -23785,7 +23855,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -24560,6 +24630,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -25226,6 +25300,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -25477,7 +25552,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -26256,6 +26331,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -26923,6 +27002,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -27174,7 +27254,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -27949,6 +28029,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -28615,6 +28699,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -28870,7 +28955,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -29649,6 +29734,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -30317,6 +30406,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -30572,7 +30662,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -31351,6 +31441,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -32019,6 +32113,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -32274,7 +32369,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -33053,6 +33148,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -33721,6 +33820,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
@@ -33976,7 +34076,7 @@
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00NWE000001ALgv</field>
-            <label>Delenian Id</label>
+            <label>Delinian Id</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -34755,6 +34855,10 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001D6zt</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00NWE00000182wv</field>
             <label>CS Request</label>
         </forecastingObjectListLabelMappings>
@@ -35423,6 +35527,7 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NWE000001D6zt</field>
             <field>00NWE000001ALgv</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>

@@ -2144,9 +2144,20 @@ TEXT(MIN(ROUND(MOD(Starting_Price_Opp__c , 1), 2) * 100, 99))
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Delenian_Id__c</fullName>
+        <fullName>Delinian_Composite_Key__c</fullName>
         <externalId>true</externalId>
-        <label>Delenian Id</label>
+        <label>Delinian Composite Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
         <length>18</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

@@ -747,8 +747,12 @@
         <relationshipLabel><!-- Opportunities (Default Contact) --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Delenian Id --></label>
-        <name>Delenian_Id__c</name>
+        <label><!-- Delinian Composite Key --></label>
+        <name>Delinian_Composite_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
     </fields>
     <fields>
         <label><!-- Department Id --></label>

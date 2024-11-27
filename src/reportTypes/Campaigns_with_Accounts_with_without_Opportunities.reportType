@@ -3344,4 +3344,12 @@
         </columns>
         <masterLabel>Products</masterLabel>
     </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Id__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities.OpportunityLineItems</table>
+        </columns>
+        <masterLabel>Opportunity Product</masterLabel>
+    </sections>
 </ReportType>
