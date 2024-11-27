@@ -682,6 +682,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>CventEvents__ContactStub__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Cvent Contact Stub</label>
+        <length>36</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DOZISF__ZoomInfo_Company_ID__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -11452,6 +11464,78 @@ ISBLANK(Text(Team__c))
 ))</errorConditionFormula>
         <errorMessage>You must designate a Team in order to send a referral to Advisory.</errorMessage>
     </validationRules>
+    <webLinks>
+        <fullName>CventEvents__InviteLeadToEvent</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Invite</masterLabel>
+        <openType>newWindow</openType>
+        <page>CventEvents__LeadInviteExtension</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>CventEvents__ModifyCancelLeadToEvent</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Modify/Cancel</masterLabel>
+        <openType>newWindow</openType>
+        <page>CventEvents__LeadModifyCancelExtension</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>CventEvents__NominateLeadToEvent</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Nominate</masterLabel>
+        <openType>newWindow</openType>
+        <page>CventEvents__LeadNominateExtension</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>CventEvents__RegisterLeadToEvent</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Register</masterLabel>
+        <openType>newWindow</openType>
+        <page>CventEvents__LeadRegisterExtension</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
     <webLinks>
         <fullName>GoogleMaps</fullName>
         <availability>online</availability>

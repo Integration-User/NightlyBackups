@@ -625,6 +625,11 @@
         <name>Assigned_To_Name__c</name>
     </fields>
     <fields>
+        <label><!-- Attendee --></label>
+        <name>Attendee__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Bounced (Salesloft) --></label>
         <name>Bounced_Salesloft__c</name>
         <picklistValues>
@@ -702,6 +707,11 @@
     <fields>
         <label><!-- Event Audit --></label>
         <name>Event_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cvent Event Number --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Feedback Entered? --></label>

@@ -3239,6 +3239,22 @@
         <name>Require_Revisit_Timing</name>
     </validationRules>
     <webLinks>
+        <label><!-- InviteAccountToEvent --></label>
+        <name>CventEvents__InviteAccountToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ModifyCancelAccountToEvent --></label>
+        <name>CventEvents__ModifyCancelAccountToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NominateAccountToEvent --></label>
+        <name>CventEvents__NominateAccountToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RegisterAccountToEvent --></label>
+        <name>CventEvents__RegisterAccountToEvent</name>
+    </webLinks>
+    <webLinks>
         <label><!-- Email_Distribution --></label>
         <name>Email_Distribution</name>
     </webLinks>

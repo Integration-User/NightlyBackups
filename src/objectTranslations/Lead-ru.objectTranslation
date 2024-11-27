@@ -172,6 +172,10 @@
         <name>Current_RE_Research_Lacking_Other__c</name>
     </fields>
     <fields>
+        <label><!-- Cvent Contact Stub --></label>
+        <name>CventEvents__ContactStub__c</name>
+    </fields>
+    <fields>
         <label><!-- ZoomInfo Company ID --></label>
         <name>DOZISF__ZoomInfo_Company_ID__c</name>
     </fields>
@@ -2771,6 +2775,22 @@
         <errorMessage><!-- You must designate a Team in order to send a referral to Advisory. --></errorMessage>
         <name>Team_Designation_for_Advisory_Referrals</name>
     </validationRules>
+    <webLinks>
+        <label><!-- InviteLeadToEvent --></label>
+        <name>CventEvents__InviteLeadToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ModifyCancelLeadToEvent --></label>
+        <name>CventEvents__ModifyCancelLeadToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NominateLeadToEvent --></label>
+        <name>CventEvents__NominateLeadToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RegisterLeadToEvent --></label>
+        <name>CventEvents__RegisterLeadToEvent</name>
+    </webLinks>
     <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>

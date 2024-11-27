@@ -354,6 +354,10 @@
         <name>Current_User__c</name>
     </fields>
     <fields>
+        <label><!-- Cvent Contact Stub --></label>
+        <name>CventEvents__ContactStub__c</name>
+    </fields>
+    <fields>
         <label><!-- ZoomInfo Company ID --></label>
         <name>DOZISF__ZoomInfo_Company_ID__c</name>
     </fields>
@@ -5157,6 +5161,22 @@ User: Responsible for the day-to-day work and tasks in support of team and organ
         <errorMessage><!-- Email Address cannot contain greenstreet-compliance email or &quot;donotcall&quot;. --></errorMessage>
         <name>Restrict_GS_Compliance_DNC</name>
     </validationRules>
+    <webLinks>
+        <label><!-- InviteContactToEvent --></label>
+        <name>CventEvents__InviteContactToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ModifyCancelContactToEvent --></label>
+        <name>CventEvents__ModifyCancelContactToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NominateContactToEvent --></label>
+        <name>CventEvents__NominateContactToEvent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RegisterContactToEvent --></label>
+        <name>CventEvents__RegisterContactToEvent</name>
+    </webLinks>
     <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>

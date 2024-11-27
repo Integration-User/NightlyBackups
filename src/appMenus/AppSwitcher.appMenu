@@ -360,4 +360,20 @@
         <name>maps__SalesforceMaps</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>CventEvents__CventClassicApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CventEvents__CventLightningApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CventEvents__CventMobileApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CventSFDC</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>

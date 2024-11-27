@@ -661,6 +661,18 @@
         <type>Currency</type>
     </fields>
     <fields>
+        <fullName>Attendee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Attendee</label>
+        <referenceTo>CventEvents__Attendee__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Attrition_Risk__c</fullName>
         <externalId>false</externalId>
         <isAIPredictionField>true</isAIPredictionField>
@@ -2287,6 +2299,18 @@ IF(Amount &gt; 400000,&quot;Large&quot;,
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Cvent Event Number</label>
+        <referenceTo>CventEvents__Event__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Evergreen_Contract__c</fullName>

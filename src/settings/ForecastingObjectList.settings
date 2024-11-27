@@ -810,6 +810,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -1385,6 +1393,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -1425,6 +1434,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -2472,6 +2482,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -3047,6 +3065,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -3087,6 +3106,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -4134,6 +4154,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -4709,6 +4737,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -4749,6 +4778,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -5796,6 +5826,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -6371,6 +6409,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -6411,6 +6450,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -7458,6 +7498,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -8033,6 +8081,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -8073,6 +8122,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -9112,6 +9162,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -9685,6 +9743,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -9725,6 +9784,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -10764,6 +10824,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -11337,6 +11405,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -11377,6 +11446,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -12420,6 +12490,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -12994,6 +13072,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -13034,6 +13113,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -14073,6 +14153,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -14646,6 +14734,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -14686,6 +14775,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -15729,6 +15819,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -16303,6 +16401,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -16343,6 +16442,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -17382,6 +17482,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -17955,6 +18063,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -17995,6 +18104,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -19038,6 +19148,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -19612,6 +19730,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -19652,6 +19771,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -20691,6 +20811,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -21264,6 +21392,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -21304,6 +21433,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -22347,6 +22477,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -22921,6 +23059,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -22961,6 +23100,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -24000,6 +24140,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -24573,6 +24721,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -24613,6 +24762,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -25656,6 +25806,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -26230,6 +26388,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -26270,6 +26429,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -27309,6 +27469,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -27882,6 +28050,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -27922,6 +28091,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -28969,6 +29139,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -29544,6 +29722,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -29584,6 +29763,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -30631,6 +30811,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -31206,6 +31394,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -31246,6 +31435,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -32293,6 +32483,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -32868,6 +33066,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -32908,6 +33107,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
@@ -33955,6 +34155,14 @@
             <label>Research Users</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M8</field>
+            <label>Attendee</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000002u9M9</field>
+            <label>Cvent Event Number</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </forecastingObjectListLabelMappings>
@@ -34530,6 +34738,7 @@
             <field>00N5G00000VXYSu</field>
             <field>00N5G00000VXYSv</field>
             <field>00Nf400000VNbt4</field>
+            <field>00NVy000002u9M8</field>
             <field>00N5G00000VUz1o</field>
             <field>00Nf400000V6v0a</field>
             <field>00N5G00000WeE8V</field>
@@ -34570,6 +34779,7 @@
             <field>00Nf400000V6v0p</field>
             <field>00Nf400000V6v0o</field>
             <field>00Nf400000V6v0q</field>
+            <field>00NVy000002u9M9</field>
             <field>00Nf400000V6v0r</field>
             <field>00Nf400000V6v0s</field>
             <field>00Nf400000OXIgx</field>
