@@ -15715,6 +15715,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.IJ_Global_Events_UID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.IJ_Relationship__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -19141,6 +19146,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Hubspot_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.IJ_Global_Events_UID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
