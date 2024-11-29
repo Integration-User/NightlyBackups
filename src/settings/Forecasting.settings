@@ -687,6 +687,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -1592,6 +1624,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -2380,6 +2420,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -3285,6 +3357,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -4073,6 +4153,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -4978,6 +5090,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -5766,6 +5886,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -6671,6 +6823,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -7451,6 +7611,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -8354,6 +8546,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -9133,6 +9333,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -10036,6 +10268,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -10819,6 +11059,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -11723,6 +11995,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -12500,6 +12780,38 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v12</field>
             <label>ID Request</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
@@ -13405,6 +13717,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -14188,6 +14508,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -15092,6 +15444,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -15869,6 +16229,38 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v12</field>
             <label>ID Request</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
@@ -16774,6 +17166,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -17557,6 +17957,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -18461,6 +18893,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -19238,6 +19678,38 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v12</field>
             <label>ID Request</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
@@ -20143,6 +20615,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -20926,6 +21406,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -21830,6 +22342,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -22607,6 +23127,38 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v12</field>
             <label>ID Request</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
@@ -23512,6 +24064,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -24295,6 +24855,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -25199,6 +25791,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -25976,6 +26576,38 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v12</field>
             <label>ID Request</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
@@ -26881,6 +27513,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -27668,6 +28308,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -28573,6 +29245,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -29361,6 +30041,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -30266,6 +30978,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -31054,6 +31774,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -31959,6 +32711,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>
@@ -32747,6 +33507,38 @@
             <label>ID Request</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5P</field>
+            <label>IJ Global Events - Business Unit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5S</field>
+            <label>IJ Global Events - Event Cost Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5T</field>
+            <label>IJ Global Events - Event Profit Centre</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5Q</field>
+            <label>IJ Global Events - Invoice Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5U</field>
+            <label>IJ Global Events - Netsuite Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5R</field>
+            <label>IJ Global Events - Payment Stage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zMCD</field>
+            <label>IJ Global Events - Related Event</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000002zI5V</field>
+            <label>IJ Global Events - UID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000VXYT0</field>
             <label>Inbound?</label>
         </opportunityListFieldsLabelMappings>
@@ -33652,6 +34444,14 @@
             <field>00N5G00000WeE8g</field>
             <field>00N5G00000WeE8f</field>
             <field>00Nf400000V6v12</field>
+            <field>00NVy000002zI5P</field>
+            <field>00NVy000002zI5S</field>
+            <field>00NVy000002zI5T</field>
+            <field>00NVy000002zI5Q</field>
+            <field>00NVy000002zI5U</field>
+            <field>00NVy000002zI5R</field>
+            <field>00NVy000002zMCD</field>
+            <field>00NVy000002zI5V</field>
             <field>00N5G00000VXYT0</field>
             <field>00N5G00000WeELW</field>
             <field>00Nf400000V6v14</field>

@@ -1907,6 +1907,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- IJ Global Events - UID --></label>
+        <name>IJ_Global_Events_UID__c</name>
+    </fields>
+    <fields>
         <label><!-- IJ Relationship --></label>
         <name>IJ_Relationship__c</name>
     </fields>

@@ -871,6 +871,59 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- IJ Global Events - Business Unit --></label>
+        <name>IJ_Global_Events_Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>AMS</masterLabel>
+            <translation><!-- AMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - Event Cost Centre --></label>
+        <name>IJ_Global_Events_Event_Cost_Centre__c</name>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - Event Profit Centre --></label>
+        <name>IJ_Global_Events_Event_Profit_Centre__c</name>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - Invoice Status --></label>
+        <name>IJ_Global_Events_Invoice_Status__c</name>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - Netsuite Order Number --></label>
+        <name>IJ_Global_Events_Netsuite_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - Payment Stage --></label>
+        <name>IJ_Global_Events_Payment_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - Related Event --></label>
+        <name>IJ_Global_Events_Related_Event__c</name>
+        <relationshipLabel><!-- Opportunities (IJ Global Events - Related Event) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IJ Global Events - UID --></label>
+        <name>IJ_Global_Events_UID__c</name>
+    </fields>
+    <fields>
         <label><!-- Inbound? --></label>
         <name>Inbound__c</name>
     </fields>
@@ -3343,6 +3396,10 @@
     <recordTypes>
         <label><!-- Advisory - Closed --></label>
         <name>Advisory_Closed</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Events --></label>
+        <name>Events</name>
     </recordTypes>
     <recordTypes>
         <label><!-- Renewal --></label>

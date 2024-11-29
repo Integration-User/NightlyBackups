@@ -613,6 +613,10 @@
         <name>Hubspot_Score__c</name>
     </fields>
     <fields>
+        <label><!-- IJ Global Events - UID --></label>
+        <name>IJ_Global_Events_UID__c</name>
+    </fields>
+    <fields>
         <label><!-- Interests --></label>
         <name>Interests__c</name>
         <picklistValues>

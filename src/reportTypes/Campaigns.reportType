@@ -3379,6 +3379,11 @@
             <field>Contact_Name_For_Testing__c</field>
             <table>Campaign.AccountCampaignMembers.Opportunities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>IJ_Global_Events_Related_Event__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>
