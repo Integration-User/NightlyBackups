@@ -755,6 +755,10 @@
         <name>Delinian_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Delinian Name --></label>
+        <name>Delinian_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Department Id --></label>
         <name>Department_Id__c</name>
     </fields>
@@ -2478,6 +2482,10 @@
     <fields>
         <label><!-- Owner for Query --></label>
         <name>Owner_for_Query__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
     </fields>
     <fields>
         <label><!-- Percent Complete --></label>

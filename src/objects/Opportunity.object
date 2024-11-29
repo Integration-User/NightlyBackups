@@ -2166,6 +2166,17 @@ TEXT(MIN(ROUND(MOD(Starting_Price_Opp__c , 1), 2) * 100, 99))
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Delinian_Name__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Department_Id__c</fullName>
         <description>NS internal id for departments</description>
         <externalId>false</externalId>
@@ -5041,6 +5052,17 @@ IF ( INCLUDES ( Account.Other_Vendors__c , &quot;I don&apos;t know&quot; ), &quo
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Owner for Query</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PO_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>PO Number</label>
+        <length>45</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
