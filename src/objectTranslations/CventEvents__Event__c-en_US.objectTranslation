@@ -363,6 +363,10 @@
         <name>EventThumbnailImage__c</name>
     </fields>
     <fields>
+        <label><!-- Event Title --></label>
+        <name>EventTitle__c</name>
+    </fields>
+    <fields>
         <label><!-- Event Type --></label>
         <name>EventType__c</name>
         <picklistValues>

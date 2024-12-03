@@ -21365,9 +21365,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>CventEvents__AttendeeTemp__c.InterestAreasInvisso__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -22072,6 +22072,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>CventEvents__Event__c.EventThumbnailImage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CventEvents__Event__c.EventTitle__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

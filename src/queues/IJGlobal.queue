@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>IJGlobal</name>
+    <queueMembers>
+        <users>
+            <user>ahussain@greenstreet.com</user>
+            <user>blatorraca@greenstreet.com</user>
+            <user>carlo.bruscarino@ijglobal.com.prd</user>
+            <user>francesca.berry@ijglobal.com.prd</user>
+            <user>guy.dunkley@ijglobal.com.prd</user>
+            <user>jnegron@greenstreet.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

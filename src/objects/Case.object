@@ -3653,6 +3653,15 @@ FALSE)))))))))))</formula>
         <label>GS News Open Help Desk Cases</label>
     </listViews>
     <listViews>
+        <fullName>IJGlobal_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>IJGlobal</label>
+        <queue>IJGlobal</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>Mu_Open_Salesforce_Requests</fullName>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>CASES.STATUS</columns>

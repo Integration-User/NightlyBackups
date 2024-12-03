@@ -73,6 +73,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CventEvents__Event__c.EventTitle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CventEvents__Event__c.EventType__c</field>
         <readable>true</readable>
     </fieldPermissions>

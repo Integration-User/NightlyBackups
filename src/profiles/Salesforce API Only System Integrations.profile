@@ -21784,6 +21784,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>CventEvents__Event__c.EventTitle__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CventEvents__Event__c.EventType__c</field>
         <readable>false</readable>
     </fieldPermissions>

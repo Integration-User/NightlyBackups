@@ -952,6 +952,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>EventTitle__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>EventType__c</fullName>
         <label>Event Type</label>
         <required>false</required>
