@@ -154,6 +154,19 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>When set all the Leads generated based on the Zephr Webhook processing will be associated to the Campaign pointed to by this Lookup</description>
+        <inlineHelpText>When set all the Leads generated based on the Zephr Webhook processing will be associated to the Campaign pointed to by this Lookup</inlineHelpText>
+        <label>Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>CurrencyIsoCode</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -187,8 +200,39 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Free_Trial_Duration__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of days that should be granted as the free trial duration for this product</inlineHelpText>
+        <label>Free Trial Duration</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>IsActive</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Marketing_Free_Trial_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Marketing Free Trial Only</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Max_Extension_Days__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the maximum number of days that a trial subscription may be extended for</inlineHelpText>
+        <label>Max Extension (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -202,11 +246,74 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Number_of_Licences__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of subscription licences (seats / users) that should be provisioned for each quantity of product purchased. For example if this is a 100 seat licence, enter 100.</inlineHelpText>
+        <label>Number of Licences</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>One_Time__c</fullName>
         <defaultValue>false</defaultValue>
         <label>One-Time</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Brand_Group__c</fullName>
+        <description>This is to allow the sales person to select the brand group that this Opportunity represents. We use it because we now allow mixed brand products on a single Opportunity. This field is used in the early Opportunity stages before adding products and, in future, may be driven from the products.</description>
+        <inlineHelpText>Select the primary brand group that relates to this Opportunity</inlineHelpText>
+        <label>Primary Brand Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Primary_Business_Unit__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Brand_Groups</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>MI</controllingFieldValue>
+                <controllingFieldValue>AMS</controllingFieldValue>
+                <valueName>IJGlobal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Brand__c</fullName>
+        <description>This is to allow the sales person to select the brand that this Opportunity represents. We use it because we now allow mixed brand products on a single Opportunity. This field is used in the early Opportunity stages before adding products and, in future, may be driven from the products.</description>
+        <inlineHelpText>Select the primary brand for this Opportunity</inlineHelpText>
+        <label>Primary Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Primary_Brand_Group__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Brands</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>IJGlobal</controllingFieldValue>
+                <valueName>IJGlobal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Business_Unit__c</fullName>
+        <description>This is to allow the sales person to select the area of business that this Opportunity represents. We use it because we now allow mixed brand products on a single Opportunity. This field is used in the early Opportunity stages before adding products and, in future, may be driven from the products.</description>
+        <inlineHelpText>Select the primary business area for this Opportunity</inlineHelpText>
+        <label>Primary Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Units</valueSetName>
+        </valueSet>
     </fields>
     <fields>
         <fullName>ProductCode</fullName>
@@ -239,6 +346,27 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Subscriber_Requires_Postal_Code__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>If this is a subscription product where the subscriber must have a postal code, check this box. You will not be able to add a subscriber for this product without the postal code.</inlineHelpText>
+        <label>Subscriber Requires Postal Code</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Trial_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product which represents a trial for a given product. Used when granting Opportunity level free trials.</description>
+        <inlineHelpText>Product which represents a trial for a given product. Used when granting Opportunity level free trials.</inlineHelpText>
+        <label>Trial Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Products (Trial Product)</relationshipLabel>
+        <relationshipName>FreeTrialForProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Use_in_Referrals__c</fullName>
         <defaultValue>false</defaultValue>
         <label>Use in Referrals</label>
@@ -261,6 +389,51 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Google Drive Folder Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ZephrEntitlementId__c</fullName>
+        <externalId>true</externalId>
+        <label>Zephr Entitlement Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zephr_Product_Slug__c</fullName>
+        <description>Zephr treats this as entitlement id. So any grant (subscription item) created for this product needs to be associated with this value. Used on product entry/import to match the values defined in zephr. Regular users should not see this value.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Zephr treats this as entitlement id. So any grant (subscription item) created for this product needs to be associated with this value. Used on product entry/import to match the values defined in zephr. Regular users should not see this value.</inlineHelpText>
+        <label>Zephr Product Slug</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zephr_Tenant__c</fullName>
+        <description>Zephr tenant this product is attached to</description>
+        <inlineHelpText>Zephr tenant this product is attached to</inlineHelpText>
+        <label>Zephr Tenant</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Zephr_Tenant</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Zephr_Website__c</fullName>
+        <externalId>false</externalId>
+        <label>Zephr Website</label>
         <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>

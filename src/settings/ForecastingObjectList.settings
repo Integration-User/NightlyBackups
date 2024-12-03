@@ -274,6 +274,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -598,6 +602,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -710,6 +718,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -782,8 +794,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -1417,6 +1437,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -1584,9 +1605,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -1991,6 +2016,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -2315,6 +2344,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -2427,6 +2460,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -2499,8 +2536,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -3134,6 +3179,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -3301,9 +3347,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -3708,6 +3758,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -4032,6 +4086,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -4144,6 +4202,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -4216,8 +4278,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -4851,6 +4921,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -5018,9 +5089,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -5425,6 +5500,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -5749,6 +5828,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -5861,6 +5944,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -5933,8 +6020,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -6568,6 +6663,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -6735,9 +6831,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -7142,6 +7242,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -7466,6 +7570,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -7578,6 +7686,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -7650,8 +7762,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -8285,6 +8405,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -8452,9 +8573,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -8855,6 +8980,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -9179,6 +9308,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -9287,6 +9420,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -9359,8 +9496,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -9992,6 +10137,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -10159,9 +10305,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -10562,6 +10712,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -10886,6 +11040,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -10994,6 +11152,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -11066,8 +11228,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -11699,6 +11869,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -11866,9 +12037,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -12269,6 +12444,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -12593,6 +12772,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -12705,6 +12888,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -12777,8 +12964,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -13411,6 +13606,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -13578,9 +13774,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -13981,6 +14181,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -14305,6 +14509,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -14413,6 +14621,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -14485,8 +14697,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -15118,6 +15338,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -15285,9 +15506,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -15688,6 +15913,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -16012,6 +16241,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -16124,6 +16357,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -16196,8 +16433,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -16830,6 +17075,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -16997,9 +17243,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -17400,6 +17650,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -17724,6 +17978,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -17832,6 +18090,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -17904,8 +18166,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -18537,6 +18807,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -18704,9 +18975,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -19107,6 +19382,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -19431,6 +19710,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -19543,6 +19826,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -19615,8 +19902,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -20249,6 +20544,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -20416,9 +20712,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -20819,6 +21119,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -21143,6 +21447,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -21251,6 +21559,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -21323,8 +21635,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -21956,6 +22276,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -22123,9 +22444,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -22526,6 +22851,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -22850,6 +23179,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -22962,6 +23295,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -23034,8 +23371,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -23668,6 +24013,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -23835,9 +24181,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -24238,6 +24588,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -24562,6 +24916,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -24670,6 +25028,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -24742,8 +25104,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -25375,6 +25745,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -25542,9 +25913,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -25945,6 +26320,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -26269,6 +26648,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -26381,6 +26764,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -26453,8 +26840,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -27087,6 +27482,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -27254,9 +27650,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -27657,6 +28057,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -27981,6 +28385,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VyPbI</field>
             <label>Pipeline Category</label>
         </forecastingObjectListLabelMappings>
@@ -28089,6 +28497,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -28161,8 +28573,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -28794,6 +29214,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -28961,9 +29382,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -29368,6 +29793,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -29692,6 +30121,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -29804,6 +30237,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -29876,8 +30313,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -30511,6 +30956,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -30678,9 +31124,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -31085,6 +31535,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -31409,6 +31863,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -31521,6 +31979,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -31593,8 +32055,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -32228,6 +32698,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -32395,9 +32866,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -32802,6 +33277,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -33126,6 +33605,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -33238,6 +33721,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -33310,8 +33797,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -33945,6 +34440,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -34112,9 +34608,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -34519,6 +35019,10 @@
             <label>Days at SS2</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v10</field>
             <label>Favor End Date</label>
         </forecastingObjectListLabelMappings>
@@ -34843,6 +35347,10 @@
             <label>Risk Type</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>SPLITAMOUNT</field>
             <label>Forecasted Amount</label>
         </forecastingObjectListLabelMappings>
@@ -34955,6 +35463,10 @@
             <label>Days at SS6</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQBpu</field>
             <label>Real Estate Capital Markets/Public</label>
         </forecastingObjectListLabelMappings>
@@ -35027,8 +35539,16 @@
             <label>Location</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
             <label>Probability (%)</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
@@ -35662,6 +36182,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -35829,9 +36350,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>

@@ -382,6 +382,14 @@ TEXT(YEAR(Start_Date__c))</formula>
         <type>Currency</type>
     </fields>
     <fields>
+        <fullName>Is_Zephr_Product__c</fullName>
+        <description>This is a formula field that indicates if this is a Zephr subscription product that should be provisioned by the NextGen Zephr process</description>
+        <formula>NOT(ISBLANK(PricebookEntry.Product2.Zephr_Product_Slug__c))</formula>
+        <inlineHelpText>Indicates if this is a Zephr subscription product</inlineHelpText>
+        <label>Is Zephr Product</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
     </fields>
     <fields>
@@ -814,6 +822,12 @@ ARR_Formula__c ))))))</formula>
         <required>false</required>
         <scale>2</scale>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Product_Created__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Subscription Product Created</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Subtotal</fullName>

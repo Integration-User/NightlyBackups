@@ -328,7 +328,7 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>QuickStartLayout</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>QuickStartLayout</fullName>
         <fields>Name</fields>
@@ -1131,6 +1131,17 @@
         <label>Converted from Trial</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>MailingCountry</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>CurrencyIsoCode</fullName>
@@ -4257,6 +4268,13 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Phone_Opt_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Phone Opt In</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Portfolio_Turnover_Per_Year__c</fullName>
         <inlineHelpText>If you have greater than 0 acquisitions/dispositions, how much of your portfolio do you turn over each year?</inlineHelpText>
         <label>Portfolio Turnover Per Year</label>
@@ -4299,6 +4317,13 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Post_Opt_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Post Opt In</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Power_User__c</fullName>
@@ -4606,6 +4631,13 @@ IF(INCLUDES(Current_Products__c,&quot;US Sales Comps&quot;),&quot;US Sales Comps
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>SMS_Opt_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>SMS Opt In</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SalesLoft1__Active_Contact__c</fullName>
         <deprecated>false</deprecated>
         <description>If Contact has an activity logged within the last 30 days, this field will return a value of 1.</description>
@@ -4835,6 +4867,35 @@ IF(CONTAINS(LOWER(MailingCountry), &quot;venezuela&quot;), &quot;Red List&quot;,
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Service_Email_Breaking_News__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>SRP Service Email Breaking News</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Service_Email_Daily_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used for SRP</description>
+        <label>SRP Service Email Daily Update</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Service_Email_Monthly_Newsletter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>SRP Service Email Monthly Newsletter</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Service_Email_Quarterly_Newsletter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>SRP Service Email Quarterly Newsletter</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Signatory__c</fullName>

@@ -1826,6 +1826,21 @@
         <name>Press_Releases__c</name>
     </fields>
     <fields>
+        <help><!-- Primary brand group for this Lead (will be transferred to the opportunity once converted) --></help>
+        <label><!-- Primary Brand Group --></label>
+        <name>Primary_Brand_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary brand for this Lead (will be transferred to the opportunity once converted) --></help>
+        <label><!-- Primary Brand --></label>
+        <name>Primary_Brand__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary business unit for this Lead (will be transferred to the opportunity once converted) --></help>
+        <label><!-- Primary Business Unit --></label>
+        <name>Primary_Business_Unit__c</name>
+    </fields>
+    <fields>
         <label><!-- Product Interest 1 --></label>
         <name>Product_Interest_1__c</name>
         <relationshipLabel><!-- Leads --></relationshipLabel>
@@ -2296,6 +2311,82 @@
         <picklistValues>
             <masterLabel>Towers</masterLabel>
             <translation><!-- Towers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seniority --></label>
+        <name>Seniority__c</name>
+        <picklistValues>
+            <masterLabel>Assistant Manager</masterLabel>
+            <translation><!-- Assistant Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate</masterLabel>
+            <translation><!-- Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board / President / Partner / Owner</masterLabel>
+            <translation><!-- Board / President / Partner / Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEO / Head of Organisation</masterLabel>
+            <translation><!-- CEO / Head of Organisation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEO / Managing Director / C-Suite</masterLabel>
+            <translation><!-- CEO / Managing Director / C-Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of / Director / Senior Mgmt</masterLabel>
+            <translation><!-- Head of / Director / Senior Mgmt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Junior</masterLabel>
+            <translation><!-- Junior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Junior Management</masterLabel>
+            <translation><!-- Junior Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager / Lead / Specialist</masterLabel>
+            <translation><!-- Manager / Lead / Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle Manager</masterLabel>
+            <translation><!-- Middle Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non - Managerial</masterLabel>
+            <translation><!-- Non - Managerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Management</masterLabel>
+            <translation><!-- Non Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation><!-- President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VP / Head of Department / Director</masterLabel>
+            <translation><!-- VP / Head of Department / Director --></translation>
         </picklistValues>
     </fields>
     <fields>

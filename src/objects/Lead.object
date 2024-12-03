@@ -275,7 +275,7 @@
             <default>true</default>
         </values>
         <values>
-            <fullName>Sales Qualified</fullName>
+            <fullName>Sales_Qualified</fullName>
             <default>false</default>
         </values>
         <values>
@@ -300,11 +300,11 @@
             <default>true</default>
         </values>
         <values>
-            <fullName>Sales Qualified</fullName>
+            <fullName>Sales_Qualified</fullName>
             <default>false</default>
         </values>
     </businessProcesses>
-    <compactLayoutAssignment>Leads_Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Leads_Custom_Compact_Layout</fullName>
         <fields>Name</fields>
@@ -3204,6 +3204,59 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Primary_Brand_Group__c</fullName>
+        <description>To match Opportunity defintions.</description>
+        <inlineHelpText>Primary brand group for this Lead (will be transferred to the opportunity once converted)</inlineHelpText>
+        <label>Primary Brand Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Primary_Business_Unit__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Brand_Groups</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>MI</controllingFieldValue>
+                <controllingFieldValue>AMS</controllingFieldValue>
+                <valueName>IJGlobal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Brand__c</fullName>
+        <description>To match Opportunity defintions.</description>
+        <inlineHelpText>Primary brand for this Lead (will be transferred to the opportunity once converted)</inlineHelpText>
+        <label>Primary Brand</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Primary_Brand_Group__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Brands</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>IJGlobal</controllingFieldValue>
+                <valueName>IJGlobal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Business_Unit__c</fullName>
+        <description>To match Opportunity defintions.</description>
+        <inlineHelpText>Primary business unit for this Lead (will be transferred to the opportunity once converted)</inlineHelpText>
+        <label>Primary Business Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Units</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Product_Interest_1__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <label>Product Interest 1</label>
@@ -4042,6 +4095,109 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Seniority__c</fullName>
+        <label>Seniority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Associate</fullName>
+                    <default>false</default>
+                    <label>Associate</label>
+                </value>
+                <value>
+                    <fullName>Executive</fullName>
+                    <default>false</default>
+                    <label>Executive</label>
+                </value>
+                <value>
+                    <fullName>Junior</fullName>
+                    <default>false</default>
+                    <label>Junior</label>
+                </value>
+                <value>
+                    <fullName>CEO / Head of Organisation</fullName>
+                    <default>false</default>
+                    <label>CEO / Head of Organisation</label>
+                </value>
+                <value>
+                    <fullName>Consultant</fullName>
+                    <default>false</default>
+                    <label>Consultant</label>
+                </value>
+                <value>
+                    <fullName>Head of / Director / Senior Mgmt</fullName>
+                    <default>false</default>
+                    <label>Head of / Director / Senior Mgmt</label>
+                </value>
+                <value>
+                    <fullName>President</fullName>
+                    <default>false</default>
+                    <label>President</label>
+                </value>
+                <value>
+                    <fullName>Manager</fullName>
+                    <default>false</default>
+                    <label>Manager</label>
+                </value>
+                <value>
+                    <fullName>Middle Manager</fullName>
+                    <default>false</default>
+                    <label>Middle Manager</label>
+                </value>
+                <value>
+                    <fullName>Assistant Manager</fullName>
+                    <default>false</default>
+                    <label>Assistant Manager</label>
+                </value>
+                <value>
+                    <fullName>Junior Management</fullName>
+                    <default>false</default>
+                    <label>Junior Management</label>
+                </value>
+                <value>
+                    <fullName>Non Management</fullName>
+                    <default>false</default>
+                    <label>Non Management</label>
+                </value>
+                <value>
+                    <fullName>CEO / Managing Director / C-Suite</fullName>
+                    <default>false</default>
+                    <label>CEO / Managing Director / C-Suite</label>
+                </value>
+                <value>
+                    <fullName>Board / President / Partner / Owner</fullName>
+                    <default>false</default>
+                    <label>Board / President / Partner / Owner</label>
+                </value>
+                <value>
+                    <fullName>VP / Head of Department / Director</fullName>
+                    <default>false</default>
+                    <label>VP / Head of Department / Director</label>
+                </value>
+                <value>
+                    <fullName>Manager / Lead / Specialist</fullName>
+                    <default>false</default>
+                    <label>Manager / Lead / Specialist</label>
+                </value>
+                <value>
+                    <fullName>Non - Managerial</fullName>
+                    <default>false</default>
+                    <label>Non - Managerial</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Sourced_By__c</fullName>
@@ -6013,73 +6169,6 @@ Stored as Long on Solr.</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Type__c</picklist>
             <values>
                 <fullName>Account Management</fullName>
@@ -7618,6 +7707,31 @@ Stored as Long on Solr.</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Product_Interest_Marketing__c</picklist>
             <values>
                 <fullName>Data Delivery %28Includes Standardized Downloads%2C DataLink%2C %26 API%29</fullName>
@@ -8080,6 +8194,81 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Towers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Seniority__c</picklist>
+            <values>
+                <fullName>Assistant Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Associate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Board %2F President %2F Partner %2F Owner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEO %2F Head of Organisation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEO %2F Managing Director %2F C-Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of %2F Director %2F Senior Mgmt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Junior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Junior Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manager %2F Lead %2F Specialist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Middle Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non - Managerial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>President</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VP %2F Head of Department %2F Director</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9056,13 +9245,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Real Estate Analytics</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Referral</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10613,6 +10795,31 @@ Stored as Long on Solr.</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Product_Interest_Marketing__c</picklist>
             <values>
                 <fullName>Data Delivery %28Includes Standardized Downloads%2C DataLink%2C %26 API%29</fullName>
@@ -11047,6 +11254,81 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Towers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Seniority__c</picklist>
+            <values>
+                <fullName>Assistant Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Associate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Board %2F President %2F Partner %2F Owner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEO %2F Head of Organisation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEO %2F Managing Director %2F C-Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Head of %2F Director %2F Senior Mgmt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Junior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Junior Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manager %2F Lead %2F Specialist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Middle Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non - Managerial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>President</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VP %2F Head of Department %2F Director</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

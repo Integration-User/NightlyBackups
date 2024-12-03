@@ -489,6 +489,10 @@
         <name>Convert_from_Trial__c</name>
     </fields>
     <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
         <label><!-- Current Products (Text) --></label>
         <name>Current_Products_Text__c</name>
     </fields>
@@ -2423,6 +2427,10 @@
         <name>Phone_Extension__c</name>
     </fields>
     <fields>
+        <label><!-- Phone Opt In --></label>
+        <name>Phone_Opt_In__c</name>
+    </fields>
+    <fields>
         <help><!-- If you have greater than 0 acquisitions/dispositions, how much of your portfolio do you turn over each year? --></help>
         <label><!-- Portfolio Turnover Per Year --></label>
         <name>Portfolio_Turnover_Per_Year__c</name>
@@ -2450,6 +2458,10 @@
             <masterLabel>8-12%</masterLabel>
             <translation><!-- 8-12% --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Opt In --></label>
+        <name>Post_Opt_In__c</name>
     </fields>
     <fields>
         <label><!-- Power User --></label>
@@ -2634,6 +2646,10 @@
         <name>Role__c</name>
     </fields>
     <fields>
+        <label><!-- SMS Opt In --></label>
+        <name>SMS_Opt_In__c</name>
+    </fields>
+    <fields>
         <label><!-- Active Contact --></label>
         <name>SalesLoft1__Active_Contact__c</name>
     </fields>
@@ -2762,6 +2778,22 @@
             <masterLabel>Towers</masterLabel>
             <translation><!-- Towers --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Breaking News --></label>
+        <name>Service_Email_Breaking_News__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Daily Update --></label>
+        <name>Service_Email_Daily_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Monthly Newsletter --></label>
+        <name>Service_Email_Monthly_Newsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Quarterly Newsletter --></label>
+        <name>Service_Email_Quarterly_Newsletter__c</name>
     </fields>
     <fields>
         <label><!-- Signatory --></label>

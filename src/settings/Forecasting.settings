@@ -295,6 +295,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -963,6 +967,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -973,6 +981,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -1530,6 +1550,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -1697,9 +1718,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -2033,6 +2058,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -2701,6 +2730,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -2711,6 +2744,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -3268,6 +3313,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -3435,9 +3481,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -3771,6 +3821,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -4439,6 +4493,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -4449,6 +4507,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -5006,6 +5076,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -5173,9 +5244,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -5509,6 +5584,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -6177,6 +6256,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -6187,6 +6270,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -6744,6 +6839,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -6911,9 +7007,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -7239,6 +7339,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -7907,6 +8011,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -7917,6 +8025,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -8472,6 +8592,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -8639,9 +8760,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -8966,6 +9091,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -9634,6 +9763,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -9644,6 +9777,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -10199,6 +10344,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -10366,9 +10512,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -10697,6 +10847,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -11365,6 +11519,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -11375,6 +11533,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -11931,6 +12101,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -12098,9 +12269,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -12423,6 +12598,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WiqVs</field>
             <label>AffectLayer</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
@@ -13093,6 +13272,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -13103,6 +13286,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -13658,6 +13853,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -13825,9 +14021,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -14156,6 +14356,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -14824,6 +15028,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -14834,6 +15042,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -15390,6 +15610,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -15557,9 +15778,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -15882,6 +16107,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WiqVs</field>
             <label>AffectLayer</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
@@ -16552,6 +16781,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -16562,6 +16795,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -17117,6 +17362,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -17284,9 +17530,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -17615,6 +17865,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -18283,6 +18537,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -18293,6 +18551,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -18849,6 +19119,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -19016,9 +19287,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -19341,6 +19616,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WiqVs</field>
             <label>AffectLayer</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
@@ -20011,6 +20290,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -20021,6 +20304,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -20576,6 +20871,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -20743,9 +21039,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -21074,6 +21374,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -21742,6 +22046,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -21752,6 +22060,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -22308,6 +22628,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -22475,9 +22796,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -22800,6 +23125,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WiqVs</field>
             <label>AffectLayer</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
@@ -23470,6 +23799,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -23480,6 +23813,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -24035,6 +24380,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -24202,9 +24548,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -24533,6 +24883,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -25201,6 +25555,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -25211,6 +25569,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -25767,6 +26137,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -25934,9 +26305,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -26259,6 +26634,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WiqVs</field>
             <label>AffectLayer</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
@@ -26929,6 +27308,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -26939,6 +27322,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -27494,6 +27889,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -27661,9 +28057,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -27996,6 +28396,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -28664,6 +29068,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -28674,6 +29082,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -29231,6 +29651,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -29398,9 +29819,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -29734,6 +30159,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -30402,6 +30831,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -30412,6 +30845,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -30969,6 +31414,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -31136,9 +31582,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -31472,6 +31922,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -32140,6 +32594,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -32150,6 +32608,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -32707,6 +33177,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -32874,9 +33345,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -33210,6 +33685,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001EqKk</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -33878,6 +34357,10 @@
             <label>PPD Sent</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExAM</field>
+            <label>Previous Opportunity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
             <label>Previous Score</label>
         </opportunityListFieldsLabelMappings>
@@ -33888,6 +34371,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCs</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001ExCr</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001Ex9U</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -34445,6 +34940,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NWE000001EqKk</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -34612,9 +35108,13 @@
             <field>00N5G00000VyPqX</field>
             <field>00NWE000001ENqb</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NWE000001ExAM</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NWE000001ExCs</field>
+            <field>00NWE000001ExCr</field>
+            <field>00NWE000001Ex9U</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
