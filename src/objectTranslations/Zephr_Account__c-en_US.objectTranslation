@@ -9,6 +9,10 @@
         <value>Zephr Accounts</value>
     </caseValues>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Different on Subscription? --></label>
         <name>Different_on_Subscription__c</name>
     </fields>

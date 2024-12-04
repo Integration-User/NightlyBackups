@@ -9,6 +9,10 @@
         <value>Subscription Opportunities</value>
     </caseValues>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Opportunity --></label>
         <name>Opportunity__c</name>
         <relationshipLabel><!-- Subscription Opportunities --></relationshipLabel>

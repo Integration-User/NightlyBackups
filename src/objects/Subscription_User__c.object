@@ -251,6 +251,18 @@ DATEVALUE(Subscriber_End_Date__c) &lt;= TODAY() &amp;&amp;
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>End_Date__c</fullName>
         <description>Subscription_Product__r.Subscription__r.End_Date__c</description>
         <formula>Subscription_NG__r.End_Date__c</formula>
@@ -623,10 +635,9 @@ IF(NOT(ISBLANK(Zephr_User_Grant__c)), TEXT(Zephr_User_Grant__r.Zephr_Integration
     </fields>
     <label>Subscription User</label>
     <nameField>
-        <displayFormat>SU-{000000}</displayFormat>
         <label>Subscription User ID</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Subscription Users</pluralLabel>
     <searchLayouts/>

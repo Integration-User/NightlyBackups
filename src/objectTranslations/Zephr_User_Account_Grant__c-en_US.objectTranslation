@@ -9,6 +9,10 @@
         <value>Zephr User Account Grants</value>
     </caseValues>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Subscription User --></label>
         <name>Subscription_User__c</name>
         <relationshipLabel><!-- Zephr User Account Grants --></relationshipLabel>

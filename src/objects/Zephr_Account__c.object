@@ -153,6 +153,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Different_on_Subscription__c</fullName>
         <formula>(Id !=  Subscription__r.Zephr_Account__c) &amp;&amp; (Subscription__c != null)</formula>
         <label>Different on Subscription?</label>

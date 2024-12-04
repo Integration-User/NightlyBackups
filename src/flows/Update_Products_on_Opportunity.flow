@@ -204,7 +204,7 @@ if(CONTAINS({!ProductsName}, {!Loop_through_Line_Items.Product2.Name}),{!Product
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>Description</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

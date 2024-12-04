@@ -154,6 +154,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>End_Date__c</fullName>
         <label>End Date</label>
         <required>false</required>
@@ -275,9 +286,8 @@
     </fields>
     <label>Zephr User Grant</label>
     <nameField>
-        <displayFormat>GRNT-{000000000}</displayFormat>
         <label>Code</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Zephr User Grants</pluralLabel>
     <searchLayouts/>

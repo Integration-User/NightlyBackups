@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -378,6 +379,8 @@
         <fields>Upsell_Cross_sell__c</fields>
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
+        <fields>ListPrice</fields>
+        <fields>Starting_Price__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>

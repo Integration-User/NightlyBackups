@@ -167,6 +167,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Email_Address__c</fullName>
         <description>We create this so that we can use it to see if there is already a synced Zephr User by email address</description>
         <externalId>false</externalId>
@@ -487,10 +499,9 @@ IF(NOT(ISBLANK( Lead__c )), Lead__r.Email ,
         <label>Without Lead&amp;Contact</label>
     </listViews>
     <nameField>
-        <displayFormat>ZU-{000000000}</displayFormat>
         <label>Code</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Zephr Users</pluralLabel>
     <searchLayouts>

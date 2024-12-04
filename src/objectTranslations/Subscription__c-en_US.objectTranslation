@@ -14,6 +14,10 @@
         <relationshipLabel><!-- Subscriptions NG --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Different On Zephr Account? --></label>
         <name>Different_On_Zephr_Account__c</name>
     </fields>

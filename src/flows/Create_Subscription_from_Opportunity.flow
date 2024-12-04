@@ -319,24 +319,10 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>newSubscription.Order__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Opportunity_Details.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>newSubscription.Number_of_Seats__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>fNumberOfSeats</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>newSubscription.Order_Product__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Products.Id</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>

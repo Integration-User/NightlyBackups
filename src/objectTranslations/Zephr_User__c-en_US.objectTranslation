@@ -15,6 +15,10 @@
         <relationshipLabel><!-- Zephr Users --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <help><!-- Displays the email address of the Lead / Contact --></help>
         <label><!-- Email Address --></label>
         <name>Email_Address__c</name>

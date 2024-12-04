@@ -14,6 +14,10 @@
         <relationshipLabel><!-- Zephr Companies --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Zephr API URL --></label>
         <name>Zephr_API_URL__c</name>
     </fields>

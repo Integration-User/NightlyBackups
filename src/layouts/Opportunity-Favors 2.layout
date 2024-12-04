@@ -213,6 +213,8 @@
         <fields>Upsell_Cross_sell__c</fields>
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
+        <fields>ListPrice</fields>
+        <fields>Starting_Price__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>

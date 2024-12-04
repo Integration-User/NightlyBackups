@@ -9,6 +9,10 @@
         <value>Subscription Changes</value>
     </caseValues>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Delta Number Of Seats? --></label>
         <name>Delta_No_Of_Seats__c</name>
     </fields>

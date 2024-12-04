@@ -8800,11 +8800,6 @@ Stored as Long on Solr.</description>
         <columns>GSA_Analyst__c</columns>
         <columns>List_Membership__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTACT.EMAIL</field>
-            <operation>contains</operation>
-            <value>charlotte.kail@whitecase.com</value>
-        </filters>
         <label>All Contacts</label>
     </listViews>
     <listViews>

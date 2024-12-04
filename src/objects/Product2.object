@@ -171,6 +171,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -467,11 +478,6 @@
         <columns>Exclude_from_Deal_Scoring_Model__c</columns>
         <columns>PRODUCT2.CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>PRODUCT2.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
         <label>All Products</label>
     </listViews>
     <listViews>
@@ -496,6 +502,30 @@
             <value>0</value>
         </filters>
         <label>Inactive Products</label>
+    </listViews>
+    <listViews>
+        <fullName>Zephr_Product_Setup</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>ZephrEntitlementId__c</columns>
+        <columns>Zephr_Product_Slug__c</columns>
+        <columns>Zephr_Tenant__c</columns>
+        <columns>Zephr_Website__c</columns>
+        <columns>Number_of_Licences__c</columns>
+        <columns>Trial_Product__c</columns>
+        <columns>Free_Trial_Duration__c</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Primary_Brand__c</columns>
+        <columns>Primary_Brand_Group__c</columns>
+        <columns>Primary_Business_Unit__c</columns>
+        <columns>Max_Extension_Days__c</columns>
+        <columns>Marketing_Free_Trial_Only__c</columns>
+        <columns>Delinian_Id__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Zephr_Website__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Zephr Product Setup</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>

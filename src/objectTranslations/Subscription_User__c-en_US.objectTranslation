@@ -42,6 +42,10 @@
         <name>Deactivate__c</name>
     </fields>
     <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
         <help><!-- Displays the End Date for this Subscription --></help>
         <label><!-- End Date --></label>
         <name>End_Date__c</name>

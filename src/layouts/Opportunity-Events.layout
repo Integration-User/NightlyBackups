@@ -74,9 +74,9 @@
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>false</editHeading>
-        <label>IJGlobal Section</label>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>IJGlobal Events Details</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -94,15 +94,8 @@
                 <behavior>Edit</behavior>
                 <field>IJ_Global_Events_UID__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IJ_Global_Events_Related_Event__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <emptySpace>true</emptySpace>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IJ_Global_Events_Invoice_Status__c</field>
@@ -114,6 +107,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IJ_Global_Events_Event_Cost_Centre__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IJ_Global_Events_Related_Event__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
