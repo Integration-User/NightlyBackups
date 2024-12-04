@@ -29516,6 +29516,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Trigger_Execution_Update__mdt.Skip_Trigger__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Trip_Books__c.General_Trip_Location__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -44904,6 +44909,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>System_Configuration__mdt-System Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trigger_Execution_Update__mdt-Trigger Execution Update Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>

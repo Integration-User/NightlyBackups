@@ -45009,6 +45009,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name &lt;&gt; &quot;Events&quot;,
 RecordType.Name &lt;&gt; &quot;Favor&quot;,
 RecordType.Name &lt;&gt; &quot;Favour - Closed&quot;,
 ISPICKVAL(StageName,&quot;Closed Won&quot;),
@@ -45233,6 +45234,7 @@ ISBLANK ( Closed_Opportunity_Notes__c)
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name &lt;&gt; &quot;Events&quot;,
 RecordType.Name &lt;&gt; &quot;Favor&quot;,
 RecordType.Name &lt;&gt; &quot;Favor - Closed&quot;,
 RecordType.Name &lt;&gt; &quot;Sales Development&quot;,
@@ -45425,6 +45427,7 @@ Opportunity: PPD Sent</errorMessage>
         <description>Requires user to add the Account field - Shipping Address - on the Opportunity in order to save the Opportunity at a stage 6  or higher.</description>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name &lt;&gt; &quot;Events&quot;,
  OR(
   Account.ShippingCountry = &quot;United States&quot;,
   Account.BillingCountry = &quot;United States&quot;
@@ -45594,6 +45597,7 @@ Create_New_Renewal_Opportunity__c=FALSE))</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name &lt;&gt; &quot;Events&quot;,
 Current_Contract_Year__c=1,
 
 OR(
@@ -45645,7 +45649,9 @@ Create_New_Renewal_Opportunity__c=TRUE)
     <validationRules>
         <fullName>Invalid_Current_Contract_Year</fullName>
         <active>true</active>
-        <errorConditionFormula>Current_Contract_Year__c &gt; 10</errorConditionFormula>
+        <errorConditionFormula>AND(
+RecordType.Name &lt;&gt; &quot;Events&quot;,
+Current_Contract_Year__c &gt; 10)</errorConditionFormula>
         <errorDisplayField>Current_Contract_Year__c</errorDisplayField>
         <errorMessage>Please enter a valid Current Contract Year.</errorMessage>
     </validationRules>
@@ -45723,8 +45729,10 @@ ISCHANGED(OwnerId))</errorConditionFormula>
     <validationRules>
         <fullName>Other_Billing_Frequency</fullName>
         <active>true</active>
-        <errorConditionFormula>AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,
-				If(ispickval( Billing_Schedule__c , &quot;Other&quot;) &amp;&amp; isblank(  Other_Invoice_Frequency__c  ), true, false)
+        <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name &lt;&gt; &quot;Events&quot;,
+IF(ISPICKVAL(Billing_Schedule__c , &quot;Other&quot;) &amp;&amp; ISBLANK(  Other_Invoice_Frequency__c  ), true, false)
 )</errorConditionFormula>
         <errorDisplayField>Other_Invoice_Frequency__c</errorDisplayField>
         <errorMessage>Please specify the Billing Frequency</errorMessage>
@@ -46004,9 +46012,10 @@ ISPICKVAL(Renewal_Risk__c,&quot;Power User / VIP left the Firm&quot;)))</errorCo
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name &lt;&gt; &quot;Events&quot;,
 ISBLANK( Consolidated_To__c ) ,
 ISCHANGED(StageName),
- ISPICKVAL( StageName , &quot;Consolidated&quot;) )</errorConditionFormula>
+ISPICKVAL( StageName , &quot;Consolidated&quot;) )</errorConditionFormula>
         <errorMessage>Please make sure that &quot;Consolidated To&quot; is filled in before setting the Stage to &quot;Consolidated&quot;.</errorMessage>
     </validationRules>
     <validationRules>
@@ -46029,6 +46038,7 @@ ISPICKVAL ( StageName , &quot;Closed Won&quot;)
         <errorConditionFormula>AND(
 NOT(ISNEW()),
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name&lt;&gt;&quot;Events&quot;,
 RecordType.Name&lt;&gt;&quot;Advisory&quot;,
 RecordType.Name&lt;&gt;&quot;Advisory - Closed&quot;,
 RecordType.Name&lt;&gt;&quot;Favor&quot;,
@@ -46047,6 +46057,7 @@ NOT(ISBLANK(TEXT(Win_Validation__c))))</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name&lt;&gt;&quot;Events&quot;,
 Length_of_Contract__c&lt;=1,
 NOT(ISBLANK(X2nd_Year_Amount_in_USD__c)))</errorConditionFormula>
         <errorMessage>You can only enter a Year 2 Amount if the Contract length is more than 1.</errorMessage>
@@ -46056,6 +46067,7 @@ NOT(ISBLANK(X2nd_Year_Amount_in_USD__c)))</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name&lt;&gt;&quot;Events&quot;,
 Length_of_Contract__c&lt;=2,
 NOT(ISBLANK(X3rd_Year_Amount_in_USD__c)))</errorConditionFormula>
         <errorMessage>You can only enter a Year 3 Amount if the Contract length is more than 2.</errorMessage>
@@ -46065,6 +46077,7 @@ NOT(ISBLANK(X3rd_Year_Amount_in_USD__c)))</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name&lt;&gt;&quot;Events&quot;,
 Length_of_Contract__c&lt;=3,
 NOT(ISBLANK(Year_4_Amount__c)))</errorConditionFormula>
         <errorMessage>You can only enter a Year 4 Amount if the Contract length is more than 3.</errorMessage>
@@ -46074,6 +46087,7 @@ NOT(ISBLANK(Year_4_Amount__c)))</errorConditionFormula>
         <active>true</active>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.Name&lt;&gt;&quot;Events&quot;,
 Length_of_Contract__c =4,
 NOT(ISBLANK(Year_5_Amount__c)))</errorConditionFormula>
         <errorMessage>You can only enter a Year 5 Amount if the Contract length is more than 4.</errorMessage>

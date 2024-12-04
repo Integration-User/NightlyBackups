@@ -22060,9 +22060,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>CventEvents__Event__c.EuromoneyDivision__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -29753,6 +29753,11 @@
         <editable>true</editable>
         <field>Transaction__c.Year__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Trigger_Execution_Update__mdt.Skip_Trigger__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -45469,6 +45474,9 @@
     <layoutAssignments>
         <layout>Transaction__c-Invoice Layout</layout>
         <recordType>Transaction__c.Standard_Transaction</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trigger_Execution_Update__mdt-Trigger Execution Update Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Trip_Books__c-Trip Book Layout</layout>
