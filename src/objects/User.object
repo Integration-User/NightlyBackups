@@ -1288,6 +1288,11 @@
             <operation>contains</operation>
             <value>ijglobal</value>
         </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
         <label>IJ Global Users</label>
         <sharedTo>
             <role>Commercial_Operations</role>
