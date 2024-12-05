@@ -115,13 +115,6 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>newAccountGrant.Order_Product__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Products.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>newAccountGrant.Product__c</assignToReference>
             <operator>Assign</operator>
             <value>
@@ -177,13 +170,6 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>Loop_Products.End_Date__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>newAccountGrant.Order_Product__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Products.Id</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -380,7 +366,7 @@
             <assignToReference>newSubscriptionItem.Start_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -566,24 +552,10 @@
         <locationX>402</locationX>
         <locationY>1322</locationY>
         <assignmentItems>
-            <assignToReference>Get_Previous_Subscription.Order__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Opportunity_Details.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>Get_Previous_Subscription.Number_of_Seats__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>fNumberOfSeats</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>Get_Previous_Subscription.Order_Product__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Products.Id</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -607,13 +579,6 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>Get_Opportunity_Details.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>Get_Previous_Subscription.Order_Product__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Products.Id</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -733,7 +698,7 @@
             <name>Opportunity_Type_Renewal</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Opportunity_Details.Previous_Opportunity__c</leftValueReference>
+                <leftValueReference>Get_Opportunity_Details.Prior_Opportunity__c</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -748,7 +713,7 @@
             <name>Opportunity_Type_Amendment</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Loop_Products.Opportunity.Previous_Opportunity__c</leftValueReference>
+                <leftValueReference>Loop_Products.Opportunity.Prior_Opportunity__c</leftValueReference>
                 <operator>EqualTo</operator>
             </conditions>
             <conditions>
@@ -1438,7 +1403,7 @@ When processing Order 2, this query will return Subscription X, because Subscrip
             <field>Opportunity_Id__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>Loop_Products.Opportunity.Previous_Opportunity__c</elementReference>
+                <elementReference>Loop_Products.Opportunity.Prior_Opportunity__c</elementReference>
             </value>
         </filters>
         <filters>
