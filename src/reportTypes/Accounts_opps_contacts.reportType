@@ -977,6 +977,11 @@
             <field>Contract_Start_Month__c</field>
             <table>Contact.OpportunityContactRoles.OpportunityLineItems</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Id__c</field>
+            <table>Contact.OpportunityContactRoles.OpportunityLineItems</table>
+        </columns>
         <masterLabel>Opportunity Product</masterLabel>
     </sections>
 </ReportType>

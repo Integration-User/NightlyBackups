@@ -230,7 +230,7 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>Account_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Account_Compact_Layout</fullName>
         <fields>Name</fields>
@@ -332,6 +332,18 @@
             <restricted>true</restricted>
             <valueSetName>Account_Categories</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account_Hierarchy_Ext_Id__c</fullName>
+        <description>This field is used to link all Accounts in an Account Hierarchy for the ability to add subscribers across levels and branches.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This should be the same for all Accounts in a hierarchy. For consistency, either check the parent account OR use the first 5 letters of the top level parent.</inlineHelpText>
+        <label>Account Hierarchy Ext Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Account_Status__c</fullName>
@@ -5531,6 +5543,18 @@ IF (LEN( ShippingCountry) = 0, 0,1)</formula>
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>ZephrCompanyId__c</fullName>
+        <description>Zephr Id of the corresponding company record in Zephr</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zephr Id of the corresponding company record in Zephr</inlineHelpText>
+        <label>Zephr Company Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ZoomInfo_All_Investors__c</fullName>
         <externalId>false</externalId>
         <label>ZoomInfo All Investors</label>
@@ -6458,73 +6482,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>50B%2B</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>AccountSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9667,85 +9624,6 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>50B%2B</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>AccountSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

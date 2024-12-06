@@ -3384,6 +3384,31 @@
             <field>IJ_Global_Events_Related_Event__c</field>
             <table>Campaign.AccountCampaignMembers.Opportunities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Composite_Key__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Id__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Name__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PO_Number__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Agency__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>

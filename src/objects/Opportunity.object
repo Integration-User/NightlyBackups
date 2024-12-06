@@ -341,7 +341,7 @@
             <default>false</default>
         </values>
     </businessProcesses>
-    <compactLayoutAssignment>New_Awesome_Companct_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>New_Awesome_Companct_Layout</fullName>
         <fields>Name</fields>
@@ -491,6 +491,18 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Agency__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Agency</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Amount</fullName>
@@ -2154,6 +2166,39 @@ TEXT(MIN(ROUND(MOD(Starting_Price_Opp__c , 1), 2) * 100, 99))
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Delinian_Composite_Key__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Composite Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delinian_Name__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Department_Id__c</fullName>
@@ -5048,6 +5093,17 @@ IF ( INCLUDES ( Account.Other_Vendors__c , &quot;I don&apos;t know&quot; ), &quo
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>PO_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>PO Number</label>
+        <length>45</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Percent_Complete__c</fullName>
         <description>Use to track Advisory Revenue and project status</description>
         <label>Percent Complete</label>
@@ -5170,6 +5226,19 @@ NULL))))</formula>
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Previous_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <inlineHelpText>Link to the prior Opportunity. This will enable Sales Ops to copy over the subscribers to the renewal opportunity.</inlineHelpText>
+        <label>Previous Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunities (Previous Opportunity)</relationshipLabel>
+        <relationshipName>Opportunities1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Previous_Score__c</fullName>
         <label>Previous Score</label>
         <required>false</required>
@@ -5238,6 +5307,59 @@ NULL))))</formula>
         <fullName>Pricebook2Id</fullName>
         <securityClassification>Confidential</securityClassification>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Brand_Group__c</fullName>
+        <description>This is to allow the sales person to select the brand group that this Opportunity represents. We use it because we now allow mixed brand products on a single Opportunity. This field is used in the early Opportunity stages before adding products and, in future, may be driven from the products.</description>
+        <inlineHelpText>Select the primary brand group that relates to this Opportunity</inlineHelpText>
+        <label>Primary Brand Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Primary_Business_Unit__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Brand_Groups</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>MI</controllingFieldValue>
+                <controllingFieldValue>AMS</controllingFieldValue>
+                <valueName>IJGlobal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Brand__c</fullName>
+        <description>This is to allow the sales person to select the brand that this Opportunity represents. We use it because we now allow mixed brand products on a single Opportunity. This field is used in the early Opportunity stages before adding products and, in future, may be driven from the products.</description>
+        <inlineHelpText>Select the primary brand for this Opportunity</inlineHelpText>
+        <label>Primary Brand</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Primary_Brand_Group__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Brands</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>IJGlobal</controllingFieldValue>
+                <valueName>IJGlobal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Business_Unit__c</fullName>
+        <description>This is to allow the sales person to select the area of business that this Opportunity represents. We use it because we now allow mixed brand products on a single Opportunity. This field is used in the early Opportunity stages before adding products and, in future, may be driven from the products.</description>
+        <inlineHelpText>Select the primary business area for this Opportunity</inlineHelpText>
+        <label>Primary Business Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Units</valueSetName>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Prior_Opportunity__c</fullName>
@@ -8650,109 +8772,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>AM Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-News%2FEvent Driven</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Previous Client%2FContact</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Sales Trip</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Strategic Account</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Previous Client</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Board Member</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Bank</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Law Firm</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Past Client Introduction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -10290,6 +10309,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11484,109 +11528,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>AM Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-News%2FEvent Driven</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Previous Client%2FContact</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Sales Trip</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Strategic Account</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Previous Client</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Board Member</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Bank</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Law Firm</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Past Client Introduction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -13124,6 +13065,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14346,105 +14312,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-News%2FEvent Driven</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Previous Client%2FContact</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Sales Trip</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Strategic Account</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Previous Client</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Board Member</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Bank</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Law Firm</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Past Client Introduction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -15898,6 +15765,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -17056,105 +16948,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-News%2FEvent Driven</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Previous Client%2FContact</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Sales Trip</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Strategic Account</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Previous Client</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Board Member</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Bank</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Law Firm</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Past Client Introduction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -18608,6 +18401,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19914,185 +19732,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AM Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Apollo</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Cognism</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Conference%2FEvent</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Digital Campaign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LinkedIn</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>News Subscription Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-News%2FEvent Driven</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Previous Client%2FContact</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Sales Trip</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Outbound-Strategic Account</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Previous Client</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Board Member</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Bank</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Indirect-Law Firm</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral%3A Past Client Introduction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Upsell Opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Webinar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Zoominfo</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21670,6 +21309,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23132,101 +22796,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -24744,6 +24313,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -25990,61 +25584,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -27506,6 +27045,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -28620,61 +28184,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Lead_Channel__c</picklist>
             <values>
                 <fullName>Cold Outreach</fullName>
@@ -30140,6 +29649,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
                 <fullName>LDC</fullName>
@@ -31207,61 +30741,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -32707,6 +32186,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
                 <fullName>News</fullName>
@@ -33773,101 +33277,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -35389,6 +34798,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -36644,49 +36078,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -38268,6 +37659,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
                 <fullName>LDC</fullName>
@@ -39682,101 +39098,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -41310,6 +40631,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Product_Types__c</picklist>
             <values>
                 <fullName>LDC</fullName>
@@ -42560,101 +41906,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>6sense</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Demo Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJGlobal</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Industry Marketing Event</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>LDC</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Locatus</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing Qualified</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Alert Trial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Paid Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Proactive Outreach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>React %26 US News Ecomm Inquiries</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Report Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Slide Request</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Virtual Event</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -44176,6 +43427,31 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand_Group__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Brand__c</picklist>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Business_Unit__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

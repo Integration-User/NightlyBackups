@@ -47,6 +47,11 @@
         <name>Account_Category__c</name>
     </fields>
     <fields>
+        <help><!-- This should be the same for all Accounts in a hierarchy. For consistency, either check the parent account OR use the first 5 letters of the top level parent. --></help>
+        <label><!-- Account Hierarchy Ext Id --></label>
+        <name>Account_Hierarchy_Ext_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Account Status --></label>
         <name>Account_Status__c</name>
         <picklistValues>
@@ -2956,6 +2961,11 @@
     <fields>
         <label><!-- Years as Client --></label>
         <name>Years_as_Client__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zephr Id of the corresponding company record in Zephr --></help>
+        <label><!-- Zephr Company Id --></label>
+        <name>ZephrCompanyId__c</name>
     </fields>
     <fields>
         <label><!-- ZoomInfo All Investors --></label>

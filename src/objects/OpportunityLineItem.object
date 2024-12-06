@@ -271,6 +271,15 @@ TEXT(YEAR(Start_Date__c))</formula>
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Delinian_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Delinian Id</label>
+        <length>18</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Delivery_Method__c</fullName>
         <label>Delivery Method</label>
         <required>false</required>
@@ -371,6 +380,14 @@ TEXT(YEAR(Start_Date__c))</formula>
         <required>false</required>
         <scale>2</scale>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Is_Zephr_Product__c</fullName>
+        <description>This is a formula field that indicates if this is a Zephr subscription product that should be provisioned by the NextGen Zephr process</description>
+        <formula>NOT(ISBLANK(PricebookEntry.Product2.Zephr_Product_Slug__c))</formula>
+        <inlineHelpText>Indicates if this is a Zephr subscription product</inlineHelpText>
+        <label>Is Zephr Product</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>ListPrice</fullName>
@@ -805,6 +822,12 @@ ARR_Formula__c ))))))</formula>
         <required>false</required>
         <scale>2</scale>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Product_Created__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Subscription Product Created</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Subtotal</fullName>

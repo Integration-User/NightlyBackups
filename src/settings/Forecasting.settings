@@ -295,6 +295,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -593,6 +597,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -951,8 +967,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -965,6 +989,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -1526,6 +1562,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -1601,6 +1638,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -1690,10 +1730,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -2028,6 +2073,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -2326,6 +2375,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -2684,8 +2745,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -2698,6 +2767,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -3259,6 +3340,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -3334,6 +3416,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -3423,10 +3508,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -3761,6 +3851,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -4059,6 +4153,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -4417,8 +4523,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -4431,6 +4545,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -4992,6 +5118,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -5067,6 +5194,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -5156,10 +5286,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -5494,6 +5629,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -5792,6 +5931,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -6150,8 +6301,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -6164,6 +6323,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -6725,6 +6896,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -6800,6 +6972,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -6889,10 +7064,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -7219,6 +7399,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -7517,6 +7701,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -7875,8 +8071,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -7889,6 +8093,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -8448,6 +8664,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -8523,6 +8740,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -8612,10 +8832,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -8941,6 +9166,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -9239,6 +9468,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -9597,8 +9838,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -9611,6 +9860,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -10170,6 +10431,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -10245,6 +10507,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -10334,10 +10599,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -10667,6 +10937,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -10965,6 +11239,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -11323,8 +11609,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -11337,6 +11631,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -11897,6 +12203,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -11972,6 +12279,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -12061,10 +12371,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -12390,6 +12705,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -12688,6 +13007,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -13046,8 +13377,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -13060,6 +13399,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -13619,6 +13970,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -13694,6 +14046,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -13783,10 +14138,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -14116,6 +14476,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -14414,6 +14778,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -14772,8 +15148,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -14786,6 +15170,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -15346,6 +15742,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -15421,6 +15818,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -15510,10 +15910,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -15839,6 +16244,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -16137,6 +16546,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -16495,8 +16916,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -16509,6 +16938,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -17068,6 +17509,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -17143,6 +17585,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -17232,10 +17677,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -17565,6 +18015,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -17863,6 +18317,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -18221,8 +18687,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -18235,6 +18709,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -18795,6 +19281,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -18870,6 +19357,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -18959,10 +19449,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -19288,6 +19783,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -19586,6 +20085,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -19944,8 +20455,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -19958,6 +20477,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -20517,6 +21048,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -20592,6 +21124,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -20681,10 +21216,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -21014,6 +21554,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -21312,6 +21856,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -21670,8 +22226,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -21684,6 +22248,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -22244,6 +22820,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -22319,6 +22896,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -22408,10 +22988,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -22737,6 +23322,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -23035,6 +23624,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -23393,8 +23994,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -23407,6 +24016,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -23966,6 +24587,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -24041,6 +24663,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -24130,10 +24755,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -24463,6 +25093,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -24761,6 +25395,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -25119,8 +25765,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -25133,6 +25787,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -25693,6 +26359,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -25768,6 +26435,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -25857,10 +26527,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -26186,6 +26861,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -26484,6 +27163,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -26842,8 +27533,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -26856,6 +27555,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -27415,6 +28126,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -27490,6 +28202,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -27579,10 +28294,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -27916,6 +28636,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -28214,6 +28938,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -28572,8 +29308,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -28586,6 +29330,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -29147,6 +29903,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -29222,6 +29979,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -29311,10 +30071,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -29649,6 +30414,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -29947,6 +30716,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -30305,8 +31086,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -30319,6 +31108,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -30880,6 +31681,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -30955,6 +31757,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -31044,10 +31849,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -31382,6 +32192,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -31680,6 +32494,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -32038,8 +32864,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -32052,6 +32886,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -32613,6 +33459,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -32688,6 +33535,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -32777,10 +33627,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -33115,6 +33970,10 @@
             <label>AffectLayer</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1gZk</field>
             <label>AM Referred By</label>
         </opportunityListFieldsLabelMappings>
@@ -33413,6 +34272,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000VQ0Ga</field>
             <label>Default Contact</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V1kUQ</field>
@@ -33771,8 +34642,16 @@
             <label>Pipeline Category Sort</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0W</field>
             <label>PPD Sent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000Wic22</field>
@@ -33785,6 +34664,18 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5G00000WeE8W</field>
             <label>Price Justification</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v1J</field>
@@ -34346,6 +35237,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -34421,6 +35313,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -34510,10 +35405,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>

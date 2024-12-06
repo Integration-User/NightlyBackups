@@ -164,6 +164,162 @@
         <name>Company_Type_Contact__c</name>
     </fields>
     <fields>
+        <label><!-- Account Type --></label>
+        <name>Company_Type__c</name>
+        <picklistValues>
+            <masterLabel>Academia</masterLabel>
+            <translation><!-- Academia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airline</masterLabel>
+            <translation><!-- Airline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airport</masterLabel>
+            <translation><!-- Airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset/Investment Management</masterLabel>
+            <translation><!-- Asset/Investment Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit/Accountancy</masterLabel>
+            <translation><!-- Audit/Accountancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrier</masterLabel>
+            <translation><!-- Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultancy</masterLabel>
+            <translation><!-- Consultancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Acquirer</masterLabel>
+            <translation><!-- Credit Card Acquirer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Bank/Body</masterLabel>
+            <translation><!-- Development Bank/Body --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECA</masterLabel>
+            <translation><!-- ECA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engine Lessor</masterLabel>
+            <translation><!-- Engine Lessor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Search</masterLabel>
+            <translation><!-- Executive Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Arranger</masterLabel>
+            <translation><!-- Financial Arranger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Supplier</masterLabel>
+            <translation><!-- Fuel Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fund</masterLabel>
+            <translation><!-- Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government/Regulatory</masterLabel>
+            <translation><!-- Government/Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infrastructure Developers and Services</masterLabel>
+            <translation><!-- Infrastructure Developers and Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infrastructure/Utility</masterLabel>
+            <translation><!-- Infrastructure/Utility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institutional Investor</masterLabel>
+            <translation><!-- Institutional Investor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Bank</masterLabel>
+            <translation><!-- Investment Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Firm</masterLabel>
+            <translation><!-- Law Firm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation><!-- Lender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessor</masterLabel>
+            <translation><!-- Lessor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MGA</masterLabel>
+            <translation><!-- MGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRO</masterLabel>
+            <translation><!-- MRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Air Finance</masterLabel>
+            <translation><!-- Other Air Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Finance</masterLabel>
+            <translation><!-- Other Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Insurance</masterLabel>
+            <translation><!-- Other Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Service Provider</masterLabel>
+            <translation><!-- Other Service Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Equity</masterLabel>
+            <translation><!-- Private Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rating Agency</masterLabel>
+            <translation><!-- Rating Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reinsurer</masterLabel>
+            <translation><!-- Reinsurer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Association</masterLabel>
+            <translation><!-- Trade Association --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Contact &amp; Account Owners Match? --></label>
         <name>Contact_Account_Owners_Match__c</name>
     </fields>
@@ -333,6 +489,10 @@
         <name>Convert_from_Trial__c</name>
     </fields>
     <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
         <label><!-- Current Products (Text) --></label>
         <name>Current_Products_Text__c</name>
     </fields>
@@ -458,6 +618,10 @@
     <fields>
         <label><!-- EU Contact --></label>
         <name>EU_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Consent Date/Time --></label>
+        <name>Email_Consent_Date_Time__c</name>
     </fields>
     <fields>
         <label><!-- Email Opt In --></label>
@@ -683,6 +847,17 @@
         <name>LID__Session_Id__c</name>
     </fields>
     <fields>
+        <help><!-- The time that this Lead or Contact was associated to their most recent Campaign --></help>
+        <label><!-- Last Campaign Associated Time --></label>
+        <name>Last_Campaign_Associated_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- The most recent Campaign to which this Lead or Contact has been associated --></help>
+        <label><!-- Last Campaign Touchpoint --></label>
+        <name>Last_Campaign_Touchpoint__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Last Login Date --></label>
         <name>Last_Login_Date__c</name>
     </fields>
@@ -693,6 +868,11 @@
     <fields>
         <label><!-- Last Seen on Internal Site --></label>
         <name>Last_Seen_on_Internal_Site__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the latest Subscription End Date from all related Subscription users --></help>
+        <label><!-- Latest Subscription End Date --></label>
+        <name>Latest_Subscription_End_Date__c</name>
     </fields>
     <fields>
         <label><!-- Lead Channel --></label>
@@ -881,6 +1061,10 @@
             <masterLabel>ZoomInfo</masterLabel>
             <translation><!-- ZoomInfo --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Left Company --></label>
+        <name>Left_Company__c</name>
     </fields>
     <fields>
         <label><!-- Left this Account --></label>
@@ -2219,6 +2403,18 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Pardot Opt-out --></label>
+        <name>Pardot_Opt_out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pardot Sub Name --></label>
+        <name>Pardot_Sub_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pardot Sub Surname --></label>
+        <name>Pardot_Sub_Surname__c</name>
+    </fields>
+    <fields>
         <label><!-- Parent Account Id (Brand) --></label>
         <name>Parent_Account_Id_Brand__c</name>
     </fields>
@@ -2229,6 +2425,10 @@
     <fields>
         <label><!-- Phone Extension --></label>
         <name>Phone_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Opt In --></label>
+        <name>Phone_Opt_In__c</name>
     </fields>
     <fields>
         <help><!-- If you have greater than 0 acquisitions/dispositions, how much of your portfolio do you turn over each year? --></help>
@@ -2258,6 +2458,10 @@
             <masterLabel>8-12%</masterLabel>
             <translation><!-- 8-12% --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Opt In --></label>
+        <name>Post_Opt_In__c</name>
     </fields>
     <fields>
         <label><!-- Power User --></label>
@@ -2442,6 +2646,10 @@
         <name>Role__c</name>
     </fields>
     <fields>
+        <label><!-- SMS Opt In --></label>
+        <name>SMS_Opt_In__c</name>
+    </fields>
+    <fields>
         <label><!-- Active Contact --></label>
         <name>SalesLoft1__Active_Contact__c</name>
     </fields>
@@ -2460,6 +2668,10 @@
     <fields>
         <label><!-- Salesforce User --></label>
         <name>Salesforce_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sanction Status --></label>
+        <name>Sanction_Status__c</name>
     </fields>
     <fields>
         <help><!-- Note: Activities are not auto-logged to this email --></help>
@@ -2566,6 +2778,22 @@
             <masterLabel>Towers</masterLabel>
             <translation><!-- Towers --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Breaking News --></label>
+        <name>Service_Email_Breaking_News__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Daily Update --></label>
+        <name>Service_Email_Daily_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Monthly Newsletter --></label>
+        <name>Service_Email_Monthly_Newsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRP Service Email Quarterly Newsletter --></label>
+        <name>Service_Email_Quarterly_Newsletter__c</name>
     </fields>
     <fields>
         <label><!-- Signatory --></label>

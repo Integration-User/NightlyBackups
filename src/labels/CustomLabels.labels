@@ -357,6 +357,22 @@
         <value>Success</value>
     </labels>
     <labels>
+        <fullName>NextGen_Record_Type</fullName>
+        <categories>NextGen,FPS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NextGen Record Type</shortDescription>
+        <value>NextGen</value>
+    </labels>
+    <labels>
+        <fullName>NextGen_Zephr_Grant_Start_Delay</fullName>
+        <categories>NextGen</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NextGen_Zephr_Grant_Start_Delay</shortDescription>
+        <value>2</value>
+    </labels>
+    <labels>
         <fullName>Opportunity_Link</fullName>
         <language>en_US</language>
         <protected>false</protected>

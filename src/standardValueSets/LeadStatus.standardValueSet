@@ -2,29 +2,55 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Open</fullName>
-        <color>#FF9966</color>
+        <fullName>Not Contacted</fullName>
+        <default>false</default>
+        <label>Not Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+        <label>Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Unqualified</fullName>
+        <default>false</default>
+        <label>Unqualified</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
         <default>true</default>
-        <label>Open</label>
+        <label>New</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
         <fullName>Working</fullName>
-        <color>#66CCCC</color>
         <default>false</default>
         <label>Working</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Sales_Qualified</fullName>
-        <color>#F3D904</color>
+        <fullName>Nurturing</fullName>
         <default>false</default>
-        <label>Sales Qualified</label>
+        <label>Nurturing</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+        <label>Qualified</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
         <converted>true</converted>
     </standardValue>
     <standardValue>
         <fullName>Disqualified</fullName>
-        <color>#CC66CC</color>
         <default>false</default>
         <label>Disqualified</label>
         <converted>false</converted>

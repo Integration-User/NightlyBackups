@@ -394,6 +394,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Cache</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CalloutMockForHttp</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ConsolidatedOpportunity</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -403,6 +411,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ContactEmailDistributionTriggerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CountryIsoCodeHelper</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -2670,6 +2686,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ITriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>LID__AccessTokenRequest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -2907,6 +2927,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LID__utilities</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MultipleRequestMock</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -3258,7 +3282,23 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SubscriptionNGHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SubscriptionUserTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SubscriptionUserTriggerHandlerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TaskTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TriggerDispatcher</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4039,6 +4079,50 @@
     </classAccesses>
     <classAccesses>
         <apexClass>XFILES__XfilesproFileScheduleForEmail</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrApiRequestsResponses</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrCompanyTypeValuesManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegration</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegrationNG</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegrationNGTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegrationService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegrationServiceTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegrationTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrIntegration_TestUtility</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrObjects</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ZephrUserContactMatcher</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -14174,6 +14258,170 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>script_DeleteSubscribersCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_DeleteSubscribersCtrlTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_InvocableCreateSubUsersBulk</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_InvocableCreateSubscriptionUsers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_RemoveSubscribersCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_TestDataFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_UpdateSubscribersCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_UpdateSubscribersCtrlTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_UploadSubscribersCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>script_UploadSubscribersCtrlTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableAccountUpdate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableAccountUpdateTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateAccount</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateAccountGrant</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateAccountGrantTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateAccountTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateAccountUser</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateAccountUserTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateCompany</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateCompanyTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateSubscription</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateUser</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateUserAccGrantsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateUserAccountGrants</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateUserGrant</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateUserTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableCreateZephrSubModel</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableDeleteAccountUser</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableSendPasswordReset</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableStartSubProvisioning</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_InvocableStartSubProvisioningTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QProvisionSubscriptionGrants</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QProvisionSubscriptionUserGrants</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QProvisionSubscriptionUsers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QueueableDeleteUserAccntGrantsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QueueableDeleteUserAccountGrants</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QueueableProvisionSubscription</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_QueueableProvisionSubscriptionTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_TestMock</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_WebhookAPI</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_WebhookAPITest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>zisf__AccountCleanBatchable</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -15239,6 +15487,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Account_Hierarchy_Ext_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Account_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -16250,6 +16503,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Years_as_Client__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.ZephrCompanyId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18744,6 +19002,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Company_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Contact_Account_Owners_Match__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -18770,6 +19033,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Convert_from_Trial__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Country__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18931,6 +19199,11 @@
         <editable>true</editable>
         <field>Contact.Email</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Email_Consent_Date_Time__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -19124,6 +19397,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Last_Campaign_Associated_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Last_Campaign_Touchpoint__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Last_Login_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -19135,6 +19418,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Last_Seen_on_Internal_Site__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Latest_Subscription_End_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19175,6 +19463,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Lead_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Left_Company__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19304,6 +19597,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Pardot_Opt_out__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Pardot_Sub_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Pardot_Sub_Surname__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Parent_Account_Id_Brand__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -19324,7 +19632,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Phone_Opt_In__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Portfolio_Turnover_Per_Year__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Post_Opt_In__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19399,6 +19717,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.SMS_Opt_In__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.SalesLoft1__Active_Contact__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -19424,6 +19747,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Sanction_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Secondary_Email__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -19435,6 +19763,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Sectors_of_Interest_Marketing_Identified__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Service_Email_Breaking_News__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Service_Email_Daily_Update__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Service_Email_Monthly_Newsletter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Service_Email_Quarterly_Newsletter__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -25099,6 +25447,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Lead.Primary_Brand_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Primary_Brand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Primary_Business_Unit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Lead.Product_Interest_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -25225,6 +25588,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.Sectors_of_Interest_Mktg_Identified__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Seniority__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -25818,6 +26186,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Agency__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Amount</field>
         <readable>true</readable>
@@ -26230,6 +26603,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Default_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Delinian_Composite_Key__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Delinian_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -26679,6 +27067,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.PO_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Percent_Complete__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -26694,12 +27087,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.Previous_Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Previous_Score__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Previous_Stage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Primary_Brand_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Primary_Brand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Primary_Business_Unit__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -27389,6 +27802,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>OpportunityLineItem.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>OpportunityLineItem.Delivery_Method__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -27430,6 +27848,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Increase_dollar__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.Is_Zephr_Product__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -27580,6 +28003,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Starting_Price__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.Subscription_Product_Created__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -27878,6 +28306,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Campaign__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
@@ -27909,12 +28347,47 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Product2.Free_Trial_Duration__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Marketing_Free_Trial_Only__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Max_Extension_Days__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Product2.News_Product_Line__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Product2.Number_of_Licences__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Product2.One_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Primary_Brand_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Primary_Brand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Primary_Business_Unit__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -27944,6 +28417,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Product2.Subscriber_Requires_Postal_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Trial_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Product2.Use_in_Referrals__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -27955,6 +28438,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.XFILES__gfId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.ZephrEntitlementId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Zephr_Product_Slug__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Zephr_Tenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Zephr_Website__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -28900,6 +29403,446 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Staging_Data_Upload__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Delta_No_Of_Seats__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Number_of_Seats__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Order_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Order__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Change__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Opportunity__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Opportunity__c.Order_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Opportunity__c.Order__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Extension__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Opportunity_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Subscription_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Subscription_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Zephr_Account_Grant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Zephr_Entitlement_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Product__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Activate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Baseline_Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Baseline_Subscriber_Duration__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Contact_Acc_Equals_to_Subs_Acc__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.CreatedByReadonly__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Deactivate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Initial_Order__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Lead__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Marked_For_Removal__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Number_of_Copies__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Number_of_Renewals__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Print_Copy_Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Print_Copy__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Products__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.SRP_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.SRP_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Subscriber_Duration__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Subscriber_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Subscriber_Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Subscriber_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Subscription_User_ID_18__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.User_Country__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Zephr_Email_Verified__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Zephr_User_Account_Grant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Zephr_User_Grant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_User__c.Zephr_User_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Different_On_Zephr_Account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Duration_Years__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Earliest_Extension_Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Latest_Extension_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.New_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Next_Quarterly_Order_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Number_of_Seats__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Opportunity_Owner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Order_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Order__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Original_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Pending_Changes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Print_Copy__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Product_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Products__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Quarterly_Order_Trigger__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Rate_per_User_per_Month__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Seats_Allocated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Seats_Remaining__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Subscription_Label__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Subscription_Management_System__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Trigger_Subscriber_Activation__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.View_in_Zephr__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Zephr_Account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription__c.Zephr_Signup_Enabled__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -30415,6 +31358,621 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>XFILES__Xfilespro_Audit_Log__c.XFILES__Text_Area_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.CurrentUser__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.Endpoint__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.ErrorOrigin__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.HttpMethod__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.RequestBody__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.ResponseBody__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.ResponseCode__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrIntegrationError__e.StackTrace__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.CurrentUser__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.Endpoint__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.ErrorOrigin__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.HttpMethod__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.RequestBody__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.ResponseBody__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.ResponseStatusCode__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrProcessError__c.StackTrace__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.AccessKey__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ApiFieldName_ZephrAccountId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ApiFieldName_ZephrCompanyId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ApiFieldName_ZephrGrantId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ApiFieldName_ZephrUserId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.Company_Type_Slug__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.Default_Site_Slug__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ProcessName__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ProductCode__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.RecordTypeDeveloperNames__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.SecretKey__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.TrialObjectFieldMapping__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.TrialObjectRecordTypeDevName__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.TrialObject__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ZephrEntitlementId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ZephrSettings__mdt.ZephrTenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Order_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Subscription_Item__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Zephr_API_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Zephr_Account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Zephr_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Zephr_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account_Grant__c.Zephr_Tenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Different_on_Subscription__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Number_of_Seats__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Subscription__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Zephr_API_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Zephr_Company__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Zephr_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Zephr_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Account__c.Zephr_Tenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company_Type_Value__c.Company_Type_JSON_Values__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company_Type_Value__c.Restricted__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Zephr_API_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Zephr_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Zephr_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Company__c.Zephr_Tenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Test_Emails__mdt.Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Subscription_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Zephr_API_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Zephr_Account_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Zephr_Composite_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Zephr_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Account_Grant__c.Zephr_User_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Order_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Subscription_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Subscription__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Zephr_API_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Zephr_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Zephr_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Zephr_Tenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User_Grant__c.Zephr_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Email_Address__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Lead__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_API_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_City__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Company_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Company_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Company__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Confirm_Contact_Pref__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Contact_Preference_Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Contact_Preference_Phone__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Contact_Preference_Post__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Country__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Email_Verified__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_First_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Integration_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Integration_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Job_Title__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Last_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Seniority__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Telephone_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Tenant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Terms_and_Conditions__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_Tracking_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_User__c.Zephr_User_18_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Webhook_Data__c.Error_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Webhook_Data__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Webhook_Data__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Webhook_Data__c.Webhook_Payload__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Webhook_Data__c.Webhook_URI__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Zephr_Webhook_Data__c.Zephr_Tenant__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -44852,6 +46410,9 @@
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ISO_Map__mdt-ISO Map Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -45089,6 +46650,21 @@
         <layout>Staging_Data_Upload__c-Staging Data Upload Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Subscription_Change__c-Subscription Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Opportunity__c-Subscription Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Product__c-Subscription Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_User__c-Subscription User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription__c-Subscription Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Survey-Survey Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -45191,6 +46767,39 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ZephrProcessError__c-Zephr Process Error Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ZephrSettings__mdt-Zephr Settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_Account_Grant__c-Zephr Account Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_Account__c-Zephr Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_Company_Type_Value__c-Zephr Company Type Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_Company__c-Zephr Company Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_Test_Emails__mdt-Zephr Test Emails Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_User_Account_Grant__c-Zephr User Account Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_User_Grant__c-Zephr User Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_User__c-Zephr User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zephr_Webhook_Data__c-Zephr Webhook Data Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -47537,6 +49146,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Subscription__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Transaction__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -47566,6 +49179,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>XFILES__Xfiles_Usage</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Zephr_Webhook_Data__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

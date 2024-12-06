@@ -126,6 +126,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -570,8 +574,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -738,6 +750,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -752,6 +768,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -1002,6 +1022,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -1238,8 +1262,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -1284,6 +1316,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -1413,6 +1449,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -1488,6 +1525,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -1577,10 +1617,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -1838,6 +1883,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -2282,8 +2331,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -2450,6 +2507,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -2464,6 +2525,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -2714,6 +2779,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -2950,8 +3019,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -2996,6 +3073,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -3125,6 +3206,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -3200,6 +3282,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -3289,10 +3374,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -3550,6 +3640,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -3994,8 +4088,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -4162,6 +4264,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -4176,6 +4282,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -4426,6 +4536,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -4662,8 +4776,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -4708,6 +4830,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -4837,6 +4963,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -4912,6 +5039,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -5001,10 +5131,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -5262,6 +5397,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -5706,8 +5845,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -5874,6 +6021,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -5888,6 +6039,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -6138,6 +6293,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -6374,8 +6533,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -6420,6 +6587,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -6549,6 +6720,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -6624,6 +6796,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -6713,10 +6888,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -6974,6 +7154,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -7418,8 +7602,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -7586,6 +7778,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -7600,6 +7796,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -7850,6 +8050,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -8086,8 +8290,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -8132,6 +8344,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -8261,6 +8477,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -8336,6 +8553,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -8425,10 +8645,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -8682,6 +8907,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -9126,8 +9355,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -9290,6 +9527,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -9304,6 +9545,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -9554,6 +9799,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -9790,8 +10039,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -9836,6 +10093,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -9963,6 +10224,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -10038,6 +10300,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -10127,10 +10392,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -10384,6 +10654,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -10828,8 +11102,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -10992,6 +11274,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -11006,6 +11292,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -11256,6 +11546,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -11492,8 +11786,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -11538,6 +11840,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -11665,6 +11971,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -11740,6 +12047,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -11829,10 +12139,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -12086,6 +12401,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -12530,8 +12849,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -12698,6 +13025,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -12712,6 +13043,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -12962,6 +13297,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -13198,8 +13537,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -13244,6 +13591,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -13372,6 +13723,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -13447,6 +13799,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -13536,10 +13891,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -13793,6 +14153,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -14237,8 +14601,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -14401,6 +14773,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -14415,6 +14791,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -14665,6 +15045,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -14901,8 +15285,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -14947,6 +15339,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -15074,6 +15470,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -15149,6 +15546,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -15238,10 +15638,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -15495,6 +15900,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -15939,8 +16348,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -16107,6 +16524,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -16121,6 +16542,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -16371,6 +16796,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -16607,8 +17036,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -16653,6 +17090,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -16781,6 +17222,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -16856,6 +17298,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -16945,10 +17390,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -17202,6 +17652,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -17646,8 +18100,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -17810,6 +18272,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -17824,6 +18290,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -18074,6 +18544,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -18310,8 +18784,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -18356,6 +18838,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -18483,6 +18969,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -18558,6 +19045,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -18647,10 +19137,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -18904,6 +19399,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -19348,8 +19847,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -19516,6 +20023,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -19530,6 +20041,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -19780,6 +20295,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -20016,8 +20535,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -20062,6 +20589,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -20190,6 +20721,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -20265,6 +20797,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -20354,10 +20889,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -20611,6 +21151,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -21055,8 +21599,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -21219,6 +21771,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -21233,6 +21789,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -21483,6 +22043,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -21719,8 +22283,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -21765,6 +22337,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -21892,6 +22468,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -21967,6 +22544,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -22056,10 +22636,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -22313,6 +22898,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -22757,8 +23346,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -22925,6 +23522,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -22939,6 +23540,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -23189,6 +23794,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -23425,8 +24034,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -23471,6 +24088,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -23599,6 +24220,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -23674,6 +24296,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -23763,10 +24388,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -24020,6 +24650,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -24464,8 +25098,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -24628,6 +25270,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -24642,6 +25288,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -24892,6 +25542,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -25128,8 +25782,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -25174,6 +25836,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -25301,6 +25967,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -25376,6 +26043,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -25465,10 +26135,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -25722,6 +26397,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -26166,8 +26845,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -26334,6 +27021,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -26348,6 +27039,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -26598,6 +27293,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -26834,8 +27533,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -26880,6 +27587,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -27008,6 +27719,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -27083,6 +27795,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -27172,10 +27887,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -27429,6 +28149,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -27873,8 +28597,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -28037,6 +28769,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -28051,6 +28787,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -28301,6 +29041,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -28537,8 +29281,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -28583,6 +29335,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -28710,6 +29466,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -28785,6 +29542,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -28874,10 +29634,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -29135,6 +29900,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -29579,8 +30348,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -29747,6 +30524,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -29761,6 +30542,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -30011,6 +30796,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -30247,8 +31036,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -30293,6 +31090,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -30422,6 +31223,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -30497,6 +31299,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -30586,10 +31391,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -30847,6 +31657,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -31291,8 +32105,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -31459,6 +32281,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -31473,6 +32299,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -31723,6 +32553,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -31959,8 +32793,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -32005,6 +32847,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -32134,6 +32980,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -32209,6 +33056,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -32298,10 +33148,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -32559,6 +33414,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -33003,8 +33862,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -33171,6 +34038,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -33185,6 +34056,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -33435,6 +34310,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -33671,8 +34550,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -33717,6 +34604,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -33846,6 +34737,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -33921,6 +34813,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -34010,10 +34905,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>
@@ -34271,6 +35171,10 @@
             <label>Billing Schedule</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqh7</field>
+            <label>Delinian Composite Key</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6v1F</field>
             <label>Other Billing Frequency</label>
         </forecastingObjectListLabelMappings>
@@ -34715,8 +35619,16 @@
             <label>AffectLayer</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv2</field>
+            <label>Primary Brand Group</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VVLSI</field>
             <label>Next Outreach Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003Hkv3</field>
+            <label>Primary Brand</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000OG4d1</field>
@@ -34883,6 +35795,10 @@
             <label>Sales Cycle</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JiYM</field>
+            <label>Agency</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VZyps</field>
             <label>Evergreen % Increase</label>
         </forecastingObjectListLabelMappings>
@@ -34897,6 +35813,10 @@
         <forecastingObjectListLabelMappings>
             <field>00N5G00000Wiwv0</field>
             <label>SAO Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003JrlF</field>
+            <label>PO Number</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000VNbqZ</field>
@@ -35147,6 +36067,10 @@
             <label>ARR Changed</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Jqlx</field>
+            <label>Delinian Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00N5G00000VQ18X</field>
             <label>SAO Owner</label>
         </forecastingObjectListLabelMappings>
@@ -35383,8 +36307,16 @@
             <label>Same Store Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003JqsP</field>
+            <label>Delinian Name</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HkmU</field>
+            <label>Primary Business Unit</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00Nf400000TgLHz</field>
@@ -35429,6 +36361,10 @@
         <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NVy000003HknT</field>
+            <label>Previous Opportunity</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>00N5G00000VZgvh</field>
@@ -35558,6 +36494,7 @@
             <field>00N5G00000VZWix</field>
             <field>00Nf400000V6v0Y</field>
             <field>00N5G00000WiqVs</field>
+            <field>00NVy000003JiYM</field>
             <field>00Nf400000V1gZk</field>
             <field>00Nf400000V6v0Z</field>
             <field>00N5G00000VPrSl</field>
@@ -35633,6 +36570,9 @@
             <field>00N5G00000WeE8e</field>
             <field>00N5G00000VZgvm</field>
             <field>00N5G00000VQ0Ga</field>
+            <field>00NVy000003Jqh7</field>
+            <field>00NVy000003Jqlx</field>
+            <field>00NVy000003JqsP</field>
             <field>00Nf400000V1kUQ</field>
             <field>00Nf400000V6v0u</field>
             <field>00Nf400000V6v0t</field>
@@ -35722,10 +36662,15 @@
             <field>00Nf400000V6v1H</field>
             <field>00N5G00000VyPbI</field>
             <field>00N5G00000VyPqX</field>
+            <field>00NVy000003JrlF</field>
             <field>00Nf400000V6v0W</field>
+            <field>00NVy000003HknT</field>
             <field>00N5G00000Wic22</field>
             <field>00Nf400000OXIhl</field>
             <field>00N5G00000WeE8W</field>
+            <field>00NVy000003Hkv3</field>
+            <field>00NVy000003Hkv2</field>
+            <field>00NVy000003HkmU</field>
             <field>00Nf400000V6v1J</field>
             <field>00NVy000001BXsx</field>
             <field>00Nf400000Nvv1g</field>

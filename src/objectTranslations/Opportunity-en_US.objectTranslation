@@ -73,6 +73,11 @@
         <name>Advisory_Only_Notes__c</name>
     </fields>
     <fields>
+        <label><!-- Agency --></label>
+        <name>Agency__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Annual Recurring Revenue --></label>
         <name>Annual_Recurring_Revenue__c</name>
     </fields>
@@ -750,6 +755,18 @@
         <label><!-- Default Contact --></label>
         <name>Default_Contact__c</name>
         <relationshipLabel><!-- Opportunities (Default Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delinian Composite Key --></label>
+        <name>Delinian_Composite_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delinian Id --></label>
+        <name>Delinian_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delinian Name --></label>
+        <name>Delinian_Name__c</name>
     </fields>
     <fields>
         <label><!-- Department Id --></label>
@@ -2482,6 +2499,10 @@
         <name>Owner_for_Query__c</name>
     </fields>
     <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
         <label><!-- Percent Complete --></label>
         <name>Percent_Complete__c</name>
         <picklistValues>
@@ -2518,6 +2539,12 @@
         <name>Pipeline_Category__c</name>
     </fields>
     <fields>
+        <help><!-- Link to the prior Opportunity. This will enable Sales Ops to copy over the subscribers to the renewal opportunity. --></help>
+        <label><!-- Previous Opportunity --></label>
+        <name>Previous_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunities (Previous Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Previous Score --></label>
         <name>Previous_Score__c</name>
         <picklistValues>
@@ -2552,6 +2579,21 @@
     <fields>
         <label><!-- Previous Stage --></label>
         <name>Previous_Stage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the primary brand group that relates to this Opportunity --></help>
+        <label><!-- Primary Brand Group --></label>
+        <name>Primary_Brand_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the primary brand for this Opportunity --></help>
+        <label><!-- Primary Brand --></label>
+        <name>Primary_Brand__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the primary business area for this Opportunity --></help>
+        <label><!-- Primary Business Unit --></label>
+        <name>Primary_Business_Unit__c</name>
     </fields>
     <fields>
         <label><!-- Prior Opportunity --></label>
