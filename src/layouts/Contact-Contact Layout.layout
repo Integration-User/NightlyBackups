@@ -629,12 +629,12 @@
         <excludeButtons>MassChangeOwner</excludeButtons>
         <excludeButtons>New</excludeButtons>
         <fields>NAME</fields>
-        <fields>Subscription_NG__c</fields>
+        <fields>Products__c</fields>
         <fields>Subscriber_Start_Date__c</fields>
         <fields>Subscriber_End_Date__c</fields>
-        <fields>Products__c</fields>
+        <fields>Zephr_Integration_Status__c</fields>
+        <fields>Subscriber_Status__c</fields>
         <fields>Type__c</fields>
-        <fields>Status__c</fields>
         <relatedList>Subscription_User__c.Contact__c</relatedList>
         <sortField>Subscriber_Start_Date__c</sortField>
         <sortOrder>Desc</sortOrder>

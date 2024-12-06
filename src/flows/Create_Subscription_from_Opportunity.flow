@@ -104,7 +104,7 @@
             <assignToReference>newAccountGrant.Start_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -162,7 +162,7 @@
             <assignToReference>newAccountGrant.Start_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -220,7 +220,7 @@
             <assignToReference>newAccountGrant.Start_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -228,13 +228,6 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>Loop_Products.End_Date__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>newAccountGrant.Order_Product__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Products.Id</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -271,7 +264,7 @@
             <assignToReference>newSubscriptionItem.Start_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -403,7 +396,7 @@
             <assignToReference>newSubscriptionItem.Start_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -574,13 +567,6 @@
         <label>Set Subscription Parameters</label>
         <locationX>138</locationX>
         <locationY>1430</locationY>
-        <assignmentItems>
-            <assignToReference>Get_Previous_Subscription.Order__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Opportunity_Details.Id</elementReference>
-            </value>
-        </assignmentItems>
         <assignmentItems>
             <assignToReference>Get_Previous_Subscription.Opportunity__c</assignToReference>
             <operator>Assign</operator>

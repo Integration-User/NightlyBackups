@@ -4171,6 +4171,7 @@
     <tabs>DOZISF__ZoomInfo</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>asknicely__NPS__c</tabs>
+    <tabs>Subscription__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Green_Street_Advisors_UtilityBar</utilityBar>
 </CustomApplication>
