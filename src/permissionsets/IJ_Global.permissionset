@@ -2,6 +2,11 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Full access for IJ Global</description>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Available_for_Trial__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Previous_Opportunity__c</field>
         <readable>true</readable>
@@ -14,6 +19,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Is_Zephr_Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Licenses__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

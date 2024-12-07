@@ -458,7 +458,7 @@
             <targetReference>Get_Subscription_Product</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>postError</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

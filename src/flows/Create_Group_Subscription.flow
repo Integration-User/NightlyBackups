@@ -317,7 +317,7 @@ V17 - Added SRP support</description>
             <targetReference>Prepare_Subscription</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>listContacts</name>
         <dataType>SObject</dataType>

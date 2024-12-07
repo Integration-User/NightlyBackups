@@ -259,7 +259,7 @@ Updated to set the End Date and Status rather than deleting the Subscription Use
             <targetReference>Get_Subscription_User</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>postErrorText</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

@@ -266,7 +266,7 @@ Added SRP support</description>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>updateSubscriptionUsers</name>
         <dataType>SObject</dataType>

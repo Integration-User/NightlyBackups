@@ -358,6 +358,6 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <triggerOrder>10</triggerOrder>
 </Flow>

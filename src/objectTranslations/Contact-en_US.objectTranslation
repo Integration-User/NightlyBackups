@@ -56,6 +56,10 @@
         <name>Attended_Training_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Available for Trial --></label>
+        <name>Available_for_Trial__c</name>
+    </fields>
+    <fields>
         <label><!-- Billing Contact --></label>
         <name>Billing_Contact_Multi__c</name>
         <picklistValues>

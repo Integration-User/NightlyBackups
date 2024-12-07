@@ -523,7 +523,7 @@ Extends a Subscription Product linked to a Subscription</description>
             <targetReference>Get_Subscription_Product</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>postErrorText</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

@@ -464,6 +464,20 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>Available_for_Trial__c</fullName>
+        <formula>AND(
+NOT(ISBLANK(FirstName)),
+NOT(ISBLANK(LastName)),
+NOT(ISBLANK(Email)),
+NOT(ISBLANK(AccountId))
+
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Available for Trial</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Billing_Contact_Multi__c</fullName>
         <label>Billing Contact</label>
         <required>false</required>

@@ -1558,7 +1558,7 @@ When processing Order 2, this query will return Subscription X, because Subscrip
             <targetReference>Get_Opportunity_Details</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>errorMessage</name>
         <dataType>String</dataType>

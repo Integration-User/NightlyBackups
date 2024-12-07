@@ -268,7 +268,7 @@
             <targetReference>Load_Zephr_Account</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>finalMessage</name>
         <dataType>String</dataType>

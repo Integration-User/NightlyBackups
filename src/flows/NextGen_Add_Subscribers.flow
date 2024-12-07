@@ -631,7 +631,7 @@ V6 - Added the setting of the Start Date, End Date and Status</description>
             <targetReference>Get_Subscription</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>listAccountContacts_Input</name>
         <dataType>SObject</dataType>

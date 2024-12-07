@@ -390,6 +390,18 @@ TEXT(YEAR(Start_Date__c))</formula>
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Licenses__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the total number of Licenses</inlineHelpText>
+        <label>Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
     </fields>
     <fields>

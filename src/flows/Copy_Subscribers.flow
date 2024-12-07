@@ -742,7 +742,7 @@ Changed the screen that prevented the flow from running on a renewal opportuinit
             <targetReference>Get_Subscription</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>tplChatterError</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

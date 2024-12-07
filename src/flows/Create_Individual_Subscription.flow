@@ -733,7 +733,7 @@ Creates an Individual Subscription</description>
             <targetReference>Object_Type</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>varAlertTimezone</name>
         <dataType>String</dataType>

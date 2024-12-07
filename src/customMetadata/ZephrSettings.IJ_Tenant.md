@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>AccessKey__c</field>
-        <value xsi:type="xsd:string">DISABLEDeeed205d-c9fa-4f25-92d8-a0ebda0e30cb</value>
+        <value xsi:type="xsd:string">eeed205d-c9fa-4f25-92d8-a0ebda0e30cb</value>
     </values>
     <values>
         <field>ApiFieldName_ZephrAccountId__c</field>
@@ -48,7 +48,7 @@
     </values>
     <values>
         <field>SecretKey__c</field>
-        <value xsi:type="xsd:string">DISABLED722afc52-b722-4d51-b0f9-06ae50a9b6f0</value>
+        <value xsi:type="xsd:string">722afc52-b722-4d51-b0f9-06ae50a9b6f0</value>
     </values>
     <values>
         <field>TrialObjectFieldMapping__c</field>
@@ -72,6 +72,6 @@
     </values>
     <values>
         <field>ZephrTenant__c</field>
-        <value xsi:type="xsd:string">ij-disabled</value>
+        <value xsi:type="xsd:string">ij</value>
     </values>
 </CustomMetadata>

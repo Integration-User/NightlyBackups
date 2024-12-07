@@ -4,7 +4,7 @@
     <assignments>
         <name>Add_to_Display_Marketing_Product</name>
         <label>Add to Display Marketing Product</label>
-        <locationX>798</locationX>
+        <locationX>930</locationX>
         <locationY>674</locationY>
         <assignmentItems>
             <assignToReference>DisplayProduct</assignToReference>
@@ -20,7 +20,7 @@
     <assignments>
         <name>Add_to_Display_Product_Var</name>
         <label>Add to Display Product Var</label>
-        <locationX>1238</locationX>
+        <locationX>1370</locationX>
         <locationY>566</locationY>
         <assignmentItems>
             <assignToReference>DisplayProduct</assignToReference>
@@ -36,7 +36,7 @@
     <assignments>
         <name>Add_To_List</name>
         <label>Add To List</label>
-        <locationX>974</locationX>
+        <locationX>1106</locationX>
         <locationY>1466</locationY>
         <assignmentItems>
             <assignToReference>CountryNameList</assignToReference>
@@ -52,7 +52,7 @@
     <assignments>
         <name>Set_Selected_Product_Non_Opp</name>
         <label>Set Selected Product Non Opp</label>
-        <locationX>886</locationX>
+        <locationX>1018</locationX>
         <locationY>1766</locationY>
         <assignmentItems>
             <assignToReference>selectedProduct</assignToReference>
@@ -75,7 +75,7 @@
     <assignments>
         <name>Set_Selected_Trial_Opportunity</name>
         <label>Set Selected Trial Opportunity</label>
-        <locationX>534</locationX>
+        <locationX>666</locationX>
         <locationY>1358</locationY>
         <assignmentItems>
             <assignToReference>selectedProduct</assignToReference>
@@ -103,9 +103,34 @@
         </connector>
     </assignments>
     <decisions>
+        <name>Found_Contact</name>
+        <label>Found Contact?</label>
+        <locationX>446</locationX>
+        <locationY>2174</locationY>
+        <defaultConnector>
+            <targetReference>Error_Message_Screen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_contact_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Contact_Trial</targetReference>
+            </connector>
+            <label>Yes - contact found</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Free_Trial_Object_Type</name>
         <label>Free Trial Object Type</label>
-        <locationX>710</locationX>
+        <locationX>842</locationX>
         <locationY>1034</locationY>
         <defaultConnector>
             <targetReference>Configure_Your_Trial</targetReference>
@@ -130,7 +155,7 @@
     <decisions>
         <name>Is_Marketing_User</name>
         <label>Is Marketing User</label>
-        <locationX>930</locationX>
+        <locationX>1062</locationX>
         <locationY>566</locationY>
         <defaultConnector>
             <targetReference>Loop_through_Trial_products</targetReference>
@@ -155,7 +180,7 @@
     <decisions>
         <name>Marketing_Product</name>
         <label>Marketing Product?</label>
-        <locationX>1084</locationX>
+        <locationX>1216</locationX>
         <locationY>458</locationY>
         <defaultConnector>
             <targetReference>Add_to_Display_Product_Var</targetReference>
@@ -180,7 +205,7 @@
     <decisions>
         <name>Source_Record_Type</name>
         <label>Source Record Type</label>
-        <locationX>710</locationX>
+        <locationX>842</locationX>
         <locationY>1958</locationY>
         <defaultConnectorLabel>Unsupported Object Type</defaultConnectorLabel>
         <rules>
@@ -256,7 +281,7 @@
     <decisions>
         <name>Supported_Object_Type</name>
         <label>Supported Object Type?</label>
-        <locationX>1172</locationX>
+        <locationX>1370</locationX>
         <locationY>134</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
@@ -318,7 +343,7 @@ Pulling the Account value from Opportunity.Customer
     <loops>
         <name>Loop_Countries</name>
         <label>Loop Countries</label>
-        <locationX>886</locationX>
+        <locationX>1018</locationX>
         <locationY>1358</locationY>
         <collectionReference>Get_Country_Map</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -332,7 +357,7 @@ Pulling the Account value from Opportunity.Customer
     <loops>
         <name>Loop_through_Trial_products</name>
         <label>Loop through Trial products</label>
-        <locationX>710</locationX>
+        <locationX>842</locationX>
         <locationY>350</locationY>
         <collectionReference>Get_Trial_Products</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -365,11 +390,11 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Contact</name>
         <label>Get Contact</label>
-        <locationX>314</locationX>
+        <locationX>446</locationX>
         <locationY>2066</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Create_Contact_Trial</targetReference>
+            <targetReference>Found_Contact</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -379,6 +404,13 @@ Pulling the Account value from Opportunity.Customer
                 <elementReference>recordId</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>Available_for_Trial__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Contact</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -386,7 +418,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Country_Map</name>
         <label>Get Country Map</label>
-        <locationX>886</locationX>
+        <locationX>1018</locationX>
         <locationY>1250</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -422,7 +454,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Opp_Product</name>
         <label>Get Product</label>
-        <locationX>534</locationX>
+        <locationX>666</locationX>
         <locationY>1250</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -443,7 +475,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Opportunity</name>
         <label>Get Opportunity</label>
-        <locationX>578</locationX>
+        <locationX>842</locationX>
         <locationY>2066</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -464,7 +496,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Product</name>
         <label>Get Product</label>
-        <locationX>886</locationX>
+        <locationX>1018</locationX>
         <locationY>1658</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -485,7 +517,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Trial_Products</name>
         <label>Get Trial Products</label>
-        <locationX>710</locationX>
+        <locationX>842</locationX>
         <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -529,7 +561,7 @@ Pulling the Account value from Opportunity.Customer
     <screens>
         <name>Configure_Opportunity_Trial</name>
         <label>Configure Opportunity Trial</label>
-        <locationX>534</locationX>
+        <locationX>666</locationX>
         <locationY>1142</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -564,7 +596,7 @@ Pulling the Account value from Opportunity.Customer
     <screens>
         <name>Configure_Your_Trial</name>
         <label>Configure Your Trial</label>
-        <locationX>886</locationX>
+        <locationX>1018</locationX>
         <locationY>1142</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -584,19 +616,35 @@ Pulling the Account value from Opportunity.Customer
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
+    <screens>
+        <name>Error_Message_Screen</name>
+        <label>Error Message Screen</label>
+        <locationX>578</locationX>
+        <locationY>2282</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>ErrorMessage</name>
+            <fieldText>&lt;p&gt;First Name, Last Name, Email and Account  are mandatory for trial creation. Please make sure none of these are blank.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
     <start>
-        <locationX>1046</locationX>
+        <locationX>1244</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Supported_Object_Type</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <subflows>
         <name>Create_Contact_Trial</name>
         <label>Create Contact Trial</label>
         <locationX>314</locationX>
-        <locationY>2174</locationY>
+        <locationY>2282</locationY>
         <flowName>Create_Individual_Subscription</flowName>
         <inputAssignments>
             <name>varEndDate</name>
@@ -638,7 +686,7 @@ Pulling the Account value from Opportunity.Customer
     <subflows>
         <name>Create_Group_Trial</name>
         <label>Create Group Trial</label>
-        <locationX>578</locationX>
+        <locationX>842</locationX>
         <locationY>2174</locationY>
         <flowName>Create_Group_Subscription</flowName>
         <inputAssignments>

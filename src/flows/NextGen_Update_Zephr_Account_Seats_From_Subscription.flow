@@ -76,6 +76,6 @@
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <triggerOrder>100</triggerOrder>
 </Flow>

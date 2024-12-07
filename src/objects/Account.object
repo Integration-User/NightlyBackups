@@ -8199,11 +8199,19 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A IJ Investor</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>IJGlobal%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal%3A News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11369,11 +11377,19 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A IJ Investor</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>IJGlobal%3A News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal%3A News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
             <values>

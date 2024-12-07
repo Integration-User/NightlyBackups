@@ -86,7 +86,7 @@
             <targetReference>Create_Subscription_Elements</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <subflows>
         <name>Create_Subscription_Elements</name>
         <label>Create Subscription Elements</label>
