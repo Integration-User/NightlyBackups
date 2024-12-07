@@ -19008,6 +19008,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Available_for_Trial__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Billing_Contact_Multi__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -27829,6 +27834,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Is_Zephr_Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.Licenses__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -1026,7 +1026,7 @@
         <inputAssignments>
             <field>Start_Date__c</field>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1079,7 +1079,7 @@
         <inputAssignments>
             <field>Start_Date__c</field>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
