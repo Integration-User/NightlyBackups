@@ -634,17 +634,6 @@
         <relatedList>Opportunity.New_Sales_Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <excludeButtons>MassChangeOwner</excludeButtons>
-        <excludeButtons>New</excludeButtons>
-        <fields>NAME</fields>
-        <fields>Products__c</fields>
-        <fields>Number_of_Seats__c</fields>
-        <fields>Seats_Allocated__c</fields>
-        <fields>Seats_Remaining__c</fields>
-        <fields>Status__c</fields>
-        <relatedList>Subscription__c.Opportunity__c</relatedList>
-    </relatedLists>
-    <relatedLists>
         <excludeButtons>AddDefaultTeam</excludeButtons>
         <fields>MemberName</fields>
         <fields>TeamMemberRole</fields>
@@ -717,6 +706,17 @@
         <fields>OPPORTUNITY.AMOUNT</fields>
         <fields>Total_ARR__c</fields>
         <relatedList>Opportunity.Sales_Opportunity__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>Products__c</fields>
+        <fields>Number_of_Seats__c</fields>
+        <fields>Seats_Allocated__c</fields>
+        <fields>Seats_Remaining__c</fields>
+        <fields>Status__c</fields>
+        <relatedList>Subscription__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
