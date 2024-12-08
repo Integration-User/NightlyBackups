@@ -14458,6 +14458,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>zephr_ProcessUserGrantQueueable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_ProcessUserGrantQueueableTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>zephr_QProvisionSubscriptionGrants</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -14495,6 +14503,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>zephr_WebhookAPITest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_WebhookServer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>zephr_WebhookServerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
