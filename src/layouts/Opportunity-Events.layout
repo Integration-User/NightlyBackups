@@ -351,15 +351,15 @@
     </relatedLists>
     <relatedLists>
         <fields>Product2</fields>
+        <fields>Licenses__c</fields>
         <fields>Starting_Price__c</fields>
         <fields>UnitPrice</fields>
         <fields>Upsell_Cross_sell__c</fields>
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
         <fields>ARR_Formula__c</fields>
-        <fields>Increase_dollar__c</fields>
+        <fields>Increase_Percent__c</fields>
         <fields>Sales_Type__c</fields>
-        <fields>Lost_Product__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>

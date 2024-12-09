@@ -102,7 +102,10 @@
                 <elementReference>recordId</elementReference>
             </value>
         </inputAssignments>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <outputAssignments>
+            <assignToReference>errorMessage</assignToReference>
+            <name>errorMessage</name>
+        </outputAssignments>
     </subflows>
     <variables>
         <name>errorMessage</name>

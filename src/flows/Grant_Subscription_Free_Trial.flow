@@ -4,7 +4,7 @@
     <assignments>
         <name>Add_to_Display_Marketing_Product</name>
         <label>Add to Display Marketing Product</label>
-        <locationX>930</locationX>
+        <locationX>1194</locationX>
         <locationY>674</locationY>
         <assignmentItems>
             <assignToReference>DisplayProduct</assignToReference>
@@ -20,7 +20,7 @@
     <assignments>
         <name>Add_to_Display_Product_Var</name>
         <label>Add to Display Product Var</label>
-        <locationX>1370</locationX>
+        <locationX>1634</locationX>
         <locationY>566</locationY>
         <assignmentItems>
             <assignToReference>DisplayProduct</assignToReference>
@@ -36,7 +36,7 @@
     <assignments>
         <name>Add_To_List</name>
         <label>Add To List</label>
-        <locationX>1106</locationX>
+        <locationX>1370</locationX>
         <locationY>1466</locationY>
         <assignmentItems>
             <assignToReference>CountryNameList</assignToReference>
@@ -50,9 +50,41 @@
         </connector>
     </assignments>
     <assignments>
+        <name>Missing_Data_Assignment</name>
+        <label>Missing Data Assignment</label>
+        <locationX>842</locationX>
+        <locationY>2282</locationY>
+        <assignmentItems>
+            <assignToReference>varError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>First Name, Last Name, Email and Account are mandatory for trial creation. Please make sure none of these are blank.</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Error_Message_Screen</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>No_Permission_Assignment</name>
+        <label>No Permission Assignment</label>
+        <locationX>50</locationX>
+        <locationY>242</locationY>
+        <assignmentItems>
+            <assignToReference>varError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>You don&apos;t have permission to create trial subscriptions.</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Error_Message_Screen</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Set_Selected_Product_Non_Opp</name>
         <label>Set Selected Product Non Opp</label>
-        <locationX>1018</locationX>
+        <locationX>1282</locationX>
         <locationY>1766</locationY>
         <assignmentItems>
             <assignToReference>selectedProduct</assignToReference>
@@ -75,7 +107,7 @@
     <assignments>
         <name>Set_Selected_Trial_Opportunity</name>
         <label>Set Selected Trial Opportunity</label>
-        <locationX>666</locationX>
+        <locationX>930</locationX>
         <locationY>1358</locationY>
         <assignmentItems>
             <assignToReference>selectedProduct</assignToReference>
@@ -105,10 +137,10 @@
     <decisions>
         <name>Found_Contact</name>
         <label>Found Contact?</label>
-        <locationX>446</locationX>
+        <locationX>710</locationX>
         <locationY>2174</locationY>
         <defaultConnector>
-            <targetReference>Error_Message_Screen</targetReference>
+            <targetReference>Missing_Data_Assignment</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -130,7 +162,7 @@
     <decisions>
         <name>Free_Trial_Object_Type</name>
         <label>Free Trial Object Type</label>
-        <locationX>842</locationX>
+        <locationX>1106</locationX>
         <locationY>1034</locationY>
         <defaultConnector>
             <targetReference>Configure_Your_Trial</targetReference>
@@ -140,7 +172,7 @@
             <name>Opportunity_Trial_Yes</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
+                <leftValueReference>ValidationResult</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Opportunity</stringValue>
@@ -155,7 +187,7 @@
     <decisions>
         <name>Is_Marketing_User</name>
         <label>Is Marketing User</label>
-        <locationX>1062</locationX>
+        <locationX>1326</locationX>
         <locationY>566</locationY>
         <defaultConnector>
             <targetReference>Loop_through_Trial_products</targetReference>
@@ -180,7 +212,7 @@
     <decisions>
         <name>Marketing_Product</name>
         <label>Marketing Product?</label>
-        <locationX>1216</locationX>
+        <locationX>1480</locationX>
         <locationY>458</locationY>
         <defaultConnector>
             <targetReference>Add_to_Display_Product_Var</targetReference>
@@ -203,16 +235,50 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Process_Request</name>
+        <label>Process Request</label>
+        <locationX>1106</locationX>
+        <locationY>134</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>No_permission</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ValidationResult</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Permission</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>No_Permission_Assignment</targetReference>
+            </connector>
+            <label>No permission</label>
+        </rules>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ValidationResult</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Get_Trial_Products</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Source_Record_Type</name>
         <label>Source Record Type</label>
-        <locationX>842</locationX>
+        <locationX>1106</locationX>
         <locationY>1958</locationY>
         <defaultConnectorLabel>Unsupported Object Type</defaultConnectorLabel>
         <rules>
             <name>sObjectTypeLead</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
+                <leftValueReference>ValidationResult</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Lead</stringValue>
@@ -227,7 +293,7 @@
             <name>sObjectTypeContact</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
+                <leftValueReference>ValidationResult</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Contact</stringValue>
@@ -242,7 +308,7 @@
             <name>sObjectTypeOpportunity</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
+                <leftValueReference>ValidationResult</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Opportunity</stringValue>
@@ -257,7 +323,7 @@
             <name>sObjectTypeOpportunityContactRole</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
+                <leftValueReference>ValidationResult</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>OpportunityContactRole</stringValue>
@@ -269,32 +335,13 @@
             <name>sObjectTypeAccount</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
+                <leftValueReference>ValidationResult</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Account</stringValue>
                 </rightValue>
             </conditions>
             <label>Account</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Supported_Object_Type</name>
-        <label>Supported Object Type?</label>
-        <locationX>1370</locationX>
-        <locationY>134</locationY>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
-        <rules>
-            <name>Yes</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>recordTypeFromId</leftValueReference>
-                <operator>NotEqualTo</operator>
-            </conditions>
-            <connector>
-                <targetReference>Get_Trial_Products</targetReference>
-            </connector>
-            <label>Yes</label>
         </rules>
     </decisions>
     <description>Remove Trade Sanction Checks
@@ -328,22 +375,26 @@ Pulling the Account value from Opportunity.Customer
         <expression>TODAY()+{!freeTrialDuration}</expression>
     </formulas>
     <formulas>
-        <description>Determines the type of record from the record ID. Returns the API name, not the label for the object.</description>
-        <name>recordTypeFromId</name>
-        <dataType>String</dataType>
-        <expression>CASE(LEFT({!recordId},3),&apos;001&apos;,&apos;Account&apos;,&apos;003&apos;,&apos;Contact&apos;,&apos;006&apos;,&apos;Opportunity&apos;,&apos;00K&apos;,&apos;OpportunityContactRole&apos;,&apos;00Q&apos;,&apos;Lead&apos;,&apos;&apos;)</expression>
-    </formulas>
-    <formulas>
         <name>StartDate</name>
         <dataType>Date</dataType>
         <expression>TODAY()</expression>
+    </formulas>
+    <formulas>
+        <description>Determines the type of record from the record ID. Returns the API name, not the label for the object.</description>
+        <name>ValidationResult</name>
+        <dataType>String</dataType>
+        <expression>IF( {!$Permission.IJ_Entitlements},
+CASE(LEFT({!recordId},3),&apos;001&apos;,&apos;Account&apos;,&apos;003&apos;,&apos;Contact&apos;,&apos;006&apos;,&apos;Opportunity&apos;,&apos;00K&apos;,&apos;OpportunityContactRole&apos;,&apos;00Q&apos;,&apos;Lead&apos;,&apos;&apos;),
+&apos;No permission&apos;
+
+)</expression>
     </formulas>
     <interviewLabel>Grant Subscription Free Trial {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Grant Subscription Free Trial</label>
     <loops>
         <name>Loop_Countries</name>
         <label>Loop Countries</label>
-        <locationX>1018</locationX>
+        <locationX>1282</locationX>
         <locationY>1358</locationY>
         <collectionReference>Get_Country_Map</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -357,7 +408,7 @@ Pulling the Account value from Opportunity.Customer
     <loops>
         <name>Loop_through_Trial_products</name>
         <label>Loop through Trial products</label>
-        <locationX>842</locationX>
+        <locationX>1106</locationX>
         <locationY>350</locationY>
         <collectionReference>Get_Trial_Products</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -390,7 +441,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Contact</name>
         <label>Get Contact</label>
-        <locationX>446</locationX>
+        <locationX>710</locationX>
         <locationY>2066</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -418,7 +469,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Country_Map</name>
         <label>Get Country Map</label>
-        <locationX>1018</locationX>
+        <locationX>1282</locationX>
         <locationY>1250</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -433,7 +484,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Lead</name>
         <label>Get Lead</label>
-        <locationX>50</locationX>
+        <locationX>314</locationX>
         <locationY>2066</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -454,7 +505,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Opp_Product</name>
         <label>Get Product</label>
-        <locationX>666</locationX>
+        <locationX>930</locationX>
         <locationY>1250</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -475,7 +526,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Opportunity</name>
         <label>Get Opportunity</label>
-        <locationX>842</locationX>
+        <locationX>1106</locationX>
         <locationY>2066</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -496,7 +547,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Product</name>
         <label>Get Product</label>
-        <locationX>1018</locationX>
+        <locationX>1282</locationX>
         <locationY>1658</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -517,7 +568,7 @@ Pulling the Account value from Opportunity.Customer
     <recordLookups>
         <name>Get_Trial_Products</name>
         <label>Get Trial Products</label>
-        <locationX>842</locationX>
+        <locationX>1106</locationX>
         <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -561,7 +612,7 @@ Pulling the Account value from Opportunity.Customer
     <screens>
         <name>Configure_Opportunity_Trial</name>
         <label>Configure Opportunity Trial</label>
-        <locationX>666</locationX>
+        <locationX>930</locationX>
         <locationY>1142</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -596,7 +647,7 @@ Pulling the Account value from Opportunity.Customer
     <screens>
         <name>Configure_Your_Trial</name>
         <label>Configure Your Trial</label>
-        <locationX>1018</locationX>
+        <locationX>1282</locationX>
         <locationY>1142</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -619,31 +670,31 @@ Pulling the Account value from Opportunity.Customer
     <screens>
         <name>Error_Message_Screen</name>
         <label>Error Message Screen</label>
-        <locationX>578</locationX>
-        <locationY>2282</locationY>
+        <locationX>1106</locationX>
+        <locationY>2750</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <fields>
             <name>ErrorMessage</name>
-            <fieldText>&lt;p&gt;First Name, Last Name, Email and Account  are mandatory for trial creation. Please make sure none of these are blank.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(224, 11, 18);&quot;&gt;{!varError}&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>false</showHeader>
     </screens>
     <start>
-        <locationX>1244</locationX>
+        <locationX>980</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Supported_Object_Type</targetReference>
+            <targetReference>Process_Request</targetReference>
         </connector>
     </start>
     <status>Active</status>
     <subflows>
         <name>Create_Contact_Trial</name>
         <label>Create Contact Trial</label>
-        <locationX>314</locationX>
+        <locationX>578</locationX>
         <locationY>2282</locationY>
         <flowName>Create_Individual_Subscription</flowName>
         <inputAssignments>
@@ -686,7 +737,7 @@ Pulling the Account value from Opportunity.Customer
     <subflows>
         <name>Create_Group_Trial</name>
         <label>Create Group Trial</label>
-        <locationX>842</locationX>
+        <locationX>1106</locationX>
         <locationY>2174</locationY>
         <flowName>Create_Group_Subscription</flowName>
         <inputAssignments>
@@ -741,7 +792,7 @@ Pulling the Account value from Opportunity.Customer
     <subflows>
         <name>Create_Lead_Trial</name>
         <label>Create Lead Trial</label>
-        <locationX>50</locationX>
+        <locationX>314</locationX>
         <locationY>2174</locationY>
         <flowName>Create_Individual_Subscription</flowName>
         <inputAssignments>
@@ -859,5 +910,12 @@ Pulling the Account value from Opportunity.Customer
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>Product2</objectType>
+    </variables>
+    <variables>
+        <name>varError</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
     </variables>
 </Flow>

@@ -69,8 +69,8 @@
                 <field>Starting_Price__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Quantity</field>
+                <behavior>Edit</behavior>
+                <field>Licenses__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -205,9 +205,9 @@
     </miniLayout>
     <multilineLayoutFields>Product2Id</multilineLayoutFields>
     <multilineLayoutFields>Starting_Price__c</multilineLayoutFields>
-    <multilineLayoutFields>Quantity</multilineLayoutFields>
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>
     <multilineLayoutFields>Upsell_Cross_sell__c</multilineLayoutFields>
+    <multilineLayoutFields>Licenses__c</multilineLayoutFields>
     <multilineLayoutFields>Start_Date__c</multilineLayoutFields>
     <multilineLayoutFields>End_Date__c</multilineLayoutFields>
     <multilineLayoutFields>Lost_Product__c</multilineLayoutFields>
