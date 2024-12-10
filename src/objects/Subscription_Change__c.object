@@ -287,9 +287,8 @@
     </fields>
     <label>Subscription Change</label>
     <nameField>
-        <displayFormat>SUBCHG-{000000000}</displayFormat>
         <label>CODE</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Subscription Changes</pluralLabel>
     <searchLayouts/>

@@ -8180,7 +8180,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <filters>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
             <operation>notContain</operation>
-            <value>React,Green Street News: Europe,Green Street News</value>
+            <value>Green Street News,Green Street News: Europe,IJGlobal,React</value>
         </filters>
         <label>All Open Inbound SDO’s</label>
         <sharedTo>
@@ -45169,6 +45169,17 @@ ISPICKVAL( Close_Reason__c, &quot;Product Fit&quot;)
 )
 )</errorConditionFormula>
         <errorMessage>Please provide Closed Opportunity Notes.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_IJGlobal_Related_Events</fullName>
+        <active>true</active>
+        <description>Require IJ Global Events - Related Event at Opportunity Creation.</description>
+        <errorConditionFormula>AND(
+ISNEW(),
+RecordType.DeveloperName = &apos;Events&apos;,
+IJ_Global_Events_Related_Event__c = NULL
+)</errorConditionFormula>
+        <errorMessage>Please provide the IJGlobal Related Event field upon creation.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Require_Lead_Type</fullName>

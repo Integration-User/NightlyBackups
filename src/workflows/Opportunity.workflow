@@ -160,6 +160,10 @@
         <description>New Subscription Client - Onboarding Request</description>
         <protected>false</protected>
         <recipients>
+            <recipient>adillard@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>carora@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -184,19 +188,11 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>kbenning@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>mfernandez@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
             <recipient>mkerbs@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>msheahan@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>

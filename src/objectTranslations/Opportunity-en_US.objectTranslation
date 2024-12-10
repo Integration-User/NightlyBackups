@@ -3663,6 +3663,10 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Require_Close_Reason_Notes</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Please provide the IJGlobal Related Event field upon creation. --></errorMessage>
+        <name>Require_IJGlobal_Related_Events</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Lead Type cannot be blank. --></errorMessage>
         <name>Require_Lead_Type</name>
     </validationRules>
