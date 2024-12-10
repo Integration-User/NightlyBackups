@@ -42,7 +42,7 @@
         <connector>
             <targetReference>Update_Event_Cost_Centre</targetReference>
         </connector>
-        <filterFormula>{!$Record.RecordType.DeveloperName} = &apos;Events&apos;</filterFormula>
+        <filterFormula>{!$Record.RecordType.DeveloperName} = &apos;Events&apos; &amp;&amp; {!$Record.IJ_Global_Events_Related_Event__c} != NULL</filterFormula>
         <object>Opportunity</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
