@@ -717,6 +717,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>BFG_Opportunity_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>BFG Opportunity Id</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Base_Sale_Price__c</fullName>
         <description>Total price for all bundled products before discounts</description>
         <label>Base Sale Price</label>
@@ -48307,6 +48318,7 @@ OR(
         <description>Ask Price is required to save at ss4 or higher.</description>
         <errorConditionFormula>AND(
 $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+ISCHANGED(StageName),
 OR(
 RecordType.Name = &quot;Sales Opportunity&quot;,
 RecordType.Name = &quot;Renewal&quot;),

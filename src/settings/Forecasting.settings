@@ -367,6 +367,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -1568,6 +1572,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -2130,6 +2135,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -3331,6 +3340,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -3893,6 +3903,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -5094,6 +5108,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -5656,6 +5671,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -6857,6 +6876,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -7411,6 +7431,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -8610,6 +8634,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -9163,6 +9188,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -10362,6 +10391,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -10919,6 +10949,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -12119,6 +12153,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -12670,6 +12705,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
@@ -13871,6 +13910,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -14428,6 +14468,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -15628,6 +15672,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -16179,6 +16224,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
@@ -17380,6 +17429,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -17937,6 +17987,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -19137,6 +19191,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -19688,6 +19743,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
@@ -20889,6 +20948,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -21446,6 +21506,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -22646,6 +22710,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -23197,6 +23262,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
@@ -24398,6 +24467,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -24955,6 +25025,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -26155,6 +26229,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -26706,6 +26781,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000Ui4Wn</field>
             <label>Base Sale Price</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
@@ -27907,6 +27986,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -28468,6 +28548,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -29669,6 +29753,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -30231,6 +30316,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -31432,6 +31521,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -31994,6 +32084,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -33195,6 +33289,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -33757,6 +33852,10 @@
             <label>Base Sale Price</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWE000001IAMw</field>
+            <label>BFG Opportunity Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00Nf400000V6v0b</field>
             <label>Billing Cadence for Invoice</label>
         </opportunityListFieldsLabelMappings>
@@ -34958,6 +35057,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NWE000001IAMw</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>

@@ -16874,6 +16874,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>AccountContactRelation.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>AccountContactRelation.Email_Address__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -26245,6 +26250,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.BDR_Referred_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.BFG_Opportunity_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
