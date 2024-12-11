@@ -729,6 +729,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>BFG_Opportunity_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>BFG Opportunity Id</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Base_Sale_Price__c</fullName>
         <description>Total price for all bundled products before discounts</description>
         <label>Base Sale Price</label>
@@ -45091,7 +45102,7 @@ IsClosed=TRUE)</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Only_BDR_Can_Own_SDOs</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(
 RecordType.DeveloperName = &apos;Sales_Development&apos;,
 NOT($Permission.Bypass_BDR_Ownership_Rule),

@@ -483,11 +483,6 @@
             <operation>equals</operation>
             <value>1</value>
         </filters>
-        <filters>
-            <field>PRODUCT2.NAME</field>
-            <operation>startsWith</operation>
-            <value>IJ Investor Awards New York 2024</value>
-        </filters>
         <label>All Products</label>
     </listViews>
     <listViews>

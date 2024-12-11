@@ -20,6 +20,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Licenses__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Upsell_Cross_sell__c</field>
             </layoutItems>
             <layoutItems>
@@ -207,6 +211,7 @@
     <multilineLayoutFields>End_Date__c</multilineLayoutFields>
     <multilineLayoutFields>Lost_Product__c</multilineLayoutFields>
     <multilineLayoutFields>Delivery_Method__c</multilineLayoutFields>
+    <multilineLayoutFields>Licenses__c</multilineLayoutFields>
     <multilineLayoutFields>OpportunityId</multilineLayoutFields>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

@@ -195,6 +195,10 @@
         <relationshipLabel><!-- Opportunities (SAO Owner) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- BFG Opportunity Id --></label>
+        <name>BFG_Opportunity_Id__c</name>
+    </fields>
+    <fields>
         <label><!-- Base Sale Price --></label>
         <name>Base_Sale_Price__c</name>
     </fields>

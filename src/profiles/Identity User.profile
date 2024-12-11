@@ -16890,6 +16890,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>AccountContactRelation.Delinian_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>AccountContactRelation.Email_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -17337,6 +17342,11 @@
         <editable>true</editable>
         <field>Campaign.EndDate</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.Event_Cost_Centre__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -26356,6 +26366,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.BDR_Referred_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.BFG_Opportunity_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

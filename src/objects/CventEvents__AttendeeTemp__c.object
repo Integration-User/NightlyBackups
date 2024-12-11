@@ -1777,6 +1777,7 @@
         <columns>CventEvents__pkg_Message__c</columns>
         <columns>CREATED_DATE</columns>
         <columns>LAST_UPDATE</columns>
+        <columns>CventEvents__pkg_FieldMatchingResult__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>CventEvents__pkg_ProcessStatus__c</field>

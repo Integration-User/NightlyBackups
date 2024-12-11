@@ -1249,11 +1249,6 @@
             <operation>equals</operation>
             <value>1</value>
         </filters>
-        <filters>
-            <field>CORE.USER_ROLE.NAME</field>
-            <operation>equals</operation>
-            <value>BDR,BDR Manager</value>
-        </filters>
         <label>All Users</label>
     </listViews>
     <listViews>

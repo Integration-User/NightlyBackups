@@ -1314,6 +1314,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -1468,6 +1472,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -3071,6 +3076,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -3225,6 +3234,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -4828,6 +4838,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -4982,6 +4996,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -6585,6 +6600,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -6739,6 +6758,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -8342,6 +8362,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -8496,6 +8520,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -10091,6 +10116,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -10243,6 +10272,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -11838,6 +11868,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -11990,6 +12024,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -13589,6 +13624,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -13742,6 +13781,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -15337,6 +15377,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -15489,6 +15533,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -17088,6 +17133,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -17241,6 +17290,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -18836,6 +18886,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -18988,6 +19042,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -20587,6 +20642,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -20740,6 +20799,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -22335,6 +22395,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -22487,6 +22551,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -24086,6 +24151,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -24239,6 +24308,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -25834,6 +25904,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -25986,6 +26060,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -27585,6 +27660,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -27738,6 +27817,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -29333,6 +29413,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -29485,6 +29569,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -31088,6 +31173,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -31242,6 +31331,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -32845,6 +32935,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -32999,6 +33093,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -34602,6 +34697,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -34756,6 +34855,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>
@@ -36359,6 +36459,10 @@
             <label>Previous Score</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NVy000003Ykjz</field>
+            <label>BFG Opportunity Id</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>00Nf400000V6wy6</field>
             <label>Billing Schedule NS Internal ID</label>
         </forecastingObjectListLabelMappings>
@@ -36513,6 +36617,7 @@
             <field>00N5G00000WeE8V</field>
             <field>00N5G00000WeE8m</field>
             <field>00Nf400000Ui4Wn</field>
+            <field>00NVy000003Ykjz</field>
             <field>00Nf400000V6v0b</field>
             <field>00Nf400000URz8j</field>
             <field>00Nf400000V6v0c</field>

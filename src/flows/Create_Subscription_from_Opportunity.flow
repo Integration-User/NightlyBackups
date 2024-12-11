@@ -68,6 +68,19 @@
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <assignments>
+        <name>Assign_No_Permission</name>
+        <label>Assign - No Permission</label>
+        <locationX>314</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>errorMessage</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>You don&apos;t have permission to create a subscription.</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
         <name>Create_Account_Grant</name>
         <label>Create Account Grant</label>
         <locationX>1590</locationX>
@@ -821,7 +834,7 @@
     <decisions>
         <name>Process_Order</name>
         <label>Process Order?</label>
-        <locationX>182</locationX>
+        <locationX>314</locationX>
         <locationY>242</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -838,6 +851,21 @@
                 <targetReference>Get_Opportunity_Products</targetReference>
             </connector>
             <label>Order Valid</label>
+        </rules>
+        <rules>
+            <name>No_Permission</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>validationResult</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Permission</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_No_Permission</targetReference>
+            </connector>
+            <label>No Permission</label>
         </rules>
     </decisions>
     <decisions>
@@ -915,15 +943,17 @@
     NOT(ISBLANK({!Loop_Products.Product2.Number_of_Licences__c})),
     {!Loop_Products.Product2.Number_of_Licences__c} &gt; 0
   ),
-  {!Loop_Products.Quantity} * {!Loop_Products.Product2.Number_of_Licences__c},
-  {!Loop_Products.Quantity}
+{!Loop_Products.Licenses__c}* {!Loop_Products.Product2.Number_of_Licences__c},
+  {!Loop_Products.Licenses__c}
 )</expression>
         <scale>2</scale>
     </formulas>
     <formulas>
         <name>validationResult</name>
         <dataType>String</dataType>
-        <expression>&quot;OK&quot;</expression>
+        <expression>IF( !{!$Permission.IJ_Entitlements}, &apos;No Permission&apos;,
+&apos;OK&apos;
+)</expression>
     </formulas>
     <formulas>
         <description>Calculates the right subscription management system based on the product being processed</description>
@@ -1026,7 +1056,7 @@
         <inputAssignments>
             <field>Start_Date__c</field>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1079,7 +1109,7 @@
         <inputAssignments>
             <field>Start_Date__c</field>
             <value>
-                <elementReference>Loop_Products.ServiceDate</elementReference>
+                <elementReference>Loop_Products.Start_Date__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1225,7 +1255,7 @@ When processing Order 2, this query will return Subscription X, because Subscrip
     <recordLookups>
         <name>Get_Opportunity_Details</name>
         <label>Get Opportunity Details</label>
-        <locationX>182</locationX>
+        <locationX>314</locationX>
         <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1552,7 +1582,7 @@ When processing Order 2, this query will return Subscription X, because Subscrip
     </recordUpdates>
     <runInMode>SystemModeWithoutSharing</runInMode>
     <start>
-        <locationX>56</locationX>
+        <locationX>188</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Opportunity_Details</targetReference>

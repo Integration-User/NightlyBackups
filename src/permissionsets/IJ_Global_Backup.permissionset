@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Full access for IJ Global</description>
+    <description>Cloned from the IJ Global permission set, before the permissions on the IJ Global permission set were changed to read-only. This backup permission set restores any permissions that appear to be missing after changing to the new permission set.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Account_Hierarchy_Ext_Id__c</field>
@@ -1032,7 +1032,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>IJ Global</label>
+    <label>IJ Global - Backup</label>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
