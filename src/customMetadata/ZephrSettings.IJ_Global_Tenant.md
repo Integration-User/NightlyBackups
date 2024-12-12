@@ -4,23 +4,23 @@
     <protected>false</protected>
     <values>
         <field>AccessKey__c</field>
-        <value xsi:type="xsd:string">8828263e-5d99-4c54-9d71-a6e884035515</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>ApiFieldName_ZephrAccountId__c</field>
-        <value xsi:type="xsd:string">ZephrAccountId__c</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>ApiFieldName_ZephrCompanyId__c</field>
-        <value xsi:type="xsd:string">EM_ZephrCompanyId__c</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>ApiFieldName_ZephrGrantId__c</field>
-        <value xsi:type="xsd:string">ZephrGrantId__c</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>ApiFieldName_ZephrUserId__c</field>
-        <value xsi:type="xsd:string">EM_ZephrUserId__c</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>Company_Type_Slug__c</field>
@@ -48,7 +48,7 @@
     </values>
     <values>
         <field>SecretKey__c</field>
-        <value xsi:type="xsd:string">914ff70f-db5f-4ded-8ac1-7117c7a04a00</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>TrialObjectFieldMapping__c</field>
