@@ -3585,11 +3585,11 @@ Opportunity: PPD Sent --></errorMessage>
         <name>Fields_Required_to_Save_Stage_3Advisory</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- To save at a Stage 3 or higher, you must have the following Account fields: Company Type, Subsidiary, Phone, and Description. --></errorMessage>
+        <errorMessage><!-- To save at a Stage 3 or higher, you must have the following Account fields: Company Type and Subsidiary. --></errorMessage>
         <name>Fields_Required_to_Save_Stage_3_Renewal</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- To save at a Stage 2 or higher, you must have the Opportunity Lead Type &amp; Lead Channel populated and the following Account fields: Company Type, Subsidiary, Phone, and Description. --></errorMessage>
+        <errorMessage><!-- To save at a Stage 2 or higher, you must have the Opportunity Lead Type &amp; Lead Channel populated and the following Account fields: Company Type and Subsidiary. --></errorMessage>
         <name>Fields_Required_to_Save_at_Stage_3</name>
     </validationRules>
     <validationRules>
