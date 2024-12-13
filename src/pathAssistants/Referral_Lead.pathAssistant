@@ -9,5 +9,13 @@
         <fieldNames>Questions_Comments__c</fieldNames>
         <picklistValueName>Disqualified</picklistValueName>
     </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Questions_Comments__c</fieldNames>
+        <picklistValueName>Open</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Questions_Comments__c</fieldNames>
+        <picklistValueName>Sales_Qualified</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>Referrals</recordTypeName>
 </PathAssistant>
