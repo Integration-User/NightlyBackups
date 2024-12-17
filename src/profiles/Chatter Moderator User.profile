@@ -29479,6 +29479,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Subscription_Opportunity__c.Subscription_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Subscription_Opportunity__c.Subscription_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Subscription_Product__c.Delinian_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
