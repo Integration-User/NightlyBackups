@@ -198,6 +198,28 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Subscription_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Subscription__r.Status__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Subscription Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subscription_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Subscription__r.Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Subscription Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Subscription__c</fullName>
         <label>Subscription</label>
         <referenceTo>Subscription__c</referenceTo>

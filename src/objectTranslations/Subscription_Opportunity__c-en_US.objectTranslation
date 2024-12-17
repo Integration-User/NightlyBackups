@@ -28,6 +28,14 @@
         <relationshipLabel><!-- Subscription Opportunities --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Subscription Status --></label>
+        <name>Subscription_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Type --></label>
+        <name>Subscription_Type__c</name>
+    </fields>
+    <fields>
         <label><!-- Subscription --></label>
         <name>Subscription__c</name>
         <relationshipLabel><!-- Subscription Opportunities --></relationshipLabel>
