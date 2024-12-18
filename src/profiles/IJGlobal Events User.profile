@@ -3282,6 +3282,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RemoveAccountEmailDistributionBatch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Schedule_ConvertAppecuesEvents</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -47080,7 +47084,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>CventEvents__Event__c</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -49829,7 +49833,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>CventEvents__Event__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>CventEvents__LogConnector__c</tab>
@@ -49929,10 +49933,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Integration_Log__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Knowledge__kav</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

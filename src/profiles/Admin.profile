@@ -3282,6 +3282,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RemoveAccountEmailDistributionBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Schedule_ConvertAppecuesEvents</apexClass>
         <enabled>true</enabled>
     </classAccesses>
