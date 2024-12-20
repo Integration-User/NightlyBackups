@@ -1710,6 +1710,10 @@
         <name>Export_Excel_Add_In_Users__c</name>
     </fields>
     <fields>
+        <label><!-- First Renewal Year --></label>
+        <name>First_Renewal_Year__c</name>
+    </fields>
+    <fields>
         <label><!-- Force Owner Update --></label>
         <name>Force_Owner_Update__c</name>
     </fields>

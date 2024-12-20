@@ -515,11 +515,11 @@
             <type>role</type>
         </recipients>
         <recipients>
-            <recipient>ameoli@greenstreet.com</recipient>
-            <type>user</type>
+            <recipient>VP_Sales_West</recipient>
+            <type>role</type>
         </recipients>
         <recipients>
-            <recipient>bshullaw@greenstreet.com</recipient>
+            <recipient>ameoli@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -548,10 +548,6 @@
         </recipients>
         <recipients>
             <recipient>jwiggins@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>khoffman@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>

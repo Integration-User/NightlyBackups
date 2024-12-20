@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>DeepClone</excludeButtons>
-    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -595,6 +594,10 @@
         <fields>Subscription__c.Number_of_Seats__c</fields>
         <fields>Subscription__c.Seats_Allocated__c</fields>
         <relatedList>Subscription_Opportunity__c.Opportunity__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Subscription__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
         <excludeButtons>AddAccTeamMemberOnOpp</excludeButtons>

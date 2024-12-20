@@ -124,6 +124,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>First_Renewal_Year__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Lost_Client__c</field>
             </layoutItems>
             <layoutItems>
@@ -444,10 +448,6 @@
                 <behavior>Edit</behavior>
                 <field>IJ_Global_Events_UID__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Delinian_Id__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -633,17 +633,6 @@
         <excludeButtons>MassChangeOwner</excludeButtons>
         <excludeButtons>New</excludeButtons>
         <fields>NAME</fields>
-        <fields>Products__c</fields>
-        <fields>Number_of_Seats__c</fields>
-        <fields>Seats_Allocated__c</fields>
-        <fields>Seats_Remaining__c</fields>
-        <fields>Status__c</fields>
-        <relatedList>Subscription__c.Account__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <excludeButtons>MassChangeOwner</excludeButtons>
-        <excludeButtons>New</excludeButtons>
-        <fields>NAME</fields>
         <fields>Trial__c</fields>
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
@@ -798,12 +787,6 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Product_Feedback__c.Account__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>Opportunity.Agency__c</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

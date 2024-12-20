@@ -15887,6 +15887,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.First_Renewal_Year__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Force_Owner_Update__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -46707,6 +46712,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SalesforceContract-Salesforce Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SalesforceInvoice-Salesforce Invoice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SalesforceQuote-Salesforce Quote Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
