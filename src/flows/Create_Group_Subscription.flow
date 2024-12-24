@@ -4,7 +4,7 @@
         <name>Create_Zephr_Model</name>
         <label>Create Zephr Model</label>
         <locationX>182</locationX>
-        <locationY>458</locationY>
+        <locationY>566</locationY>
         <actionName>zephr_InvocableCreateZephrSubModel</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -26,7 +26,7 @@
         <name>Insert_Zephr_Grants</name>
         <label>Insert Zephr Grants</label>
         <locationX>50</locationX>
-        <locationY>1214</locationY>
+        <locationY>1322</locationY>
         <actionName>zephr_InvocableCreateUserAccountGrants</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -53,7 +53,7 @@
         <name>Provision_in_Zephr</name>
         <label>Provision in Zephr</label>
         <locationX>182</locationX>
-        <locationY>1406</locationY>
+        <locationY>1514</locationY>
         <actionName>zephr_InvocableStartSubProvisioning</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>Automatic</flowTransactionModel>
@@ -73,7 +73,7 @@
         <name>Add_Subscription_User_to_List</name>
         <label>Add Subscription User to List</label>
         <locationX>50</locationX>
-        <locationY>1106</locationY>
+        <locationY>1214</locationY>
         <assignmentItems>
             <assignToReference>listSubscriptionUsers</assignToReference>
             <operator>Add</operator>
@@ -140,7 +140,7 @@
         <name>Prepare_Subscription_User</name>
         <label>Prepare Subscription User</label>
         <locationX>50</locationX>
-        <locationY>890</locationY>
+        <locationY>998</locationY>
         <assignmentItems>
             <assignToReference>varNewSubscriptionUser.Contact__c</assignToReference>
             <operator>Assign</operator>
@@ -163,7 +163,7 @@
         <name>Contact_ID_Provided</name>
         <label>Contact ID Provided?</label>
         <locationX>182</locationX>
-        <locationY>674</locationY>
+        <locationY>782</locationY>
         <defaultConnector>
             <targetReference>Provision_in_Zephr</targetReference>
         </defaultConnector>
@@ -214,6 +214,29 @@ V17 - Added SRP support</description>
     </processMetadataValues>
     <processType>Flow</processType>
     <recordCreates>
+        <name>Create_Subscription_Opportunity</name>
+        <label>Create Subscription Opportunity</label>
+        <locationX>182</locationX>
+        <locationY>458</locationY>
+        <connector>
+            <targetReference>Create_Zephr_Model</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Opportunity__c</field>
+            <value>
+                <elementReference>varOpportunityId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription__c</field>
+            <value>
+                <elementReference>varNewSubscription.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Subscription_Opportunity__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
         <name>CreateSubscription</name>
         <label>CreateSubscription</label>
         <locationX>182</locationX>
@@ -229,7 +252,7 @@ V17 - Added SRP support</description>
         <locationX>182</locationX>
         <locationY>350</locationY>
         <connector>
-            <targetReference>Create_Zephr_Model</targetReference>
+            <targetReference>Create_Subscription_Opportunity</targetReference>
         </connector>
         <inputAssignments>
             <field>End_Date__c</field>
@@ -262,7 +285,7 @@ V17 - Added SRP support</description>
         <name>CreateSubscriptionUser</name>
         <label>CreateSubscriptionUser</label>
         <locationX>50</locationX>
-        <locationY>998</locationY>
+        <locationY>1106</locationY>
         <connector>
             <targetReference>Add_Subscription_User_to_List</targetReference>
         </connector>
@@ -272,7 +295,7 @@ V17 - Added SRP support</description>
         <name>Get_Contact</name>
         <label>Get Contact</label>
         <locationX>50</locationX>
-        <locationY>782</locationY>
+        <locationY>890</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Prepare_Subscription_User</targetReference>
@@ -293,7 +316,7 @@ V17 - Added SRP support</description>
         <name>Retrieve_Provisioned_Subscription</name>
         <label>Retrieve Provisioned Subscription</label>
         <locationX>182</locationX>
-        <locationY>566</locationY>
+        <locationY>674</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Contact_ID_Provided</targetReference>
