@@ -10,11 +10,6 @@
     </shares>
     <shares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>jwiggins@greenstreet.com</sharedTo>
-        <sharedToType>User</sharedToType>
-    </shares>
-    <shares>
-        <accessLevel>Manage</accessLevel>
         <sharedTo>ksantos@greenstreet.com</sharedTo>
         <sharedToType>User</sharedToType>
     </shares>

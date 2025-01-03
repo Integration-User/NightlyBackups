@@ -2867,6 +2867,10 @@
             <translation><!-- 13 GSA UK Ltd --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>18.1 Green Street Solutions (UK) LTD</masterLabel>
+            <translation><!-- 18.1 Green Street Solutions (UK) LTD --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>18.2 On-site Research Limited</masterLabel>
             <translation><!-- 18.2 On-site Research Limited --></translation>
         </picklistValues>
@@ -2889,10 +2893,6 @@
         <picklistValues>
             <masterLabel>23 IJGlobal</masterLabel>
             <translation><!-- 23 IJGlobal --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Green Street Solutions (UK) LTD</masterLabel>
-            <translation><!-- Green Street Solutions (UK) LTD --></translation>
         </picklistValues>
     </fields>
     <fields>

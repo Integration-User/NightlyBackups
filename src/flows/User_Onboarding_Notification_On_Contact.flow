@@ -9,15 +9,9 @@
         <actionType>emailSimple</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
-            <name>emailBody</name>
-            <value>
-                <elementReference>ActivateUserNotification</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com</stringValue>
+                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -26,7 +20,14 @@
                 <stringValue>User Activation Request</stringValue>
             </value>
         </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>ActivateUserNotification</elementReference>
+            </value>
+        </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -40,7 +41,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com</stringValue>
+                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -56,6 +57,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -67,15 +69,9 @@
         <actionType>emailSimple</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
-            <name>emailBody</name>
-            <value>
-                <elementReference>DeactivateUserNotification</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com</stringValue>
+                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -84,7 +80,14 @@
                 <stringValue>User Deactivation Request </stringValue>
             </value>
         </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DeactivateUserNotification</elementReference>
+            </value>
+        </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
