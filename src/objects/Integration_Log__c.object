@@ -266,6 +266,7 @@
         <columns>NAME</columns>
         <columns>Job__c</columns>
         <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
