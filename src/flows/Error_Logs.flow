@@ -20,7 +20,6 @@
             </value>
         </inputParameters>
         <nameSegment>Integration_Log__c.New_Integration_Error</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <decisions>

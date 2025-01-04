@@ -74,6 +74,7 @@
         <fields>RunInMode</fields>
         <fields>ApiVersion</fields>
         <fields>CapacityCategory</fields>
+        <fields>AreMetricsLoggedToDataCloud</fields>
         <relatedList>FlowRecordVersions</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

@@ -34,7 +34,6 @@
             <assignToReference>roleId</assignToReference>
             <name>roleId</name>
         </outputParameters>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>SendEmailToFinanceTeam</name>
@@ -66,7 +65,6 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>SendEmailtoSystemAdmin</name>
@@ -98,7 +96,6 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <assignments>

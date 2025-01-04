@@ -15,7 +15,6 @@
             </value>
         </inputParameters>
         <nameSegment>Subscription__c.NextGen_Seats_Decrease_1_day_Subscription</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_5_days_Notice_Subscription</name>
@@ -32,7 +31,6 @@
             </value>
         </inputParameters>
         <nameSegment>Subscription__c.NextGen_Seats_Decrease_5_days_Subscription</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Seats_Decrease_Email_Subscription</name>
@@ -49,7 +47,6 @@
             </value>
         </inputParameters>
         <nameSegment>Subscription__c.NextGen_Seats_Decrease_Subscription</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Unable_to_Apply_Decrease</name>
@@ -69,7 +66,6 @@
             </value>
         </inputParameters>
         <nameSegment>Subscription__c.NextGen_Seats_Decrease_Subscription_Unable_to_Decrease</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <decisions>

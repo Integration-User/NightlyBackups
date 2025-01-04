@@ -108,6 +108,9 @@
         <fullName>TranscribedLanguage</fullName>
     </fields>
     <fields>
+        <fullName>UsageType</fullName>
+    </fields>
+    <fields>
         <fullName>VendorMeetingKey</fullName>
     </fields>
     <fields>

@@ -106,6 +106,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AuthenticatedEndUserId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -116,6 +121,10 @@
     </fields>
     <fields>
         <fullName>IsFullyOptedIn</fullName>
+    </fields>
+    <fields>
+        <fullName>Language</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>LeadId</fullName>

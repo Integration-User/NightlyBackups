@@ -19,7 +19,6 @@
             <assignToReference>recordID.Id</assignToReference>
             <name>recordId</name>
         </outputParameters>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>actionRefreshScringScoring</name>
@@ -40,7 +39,6 @@
             <assignToReference>recordID.Id</assignToReference>
             <name>recordId</name>
         </outputParameters>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>ActionScoreApproval</name>
@@ -79,7 +77,6 @@
         </inputParameters>
         <nameSegment>submit</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <assignments>

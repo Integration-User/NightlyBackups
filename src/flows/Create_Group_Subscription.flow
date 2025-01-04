@@ -20,7 +20,6 @@
         <nameSegment>zephr_InvocableCreateZephrSubModel</nameSegment>
         <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Insert_Zephr_Grants</name>
@@ -47,7 +46,6 @@
         </inputParameters>
         <nameSegment>zephr_InvocableCreateUserAccountGrants</nameSegment>
         <offset>0</offset>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Provision_in_Zephr</name>
@@ -66,7 +64,6 @@
         <nameSegment>zephr_InvocableStartSubProvisioning</nameSegment>
         <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>52.0</apiVersion>
     <assignments>
