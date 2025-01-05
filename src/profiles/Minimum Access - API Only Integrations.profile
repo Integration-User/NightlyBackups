@@ -216,6 +216,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__DataGovernanceConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__DataManager</application>
         <default>false</default>
         <visible>false</visible>
@@ -46944,6 +46949,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>FlowRecord-Flow Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlowRecordVersionOccurrence-%5F%5FMISSING LABEL%5F%5F PropertyFile - val FlowRecordVersionOccurrence not found in section StandardLayouts</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ISO_Map__mdt-ISO Map Layout</layout>
