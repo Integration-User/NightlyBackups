@@ -180,10 +180,6 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>hparkinson@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>jblanden@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -422,11 +418,15 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>keiji.ampil@greenstreet.com</recipient>
+            <recipient>jblanden@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
             <recipient>ksantos@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mmorana@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
