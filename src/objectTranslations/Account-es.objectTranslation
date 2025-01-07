@@ -1482,6 +1482,10 @@
         <name>Currency_NS_Internal_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Current Products(Text) --></label>
+        <name>Current_Products_Text__c</name>
+    </fields>
+    <fields>
         <label><!-- Current Products --></label>
         <name>Current_Products__c</name>
     </fields>
