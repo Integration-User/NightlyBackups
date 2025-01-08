@@ -7628,6 +7628,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         </filters>
         <label>My Open SDO’s</label>
         <sharedTo>
+            <group>EU_BDR</group>
             <role>BDR</role>
             <role>BDR_Manager</role>
         </sharedTo>

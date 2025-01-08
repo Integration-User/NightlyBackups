@@ -15727,6 +15727,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Current_Products_Text__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Current_Products__c</field>
         <readable>false</readable>
     </fieldPermissions>
