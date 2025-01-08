@@ -3321,6 +3321,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>UpdateAccountOwner</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateAccountOwnerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>UpdateAccountProductCategoryBatch</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -49875,6 +49883,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>AAKCS__Error_Log__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AM_CS_Account_Transfer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
