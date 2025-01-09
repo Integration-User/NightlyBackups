@@ -196,6 +196,10 @@
             <translation><!-- US SDR Inbound --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Walburger</masterLabel>
+            <translation><!-- Walburger --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>White</masterLabel>
             <translation><!-- White --></translation>
         </picklistValues>

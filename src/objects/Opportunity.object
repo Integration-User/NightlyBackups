@@ -647,6 +647,11 @@
                     <label>Souter</label>
                 </value>
                 <value>
+                    <fullName>Walburger</fullName>
+                    <default>false</default>
+                    <label>Walburger</label>
+                </value>
+                <value>
                     <fullName>Lemansky</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -5595,6 +5600,11 @@ NULL))))</formula>
                     <fullName>Souter</fullName>
                     <default>false</default>
                     <label>Souter</label>
+                </value>
+                <value>
+                    <fullName>Walburger</fullName>
+                    <default>false</default>
+                    <label>Walburger</label>
                 </value>
                 <value>
                     <fullName>Lemansky</fullName>
@@ -35810,6 +35820,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Walburger</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>White</fullName>
                 <default>false</default>
             </values>
@@ -38270,6 +38284,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US SDR Inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walburger</fullName>
                 <default>false</default>
             </values>
             <values>
