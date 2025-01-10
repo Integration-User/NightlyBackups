@@ -56,6 +56,10 @@
             <translation><!-- Remove Lost Product(s) --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Renew Subscription</masterLabel>
+            <translation><!-- Renew Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Suspend</masterLabel>
             <translation><!-- Suspend --></translation>
         </picklistValues>
