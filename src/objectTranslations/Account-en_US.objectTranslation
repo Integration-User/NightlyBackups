@@ -2898,10 +2898,6 @@
             <masterLabel>22.3 Belgium</masterLabel>
             <translation><!-- 22.3 Belgium --></translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>23 IJGlobal</masterLabel>
-            <translation><!-- 23 IJGlobal --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <label><!-- Survey Opt-Out --></label>

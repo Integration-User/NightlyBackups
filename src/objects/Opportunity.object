@@ -10388,7 +10388,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13156,7 +13164,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15868,7 +15884,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18516,7 +18540,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21408,10 +21440,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>AVM</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Activist Situations</fullName>
                 <default>false</default>
             </values>
@@ -21432,7 +21460,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21460,10 +21496,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Data Delivery - API</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Data License Directory</fullName>
                 <default>false</default>
             </values>
@@ -21480,26 +21512,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Data Sale - UK Retail - All</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Sale - UK Retail - Convenience</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Sale - UK Retail - Independents</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Sale - UK Retail - London</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Sale - UK Retail - Multiples</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>DataLink</fullName>
                 <default>false</default>
             </values>
@@ -21508,27 +21520,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Debt DB - ABS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Debt DB - CMBS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Debt DB - CRE-CLO</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Debt DB - High Yield</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Debt Databases</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Detailed NAV</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21557,10 +21549,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Edge - Project work</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Excel Add-In</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21596,10 +21584,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Local Data Online</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Locatus%3A DISC data</fullName>
                 <default>false</default>
             </values>
@@ -21632,27 +21616,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>MD%26D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MD%26D - Market Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MD%26D - Market Forecasts</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>MD%26D - Rent Comps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MD%26D - Sales Comps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MD%26D Standardized Downloads</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21660,23 +21624,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Market Participants</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mortgage REITs</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>NEWS - HFAlert</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Test Product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>News</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21740,39 +21688,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>REIT Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>REIT Data - Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>REIT Data - Company Analysis</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>REIT Data - Detailed NAVs</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>REIT Data - Interactive Charting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>REIT Data - Portfolio Search</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>REIT Data - Retail DB</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>REIT Data - Weekly REIT Pricing Review</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Rankings</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21789,10 +21705,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Sales Transactions</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Snowflake</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21849,10 +21761,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>US Tertiary Market Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>US Tertiary Market Forecast</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -24436,7 +24344,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -27172,6 +27088,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -29780,6 +29704,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -32306,6 +32238,14 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -34957,7 +34897,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -37830,7 +37778,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -40814,7 +40770,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -43626,7 +43590,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
