@@ -26454,6 +26454,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.Attendee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Attrition_Risk__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -26905,6 +26910,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Engagement_Size__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Event__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

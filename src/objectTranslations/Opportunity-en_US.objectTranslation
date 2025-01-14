@@ -180,6 +180,11 @@
         <name>At_RIsk_Revenue__c</name>
     </fields>
     <fields>
+        <label><!-- Attendee --></label>
+        <name>Attendee__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Attrition Risk --></label>
         <name>Attrition_Risk__c</name>
     </fields>
@@ -833,6 +838,11 @@
         <name>Engagement_Size__c</name>
     </fields>
     <fields>
+        <label><!-- Cvent Event Number --></label>
+        <name>Event__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Evergreen Contract --></label>
         <name>Evergreen_Contract__c</name>
     </fields>
@@ -858,7 +868,7 @@
         <name>Further_Interest__c</name>
     </fields>
     <fields>
-        <label><!-- GSA Subsidairy --></label>
+        <label><!-- GSA Subsidiary --></label>
         <name>GSA_Subsidairy__c</name>
     </fields>
     <fields>
