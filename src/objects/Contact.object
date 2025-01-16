@@ -8563,6 +8563,20 @@ Detractor -Contacted scored 0-6</description>
         <type>Summary</type>
     </fields>
     <fields>
+        <fullName>prqnconnmvpb__PreqinContactId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>Preqin Contact ID</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Preqin Contact ID</inlineHelpText>
+        <label>Preqin Contact ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>rh2__Currency_Test__c</fullName>
         <deprecated>false</deprecated>
         <description>Test Description</description>

@@ -3,9 +3,9 @@
     <bypassMeteringBlock>false</bypassMeteringBlock>
     <enableDeleteMonitoringData>false</enableDeleteMonitoringData>
     <enableDynamicStreamingChannel>false</enableDynamicStreamingChannel>
-    <enableEventLogGeneration>true</enableEventLogGeneration>
+    <enableEventLogGeneration>false</enableEventLogGeneration>
     <enableEventLogObjectFeature xsi:nil="true"/>
-    <enableEventLogWaveIntegration>true</enableEventLogWaveIntegration>
+    <enableEventLogWaveIntegration>false</enableEventLogWaveIntegration>
     <enableLightningLoggerEvents>false</enableLightningLoggerEvents>
     <enableLoginForensics>false</enableLoginForensics>
     <enableStreamingApi>true</enableStreamingApi>

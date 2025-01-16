@@ -5292,6 +5292,11 @@ User: Responsible for the day-to-day work and tasks in support of team and organ
         <name>opted_out_of_email_distros__c</name>
     </fields>
     <fields>
+        <help><!-- Preqin Contact ID --></help>
+        <label><!-- Preqin Contact ID --></label>
+        <name>prqnconnmvpb__PreqinContactId__c</name>
+    </fields>
+    <fields>
         <help><!-- Test Description --></help>
         <label><!-- Currency Test --></label>
         <name>rh2__Currency_Test__c</name>
