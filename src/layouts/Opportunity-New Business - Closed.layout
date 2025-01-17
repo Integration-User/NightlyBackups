@@ -482,16 +482,6 @@
             <actionType>StandardButton</actionType>
             <sortOrder>10</sortOrder>
         </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Opportunity.Grant_Free_Trial</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>11</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Opportunity.Create_Subscription</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>12</sortOrder>
-        </platformActionListItems>
     </platformActionList>
     <relatedLists>
         <excludeButtons>AddContactRole</excludeButtons>
@@ -516,7 +506,6 @@
         <excludeButtons>Sort</excludeButtons>
         <excludeButtons>SortLineItem</excludeButtons>
         <fields>Product2</fields>
-        <fields>Licenses__c</fields>
         <fields>Starting_Price__c</fields>
         <fields>UnitPrice</fields>
         <fields>Upsell_Cross_sell__c</fields>
@@ -525,6 +514,7 @@
         <fields>ARR_Formula__c</fields>
         <fields>Increase_Percent__c</fields>
         <fields>Sales_Type__c</fields>
+        <fields>Lost_Product__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -549,15 +539,6 @@
         <fields>SplitAmount</fields>
         <fields>SplitNote</fields>
         <relatedList>RelatedOpportunitySplits</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <excludeButtons>MassChangeOwner</excludeButtons>
-        <excludeButtons>New</excludeButtons>
-        <fields>Subscription__c.NAME</fields>
-        <fields>Subscription__c.Status__c</fields>
-        <fields>Subscription__c.Number_of_Seats__c</fields>
-        <fields>Subscription__c.Seats_Allocated__c</fields>
-        <relatedList>Subscription_Opportunity__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
         <excludeButtons>New</excludeButtons>

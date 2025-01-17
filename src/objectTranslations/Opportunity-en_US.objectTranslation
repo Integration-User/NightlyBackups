@@ -876,6 +876,10 @@
         <name>Geographic_Exposure__c</name>
     </fields>
     <fields>
+        <label><!-- Goals --></label>
+        <name>Goals__c</name>
+    </fields>
+    <fields>
         <label><!-- HVT Increase Unmet --></label>
         <name>HVT_Increase_Unmet__c</name>
     </fields>
@@ -2416,6 +2420,10 @@
         <name>NS_Issues__c</name>
     </fields>
     <fields>
+        <label><!-- Needs --></label>
+        <name>Needs__c</name>
+    </fields>
+    <fields>
         <help><!-- Set by the integration with NetSuite --></help>
         <label><!-- NetSuite ID --></label>
         <name>NetSuite_ID__c</name>
@@ -2615,6 +2623,10 @@
     <fields>
         <label><!-- Priority --></label>
         <name>Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problems --></label>
+        <name>Problems__c</name>
     </fields>
     <fields>
         <help><!-- Counts # of Opportunity Products added to support validation rule. --></help>
@@ -2850,9 +2862,9 @@
     </fields>
     <fields>
         <help><!-- Internal Referral Source --></help>
-        <label><!-- AM Referred By --></label>
+        <label><!-- Referred By --></label>
         <name>Referred_By__c</name>
-        <relationshipLabel><!-- Opportunities (AM Referred By) --></relationshipLabel>
+        <relationshipLabel><!-- Opportunities (Referred By) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Referred by Role --></label>

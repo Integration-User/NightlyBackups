@@ -388,6 +388,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Goals --></label>
+        <name>Goals__c</name>
+    </fields>
+    <fields>
         <label><!-- HubSpot Score --></label>
         <name>HubSpot_Score__c</name>
     </fields>
@@ -447,6 +451,10 @@
         <picklistValues>
             <masterLabel>Commercial + Advisory ARR</masterLabel>
             <translation><!-- Commercial + Advisory ARR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IJGlobal</masterLabel>
+            <translation><!-- IJGlobal --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Sales</masterLabel>
@@ -1703,6 +1711,10 @@
         <name>NA__c</name>
     </fields>
     <fields>
+        <label><!-- Needs --></label>
+        <name>Needs__c</name>
+    </fields>
+    <fields>
         <label><!-- Next Outreach Date --></label>
         <name>Next_Outreach_Date__c</name>
     </fields>
@@ -1839,6 +1851,10 @@
         <help><!-- Primary business unit for this Lead (will be transferred to the opportunity once converted) --></help>
         <label><!-- Primary Business Unit --></label>
         <name>Primary_Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problems --></label>
+        <name>Problems__c</name>
     </fields>
     <fields>
         <label><!-- Product Interest 1 --></label>
@@ -2155,9 +2171,14 @@
         <name>Referral_Reason__c</name>
     </fields>
     <fields>
-        <label><!-- AM Referred By --></label>
+        <label><!-- Referred By --></label>
         <name>Referred_By_Lead__c</name>
-        <relationshipLabel><!-- Leads (AM Referred By) --></relationshipLabel>
+        <relationshipLabel><!-- Leads (Referred By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred By --></label>
+        <name>Referred_By__c</name>
+        <relationshipLabel><!-- Leads (Referred By) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Referred by Role --></label>
