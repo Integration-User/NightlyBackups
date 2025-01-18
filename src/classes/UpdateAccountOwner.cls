@@ -108,24 +108,30 @@ public class UpdateAccountOwner implements Database.Batchable<sObject>, Database
     @InvocableMethod(label='Update Account Owner' description='Consolidated Account records')
     public static List<ConsolidatedAccResult> updateAccountOwnerInBulk(List<ConsolidatedAccInfo> consolidatedAcc) {
         System.debug('consolidatedAcc->'+consolidatedAcc);
+        List<String> accountTransferAccessList = System_Configuration__mdt.getInstance('AM_CS_Account_Transfer_Access_User_List').Value__c.split(';');
         ConsolidatedAccResult AccResult = new ConsolidatedAccResult();
         try {
-            // Same opportunity
-            if (consolidatedAcc[0].fromOwnerId == consolidatedAcc[0].ToOwnerId) {
-                AccResult.result = 'Error: The selected owner should not same. You must choose a different.';
-                AccResult.isError = 'true';
-            }
-            if(consolidatedAcc[0].fromOwnerId != consolidatedAcc[0].ToOwnerId) {
-                List<Account> updatedAccList = new List<Account>();
-                for(Account acc : [Select Id, Name from Account where OwnerId = :consolidatedAcc[0].fromOwnerId]) {
-                    acc.ownerid = consolidatedAcc[0].toOwnerId;
-                    updatedAccList.add(acc);
+            if(accountTransferAccessList.contains(UserInfo.getuserId()) || Test.isRunningTest()) {
+                // Same opportunity
+                if (consolidatedAcc[0].fromOwnerId == consolidatedAcc[0].ToOwnerId) {
+                    AccResult.result = 'Error: The selected owner should not same. You must choose a different.';
+                    AccResult.isError = 'true';
                 }
-                if(!updatedAccList.isEmpty()) {
-                    Database.executeBatch(new UpdateAccountOwner(updatedAccList, consolidatedAcc[0].toOwnerId, consolidatedAcc[0].fromOwnerId), 1);
-                }
-                AccResult.result = 'AM CS Account Transferred Successfully. Please validate your transferred records after a few minutes.';
-                
+                if(consolidatedAcc[0].fromOwnerId != consolidatedAcc[0].ToOwnerId) {
+                    List<Account> updatedAccList = new List<Account>();
+                    for(Account acc : [Select Id, Name from Account where OwnerId = :consolidatedAcc[0].fromOwnerId]) {
+                        acc.ownerid = consolidatedAcc[0].toOwnerId;
+                        updatedAccList.add(acc);
+                    }
+                    if(!updatedAccList.isEmpty()) {
+                        Database.executeBatch(new UpdateAccountOwner(updatedAccList, consolidatedAcc[0].toOwnerId, consolidatedAcc[0].fromOwnerId), 1);
+                    }
+                    AccResult.result = 'AM CS Account Transferred Successfully. Please validate your transferred records after a few minutes.';
+                    
+                } 
+            } else {
+                AccResult.result = 'Error: You do not have permission to access this functionality. Please contact your Salesforce administrator for help.';
+               AccResult.isError = 'true';
             }
         } catch(Exception e) {
             AccResult.result = e.getMessage();
