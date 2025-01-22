@@ -11,7 +11,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
+                <stringValue>jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -41,7 +41,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
+                <stringValue>jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -71,7 +71,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>ksantos@greenstreet.com,jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
+                <stringValue>jecusi@greenstreet.com,mbonyab@greenstreet.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>

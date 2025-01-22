@@ -7312,6 +7312,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
     <listViews>
         <fullName>All_Open_IJ_Global_Inbound_SDOs</fullName>
         <columns>OPPORTUNITY.NAME</columns>
+        <columns>Company_Name__c</columns>
         <columns>ACCOUNT.NAME</columns>
         <columns>Lead_Contact__c</columns>
         <columns>Lead_Contact_Email__c</columns>
