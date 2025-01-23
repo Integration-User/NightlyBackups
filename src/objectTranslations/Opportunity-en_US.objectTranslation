@@ -864,7 +864,7 @@
         <name>Further_Interest__c</name>
     </fields>
     <fields>
-        <label><!-- GSA Subsidairy --></label>
+        <label><!-- GSA Subsidiary --></label>
         <name>GSA_Subsidairy__c</name>
     </fields>
     <fields>

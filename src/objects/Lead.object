@@ -476,6 +476,11 @@
                     <label>Souter</label>
                 </value>
                 <value>
+                    <fullName>Walburger</fullName>
+                    <default>false</default>
+                    <label>Walburger</label>
+                </value>
+                <value>
                     <fullName>Lemansky</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -3629,6 +3634,11 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <label>Souter</label>
                 </value>
                 <value>
+                    <fullName>Walburger</fullName>
+                    <default>false</default>
+                    <label>Walburger</label>
+                </value>
+                <value>
                     <fullName>Lemansky</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -5429,6 +5439,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>US SDR Inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walburger</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8129,6 +8143,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Walburger</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>White</fullName>
                 <default>false</default>
             </values>
@@ -8696,6 +8714,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>US Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walburger</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11341,6 +11363,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>US Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walburger</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
