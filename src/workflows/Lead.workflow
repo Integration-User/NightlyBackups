@@ -60,10 +60,6 @@
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>Associate_Sales_Manager</recipient>
-            <type>role</type>
-        </recipients>
-        <recipients>
             <recipient>CAM_Manager</recipient>
             <type>role</type>
         </recipients>
@@ -81,6 +77,10 @@
         </recipients>
         <recipients>
             <recipient>US_Sales_Manager_C</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>VP_Sales_West</recipient>
             <type>role</type>
         </recipients>
         <senderType>CurrentUser</senderType>

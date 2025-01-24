@@ -503,10 +503,6 @@
             <type>role</type>
         </recipients>
         <recipients>
-            <recipient>US_Platform_Sales_Manager_B</recipient>
-            <type>role</type>
-        </recipients>
-        <recipients>
             <recipient>US_Sales_C</recipient>
             <type>role</type>
         </recipients>
@@ -568,6 +564,10 @@
         </recipients>
         <recipients>
             <recipient>sayala@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sbleskacek@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>

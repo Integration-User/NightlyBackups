@@ -1386,6 +1386,20 @@ emailtosalesforce@333e0p8m6hnh7oo23nlbfz2ug8m86pkyo5l80ayyuwx813h65r.f4-3azjreas
         <runAsUser>mlehavi@greenstreet.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
+        <authorizedSenders>skibriya@greenstreet.com</authorizedSenders>
+        <developerName>emailtosalesforce276</developerName>
+        <isActive>true</isActive>
+        <localPart>emailtosalesforce</localPart>
+        <runAsUser>skibriya@greenstreet.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <authorizedSenders>rphillips@greenstreet.com</authorizedSenders>
+        <developerName>emailtosalesforce277</developerName>
+        <isActive>true</isActive>
+        <localPart>emailtosalesforce</localPart>
+        <runAsUser>rphillips@greenstreet.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
         <authorizedSenders>dscott@greenst.com</authorizedSenders>
         <developerName>emailtosalesforce28</developerName>
         <isActive>true</isActive>
