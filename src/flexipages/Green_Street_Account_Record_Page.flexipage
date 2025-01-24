@@ -938,52 +938,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>dashboardId</name>
-                    <value>0FKf4000000wozBGAQ</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>enableNotifications</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>enableSubscriptions</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>filter</name>
-                    <value>{&quot;datasets&quot;:{&quot;ARR&quot;:[{&quot;fields&quot;:[&quot;Account.Id&quot;],&quot;filter&quot;:{&quot;operator&quot;:&quot;in&quot;,&quot;values&quot;:[&quot;$Id&quot;]}},{&quot;fields&quot;:[&quot;Month&quot;],&quot;filter&quot;:{&quot;operator&quot;:&quot;in&quot;,&quot;values&quot;:[&quot;$RR_Max_Month__c&quot;]},&quot;locked&quot;:null,&quot;hidden&quot;:null}]}}</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>height</name>
-                    <value>700</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideOnError</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>openLinksInNewWindow</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showHeader</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showSharing</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showTitle</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>wave:waveDashboard</componentName>
-                <identifier>wave_waveDashboard3</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>Facet-b8180211-38db-4b90-964e-ea1e304f9abb</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -1405,6 +1359,12 @@
                 </componentInstanceProperties>
                 <componentName>forceChatter:topicsOnRecordWrapper</componentName>
                 <identifier>forceChatter_topicsOnRecordWrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>prqnconnmvpb:preqinConnector</componentName>
+                <identifier>prqnconnmvpb_preqinConnector</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>

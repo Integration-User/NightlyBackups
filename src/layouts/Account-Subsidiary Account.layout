@@ -129,6 +129,10 @@
                 <field>First_Renewal_Year__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>First_Renewal_Year_Research__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Lost_Client__c</field>
             </layoutItems>
@@ -789,10 +793,6 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Product_Feedback__c.Account__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Subscription__c.Account__c</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

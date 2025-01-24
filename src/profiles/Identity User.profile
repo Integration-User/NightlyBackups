@@ -16068,6 +16068,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.First_Renewal_Year_Research__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.First_Renewal_Year__c</field>
         <readable>false</readable>
     </fieldPermissions>
