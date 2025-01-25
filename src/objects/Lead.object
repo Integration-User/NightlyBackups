@@ -289,7 +289,7 @@
         <isActive>true</isActive>
         <values>
             <fullName>Converted</fullName>
-            <default>true</default>
+            <default>false</default>
         </values>
         <values>
             <fullName>Disqualified</fullName>
