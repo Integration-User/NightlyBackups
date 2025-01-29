@@ -368,10 +368,6 @@
                 <field>Department_Id__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Delinian_Id__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Class__c</field>
             </layoutItems>
@@ -581,8 +577,8 @@
         <fields>End_Date__c</fields>
         <fields>ARR_Formula__c</fields>
         <fields>Increase_Percent__c</fields>
-        <fields>Licenses__c</fields>
         <fields>Sales_Type__c</fields>
+        <fields>Lost_Product__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -608,15 +604,6 @@
         <fields>OPPORTUNITY.AMOUNT</fields>
         <fields>Total_ARR__c</fields>
         <relatedList>Opportunity.Sales_Opportunity__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <excludeButtons>MassChangeOwner</excludeButtons>
-        <excludeButtons>New</excludeButtons>
-        <fields>Subscription__c.NAME</fields>
-        <fields>Subscription__c.Status__c</fields>
-        <fields>Subscription__c.Number_of_Seats__c</fields>
-        <fields>Subscription__c.Seats_Allocated__c</fields>
-        <relatedList>Subscription_Opportunity__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>OPPORTUNITY.NAME</fields>

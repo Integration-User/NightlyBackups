@@ -25354,6 +25354,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Goals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.HasOptedOutOfEmail</field>
         <readable>false</readable>
@@ -25485,6 +25490,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Needs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Next_Outreach_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -25560,6 +25570,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Problems__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Product_Interest_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -25626,6 +25641,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Referred_By_Lead__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Referred_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -26830,6 +26850,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Goals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.HVT_Increase_Unmet__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -26851,7 +26876,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.IJ_Global_Events_Event_Cost_Centre__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -27064,6 +27089,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Needs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.NetSuite_ID__c</field>
         <readable>false</readable>
@@ -27231,6 +27261,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Probability</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Problems__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

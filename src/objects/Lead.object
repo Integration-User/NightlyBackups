@@ -1116,6 +1116,15 @@
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
+        <fullName>Goals__c</fullName>
+        <label>Goals</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1331,6 +1340,11 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <fullName>Commercial + Advisory ARR</fullName>
                     <default>false</default>
                     <label>Commercial + Advisory ARR</label>
+                </value>
+                <value>
+                    <fullName>IJGlobal</fullName>
+                    <default>false</default>
+                    <label>IJGlobal</label>
                 </value>
                 <value>
                     <fullName>GSI</fullName>
@@ -2974,6 +2988,15 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
+        <fullName>Needs__c</fullName>
+        <label>Needs</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>Next_Outreach_Date__c</fullName>
         <label>Next Outreach Date</label>
         <required>false</required>
@@ -3283,6 +3306,15 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
             <restricted>true</restricted>
             <valueSetName>Business_Units</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Problems__c</fullName>
+        <label>Problems</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>Product_Interest_1__c</fullName>
@@ -3842,12 +3874,23 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
         <fullName>Referred_By_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Referred By field on lead object</description>
-        <label>AM Referred By</label>
+        <label>Referred By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Leads</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Referred_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Referred By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>LeadReferredBy</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -5269,6 +5312,15 @@ Stored as Long on Solr.</description>
         </sharedTo>
     </listViews>
     <listViews>
+        <fullName>IJGlobal_Lead_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>IJGlobal</label>
+        <queue>IJGlobal_Lead</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>Lead_Queue_Lead</fullName>
         <columns>FULL_NAME</columns>
         <columns>LEAD.COMPANY</columns>
@@ -5280,6 +5332,7 @@ Stored as Long on Solr.</description>
         <columns>CREATEDBY_USER.ALIAS</columns>
         <columns>CORE.USERS.LAST_NAME</columns>
         <columns>LEAD.STATUS</columns>
+        <columns>Referred_by_Role_Lead__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>LEAD.RECORDTYPE</field>
@@ -9671,6 +9724,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Commercial %2B Advisory ARR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
                 <default>false</default>
             </values>
             <values>
