@@ -563,6 +563,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>pgreco@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>sayala@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
