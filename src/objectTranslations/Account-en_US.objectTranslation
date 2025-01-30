@@ -143,6 +143,10 @@
         <name>Account_Category__c</name>
     </fields>
     <fields>
+        <label><!-- Account Handoff Date --></label>
+        <name>Account_Handoff_Date__c</name>
+    </fields>
+    <fields>
         <help><!-- This should be the same for all Accounts in a hierarchy. For consistency, either check the parent account OR use the first 5 letters of the top level parent. --></help>
         <label><!-- Account Hierarchy Ext Id --></label>
         <name>Account_Hierarchy_Ext_Id__c</name>
@@ -348,6 +352,11 @@
     <fields>
         <label><!-- Bulk Activation --></label>
         <name>Bulk_Activation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of business days between the Became Client Date, and the completion of the Onboarding handoff event. --></help>
+        <label><!-- Business Days to Onboarding Completion --></label>
+        <name>Business_Days_to_Onboarding_Completion__c</name>
     </fields>
     <fields>
         <label><!-- CRE Exposure --></label>

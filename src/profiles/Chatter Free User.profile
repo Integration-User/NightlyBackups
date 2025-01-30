@@ -15666,6 +15666,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Account_Handoff_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Account_Hierarchy_Ext_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -15792,6 +15797,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Bulk_Activation__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Business_Days_to_Onboarding_Completion__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
