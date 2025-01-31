@@ -8307,6 +8307,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Canada Outlook</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Cold Storage</fullName>
                 <default>false</default>
             </values>
@@ -8316,6 +8320,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Gaming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global Data Centers %28U%2ES%2E and Pan-European%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8383,6 +8391,26 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Pan-European Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Residential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Residential</fullName>
                 <default>false</default>
             </values>
@@ -8416,6 +8444,42 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Towers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Apartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Lodging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Mall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Self-Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Senior Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Single-Family Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Strip Center</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11558,6 +11622,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Canada Outlook</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Cold Storage</fullName>
                 <default>false</default>
             </values>
@@ -11567,6 +11635,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Gaming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global Data Centers %28U%2ES%2E and Pan-European%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11634,6 +11706,26 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Pan-European Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Residential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pan-European Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Residential</fullName>
                 <default>false</default>
             </values>
@@ -11667,6 +11759,42 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Towers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Apartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Lodging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Mall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Self-Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Senior Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Single-Family Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>U%2ES%2E Strip Center</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
