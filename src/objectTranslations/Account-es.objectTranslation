@@ -1619,6 +1619,22 @@
         <relationshipLabel><!-- Accounts (EU Expansion Owner) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Entitlement Guidance Notes --></label>
+        <name>Entitlement_Guidance_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entitlement Guidance --></label>
+        <name>Entitlement_Guidance__c</name>
+        <picklistValues>
+            <masterLabel>No Restrictions</masterLabel>
+            <translation><!-- No Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted - See Notes Field</masterLabel>
+            <translation><!-- Restricted - See Notes Field --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Excel Add-In Users --></label>
         <name>Excel_Add_In_Users__c</name>
     </fields>
@@ -3260,6 +3276,10 @@
     <validationRules>
         <errorMessage><!-- You cannot change the name of this Account. --></errorMessage>
         <name>Prevent_Renaming_Unassigned_Accounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Entitlement Guidance Notes. --></errorMessage>
+        <name>Require_Entitlement_Guidance</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please provide Prospect Notes when Prospect Category &quot;Not Viable&quot; is selected --></errorMessage>
