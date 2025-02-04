@@ -1771,6 +1771,10 @@
         <name>GSA_ID__c</name>
     </fields>
     <fields>
+        <label><!-- GS News: Canada Client --></label>
+        <name>GS_News_Canada_Client__c</name>
+    </fields>
+    <fields>
         <label><!-- Geographic Exposure --></label>
         <name>Geographic_Exposure__c</name>
     </fields>

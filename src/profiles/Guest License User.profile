@@ -16071,6 +16071,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.GS_News_Canada_Client__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Geographic_Exposure__c</field>
         <readable>false</readable>
     </fieldPermissions>
