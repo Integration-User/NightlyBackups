@@ -300,7 +300,7 @@ SF-775: PB Migration</description>
         <connector>
             <targetReference>Check_Research_Opportunity</targetReference>
         </connector>
-        <filterLogic>1 AND 2 AND 3 AND (4 OR 5)</filterLogic>
+        <filterLogic>1 AND 2 AND 3</filterLogic>
         <filters>
             <field>AccountId</field>
             <operator>EqualTo</operator>
@@ -320,20 +320,6 @@ SF-775: PB Migration</description>
             <operator>EqualTo</operator>
             <value>
                 <stringValue>Closed Won</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>Record_Type_for_Query__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Sales Opportunity - Closed</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>Record_Type_for_Query__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Sales Opportunity</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>

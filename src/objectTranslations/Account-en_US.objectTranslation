@@ -1710,9 +1710,9 @@
         <name>Distant_Leads__c</name>
     </fields>
     <fields>
-        <label><!-- EU Expansion Owner --></label>
+        <label><!-- EU Named Account Owner --></label>
         <name>EU_Expansion_Owner__c</name>
-        <relationshipLabel><!-- Accounts (EU Expansion Owner) --></relationshipLabel>
+        <relationshipLabel><!-- Accounts (EU Named Account Owner) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Entitlement Guidance Notes --></label>
@@ -3054,9 +3054,9 @@
         <name>UK_Strategic_Account_Action_Items__c</name>
     </fields>
     <fields>
-        <label><!-- US Expansion Owner --></label>
+        <label><!-- US Named Account Owner --></label>
         <name>US_Expansion_Owner__c</name>
-        <relationshipLabel><!-- Accounts (US Expansion Owner) --></relationshipLabel>
+        <relationshipLabel><!-- Accounts (US Named Account Owner) --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- YOY Usage % Change --></help>
