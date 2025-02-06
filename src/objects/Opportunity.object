@@ -7659,6 +7659,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>Lead_Type__c</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>Marketing_Identified_Country__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
         <filterScope>Mine</filterScope>
         <filters>
             <field>OPPORTUNITY.RECORDTYPE</field>
@@ -7675,6 +7676,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             <group>EU_BDR</group>
             <role>BDR</role>
             <role>BDR_Manager</role>
+            <role>Inbound_BDR</role>
         </sharedTo>
     </listViews>
     <listViews>

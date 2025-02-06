@@ -143,6 +143,11 @@
         <name>Account_Category__c</name>
     </fields>
     <fields>
+        <help><!-- The date when an Event of type &quot;Account Handoff&quot; was marked &quot;Completed&quot; --></help>
+        <label><!-- Account Handoff Date --></label>
+        <name>Account_Handoff_Date__c</name>
+    </fields>
+    <fields>
         <help><!-- This should be the same for all Accounts in a hierarchy. For consistency, either check the parent account OR use the first 5 letters of the top level parent. --></help>
         <label><!-- Account Hierarchy Ext Id --></label>
         <name>Account_Hierarchy_Ext_Id__c</name>
@@ -348,6 +353,11 @@
     <fields>
         <label><!-- Bulk Activation --></label>
         <name>Bulk_Activation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of business days between the Became Client Date, and the completion of the Onboarding handoff event. --></help>
+        <label><!-- Business Days to Onboarding Completion --></label>
+        <name>Business_Days_to_Onboarding_Completion__c</name>
     </fields>
     <fields>
         <label><!-- CRE Exposure --></label>
@@ -1697,9 +1707,25 @@
         <name>Distant_Leads__c</name>
     </fields>
     <fields>
-        <label><!-- EU Expansion Owner --></label>
+        <label><!-- EU Named Account Owner --></label>
         <name>EU_Expansion_Owner__c</name>
-        <relationshipLabel><!-- Accounts (EU Expansion Owner) --></relationshipLabel>
+        <relationshipLabel><!-- Accounts (EU Named Account Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Entitlement Guidance Notes --></label>
+        <name>Entitlement_Guidance_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entitlement Guidance --></label>
+        <name>Entitlement_Guidance__c</name>
+        <picklistValues>
+            <masterLabel>No Restrictions</masterLabel>
+            <translation><!-- No Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted - See Notes Field</masterLabel>
+            <translation><!-- Restricted - See Notes Field --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Excel Add-In Users --></label>
@@ -1740,6 +1766,10 @@
     <fields>
         <label><!-- GSA ID --></label>
         <name>GSA_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- GS News: Canada Client --></label>
+        <name>GS_News_Canada_Client__c</name>
     </fields>
     <fields>
         <label><!-- Geographic Exposure --></label>
@@ -3021,9 +3051,9 @@
         <name>UK_Strategic_Account_Action_Items__c</name>
     </fields>
     <fields>
-        <label><!-- US Expansion Owner --></label>
+        <label><!-- US Named Account Owner --></label>
         <name>US_Expansion_Owner__c</name>
-        <relationshipLabel><!-- Accounts (US Expansion Owner) --></relationshipLabel>
+        <relationshipLabel><!-- Accounts (US Named Account Owner) --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- YOY Usage % Change --></help>
@@ -3343,6 +3373,10 @@
     <validationRules>
         <errorMessage><!-- You cannot change the name of this Account. --></errorMessage>
         <name>Prevent_Renaming_Unassigned_Accounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Entitlement Guidance Notes. --></errorMessage>
+        <name>Require_Entitlement_Guidance</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please provide Prospect Notes when Prospect Category &quot;Not Viable&quot; is selected --></errorMessage>

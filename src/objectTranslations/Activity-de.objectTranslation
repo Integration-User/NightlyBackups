@@ -770,6 +770,10 @@
         <name>Owner_Contact__c</name>
     </fields>
     <fields>
+        <label><!-- Potential Advisory Lead --></label>
+        <name>Potential_Advisory_Lead__c</name>
+    </fields>
+    <fields>
         <label><!-- Priority --></label>
         <name>Priority__c</name>
         <picklistValues>

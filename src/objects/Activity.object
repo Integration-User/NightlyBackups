@@ -1206,6 +1206,12 @@ Owner:User.Id =  $User.Id)</formula>
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Potential_Advisory_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Potential Advisory Lead</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Priority__c</fullName>
         <label>Priority</label>
         <required>false</required>
