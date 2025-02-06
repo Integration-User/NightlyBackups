@@ -24443,6 +24443,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.Potential_Advisory_Lead__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Priority__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -30455,6 +30460,11 @@
         <editable>false</editable>
         <field>Task.Owner_Contact__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Potential_Advisory_Lead__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -48399,6 +48409,33 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>System_Configuration__mdt-System Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.LID__InMail</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.LID__LinkedIn_Call</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.LID__Message</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.LID__PointDrive_Presentation_Created</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.LID__PointDrive_Presentation_Viewed</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.Task</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Trigger_Execution_Update__mdt-Trigger Execution Update Layout</layout>

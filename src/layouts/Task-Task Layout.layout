@@ -46,6 +46,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Potential_Advisory_Lead__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Advisory__c</field>
             </layoutItems>
         </layoutColumns>
@@ -78,10 +82,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Objective__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Salesloft_Meeting_Type__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
