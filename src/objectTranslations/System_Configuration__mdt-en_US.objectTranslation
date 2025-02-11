@@ -13,6 +13,10 @@
         <name>IsEnabled__c</name>
     </fields>
     <fields>
+        <label><!-- List Of Value --></label>
+        <name>List_Of_Value__c</name>
+    </fields>
+    <fields>
         <label><!-- Value --></label>
         <name>Value__c</name>
     </fields>

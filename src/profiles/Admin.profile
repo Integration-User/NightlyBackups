@@ -3333,6 +3333,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>UpdateAccountProductOnOppCloseWonBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>UpdateAnalystHoursForAccountBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -30532,6 +30536,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>System_Configuration__mdt.IsEnabled__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>System_Configuration__mdt.List_Of_Value__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
