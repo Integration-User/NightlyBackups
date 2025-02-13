@@ -9,6 +9,22 @@
         <startsWith>Consonant</startsWith>
     </fields>
     <fields>
+        <label><!-- APJ Company Name --></label>
+        <name>APJ_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- APJ Expiration Date --></label>
+        <name>APJ_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- APJ ID --></label>
+        <name>APJ_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- APJ Subscription Type --></label>
+        <name>APJ_Subscription_Type__c</name>
+    </fields>
+    <fields>
         <label><!-- Account Priority --></label>
         <name>Account_Priority__c</name>
     </fields>
