@@ -10515,31 +10515,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13375,31 +13359,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16171,31 +16139,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18911,31 +18863,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21947,31 +21883,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -24911,31 +24831,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -27699,31 +27603,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -30395,27 +30283,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -33000,27 +32872,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35800,31 +35656,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -38789,27 +38629,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -41841,31 +41665,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -44749,31 +44557,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Add-on</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Award Table</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
