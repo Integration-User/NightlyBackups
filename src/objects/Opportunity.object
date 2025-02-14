@@ -10522,6 +10522,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -13354,6 +13374,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -16122,6 +16162,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -18831,6 +18891,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -24910,6 +24990,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -27667,6 +27767,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35687,6 +35807,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -38641,6 +38781,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -41672,6 +41832,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -44552,6 +44732,26 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -45313,6 +45513,12 @@ ISBLANK(AP_Email__c))</errorConditionFormula>
         <fullName>Acct_Company_Type_Is_Required</fullName>
         <active>true</active>
         <errorConditionFormula>AND(
+$UserRole.DeveloperName &lt;&gt; &quot;Subscription_Manager&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Subscription_Operations&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Subscription_Sales&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Event_Manager&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Event_Operations&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Event_User&quot;,
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISBLANK(Company_Type_Opp__c),
 ISCHANGED(StageName),
@@ -45486,6 +45692,12 @@ ISBLANK(New_Sales_Opportunity__c)
         <fullName>Check_SDO_Disqualified_Account_Fields</fullName>
         <active>true</active>
         <errorConditionFormula>AND(
+$UserRole.DeveloperName &lt;&gt; &quot;Subscription_Manager&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Subscription_Operations&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Subscription_Sales&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Event_Manager&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Event_Operations&quot;,
+$UserRole.DeveloperName &lt;&gt; &quot;Event_User&quot;,
 $RecordType.DeveloperName = &quot;Sales_Development&quot;,
 ISPICKVAL( StageName , &quot;Disqualified&quot;),
 ISCHANGED(StageName),

@@ -515,6 +515,14 @@
             <type>role</type>
         </recipients>
         <recipients>
+            <recipient>Event_Manager</recipient>
+            <type>roleSubordinates</type>
+        </recipients>
+        <recipients>
+            <recipient>Subscription_Manager</recipient>
+            <type>roleSubordinates</type>
+        </recipients>
+        <recipients>
             <recipient>ameoli@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
