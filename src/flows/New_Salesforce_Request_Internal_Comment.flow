@@ -120,7 +120,6 @@
             </value>
         </inputParameters>
         <nameSegment>Case.Create_Case_Comment</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>53.0</apiVersion>
     <decisions>

@@ -29,7 +29,6 @@
         </inputParameters>
         <nameSegment>script_InvocableCreateSubUsersBulk</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Navigate_to_Subscription</name>
@@ -50,7 +49,6 @@
         </inputParameters>
         <nameSegment>c:NavigateToRecord</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Post_Error_to_Chatter</name>
@@ -77,7 +75,6 @@
         </inputParameters>
         <nameSegment>chatterPost</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Sync_to_Zephr</name>
@@ -102,7 +99,6 @@
         </inputParameters>
         <nameSegment>zephr_InvocableStartSubProvisioning</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>52.0</apiVersion>
     <assignments>

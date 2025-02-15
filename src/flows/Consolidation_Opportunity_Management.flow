@@ -32,7 +32,6 @@
             <assignToReference>Result</assignToReference>
             <name>result</name>
         </outputParameters>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
     <environments>Default</environments>
