@@ -13,6 +13,11 @@
         <name>ADV_PPD_Sent__c</name>
     </fields>
     <fields>
+        <label><!-- AM Referrer --></label>
+        <name>AM_Referrer__c</name>
+        <relationshipLabel><!-- Opportunities (AM Referrer) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- AP Email --></label>
         <name>AP_Email__c</name>
     </fields>
@@ -131,12 +136,12 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Judd</masterLabel>
-            <translation><!-- Judd --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maude</masterLabel>
+            <translation><!-- Maude --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -2707,12 +2712,12 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Judd</masterLabel>
-            <translation><!-- Judd --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maude</masterLabel>
+            <translation><!-- Maude --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
