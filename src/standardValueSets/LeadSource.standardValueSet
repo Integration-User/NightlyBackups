@@ -366,4 +366,14 @@
         <default>false</default>
         <label>Sales - Zoominfo</label>
     </standardValue>
+    <standardValue>
+        <fullName>Canada</fullName>
+        <default>false</default>
+        <label>Canada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IJ Global</fullName>
+        <default>false</default>
+        <label>IJ Global</label>
+    </standardValue>
 </StandardValueSet>

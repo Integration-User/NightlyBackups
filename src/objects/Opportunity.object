@@ -7801,12 +7801,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>OPPORTUNITY.CLOSE_DATE</columns>
         <columns>OPPORTUNITY.AMOUNT</columns>
         <columns>Opportunity_Age__c</columns>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <operation>equals</operation>
-            <value>Qualified Prospect (2)</value>
-        </filters>
+        <filterScope>Everything</filterScope>
         <filters>
             <field>OPPORTUNITY.RECORDTYPE</field>
             <operation>equals</operation>
