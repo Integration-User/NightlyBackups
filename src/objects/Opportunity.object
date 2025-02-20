@@ -377,6 +377,17 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>AM_Referrer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>AM Referrer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>AMReferrerOppty</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>AP_Email__c</fullName>
         <label>AP Email</label>
         <length>32768</length>
@@ -632,11 +643,6 @@
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Judd</fullName>
-                    <default>false</default>
-                    <label>Judd</label>
-                </value>
-                <value>
                     <fullName>Greco</fullName>
                     <default>false</default>
                     <label>Greco</label>
@@ -655,6 +661,17 @@
                     <fullName>Walburger</fullName>
                     <default>false</default>
                     <label>Walburger</label>
+                </value>
+                <value>
+                    <fullName>Maude</fullName>
+                    <default>false</default>
+                    <label>Maude</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Judd</label>
                 </value>
                 <value>
                     <fullName>Lemansky</fullName>
@@ -5614,11 +5631,6 @@ NULL))))</formula>
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Judd</fullName>
-                    <default>false</default>
-                    <label>Judd</label>
-                </value>
-                <value>
                     <fullName>Greco</fullName>
                     <default>false</default>
                     <label>Greco</label>
@@ -5637,6 +5649,17 @@ NULL))))</formula>
                     <fullName>Walburger</fullName>
                     <default>false</default>
                     <label>Walburger</label>
+                </value>
+                <value>
+                    <fullName>Maude</fullName>
+                    <default>false</default>
+                    <label>Maude</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Judd</label>
                 </value>
                 <value>
                     <fullName>Lemansky</fullName>
@@ -7348,6 +7371,7 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>ACCOUNT.NAME</columns>
         <columns>Lead_Contact__c</columns>
         <columns>Lead_Contact_Email__c</columns>
+        <columns>Marketing_Identified_Country__c</columns>
         <columns>Contact_Name_For_Testing__c</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>Lead_Channel__c</columns>
@@ -7355,7 +7379,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>OPPORTUNITY.LEAD_SOURCE</columns>
         <columns>Submission_Notes_New__c</columns>
         <columns>Type_Details__c</columns>
-        <columns>Marketing_Identified_Country__c</columns>
         <columns>OPPORTUNITY.CREATED_DATE</columns>
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
@@ -10441,7 +10464,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13293,7 +13324,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16089,7 +16128,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18821,7 +18868,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19642,10 +19697,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Hewett Research</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Judd</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22268,10 +22319,6 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Judd</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Ling</fullName>
                 <default>false</default>
             </values>
@@ -24885,7 +24932,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -35702,7 +35757,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -36607,11 +36670,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Judd</fullName>
+                <fullName>Ling</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Ling</fullName>
+                <fullName>Maude</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -38659,7 +38722,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -39094,11 +39165,11 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Judd</fullName>
+                <fullName>Ling</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Ling</fullName>
+                <fullName>Maude</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -41727,7 +41798,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -44623,7 +44702,15 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -45520,8 +45607,10 @@ ISCHANGED(StageName),
 OR(
 ISPICKVAL( StageName , &quot;Disqualified&quot;),
 ISPICKVAL( StageName , &quot;In Review&quot;)
-)
-)</errorConditionFormula>
+),
+OR
+(
+NOT(ISPICKVAL(LeadSource, &quot;IJGlobal&quot;))))</errorConditionFormula>
         <errorMessage>Company type on account must be completed.</errorMessage>
     </validationRules>
     <validationRules>
@@ -45700,7 +45789,10 @@ OR(
 ISBLANK(TEXT(Account.Company_Type__c)),
 ISBLANK(Account.BillingAddress),
 ISBLANK(Account.Website)
-))</errorConditionFormula>
+),
+OR
+(
+NOT(ISPICKVAL(LeadSource, &quot;IJGlobal&quot;))))</errorConditionFormula>
         <errorMessage>To enter &quot;Disqualified&quot; stage, the following fields are required on the account: Website, Company Type, Address.</errorMessage>
     </validationRules>
     <validationRules>

@@ -407,6 +407,11 @@
         <label>Registered</label>
     </standardValue>
     <standardValue>
+        <fullName>Report Requested</fullName>
+        <default>false</default>
+        <label>Report Requested</label>
+    </standardValue>
+    <standardValue>
         <fullName>Report Sent</fullName>
         <default>false</default>
         <label>Report Sent</label>

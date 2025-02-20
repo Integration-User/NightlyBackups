@@ -168,6 +168,10 @@
             <translation><!-- Ling --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Maude</masterLabel>
+            <translation><!-- Maude --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>React News</masterLabel>
             <translation><!-- React News --></translation>
         </picklistValues>

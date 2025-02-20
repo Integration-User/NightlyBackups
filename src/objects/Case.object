@@ -4507,6 +4507,14 @@ FALSE)))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Commercial Mortgage Alert</fullName>
                 <default>false</default>
             </values>
@@ -5951,7 +5959,15 @@ FALSE)))))))))))</formula>
         <picklistValues>
             <picklist>Products_Discussed__c</picklist>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7218,6 +7234,14 @@ FALSE)))))))))))</formula>
         <picklistValues>
             <picklist>Products_Discussed__c</picklist>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Data License%3A Petrol Station Forecourt Data</fullName>
                 <default>false</default>
             </values>
@@ -8455,6 +8479,14 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Atlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9821,7 +9853,15 @@ FALSE)))))))))))</formula>
         <picklistValues>
             <picklist>Products_Discussed__c</picklist>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11074,6 +11114,14 @@ FALSE)))))))))))</formula>
             <picklist>Products_Discussed__c</picklist>
             <values>
                 <fullName>API</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12409,7 +12457,15 @@ FALSE)))))))))))</formula>
         <picklistValues>
             <picklist>Products_Discussed__c</picklist>
             <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13657,6 +13713,14 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Advisory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15002,6 +15066,14 @@ FALSE)))))))))))</formula>
         </picklistValues>
         <picklistValues>
             <picklist>Products_Discussed__c</picklist>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Data License Directory</fullName>
                 <default>false</default>

@@ -328,6 +328,17 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <fields>
+        <fullName>AM_Referrer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>AM Referrer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>AMReferrer</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Leads associated with this account.</description>
@@ -456,11 +467,6 @@
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Judd</fullName>
-                    <default>false</default>
-                    <label>Judd</label>
-                </value>
-                <value>
                     <fullName>Greco</fullName>
                     <default>false</default>
                     <label>Greco</label>
@@ -479,6 +485,17 @@
                     <fullName>Walburger</fullName>
                     <default>false</default>
                     <label>Walburger</label>
+                </value>
+                <value>
+                    <fullName>Maude</fullName>
+                    <default>false</default>
+                    <label>Maude</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Judd</label>
                 </value>
                 <value>
                     <fullName>Lemansky</fullName>
@@ -3646,11 +3663,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <label>Ling</label>
                 </value>
                 <value>
-                    <fullName>Judd</fullName>
-                    <default>false</default>
-                    <label>Judd</label>
-                </value>
-                <value>
                     <fullName>Greco</fullName>
                     <default>false</default>
                     <label>Greco</label>
@@ -3669,6 +3681,17 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <fullName>Walburger</fullName>
                     <default>false</default>
                     <label>Walburger</label>
+                </value>
+                <value>
+                    <fullName>Maude</fullName>
+                    <default>false</default>
+                    <label>Maude</label>
+                </value>
+                <value>
+                    <fullName>Judd</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Judd</label>
                 </value>
                 <value>
                     <fullName>Lemansky</fullName>
@@ -5459,11 +5482,11 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Judd</fullName>
+                <fullName>Ling</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Ling</fullName>
+                <fullName>Maude</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8160,11 +8183,11 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Judd</fullName>
+                <fullName>Ling</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Ling</fullName>
+                <fullName>Maude</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8819,6 +8842,10 @@ Stored as Long on Solr.</description>
             <picklist>Assignment_Team__c</picklist>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maude</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11472,6 +11499,10 @@ Stored as Long on Solr.</description>
             <picklist>Qualifying_Team__c</picklist>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maude</fullName>
                 <default>false</default>
             </values>
             <values>

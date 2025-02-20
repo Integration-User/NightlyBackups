@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- AM Referrer --></label>
+        <name>AM_Referrer__c</name>
+        <relationshipLabel><!-- Leads (AM Referrer) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Account --></label>
         <name>Account__c</name>
         <relationshipLabel><!-- Leads --></relationshipLabel>
@@ -47,12 +52,12 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Judd</masterLabel>
-            <translation><!-- Judd --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maude</masterLabel>
+            <translation><!-- Maude --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
@@ -1988,12 +1993,12 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Judd</masterLabel>
-            <translation><!-- Judd --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maude</masterLabel>
+            <translation><!-- Maude --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>React News</masterLabel>
