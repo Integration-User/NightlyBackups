@@ -670,7 +670,6 @@
                 <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Judd</label>
                 </value>
                 <value>
@@ -5658,7 +5657,6 @@ NULL))))</formula>
                 <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Judd</label>
                 </value>
                 <value>
@@ -36670,6 +36668,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Judd</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Ling</fullName>
                 <default>false</default>
             </values>
@@ -39162,6 +39164,10 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
             </values>
             <values>
                 <fullName>Hewett Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Judd</fullName>
                 <default>false</default>
             </values>
             <values>
