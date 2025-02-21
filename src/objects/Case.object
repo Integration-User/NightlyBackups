@@ -1643,9 +1643,24 @@
                     <label>Asset-Backed Alert</label>
                 </value>
                 <value>
+                    <fullName>Canada Detailed NAV</fullName>
+                    <default>false</default>
+                    <label>Canada Detailed NAV</label>
+                </value>
+                <value>
+                    <fullName>Canada Research + Market Data &amp; Deals</fullName>
+                    <default>false</default>
+                    <label>Canada Research + Market Data &amp; Deals</label>
+                </value>
+                <value>
                     <fullName>Canada Research + REIT Data</fullName>
                     <default>false</default>
                     <label>Canada Research + REIT Data</label>
+                </value>
+                <value>
+                    <fullName>CAN Sales Comps</fullName>
+                    <default>false</default>
+                    <label>CAN Sales Comps</label>
                 </value>
                 <value>
                     <fullName>Commercial Mortgage Alert</fullName>
@@ -4583,6 +4598,10 @@ FALSE)))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -5991,6 +6010,10 @@ FALSE)))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -6103,6 +6126,18 @@ FALSE)))))))))))</formula>
             <picklist>Products__c</picklist>
             <values>
                 <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7231,6 +7266,10 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8523,6 +8562,10 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9841,6 +9884,10 @@ FALSE)))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -11085,6 +11132,10 @@ FALSE)))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -11233,6 +11284,18 @@ FALSE)))))))))))</formula>
             <picklist>Products__c</picklist>
             <values>
                 <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12409,6 +12472,10 @@ FALSE)))))))))))</formula>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJGlobal%3A Data Delivery %2B News %2B IJ Investor</fullName>
                 <default>false</default>
             </values>
@@ -12513,6 +12580,18 @@ FALSE)))))))))))</formula>
             <picklist>Products__c</picklist>
             <values>
                 <fullName>Asset-Backed Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAN Sales Comps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Detailed NAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Research %2B Market Data %26 Deals</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13649,6 +13728,10 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News%3A Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14976,6 +15059,10 @@ FALSE)))))))))))</formula>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Event Sponsorship</fullName>
                 <default>false</default>
             </values>
             <values>
