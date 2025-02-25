@@ -288,10 +288,6 @@
         <description>Use this Lead Process for all internal referrals</description>
         <isActive>true</isActive>
         <values>
-            <fullName>Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Disqualified</fullName>
             <default>false</default>
         </values>
@@ -5270,6 +5266,11 @@ Stored as Long on Solr.</description>
             <operation>equals</operation>
             <value>Open,Working</value>
         </filters>
+        <filters>
+            <field>LEAD.LEAD_SOURCE</field>
+            <operation>equals</operation>
+            <value>Marketing Qualified,Inquiry,Slide Request,New Alert Trial,Demo Request</value>
+        </filters>
         <label>All Open Leads</label>
     </listViews>
     <listViews>
@@ -5328,6 +5329,7 @@ Stored as Long on Solr.</description>
         <columns>CREATEDBY_USER.ALIAS</columns>
         <columns>CORE.USERS.LAST_NAME</columns>
         <columns>LEAD.STATUS</columns>
+        <columns>Referred_by_Role_Lead__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>LEAD.RECORDTYPE</field>
@@ -6258,6 +6260,185 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Real Estate Analytics</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AM Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apollo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cognism</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conference%2FEvent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News Subscription Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-News%2FEvent Driven</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Previous Client%2FContact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Sales Trip</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Strategic Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Previous Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Indirect-Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Indirect-Law Firm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Past Client Introduction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upsell Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zoominfo</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9414,6 +9595,185 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Real Estate Analytics</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>6sense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AM Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apollo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cognism</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conference%2FEvent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJGlobal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industry Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Locatus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Alert Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>News Subscription Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Conference%2FSpeaker%2FWebinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-News%2FEvent Driven</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Previous Client%2FContact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Sales Trip</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outbound-Strategic Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Previous Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proactive Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>React %26 US News Ecomm Inquiries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Indirect-Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Indirect-Law Firm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral%3A Past Client Introduction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Slide Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upsell Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zoominfo</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

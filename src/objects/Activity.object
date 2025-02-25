@@ -1448,6 +1448,16 @@ Owner:User.Id =  $User.Id)</formula>
                     <label>Green Street News: Europe</label>
                 </value>
                 <value>
+                    <fullName>Silver Package</fullName>
+                    <default>false</default>
+                    <label>Silver Package</label>
+                </value>
+                <value>
+                    <fullName>Exhibitor Package</fullName>
+                    <default>false</default>
+                    <label>Exhibitor Package</label>
+                </value>
+                <value>
                     <fullName>ABAlert</fullName>
                     <default>false</default>
                     <isActive>false</isActive>

@@ -4,8 +4,8 @@
     <description>Provides an ability to use Salesforce API for Cvent app</description>
     <label>Cvent SFDC</label>
     <oauthConfig>
-        <callbackUrl>https://greenstreetadvisors--gsfull.sandbox.my.salesforce.com/apex/cventevents__oauthcallback</callbackUrl>
-        <consumerKey>3MVG92b206lZ9FcbrsZvADrteLiPgCExrmDnG7LbCcMaegy3BWh8QSfv6os.gp6NN2toBazjR0tdRbw3NrpXj</consumerKey>
+        <callbackUrl>https://greenstreetadvisors.my.salesforce.com/apex/cventevents__oauthcallback</callbackUrl>
+        <consumerKey>3MVG9Ya9prPrtlptGtV4B0J4hi4Ok_z78x36bwQtsiXAlsmkfc3CA9kM3sZTd5_9TaVGJjZRSPlCoWKuanXnO</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

@@ -7,7 +7,7 @@
     <logoUrl>https://greenstreetadvisors.my.salesforce.com/environmenthub/images/connected_app_logo.png</logoUrl>
     <oauthConfig>
         <callbackUrl>https://greenstreetadvisors.my.salesforce.com/environmenthub/soma-callback.apexp</callbackUrl>
-        <consumerKey>3MVG92b206lZ9Fcbk35BOi2zD46arNQBPnzHCzxU9VlWaWNNCodqJ.jIzzEmVXQfkh4MNiajPQO0PpvG8.zPM</consumerKey>
+        <consumerKey>3MVG9Ya9prPrtlptGtV4B0J4hi4Ok_z78x36bcVRKa2M4gFvpXlROxsm6TseK4IcokflfbH5XvHuCo2_2O4P8</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

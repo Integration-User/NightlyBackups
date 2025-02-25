@@ -884,6 +884,54 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>EuromoneyDivision__c</fullName>
+        <label>Euromoney Division</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>asset-management</fullName>
+                    <default>false</default>
+                    <label>asset-management</label>
+                </value>
+                <value>
+                    <fullName>Derivia</fullName>
+                    <default>false</default>
+                    <label>Derivia</label>
+                </value>
+                <value>
+                    <fullName>Fastmarkets</fullName>
+                    <default>false</default>
+                    <label>Fastmarkets</label>
+                </value>
+                <value>
+                    <fullName>financial-and-professional-services</fullName>
+                    <default>false</default>
+                    <label>financial-and-professional-services</label>
+                </value>
+                <value>
+                    <fullName>Invisso</fullName>
+                    <default>false</default>
+                    <label>Invisso</label>
+                </value>
+                <value>
+                    <fullName>techoraco</fullName>
+                    <default>false</default>
+                    <label>techoraco</label>
+                </value>
+                <value>
+                    <fullName>Telecoms</fullName>
+                    <default>false</default>
+                    <label>Telecoms</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>EventCostCentre__c</fullName>
         <externalId>false</externalId>
         <label>Event Cost Centre</label>
@@ -897,6 +945,16 @@
         <fullName>EventThumbnailImage__c</fullName>
         <externalId>false</externalId>
         <label>Event Thumbnail Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EventTitle__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Title</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -1009,7 +1067,7 @@
         <columns>CventEvents__pkg_StartDate__c</columns>
         <columns>CventEvents__pkg_StartTime__c</columns>
         <columns>CventEvents__pkg_TimeZone__c</columns>
-        <columns>CventEvents__pkg_EventStub__c</columns>
+        <columns>EventCostCentre__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

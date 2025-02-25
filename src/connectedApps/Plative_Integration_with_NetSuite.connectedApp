@@ -4,7 +4,7 @@
     <label>Plative Integration with NetSuite</label>
     <oauthConfig>
         <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
-        <consumerKey>3MVG92b206lZ9Fcbk35BOi2zD46arNQBPnzHCHwb9XgG1d3zgq1mkT8vLPbK5lbGkKY7TBjhZdFQs7WuxzxXc</consumerKey>
+        <consumerKey>3MVG9Ya9prPrtlptGtV4B0J4hi4Ok_z78x36b2MHy8JxK6qU1S3H4WbQ2vGNJ1cqqQy05gMk.L248AiIy4b1u</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

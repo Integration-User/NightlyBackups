@@ -344,17 +344,6 @@
         <relatedList>Opportunity.Event__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <excludeButtons>MassChangeOwner</excludeButtons>
-        <excludeButtons>New</excludeButtons>
-        <fields>Campaign.NAME</fields>
-        <fields>Campaign.CMP_TYPE</fields>
-        <fields>Campaign.CMP_STATUS</fields>
-        <fields>Campaign.CMP_ACTIVE</fields>
-        <fields>Campaign.CMP_START_DATE</fields>
-        <fields>Campaign.CMP_END_DATE</fields>
-        <relatedList>CventEvents__EventCampaignEntry__c.CventEvents__Event__c</relatedList>
-    </relatedLists>
-    <relatedLists>
         <excludeButtons>NewEvent</excludeButtons>
         <excludeButtons>NewTask</excludeButtons>
         <fields>TASK.SUBJECT</fields>
@@ -367,6 +356,17 @@
         <fields>TASK.CREATED_DATE</fields>
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>Activity.Event__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>Campaign.NAME</fields>
+        <fields>Campaign.CMP_TYPE</fields>
+        <fields>Campaign.CMP_STATUS</fields>
+        <fields>Campaign.CMP_ACTIVE</fields>
+        <fields>Campaign.CMP_START_DATE</fields>
+        <fields>Campaign.CMP_END_DATE</fields>
+        <relatedList>CventEvents__EventCampaignEntry__c.CventEvents__Event__c</relatedList>
     </relatedLists>
     <relatedLists>
         <excludeButtons>MassChangeOwner</excludeButtons>
@@ -393,19 +393,13 @@
         <fields>LAST_UPDATE</fields>
         <relatedList>CventEvents__Attendee__c.CventEvents__Event__c</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>Opportunity.IJ_Global_Events_Related_Event__c</relatedList>
-    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hWE000000oS7q</masterLabel>
+        <masterLabel>00hVy000000RzR4</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

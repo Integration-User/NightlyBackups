@@ -399,7 +399,7 @@ public without sharing class zephr_WebhookAPI {
                     }
 
                     //create a new Lead - new trial added
-                    Lead newLead = new Lead(RecordTypeId = Cache.recordTypeId('Lead.' + System.Label.NextGen_Record_Type));
+                    Lead newLead = new Lead();
                     newLead.FirstName = zephrUsers[0].Zephr_First_Name__c;
                     newLead.LastName = zephrUsers[0].Zephr_Last_Name__c;
                     newLead.Company = zephrUsers[0].Zephr_Company_Name__c;

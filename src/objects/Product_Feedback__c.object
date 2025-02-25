@@ -548,11 +548,6 @@
             <valueSettings>
                 <controllingFieldValue>Product Feedback</controllingFieldValue>
                 <controllingFieldValue>Report Feedback</controllingFieldValue>
-                <valueName>Green Street News: Australia</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Product Feedback</controllingFieldValue>
-                <controllingFieldValue>Report Feedback</controllingFieldValue>
                 <valueName>Green Street News: Canada</valueName>
             </valueSettings>
             <valueSettings>
@@ -1440,19 +1435,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Green Street News%3A Australia</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2453,19 +2440,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Green Street News%3A Australia</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Green Street News%3A Europe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>IJ Global%3A Event Sponsorship</fullName>
                 <default>false</default>
             </values>
             <values>

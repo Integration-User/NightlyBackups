@@ -286,8 +286,9 @@
     </fields>
     <label>Zephr User Grant</label>
     <nameField>
+        <displayFormat>GRNT-{000000000}</displayFormat>
         <label>Code</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Zephr User Grants</pluralLabel>
     <searchLayouts/>

@@ -136,6 +136,10 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Judd</masterLabel>
+            <translation><!-- Judd --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
         </picklistValues>
@@ -953,9 +957,9 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- IJ Global Events - Related Event  --></label>
+        <label><!-- IJ Global Events - Related Event --></label>
         <name>IJ_Global_Events_Related_Event__c</name>
-        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+        <relationshipLabel><!-- Opportunities (IJ Global Events - Related Event) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- IJ Global Events - UID --></label>
@@ -2712,6 +2716,10 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Judd</masterLabel>
+            <translation><!-- Judd --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
         </picklistValues>
@@ -3508,10 +3516,6 @@
     <recordTypes>
         <label><!-- Sales Opportunity - Closed --></label>
         <name>Sales_Opportunity_Closed</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Test Sales RT --></label>
-        <name>Test_Sales_RT</name>
     </recordTypes>
     <validationRules>
         <errorMessage><!-- Please ensure AP Email is filled in before marking this Opportunity as Closed Won. --></errorMessage>

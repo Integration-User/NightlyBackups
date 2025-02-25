@@ -144,7 +144,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Event_Record_Page3</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -152,7 +152,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Event_Record_Page3</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -1036,6 +1036,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Exhibitor Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>News - ABA</fullName>
                 <default>false</default>
             </values>
@@ -1081,6 +1085,10 @@
             </values>
             <values>
                 <fullName>REIT Data %E2%80%93 Weekly Pricing Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver Package</fullName>
                 <default>false</default>
             </values>
             <values>

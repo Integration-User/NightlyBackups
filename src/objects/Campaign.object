@@ -279,6 +279,16 @@
         <fullName>EndDate</fullName>
     </fields>
     <fields>
+        <fullName>Event_Cost_Centre__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>CVENT app field - unique identifier from Salesforce to Netsuite</inlineHelpText>
+        <label>Event Cost Centre</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Event_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <description>unique event identifier</description>

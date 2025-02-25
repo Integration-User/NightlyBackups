@@ -635,9 +635,10 @@ IF(NOT(ISBLANK(Zephr_User_Grant__c)), TEXT(Zephr_User_Grant__r.Zephr_Integration
     </fields>
     <label>Subscription User</label>
     <nameField>
+        <displayFormat>SU-{000000}</displayFormat>
         <label>Subscription User ID</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Subscription Users</pluralLabel>
     <searchLayouts/>

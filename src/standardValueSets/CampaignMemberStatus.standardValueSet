@@ -262,6 +262,11 @@
         <label>Follow Up Optional</label>
     </standardValue>
     <standardValue>
+        <fullName>Form Fill</fullName>
+        <default>false</default>
+        <label>Form Fill</label>
+    </standardValue>
+    <standardValue>
         <fullName>Incoming: no outreach</fullName>
         <default>false</default>
         <label>Incoming: no outreach</label>
@@ -400,6 +405,11 @@
         <fullName>Registered</fullName>
         <default>false</default>
         <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report Requested</fullName>
+        <default>false</default>
+        <label>Report Requested</label>
     </standardValue>
     <standardValue>
         <fullName>Report Sent</fullName>

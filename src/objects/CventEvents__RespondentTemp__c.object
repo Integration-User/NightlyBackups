@@ -155,6 +155,54 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>CompanyTypeIJGlobal__c</fullName>
+        <label>Company Type - IJGlobal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advisory</fullName>
+                    <default>false</default>
+                    <label>Advisory</label>
+                </value>
+                <value>
+                    <fullName>Developers</fullName>
+                    <default>false</default>
+                    <label>Developers</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Institutional Investors</fullName>
+                    <default>false</default>
+                    <label>Institutional Investors</label>
+                </value>
+                <value>
+                    <fullName>Lawyers</fullName>
+                    <default>false</default>
+                    <label>Lawyers</label>
+                </value>
+                <value>
+                    <fullName>Lenders</fullName>
+                    <default>false</default>
+                    <label>Lenders</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CventEvents__pkg_Biography__c</fullName>
         <deprecated>false</deprecated>
         <label>Biography</label>
@@ -1158,9 +1206,369 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>FavoriteBand__c</fullName>
+        <fullName>InterestAreasInvisso__c</fullName>
+        <label>Interest Areas - Invisso</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ABS</fullName>
+                    <default>false</default>
+                    <label>ABS</label>
+                </value>
+                <value>
+                    <fullName>CLOs/Leveraged Loans</fullName>
+                    <default>false</default>
+                    <label>CLOs/Leveraged Loans</label>
+                </value>
+                <value>
+                    <fullName>CMBS</fullName>
+                    <default>false</default>
+                    <label>CMBS</label>
+                </value>
+                <value>
+                    <fullName>Commercial ABS (Equipment/Aircraft/Transportation)</fullName>
+                    <default>false</default>
+                    <label>Commercial ABS (Equipment/Aircraft/Transportation)</label>
+                </value>
+                <value>
+                    <fullName>Consumer ABS</fullName>
+                    <default>false</default>
+                    <label>Consumer ABS</label>
+                </value>
+                <value>
+                    <fullName>Corporate Funding/investment</fullName>
+                    <default>false</default>
+                    <label>Corporate Funding/investment</label>
+                </value>
+                <value>
+                    <fullName>Covered bonds</fullName>
+                    <default>false</default>
+                    <label>Covered bonds</label>
+                </value>
+                <value>
+                    <fullName>Direct Lending</fullName>
+                    <default>false</default>
+                    <label>Direct Lending</label>
+                </value>
+                <value>
+                    <fullName>Distressed Debt</fullName>
+                    <default>false</default>
+                    <label>Distressed Debt</label>
+                </value>
+                <value>
+                    <fullName>Emerging markets</fullName>
+                    <default>false</default>
+                    <label>Emerging markets</label>
+                </value>
+                <value>
+                    <fullName>ESG/PACE/Solar ABS</fullName>
+                    <default>false</default>
+                    <label>ESG/PACE/Solar ABS</label>
+                </value>
+                <value>
+                    <fullName>FIG Funding/investment</fullName>
+                    <default>false</default>
+                    <label>FIG Funding/investment</label>
+                </value>
+                <value>
+                    <fullName>Fintech/Ai</fullName>
+                    <default>false</default>
+                    <label>Fintech/Ai</label>
+                </value>
+                <value>
+                    <fullName>Hybrid Capital</fullName>
+                    <default>false</default>
+                    <label>Hybrid Capital</label>
+                </value>
+                <value>
+                    <fullName>Private Credit</fullName>
+                    <default>false</default>
+                    <label>Private Credit</label>
+                </value>
+                <value>
+                    <fullName>Regulation/policy</fullName>
+                    <default>false</default>
+                    <label>Regulation/policy</label>
+                </value>
+                <value>
+                    <fullName>Risk Transfer</fullName>
+                    <default>false</default>
+                    <label>Risk Transfer</label>
+                </value>
+                <value>
+                    <fullName>RMBS (GSE and PLS)</fullName>
+                    <default>false</default>
+                    <label>RMBS (GSE and PLS)</label>
+                </value>
+                <value>
+                    <fullName>SSA Funding/investment</fullName>
+                    <default>false</default>
+                    <label>SSA Funding/investment</label>
+                </value>
+                <value>
+                    <fullName>Sustainable Finance</fullName>
+                    <default>false</default>
+                    <label>Sustainable Finance</label>
+                </value>
+                <value>
+                    <fullName>Whole Loan/NPL/RPL</fullName>
+                    <default>false</default>
+                    <label>Whole Loan/NPL/RPL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>JobFunction__c</fullName>
+        <label>Job Function</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>C-Level / General Manager</fullName>
+                    <default>false</default>
+                    <label>C-Level / General Manager</label>
+                </value>
+                <value>
+                    <fullName>Consultant/Legal</fullName>
+                    <default>false</default>
+                    <label>Consultant/Legal</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>PR/ Press</fullName>
+                    <default>false</default>
+                    <label>PR/ Press</label>
+                </value>
+                <value>
+                    <fullName>Procurement</fullName>
+                    <default>false</default>
+                    <label>Procurement</label>
+                </value>
+                <value>
+                    <fullName>Sales/Business Development</fullName>
+                    <default>false</default>
+                    <label>Sales/Business Development</label>
+                </value>
+                <value>
+                    <fullName>Strategy/Analyst</fullName>
+                    <default>false</default>
+                    <label>Strategy/Analyst</label>
+                </value>
+                <value>
+                    <fullName>Technical/Engineer</fullName>
+                    <default>false</default>
+                    <label>Technical/Engineer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PONumber__c</fullName>
         <externalId>false</externalId>
-        <label>Favorite Band</label>
+        <label>PO Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RegionofResponsibility__c</fullName>
+        <label>Region of Responsibility</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Africa</fullName>
+                    <default>false</default>
+                    <label>Africa</label>
+                </value>
+                <value>
+                    <fullName>Asia-Pacific</fullName>
+                    <default>false</default>
+                    <label>Asia-Pacific</label>
+                </value>
+                <value>
+                    <fullName>Caribbean</fullName>
+                    <default>false</default>
+                    <label>Caribbean</label>
+                </value>
+                <value>
+                    <fullName>Central America</fullName>
+                    <default>false</default>
+                    <label>Central America</label>
+                </value>
+                <value>
+                    <fullName>Europe</fullName>
+                    <default>false</default>
+                    <label>Europe</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>Middle East</fullName>
+                    <default>false</default>
+                    <label>Middle East</label>
+                </value>
+                <value>
+                    <fullName>North America</fullName>
+                    <default>false</default>
+                    <label>North America</label>
+                </value>
+                <value>
+                    <fullName>Russia &amp; CIS</fullName>
+                    <default>false</default>
+                    <label>Russia &amp; CIS</label>
+                </value>
+                <value>
+                    <fullName>South America</fullName>
+                    <default>false</default>
+                    <label>South America</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SeniorityLevel__c</fullName>
+        <label>Seniority Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>C-level, President, VP, SVP, EVP</fullName>
+                    <default>false</default>
+                    <label>C-level, President, VP, SVP, EVP</label>
+                </value>
+                <value>
+                    <fullName>Director &amp; Head</fullName>
+                    <default>false</default>
+                    <label>Director &amp; Head</label>
+                </value>
+                <value>
+                    <fullName>Executive</fullName>
+                    <default>false</default>
+                    <label>Executive</label>
+                </value>
+                <value>
+                    <fullName>Manager</fullName>
+                    <default>false</default>
+                    <label>Manager</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SponsorDelegateOptIn__c</fullName>
+        <label>Sponsor Delegate Opt In</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Opt me in</fullName>
+                    <default>false</default>
+                    <label>Opt me in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Title1__c</fullName>
+        <label>Title1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dr</fullName>
+                    <default>false</default>
+                    <label>Dr</label>
+                </value>
+                <value>
+                    <fullName>Miss</fullName>
+                    <default>false</default>
+                    <label>Miss</label>
+                </value>
+                <value>
+                    <fullName>Mr</fullName>
+                    <default>false</default>
+                    <label>Mr</label>
+                </value>
+                <value>
+                    <fullName>Mrs</fullName>
+                    <default>false</default>
+                    <label>Mrs</label>
+                </value>
+                <value>
+                    <fullName>Ms</fullName>
+                    <default>false</default>
+                    <label>Ms</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Prof</fullName>
+                    <default>false</default>
+                    <label>Prof</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VATNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>VAT Number</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>

@@ -367,7 +367,7 @@ public class Plative_OpportunityRenewalHelper {
                 newOpp.Amount = Opp.Year_7_Amount__c;
             }
         }
-        
+  
         return newOpp;
     }
     

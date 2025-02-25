@@ -841,6 +841,10 @@
             <translation><!-- Excel Add-In --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Exhibitor Package</masterLabel>
+            <translation><!-- Exhibitor Package --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Green Street News: Canada</masterLabel>
             <translation><!-- Green Street News: Canada --></translation>
         </picklistValues>
@@ -915,6 +919,10 @@
         <picklistValues>
             <masterLabel>REIT Data – Weekly Pricing Review</masterLabel>
             <translation><!-- REIT Data – Weekly Pricing Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver Package</masterLabel>
+            <translation><!-- Silver Package --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Snowflake</masterLabel>

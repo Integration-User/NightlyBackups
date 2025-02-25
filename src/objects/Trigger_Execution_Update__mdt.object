@@ -20,16 +20,6 @@
         <type>Checkbox</type>
     </fields>
     <label>Trigger Execution Update</label>
-    <listViews>
-        <fullName>All_Record_Info</fullName>
-        <columns>MasterLabel</columns>
-        <columns>DeveloperName</columns>
-        <columns>NamespacePrefix</columns>
-        <columns>Objects_Name__c</columns>
-        <columns>Skip_Trigger__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All Record Info</label>
-    </listViews>
     <pluralLabel>Trigger Execution Updates</pluralLabel>
     <visibility>Public</visibility>
 </CustomObject>

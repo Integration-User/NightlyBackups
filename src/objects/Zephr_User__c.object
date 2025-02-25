@@ -499,9 +499,10 @@ IF(NOT(ISBLANK( Lead__c )), Lead__r.Email ,
         <label>Without Lead&amp;Contact</label>
     </listViews>
     <nameField>
+        <displayFormat>ZU-{000000000}</displayFormat>
         <label>Code</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Zephr Users</pluralLabel>
     <searchLayouts>

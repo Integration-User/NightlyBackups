@@ -67,10 +67,6 @@
                 <behavior>Edit</behavior>
                 <field>AP_Email__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Delinian_Name__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -222,6 +218,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CampaignId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Delinian_Id__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -379,8 +379,6 @@
         <fields>Upsell_Cross_sell__c</fields>
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
-        <fields>ListPrice</fields>
-        <fields>Starting_Price__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>

@@ -982,7 +982,7 @@ Workflow rule description: &quot;</description>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <name>EmailAccountName</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

@@ -293,6 +293,11 @@
             <field>Data_Quality_Score__c</field>
             <table>Campaign</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Event_Cost_Centre__c</field>
+            <table>Campaign</table>
+        </columns>
         <masterLabel>Campaigns</masterLabel>
     </sections>
     <sections>
@@ -3377,6 +3382,31 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>IJ_Global_Events_Related_Event__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Composite_Key__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Id__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Delinian_Name__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PO_Number__c</field>
+            <table>Campaign.AccountCampaignMembers.Opportunities</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Agency__c</field>
             <table>Campaign.AccountCampaignMembers.Opportunities</table>
         </columns>
         <masterLabel>Opportunities</masterLabel>

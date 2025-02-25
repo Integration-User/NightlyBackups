@@ -279,8 +279,9 @@
     </fields>
     <label>Subscription Product</label>
     <nameField>
+        <displayFormat>SUBP-{000000000}</displayFormat>
         <label>Code</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Subscription Products</pluralLabel>
     <searchLayouts/>

@@ -1474,6 +1474,7 @@ IF(INCLUDES( Opportunity_New__r.Product_Types__c, &quot;News&quot;), &quot;News;
         <sharedTo>
             <role>Commercial_Operations</role>
             <role>Compliance</role>
+            <role>Finance</role>
         </sharedTo>
     </listViews>
     <listViews>

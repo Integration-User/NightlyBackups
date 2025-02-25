@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- Company Type - IJGlobal --></label>
+        <name>CompanyTypeIJGlobal__c</name>
+        <picklistValues>
+            <masterLabel>Advisory</masterLabel>
+            <translation><!-- Advisory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developers</masterLabel>
+            <translation><!-- Developers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institutional Investors</masterLabel>
+            <translation><!-- Institutional Investors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lawyers</masterLabel>
+            <translation><!-- Lawyers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lenders</masterLabel>
+            <translation><!-- Lenders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Biography --></label>
         <name>CventEvents__pkg_Biography__c</name>
     </fields>
@@ -406,7 +438,251 @@
         <name>CventEvents__pkg_WorkStateName__c</name>
     </fields>
     <fields>
-        <label><!-- Favorite Band --></label>
-        <name>FavoriteBand__c</name>
+        <label><!-- Interest Areas - Invisso --></label>
+        <name>InterestAreasInvisso__c</name>
+        <picklistValues>
+            <masterLabel>ABS</masterLabel>
+            <translation><!-- ABS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLOs/Leveraged Loans</masterLabel>
+            <translation><!-- CLOs/Leveraged Loans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMBS</masterLabel>
+            <translation><!-- CMBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial ABS (Equipment/Aircraft/Transportation)</masterLabel>
+            <translation><!-- Commercial ABS (Equipment/Aircraft/Transportation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer ABS</masterLabel>
+            <translation><!-- Consumer ABS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Funding/investment</masterLabel>
+            <translation><!-- Corporate Funding/investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covered bonds</masterLabel>
+            <translation><!-- Covered bonds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Lending</masterLabel>
+            <translation><!-- Direct Lending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distressed Debt</masterLabel>
+            <translation><!-- Distressed Debt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESG/PACE/Solar ABS</masterLabel>
+            <translation><!-- ESG/PACE/Solar ABS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerging markets</masterLabel>
+            <translation><!-- Emerging markets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIG Funding/investment</masterLabel>
+            <translation><!-- FIG Funding/investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fintech/Ai</masterLabel>
+            <translation><!-- Fintech/Ai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybrid Capital</masterLabel>
+            <translation><!-- Hybrid Capital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Credit</masterLabel>
+            <translation><!-- Private Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMBS (GSE and PLS)</masterLabel>
+            <translation><!-- RMBS (GSE and PLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulation/policy</masterLabel>
+            <translation><!-- Regulation/policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Transfer</masterLabel>
+            <translation><!-- Risk Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSA Funding/investment</masterLabel>
+            <translation><!-- SSA Funding/investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Finance</masterLabel>
+            <translation><!-- Sustainable Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole Loan/NPL/RPL</masterLabel>
+            <translation><!-- Whole Loan/NPL/RPL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Function --></label>
+        <name>JobFunction__c</name>
+        <picklistValues>
+            <masterLabel>C-Level / General Manager</masterLabel>
+            <translation><!-- C-Level / General Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant/Legal</masterLabel>
+            <translation><!-- Consultant/Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR/ Press</masterLabel>
+            <translation><!-- PR/ Press --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement</masterLabel>
+            <translation><!-- Procurement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales/Business Development</masterLabel>
+            <translation><!-- Sales/Business Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategy/Analyst</masterLabel>
+            <translation><!-- Strategy/Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical/Engineer</masterLabel>
+            <translation><!-- Technical/Engineer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PONumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region of Responsibility --></label>
+        <name>RegionofResponsibility__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia-Pacific</masterLabel>
+            <translation><!-- Asia-Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribbean</masterLabel>
+            <translation><!-- Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central America</masterLabel>
+            <translation><!-- Central America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East</masterLabel>
+            <translation><!-- Middle East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia &amp; CIS</masterLabel>
+            <translation><!-- Russia &amp; CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seniority Level --></label>
+        <name>SeniorityLevel__c</name>
+        <picklistValues>
+            <masterLabel>C-level, President, VP, SVP, EVP</masterLabel>
+            <translation><!-- C-level, President, VP, SVP, EVP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director &amp; Head</masterLabel>
+            <translation><!-- Director &amp; Head --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sponsor Delegate Opt In --></label>
+        <name>SponsorDelegateOptIn__c</name>
+        <picklistValues>
+            <masterLabel>Opt me in</masterLabel>
+            <translation><!-- Opt me in --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title1 --></label>
+        <name>Title1__c</name>
+        <picklistValues>
+            <masterLabel>Dr</masterLabel>
+            <translation><!-- Dr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miss</masterLabel>
+            <translation><!-- Miss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mr</masterLabel>
+            <translation><!-- Mr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mrs</masterLabel>
+            <translation><!-- Mrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ms</masterLabel>
+            <translation><!-- Ms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prof</masterLabel>
+            <translation><!-- Prof --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VAT Number --></label>
+        <name>VATNumber__c</name>
     </fields>
 </CustomObjectTranslation>

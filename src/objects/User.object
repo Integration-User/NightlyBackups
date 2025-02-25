@@ -1181,6 +1181,7 @@
         <columns>CORE.USERS.EMAIL</columns>
         <columns>CORE.USERS.LAST_LOGIN</columns>
         <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>License_Type__c</columns>
         <columns>CORE.PROFILE.NAME</columns>
         <columns>MANAGER</columns>
         <columns>CREATED_DATE</columns>
@@ -1211,11 +1212,6 @@
             <field>CORE.USER_ROLE.NAME</field>
             <operation>equals</operation>
             <value>System Administrator</value>
-        </filters>
-        <filters>
-            <field>CORE.USERS.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
         </filters>
         <label>Admin Users</label>
     </listViews>
@@ -1273,6 +1269,31 @@
             <value>Finance</value>
         </filters>
         <label>Finance</label>
+    </listViews>
+    <listViews>
+        <fullName>IJ_Global_Users</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.TITLE</columns>
+        <columns>CORE.USERS.EMAIL</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.EMAIL</field>
+            <operation>contains</operation>
+            <value>ijglobal</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>IJ Global Users</label>
+        <sharedTo>
+            <role>Commercial_Operations</role>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>Integration_Users</fullName>

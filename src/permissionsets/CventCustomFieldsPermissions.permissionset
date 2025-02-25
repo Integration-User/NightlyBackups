@@ -3,7 +3,47 @@
     <description>Provides an access to the custom fields created via Metadata Sync for the Cvent App.</description>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CventEvents__AttendeeTemp__c.FavoriteBand__c</field>
+        <field>CventEvents__AttendeeTemp__c.CompanyTypeIJGlobal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.InterestAreasInvisso__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.JobFunction__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.PONumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.RegionofResponsibility__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.SeniorityLevel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.SponsorDelegateOptIn__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.Title1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__AttendeeTemp__c.VATNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -18,12 +58,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CventEvents__Event__c.EuromoneyDivision__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CventEvents__Event__c.EventCostCentre__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>CventEvents__Event__c.EventThumbnailImage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__Event__c.EventTitle__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -48,7 +98,47 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CventEvents__RespondentTemp__c.FavoriteBand__c</field>
+        <field>CventEvents__RespondentTemp__c.CompanyTypeIJGlobal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.InterestAreasInvisso__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.JobFunction__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.PONumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.RegionofResponsibility__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.SeniorityLevel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.SponsorDelegateOptIn__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.Title1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CventEvents__RespondentTemp__c.VATNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

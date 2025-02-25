@@ -264,8 +264,9 @@
     </fields>
     <label>Zephr User Account Grant</label>
     <nameField>
+        <displayFormat>ZUAG-{000000000}</displayFormat>
         <label>Code</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Zephr User Account Grants</pluralLabel>
     <searchLayouts/>

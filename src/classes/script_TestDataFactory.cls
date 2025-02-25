@@ -67,7 +67,7 @@ public class script_TestDataFactory {
             '      "seniority": "Manager/VP",\n' +
             '      "job-title": "Exec",\n' +
             '      "company-name": "Example",\n' +
-            '      "organisation-type": "Bank",\n' +
+            '      "organisation-type": "Bank - Investment",\n' +
             '      "country": "US",\n' +
             '      "interest-areas": "Treasury Management",\n' +
             '      "telephone": "123456789",\n' +

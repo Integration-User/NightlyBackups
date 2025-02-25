@@ -91,7 +91,7 @@ public class zephr_WebhookAPITest {
         System.assertEquals(zephrUser.Zephr_Seniority__c, 'Manager/VP');
         System.assertEquals('United States', zephrUser.Zephr_Country__c);
         System.assertEquals(zephrUser.Zephr_Company_Name__c, 'Example');
-        System.assertEquals(zephrUser.Zephr_Company_Type__c, 'Bank');
+        System.assertEquals(zephrUser.Zephr_Company_Type__c, 'Bank - Investment');
         System.assertEquals(zephrUser.Zephr_Job_Title__c, 'Exec');
         System.assertEquals(zephrUser.Zephr_Confirm_Contact_Pref__c, false);
         System.assertEquals(zephrUser.Zephr_Contact_Preference_Email__c, false);

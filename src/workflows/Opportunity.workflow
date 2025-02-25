@@ -160,6 +160,10 @@
         <description>New Subscription Client - Onboarding Request</description>
         <protected>false</protected>
         <recipients>
+            <recipient>adillard@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>carora@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -176,15 +180,7 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>hparkinson@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>jblanden@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>kbenning@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -193,10 +189,6 @@
         </recipients>
         <recipients>
             <recipient>mkerbs@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>msheahan@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -426,11 +418,15 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>keiji.ampil@greenstreet.com</recipient>
+            <recipient>jblanden@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
             <recipient>ksantos@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mmorana@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -507,10 +503,6 @@
             <type>role</type>
         </recipients>
         <recipients>
-            <recipient>US_Platform_Sales_Manager_B</recipient>
-            <type>role</type>
-        </recipients>
-        <recipients>
             <recipient>US_Sales_C</recipient>
             <type>role</type>
         </recipients>
@@ -519,11 +511,19 @@
             <type>role</type>
         </recipients>
         <recipients>
-            <recipient>ameoli@greenstreet.com</recipient>
-            <type>user</type>
+            <recipient>VP_Sales_West</recipient>
+            <type>role</type>
         </recipients>
         <recipients>
-            <recipient>bshullaw@greenstreet.com</recipient>
+            <recipient>Event_Manager</recipient>
+            <type>roleSubordinates</type>
+        </recipients>
+        <recipients>
+            <recipient>Subscription_Manager</recipient>
+            <type>roleSubordinates</type>
+        </recipients>
+        <recipients>
+            <recipient>ameoli@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -551,14 +551,6 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>jwiggins@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>khoffman@greenstreet.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>kkappeler@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
@@ -579,7 +571,15 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>pgreco@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>sayala@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sbleskacek@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>

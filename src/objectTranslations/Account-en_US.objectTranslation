@@ -143,6 +143,7 @@
         <name>Account_Category__c</name>
     </fields>
     <fields>
+        <help><!-- The date when an Event of type &quot;Account Handoff&quot; was marked &quot;Completed&quot; --></help>
         <label><!-- Account Handoff Date --></label>
         <name>Account_Handoff_Date__c</name>
     </fields>
@@ -401,10 +402,6 @@
             <masterLabel>NA</masterLabel>
             <translation><!-- NA --></translation>
         </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- CURRENT ARR --></label>
-        <name>CURRENT_ARR__c</name>
     </fields>
     <fields>
         <label><!-- Client Segment --></label>

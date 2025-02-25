@@ -615,10 +615,11 @@
         <label>Trial Subscriptions</label>
     </listViews>
     <nameField>
+        <displayFormat>SUBS-{000000000}</displayFormat>
         <label>Code</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Subscriptions NG</pluralLabel>
     <searchLayouts>

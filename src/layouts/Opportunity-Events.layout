@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>true</customLabel>
@@ -246,6 +245,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Delinian_Id__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Sectors_Sold__c</field>
             </layoutItems>
             <layoutItems>
@@ -342,9 +345,9 @@
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
         <fields>ARR_Formula__c</fields>
-        <fields>Increase_dollar__c</fields>
+        <fields>Increase_Percent__c</fields>
+        <fields>Licenses__c</fields>
         <fields>Sales_Type__c</fields>
-        <fields>Lost_Product__c</fields>
         <relatedList>RelatedLineItemList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -462,7 +465,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hWE000000x05d</masterLabel>
+        <masterLabel>00hVy000000SDyP</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

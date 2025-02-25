@@ -270,7 +270,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Green_Street_Contact_Record_Page</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -278,7 +278,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Green_Street_Contact_Record_Page</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -328,7 +328,7 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>QuickStartLayout</compactLayoutAssignment>
     <compactLayouts>
         <fullName>QuickStartLayout</fullName>
         <fields>Name</fields>
@@ -8865,6 +8865,11 @@ Stored as Long on Solr.</description>
         <columns>GSA_Analyst__c</columns>
         <columns>List_Membership__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.LAST_NAME</field>
+            <operation>contains</operation>
+            <value>DO NOT CALL</value>
+        </filters>
         <label>All Contacts</label>
     </listViews>
     <listViews>
@@ -9680,9 +9685,9 @@ Stored as Long on Solr.</description>
         <columns>Key_User__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>ACCOUNT.NAME</field>
-            <operation>equals</operation>
-            <value>Blackrock - Direct (EU),BlackRock Advisors (NA)</value>
+            <field>CONTACT.EMAIL</field>
+            <operation>contains</operation>
+            <value>charlotte.kail@whitecase.com</value>
         </filters>
         <label>Test List</label>
     </listViews>

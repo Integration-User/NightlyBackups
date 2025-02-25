@@ -335,6 +335,7 @@
     </fields>
     <fields>
         <fullName>Account_Handoff_Date__c</fullName>
+        <inlineHelpText>The date when an Event of type &quot;Account Handoff&quot; was marked &quot;Completed&quot;</inlineHelpText>
         <label>Account Handoff Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -807,15 +808,6 @@ IF (LEN( BillingCountry) = 0, 0,1)</formula>
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>CURRENT_ARR__c</fullName>
-        <label>CURRENT ARR</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackHistory>false</trackHistory>
-        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Client_Segment_New__c</fullName>
@@ -6273,6 +6265,10 @@ Stored as Long on Solr.</description>
         <columns>High_Value_Data_Sets__c</columns>
         <columns>X18_digit_Account_ID__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>Delinian_Id__c</field>
+            <operation>notEqual</operation>
+        </filters>
         <label>All Accounts</label>
     </listViews>
     <listViews>
@@ -6364,29 +6360,6 @@ Stored as Long on Solr.</description>
             <value>Account.Subsidiary_Account</value>
         </filters>
         <label>Former Clients</label>
-    </listViews>
-    <listViews>
-        <fullName>Migrated_Accounts</fullName>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>ACCOUNT.ADDRESS1_STATE</columns>
-        <columns>ACCOUNT.ADDRESS1_CITY</columns>
-        <columns>ACCOUNT.PHONE1</columns>
-        <columns>ACCOUNT.TYPE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>Client_Segment__c</columns>
-        <columns>Company_Type__c</columns>
-        <columns>ACCOUNT.LAST_ACTIVITY</columns>
-        <columns>Analyst_Access__c</columns>
-        <columns>Detailed_NAV_Models__c</columns>
-        <columns>High_Value_Data_Sets__c</columns>
-        <columns>X18_digit_Account_ID__c</columns>
-        <columns>Subsidiary__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>Delinian_Id__c</field>
-            <operation>notEqual</operation>
-        </filters>
-        <label>Migrated Accounts</label>
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>
@@ -8307,10 +8280,6 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Green Street News%3A Australia</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
@@ -8319,7 +8288,23 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11508,10 +11493,6 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Green Street News%3A Australia</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Green Street News%3A Canada</fullName>
                 <default>false</default>
             </values>
@@ -11520,7 +11501,23 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>IJ Global%3A Award Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Award Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>IJ Global%3A Event Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IJ Global%3A Events Registration</fullName>
                 <default>false</default>
             </values>
             <values>

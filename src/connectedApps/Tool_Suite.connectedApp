@@ -4,7 +4,7 @@
     <label>Tool Suite</label>
     <oauthConfig>
         <callbackUrl>https://gsts.greenstreetapps.com/login/callback</callbackUrl>
-        <consumerKey>3MVG92b206lZ9Fcbk35BOi2zD46arNQBPnzHCdyCjf6kR1Zq8njCslCM3AsAALCsrQzSNEwiHdTuDW6Zczzvs</consumerKey>
+        <consumerKey>3MVG9Ya9prPrtlptGtV4B0J4hi4Ok_z78x36bP7pb_EGIlfoqarE6lAcN2dqFzLQbCVTEPzR4SatKjzPGuwOL</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

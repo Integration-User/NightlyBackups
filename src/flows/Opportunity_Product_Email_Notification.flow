@@ -303,7 +303,7 @@
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <name>EmailARR</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

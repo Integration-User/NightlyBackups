@@ -323,12 +323,48 @@
         <name>CventEvents__pkg_TypeName__c</name>
     </fields>
     <fields>
+        <label><!-- Euromoney Division --></label>
+        <name>EuromoneyDivision__c</name>
+        <picklistValues>
+            <masterLabel>Derivia</masterLabel>
+            <translation><!-- Derivia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fastmarkets</masterLabel>
+            <translation><!-- Fastmarkets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invisso</masterLabel>
+            <translation><!-- Invisso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecoms</masterLabel>
+            <translation><!-- Telecoms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>asset-management</masterLabel>
+            <translation><!-- asset-management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>financial-and-professional-services</masterLabel>
+            <translation><!-- financial-and-professional-services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>techoraco</masterLabel>
+            <translation><!-- techoraco --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Event Cost Centre --></label>
         <name>EventCostCentre__c</name>
     </fields>
     <fields>
         <label><!-- Event Thumbnail Image --></label>
         <name>EventThumbnailImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Title --></label>
+        <name>EventTitle__c</name>
     </fields>
     <fields>
         <label><!-- Event Type --></label>

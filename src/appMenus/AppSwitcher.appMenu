@@ -357,10 +357,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>sfsp__SalesPlanning</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>CventEvents__CventClassicApp</name>
         <type>CustomApplication</type>
     </appMenuItems>

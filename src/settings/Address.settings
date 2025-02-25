@@ -102,11 +102,76 @@
         </countries>
         <countries>
             <active>true</active>
+            <integrationValue>American Samoa</integrationValue>
+            <isoCode>ASM</isoCode>
+            <label>American Samoa</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
             <integrationValue>Austria</integrationValue>
             <isoCode>AT</isoCode>
             <label>Austria</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <states>
+                <active>true</active>
+                <integrationValue>Burgenland</integrationValue>
+                <isoCode>BU</isoCode>
+                <label>Burgenland</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Carinthia</integrationValue>
+                <isoCode>CA</isoCode>
+                <label>Carinthia</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Lower Austria</integrationValue>
+                <isoCode>LA</isoCode>
+                <label>Lower Austria</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Salzburg</integrationValue>
+                <isoCode>SA</isoCode>
+                <label>Salzburg</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Styria</integrationValue>
+                <isoCode>ST</isoCode>
+                <label>Styria</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Tyrol</integrationValue>
+                <isoCode>TY</isoCode>
+                <label>Tyrol</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Upper Austria</integrationValue>
+                <isoCode>UA</isoCode>
+                <label>Upper Austria</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
             <states>
                 <active>true</active>
                 <integrationValue>Unknown</integrationValue>
@@ -120,6 +185,14 @@
                 <integrationValue>Vienna</integrationValue>
                 <isoCode>VI</isoCode>
                 <label>Vienna</label>
+                <standard>false</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Vorarlberg</integrationValue>
+                <isoCode>VO</isoCode>
+                <label>Vorarlberg</label>
                 <standard>false</standard>
                 <visible>true</visible>
             </states>
@@ -671,6 +744,15 @@
                 <visible>true</visible>
             </states>
             <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
+            <integrationValue>Brunei_dup</integrationValue>
+            <isoCode>BRN</isoCode>
+            <label>Brunei_dup</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
         </countries>
         <countries>
             <active>true</active>
@@ -1563,6 +1645,15 @@
         </countries>
         <countries>
             <active>true</active>
+            <integrationValue>Micronesia (Federated States of)</integrationValue>
+            <isoCode>FM</isoCode>
+            <label>Micronesia (Federated States of)</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
             <integrationValue>Faroe Islands</integrationValue>
             <isoCode>FO</isoCode>
             <label>Faroe Islands</label>
@@ -1661,6 +1752,14 @@
             </states>
             <states>
                 <active>true</active>
+                <integrationValue>Jersey</integrationValue>
+                <isoCode>JER</isoCode>
+                <label>Jersey</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>true</active>
                 <integrationValue>London</integrationValue>
                 <isoCode>LON</isoCode>
                 <label>London</label>
@@ -1721,7 +1820,7 @@
                 <isoCode>SRY</isoCode>
                 <label>Surrey</label>
                 <standard>false</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -1761,7 +1860,7 @@
                 <isoCode>WMD</isoCode>
                 <label>West Midlands</label>
                 <standard>false</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -3796,6 +3895,15 @@
         </countries>
         <countries>
             <active>true</active>
+            <integrationValue>Northern Mariana Islands</integrationValue>
+            <isoCode>MP</isoCode>
+            <label>Northern Mariana Islands</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
             <integrationValue>Martinique</integrationValue>
             <isoCode>MQ</isoCode>
             <label>Martinique</label>
@@ -5435,9 +5543,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Vietnam</integrationValue>
+            <integrationValue>Viet Nam</integrationValue>
             <isoCode>VN</isoCode>
-            <label>Vietnam</label>
+            <label>Viet Nam</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -5467,6 +5575,15 @@
             <label>Samoa</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
+            <integrationValue>Kosovo</integrationValue>
+            <isoCode>XK</isoCode>
+            <label>Kosovo</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>true</visible>
         </countries>
         <countries>

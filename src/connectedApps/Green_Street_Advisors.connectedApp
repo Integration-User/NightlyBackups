@@ -4,7 +4,7 @@
     <label>Green Street Advisors</label>
     <oauthConfig>
         <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
-        <consumerKey>3MVG92b206lZ9Fcbk35BOi2zD46arNQBPnzHCs8rRTjCXzhrq2uJ8IGort6Z.Dd5UCnAMVNm4P.KzSF8YZkch</consumerKey>
+        <consumerKey>3MVG9Ya9prPrtlptGtV4B0J4hi4Ok_z78x36bDfxZXpUTWRRFkKrZHbxk55OdsKML3ru4NdbAK_0SvNZ7doEe</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
