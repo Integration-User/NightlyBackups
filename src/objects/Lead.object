@@ -494,7 +494,6 @@
                 <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Judd</label>
                 </value>
                 <value>
@@ -3690,7 +3689,6 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                 <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Judd</label>
                 </value>
                 <value>
@@ -5366,6 +5364,11 @@ Stored as Long on Solr.</description>
             <field>LEAD.STATUS</field>
             <operation>notEqual</operation>
             <value>Disqualified</value>
+        </filters>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2025 12:00 AM</value>
         </filters>
         <label>Referrals</label>
         <sharedTo>
