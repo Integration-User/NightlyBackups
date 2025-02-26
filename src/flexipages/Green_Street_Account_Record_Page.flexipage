@@ -1004,10 +1004,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>Facet-b8180211-38db-4b90-964e-ea1e304f9abb</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -1172,20 +1168,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-b8180211-38db-4b90-964e-ea1e304f9abb</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>ARR</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-                <identifier>customTab5</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
                     <value>Facet-da5305e2-621d-445e-8bcc-4a530770bd64</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -1200,6 +1182,12 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>prqnconnmvpb:preqinConnector</componentName>
+                <identifier>prqnconnmvpb_preqinConnector</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -1425,12 +1413,6 @@
                 </componentInstanceProperties>
                 <componentName>forceChatter:topicsOnRecordWrapper</componentName>
                 <identifier>forceChatter_topicsOnRecordWrapper</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>prqnconnmvpb:preqinConnector</componentName>
-                <identifier>prqnconnmvpb_preqinConnector</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>
