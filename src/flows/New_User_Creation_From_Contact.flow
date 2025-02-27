@@ -98,6 +98,7 @@
         <nameSegment>emailSimple</nameSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
         <name>AssignFaultMessage</name>
         <label>AssignFaultMessage</label>

@@ -88,6 +88,7 @@
         <offset>0</offset>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Send_User_Onboarding_Notification</name>
         <label>Send User Onboarding Notification</label>

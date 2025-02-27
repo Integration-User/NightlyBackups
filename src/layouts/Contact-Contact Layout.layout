@@ -649,7 +649,7 @@
         <fields>CAMPAIGN.CAMPAIGN_TYPE</fields>
         <fields>CM.FIRST_ASSOCIATED_DATE</fields>
         <fields>CM.STATUS</fields>
-        <fields>Campaign_Member_Link__c</fields>
+        <fields>CampaignMember.Campaign_Member_Link__c</fields>
         <relatedList>RelatedCampaignList</relatedList>
     </relatedLists>
     <relatedLists>

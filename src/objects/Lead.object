@@ -5431,6 +5431,49 @@ Stored as Long on Solr.</description>
         <label>My Open Leads</label>
     </listViews>
     <listViews>
+        <fullName>Referrals_CS_to_AM</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>Part_of_Renewal__c</columns>
+        <columns>Product_Interest_1__c</columns>
+        <columns>Product_Interest_2__c</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Referred_by_Role_Lead__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Lead.Referrals</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Disqualified</value>
+        </filters>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2025 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>AM_Referrer__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Referred_by_Role_Lead__c</field>
+            <operation>contains</operation>
+            <value>customer success</value>
+        </filters>
+        <label>Referrals CS to AM</label>
+        <sharedTo>
+            <roleAndSubordinates>Customer_Success_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>Sales_Queue</fullName>
         <columns>FULL_NAME</columns>
         <columns>LEAD.EMAIL</columns>

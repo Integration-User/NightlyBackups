@@ -176,6 +176,7 @@
         <nameSegment>Opportunity.Referral_Status_Update</nameSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>isChangedDecision10_myRule_8_Questions_Comments_c</name>
         <label>isChangedDecision10_myRule_8_Questions_Comments_c</label>

@@ -4,6 +4,7 @@
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
     <enableAuraSecStaticResCRUCPref>false</enableAuraSecStaticResCRUCPref>
+    <enableDeferRenderingWorkspacePage>true</enableDeferRenderingWorkspacePage>
     <enableErrorExperienceEnabled>false</enableErrorExperienceEnabled>
     <enableFeedbackInMobile>false</enableFeedbackInMobile>
     <enableHideOpenInQuip>false</enableHideOpenInQuip>

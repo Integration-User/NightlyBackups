@@ -35,6 +35,7 @@
         <nameSegment>emailSimple</nameSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Is_UserList</name>
         <label>Is UserList?</label>
