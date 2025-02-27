@@ -74,6 +74,7 @@
         <nameSegment>Case.Salesforce</nameSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Application_Is_Not_Null_Decision</name>
         <label>Application Is Not Null Decision</label>

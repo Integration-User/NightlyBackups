@@ -34,6 +34,7 @@
         </outputParameters>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <environments>Default</environments>
     <interviewLabel>Consolidation Opportunity Management {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Consolidation Opportunity Management</label>

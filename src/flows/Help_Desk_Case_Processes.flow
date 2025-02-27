@@ -89,6 +89,7 @@
         <nameSegment>Case.Help_Desk_CS_News_Weekend_Email_Alert</nameSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>isChangedDecision2_myRule_1_ContactId</name>
         <label>isChangedDecision2_myRule_1_ContactId</label>

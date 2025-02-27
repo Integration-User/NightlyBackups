@@ -93,6 +93,7 @@
         <offset>0</offset>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
         <name>GS_Case_Assignment</name>
         <label>GS Case Assignment</label>

@@ -49,6 +49,7 @@
         <nameSegment>Lead.New_Referral_Alert_Email</nameSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Commercial_Advisory</name>
         <label>Commercial + Advisory</label>
