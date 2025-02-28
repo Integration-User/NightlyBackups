@@ -494,6 +494,7 @@
                 <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Judd</label>
                 </value>
                 <value>
