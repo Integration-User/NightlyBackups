@@ -7360,6 +7360,16 @@ IF(ISPICKVAL(DDS_ScoreAssignment__c, &quot;F&quot;), 1,
         <columns>OPPORTUNITY.CREATED_DATE</columns>
         <columns>OPPORTUNITY.RECORDTYPE</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>5 - Negotiation and Agreement Sent,5 - Negotiation and Agreement Sent​,6 - Verbal Win and Finalizing Contract,6 - Verbal Win and Finalizing Contract​</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Sales_Opportunity</value>
+        </filters>
         <label>All Opportunities</label>
     </listViews>
     <listViews>
