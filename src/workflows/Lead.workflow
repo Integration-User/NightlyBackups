@@ -47,6 +47,14 @@
             <recipient>peager@greenstreet.com</recipient>
             <type>user</type>
         </recipients>
+        <recipients>
+            <field>Referred_By_Lead__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Referred_By__c</field>
+            <type>userLookup</type>
+        </recipients>
         <senderType>CurrentUser</senderType>
         <template>Referral_Templates/New_Referral</template>
     </alerts>
