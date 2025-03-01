@@ -13744,6 +13744,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>rh2__OAuthUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__OAuthUtils_Behavior</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>rh2__PS_Additional_Information_Controller</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -13777,6 +13785,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>rh2__PS_Audit_Controller_Behavior</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_Authentication_Controller</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_Authentication_Controller_Behavior</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -13850,6 +13866,10 @@
     <classAccesses>
         <apexClass>rh2__PS_DefineJob_Controller_TEST</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_DeleteUserSettings</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>rh2__PS_DescribeHelper</apexClass>
@@ -13998,6 +14018,10 @@
     <classAccesses>
         <apexClass>rh2__PS_Package_Handler_Behaviour</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_Package_Install_Handler</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>rh2__PS_PaginateController</apexClass>
@@ -14305,6 +14329,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>rh2__PS_Use_Case_Controller_Behavior</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_UserSettingCleanup</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rh2__PS_UserSettingCleanup_Behavior</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -16019,6 +16051,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Attempts_to_Save__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Became_Client_Research__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -46493,6 +46530,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rh2__PS_Rollup_Audit__c.rh2__Number_Of_Manual_Runs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rh2__PS_Rollup_Audit__c.rh2__Number_Of_Past_Records__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -53605,6 +53647,10 @@
     <pageAccesses>
         <apexPage>rh2__PS_AllSettings</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>rh2__PS_Authentication</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>rh2__PS_Behaviour_Runner</apexPage>

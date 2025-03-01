@@ -240,6 +240,10 @@
         <name>Attempts_to_Save__c</name>
     </fields>
     <fields>
+        <label><!-- Became Client (Research) --></label>
+        <name>Became_Client_Research__c</name>
+    </fields>
+    <fields>
         <label><!-- Became Client --></label>
         <name>Became_Client__c</name>
     </fields>
