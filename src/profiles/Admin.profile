@@ -54061,7 +54061,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Opportunity.Sales_Development</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

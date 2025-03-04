@@ -1128,6 +1128,10 @@
         <label><!-- Lead Type --></label>
         <name>Lead_Type__c</name>
         <picklistValues>
+            <masterLabel>Bing</masterLabel>
+            <translation><!-- Bing --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Contact Us</masterLabel>
             <translation><!-- Contact Us --></translation>
         </picklistValues>

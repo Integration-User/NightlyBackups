@@ -51335,10 +51335,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Knowledge__kav</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>LID__Contact_Data_Validation</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
