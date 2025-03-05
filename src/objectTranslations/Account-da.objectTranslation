@@ -1698,6 +1698,10 @@
         <name>Has_Active_Opportunities__c</name>
     </fields>
     <fields>
+        <label><!-- Hierarchy --></label>
+        <name>Hierarchy__c</name>
+    </fields>
+    <fields>
         <label><!-- High-Value Data Sets --></label>
         <name>High_Value_Data_Sets__c</name>
     </fields>
@@ -3258,6 +3262,10 @@
         <label><!-- 2 Subsidiary Account --></label>
         <name>Subsidiary_Account</name>
     </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot modify the Priority. --></errorMessage>
+        <name>Change_Account_Priority</name>
+    </validationRules>
     <validationRules>
         <errorMessage><!-- Please Submit a Client Change CAF &amp; Compliance will handle updating the Account Name in Salesforce. --></errorMessage>
         <name>Client_Name_Change</name>

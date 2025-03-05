@@ -16095,6 +16095,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Hierarchy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.High_Value_Data_Sets__c</field>
         <readable>false</readable>
     </fieldPermissions>

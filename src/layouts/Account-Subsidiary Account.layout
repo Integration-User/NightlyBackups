@@ -69,6 +69,10 @@
                 <behavior>Edit</behavior>
                 <field>Entitlement_Guidance_Notes__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Hierarchy__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
