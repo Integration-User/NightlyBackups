@@ -339,6 +339,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Account_Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.BillingCity + &quot;, &quot; + Account__r.BillingState + &quot;, &quot; + Account__r.BillingCountry</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Billing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Leads associated with this account.</description>
@@ -490,6 +501,16 @@
                     <fullName>Maude</fullName>
                     <default>false</default>
                     <label>Maude</label>
+                </value>
+                <value>
+                    <fullName>Rowles</fullName>
+                    <default>false</default>
+                    <label>Rowles</label>
+                </value>
+                <value>
+                    <fullName>Dunkley</fullName>
+                    <default>false</default>
+                    <label>Dunkley</label>
                 </value>
                 <value>
                     <fullName>Judd</fullName>
@@ -2926,7 +2947,7 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
     </fields>
     <fields>
         <fullName>Minimum_Advisory_Fee_50k__c</fullName>
-        <label>Typical Advisory Minimum (6-figures)</label>
+        <label>Typical Advisory Minimum ($25k)</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3688,8 +3709,19 @@ IF(ISPICKVAL(LeadSource, &quot;&quot;) , &apos;&apos;, &quot;Warm&quot;))</formu
                     <label>Maude</label>
                 </value>
                 <value>
+                    <fullName>Rowles</fullName>
+                    <default>false</default>
+                    <label>Rowles</label>
+                </value>
+                <value>
+                    <fullName>Dunkley</fullName>
+                    <default>false</default>
+                    <label>Dunkley</label>
+                </value>
+                <value>
                     <fullName>Judd</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Judd</label>
                 </value>
                 <value>
@@ -5539,6 +5571,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Dunkley</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EU SDR Inbound</fullName>
                 <default>false</default>
             </values>
@@ -5576,6 +5612,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>React News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rowles</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6414,6 +6454,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Australia</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8240,6 +8284,10 @@ Stored as Long on Solr.</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Dunkley</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EU SDR Inbound</fullName>
                 <default>false</default>
             </values>
@@ -8277,6 +8325,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>React News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rowles</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8926,11 +8978,19 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>Assignment_Team__c</picklist>
             <values>
+                <fullName>Dunkley</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Hewett Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Maude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rowles</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9749,6 +9809,10 @@ Stored as Long on Solr.</description>
             </values>
             <values>
                 <fullName>Green Street News</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Street News%3A Australia</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11583,11 +11647,19 @@ Stored as Long on Solr.</description>
         <picklistValues>
             <picklist>Qualifying_Team__c</picklist>
             <values>
+                <fullName>Dunkley</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Hewett Research</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Maude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rowles</fullName>
                 <default>false</default>
             </values>
             <values>

@@ -120,6 +120,10 @@
             <translation><!-- Banks --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Dunkley</masterLabel>
+            <translation><!-- Dunkley --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
@@ -136,10 +140,6 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Judd</masterLabel>
-            <translation><!-- Judd --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
         </picklistValues>
@@ -150,6 +150,10 @@
         <picklistValues>
             <masterLabel>React News</masterLabel>
             <translation><!-- React News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rowles</masterLabel>
+            <translation><!-- Rowles --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>
@@ -1127,6 +1131,10 @@
     <fields>
         <label><!-- Lead Type --></label>
         <name>Lead_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bing</masterLabel>
+            <translation><!-- Bing --></translation>
+        </picklistValues>
         <picklistValues>
             <masterLabel>Contact Us</masterLabel>
             <translation><!-- Contact Us --></translation>
@@ -2700,6 +2708,10 @@
             <translation><!-- Banks --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Dunkley</masterLabel>
+            <translation><!-- Dunkley --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EU SDR Inbound</masterLabel>
             <translation><!-- EU SDR Inbound --></translation>
         </picklistValues>
@@ -2716,10 +2728,6 @@
             <translation><!-- Head of SDR&apos;s --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Judd</masterLabel>
-            <translation><!-- Judd --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Ling</masterLabel>
             <translation><!-- Ling --></translation>
         </picklistValues>
@@ -2730,6 +2738,10 @@
         <picklistValues>
             <masterLabel>React News</masterLabel>
             <translation><!-- React News --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rowles</masterLabel>
+            <translation><!-- Rowles --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SDR Outbound</masterLabel>

@@ -16028,6 +16028,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Became_Client_Research__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Became_Client__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -25739,6 +25744,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.AM_Referrer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Account_Billing_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -54171,7 +54181,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Opportunity.Sales_Development</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
