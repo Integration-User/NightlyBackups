@@ -22,6 +22,10 @@
         <relationshipLabel><!-- Leads (AM Referrer) --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Account Billing Address --></label>
+        <name>Account_Billing_Address__c</name>
+    </fields>
+    <fields>
         <label><!-- Account --></label>
         <name>Account__c</name>
         <relationshipLabel><!-- Leads --></relationshipLabel>
