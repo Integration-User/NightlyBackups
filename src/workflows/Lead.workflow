@@ -122,6 +122,10 @@
             <type>role</type>
         </recipients>
         <recipients>
+            <recipient>Global_Sales_Manager_A</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
             <recipient>UK_Associate_Sales_Manager</recipient>
             <type>role</type>
         </recipients>
@@ -140,6 +144,14 @@
         <recipients>
             <recipient>VP_Sales_West</recipient>
             <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>nhigdem@greenstreet.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sayala@greenstreet.com</recipient>
+            <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>Referral_Templates/New_Referral</template>

@@ -5531,6 +5531,42 @@ Stored as Long on Solr.</description>
         </sharedTo>
     </listViews>
     <listViews>
+        <fullName>Seller_to_Seller_Referrals</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>Lead_Type__c</columns>
+        <columns>Part_of_Renewal__c</columns>
+        <columns>Product_Interest_1__c</columns>
+        <columns>Product_Interest_2__c</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Referred_by_Role_Lead__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Lead.Referrals</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Disqualified</value>
+        </filters>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2025 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>Referred_by_Role_Lead__c</field>
+            <operation>contains</operation>
+            <value>Sales</value>
+        </filters>
+        <label>Seller to Seller Referrals</label>
+    </listViews>
+    <listViews>
         <fullName>TodaysLeads</fullName>
         <columns>FULL_NAME</columns>
         <columns>LEAD.COMPANY</columns>
