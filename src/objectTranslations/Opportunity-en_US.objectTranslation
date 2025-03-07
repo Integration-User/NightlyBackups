@@ -881,6 +881,11 @@
         <name>Further_Interest__c</name>
     </fields>
     <fields>
+        <label><!-- Future Renewal --></label>
+        <name>Future_Renewal__c</name>
+        <relationshipLabel><!-- Opportunities (Future Renewal) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- GSA Subsidiary --></label>
         <name>GSA_Subsidairy__c</name>
     </fields>
