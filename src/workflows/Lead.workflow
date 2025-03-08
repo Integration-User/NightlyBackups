@@ -126,6 +126,10 @@
             <type>role</type>
         </recipients>
         <recipients>
+            <recipient>Subscription_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
             <recipient>UK_Associate_Sales_Manager</recipient>
             <type>role</type>
         </recipients>
